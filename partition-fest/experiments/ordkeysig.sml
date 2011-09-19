@@ -1,0 +1,5 @@
+signature ord_key =
+  sig 
+    type ord_key
+    val compare : (ord_key * ord_key) -> order
+  end
