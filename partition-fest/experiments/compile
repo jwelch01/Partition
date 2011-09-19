@@ -1,8 +1,0 @@
-SRC="basic_map.sml map_sig.sml maplistsig.sml ordkey.sml ordkeysig.sml tern.sml
-    ternarykey.sml ternarykey_sig.sml ternarylistmap.sml ternarymap.sml
-    ternarystring.sml"
-
-for i in $SRC
-do
-  mosmlc -c -toplevel $i
-done
