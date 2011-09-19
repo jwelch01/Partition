@@ -1,4 +1,4 @@
-functor TernaryStringMap(Key: TERNARY_KEY) : LIST_MAP where type Key = Key.ord_key list = struct
+functor TernaryStringMap2(Key: TERNARY_KEY) : LIST_MAP where type Key = Key.ord_key list = struct
   structure key = Key 
 
   type Key = Key.ord_key list
