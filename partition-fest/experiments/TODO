@@ -1,0 +1,12 @@
+ternary search tree matching FINITE_MAP signature
+  (* ternary requires string keys but can store any value
+     and raises NotFound *)
+
+functor ListValFn(M : FINITE_MAP) : LIST_MAP where type key = M.key list
+  (* works with any FINITE_MAP, returns something that stores
+     only list values and never raisee NotFound (returns [] instead) *)
+
+(* add overwrites already present *)
+
+(* fun add (k, v, map) = ???.bind(k, v :: lookup(k, map), map) *)
+

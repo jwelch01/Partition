@@ -1,4 +1,4 @@
-structure BasicMap : FiniteMap = struct
+structure BasicMap : FINITE_MAP = struct
   type Key = string
   type 'a Map = (Key * 'a) list
 

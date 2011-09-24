@@ -11,5 +11,6 @@ group is
   tern.sml
   basic_map.sml
   ternarykey.sml 
-  ternarylistmap.sml 
   ternarymap.sml
+
+  ternarylistfn.sml

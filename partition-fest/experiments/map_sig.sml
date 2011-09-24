@@ -1,4 +1,4 @@
-signature FiniteMap = 
+signature FINITE_MAP = 
 sig
   type Key
   type 'a Map

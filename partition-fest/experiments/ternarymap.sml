@@ -1,4 +1,4 @@
-functor TernaryStringMap(Key: TERNARY_KEY) : FiniteMap = struct
+functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
   structure key = Key 
 
   type Key = Key.ord_key list
