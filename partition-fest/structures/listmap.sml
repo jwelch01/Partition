@@ -1,7 +1,7 @@
-functor StringListMap(M : FINITE_MAP) : LIST_MAP = struct
+functor ListMapFn(M : FINITE_MAP) : LIST_MAP = struct
   
-  type Key = M.Key; 
-  type 'a Map = 'a list M.Map
+  type key = M.key; 
+  type 'a map = 'a list M.map
 
   val empty = M.empty
  

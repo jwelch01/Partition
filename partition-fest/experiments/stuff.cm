@@ -9,7 +9,6 @@ group is
   ordkey.sml 
 
   tern.sml
-  basic_map.sml
   ternarykey.sml 
   ternarymap.sml
 
