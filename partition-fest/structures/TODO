@@ -1,0 +1,7 @@
+mapFold doesn't actually work. Needs to build up a key list as I go,
+then check if I've hit the sentinel, and call f if and only if I am at the
+sentinel, with the key list not including the sentinel as the key and the 
+value as the value, using the results from f as the y value.
+
+make sure the getting leaves in each path won't overwrite the y value
+from any other path.

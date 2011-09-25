@@ -44,4 +44,9 @@ functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
            of EQUAL   => value
             | LESS    => lookup([], lt)
             | GREATER => lookup([], gt))
+
+fun mapFold f y LEAF = y
+  | mapFold f y (NODE {key, value, lt, eq, gt}) =
+                   f (key, value, mapFold f (mapFold f (mapFold f y eq) lt) gt)
+
 end
