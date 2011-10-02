@@ -6,6 +6,10 @@ group is
   maplistsig.sml 
   ternarykey_sig.sml 
 
+  node_sig.sml
+  graph_sig.sml
+
+
   ordkey.sml 
 
   tern.sml

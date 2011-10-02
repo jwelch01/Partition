@@ -45,8 +45,15 @@ functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
             | LESS    => lookup([], lt)
             | GREATER => lookup([], gt))
 
-fun mapFold f y LEAF = y
-  | mapFold f y (NODE {key, value, lt, eq, gt}) =
-                   f (key, value, mapFold f (mapFold f (mapFold f y eq) lt) gt)
+fun mapFold f y m =
+  let fun fold _ y _ LEAF = y
+        | fold f y k (NODE {key, value, lt, eq, gt}) =
+            (case Key.compare (Key.sentinel, key)
+               of EQUAL => f(k, value, (fold f (fold f y k lt) k gt))
+                | _     => fold f (fold f (fold f y (k @ (key::[])) eq) k lt) k gt)
+  in fold f y [] m 
+  end
+
+
 
 end

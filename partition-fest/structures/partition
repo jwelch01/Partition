@@ -1,0 +1,23 @@
+fun insertion_sort _ [] = []
+ | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
+and insert _ x [] = [x]
+  | insert cmp x (l as y::ys) =
+      case cmp (x, y) of GREATER => y :: insert cmp x ys
+                       | _       => x :: l
+
+fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
+
+val cmpResult : (string * result) * (string * result) -> bool = fn ((x,y), (x2,y2)) => x = x2 andalso y = y2
+
+fun sortCat (k, l, y) = (implode k, insertion_sort cmpResultName l)::y
+
+infix 3 == fun l1 == l2 =
+  ListPair.allEq cmpResult (l1, l2)
+
+fun eqResults l1 l2 =   ListPair.allEq cmpResult (l1, l2)
+
+fun removeDuplicates ((k1,k2), result, resultList) =
+  let fun findEq (_, r) = eqResults (insertion_sort cmpResultName result) r
+  in if List.exists findEq resultList then resultList
+     else (((implode k1,implode k2), (insertion_sort cmpResultName result))::resultList)
+  end

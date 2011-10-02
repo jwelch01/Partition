@@ -1,0 +1,11 @@
+structure map1 = TernaryStringMap(TernaryKeyChar)
+structure map2 = ListMapFn(map1)
+structure m = EmbedMap(structure L1 = map1
+                       structure L2 = map2)
+
+fun add k1 k2 v m = m.add((explode k1, explode k2), v, m)
+fun lookup k1 k2 m = m.lookup ((explode k1, explode k2), m)
+
+datatype result = PASS | FAIL | ERROR
+
+fun partition foldFn unionFn map = unionFn (m.mapFold foldFn [] map)

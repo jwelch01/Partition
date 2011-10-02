@@ -9,4 +9,8 @@ functor ListMapFn(M : FINITE_MAP) : LIST_MAP = struct
   
   fun add (k, v, m) = M.bind(k, v :: lookup(k, m), m)
 
+  fun bind (k, v,m) = M.bind(k, [v], m)
+
+  fun mapFold f y m = M.mapFold f y m
+
 end
