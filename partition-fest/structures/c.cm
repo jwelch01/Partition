@@ -1,0 +1,11 @@
+group is $/basis.cm
+
+  ternarykeysig.sml
+  mapsig.sml
+  listmapsig.sml
+  graphsig.sml
+
+  ternarykeychar.sml
+  ternarystringmap.sml
+  listmap.sml
+  graph.sml

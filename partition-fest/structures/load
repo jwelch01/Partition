@@ -1,11 +1,127 @@
+(* SETUP FUNCTIONS *)
+
 structure map1 = TernaryStringMap(TernaryKeyChar)
 structure map2 = ListMapFn(map1)
 structure m = EmbedMap(structure L1 = map1
                        structure L2 = map2)
-
-fun add k1 k2 v m = m.add((explode k1, explode k2), v, m)
-fun lookup k1 k2 m = m.lookup ((explode k1, explode k2), m)
+structure g = BasicGraph
 
 datatype result = PASS | FAIL | ERROR
 
+fun cmpOutcomes (PASS, PASS)  = EQUAL
+  | cmpOutcomes (PASS, _   )  = GREATER
+  | cmpOutcomes (FAIL, PASS)  = LESS
+  | cmpOutcomes (FAIL, _   )  = EQUAL
+  | cmpOutcomes (ERROR, PASS) = LESS
+  | cmpOutcomes (ERROR, _   ) = EQUAL
+
+fun cmpOutcomesEq (PASS, PASS) = true
+  | cmpOutcomesEq (PASS, _   ) = false
+  | cmpOutcomesEq (FAIL, PASS) = false
+  | cmpOutcomesEq (FAIL, _   ) = true
+  | cmpOutcomesEq (ERROR, PASS) = false
+  | cmpOutcomesEq (ERROR, _   ) = true
+
 fun partition foldFn unionFn map = unionFn (m.mapFold foldFn [] map)
+
+fun embed l = foldr (fn ((k,v),m) => m.add (k, v, m)) m.empty l
+
+fun embedList l = foldr (fn ((k, v), m) => 
+                  foldr (fn (v2, m2) => m.add (k, v2, m2)) m v) m.empty l
+
+fun identity y = y
+
+(* SORTING AND PARTITIONING *)
+
+fun insertion_sort _ [] = []
+ | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
+and insert _ x [] = [x]
+  | insert cmp x (l as y::ys) =
+      case cmp (x, y) of GREATER => y :: insert cmp x ys
+                       | _       => x :: l
+
+fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
+
+val cmpResult : (string * result) * (string * result) -> bool = fn ((x,y), (x2,y2)) => x = x2 andalso y = y2
+
+fun sortCat (k, l, y) = (implode k, insertion_sort cmpResultName l)::y
+
+fun eqResults l1 l2 =   ListPair.allEq cmpResult (l1, l2)
+
+fun removeDuplicates ((k1,k2), result, resultList) =
+  let fun findEq (_, r) = eqResults (insertion_sort cmpResultName result) r
+  in if List.exists findEq resultList then resultList
+     else (((k1,k2), (insertion_sort cmpResultName result))::resultList)
+  end
+
+
+(* PARTITIONING STUDENT LIST *)
+
+structure studentMap = map2
+
+fun makeStudentMap l = foldr (fn (((k, k2), resultList), m)  => 
+                                foldr (fn ((student, result), m) =>
+                                       studentMap.add(explode student, 
+                                                      ((implode k, implode k2),
+                                                      result), m))
+                                m resultList)
+                       studentMap.empty l
+
+fun isSuperSet rl1 rl2 =
+  ListPair.foldr (fn (((_, _), r1), ((_,_), r2), flag) =>
+                   (case cmpOutcomes (r1, r2)
+                      of LESS => false
+                       | _    => flag)) true (rl1, rl2)
+
+fun isSubSet rl1 rl2 =
+  ListPair.foldr (fn (((_, _), r1), ((_,_), r2), flag) =>
+                   (case cmpOutcomes (r1, r2)
+                      of GREATER => false
+                       | _       => flag)) true (rl1, rl2)
+
+fun cmpFormattedResults (((_, _), out1),((_,_), out2)) = 
+  cmpOutcomesEq (out1, out2)
+
+infix 3 == fun l1 == l2 =
+  ListPair.allEq cmpFormattedResults (l1, l2)
+
+infix 3 <== fun l1 <== l2 = isSubSet l1 l2
+
+infix 3 >== fun l1 >== l2 = isSuperSet l1 l2
+
+fun partitionStudents resultCollection =
+  let fun add_in ((s, rL), []) = [([s], rL)]
+        | add_in ((s, rL), (sL, rL2)::rest) =
+            if rL == rL2 then ((s::sL),rL2)::rest
+                         else (sL, rL2)::(add_in ((s, rL), rest))
+  in foldr add_in [] resultCollection
+  end
+
+fun format (x::[]) = (implode x)
+  | format (x::xs) = (implode x) ^ ", " ^ format xs
+  | format _ = ""
+
+fun formatResults l = 
+  foldr (fn ((s, r), y) => (format s, r)::y) [] l
+
+fun rank resultCollection =
+  foldr (fn ((s, r), graph) => 
+    foldr (fn ((s2, r2), g) =>
+      if r <== r2 then if r >== r2 then g
+                  else g.addEdge (g.makeEdge(g.makeNode s2, "", 
+                                             g.makeNode s), g)
+      else g)
+    (g.addNode(g.makeNode s, graph)) resultCollection)
+  g.empty resultCollection
+
+(*
+HOWTO:
+
+val t = add results to map
+val partitioned = partition removeDuplicates identity t
+val s = makeStudentMap partitioned
+val studentList = studentMap.mapFold (fn (k, v, y) => (k,v)::y) [] s
+val partitionedStudents = partitionStudents studentList
+val g = rank (formatResults partitionedStudents)
+
+*)
