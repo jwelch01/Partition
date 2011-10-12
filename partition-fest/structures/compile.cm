@@ -11,3 +11,6 @@ group is $/basis.cm
   graph.sml
 
   embeddedmap.sml
+
+  lex.sml
+  readers.sml
