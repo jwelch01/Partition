@@ -1,5 +1,7 @@
 group is $/basis.cm
 
+  impossible.sml
+
   ternarykeysig.sml
   mapsig.sml
   listmapsig.sml
@@ -12,5 +14,7 @@ group is $/basis.cm
 
   embeddedmap.sml
 
+  outcome.sml
   lex.sml
   readers.sml
+
