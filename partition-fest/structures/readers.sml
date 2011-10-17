@@ -2,6 +2,7 @@
 structure OutcomeReader : sig
     val lex     : string -> string list (* for debugging only *)
     val outcome : string -> Outcome.t
+    val outcome2 : string -> string list option
 end
 = struct
 
@@ -37,25 +38,33 @@ end
   end
 
 
-  fun toOutcome ["given", id, "test", num, ",", soln, "passed"] =
+  fun toOutcome ["-given", id, "test", num, ",", soln, "passed"] =
         finish id num soln Outcome.PASSED
-    | toOutcome ["given", id, "test", num, ",", soln, badthing, witness] =
+    | toOutcome ["-given", id, "test", num, ",", soln, badthing, witness] =
         finish id num soln (Outcome.NOTPASSED { outcome = badthing
                                               , witness = witness })
     | toOutcome _ = I.impossible "ill-formed input line"
+
 
   and finish id num soln outcome =
         case Int.fromString num
           of NONE   => I.impossible "test number would not convert to integer"
            | SOME n => { testid = id, num = n, solnid = soln, outcome = outcome }
+  fun test ["-given", id, "test", num, ",", soln, "passed"] =
+        NONE
+    | test ["-given", id, "test", num, ",", soln, badthing, witness] =
+	NONE
+    | test x = SOME x;
+
 
   val outcome : string -> Outcome.t = toOutcome o lex
 
+  val outcome2 : string -> string list option = test o lex
 
   structure UnitTests = struct
 
-    val s1 = "given bounds-check test 1, akhaku01 passed" : string
-    val s2 = "given full-methods test 3, bleike01 failed -- missing mapping methods"
+    val s1 = "-given bounds-check test 1, akhaku01 passed" : string
+    val s2 = "-given full-methods test 3, bleike01 failed -- missing mapping methods"
 
     val o1 = { testid = "bounds-check", num = 1, solnid = "akhaku01"
              , outcome = Outcome.PASSED }

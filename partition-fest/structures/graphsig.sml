@@ -1,9 +1,9 @@
 signature GRAPH = 
   sig
     type node
-    type node_label
+    type node_label = string
     type edge
-    type edge_label
+    type edge_label = string
     type graph
 
     exception NotFound of node_label

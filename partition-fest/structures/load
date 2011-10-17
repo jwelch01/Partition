@@ -6,21 +6,17 @@ structure m = EmbedMap(structure L1 = map1
                        structure L2 = map2)
 structure g = BasicGraph
 
-datatype result = PASS | FAIL | ERROR
+type result = Outcome.outcome
 
-fun cmpOutcomes (PASS, PASS)  = EQUAL
-  | cmpOutcomes (PASS, _   )  = GREATER
-  | cmpOutcomes (FAIL, PASS)  = LESS
-  | cmpOutcomes (FAIL, _   )  = EQUAL
-  | cmpOutcomes (ERROR, PASS) = LESS
-  | cmpOutcomes (ERROR, _   ) = EQUAL
+fun cmpOutcomes (Outcome.PASSED, Outcome.PASSED)  = EQUAL
+  | cmpOutcomes (Outcome.PASSED, _   )  = GREATER
+  | cmpOutcomes (Outcome.NOTPASSED _, Outcome.PASSED)  = LESS
+  | cmpOutcomes (Outcome.NOTPASSED _, _   )  = EQUAL
 
-fun cmpOutcomesEq (PASS, PASS) = true
-  | cmpOutcomesEq (PASS, _   ) = false
-  | cmpOutcomesEq (FAIL, PASS) = false
-  | cmpOutcomesEq (FAIL, _   ) = true
-  | cmpOutcomesEq (ERROR, PASS) = false
-  | cmpOutcomesEq (ERROR, _   ) = true
+fun cmpOutcomesEq (o1, o2) = 
+  (case cmpOutcomes (o1, o2)
+    of EQUAL => true
+     | _     => false)
 
 fun partition foldFn unionFn map = unionFn (m.mapFold foldFn [] map)
 
@@ -42,14 +38,11 @@ and insert _ x [] = [x]
 
 fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
 
-val cmpResult : (string * result) * (string * result) -> bool = fn ((x,y), (x2,y2)) => x = x2 andalso y = y2
-
-fun sortCat (k, l, y) = (implode k, insertion_sort cmpResultName l)::y
-
-fun eqResults l1 l2 =   ListPair.allEq cmpResult (l1, l2)
+val cmpResult = fn ((x,y), (x2,y2)) => x = x2 andalso cmpOutcomesEq (y,y2)
 
 fun removeDuplicates ((k1,k2), result, resultList) =
-  let fun findEq (_, r) = eqResults (insertion_sort cmpResultName result) r
+  let fun findEq (_, r) = ListPair.allEq cmpResult 
+                                   ((insertion_sort cmpResultName result), r)
   in if List.exists findEq resultList then resultList
      else (((k1,k2), (insertion_sort cmpResultName result))::resultList)
   end
@@ -104,15 +97,77 @@ fun format (x::[]) = (implode x)
 fun formatResults l = 
   foldr (fn ((s, r), y) => (format s, r)::y) [] l
 
+fun makeEdgeLabel rl1 rl2 =
+  ListPair.foldr (fn (((test1, num1), r1), ((test2, num2), r2), label) =>
+		   (case cmpOutcomes (r1, r2)
+                      of EQUAL => label
+                       | _     => test1 ^ "-" ^ num1)) "" (rl1, rl2)
+
 fun rank resultCollection =
   foldr (fn ((s, r), graph) => 
     foldr (fn ((s2, r2), g) =>
       if r <== r2 then if r >== r2 then g
-                  else g.addEdge (g.makeEdge(g.makeNode s2, "", 
+                  else g.addEdge (g.makeEdge(g.makeNode s2, makeEdgeLabel r r2, 
                                              g.makeNode s), g)
       else g)
     (g.addNode(g.makeNode s, graph)) resultCollection)
   g.empty resultCollection
+
+fun readToMap fd =
+  let fun build fd map =
+    case TextIO.inputLine fd
+      of NONE => map
+       | SOME line => let val {num, outcome, solnid, testid} = 
+			  OutcomeReader.outcome line
+                      in build fd 
+			 (m.add ((explode testid, explode (Int.toString num)), 
+                                (solnid, outcome), 
+				map))
+		      end
+  in build fd m.empty
+  end
+
+exception NoError
+
+fun partitionAndRank map =
+ rank (formatResults (partitionStudents (studentMap.mapFold (fn (k, v, y) => (k,v)::y) [] (makeStudentMap (partition removeDuplicates identity map)))))
+
+fun printSList (x::xs) file = (TextIO.output (file, x); printSList xs file)
+  | printSList [] file      = []
+
+
+val output = TextIO.output;
+
+fun nodeMap l = 
+   let fun add c (x::xs) map = add (c+1) xs 
+                               (map1.bind (explode x, 
+                                          "N" ^ Int.toString c, map))
+         | add _ [] map = map
+   in add 1 l map1.empty
+   end
+
+fun printList (x::xs) out = (output (out, x); printList xs out)
+  | printList [] out = output(out, "")
+
+fun makeGraphOutput nm g =
+  let fun makeEdge (edge, edgeList) = 
+   ((map1.lookup (explode (g.getNodeLabel (g.getIn edge)), nm)) ^ " -> " ^
+       (map1.lookup (explode (g.getNodeLabel (g.getOut edge)), nm)) ^ 
+        " [dir=back,label=\"" ^ g.getEdgeLabel edge ^ "\"]\n\n")::edgeList
+  in map1.mapFold (fn (label, node, (nodeList, edgeList)) =>
+  ((node ^ " [label=\"" ^ implode label ^ "\"]\n")::nodeList,
+   (foldr makeEdge []
+     (g.getSuccessorEdges (g.makeNode (implode label),g)))@edgeList)) 
+           ([],[]) nm
+  end
+
+fun printGraph g out =
+  (output (out, "digraph testgraph { fontsize=\"9\" size=\"10.3,7.7\"; ratio=compress; rotate=90 node [fontsize=\"9\"] edge [fontsize=\"9\"]");
+  let val (nodeList, edgeList) = makeGraphOutput (nodeMap (g.getNodes g)) g
+  in (printList nodeList out; printList edgeList out)
+  end;
+  output (out, "}")
+  )
 
 (*
 HOWTO:
@@ -123,5 +178,9 @@ val s = makeStudentMap partitioned
 val studentList = studentMap.mapFold (fn (k, v, y) => (k,v)::y) [] s
 val partitionedStudents = partitionStudents studentList
 val g = rank (formatResults partitionedStudents)
+
+
+val m = (readToMap(TextIO.openIn "105.outcome"));
+printGraph (partitionAndRank m) (TextIO.openOut "out");
 
 *)
