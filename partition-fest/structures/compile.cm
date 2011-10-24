@@ -7,6 +7,8 @@ group is $/basis.cm
   listmapsig.sml
   graphsig.sml
 
+  setsig.sml
+
   ternarykeychar.sml
   ternarystringmap.sml
   listmap.sml
