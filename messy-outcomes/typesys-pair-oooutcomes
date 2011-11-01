@@ -1,0 +1,1045 @@
+given jkenne05 test  1, jkenne05 passed
+given jkenne05 test  1, hlin02   passed
+given jkenne05 test  1, esalow01 passed
+given jkenne05 test  1, bkolta01 passed
+given jkenne05 test  1, bjorda02 failed -- On term "(val ans ((@ either (list sym) bool int) ((@ left (list sym) bool) '(a b c d)) (@ length sym) (lambda ((bool x)) (if x 5 7))))", expected type "int", but got "variable either not found" instead
+given jkenne05 test  1, jtan03   passed
+given jkenne05 test  1, rmonde01 passed
+given jkenne05 test  1, dreedy01 passed
+given jkenne05 test  1, jpearl05 failed -- On term "(val ans ((@ either (list sym) bool int) ((@ left (list sym) bool) '(a b c d)) (@ length sym) (lambda ((bool x)) (if x 5 7))))", expected type "int", but got this error instead: type error: instantiated polymorphic term at wrong number of arguments
+given jkenne05 test  1, drenfr01 failed -- On term "(val ans ((@ either (list sym) bool int) ((@ left (list sym) bool) '(a b c d)) (@ length sym) (lambda ((bool x)) (if x 5 7))))", expected type "int", but got "variable left not found" instead
+given jkenne05 test  1, tsoule01 passed
+given jkenne05 test  1, asamps01 passed
+given jkenne05 test  1, hnasar01 failed -- On term "(val ans ((@ either (list sym) bool int) ((@ left (list sym) bool) '(a b c d)) (@ length sym) (lambda ((bool x)) (if x 5 7))))", expected type "int", but got "variable left not found" instead
+given jkenne05 test  1, mrusse03 passed
+given jkenne05 test  1, dkass01  passed
+given jkenne05 test  1, npalmo01 failed -- On term "(val ans ((@ either (list sym) bool int) ((@ left (list sym) bool) '(a b c d)) (@ length sym) (lambda ((bool x)) (if x 5 7))))", expected type "int", but got this error instead: type error: Variable eithernot found
+given jkenne05 test  1, jkang09  passed
+given jkenne05 test  1, nbugas01 passed
+given jkenne05 test  1, agallant passed
+given jkenne05 test  2, jkenne05 passed
+given jkenne05 test  2, hlin02   passed
+given jkenne05 test  2, esalow01 passed
+given jkenne05 test  2, bkolta01 passed
+given jkenne05 test  2, bjorda02 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1))))))", expected type "(forall ('a) (function ((list 'a) int) 'a))", but got "placeholder" instead
+given jkenne05 test  2, jtan03   passed
+given jkenne05 test  2, rmonde01 passed
+given jkenne05 test  2, dreedy01 passed
+given jkenne05 test  2, jpearl05 passed
+given jkenne05 test  2, drenfr01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1))))))", expected type "(forall ('a) (function ((list 'a) int) 'a))", but got this error instead: type error: (forall ('a) (function ('a 'a) bool))is not a valid function expression 
+given jkenne05 test  2, tsoule01 passed
+given jkenne05 test  2, asamps01 passed
+given jkenne05 test  2, hnasar01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1))))))", expected type "(forall ('a) (function ((list 'a) int) 'a))", but got this error instead: type error: type declaration doesn't match function type
+given jkenne05 test  2, mrusse03 passed
+given jkenne05 test  2, dkass01  passed
+given jkenne05 test  2, npalmo01 passed
+given jkenne05 test  2, jkang09  passed
+given jkenne05 test  2, nbugas01 passed
+given jkenne05 test  2, agallant passed
+given jkenne05 test  3, jkenne05 passed
+given jkenne05 test  3, hlin02   passed
+given jkenne05 test  3, esalow01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1)))))) (val ans ((@ nth-element (list int)) '(1 2 3 4) 2))", expected type error, but got "(list int)" instead
+given jkenne05 test  3, bkolta01 passed
+given jkenne05 test  3, bjorda02 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1)))))) (val ans ((@ nth-element (list int)) '(1 2 3 4) 2))", expected type error, but got "variable nth-element not found" instead
+given jkenne05 test  3, jtan03   passed
+given jkenne05 test  3, rmonde01 passed
+given jkenne05 test  3, dreedy01 passed
+given jkenne05 test  3, jpearl05 passed
+given jkenne05 test  3, drenfr01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1)))))) (val ans ((@ nth-element (list int)) '(1 2 3 4) 2))", expected type error, but got "variable nth-element not found" instead
+given jkenne05 test  3, tsoule01 passed
+given jkenne05 test  3, asamps01 passed
+given jkenne05 test  3, hnasar01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1)))))) (val ans ((@ nth-element (list int)) '(1 2 3 4) 2))", expected type error, but got "variable nth-element not found" instead
+given jkenne05 test  3, mrusse03 passed
+given jkenne05 test  3, dkass01  passed
+given jkenne05 test  3, npalmo01 failed -- On term "(val-rec (forall ('a) (function ((list 'a) int) 'a)) nth-element (type-lambda ('a) (lambda (((list 'a) l) (int n)) (if ((@ = int) n 0) ((@ car 'a) l) ((@ nth-element 'a) ((@ cdr 'a) l) (- n 1)))))) (val ans ((@ nth-element (list int)) '(1 2 3 4) 2))", expected type error, but got "(list int)" instead
+given jkenne05 test  3, jkang09  passed
+given jkenne05 test  3, nbugas01 passed
+given jkenne05 test  3, agallant passed
+given hlin02   test  1, jkenne05 passed
+given hlin02   test  1, hlin02   passed
+given hlin02   test  1, esalow01 passed
+given hlin02   test  1, bkolta01 passed
+given hlin02   test  1, bjorda02 passed
+given hlin02   test  1, jtan03   passed
+given hlin02   test  1, rmonde01 passed
+given hlin02   test  1, dreedy01 passed
+given hlin02   test  1, jpearl05 passed
+given hlin02   test  1, drenfr01 failed -- On term "(type-lambda ('a) (type-lambda ('b) (lambda (('a a)) ((@ cons 'a) a (@ '() 'a)))))", expected type "(forall ('a) (forall ('b) (function ('a) (list 'a))))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given hlin02   test  1, tsoule01 passed
+given hlin02   test  1, asamps01 passed
+given hlin02   test  1, hnasar01 passed
+given hlin02   test  1, mrusse03 passed
+given hlin02   test  1, dkass01  passed
+given hlin02   test  1, npalmo01 failed -- On term "(type-lambda ('a) (type-lambda ('b) (lambda (('a a)) ((@ cons 'a) a (@ '() 'a)))))", expected type "(forall ('a) (forall ('b) (function ('a) (list 'a))))", but got this error instead: type error: unknown type variable 'a
+given hlin02   test  1, jkang09  passed
+given hlin02   test  1, nbugas01 passed
+given hlin02   test  1, agallant failed -- On term "(type-lambda ('a) (type-lambda ('b) (lambda (('a a)) ((@ cons 'a) a (@ '() 'a)))))", expected type "(forall ('a) (forall ('b) (function ('a) (list 'a))))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given hlin02   test  2, jkenne05 passed
+given hlin02   test  2, hlin02   passed
+given hlin02   test  2, esalow01 passed
+given hlin02   test  2, bkolta01 passed
+given hlin02   test  2, bjorda02 failed -- On term "(type-lambda ('a 'b) (lambda (('a a)) ((@ either 'a 'b bool) ((@ left 'a 'b) a) (lambda (('a x)) #t) (lambda (('b y)) #f))))", expected type "(forall ('a 'b) (function ('a) bool))", but got "variable either not found" instead
+given hlin02   test  2, jtan03   passed
+given hlin02   test  2, rmonde01 passed
+given hlin02   test  2, dreedy01 passed
+given hlin02   test  2, jpearl05 failed -- On term "(type-lambda ('a 'b) (lambda (('a a)) ((@ either 'a 'b bool) ((@ left 'a 'b) a) (lambda (('a x)) #t) (lambda (('b y)) #f))))", expected type "(forall ('a 'b) (function ('a) bool))", but got this error instead: type error: instantiated polymorphic term at wrong number of arguments
+given hlin02   test  2, drenfr01 failed -- On term "(type-lambda ('a 'b) (lambda (('a a)) ((@ either 'a 'b bool) ((@ left 'a 'b) a) (lambda (('a x)) #t) (lambda (('b y)) #f))))", expected type "(forall ('a 'b) (function ('a) bool))", but got "variable left not found" instead
+given hlin02   test  2, tsoule01 passed
+given hlin02   test  2, asamps01 passed
+given hlin02   test  2, hnasar01 failed -- On term "(type-lambda ('a 'b) (lambda (('a a)) ((@ either 'a 'b bool) ((@ left 'a 'b) a) (lambda (('a x)) #t) (lambda (('b y)) #f))))", expected type "(forall ('a 'b) (function ('a) bool))", but got "variable left not found" instead
+given hlin02   test  2, mrusse03 passed
+given hlin02   test  2, dkass01  passed
+given hlin02   test  2, npalmo01 failed -- On term "(type-lambda ('a 'b) (lambda (('a a)) ((@ either 'a 'b bool) ((@ left 'a 'b) a) (lambda (('a x)) #t) (lambda (('b y)) #f))))", expected type "(forall ('a 'b) (function ('a) bool))", but got this error instead: type error: unknown type variable 'a
+given hlin02   test  2, jkang09  passed
+given hlin02   test  2, nbugas01 passed
+given hlin02   test  2, agallant passed
+given hlin02   test  3, jkenne05 passed
+given hlin02   test  3, hlin02   passed
+given hlin02   test  3, esalow01 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got "variable fact not found" instead
+given hlin02   test  3, bkolta01 passed
+given hlin02   test  3, bjorda02 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got "placeholder" instead
+given hlin02   test  3, jtan03   passed
+given hlin02   test  3, rmonde01 passed
+given hlin02   test  3, dreedy01 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got this error instead: type error: tried to apply non-function of type int
+given hlin02   test  3, jpearl05 passed
+given hlin02   test  3, drenfr01 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got this error instead: type error: (forall ('a) (function ('a 'a) bool))is not a valid function expression 
+given hlin02   test  3, tsoule01 passed
+given hlin02   test  3, asamps01 passed
+given hlin02   test  3, hnasar01 passed
+given hlin02   test  3, mrusse03 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got this error instead: type error: Attempting to type check non-funciton
+given hlin02   test  3, dkass01  failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got "variable fact not found" instead
+given hlin02   test  3, npalmo01 failed -- On term "(define int fact ((int n)) (if ((@ = int) 0 n) 1 (* n (fact (- n 1)))))", expected type "(function (int) int)", but got "int" instead
+given hlin02   test  3, jkang09  passed
+given hlin02   test  3, nbugas01 passed
+given hlin02   test  3, agallant passed
+given esalow01 test  1, jkenne05 passed
+given esalow01 test  1, hlin02   passed
+given esalow01 test  1, esalow01 passed
+given esalow01 test  1, bkolta01 passed
+given esalow01 test  1, bjorda02 failed -- On term "(val-rec (forall ('a) (function ((function ('a) bool) (list 'a)) bool)) exists? (type-lambda ('a) (lambda (((function ('a) bool) p?) ((list 'a) l)) (if ((@ null? 'a) l) #f (if (p? ((@ car 'a) l)) #t ((@ exists? 'a) p? ((@ cdr 'a) l)))))))", expected type "(forall ('a) (function ((function ('a) bool) (list 'a)) bool))", but got "placeholder" instead
+given esalow01 test  1, jtan03   passed
+given esalow01 test  1, rmonde01 passed
+given esalow01 test  1, dreedy01 passed
+given esalow01 test  1, jpearl05 passed
+given esalow01 test  1, drenfr01 failed -- On term "(val-rec (forall ('a) (function ((function ('a) bool) (list 'a)) bool)) exists? (type-lambda ('a) (lambda (((function ('a) bool) p?) ((list 'a) l)) (if ((@ null? 'a) l) #f (if (p? ((@ car 'a) l)) #t ((@ exists? 'a) p? ((@ cdr 'a) l)))))))", expected type "(forall ('a) (function ((function ('a) bool) (list 'a)) bool))", but got this error instead: type error: (forall ('a) (function ((list 'a)) bool))is not a valid function expression 
+given esalow01 test  1, tsoule01 passed
+given esalow01 test  1, asamps01 passed
+given esalow01 test  1, hnasar01 failed -- On term "(val-rec (forall ('a) (function ((function ('a) bool) (list 'a)) bool)) exists? (type-lambda ('a) (lambda (((function ('a) bool) p?) ((list 'a) l)) (if ((@ null? 'a) l) #f (if (p? ((@ car 'a) l)) #t ((@ exists? 'a) p? ((@ cdr 'a) l)))))))", expected type "(forall ('a) (function ((function ('a) bool) (list 'a)) bool))", but got this error instead: type error: type declaration doesn't match function type
+given esalow01 test  1, mrusse03 passed
+given esalow01 test  1, dkass01  passed
+given esalow01 test  1, npalmo01 passed
+given esalow01 test  1, jkang09  passed
+given esalow01 test  1, nbugas01 passed
+given esalow01 test  1, agallant passed
+given esalow01 test  2, jkenne05 passed
+given esalow01 test  2, hlin02   passed
+given esalow01 test  2, esalow01 passed
+given esalow01 test  2, bkolta01 passed
+given esalow01 test  2, bjorda02 passed
+given esalow01 test  2, jtan03   passed
+given esalow01 test  2, rmonde01 passed
+given esalow01 test  2, dreedy01 passed
+given esalow01 test  2, jpearl05 passed
+given esalow01 test  2, drenfr01 passed
+given esalow01 test  2, tsoule01 passed
+given esalow01 test  2, asamps01 passed
+given esalow01 test  2, hnasar01 passed
+given esalow01 test  2, mrusse03 passed
+given esalow01 test  2, dkass01  passed
+given esalow01 test  2, npalmo01 passed
+given esalow01 test  2, jkang09  passed
+given esalow01 test  2, nbugas01 passed
+given esalow01 test  2, agallant passed
+given esalow01 test  3, jkenne05 passed
+given esalow01 test  3, hlin02   passed
+given esalow01 test  3, esalow01 passed
+given esalow01 test  3, bkolta01 passed
+given esalow01 test  3, bjorda02 passed
+given esalow01 test  3, jtan03   passed
+given esalow01 test  3, rmonde01 passed
+given esalow01 test  3, dreedy01 passed
+given esalow01 test  3, jpearl05 passed
+given esalow01 test  3, drenfr01 passed
+given esalow01 test  3, tsoule01 passed
+given esalow01 test  3, asamps01 passed
+given esalow01 test  3, hnasar01 passed
+given esalow01 test  3, mrusse03 passed
+given esalow01 test  3, dkass01  passed
+given esalow01 test  3, npalmo01 passed
+given esalow01 test  3, jkang09  passed
+given esalow01 test  3, nbugas01 passed
+given esalow01 test  3, agallant passed
+given bkolta01 test  1, jkenne05 passed
+given bkolta01 test  1, hlin02   passed
+given bkolta01 test  1, esalow01 passed
+given bkolta01 test  1, bkolta01 passed
+given bkolta01 test  1, bjorda02 passed
+given bkolta01 test  1, jtan03   passed
+given bkolta01 test  1, rmonde01 passed
+given bkolta01 test  1, dreedy01 passed
+given bkolta01 test  1, jpearl05 passed
+given bkolta01 test  1, drenfr01 failed -- On term "(val tynil '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given bkolta01 test  1, tsoule01 passed
+given bkolta01 test  1, asamps01 passed
+given bkolta01 test  1, hnasar01 passed
+given bkolta01 test  1, mrusse03 passed
+given bkolta01 test  1, dkass01  passed
+given bkolta01 test  1, npalmo01 passed
+given bkolta01 test  1, jkang09  passed
+given bkolta01 test  1, nbugas01 passed
+given bkolta01 test  1, agallant failed -- On term "(val tynil '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given bkolta01 test  2, jkenne05 passed
+given bkolta01 test  2, hlin02   passed
+given bkolta01 test  2, esalow01 passed
+given bkolta01 test  2, bkolta01 passed
+given bkolta01 test  2, bjorda02 passed
+given bkolta01 test  2, jtan03   passed
+given bkolta01 test  2, rmonde01 passed
+given bkolta01 test  2, dreedy01 passed
+given bkolta01 test  2, jpearl05 passed
+given bkolta01 test  2, drenfr01 passed
+given bkolta01 test  2, tsoule01 passed
+given bkolta01 test  2, asamps01 passed
+given bkolta01 test  2, hnasar01 passed
+given bkolta01 test  2, mrusse03 passed
+given bkolta01 test  2, dkass01  errored -- On term "(val xs (cons 3 '()))", got this run-time error: Uncaught exception: ImpossibleHasHappened
+given bkolta01 test  2, npalmo01 passed
+given bkolta01 test  2, jkang09  passed
+given bkolta01 test  2, nbugas01 passed
+given bkolta01 test  2, agallant passed
+given bjorda02 test  1, jkenne05 passed
+given bjorda02 test  1, hlin02   passed
+given bjorda02 test  1, esalow01 passed
+given bjorda02 test  1, bkolta01 passed
+given bjorda02 test  1, bjorda02 passed
+given bjorda02 test  1, jtan03   passed
+given bjorda02 test  1, rmonde01 passed
+given bjorda02 test  1, dreedy01 passed
+given bjorda02 test  1, jpearl05 passed
+given bjorda02 test  1, drenfr01 failed -- On term "(val e1 (@ cons (forall ('a 'b 'c') (function ('a 'b 'c') (forall ('a 'b 'c') (function ('a 'b 'c') 'c'))))))", expected type "(function ((forall ('a 'b 'c') (function ('a 'b 'c') (forall ('a 'b 'c') (function ('a 'b 'c') 'c')))) (list (forall ('a 'b 'c') (function ('a 'b 'c') (forall ('a 'b 'c') (function ('a 'b 'c') 'c')))))) (list (forall ('a 'b 'c') (function ('a 'b 'c') (forall ('a 'b 'c') (function ('a 'b 'c') 'c'))))))", but got "(forall ('a) (function ('a (list 'a)) (list 'a)))" instead
+given bjorda02 test  1, tsoule01 passed
+given bjorda02 test  1, asamps01 passed
+given bjorda02 test  1, hnasar01 passed
+given bjorda02 test  1, mrusse03 passed
+given bjorda02 test  1, dkass01  passed
+given bjorda02 test  1, npalmo01 passed
+given bjorda02 test  1, jkang09  passed
+given bjorda02 test  1, nbugas01 passed
+given bjorda02 test  1, agallant passed
+given bjorda02 test  2, jkenne05 passed
+given bjorda02 test  2, hlin02   passed
+given bjorda02 test  2, esalow01 passed
+given bjorda02 test  2, bkolta01 passed
+given bjorda02 test  2, bjorda02 passed
+given bjorda02 test  2, jtan03   passed
+given bjorda02 test  2, rmonde01 passed
+given bjorda02 test  2, dreedy01 passed
+given bjorda02 test  2, jpearl05 passed
+given bjorda02 test  2, drenfr01 failed -- On term "(val e2 (type-lambda ('a 'b 'c') (lambda (('a x)('b c)('c' d)) d)))", expected type "(forall ('a 'b 'c') (function ('a 'b 'c') 'c'))", but got "(function ('a 'b 'c') 'c')" instead
+given bjorda02 test  2, tsoule01 passed
+given bjorda02 test  2, asamps01 passed
+given bjorda02 test  2, hnasar01 failed -- On term "(val e2 (type-lambda ('a 'b 'c') (lambda (('a x)('b c)('c' d)) d)))", expected type "(forall ('a 'b 'c') (function ('a 'b 'c') 'c'))", but got "(forall ('a 'b 'c') (function ('c' 'b 'a) 'c'))" instead
+given bjorda02 test  2, mrusse03 passed
+given bjorda02 test  2, dkass01  passed
+given bjorda02 test  2, npalmo01 failed -- On term "(val e2 (type-lambda ('a 'b 'c') (lambda (('a x)('b c)('c' d)) d)))", expected type "(forall ('a 'b 'c') (function ('a 'b 'c') 'c'))", but got this error instead: type error: unknown type variable 'a
+given bjorda02 test  2, jkang09  passed
+given bjorda02 test  2, nbugas01 passed
+given bjorda02 test  2, agallant passed
+given bjorda02 test  3, jkenne05 passed
+given bjorda02 test  3, hlin02   passed
+given bjorda02 test  3, esalow01 passed
+given bjorda02 test  3, bkolta01 passed
+given bjorda02 test  3, bjorda02 passed
+given bjorda02 test  3, jtan03   passed
+given bjorda02 test  3, rmonde01 passed
+given bjorda02 test  3, dreedy01 passed
+given bjorda02 test  3, jpearl05 passed
+given bjorda02 test  3, drenfr01 failed -- On term "(val e3 (type-lambda ('a) 3))", expected type "(forall ('a) int)", but got "int" instead
+given bjorda02 test  3, tsoule01 passed
+given bjorda02 test  3, asamps01 passed
+given bjorda02 test  3, hnasar01 passed
+given bjorda02 test  3, mrusse03 passed
+given bjorda02 test  3, dkass01  passed
+given bjorda02 test  3, npalmo01 failed -- On term "(val e3 (type-lambda ('a) 3))", expected type "(forall ('a) int)", but got this error instead: type error: unknown type variable 'a
+given bjorda02 test  3, jkang09  passed
+given bjorda02 test  3, nbugas01 passed
+given bjorda02 test  3, agallant passed
+given jtan03   test  1, jkenne05 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: Body of function has type (forall ('a) (function ('a) 'a)), which does not match declaration of (forall ('b) (function ('b) 'b))
+given jtan03   test  1, hlin02   passed
+given jtan03   test  1, esalow01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: expression e has type (forall ('b) (function ('b) 'b)) but expected (forall ('a) (function ('a) 'a))
+given jtan03   test  1, bkolta01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: identifier e1 is declared to have type (forall ('a) (function ('a) 'a)) but has actual type (forall ('b) (function ('b) 'b))
+given jtan03   test  1, bjorda02 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got "placeholder" instead
+given jtan03   test  1, jtan03   passed
+given jtan03   test  1, rmonde01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: identifier e1 is declared to have type (forall ('a) (function ('a) 'a)) but has actual type (forall ('b) (function ('b) 'b))
+given jtan03   test  1, dreedy01 passed
+given jtan03   test  1, jpearl05 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: Body of function has type (forall ('b) (function ('b) 'b)) which does not match declaration of (forall ('a) (function ('a) 'a))
+given jtan03   test  1, drenfr01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got "(function ('b) 'b)" instead
+given jtan03   test  1, tsoule01 passed
+given jtan03   test  1, asamps01 passed
+given jtan03   test  1, hnasar01 passed
+given jtan03   test  1, mrusse03 passed
+given jtan03   test  1, dkass01  passed
+given jtan03   test  1, npalmo01 passed
+given jtan03   test  1, jkang09  failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: identifier e1 is declared to have type (forall ('a) (function ('a) 'a)) but has actual type (forall ('b) (function ('b) 'b))
+given jtan03   test  1, nbugas01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('b) (lambda (('b x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: Declared type of (forall ('a) (function ('a) 'a)) but expression has type (forall ('b) (function ('b) 'b))
+given jtan03   test  1, agallant passed
+given jtan03   test  2, jkenne05 passed
+given jtan03   test  2, hlin02   failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, esalow01 failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, bkolta01 passed
+given jtan03   test  2, bjorda02 failed -- On term "(val-rec int e2 e2)", expected type error, but got "placeholder" instead
+given jtan03   test  2, jtan03   passed
+given jtan03   test  2, rmonde01 passed
+given jtan03   test  2, dreedy01 passed
+given jtan03   test  2, jpearl05 failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, drenfr01 failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, tsoule01 passed
+given jtan03   test  2, asamps01 passed
+given jtan03   test  2, hnasar01 failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, mrusse03 errored -- On term "(val-rec int e2 e2)", got this run-time error: Uncaught exception: BugInTypeChecking: value in binding appears unprotected in expression
+given jtan03   test  2, dkass01  passed
+given jtan03   test  2, npalmo01 failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, jkang09  failed -- On term "(val-rec int e2 e2)", expected type error, but got "int" instead
+given jtan03   test  2, nbugas01 passed
+given jtan03   test  2, agallant passed
+given jtan03   test  3, jkenne05 passed
+given jtan03   test  3, hlin02   passed
+given jtan03   test  3, esalow01 failed -- On term "(val e3 (while #f (+ 3 #f)))", expected type error, but got "unit" instead
+given jtan03   test  3, bkolta01 passed
+given jtan03   test  3, bjorda02 passed
+given jtan03   test  3, jtan03   passed
+given jtan03   test  3, rmonde01 passed
+given jtan03   test  3, dreedy01 passed
+given jtan03   test  3, jpearl05 passed
+given jtan03   test  3, drenfr01 failed -- On term "(val e3 (while #f (+ 3 #f)))", expected type error, but got "run-time error: Typechecking an invalid expression" instead
+given jtan03   test  3, tsoule01 passed
+given jtan03   test  3, asamps01 passed
+given jtan03   test  3, hnasar01 passed
+given jtan03   test  3, mrusse03 passed
+given jtan03   test  3, dkass01  passed
+given jtan03   test  3, npalmo01 failed -- On term "(val e3 (while #f (+ 3 #f)))", expected type error, but got "unit" instead
+given jtan03   test  3, jkang09  passed
+given jtan03   test  3, nbugas01 passed
+given jtan03   test  3, agallant passed
+given rmonde01 test  1, jkenne05 passed
+given rmonde01 test  1, hlin02   passed
+given rmonde01 test  1, esalow01 passed
+given rmonde01 test  1, bkolta01 passed
+given rmonde01 test  1, bjorda02 passed
+given rmonde01 test  1, jtan03   passed
+given rmonde01 test  1, rmonde01 passed
+given rmonde01 test  1, dreedy01 passed
+given rmonde01 test  1, jpearl05 passed
+given rmonde01 test  1, drenfr01 failed -- On term "(val nil '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given rmonde01 test  1, tsoule01 passed
+given rmonde01 test  1, asamps01 passed
+given rmonde01 test  1, hnasar01 passed
+given rmonde01 test  1, mrusse03 passed
+given rmonde01 test  1, dkass01  passed
+given rmonde01 test  1, npalmo01 passed
+given rmonde01 test  1, jkang09  passed
+given rmonde01 test  1, nbugas01 passed
+given rmonde01 test  1, agallant failed -- On term "(val nil '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given rmonde01 test  2, jkenne05 passed
+given rmonde01 test  2, hlin02   passed
+given rmonde01 test  2, esalow01 passed
+given rmonde01 test  2, bkolta01 passed
+given rmonde01 test  2, bjorda02 passed
+given rmonde01 test  2, jtan03   passed
+given rmonde01 test  2, rmonde01 passed
+given rmonde01 test  2, dreedy01 passed
+given rmonde01 test  2, jpearl05 passed
+given rmonde01 test  2, drenfr01 failed -- On term "(val abcd (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))))", expected type "(forall ('a 'b 'c 'd) (function ('c) (list 'c)))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given rmonde01 test  2, tsoule01 passed
+given rmonde01 test  2, asamps01 passed
+given rmonde01 test  2, hnasar01 passed
+given rmonde01 test  2, mrusse03 passed
+given rmonde01 test  2, dkass01  passed
+given rmonde01 test  2, npalmo01 failed -- On term "(val abcd (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))))", expected type "(forall ('a 'b 'c 'd) (function ('c) (list 'c)))", but got this error instead: type error: unknown type variable 'a
+given rmonde01 test  2, jkang09  passed
+given rmonde01 test  2, nbugas01 passed
+given rmonde01 test  2, agallant failed -- On term "(val abcd (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))))", expected type "(forall ('a 'b 'c 'd) (function ('c) (list 'c)))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given rmonde01 test  3, jkenne05 passed
+given rmonde01 test  3, hlin02   passed
+given rmonde01 test  3, esalow01 passed
+given rmonde01 test  3, bkolta01 passed
+given rmonde01 test  3, bjorda02 passed
+given rmonde01 test  3, jtan03   passed
+given rmonde01 test  3, rmonde01 passed
+given rmonde01 test  3, dreedy01 passed
+given rmonde01 test  3, jpearl05 passed
+given rmonde01 test  3, drenfr01 failed -- On term "(val sym-lister (@ (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))) bool int sym int))", expected type "(function (sym) (list sym))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given rmonde01 test  3, tsoule01 passed
+given rmonde01 test  3, asamps01 passed
+given rmonde01 test  3, hnasar01 passed
+given rmonde01 test  3, mrusse03 passed
+given rmonde01 test  3, dkass01  passed
+given rmonde01 test  3, npalmo01 failed -- On term "(val sym-lister (@ (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))) bool int sym int))", expected type "(function (sym) (list sym))", but got this error instead: type error: unknown type variable 'a
+given rmonde01 test  3, jkang09  passed
+given rmonde01 test  3, nbugas01 passed
+given rmonde01 test  3, agallant failed -- On term "(val sym-lister (@ (type-lambda ('a 'b 'c 'd) (lambda (('c x)) ((@ cons 'c) x (@ '() 'c)))) bool int sym int))", expected type "(function (sym) (list sym))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given dreedy01 test  1, jkenne05 passed
+given dreedy01 test  1, hlin02   passed
+given dreedy01 test  1, esalow01 passed
+given dreedy01 test  1, bkolta01 passed
+given dreedy01 test  1, bjorda02 passed
+given dreedy01 test  1, jtan03   passed
+given dreedy01 test  1, rmonde01 passed
+given dreedy01 test  1, dreedy01 passed
+given dreedy01 test  1, jpearl05 passed
+given dreedy01 test  1, drenfr01 failed -- On term "(val e1 (@ '() int))", expected type "(list int)", but got "(list 'a)" instead
+given dreedy01 test  1, tsoule01 passed
+given dreedy01 test  1, asamps01 passed
+given dreedy01 test  1, hnasar01 passed
+given dreedy01 test  1, mrusse03 passed
+given dreedy01 test  1, dkass01  passed
+given dreedy01 test  1, npalmo01 passed
+given dreedy01 test  1, jkang09  passed
+given dreedy01 test  1, nbugas01 passed
+given dreedy01 test  1, agallant failed -- On term "(val e1 (@ '() int))", expected type "(list int)", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given dreedy01 test  2, jkenne05 passed
+given dreedy01 test  2, hlin02   passed
+given dreedy01 test  2, esalow01 passed
+given dreedy01 test  2, bkolta01 passed
+given dreedy01 test  2, bjorda02 passed
+given dreedy01 test  2, jtan03   passed
+given dreedy01 test  2, rmonde01 passed
+given dreedy01 test  2, dreedy01 passed
+given dreedy01 test  2, jpearl05 passed
+given dreedy01 test  2, drenfr01 failed -- On term "(val e2 (type-lambda ('a) (lambda (('a x)) ((@ cons 'a) x (@ '() 'a)))))", expected type "(forall ('a) (function ('a) (list 'a)))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given dreedy01 test  2, tsoule01 passed
+given dreedy01 test  2, asamps01 passed
+given dreedy01 test  2, hnasar01 passed
+given dreedy01 test  2, mrusse03 passed
+given dreedy01 test  2, dkass01  passed
+given dreedy01 test  2, npalmo01 failed -- On term "(val e2 (type-lambda ('a) (lambda (('a x)) ((@ cons 'a) x (@ '() 'a)))))", expected type "(forall ('a) (function ('a) (list 'a)))", but got this error instead: type error: unknown type variable 'a
+given dreedy01 test  2, jkang09  passed
+given dreedy01 test  2, nbugas01 passed
+given dreedy01 test  2, agallant failed -- On term "(val e2 (type-lambda ('a) (lambda (('a x)) ((@ cons 'a) x (@ '() 'a)))))", expected type "(forall ('a) (function ('a) (list 'a)))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given dreedy01 test  3, jkenne05 passed
+given dreedy01 test  3, hlin02   failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, esalow01 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, bkolta01 passed
+given dreedy01 test  3, bjorda02 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, jtan03   passed
+given dreedy01 test  3, rmonde01 passed
+given dreedy01 test  3, dreedy01 passed
+given dreedy01 test  3, jpearl05 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, drenfr01 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, tsoule01 passed
+given dreedy01 test  3, asamps01 passed
+given dreedy01 test  3, hnasar01 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, mrusse03 errored -- On term "(val-rec int e3 (+ e3 1))", got this run-time error: Uncaught exception: BugInTypeChecking: value in binding appears unprotected in expression
+given dreedy01 test  3, dkass01  passed
+given dreedy01 test  3, npalmo01 failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, jkang09  failed -- On term "(val-rec int e3 (+ e3 1))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given dreedy01 test  3, nbugas01 passed
+given dreedy01 test  3, agallant passed
+given jpearl05 test  1, jkenne05 passed
+given jpearl05 test  1, hlin02   errored -- On term "(val e1 (@ + int))", got this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given jpearl05 test  1, esalow01 passed
+given jpearl05 test  1, bkolta01 passed
+given jpearl05 test  1, bjorda02 passed
+given jpearl05 test  1, jtan03   passed
+given jpearl05 test  1, rmonde01 passed
+given jpearl05 test  1, dreedy01 passed
+given jpearl05 test  1, jpearl05 passed
+given jpearl05 test  1, drenfr01 failed -- On term "(val e1 (@ + int))", expected type error, but got "(function (int int) int)" instead
+given jpearl05 test  1, tsoule01 passed
+given jpearl05 test  1, asamps01 passed
+given jpearl05 test  1, hnasar01 passed
+given jpearl05 test  1, mrusse03 passed
+given jpearl05 test  1, dkass01  passed
+given jpearl05 test  1, npalmo01 passed
+given jpearl05 test  1, jkang09  passed
+given jpearl05 test  1, nbugas01 passed
+given jpearl05 test  1, agallant passed
+given jpearl05 test  2, jkenne05 passed
+given jpearl05 test  2, hlin02   passed
+given jpearl05 test  2, esalow01 passed
+given jpearl05 test  2, bkolta01 passed
+given jpearl05 test  2, bjorda02 passed
+given jpearl05 test  2, jtan03   passed
+given jpearl05 test  2, rmonde01 passed
+given jpearl05 test  2, dreedy01 passed
+given jpearl05 test  2, jpearl05 passed
+given jpearl05 test  2, drenfr01 passed
+given jpearl05 test  2, tsoule01 passed
+given jpearl05 test  2, asamps01 passed
+given jpearl05 test  2, hnasar01 passed
+given jpearl05 test  2, mrusse03 passed
+given jpearl05 test  2, dkass01  errored -- On term "(val e2 ('1 5))", got this run-time error: Uncaught exception: ImpossibleHasHappened
+given jpearl05 test  2, npalmo01 passed
+given jpearl05 test  2, jkang09  passed
+given jpearl05 test  2, nbugas01 passed
+given jpearl05 test  2, agallant passed
+given jpearl05 test  3, jkenne05 passed
+given jpearl05 test  3, hlin02   passed
+given jpearl05 test  3, esalow01 passed
+given jpearl05 test  3, bkolta01 passed
+given jpearl05 test  3, bjorda02 passed
+given jpearl05 test  3, jtan03   passed
+given jpearl05 test  3, rmonde01 passed
+given jpearl05 test  3, dreedy01 passed
+given jpearl05 test  3, jpearl05 passed
+given jpearl05 test  3, drenfr01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", expected type "(forall ('a 'b) (function ('a 'b) 'a))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given jpearl05 test  3, tsoule01 passed
+given jpearl05 test  3, asamps01 passed
+given jpearl05 test  3, hnasar01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", expected type "(forall ('a 'b) (function ('a 'b) 'a))", but got "(forall ('a 'b) (function ('b 'a) 'a))" instead
+given jpearl05 test  3, mrusse03 passed
+given jpearl05 test  3, dkass01  failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", expected type "(forall ('a 'b) (function ('a 'b) 'a))", but got "variable z not found" instead
+given jpearl05 test  3, npalmo01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", expected type "(forall ('a 'b) (function ('a 'b) 'a))", but got this error instead: type error: unknown type variable 'a
+given jpearl05 test  3, jkang09  passed
+given jpearl05 test  3, nbugas01 passed
+given jpearl05 test  3, agallant failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", expected type "(forall ('a 'b) (function ('a 'b) 'a))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given drenfr01 test  1, jkenne05 passed
+given drenfr01 test  1, hlin02   passed
+given drenfr01 test  1, esalow01 passed
+given drenfr01 test  1, bkolta01 passed
+given drenfr01 test  1, bjorda02 passed
+given drenfr01 test  1, jtan03   passed
+given drenfr01 test  1, rmonde01 passed
+given drenfr01 test  1, dreedy01 passed
+given drenfr01 test  1, jpearl05 passed
+given drenfr01 test  1, drenfr01 passed
+given drenfr01 test  1, tsoule01 passed
+given drenfr01 test  1, asamps01 passed
+given drenfr01 test  1, hnasar01 passed
+given drenfr01 test  1, mrusse03 passed
+given drenfr01 test  1, dkass01  passed
+given drenfr01 test  1, npalmo01 passed
+given drenfr01 test  1, jkang09  passed
+given drenfr01 test  1, nbugas01 passed
+given drenfr01 test  1, agallant passed
+given drenfr01 test  2, jkenne05 passed
+given drenfr01 test  2, hlin02   passed
+given drenfr01 test  2, esalow01 failed -- On term "(val e2 (/ 4 #f))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given drenfr01 test  2, bkolta01 passed
+given drenfr01 test  2, bjorda02 passed
+given drenfr01 test  2, jtan03   passed
+given drenfr01 test  2, rmonde01 passed
+given drenfr01 test  2, dreedy01 passed
+given drenfr01 test  2, jpearl05 passed
+given drenfr01 test  2, drenfr01 passed
+given drenfr01 test  2, tsoule01 passed
+given drenfr01 test  2, asamps01 passed
+given drenfr01 test  2, hnasar01 passed
+given drenfr01 test  2, mrusse03 passed
+given drenfr01 test  2, dkass01  passed
+given drenfr01 test  2, npalmo01 failed -- On term "(val e2 (/ 4 #f))", expected type error, but got "bug in type checking: arithmetic on non-numbers" instead
+given drenfr01 test  2, jkang09  passed
+given drenfr01 test  2, nbugas01 passed
+given drenfr01 test  2, agallant passed
+given drenfr01 test  3, jkenne05 passed
+given drenfr01 test  3, hlin02   passed
+given drenfr01 test  3, esalow01 passed
+given drenfr01 test  3, bkolta01 passed
+given drenfr01 test  3, bjorda02 passed
+given drenfr01 test  3, jtan03   passed
+given drenfr01 test  3, rmonde01 passed
+given drenfr01 test  3, dreedy01 passed
+given drenfr01 test  3, jpearl05 passed
+given drenfr01 test  3, drenfr01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a x) ('b y)) y )))", expected type "(forall ('a 'b) (function ('a 'b) 'b))", but got "(function ('a 'b) 'b)" instead
+given drenfr01 test  3, tsoule01 passed
+given drenfr01 test  3, asamps01 passed
+given drenfr01 test  3, hnasar01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a x) ('b y)) y )))", expected type "(forall ('a 'b) (function ('a 'b) 'b))", but got "(forall ('a 'b) (function ('b 'a) 'b))" instead
+given drenfr01 test  3, mrusse03 passed
+given drenfr01 test  3, dkass01  passed
+given drenfr01 test  3, npalmo01 failed -- On term "(val e3 (type-lambda ('a 'b) (lambda (('a x) ('b y)) y )))", expected type "(forall ('a 'b) (function ('a 'b) 'b))", but got this error instead: type error: unknown type variable 'a
+given drenfr01 test  3, jkang09  passed
+given drenfr01 test  3, nbugas01 passed
+given drenfr01 test  3, agallant passed
+given tsoule01 test  1, jkenne05 passed
+given tsoule01 test  1, hlin02   passed
+given tsoule01 test  1, esalow01 passed
+given tsoule01 test  1, bkolta01 passed
+given tsoule01 test  1, bjorda02 failed -- On term "(val e1 !=)", expected type "(forall ('a) (function ('a 'a) bool))", but got "variable != not found" instead
+given tsoule01 test  1, jtan03   passed
+given tsoule01 test  1, rmonde01 passed
+given tsoule01 test  1, dreedy01 passed
+given tsoule01 test  1, jpearl05 passed
+given tsoule01 test  1, drenfr01 failed -- On term "(val e1 !=)", expected type "(forall ('a) (function ('a 'a) bool))", but got "variable != not found" instead
+given tsoule01 test  1, tsoule01 passed
+given tsoule01 test  1, asamps01 passed
+given tsoule01 test  1, hnasar01 passed
+given tsoule01 test  1, mrusse03 passed
+given tsoule01 test  1, dkass01  passed
+given tsoule01 test  1, npalmo01 failed -- On term "(val e1 !=)", expected type "(forall ('a) (function ('a 'a) bool))", but got this error instead: type error: Variable !=not found
+given tsoule01 test  1, jkang09  passed
+given tsoule01 test  1, nbugas01 passed
+given tsoule01 test  1, agallant passed
+given tsoule01 test  2, jkenne05 passed
+given tsoule01 test  2, hlin02   passed
+given tsoule01 test  2, esalow01 passed
+given tsoule01 test  2, bkolta01 passed
+given tsoule01 test  2, bjorda02 failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "placeholder" instead
+given tsoule01 test  2, jtan03   passed
+given tsoule01 test  2, rmonde01 passed
+given tsoule01 test  2, dreedy01 failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "(function (int int) int)" instead
+given tsoule01 test  2, jpearl05 passed
+given tsoule01 test  2, drenfr01 failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "(function (int int) (function (int int) int))" instead
+given tsoule01 test  2, tsoule01 passed
+given tsoule01 test  2, asamps01 passed
+given tsoule01 test  2, hnasar01 passed
+given tsoule01 test  2, mrusse03 failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "(function (int int) int)" instead
+given tsoule01 test  2, dkass01  failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "(function (int int) int)" instead
+given tsoule01 test  2, npalmo01 failed -- On term "(val-rec (function (int int) bool) e2 (lambda ((int x) (int y)) (+ x y)))", expected type error, but got "(function (int int) bool)" instead
+given tsoule01 test  2, jkang09  passed
+given tsoule01 test  2, nbugas01 passed
+given tsoule01 test  2, agallant passed
+given tsoule01 test  3, jkenne05 passed
+given tsoule01 test  3, hlin02   failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, esalow01 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, bkolta01 passed
+given tsoule01 test  3, bjorda02 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "placeholder" instead
+given tsoule01 test  3, jtan03   passed
+given tsoule01 test  3, rmonde01 passed
+given tsoule01 test  3, dreedy01 passed
+given tsoule01 test  3, jpearl05 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, drenfr01 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, tsoule01 passed
+given tsoule01 test  3, asamps01 passed
+given tsoule01 test  3, hnasar01 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, mrusse03 errored -- On term "(val-rec (function (int) int) f f)", got this run-time error: Uncaught exception: BugInTypeChecking: value in binding appears unprotected in expression
+given tsoule01 test  3, dkass01  passed
+given tsoule01 test  3, npalmo01 failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, jkang09  failed -- On term "(val-rec (function (int) int) f f)", expected type error, but got "(function (int) int)" instead
+given tsoule01 test  3, nbugas01 passed
+given tsoule01 test  3, agallant passed
+given asamps01 test  1, jkenne05 passed
+given asamps01 test  1, hlin02   passed
+given asamps01 test  1, esalow01 passed
+given asamps01 test  1, bkolta01 passed
+given asamps01 test  1, bjorda02 passed
+given asamps01 test  1, jtan03   passed
+given asamps01 test  1, rmonde01 passed
+given asamps01 test  1, dreedy01 passed
+given asamps01 test  1, jpearl05 passed
+given asamps01 test  1, drenfr01 failed -- On term "(val e1 '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given asamps01 test  1, tsoule01 passed
+given asamps01 test  1, asamps01 passed
+given asamps01 test  1, hnasar01 passed
+given asamps01 test  1, mrusse03 passed
+given asamps01 test  1, dkass01  passed
+given asamps01 test  1, npalmo01 passed
+given asamps01 test  1, jkang09  passed
+given asamps01 test  1, nbugas01 passed
+given asamps01 test  1, agallant failed -- On term "(val e1 '())", expected type "(forall ('a) (list 'a))", but got "(list 'a)" instead
+given asamps01 test  2, jkenne05 passed
+given asamps01 test  2, hlin02   passed
+given asamps01 test  2, esalow01 failed -- On term "(val e2 (let* ((f (lambda ((int x)) x)) (g f)) (g 1)))", expected type "int", but got "variable f not found" instead
+given asamps01 test  2, bkolta01 passed
+given asamps01 test  2, bjorda02 passed
+given asamps01 test  2, jtan03   passed
+given asamps01 test  2, rmonde01 passed
+given asamps01 test  2, dreedy01 passed
+given asamps01 test  2, jpearl05 passed
+given asamps01 test  2, drenfr01 failed -- On term "(val e2 (let* ((f (lambda ((int x)) x)) (g f)) (g 1)))", expected type "int", but got "run-time error: Typechecking an invalid expression" instead
+given asamps01 test  2, tsoule01 passed
+given asamps01 test  2, asamps01 passed
+given asamps01 test  2, hnasar01 failed -- On term "(val e2 (let* ((f (lambda ((int x)) x)) (g f)) (g 1)))", expected type "int", but got "variable f not found" instead
+given asamps01 test  2, mrusse03 passed
+given asamps01 test  2, dkass01  passed
+given asamps01 test  2, npalmo01 passed
+given asamps01 test  2, jkang09  passed
+given asamps01 test  2, nbugas01 passed
+given asamps01 test  2, agallant passed
+given asamps01 test  3, jkenne05 passed
+given asamps01 test  3, hlin02   passed
+given asamps01 test  3, esalow01 passed
+given asamps01 test  3, bkolta01 passed
+given asamps01 test  3, bjorda02 failed -- On term "(val e3 (@ map sym int))", expected type "(function ((function (sym) int) (list sym)) (list int))", but got "variable map not found" instead
+given asamps01 test  3, jtan03   passed
+given asamps01 test  3, rmonde01 passed
+given asamps01 test  3, dreedy01 passed
+given asamps01 test  3, jpearl05 passed
+given asamps01 test  3, drenfr01 failed -- On term "(val e3 (@ map sym int))", expected type "(function ((function (sym) int) (list sym)) (list int))", but got "variable map not found" instead
+given asamps01 test  3, tsoule01 passed
+given asamps01 test  3, asamps01 passed
+given asamps01 test  3, hnasar01 failed -- On term "(val e3 (@ map sym int))", expected type "(function ((function (sym) int) (list sym)) (list int))", but got "variable map not found" instead
+given asamps01 test  3, mrusse03 passed
+given asamps01 test  3, dkass01  passed
+given asamps01 test  3, npalmo01 passed
+given asamps01 test  3, jkang09  passed
+given asamps01 test  3, nbugas01 passed
+given asamps01 test  3, agallant failed -- On term "(val e3 (@ map sym int))", expected type "(function ((function (sym) int) (list sym)) (list int))", but got "variable map not found" instead
+given hnasar01 test  1, jkenne05 passed
+given hnasar01 test  1, hlin02   passed
+given hnasar01 test  1, esalow01 passed
+given hnasar01 test  1, bkolta01 passed
+given hnasar01 test  1, bjorda02 passed
+given hnasar01 test  1, jtan03   passed
+given hnasar01 test  1, rmonde01 passed
+given hnasar01 test  1, dreedy01 passed
+given hnasar01 test  1, jpearl05 passed
+given hnasar01 test  1, drenfr01 failed -- On term "(val e1 (type-lambda ('a) (lambda (('a x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got "(function ('a) 'a)" instead
+given hnasar01 test  1, tsoule01 passed
+given hnasar01 test  1, asamps01 passed
+given hnasar01 test  1, hnasar01 passed
+given hnasar01 test  1, mrusse03 passed
+given hnasar01 test  1, dkass01  passed
+given hnasar01 test  1, npalmo01 failed -- On term "(val e1 (type-lambda ('a) (lambda (('a x)) x)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: unknown type variable 'a
+given hnasar01 test  1, jkang09  passed
+given hnasar01 test  1, nbugas01 passed
+given hnasar01 test  1, agallant passed
+given hnasar01 test  2, jkenne05 passed
+given hnasar01 test  2, hlin02   passed
+given hnasar01 test  2, esalow01 passed
+given hnasar01 test  2, bkolta01 passed
+given hnasar01 test  2, bjorda02 passed
+given hnasar01 test  2, jtan03   passed
+given hnasar01 test  2, rmonde01 passed
+given hnasar01 test  2, dreedy01 passed
+given hnasar01 test  2, jpearl05 passed
+given hnasar01 test  2, drenfr01 failed -- On term "(val e2 (lambda ((int x)) ((@ = int) 0 x)))", expected type "(function (int) bool)", but got this error instead: type error: (forall ('a) (function ('a 'a) bool))is not a valid function expression 
+given hnasar01 test  2, tsoule01 passed
+given hnasar01 test  2, asamps01 passed
+given hnasar01 test  2, hnasar01 passed
+given hnasar01 test  2, mrusse03 passed
+given hnasar01 test  2, dkass01  passed
+given hnasar01 test  2, npalmo01 passed
+given hnasar01 test  2, jkang09  passed
+given hnasar01 test  2, nbugas01 passed
+given hnasar01 test  2, agallant passed
+given hnasar01 test  3, jkenne05 passed
+given hnasar01 test  3, hlin02   passed
+given hnasar01 test  3, esalow01 passed
+given hnasar01 test  3, bkolta01 passed
+given hnasar01 test  3, bjorda02 passed
+given hnasar01 test  3, jtan03   passed
+given hnasar01 test  3, rmonde01 passed
+given hnasar01 test  3, dreedy01 passed
+given hnasar01 test  3, jpearl05 passed
+given hnasar01 test  3, drenfr01 passed
+given hnasar01 test  3, tsoule01 passed
+given hnasar01 test  3, asamps01 passed
+given hnasar01 test  3, hnasar01 passed
+given hnasar01 test  3, mrusse03 passed
+given hnasar01 test  3, dkass01  passed
+given hnasar01 test  3, npalmo01 errored -- On term "(val e3 ((@ car int) '(1 2 3 a)))", got this run-time error: Uncaught exception: ValNotFound
+given hnasar01 test  3, jkang09  passed
+given hnasar01 test  3, nbugas01 failed -- On term "(val e3 ((@ car int) '(1 2 3 a)))", expected type error, but got "int" instead
+given hnasar01 test  3, agallant passed
+given mrusse03 test  1, jkenne05 passed
+given mrusse03 test  1, hlin02   passed
+given mrusse03 test  1, esalow01 passed
+given mrusse03 test  1, bkolta01 passed
+given mrusse03 test  1, bjorda02 passed
+given mrusse03 test  1, jtan03   passed
+given mrusse03 test  1, rmonde01 passed
+given mrusse03 test  1, dreedy01 passed
+given mrusse03 test  1, jpearl05 passed
+given mrusse03 test  1, drenfr01 failed -- On term "(val e1 ((@ cons (list int)) '(1 2) (@ '() (list int))))", expected type "(list (list int))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given mrusse03 test  1, tsoule01 passed
+given mrusse03 test  1, asamps01 passed
+given mrusse03 test  1, hnasar01 passed
+given mrusse03 test  1, mrusse03 passed
+given mrusse03 test  1, dkass01  passed
+given mrusse03 test  1, npalmo01 passed
+given mrusse03 test  1, jkang09  passed
+given mrusse03 test  1, nbugas01 passed
+given mrusse03 test  1, agallant failed -- On term "(val e1 ((@ cons (list int)) '(1 2) (@ '() (list int))))", expected type "(list (list int))", but got this error instead: type error: tried to instantiate term of non-polymorphic type
+given mrusse03 test  2, jkenne05 passed
+given mrusse03 test  2, hlin02   passed
+given mrusse03 test  2, esalow01 passed
+given mrusse03 test  2, bkolta01 passed
+given mrusse03 test  2, bjorda02 passed
+given mrusse03 test  2, jtan03   passed
+given mrusse03 test  2, rmonde01 passed
+given mrusse03 test  2, dreedy01 passed
+given mrusse03 test  2, jpearl05 passed
+given mrusse03 test  2, drenfr01 failed -- On term "(val e2 o)", expected type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but got "variable o not found" instead
+given mrusse03 test  2, tsoule01 passed
+given mrusse03 test  2, asamps01 passed
+given mrusse03 test  2, hnasar01 failed -- On term "(val e2 o)", expected type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but got "(forall ('a 'b 'c) (function ((function ('a) 'b) (function ('b) 'c)) (function ('a) 'c)))" instead
+given mrusse03 test  2, mrusse03 passed
+given mrusse03 test  2, dkass01  passed
+given mrusse03 test  2, npalmo01 failed -- On term "(val e2 o)", expected type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but got this error instead: type error: Variable onot found
+given mrusse03 test  2, jkang09  passed
+given mrusse03 test  2, nbugas01 passed
+given mrusse03 test  2, agallant passed
+given mrusse03 test  3, jkenne05 passed
+given mrusse03 test  3, hlin02   failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, esalow01 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, bkolta01 passed
+given mrusse03 test  3, bjorda02 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "placeholder" instead
+given mrusse03 test  3, jtan03   passed
+given mrusse03 test  3, rmonde01 passed
+given mrusse03 test  3, dreedy01 passed
+given mrusse03 test  3, jpearl05 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, drenfr01 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, tsoule01 passed
+given mrusse03 test  3, asamps01 passed
+given mrusse03 test  3, hnasar01 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, mrusse03 errored -- On term "(val-rec bool x (if x #t #f))", got this run-time error: Uncaught exception: BugInTypeChecking: value in binding appears unprotected in expression
+given mrusse03 test  3, dkass01  passed
+given mrusse03 test  3, npalmo01 failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, jkang09  failed -- On term "(val-rec bool x (if x #t #f))", expected type error, but got "bool" instead
+given mrusse03 test  3, nbugas01 passed
+given mrusse03 test  3, agallant passed
+given dkass01  test  1, jkenne05 passed
+given dkass01  test  1, hlin02   passed
+given dkass01  test  1, esalow01 passed
+given dkass01  test  1, bkolta01 passed
+given dkass01  test  1, bjorda02 passed
+given dkass01  test  1, jtan03   passed
+given dkass01  test  1, rmonde01 passed
+given dkass01  test  1, dreedy01 passed
+given dkass01  test  1, jpearl05 passed
+given dkass01  test  1, drenfr01 failed -- On term "(val x (type-lambda ('a) (lambda (((list 'a) l)) ((@ car 'a) l))))", expected type "(forall ('a) (function ((list 'a)) 'a))", but got this error instead: type error: (forall ('a) (function ((list 'a)) 'a))is not a valid function expression 
+given dkass01  test  1, tsoule01 passed
+given dkass01  test  1, asamps01 passed
+given dkass01  test  1, hnasar01 passed
+given dkass01  test  1, mrusse03 passed
+given dkass01  test  1, dkass01  passed
+given dkass01  test  1, npalmo01 failed -- On term "(val x (type-lambda ('a) (lambda (((list 'a) l)) ((@ car 'a) l))))", expected type "(forall ('a) (function ((list 'a)) 'a))", but got this error instead: type error: unknown type variable 'a
+given dkass01  test  1, jkang09  passed
+given dkass01  test  1, nbugas01 passed
+given dkass01  test  1, agallant passed
+given dkass01  test  2, jkenne05 passed
+given dkass01  test  2, hlin02   passed
+given dkass01  test  2, esalow01 passed
+given dkass01  test  2, bkolta01 passed
+given dkass01  test  2, bjorda02 passed
+given dkass01  test  2, jtan03   passed
+given dkass01  test  2, rmonde01 passed
+given dkass01  test  2, dreedy01 passed
+given dkass01  test  2, jpearl05 passed
+given dkass01  test  2, drenfr01 failed -- On term "(val y (type-lambda ('a 'b) (lambda (((function ('a) 'b) f) ((list 'a) l)) (f ((@ car 'a) l)))))", expected type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) 'b))", but got this error instead: type error: (forall ('a) (function ((list 'a)) 'a))is not a valid function expression 
+given dkass01  test  2, tsoule01 passed
+given dkass01  test  2, asamps01 passed
+given dkass01  test  2, hnasar01 failed -- On term "(val y (type-lambda ('a 'b) (lambda (((function ('a) 'b) f) ((list 'a) l)) (f ((@ car 'a) l)))))", expected type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) 'b))", but got "(forall ('a 'b) (function ((list 'a) (function ('a) 'b)) 'b))" instead
+given dkass01  test  2, mrusse03 passed
+given dkass01  test  2, dkass01  passed
+given dkass01  test  2, npalmo01 failed -- On term "(val y (type-lambda ('a 'b) (lambda (((function ('a) 'b) f) ((list 'a) l)) (f ((@ car 'a) l)))))", expected type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) 'b))", but got this error instead: type error: unknown type variable 'a
+given dkass01  test  2, jkang09  passed
+given dkass01  test  2, nbugas01 passed
+given dkass01  test  2, agallant passed
+given dkass01  test  3, jkenne05 passed
+given dkass01  test  3, hlin02   passed
+given dkass01  test  3, esalow01 passed
+given dkass01  test  3, bkolta01 passed
+given dkass01  test  3, bjorda02 passed
+given dkass01  test  3, jtan03   passed
+given dkass01  test  3, rmonde01 passed
+given dkass01  test  3, dreedy01 passed
+given dkass01  test  3, jpearl05 passed
+given dkass01  test  3, drenfr01 failed -- On term "(val d (type-lambda ('a) (lambda (('a v)) v)))", expected type "(forall ('a) (function ('a) 'a))", but got "(function ('a) 'a)" instead
+given dkass01  test  3, tsoule01 passed
+given dkass01  test  3, asamps01 passed
+given dkass01  test  3, hnasar01 passed
+given dkass01  test  3, mrusse03 passed
+given dkass01  test  3, dkass01  passed
+given dkass01  test  3, npalmo01 failed -- On term "(val d (type-lambda ('a) (lambda (('a v)) v)))", expected type "(forall ('a) (function ('a) 'a))", but got this error instead: type error: unknown type variable 'a
+given dkass01  test  3, jkang09  passed
+given dkass01  test  3, nbugas01 passed
+given dkass01  test  3, agallant passed
+given npalmo01 test  1, jkenne05 passed
+given npalmo01 test  1, hlin02   passed
+given npalmo01 test  1, esalow01 failed -- On term "(val e1 (lambda ((int x) (bool y)) (+ x y)))", expected type error, but got "(function (int bool) int)" instead
+given npalmo01 test  1, bkolta01 passed
+given npalmo01 test  1, bjorda02 passed
+given npalmo01 test  1, jtan03   passed
+given npalmo01 test  1, rmonde01 passed
+given npalmo01 test  1, dreedy01 passed
+given npalmo01 test  1, jpearl05 passed
+given npalmo01 test  1, drenfr01 passed
+given npalmo01 test  1, tsoule01 passed
+given npalmo01 test  1, asamps01 passed
+given npalmo01 test  1, hnasar01 passed
+given npalmo01 test  1, mrusse03 passed
+given npalmo01 test  1, dkass01  passed
+given npalmo01 test  1, npalmo01 failed -- On term "(val e1 (lambda ((int x) (bool y)) (+ x y)))", expected type error, but got "(function (int bool) int)" instead
+given npalmo01 test  1, jkang09  passed
+given npalmo01 test  1, nbugas01 passed
+given npalmo01 test  1, agallant passed
+given npalmo01 test  2, jkenne05 passed
+given npalmo01 test  2, hlin02   passed
+given npalmo01 test  2, esalow01 passed
+given npalmo01 test  2, bkolta01 passed
+given npalmo01 test  2, bjorda02 failed -- On term "(val e2 (@ filter bool))", expected type "(function ((function (bool) bool) (list bool)) (list bool))", but got "variable filter not found" instead
+given npalmo01 test  2, jtan03   passed
+given npalmo01 test  2, rmonde01 passed
+given npalmo01 test  2, dreedy01 passed
+given npalmo01 test  2, jpearl05 passed
+given npalmo01 test  2, drenfr01 failed -- On term "(val e2 (@ filter bool))", expected type "(function ((function (bool) bool) (list bool)) (list bool))", but got "variable filter not found" instead
+given npalmo01 test  2, tsoule01 passed
+given npalmo01 test  2, asamps01 passed
+given npalmo01 test  2, hnasar01 failed -- On term "(val e2 (@ filter bool))", expected type "(function ((function (bool) bool) (list bool)) (list bool))", but got "variable filter not found" instead
+given npalmo01 test  2, mrusse03 passed
+given npalmo01 test  2, dkass01  passed
+given npalmo01 test  2, npalmo01 passed
+given npalmo01 test  2, jkang09  passed
+given npalmo01 test  2, nbugas01 passed
+given npalmo01 test  2, agallant failed -- On term "(val e2 (@ filter bool))", expected type "(function ((function (bool) bool) (list bool)) (list bool))", but got "variable filter not found" instead
+given npalmo01 test  3, jkenne05 passed
+given npalmo01 test  3, hlin02   passed
+given npalmo01 test  3, esalow01 passed
+given npalmo01 test  3, bkolta01 passed
+given npalmo01 test  3, bjorda02 passed
+given npalmo01 test  3, jtan03   passed
+given npalmo01 test  3, rmonde01 passed
+given npalmo01 test  3, dreedy01 passed
+given npalmo01 test  3, jpearl05 passed
+given npalmo01 test  3, drenfr01 passed
+given npalmo01 test  3, tsoule01 passed
+given npalmo01 test  3, asamps01 passed
+given npalmo01 test  3, hnasar01 passed
+given npalmo01 test  3, mrusse03 passed
+given npalmo01 test  3, dkass01  passed
+given npalmo01 test  3, npalmo01 passed
+given npalmo01 test  3, jkang09  passed
+given npalmo01 test  3, nbugas01 passed
+given npalmo01 test  3, agallant passed
+given jkang09  test  1, jkenne05 passed
+given jkang09  test  1, hlin02   passed
+given jkang09  test  1, esalow01 passed
+given jkang09  test  1, bkolta01 passed
+given jkang09  test  1, bjorda02 passed
+given jkang09  test  1, jtan03   passed
+given jkang09  test  1, rmonde01 passed
+given jkang09  test  1, dreedy01 passed
+given jkang09  test  1, jpearl05 passed
+given jkang09  test  1, drenfr01 passed
+given jkang09  test  1, tsoule01 passed
+given jkang09  test  1, asamps01 passed
+given jkang09  test  1, hnasar01 passed
+given jkang09  test  1, mrusse03 passed
+given jkang09  test  1, dkass01  passed
+given jkang09  test  1, npalmo01 passed
+given jkang09  test  1, jkang09  passed
+given jkang09  test  1, nbugas01 passed
+given jkang09  test  1, agallant passed
+given jkang09  test  2, jkenne05 passed
+given jkang09  test  2, hlin02   passed
+given jkang09  test  2, esalow01 passed
+given jkang09  test  2, bkolta01 passed
+given jkang09  test  2, bjorda02 passed
+given jkang09  test  2, jtan03   passed
+given jkang09  test  2, rmonde01 passed
+given jkang09  test  2, dreedy01 passed
+given jkang09  test  2, jpearl05 passed
+given jkang09  test  2, drenfr01 failed -- On term "(val e2 (@ (type-lambda ('a) (lambda (((list 'a) l) ('a x)) ((@ cons 'a) x l))) int))", expected type "(function ((list int) int) (list int))", but got this error instead: type error: (forall ('a) (function ('a (list 'a)) (list 'a)))is not a valid function expression 
+given jkang09  test  2, tsoule01 passed
+given jkang09  test  2, asamps01 passed
+given jkang09  test  2, hnasar01 failed -- On term "(val e2 (@ (type-lambda ('a) (lambda (((list 'a) l) ('a x)) ((@ cons 'a) x l))) int))", expected type "(function ((list int) int) (list int))", but got "(function (int (list int)) (list int))" instead
+given jkang09  test  2, mrusse03 passed
+given jkang09  test  2, dkass01  passed
+given jkang09  test  2, npalmo01 failed -- On term "(val e2 (@ (type-lambda ('a) (lambda (((list 'a) l) ('a x)) ((@ cons 'a) x l))) int))", expected type "(function ((list int) int) (list int))", but got this error instead: type error: unknown type variable 'a
+given jkang09  test  2, jkang09  passed
+given jkang09  test  2, nbugas01 passed
+given jkang09  test  2, agallant passed
+given nbugas01 test  1, jkenne05 passed
+given nbugas01 test  1, hlin02   failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, esalow01 failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, bkolta01 passed
+given nbugas01 test  1, bjorda02 failed -- On term "(val-rec int e1 e1)", expected type error, but got "placeholder" instead
+given nbugas01 test  1, jtan03   passed
+given nbugas01 test  1, rmonde01 passed
+given nbugas01 test  1, dreedy01 passed
+given nbugas01 test  1, jpearl05 failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, drenfr01 failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, tsoule01 passed
+given nbugas01 test  1, asamps01 passed
+given nbugas01 test  1, hnasar01 failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, mrusse03 errored -- On term "(val-rec int e1 e1)", got this run-time error: Uncaught exception: BugInTypeChecking: value in binding appears unprotected in expression
+given nbugas01 test  1, dkass01  passed
+given nbugas01 test  1, npalmo01 failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, jkang09  failed -- On term "(val-rec int e1 e1)", expected type error, but got "int" instead
+given nbugas01 test  1, nbugas01 passed
+given nbugas01 test  1, agallant passed
+given nbugas01 test  2, jkenne05 passed
+given nbugas01 test  2, hlin02   passed
+given nbugas01 test  2, esalow01 passed
+given nbugas01 test  2, bkolta01 passed
+given nbugas01 test  2, bjorda02 failed -- On term "(val e2 (@ map int bool))", expected type "(function ((function (int) bool) (list int)) (list bool))", but got "variable map not found" instead
+given nbugas01 test  2, jtan03   passed
+given nbugas01 test  2, rmonde01 passed
+given nbugas01 test  2, dreedy01 passed
+given nbugas01 test  2, jpearl05 passed
+given nbugas01 test  2, drenfr01 failed -- On term "(val e2 (@ map int bool))", expected type "(function ((function (int) bool) (list int)) (list bool))", but got "variable map not found" instead
+given nbugas01 test  2, tsoule01 passed
+given nbugas01 test  2, asamps01 passed
+given nbugas01 test  2, hnasar01 failed -- On term "(val e2 (@ map int bool))", expected type "(function ((function (int) bool) (list int)) (list bool))", but got "variable map not found" instead
+given nbugas01 test  2, mrusse03 passed
+given nbugas01 test  2, dkass01  passed
+given nbugas01 test  2, npalmo01 passed
+given nbugas01 test  2, jkang09  passed
+given nbugas01 test  2, nbugas01 passed
+given nbugas01 test  2, agallant failed -- On term "(val e2 (@ map int bool))", expected type "(function ((function (int) bool) (list int)) (list bool))", but got "variable map not found" instead
+given nbugas01 test  3, jkenne05 passed
+given nbugas01 test  3, hlin02   passed
+given nbugas01 test  3, esalow01 failed -- On term "(val e3 ((@ cons int) 3 '()))", expected type error, but got "(list int)" instead
+given nbugas01 test  3, bkolta01 passed
+given nbugas01 test  3, bjorda02 passed
+given nbugas01 test  3, jtan03   passed
+given nbugas01 test  3, rmonde01 passed
+given nbugas01 test  3, dreedy01 passed
+given nbugas01 test  3, jpearl05 passed
+given nbugas01 test  3, drenfr01 passed
+given nbugas01 test  3, tsoule01 passed
+given nbugas01 test  3, asamps01 passed
+given nbugas01 test  3, hnasar01 passed
+given nbugas01 test  3, mrusse03 passed
+given nbugas01 test  3, dkass01  passed
+given nbugas01 test  3, npalmo01 failed -- On term "(val e3 ((@ cons int) 3 '()))", expected type error, but got "(list int)" instead
+given nbugas01 test  3, jkang09  passed
+given nbugas01 test  3, nbugas01 passed
+given nbugas01 test  3, agallant passed
+given agallant test  1, jkenne05 passed
+given agallant test  1, hlin02   errored -- On term "(val e1 (lambda (((int int) x)) x))", got this run-time error: Uncaught exception: TypeError: tried to apply type int as type constructor
+given agallant test  1, esalow01 passed
+given agallant test  1, bkolta01 passed
+given agallant test  1, bjorda02 passed
+given agallant test  1, jtan03   passed
+given agallant test  1, rmonde01 passed
+given agallant test  1, dreedy01 passed
+given agallant test  1, jpearl05 passed
+given agallant test  1, drenfr01 passed
+given agallant test  1, tsoule01 passed
+given agallant test  1, asamps01 passed
+given agallant test  1, hnasar01 passed
+given agallant test  1, mrusse03 passed
+given agallant test  1, dkass01  passed
+given agallant test  1, npalmo01 passed
+given agallant test  1, jkang09  passed
+given agallant test  1, nbugas01 passed
+given agallant test  1, agallant passed
+given agallant test  2, jkenne05 passed
+given agallant test  2, hlin02   passed
+given agallant test  2, esalow01 passed
+given agallant test  2, bkolta01 passed
+given agallant test  2, bjorda02 passed
+given agallant test  2, jtan03   passed
+given agallant test  2, rmonde01 passed
+given agallant test  2, dreedy01 passed
+given agallant test  2, jpearl05 passed
+given agallant test  2, drenfr01 passed
+given agallant test  2, tsoule01 passed
+given agallant test  2, asamps01 passed
+given agallant test  2, hnasar01 passed
+given agallant test  2, mrusse03 passed
+given agallant test  2, dkass01  passed
+given agallant test  2, npalmo01 errored -- On term "(val e2 '(a 1))", got this run-time error: Uncaught exception: ValNotFound
+given agallant test  2, jkang09  passed
+given agallant test  2, nbugas01 failed -- On term "(val e2 '(a 1))", expected type error, but got "(list sym)" instead
+given agallant test  2, agallant passed
+given agallant test  3, jkenne05 passed
+given agallant test  3, hlin02   errored -- On term "(val e3 (type-lambda ('A) (lambda (('a x)) x)))", got this run-time error: Uncaught exception: TypeError: unknown type variable 'a
+given agallant test  3, esalow01 passed
+given agallant test  3, bkolta01 passed
+given agallant test  3, bjorda02 passed
+given agallant test  3, jtan03   passed
+given agallant test  3, rmonde01 passed
+given agallant test  3, dreedy01 passed
+given agallant test  3, jpearl05 passed
+given agallant test  3, drenfr01 passed
+given agallant test  3, tsoule01 passed
+given agallant test  3, asamps01 passed
+given agallant test  3, hnasar01 passed
+given agallant test  3, mrusse03 passed
+given agallant test  3, dkass01  passed
+given agallant test  3, npalmo01 passed
+given agallant test  3, jkang09  passed
+given agallant test  3, nbugas01 passed
+given agallant test  3, agallant passed

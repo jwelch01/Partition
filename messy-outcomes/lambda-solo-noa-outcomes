@@ -1,0 +1,71 @@
+given nr       test  1, npalmo01 passed
+given nr       test  2, npalmo01 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f (f x))))) (\\f.\\x.f (f (f (f (f x))))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test  3, npalmo01 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "S (\\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test  4, npalmo01 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, npalmo01 passed
+given nr       test  6, npalmo01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f (f x))))) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test  7, npalmo01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f (f x))))) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test  8, npalmo01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f (f x))))) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, npalmo01 failed -- We expected term "divmod 4 4" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f (f x)))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, npalmo01 failed -- We expected term "pred (succ 4)" to reduce to "S (S (S (S Z)))", but using your definitions, it reduced to "S (\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 11, npalmo01 failed -- We expected term "eq 4 4" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 12, npalmo01 passed
+given nr       test 13, npalmo01 failed -- We expected term "divmod 4 2" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 14, npalmo01 failed -- We expected term "divmod 4 3" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 15, npalmo01 failed -- We expected term "divmod 4 1" to reduce to "PAIR (S (S (S (S Z)))) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 16, npalmo01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 17, npalmo01 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "S (\\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 18, npalmo01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 19, npalmo01 passed
+given nr       test 20, npalmo01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 21, npalmo01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 22, npalmo01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 23, npalmo01 failed -- We expected term "divmod 4 4" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f (f x)))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 24, npalmo01 failed -- We expected term "pred (succ 4)" to reduce to "S (S (S (S Z)))", but using your definitions, it reduced to "S (\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 25, npalmo01 failed -- We expected term "eq 4 4" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 26, npalmo01 passed
+given nr       test 27, npalmo01 failed -- We expected term "divmod 4 2" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 28, npalmo01 failed -- We expected term "divmod 4 3" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 29, npalmo01 failed -- We expected term "divmod 4 1" to reduce to "PAIR (S (S (S (S Z)))) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 30, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 31, npalmo01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 32, npalmo01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "T (\\x.x) (\\z.z (\\f.\\x.x) \\f.\\x.x) F".
+given nr       test 33, npalmo01 passed
+given nr       test 34, npalmo01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 35, npalmo01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 36, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 37, npalmo01 failed -- We expected term "divmod 4 4" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f (f x)))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 38, npalmo01 failed -- We expected term "pred (succ 4)" to reduce to "S (S (S (S Z)))", but using your definitions, it reduced to "S (\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 39, npalmo01 failed -- We expected term "eq 4 4" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 40, npalmo01 passed
+given nr       test 41, npalmo01 failed -- We expected term "divmod 4 2" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 42, npalmo01 failed -- We expected term "divmod 4 3" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 43, npalmo01 failed -- We expected term "divmod 4 1" to reduce to "PAIR (S (S (S (S Z)))) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f (f (f x)))) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 44, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 45, npalmo01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 46, npalmo01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "T (\\x.x) (\\z.z (\\f.\\x.x) \\f.\\x.x) F".
+given nr       test 47, npalmo01 passed
+given nr       test 48, npalmo01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 49, npalmo01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 50, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 51, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 52, npalmo01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 53, npalmo01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "T (\\x.x) (\\z.z (\\f.\\x.x) \\f.\\x.x) F".
+given nr       test 54, npalmo01 passed
+given nr       test 55, npalmo01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 56, npalmo01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\\f.f) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 57, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.f) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 58, npalmo01 passed
+given nr       test 59, npalmo01 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "S (\\x.x) (\\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 60, npalmo01 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 61, npalmo01 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test 62, npalmo01 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\\f.\\x.x) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 63, npalmo01 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\\f.\\x.x) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 64, npalmo01 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\\f.\\x.x) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 65, npalmo01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 66, npalmo01 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "S (\\z.z (\\f.\\x.x) \\f.\\x.x) (\\m.\\f.f (\\z.z (\\f.\\x.x) \\f.\\x.x) \\m.\\f.f (\\x.x) \\z.z (\\f.\\x.x) \\f.\\x.x) Z".
+given nr       test 67, npalmo01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test 68, npalmo01 passed
+given nr       test 69, npalmo01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f x)) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 70, npalmo01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.\\x.f (f (f x))) \\x.\\y.PAIR (x S Z) (y S Z)".
+given nr       test 71, npalmo01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\\f.\\x.f (f x)) (\\f.f) \\x.\\y.PAIR (x S Z) (y S Z)".

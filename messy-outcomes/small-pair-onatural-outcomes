@@ -1,0 +1,483 @@
+given nr       test  1, jkenne05 passed
+given nr       test  1, hlin02   passed
+given nr       test  1, esalow01 failed -- Compute Natural 0 using only 1, 0, and +, but your code computed "<class THE-BUCK-STOPS-HERE>".
+given nr       test  1, bkolta01 passed
+given nr       test  1, gong01   passed
+given nr       test  1, nr       passed
+given nr       test  1, bjorda02 passed
+given nr       test  1, kmcneely passed
+given nr       test  1, jtan03   failed -- Compute Natural 0 using only 1, 0, and +, but your code computed "List( 0 )".
+given nr       test  1, rmonde01 passed
+given nr       test  1, ariley03 failed -- Compute Natural 0 using only 1, 0, and +, but your code computed "<class THE-BUCK-STOPS-HERE>".
+given nr       test  1, agallant passed
+given nr       test  1, jpearl05 passed
+given nr       test  1, bsumne01 passed
+given nr       test  1, tsoule01 passed
+given nr       test  1, hnasar01 passed
+given nr       test  1, mrusse03 passed
+given nr       test  1, adreyf01 passed
+given nr       test  1, dwhitn01 passed
+given nr       test  1, sgardn04 passed
+given nr       test  1, jaltre01 passed
+given nr       test  1, nbugas01 passed
+given nr       test  1, mleise01 passed
+given nr       test  2, jkenne05 passed
+given nr       test  2, hlin02   passed
+given nr       test  2, esalow01 passed
+given nr       test  2, bkolta01 passed
+given nr       test  2, gong01   errored -- Compute Natural 2 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  2, nr       passed
+given nr       test  2, bjorda02 passed
+given nr       test  2, kmcneely passed
+given nr       test  2, jtan03   failed -- Compute Natural 2 using only 1, 0, and +, but your code computed "List( 2 )".
+given nr       test  2, rmonde01 passed
+given nr       test  2, ariley03 passed
+given nr       test  2, agallant passed
+given nr       test  2, jpearl05 passed
+given nr       test  2, bsumne01 passed
+given nr       test  2, tsoule01 passed
+given nr       test  2, hnasar01 passed
+given nr       test  2, mrusse03 passed
+given nr       test  2, adreyf01 errored -- Compute Natural 2 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  2, dwhitn01 passed
+given nr       test  2, sgardn04 passed
+given nr       test  2, jaltre01 passed
+given nr       test  2, nbugas01 passed
+given nr       test  2, mleise01 passed
+given nr       test  3, jkenne05 passed
+given nr       test  3, hlin02   passed
+given nr       test  3, esalow01 passed
+given nr       test  3, bkolta01 passed
+given nr       test  3, gong01   errored -- Compute Natural 159 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  3, nr       passed
+given nr       test  3, bjorda02 passed
+given nr       test  3, kmcneely passed
+given nr       test  3, jtan03   failed -- Compute Natural 159 using only 1, 0, and +, but your code computed "List( 1 5 9 )".
+given nr       test  3, rmonde01 passed
+given nr       test  3, ariley03 passed
+given nr       test  3, agallant passed
+given nr       test  3, jpearl05 passed
+given nr       test  3, bsumne01 passed
+given nr       test  3, tsoule01 passed
+given nr       test  3, hnasar01 passed
+given nr       test  3, mrusse03 passed
+given nr       test  3, adreyf01 errored -- Compute Natural 159 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  3, dwhitn01 passed
+given nr       test  3, sgardn04 passed
+given nr       test  3, jaltre01 passed
+given nr       test  3, nbugas01 failed -- Compute Natural 159 using only 1, 0, and +, but your code computed "9".
+given nr       test  3, mleise01 passed
+given nr       test  4, jkenne05 passed
+given nr       test  4, hlin02   passed
+given nr       test  4, esalow01 passed
+given nr       test  4, bkolta01 passed
+given nr       test  4, gong01   errored -- Compute Natural 23317012489 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  4, nr       passed
+given nr       test  4, bjorda02 passed
+given nr       test  4, kmcneely passed
+given nr       test  4, jtan03   failed -- Compute Natural 23317012489 using only 1, 0, and +, but your code computed "List( 2 3 3 1 7 0 1 2 4 8 9 )".
+given nr       test  4, rmonde01 passed
+given nr       test  4, ariley03 passed
+given nr       test  4, agallant passed
+given nr       test  4, jpearl05 passed
+given nr       test  4, bsumne01 passed
+given nr       test  4, tsoule01 passed
+given nr       test  4, hnasar01 passed
+given nr       test  4, mrusse03 passed
+given nr       test  4, adreyf01 errored -- Compute Natural 23317012489 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  4, dwhitn01 passed
+given nr       test  4, sgardn04 passed
+given nr       test  4, jaltre01 passed
+given nr       test  4, nbugas01 failed -- Compute Natural 23317012489 using only 1, 0, and +, but your code computed "9".
+given nr       test  4, mleise01 passed
+given nr       test  5, jkenne05 passed
+given nr       test  5, hlin02   passed
+given nr       test  5, esalow01 passed
+given nr       test  5, bkolta01 passed
+given nr       test  5, gong01   errored -- Compute Natural 1095247239996592240397 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  5, nr       passed
+given nr       test  5, bjorda02 passed
+given nr       test  5, kmcneely passed
+given nr       test  5, jtan03   failed -- Compute Natural 1095247239996592240397 using only 1, 0, and +, but your code computed "List( 1 0 9 5 2 4 7 2 3 9 9 9 6 5 9 2 2 4 0 3 9 7 )".
+given nr       test  5, rmonde01 passed
+given nr       test  5, ariley03 passed
+given nr       test  5, agallant passed
+given nr       test  5, jpearl05 passed
+given nr       test  5, bsumne01 passed
+given nr       test  5, tsoule01 passed
+given nr       test  5, hnasar01 passed
+given nr       test  5, mrusse03 passed
+given nr       test  5, adreyf01 errored -- Compute Natural 1095247239996592240397 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  5, dwhitn01 passed
+given nr       test  5, sgardn04 passed
+given nr       test  5, jaltre01 passed
+given nr       test  5, nbugas01 failed -- Compute Natural 1095247239996592240397 using only 1, 0, and +, but your code computed "7".
+given nr       test  5, mleise01 passed
+given nr       test  6, jkenne05 passed
+given nr       test  6, hlin02   passed
+given nr       test  6, esalow01 passed
+given nr       test  6, bkolta01 passed
+given nr       test  6, gong01   errored -- Compute Natural 13 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  6, nr       passed
+given nr       test  6, bjorda02 passed
+given nr       test  6, kmcneely passed
+given nr       test  6, jtan03   failed -- Compute Natural 13 using only 1, 0, and +, but your code computed "List( 1 3 )".
+given nr       test  6, rmonde01 passed
+given nr       test  6, ariley03 passed
+given nr       test  6, agallant passed
+given nr       test  6, jpearl05 passed
+given nr       test  6, bsumne01 passed
+given nr       test  6, tsoule01 passed
+given nr       test  6, hnasar01 passed
+given nr       test  6, mrusse03 passed
+given nr       test  6, adreyf01 errored -- Compute Natural 13 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  6, dwhitn01 passed
+given nr       test  6, sgardn04 passed
+given nr       test  6, jaltre01 passed
+given nr       test  6, nbugas01 failed -- Compute Natural 13 using only 1, 0, and +, but your code computed "3".
+given nr       test  6, mleise01 passed
+given nr       test  7, jkenne05 passed
+given nr       test  7, hlin02   passed
+given nr       test  7, esalow01 passed
+given nr       test  7, bkolta01 passed
+given nr       test  7, gong01   errored -- Compute Natural 1009 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  7, nr       passed
+given nr       test  7, bjorda02 passed
+given nr       test  7, kmcneely passed
+given nr       test  7, jtan03   failed -- Compute Natural 1009 using only 1, 0, and +, but your code computed "List( 1 0 0 9 )".
+given nr       test  7, rmonde01 passed
+given nr       test  7, ariley03 passed
+given nr       test  7, agallant passed
+given nr       test  7, jpearl05 passed
+given nr       test  7, bsumne01 passed
+given nr       test  7, tsoule01 passed
+given nr       test  7, hnasar01 passed
+given nr       test  7, mrusse03 passed
+given nr       test  7, adreyf01 errored -- Compute Natural 1009 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  7, dwhitn01 passed
+given nr       test  7, sgardn04 passed
+given nr       test  7, jaltre01 passed
+given nr       test  7, nbugas01 failed -- Compute Natural 1009 using only 1, 0, and +, but your code computed "9".
+given nr       test  7, mleise01 passed
+given nr       test  8, jkenne05 passed
+given nr       test  8, hlin02   passed
+given nr       test  8, esalow01 passed
+given nr       test  8, bkolta01 passed
+given nr       test  8, gong01   errored -- Compute Natural 927736858 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  8, nr       passed
+given nr       test  8, bjorda02 passed
+given nr       test  8, kmcneely passed
+given nr       test  8, jtan03   failed -- Compute Natural 927736858 using only 1, 0, and +, but your code computed "List( 9 2 7 7 3 6 8 5 8 )".
+given nr       test  8, rmonde01 passed
+given nr       test  8, ariley03 passed
+given nr       test  8, agallant passed
+given nr       test  8, jpearl05 passed
+given nr       test  8, bsumne01 passed
+given nr       test  8, tsoule01 passed
+given nr       test  8, hnasar01 passed
+given nr       test  8, mrusse03 passed
+given nr       test  8, adreyf01 errored -- Compute Natural 927736858 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  8, dwhitn01 passed
+given nr       test  8, sgardn04 passed
+given nr       test  8, jaltre01 passed
+given nr       test  8, nbugas01 failed -- Compute Natural 927736858 using only 1, 0, and +, but your code computed "18".
+given nr       test  8, mleise01 passed
+given nr       test  9, jkenne05 passed
+given nr       test  9, hlin02   passed
+given nr       test  9, esalow01 passed
+given nr       test  9, bkolta01 passed
+given nr       test  9, gong01   errored -- Compute Natural 571258205957021326093 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test  9, nr       passed
+given nr       test  9, bjorda02 passed
+given nr       test  9, kmcneely passed
+given nr       test  9, jtan03   failed -- Compute Natural 571258205957021326093 using only 1, 0, and +, but your code computed "List( 5 7 1 2 5 8 2 0 5 9 5 7 0 2 1 3 2 6 0 9 3 )".
+given nr       test  9, rmonde01 passed
+given nr       test  9, ariley03 passed
+given nr       test  9, agallant passed
+given nr       test  9, jpearl05 passed
+given nr       test  9, bsumne01 passed
+given nr       test  9, tsoule01 passed
+given nr       test  9, hnasar01 passed
+given nr       test  9, mrusse03 passed
+given nr       test  9, adreyf01 errored -- Compute Natural 571258205957021326093 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test  9, dwhitn01 passed
+given nr       test  9, sgardn04 passed
+given nr       test  9, jaltre01 passed
+given nr       test  9, nbugas01 failed -- Compute Natural 571258205957021326093 using only 1, 0, and +, but your code computed "3".
+given nr       test  9, mleise01 passed
+given nr       test 10, jkenne05 passed
+given nr       test 10, hlin02   passed
+given nr       test 10, esalow01 passed
+given nr       test 10, bkolta01 passed
+given nr       test 10, gong01   errored -- Compute Natural 3 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 10, nr       passed
+given nr       test 10, bjorda02 passed
+given nr       test 10, kmcneely passed
+given nr       test 10, jtan03   failed -- Compute Natural 3 using only 1, 0, and +, but your code computed "List( 3 )".
+given nr       test 10, rmonde01 passed
+given nr       test 10, ariley03 passed
+given nr       test 10, agallant passed
+given nr       test 10, jpearl05 passed
+given nr       test 10, bsumne01 passed
+given nr       test 10, tsoule01 passed
+given nr       test 10, hnasar01 passed
+given nr       test 10, mrusse03 passed
+given nr       test 10, adreyf01 errored -- Compute Natural 3 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 10, dwhitn01 passed
+given nr       test 10, sgardn04 passed
+given nr       test 10, jaltre01 passed
+given nr       test 10, nbugas01 passed
+given nr       test 10, mleise01 passed
+given nr       test 11, jkenne05 passed
+given nr       test 11, hlin02   passed
+given nr       test 11, esalow01 passed
+given nr       test 11, bkolta01 passed
+given nr       test 11, gong01   errored -- Compute Natural 347 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 11, nr       passed
+given nr       test 11, bjorda02 passed
+given nr       test 11, kmcneely passed
+given nr       test 11, jtan03   failed -- Compute Natural 347 using only 1, 0, and +, but your code computed "List( 3 4 7 )".
+given nr       test 11, rmonde01 passed
+given nr       test 11, ariley03 passed
+given nr       test 11, agallant passed
+given nr       test 11, jpearl05 passed
+given nr       test 11, bsumne01 passed
+given nr       test 11, tsoule01 passed
+given nr       test 11, hnasar01 passed
+given nr       test 11, mrusse03 passed
+given nr       test 11, adreyf01 errored -- Compute Natural 347 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 11, dwhitn01 passed
+given nr       test 11, sgardn04 passed
+given nr       test 11, jaltre01 passed
+given nr       test 11, nbugas01 failed -- Compute Natural 347 using only 1, 0, and +, but your code computed "7".
+given nr       test 11, mleise01 passed
+given nr       test 12, jkenne05 passed
+given nr       test 12, hlin02   passed
+given nr       test 12, esalow01 passed
+given nr       test 12, bkolta01 passed
+given nr       test 12, gong01   errored -- Compute Natural 21743397816 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 12, nr       passed
+given nr       test 12, bjorda02 passed
+given nr       test 12, kmcneely passed
+given nr       test 12, jtan03   failed -- Compute Natural 21743397816 using only 1, 0, and +, but your code computed "List( 2 1 7 4 3 3 9 7 8 1 6 )".
+given nr       test 12, rmonde01 passed
+given nr       test 12, ariley03 passed
+given nr       test 12, agallant passed
+given nr       test 12, jpearl05 passed
+given nr       test 12, bsumne01 passed
+given nr       test 12, tsoule01 passed
+given nr       test 12, hnasar01 passed
+given nr       test 12, mrusse03 passed
+given nr       test 12, adreyf01 errored -- Compute Natural 21743397816 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 12, dwhitn01 passed
+given nr       test 12, sgardn04 passed
+given nr       test 12, jaltre01 passed
+given nr       test 12, nbugas01 failed -- Compute Natural 21743397816 using only 1, 0, and +, but your code computed "56".
+given nr       test 12, mleise01 passed
+given nr       test 13, jkenne05 passed
+given nr       test 13, hlin02   passed
+given nr       test 13, esalow01 passed
+given nr       test 13, bkolta01 passed
+given nr       test 13, gong01   errored -- Compute Natural 710715597893276586629 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 13, nr       passed
+given nr       test 13, bjorda02 passed
+given nr       test 13, kmcneely passed
+given nr       test 13, jtan03   failed -- Compute Natural 710715597893276586629 using only 1, 0, and +, but your code computed "List( 7 1 0 7 1 5 5 9 7 8 9 3 2 7 6 5 8 6 6 2 9 )".
+given nr       test 13, rmonde01 passed
+given nr       test 13, ariley03 passed
+given nr       test 13, agallant passed
+given nr       test 13, jpearl05 passed
+given nr       test 13, bsumne01 passed
+given nr       test 13, tsoule01 passed
+given nr       test 13, hnasar01 passed
+given nr       test 13, mrusse03 passed
+given nr       test 13, adreyf01 errored -- Compute Natural 710715597893276586629 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 13, dwhitn01 passed
+given nr       test 13, sgardn04 passed
+given nr       test 13, jaltre01 passed
+given nr       test 13, nbugas01 failed -- Compute Natural 710715597893276586629 using only 1, 0, and +, but your code computed "9".
+given nr       test 13, mleise01 passed
+given nr       test 14, jkenne05 passed
+given nr       test 14, hlin02   passed
+given nr       test 14, esalow01 passed
+given nr       test 14, bkolta01 passed
+given nr       test 14, gong01   errored -- Compute Natural 5 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 14, nr       passed
+given nr       test 14, bjorda02 passed
+given nr       test 14, kmcneely passed
+given nr       test 14, jtan03   failed -- Compute Natural 5 using only 1, 0, and +, but your code computed "List( 5 )".
+given nr       test 14, rmonde01 passed
+given nr       test 14, ariley03 passed
+given nr       test 14, agallant passed
+given nr       test 14, jpearl05 passed
+given nr       test 14, bsumne01 passed
+given nr       test 14, tsoule01 passed
+given nr       test 14, hnasar01 passed
+given nr       test 14, mrusse03 passed
+given nr       test 14, adreyf01 errored -- Compute Natural 5 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 14, dwhitn01 passed
+given nr       test 14, sgardn04 passed
+given nr       test 14, jaltre01 passed
+given nr       test 14, nbugas01 passed
+given nr       test 14, mleise01 passed
+given nr       test 15, jkenne05 passed
+given nr       test 15, hlin02   passed
+given nr       test 15, esalow01 passed
+given nr       test 15, bkolta01 passed
+given nr       test 15, gong01   errored -- Compute Natural 7 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 15, nr       passed
+given nr       test 15, bjorda02 passed
+given nr       test 15, kmcneely passed
+given nr       test 15, jtan03   failed -- Compute Natural 7 using only 1, 0, and +, but your code computed "List( 7 )".
+given nr       test 15, rmonde01 passed
+given nr       test 15, ariley03 passed
+given nr       test 15, agallant passed
+given nr       test 15, jpearl05 passed
+given nr       test 15, bsumne01 passed
+given nr       test 15, tsoule01 passed
+given nr       test 15, hnasar01 passed
+given nr       test 15, mrusse03 passed
+given nr       test 15, adreyf01 errored -- Compute Natural 7 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 15, dwhitn01 passed
+given nr       test 15, sgardn04 passed
+given nr       test 15, jaltre01 passed
+given nr       test 15, nbugas01 passed
+given nr       test 15, mleise01 passed
+given nr       test 16, jkenne05 passed
+given nr       test 16, hlin02   passed
+given nr       test 16, esalow01 passed
+given nr       test 16, bkolta01 passed
+given nr       test 16, gong01   errored -- Compute Natural 583 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 16, nr       passed
+given nr       test 16, bjorda02 passed
+given nr       test 16, kmcneely passed
+given nr       test 16, jtan03   failed -- Compute Natural 583 using only 1, 0, and +, but your code computed "List( 5 8 3 )".
+given nr       test 16, rmonde01 passed
+given nr       test 16, ariley03 passed
+given nr       test 16, agallant passed
+given nr       test 16, jpearl05 passed
+given nr       test 16, bsumne01 passed
+given nr       test 16, tsoule01 passed
+given nr       test 16, hnasar01 passed
+given nr       test 16, mrusse03 passed
+given nr       test 16, adreyf01 errored -- Compute Natural 583 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 16, dwhitn01 passed
+given nr       test 16, sgardn04 passed
+given nr       test 16, jaltre01 passed
+given nr       test 16, nbugas01 failed -- Compute Natural 583 using only 1, 0, and +, but your code computed "3".
+given nr       test 16, mleise01 passed
+given nr       test 17, jkenne05 passed
+given nr       test 17, hlin02   passed
+given nr       test 17, esalow01 passed
+given nr       test 17, bkolta01 passed
+given nr       test 17, gong01   errored -- Compute Natural 19461676896 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 17, nr       passed
+given nr       test 17, bjorda02 passed
+given nr       test 17, kmcneely passed
+given nr       test 17, jtan03   failed -- Compute Natural 19461676896 using only 1, 0, and +, but your code computed "List( 1 9 4 6 1 6 7 6 8 9 6 )".
+given nr       test 17, rmonde01 passed
+given nr       test 17, ariley03 passed
+given nr       test 17, agallant passed
+given nr       test 17, jpearl05 passed
+given nr       test 17, bsumne01 passed
+given nr       test 17, tsoule01 passed
+given nr       test 17, hnasar01 passed
+given nr       test 17, mrusse03 passed
+given nr       test 17, adreyf01 errored -- Compute Natural 19461676896 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 17, dwhitn01 passed
+given nr       test 17, sgardn04 passed
+given nr       test 17, jaltre01 passed
+given nr       test 17, nbugas01 failed -- Compute Natural 19461676896 using only 1, 0, and +, but your code computed "96".
+given nr       test 17, mleise01 passed
+given nr       test 18, jkenne05 passed
+given nr       test 18, hlin02   passed
+given nr       test 18, esalow01 passed
+given nr       test 18, bkolta01 passed
+given nr       test 18, gong01   errored -- Compute Natural 586918133272574773603 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 18, nr       passed
+given nr       test 18, bjorda02 passed
+given nr       test 18, kmcneely passed
+given nr       test 18, jtan03   failed -- Compute Natural 586918133272574773603 using only 1, 0, and +, but your code computed "List( 5 8 6 9 1 8 1 3 3 2 7 2 5 7 4 7 7 3 6 0 3 )".
+given nr       test 18, rmonde01 passed
+given nr       test 18, ariley03 passed
+given nr       test 18, agallant passed
+given nr       test 18, jpearl05 passed
+given nr       test 18, bsumne01 passed
+given nr       test 18, tsoule01 passed
+given nr       test 18, hnasar01 passed
+given nr       test 18, mrusse03 passed
+given nr       test 18, adreyf01 errored -- Compute Natural 586918133272574773603 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 18, dwhitn01 passed
+given nr       test 18, sgardn04 passed
+given nr       test 18, jaltre01 passed
+given nr       test 18, nbugas01 failed -- Compute Natural 586918133272574773603 using only 1, 0, and +, but your code computed "3".
+given nr       test 18, mleise01 passed
+given nr       test 19, jkenne05 passed
+given nr       test 19, hlin02   passed
+given nr       test 19, esalow01 passed
+given nr       test 19, bkolta01 passed
+given nr       test 19, gong01   errored -- Compute Natural 335 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 19, nr       passed
+given nr       test 19, bjorda02 passed
+given nr       test 19, kmcneely passed
+given nr       test 19, jtan03   failed -- Compute Natural 335 using only 1, 0, and +, but your code computed "List( 3 3 5 )".
+given nr       test 19, rmonde01 passed
+given nr       test 19, ariley03 passed
+given nr       test 19, agallant passed
+given nr       test 19, jpearl05 passed
+given nr       test 19, bsumne01 passed
+given nr       test 19, tsoule01 passed
+given nr       test 19, hnasar01 passed
+given nr       test 19, mrusse03 passed
+given nr       test 19, adreyf01 errored -- Compute Natural 335 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 19, dwhitn01 passed
+given nr       test 19, sgardn04 passed
+given nr       test 19, jaltre01 passed
+given nr       test 19, nbugas01 failed -- Compute Natural 335 using only 1, 0, and +, but your code computed "5".
+given nr       test 19, mleise01 passed
+given nr       test 20, jkenne05 passed
+given nr       test 20, hlin02   passed
+given nr       test 20, esalow01 passed
+given nr       test 20, bkolta01 passed
+given nr       test 20, gong01   errored -- Compute Natural 1329349041 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 20, nr       passed
+given nr       test 20, bjorda02 passed
+given nr       test 20, kmcneely passed
+given nr       test 20, jtan03   failed -- Compute Natural 1329349041 using only 1, 0, and +, but your code computed "List( 1 3 2 9 3 4 9 0 4 1 )".
+given nr       test 20, rmonde01 passed
+given nr       test 20, ariley03 passed
+given nr       test 20, agallant passed
+given nr       test 20, jpearl05 passed
+given nr       test 20, bsumne01 passed
+given nr       test 20, tsoule01 passed
+given nr       test 20, hnasar01 passed
+given nr       test 20, mrusse03 passed
+given nr       test 20, adreyf01 errored -- Compute Natural 1329349041 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 20, dwhitn01 passed
+given nr       test 20, sgardn04 passed
+given nr       test 20, jaltre01 passed
+given nr       test 20, nbugas01 failed -- Compute Natural 1329349041 using only 1, 0, and +, but your code computed "1".
+given nr       test 20, mleise01 passed
+given nr       test 21, jkenne05 passed
+given nr       test 21, hlin02   passed
+given nr       test 21, esalow01 passed
+given nr       test 21, bkolta01 passed
+given nr       test 21, gong01   errored -- Compute Natural 216061169032802526718 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +".
+given nr       test 21, nr       passed
+given nr       test 21, bjorda02 passed
+given nr       test 21, kmcneely passed
+given nr       test 21, jtan03   failed -- Compute Natural 216061169032802526718 using only 1, 0, and +, but your code computed "List( 2 1 6 0 6 1 1 6 9 0 3 2 8 0 2 5 2 6 7 1 8 )".
+given nr       test 21, rmonde01 passed
+given nr       test 21, ariley03 passed
+given nr       test 21, agallant passed
+given nr       test 21, jpearl05 passed
+given nr       test 21, bsumne01 passed
+given nr       test 21, tsoule01 passed
+given nr       test 21, hnasar01 passed
+given nr       test 21, mrusse03 passed
+given nr       test 21, adreyf01 errored -- Compute Natural 216061169032802526718 using only 1, 0, and +, but your code failed with the error message "array subscript out of bounds".
+given nr       test 21, dwhitn01 passed
+given nr       test 21, sgardn04 passed
+given nr       test 21, jaltre01 passed
+given nr       test 21, nbugas01 failed -- Compute Natural 216061169032802526718 using only 1, 0, and +, but your code computed "18".
+given nr       test 21, mleise01 passed

@@ -1,0 +1,216 @@
+given nr       test  1, hlin02   passed
+given nr       test  1, zabram02 passed
+given nr       test  1, gong01   passed
+given nr       test  1, bjorda02 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "S (S (S (S (S (S \z.z (\x.\y.y) \x.\y.x)))))".
+given nr       test  1, jtan03   passed
+given nr       test  1, jwelch01 passed
+given nr       test  1, hnasar01 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "\x.Z (S Z x) \w.\y.\x.y (w y x) \w.\y.\x.y (w y x) \w.\y.\x.y (w y x) \w.\y.\x.y (w y x) \y.\s.\z.z \s.\z.z".
+given nr       test  1, sbidwe01 passed
+given nr       test  1, mleise01 passed
+given nr       test  1, dkass01  passed
+given nr       test  1, npalmo01 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "S (\m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) (\m.\f.f (\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) \m.\f.f (\m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) \m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) Z".
+given nr       test  1, bsumne01 passed
+given nr       test  1, jkenne05 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "S (\f.\x.f (f (f (f x)))) \f.\x.f (f (f x))".
+given nr       test  1, esalow01 passed
+given nr       test  1, bkolta01 passed
+given nr       test  1, asamps01 passed
+given nr       test  1, kmcneely passed
+given nr       test  1, jpearl05 passed
+given nr       test  1, jbryan04 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "pred (\f.\x.f (f (f (f (f (f x)))))) S Z".
+given nr       test  1, ariley03 passed
+given nr       test  1, mdarsn01 passed
+given nr       test  1, rmonde01 passed
+given nr       test  1, xzhang01 passed
+given nr       test  1, mrusse03 passed
+given nr       test  1, dreedy01 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "S (\f.\x.f (f (f (f x)))) \f.\x.f (f (f x))".
+given nr       test  1, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  1, adreyf01 passed
+given nr       test  1, tsoule01 passed
+given nr       test  1, agallant passed
+given nr       test  1, jkang09  failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "\f.\x.f (f (f (f (f x))))".
+given nr       test  1, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  1, dwhitn01 passed
+given nr       test  1, sgardn04 failed -- We expected term "pred (succ 5)" to reduce to "S (S (S (S (S Z))))", but using your definitions, it reduced to "\f.\l1.f (f (f (f (f l1))))".
+given nr       test  1, jaltre01 passed
+given nr       test  1, nbugas01 passed
+given nr       test  1, blarsen  passed
+given nr       test  2, hlin02   passed
+given nr       test  2, zabram02 passed
+given nr       test  2, gong01   passed
+given nr       test  2, bjorda02 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "S (S (S (S \z.z (\x.\y.y) \x.\y.x)))".
+given nr       test  2, jtan03   passed
+given nr       test  2, jwelch01 passed
+given nr       test  2, hnasar01 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "\x.Z (S Z x) \w.\y.\x.y (w y x) \w.\y.\x.y (w y x) \y.\s.\z.z \s.\z.z".
+given nr       test  2, sbidwe01 passed
+given nr       test  2, mleise01 passed
+given nr       test  2, dkass01  passed
+given nr       test  2, npalmo01 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "S (\m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) (\m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) Z".
+given nr       test  2, bsumne01 passed
+given nr       test  2, jkenne05 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "S (\f.\x.f (f (f x))) \f.\x.f (f x)".
+given nr       test  2, esalow01 passed
+given nr       test  2, bkolta01 passed
+given nr       test  2, asamps01 passed
+given nr       test  2, kmcneely passed
+given nr       test  2, jpearl05 passed
+given nr       test  2, jbryan04 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "pred (\f.\x.f (f (f (f x)))) S Z".
+given nr       test  2, ariley03 passed
+given nr       test  2, mdarsn01 passed
+given nr       test  2, rmonde01 passed
+given nr       test  2, xzhang01 passed
+given nr       test  2, mrusse03 passed
+given nr       test  2, dreedy01 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "S (\f.\x.f (f (f x))) \f.\x.f (f x)".
+given nr       test  2, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  2, adreyf01 passed
+given nr       test  2, tsoule01 passed
+given nr       test  2, agallant passed
+given nr       test  2, jkang09  failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "\f.\x.f (f (f x))".
+given nr       test  2, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  2, dwhitn01 passed
+given nr       test  2, sgardn04 failed -- We expected term "pred (succ 3)" to reduce to "S (S (S Z))", but using your definitions, it reduced to "\f.\l1.f (f (f l1))".
+given nr       test  2, jaltre01 passed
+given nr       test  2, nbugas01 passed
+given nr       test  2, blarsen  passed
+given nr       test  3, hlin02   passed
+given nr       test  3, zabram02 passed
+given nr       test  3, gong01   passed
+given nr       test  3, bjorda02 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (S \z.z (\x.\y.y) \x.\y.x)".
+given nr       test  3, jtan03   passed
+given nr       test  3, jwelch01 passed
+given nr       test  3, hnasar01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "\x.Z (S Z x) \y.\s.\z.z \s.\z.z".
+given nr       test  3, sbidwe01 passed
+given nr       test  3, mleise01 passed
+given nr       test  3, dkass01  passed
+given nr       test  3, npalmo01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\z.z (\f.\x.x) \f.\x.x) (\m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) Z".
+given nr       test  3, bsumne01 passed
+given nr       test  3, jkenne05 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\f.\x.f (f x)) \f.f".
+given nr       test  3, esalow01 passed
+given nr       test  3, bkolta01 passed
+given nr       test  3, asamps01 passed
+given nr       test  3, kmcneely passed
+given nr       test  3, jpearl05 passed
+given nr       test  3, jbryan04 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "pred (\f.\x.f (f x)) S Z".
+given nr       test  3, ariley03 passed
+given nr       test  3, mdarsn01 passed
+given nr       test  3, rmonde01 passed
+given nr       test  3, xzhang01 passed
+given nr       test  3, mrusse03 passed
+given nr       test  3, dreedy01 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "S (\f.\x.f (f x)) \f.f".
+given nr       test  3, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  3, adreyf01 passed
+given nr       test  3, tsoule01 passed
+given nr       test  3, agallant passed
+given nr       test  3, jkang09  failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "\f.f".
+given nr       test  3, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  3, dwhitn01 passed
+given nr       test  3, sgardn04 failed -- We expected term "pred (succ 1)" to reduce to "S Z", but using your definitions, it reduced to "\f.f".
+given nr       test  3, jaltre01 passed
+given nr       test  3, nbugas01 passed
+given nr       test  3, blarsen  passed
+given nr       test  4, hlin02   passed
+given nr       test  4, zabram02 passed
+given nr       test  4, gong01   passed
+given nr       test  4, bjorda02 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "S (S (S \z.z (\x.\y.y) \x.\y.x))".
+given nr       test  4, jtan03   passed
+given nr       test  4, jwelch01 passed
+given nr       test  4, hnasar01 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "\x.Z (S Z x) \w.\y.\x.y (w y x) \y.\s.\z.z \s.\z.z".
+given nr       test  4, sbidwe01 passed
+given nr       test  4, mleise01 passed
+given nr       test  4, dkass01  passed
+given nr       test  4, npalmo01 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "S (\z.z (\f.\x.x) \f.\x.x) (\m.\f.f (\z.z (\f.\x.x) \f.\x.x) \m.\f.f (\x.x) \z.z (\f.\x.x) \f.\x.x) Z".
+given nr       test  4, bsumne01 passed
+given nr       test  4, jkenne05 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "Z".
+given nr       test  4, esalow01 passed
+given nr       test  4, bkolta01 passed
+given nr       test  4, asamps01 passed
+given nr       test  4, kmcneely passed
+given nr       test  4, jpearl05 passed
+given nr       test  4, jbryan04 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "pred (\f.\x.f (f (f x))) S Z".
+given nr       test  4, ariley03 passed
+given nr       test  4, mdarsn01 passed
+given nr       test  4, rmonde01 passed
+given nr       test  4, xzhang01 passed
+given nr       test  4, mrusse03 passed
+given nr       test  4, dreedy01 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "Z".
+given nr       test  4, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  4, adreyf01 passed
+given nr       test  4, tsoule01 passed
+given nr       test  4, agallant passed
+given nr       test  4, jkang09  failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "\f.\x.f (f x)".
+given nr       test  4, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  4, dwhitn01 passed
+given nr       test  4, sgardn04 failed -- We expected term "pred (succ 2)" to reduce to "S (S Z)", but using your definitions, it reduced to "\f.\l1.f (f l1)".
+given nr       test  4, jaltre01 passed
+given nr       test  4, nbugas01 passed
+given nr       test  4, blarsen  passed
+given nr       test  5, hlin02   passed
+given nr       test  5, zabram02 passed
+given nr       test  5, gong01   passed
+given nr       test  5, bjorda02 failed -- We expected term "pred 0" to reduce to "Z", but using your definitions, it reduced to "\z.z (\x.\y.y) \x.\y.x".
+given nr       test  5, jtan03   passed
+given nr       test  5, jwelch01 passed
+given nr       test  5, hnasar01 failed -- We expected term "pred 0" to reduce to "Z", but using your definitions, it reduced to "S Z".
+given nr       test  5, sbidwe01 passed
+given nr       test  5, mleise01 passed
+given nr       test  5, dkass01  passed
+given nr       test  5, npalmo01 passed
+given nr       test  5, bsumne01 passed
+given nr       test  5, jkenne05 passed
+given nr       test  5, esalow01 passed
+given nr       test  5, bkolta01 passed
+given nr       test  5, asamps01 passed
+given nr       test  5, kmcneely passed
+given nr       test  5, jpearl05 passed
+given nr       test  5, jbryan04 failed -- We expected term "pred 0" to reduce to "Z", but using your definitions, it reduced to "pred (\f.\x.x) S Z".
+given nr       test  5, ariley03 passed
+given nr       test  5, mdarsn01 passed
+given nr       test  5, rmonde01 passed
+given nr       test  5, xzhang01 passed
+given nr       test  5, mrusse03 passed
+given nr       test  5, dreedy01 passed
+given nr       test  5, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  5, adreyf01 passed
+given nr       test  5, tsoule01 passed
+given nr       test  5, agallant passed
+given nr       test  5, jkang09  failed -- We expected term "pred 0" to reduce to "Z", but using your definitions, it reduced to "\f.\x.x".
+given nr       test  5, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  5, dwhitn01 passed
+given nr       test  5, sgardn04 failed -- We expected term "pred 0" to reduce to "Z", but using your definitions, it reduced to "\f.\x.x".
+given nr       test  5, jaltre01 passed
+given nr       test  5, nbugas01 passed
+given nr       test  5, blarsen  passed
+given nr       test  6, hlin02   passed
+given nr       test  6, zabram02 passed
+given nr       test  6, gong01   passed
+given nr       test  6, bjorda02 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "S \z.z (\x.\y.y) \x.\y.x".
+given nr       test  6, jtan03   passed
+given nr       test  6, jwelch01 passed
+given nr       test  6, hnasar01 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "\z.z \s.\z.z".
+given nr       test  6, sbidwe01 passed
+given nr       test  6, mleise01 passed
+given nr       test  6, dkass01  passed
+given nr       test  6, npalmo01 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "S (\x.x) (\z.z (\f.\x.x) \f.\x.x) Z".
+given nr       test  6, bsumne01 passed
+given nr       test  6, jkenne05 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "\x.x".
+given nr       test  6, esalow01 passed
+given nr       test  6, bkolta01 passed
+given nr       test  6, asamps01 passed
+given nr       test  6, kmcneely passed
+given nr       test  6, jpearl05 passed
+given nr       test  6, jbryan04 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "pred (\f.f) S Z".
+given nr       test  6, ariley03 passed
+given nr       test  6, mdarsn01 passed
+given nr       test  6, rmonde01 passed
+given nr       test  6, xzhang01 passed
+given nr       test  6, mrusse03 passed
+given nr       test  6, dreedy01 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "\x.x".
+given nr       test  6, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  6, adreyf01 passed
+given nr       test  6, tsoule01 passed
+given nr       test  6, agallant passed
+given nr       test  6, jkang09  failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "\f.\x.x".
+given nr       test  6, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  6, dwhitn01 passed
+given nr       test  6, sgardn04 failed -- We expected term "pred (succ 0)" to reduce to "Z", but using your definitions, it reduced to "\f.\x.x".
+given nr       test  6, jaltre01 passed
+given nr       test  6, nbugas01 passed
+given nr       test  6, blarsen  passed

@@ -1,0 +1,21 @@
+given jkenne05 test  1, jaltre01 passed
+given esalow01 test  1, jaltre01 passed
+given bkolta01 test  1, jaltre01 passed
+given gong01   test  1, jaltre01 passed
+given bjorda02 test  1, jaltre01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given kmcneely test  1, jaltre01 passed
+given jtan03   test  1, jaltre01 passed
+given agallant test  1, jaltre01 passed
+given jaltre01 test  1, jaltre01 passed
+given ariley03 test  1, jaltre01 passed
+given mleise01 test  1, jaltre01 timeout -- CPU time limit exceeded running ''mixed <, 50 factorial, sum large and small''
+given jpearl05 test  1, jaltre01 timeout -- CPU time limit exceeded running ''overflow, combos of big+, big-, small on several ops''
+given hnasar01 test  1, jaltre01 timeout -- CPU time limit exceeded running ''* on small and large integers''
+given tsoule01 test  1, jaltre01 passed
+given mrusse03 test  1, jaltre01 passed
+given adreyf01 test  1, jaltre01 passed
+given dwhitn01 test  1, jaltre01 passed
+given sgardn04 test  1, jaltre01 passed
+given bsumne01 test  1, jaltre01 passed
+given nbugas01 test  1, jaltre01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given rmonde01 test  1, jaltre01 passed

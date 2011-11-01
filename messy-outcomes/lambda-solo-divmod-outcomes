@@ -1,0 +1,576 @@
+given nr       test  1, hlin02   passed
+given nr       test  1, zabram02 passed
+given nr       test  1, gong01   failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.x".
+given nr       test  1, bjorda02 diverged -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  1, jtan03   passed
+given nr       test  1, jwelch01 passed
+given nr       test  1, hnasar01 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  1, sbidwe01 passed
+given nr       test  1, mleise01 passed
+given nr       test  1, dkass01  passed
+given nr       test  1, npalmo01 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  1, bsumne01 passed
+given nr       test  1, jkenne05 passed
+given nr       test  1, esalow01 passed
+given nr       test  1, bkolta01 passed
+given nr       test  1, asamps01 passed
+given nr       test  1, kmcneely failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S (S (S (S (S Z)))))".
+given nr       test  1, jpearl05 passed
+given nr       test  1, jbryan04 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  1, ariley03 passed
+given nr       test  1, mdarsn01 diverged -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  1, rmonde01 passed
+given nr       test  1, xzhang01 passed
+given nr       test  1, mrusse03 passed
+given nr       test  1, dreedy01 passed
+given nr       test  1, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  1, adreyf01 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.x".
+given nr       test  1, tsoule01 passed
+given nr       test  1, agallant passed
+given nr       test  1, jkang09  failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\y.y".
+given nr       test  1, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  1, dwhitn01 passed
+given nr       test  1, sgardn04 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (PAIR (PAIR (PAIR (x S Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (y S Z)".
+given nr       test  1, jaltre01 failed -- We expected term "divmod 5 5" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  1, nbugas01 passed
+given nr       test  1, blarsen  passed
+given nr       test  2, hlin02   passed
+given nr       test  2, zabram02 passed
+given nr       test  2, gong01   failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "\x.x".
+given nr       test  2, bjorda02 diverged -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but your code diverged.
+given nr       test  2, jtan03   passed
+given nr       test  2, jwelch01 passed
+given nr       test  2, hnasar01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  2, sbidwe01 passed
+given nr       test  2, mleise01 passed
+given nr       test  2, dkass01  passed
+given nr       test  2, npalmo01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  2, bsumne01 passed
+given nr       test  2, jkenne05 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S (S (S (S (S Z)))))".
+given nr       test  2, esalow01 passed
+given nr       test  2, bkolta01 passed
+given nr       test  2, asamps01 passed
+given nr       test  2, kmcneely failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "PAIR (S (S Z)) (S (S Z))".
+given nr       test  2, jpearl05 passed
+given nr       test  2, jbryan04 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  2, ariley03 passed
+given nr       test  2, mdarsn01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "\x.\y.y".
+given nr       test  2, rmonde01 passed
+given nr       test  2, xzhang01 passed
+given nr       test  2, mrusse03 passed
+given nr       test  2, dreedy01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S (S (S (S (S Z)))))".
+given nr       test  2, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  2, adreyf01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "\f.f (\f.\x.f (f (f (PAIR (f S Z) (x S Z))))) \f.f".
+given nr       test  2, tsoule01 passed
+given nr       test  2, agallant passed
+given nr       test  2, jkang09  diverged -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but your code diverged.
+given nr       test  2, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  2, dwhitn01 passed
+given nr       test  2, sgardn04 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (PAIR (PAIR (PAIR (x S Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (y S Z)".
+given nr       test  2, jaltre01 failed -- We expected term "divmod 5 2" to reduce to "PAIR (S (S Z)) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  2, nbugas01 passed
+given nr       test  2, blarsen  passed
+given nr       test  3, hlin02   passed
+given nr       test  3, zabram02 passed
+given nr       test  3, gong01   failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "\x.x".
+given nr       test  3, bjorda02 diverged -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but your code diverged.
+given nr       test  3, jtan03   passed
+given nr       test  3, jwelch01 passed
+given nr       test  3, hnasar01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  3, sbidwe01 passed
+given nr       test  3, mleise01 passed
+given nr       test  3, dkass01  passed
+given nr       test  3, npalmo01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  3, bsumne01 passed
+given nr       test  3, jkenne05 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test  3, esalow01 passed
+given nr       test  3, bkolta01 passed
+given nr       test  3, asamps01 passed
+given nr       test  3, kmcneely failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "PAIR (S Z) (S (S (S Z)))".
+given nr       test  3, jpearl05 passed
+given nr       test  3, jbryan04 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  3, ariley03 passed
+given nr       test  3, mdarsn01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "\y.y".
+given nr       test  3, rmonde01 passed
+given nr       test  3, xzhang01 passed
+given nr       test  3, mrusse03 passed
+given nr       test  3, dreedy01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test  3, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  3, adreyf01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "\f.f (\f.\x.f (f (PAIR (f S Z) (x S Z)))) \f.f".
+given nr       test  3, tsoule01 passed
+given nr       test  3, agallant passed
+given nr       test  3, jkang09  failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "\y.y".
+given nr       test  3, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  3, dwhitn01 passed
+given nr       test  3, sgardn04 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (PAIR (PAIR (PAIR (x S Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (S S Z) Z) (y S Z)".
+given nr       test  3, jaltre01 failed -- We expected term "divmod 5 3" to reduce to "PAIR (S Z) (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  3, nbugas01 passed
+given nr       test  3, blarsen  passed
+given nr       test  4, hlin02   passed
+given nr       test  4, zabram02 passed
+given nr       test  4, gong01   failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "\x.x".
+given nr       test  4, bjorda02 diverged -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but your code diverged.
+given nr       test  4, jtan03   diverged -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but your code diverged.
+given nr       test  4, jwelch01 passed
+given nr       test  4, hnasar01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  4, sbidwe01 passed
+given nr       test  4, mleise01 passed
+given nr       test  4, dkass01  passed
+given nr       test  4, npalmo01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  4, bsumne01 passed
+given nr       test  4, jkenne05 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "PAIR (S (S Z)) \x.Z (Z x)".
+given nr       test  4, esalow01 passed
+given nr       test  4, bkolta01 passed
+given nr       test  4, asamps01 passed
+given nr       test  4, kmcneely failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "PAIR (S (S (S (S Z)))) (S Z)".
+given nr       test  4, jpearl05 passed
+given nr       test  4, jbryan04 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  4, ariley03 passed
+given nr       test  4, mdarsn01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "\y.\x.\y.y".
+given nr       test  4, rmonde01 passed
+given nr       test  4, xzhang01 passed
+given nr       test  4, mrusse03 passed
+given nr       test  4, dreedy01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S (\f.\x.f (f x)) \f.f)".
+given nr       test  4, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  4, adreyf01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (f (f (f (f (PAIR (f S Z) (x S Z))))))) \f.\x.x".
+given nr       test  4, tsoule01 passed
+given nr       test  4, agallant passed
+given nr       test  4, jkang09  failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "PAIR Z (S (S (S (S (S Z)))))".
+given nr       test  4, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  4, dwhitn01 passed
+given nr       test  4, sgardn04 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "PAIR Z (S (S (S (S (S Z)))))".
+given nr       test  4, jaltre01 failed -- We expected term "divmod 5 1" to reduce to "PAIR (S (S (S (S (S Z))))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f (f (f x))))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  4, nbugas01 passed
+given nr       test  4, blarsen  passed
+given nr       test  5, hlin02   passed
+given nr       test  5, zabram02 passed
+given nr       test  5, gong01   failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.x".
+given nr       test  5, bjorda02 diverged -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  5, jtan03   passed
+given nr       test  5, jwelch01 passed
+given nr       test  5, hnasar01 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  5, sbidwe01 passed
+given nr       test  5, mleise01 passed
+given nr       test  5, dkass01  passed
+given nr       test  5, npalmo01 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  5, bsumne01 passed
+given nr       test  5, jkenne05 passed
+given nr       test  5, esalow01 passed
+given nr       test  5, bkolta01 passed
+given nr       test  5, asamps01 passed
+given nr       test  5, kmcneely failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test  5, jpearl05 passed
+given nr       test  5, jbryan04 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  5, ariley03 passed
+given nr       test  5, mdarsn01 diverged -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  5, rmonde01 passed
+given nr       test  5, xzhang01 passed
+given nr       test  5, mrusse03 passed
+given nr       test  5, dreedy01 passed
+given nr       test  5, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  5, adreyf01 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.x".
+given nr       test  5, tsoule01 passed
+given nr       test  5, agallant passed
+given nr       test  5, jkang09  failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\y.y".
+given nr       test  5, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  5, dwhitn01 passed
+given nr       test  5, sgardn04 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (PAIR (x S Z) (S S Z) Z) (S S Z) Z) (y S Z)".
+given nr       test  5, jaltre01 failed -- We expected term "divmod 3 3" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  5, nbugas01 passed
+given nr       test  5, blarsen  passed
+given nr       test  6, hlin02   passed
+given nr       test  6, zabram02 passed
+given nr       test  6, gong01   failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "\x.x".
+given nr       test  6, bjorda02 diverged -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but your code diverged.
+given nr       test  6, jtan03   passed
+given nr       test  6, jwelch01 passed
+given nr       test  6, hnasar01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  6, sbidwe01 passed
+given nr       test  6, mleise01 passed
+given nr       test  6, dkass01  passed
+given nr       test  6, npalmo01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  6, bsumne01 passed
+given nr       test  6, jkenne05 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S (S (S Z)))".
+given nr       test  6, esalow01 passed
+given nr       test  6, bkolta01 passed
+given nr       test  6, asamps01 passed
+given nr       test  6, kmcneely failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S (S Z))".
+given nr       test  6, jpearl05 passed
+given nr       test  6, jbryan04 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  6, ariley03 passed
+given nr       test  6, mdarsn01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "\x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  6, rmonde01 passed
+given nr       test  6, xzhang01 passed
+given nr       test  6, mrusse03 passed
+given nr       test  6, dreedy01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S (S (S Z)))".
+given nr       test  6, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  6, adreyf01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "\f.f (\f.\x.f (f (PAIR (f S Z) (x S Z)))) \f.f".
+given nr       test  6, tsoule01 passed
+given nr       test  6, agallant passed
+given nr       test  6, jkang09  diverged -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but your code diverged.
+given nr       test  6, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  6, dwhitn01 passed
+given nr       test  6, sgardn04 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (PAIR (x S Z) (S S Z) Z) (S S Z) Z) (y S Z)".
+given nr       test  6, jaltre01 failed -- We expected term "divmod 3 2" to reduce to "PAIR (S Z) (S Z)", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  6, nbugas01 passed
+given nr       test  6, blarsen  passed
+given nr       test  7, hlin02   passed
+given nr       test  7, zabram02 passed
+given nr       test  7, gong01   failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "\x.x".
+given nr       test  7, bjorda02 diverged -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but your code diverged.
+given nr       test  7, jtan03   diverged -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but your code diverged.
+given nr       test  7, jwelch01 passed
+given nr       test  7, hnasar01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  7, sbidwe01 passed
+given nr       test  7, mleise01 passed
+given nr       test  7, dkass01  passed
+given nr       test  7, npalmo01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  7, bsumne01 passed
+given nr       test  7, jkenne05 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test  7, esalow01 passed
+given nr       test  7, bkolta01 passed
+given nr       test  7, asamps01 passed
+given nr       test  7, kmcneely failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S Z)".
+given nr       test  7, jpearl05 passed
+given nr       test  7, jbryan04 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  7, ariley03 passed
+given nr       test  7, mdarsn01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "\y.y".
+given nr       test  7, rmonde01 passed
+given nr       test  7, xzhang01 passed
+given nr       test  7, mrusse03 passed
+given nr       test  7, dreedy01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test  7, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  7, adreyf01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (f (f (PAIR (f S Z) (x S Z))))) \f.\x.x".
+given nr       test  7, tsoule01 passed
+given nr       test  7, agallant passed
+given nr       test  7, jkang09  failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test  7, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  7, dwhitn01 passed
+given nr       test  7, sgardn04 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test  7, jaltre01 failed -- We expected term "divmod 3 1" to reduce to "PAIR (S (S (S Z))) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f (f x))) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  7, nbugas01 passed
+given nr       test  7, blarsen  passed
+given nr       test  8, hlin02   passed
+given nr       test  8, zabram02 passed
+given nr       test  8, gong01   failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.x".
+given nr       test  8, bjorda02 diverged -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  8, jtan03   passed
+given nr       test  8, jwelch01 passed
+given nr       test  8, hnasar01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.f) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  8, sbidwe01 passed
+given nr       test  8, mleise01 passed
+given nr       test  8, dkass01  passed
+given nr       test  8, npalmo01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.f) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  8, bsumne01 passed
+given nr       test  8, jkenne05 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S Z)".
+given nr       test  8, esalow01 passed
+given nr       test  8, bkolta01 passed
+given nr       test  8, asamps01 passed
+given nr       test  8, kmcneely failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S Z)".
+given nr       test  8, jpearl05 passed
+given nr       test  8, jbryan04 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.f) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  8, ariley03 passed
+given nr       test  8, mdarsn01 diverged -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test  8, rmonde01 passed
+given nr       test  8, xzhang01 passed
+given nr       test  8, mrusse03 passed
+given nr       test  8, dreedy01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S Z)".
+given nr       test  8, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  8, adreyf01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.x".
+given nr       test  8, tsoule01 passed
+given nr       test  8, agallant passed
+given nr       test  8, jkang09  failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S Z)".
+given nr       test  8, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  8, dwhitn01 passed
+given nr       test  8, sgardn04 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S Z)".
+given nr       test  8, jaltre01 failed -- We expected term "divmod 1 1" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.f) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  8, nbugas01 passed
+given nr       test  8, blarsen  passed
+given nr       test  9, hlin02   passed
+given nr       test  9, zabram02 passed
+given nr       test  9, gong01   failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\x.x".
+given nr       test  9, bjorda02 diverged -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but your code diverged.
+given nr       test  9, jtan03   passed
+given nr       test  9, jwelch01 passed
+given nr       test  9, hnasar01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, sbidwe01 passed
+given nr       test  9, mleise01 passed
+given nr       test  9, dkass01  passed
+given nr       test  9, npalmo01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, bsumne01 passed
+given nr       test  9, jkenne05 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S Z)".
+given nr       test  9, esalow01 passed
+given nr       test  9, bkolta01 passed
+given nr       test  9, asamps01 passed
+given nr       test  9, kmcneely failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR Z (S (S Z))".
+given nr       test  9, jpearl05 passed
+given nr       test  9, jbryan04 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, ariley03 passed
+given nr       test  9, mdarsn01 diverged -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but your code diverged.
+given nr       test  9, rmonde01 passed
+given nr       test  9, xzhang01 passed
+given nr       test  9, mrusse03 passed
+given nr       test  9, dreedy01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR (S Z) (S Z)".
+given nr       test  9, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  9, adreyf01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.f".
+given nr       test  9, tsoule01 passed
+given nr       test  9, agallant passed
+given nr       test  9, jkang09  failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\x.x".
+given nr       test  9, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  9, dwhitn01 passed
+given nr       test  9, sgardn04 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, jaltre01 failed -- We expected term "divmod 1 2" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test  9, nbugas01 passed
+given nr       test  9, blarsen  passed
+given nr       test 10, hlin02   passed
+given nr       test 10, zabram02 passed
+given nr       test 10, gong01   failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\x.x".
+given nr       test 10, bjorda02 diverged -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but your code diverged.
+given nr       test 10, jtan03   passed
+given nr       test 10, jwelch01 passed
+given nr       test 10, hnasar01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, sbidwe01 passed
+given nr       test 10, mleise01 passed
+given nr       test 10, dkass01  passed
+given nr       test 10, npalmo01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, bsumne01 passed
+given nr       test 10, jkenne05 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test 10, esalow01 passed
+given nr       test 10, bkolta01 passed
+given nr       test 10, asamps01 passed
+given nr       test 10, kmcneely failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test 10, jpearl05 passed
+given nr       test 10, jbryan04 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, ariley03 passed
+given nr       test 10, mdarsn01 diverged -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but your code diverged.
+given nr       test 10, rmonde01 passed
+given nr       test 10, xzhang01 passed
+given nr       test 10, mrusse03 passed
+given nr       test 10, dreedy01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "PAIR (S Z) Z".
+given nr       test 10, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 10, adreyf01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.f (f x)".
+given nr       test 10, tsoule01 passed
+given nr       test 10, agallant passed
+given nr       test 10, jkang09  failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\y.y".
+given nr       test 10, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 10, dwhitn01 passed
+given nr       test 10, sgardn04 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "\x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, jaltre01 failed -- We expected term "divmod 1 3" to reduce to "PAIR Z (S Z)", but using your definitions, it reduced to "divmod (\f.f) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 10, nbugas01 passed
+given nr       test 10, blarsen  passed
+given nr       test 11, hlin02   passed
+given nr       test 11, zabram02 passed
+given nr       test 11, gong01   failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\x.x".
+given nr       test 11, bjorda02 diverged -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test 11, jtan03   passed
+given nr       test 11, jwelch01 passed
+given nr       test 11, hnasar01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 11, sbidwe01 passed
+given nr       test 11, mleise01 passed
+given nr       test 11, dkass01  passed
+given nr       test 11, npalmo01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 11, bsumne01 passed
+given nr       test 11, jkenne05 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S (\z.\f.f) (\y.\f.\z.f (\f.\x.f (f x)) \f.f) \y.\f.\z.f (\f.\x.f (f x)) \f.f)".
+given nr       test 11, esalow01 passed
+given nr       test 11, bkolta01 passed
+given nr       test 11, asamps01 passed
+given nr       test 11, kmcneely failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S (S Z))".
+given nr       test 11, jpearl05 passed
+given nr       test 11, jbryan04 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 11, ariley03 passed
+given nr       test 11, mdarsn01 diverged -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but your code diverged.
+given nr       test 11, rmonde01 passed
+given nr       test 11, xzhang01 passed
+given nr       test 11, mrusse03 passed
+given nr       test 11, dreedy01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR (S (S Z)) (S (\w.\x.\l111.x (x (x (x (x (x (x (x l111)))))))) (\y.\f.\w.f (\w.\x.\l118.x (x (x (x (x (x (x (x l118)))))))) \y.\f.\w.f (\f.\x.f (f (f x))) \f.\x.f (f x)) \y.\f.\w.f (\w.\x.\l125.x (x (x (x (x (x (x (x l125)))))))) \y.\f.\w.f (\f.\x.f (f (f x))) \f.\x.f (f x))".
+given nr       test 11, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 11, adreyf01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.x".
+given nr       test 11, tsoule01 passed
+given nr       test 11, agallant passed
+given nr       test 11, jkang09  failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S (S Z))".
+given nr       test 11, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 11, dwhitn01 passed
+given nr       test 11, sgardn04 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "PAIR Z (S (S Z))".
+given nr       test 11, jaltre01 failed -- We expected term "divmod 2 2" to reduce to "PAIR (S Z) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 11, nbugas01 passed
+given nr       test 11, blarsen  passed
+given nr       test 12, hlin02   passed
+given nr       test 12, zabram02 passed
+given nr       test 12, gong01   failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "\x.x".
+given nr       test 12, bjorda02 diverged -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but your code diverged.
+given nr       test 12, jtan03   passed
+given nr       test 12, jwelch01 passed
+given nr       test 12, hnasar01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 12, sbidwe01 passed
+given nr       test 12, mleise01 passed
+given nr       test 12, dkass01  passed
+given nr       test 12, npalmo01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 12, bsumne01 passed
+given nr       test 12, jkenne05 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "PAIR (S (S (S Z))) (S (\z.\f.f) \y.\f.\z.f (\f.\x.f (f x)) \f.f)".
+given nr       test 12, esalow01 passed
+given nr       test 12, bkolta01 passed
+given nr       test 12, asamps01 passed
+given nr       test 12, kmcneely failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test 12, jpearl05 passed
+given nr       test 12, jbryan04 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 12, ariley03 passed
+given nr       test 12, mdarsn01 diverged -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but your code diverged.
+given nr       test 12, rmonde01 passed
+given nr       test 12, xzhang01 passed
+given nr       test 12, mrusse03 passed
+given nr       test 12, dreedy01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "PAIR (S (S (S Z))) Z".
+given nr       test 12, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 12, adreyf01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.f".
+given nr       test 12, tsoule01 passed
+given nr       test 12, agallant passed
+given nr       test 12, jkang09  passed
+given nr       test 12, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 12, dwhitn01 passed
+given nr       test 12, sgardn04 passed
+given nr       test 12, jaltre01 failed -- We expected term "divmod 2 3" to reduce to "PAIR Z (S (S Z))", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 12, nbugas01 passed
+given nr       test 12, blarsen  passed
+given nr       test 13, hlin02   passed
+given nr       test 13, zabram02 passed
+given nr       test 13, gong01   failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "\x.x".
+given nr       test 13, bjorda02 diverged -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but your code diverged.
+given nr       test 13, jtan03   diverged -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but your code diverged.
+given nr       test 13, jwelch01 passed
+given nr       test 13, hnasar01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 13, sbidwe01 passed
+given nr       test 13, mleise01 passed
+given nr       test 13, dkass01  passed
+given nr       test 13, npalmo01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 13, bsumne01 passed
+given nr       test 13, jkenne05 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "PAIR (S (S (S Z))) (S (\z.\f.f) \y.\f.\z.f (\f.\x.f (f x)) \f.f)".
+given nr       test 13, esalow01 passed
+given nr       test 13, bkolta01 passed
+given nr       test 13, asamps01 passed
+given nr       test 13, kmcneely failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "PAIR (S Z) (S Z)".
+given nr       test 13, jpearl05 passed
+given nr       test 13, jbryan04 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 13, ariley03 passed
+given nr       test 13, mdarsn01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "\x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 13, rmonde01 passed
+given nr       test 13, xzhang01 passed
+given nr       test 13, mrusse03 passed
+given nr       test 13, dreedy01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "PAIR (S (S (S Z))) Z".
+given nr       test 13, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 13, adreyf01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "\f.f (\f.\x.f (f (PAIR (f S Z) (x S Z)))) \f.\x.x".
+given nr       test 13, tsoule01 passed
+given nr       test 13, agallant passed
+given nr       test 13, jkang09  failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "\f.f".
+given nr       test 13, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 13, dwhitn01 passed
+given nr       test 13, sgardn04 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "\x.\y.PAIR (PAIR (x S Z) (S S Z) Z) (y S Z)".
+given nr       test 13, jaltre01 failed -- We expected term "divmod 2 1" to reduce to "PAIR (S (S Z)) Z", but using your definitions, it reduced to "divmod (\f.\x.f (f x)) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 13, nbugas01 passed
+given nr       test 13, blarsen  passed
+given nr       test 14, hlin02   passed
+given nr       test 14, zabram02 passed
+given nr       test 14, gong01   failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\x.x".
+given nr       test 14, bjorda02 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR (\z.z (\x.\y.y) \x.\y.x) \z.z (\x.\y.y) \x.\y.x".
+given nr       test 14, jtan03   passed
+given nr       test 14, jwelch01 passed
+given nr       test 14, hnasar01 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 14, sbidwe01 passed
+given nr       test 14, mleise01 passed
+given nr       test 14, dkass01  passed
+given nr       test 14, npalmo01 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 14, bsumne01 passed
+given nr       test 14, jkenne05 passed
+given nr       test 14, esalow01 passed
+given nr       test 14, bkolta01 passed
+given nr       test 14, asamps01 passed
+given nr       test 14, kmcneely failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR Z (S (S Z))".
+given nr       test 14, jpearl05 passed
+given nr       test 14, jbryan04 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 14, ariley03 passed
+given nr       test 14, mdarsn01 diverged -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but your code diverged.
+given nr       test 14, rmonde01 passed
+given nr       test 14, xzhang01 passed
+given nr       test 14, mrusse03 passed
+given nr       test 14, dreedy01 passed
+given nr       test 14, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 14, adreyf01 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.f (f x)".
+given nr       test 14, tsoule01 passed
+given nr       test 14, agallant passed
+given nr       test 14, jkang09  passed
+given nr       test 14, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 14, dwhitn01 passed
+given nr       test 14, sgardn04 passed
+given nr       test 14, jaltre01 failed -- We expected term "divmod 0 2" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f x)) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 14, nbugas01 passed
+given nr       test 14, blarsen  passed
+given nr       test 15, hlin02   passed
+given nr       test 15, zabram02 passed
+given nr       test 15, gong01   failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\x.x".
+given nr       test 15, bjorda02 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR (\z.z (\x.\y.y) \x.\y.x) \z.z (\x.\y.y) \x.\y.x".
+given nr       test 15, jtan03   passed
+given nr       test 15, jwelch01 passed
+given nr       test 15, hnasar01 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 15, sbidwe01 passed
+given nr       test 15, mleise01 passed
+given nr       test 15, dkass01  passed
+given nr       test 15, npalmo01 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 15, bsumne01 passed
+given nr       test 15, jkenne05 passed
+given nr       test 15, esalow01 passed
+given nr       test 15, bkolta01 passed
+given nr       test 15, asamps01 passed
+given nr       test 15, kmcneely failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR Z (S (S (S Z)))".
+given nr       test 15, jpearl05 passed
+given nr       test 15, jbryan04 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 15, ariley03 passed
+given nr       test 15, mdarsn01 diverged -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but your code diverged.
+given nr       test 15, rmonde01 passed
+given nr       test 15, xzhang01 passed
+given nr       test 15, mrusse03 passed
+given nr       test 15, dreedy01 passed
+given nr       test 15, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 15, adreyf01 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.\x.f (f (f x))".
+given nr       test 15, tsoule01 passed
+given nr       test 15, agallant passed
+given nr       test 15, jkang09  passed
+given nr       test 15, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 15, dwhitn01 passed
+given nr       test 15, sgardn04 passed
+given nr       test 15, jaltre01 failed -- We expected term "divmod 0 3" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.\x.f (f (f x))) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 15, nbugas01 passed
+given nr       test 15, blarsen  passed
+given nr       test 16, hlin02   passed
+given nr       test 16, zabram02 passed
+given nr       test 16, gong01   failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\x.x".
+given nr       test 16, bjorda02 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR (\z.z (\x.\y.y) \x.\y.x) \z.z (\x.\y.y) \x.\y.x".
+given nr       test 16, jtan03   passed
+given nr       test 16, jwelch01 passed
+given nr       test 16, hnasar01 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 16, sbidwe01 passed
+given nr       test 16, mleise01 passed
+given nr       test 16, dkass01  passed
+given nr       test 16, npalmo01 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 16, bsumne01 passed
+given nr       test 16, jkenne05 passed
+given nr       test 16, esalow01 passed
+given nr       test 16, bkolta01 passed
+given nr       test 16, asamps01 passed
+given nr       test 16, kmcneely failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "PAIR Z (S Z)".
+given nr       test 16, jpearl05 passed
+given nr       test 16, jbryan04 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 16, ariley03 passed
+given nr       test 16, mdarsn01 diverged -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but your code diverged.
+given nr       test 16, rmonde01 passed
+given nr       test 16, xzhang01 passed
+given nr       test 16, mrusse03 passed
+given nr       test 16, dreedy01 passed
+given nr       test 16, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 16, adreyf01 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "\f.f (\f.\x.f (PAIR (f S Z) (x S Z))) \f.f".
+given nr       test 16, tsoule01 passed
+given nr       test 16, agallant passed
+given nr       test 16, jkang09  passed
+given nr       test 16, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 16, dwhitn01 passed
+given nr       test 16, sgardn04 passed
+given nr       test 16, jaltre01 failed -- We expected term "divmod 0 1" to reduce to "PAIR Z Z", but using your definitions, it reduced to "divmod (\f.\x.x) (\f.f) \x.\y.PAIR (x S Z) (y S Z)".
+given nr       test 16, nbugas01 passed
+given nr       test 16, blarsen  passed

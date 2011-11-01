@@ -1,0 +1,483 @@
+given jkenne05 test  1, jkenne05 passed
+given jkenne05 test  1, hlin02   passed
+given jkenne05 test  1, esalow01 passed
+given jkenne05 test  1, bkolta01 passed
+given jkenne05 test  1, gong01   errored -- Arithmetic overflow
+given jkenne05 test  1, nr       passed
+given jkenne05 test  1, bjorda02 passed
+given jkenne05 test  1, kmcneely passed
+given jkenne05 test  1, jtan03   mismatch -- Expected "2851151176543146778666461438920061557329"; got "List( 2 8 5 1 1 5 1 1 7 6 5 4 3 1 4 6 7 7 8 6 6 6 4 6 1 4 3 8 9 2 0 0 6 1 5 5 7 3 2 9 )\ "
+given jkenne05 test  1, rmonde01 passed
+given jkenne05 test  1, ariley03 passed
+given jkenne05 test  1, agallant passed
+given jkenne05 test  1, jpearl05 passed
+given jkenne05 test  1, bsumne01 errored -- Arithmetic overflow
+given jkenne05 test  1, tsoule01 passed
+given jkenne05 test  1, hnasar01 passed
+given jkenne05 test  1, mrusse03 passed
+given jkenne05 test  1, adreyf01 errored -- array subscript out of bounds
+given jkenne05 test  1, dwhitn01 passed
+given jkenne05 test  1, sgardn04 timeout -- memory limit exceeded
+given jkenne05 test  1, jaltre01 errored -- Arithmetic overflow
+given jkenne05 test  1, nbugas01 errored -- Arithmetic overflow
+given jkenne05 test  1, mleise01 errored -- run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given esalow01 test  1, jkenne05 passed
+given esalow01 test  1, hlin02   errored -- run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given esalow01 test  1, esalow01 passed
+given esalow01 test  1, bkolta01 passed
+given esalow01 test  1, gong01   errored -- Arithmetic overflow
+given esalow01 test  1, nr       passed
+given esalow01 test  1, bjorda02 mismatch -- Expected "<True>"; got "<False>"
+given esalow01 test  1, kmcneely passed
+given esalow01 test  1, jtan03   passed
+given esalow01 test  1, rmonde01 passed
+given esalow01 test  1, ariley03 passed
+given esalow01 test  1, agallant passed
+given esalow01 test  1, jpearl05 passed
+given esalow01 test  1, bsumne01 errored -- Arithmetic overflow
+given esalow01 test  1, tsoule01 passed
+given esalow01 test  1, hnasar01 passed
+given esalow01 test  1, mrusse03 passed
+given esalow01 test  1, adreyf01 timeout -- memory limit exceeded
+given esalow01 test  1, dwhitn01 passed
+given esalow01 test  1, sgardn04 timeout -- memory limit exceeded
+given esalow01 test  1, jaltre01 errored -- Arithmetic overflow
+given esalow01 test  1, nbugas01 errored -- Arithmetic overflow
+given esalow01 test  1, mleise01 passed
+given bkolta01 test  1, jkenne05 passed
+given bkolta01 test  1, hlin02   passed
+given bkolta01 test  1, esalow01 passed
+given bkolta01 test  1, bkolta01 passed
+given bkolta01 test  1, gong01   passed
+given bkolta01 test  1, nr       passed
+given bkolta01 test  1, bjorda02 passed
+given bkolta01 test  1, kmcneely passed
+given bkolta01 test  1, jtan03   passed
+given bkolta01 test  1, rmonde01 passed
+given bkolta01 test  1, ariley03 passed
+given bkolta01 test  1, agallant passed
+given bkolta01 test  1, jpearl05 passed
+given bkolta01 test  1, bsumne01 passed
+given bkolta01 test  1, tsoule01 passed
+given bkolta01 test  1, hnasar01 passed
+given bkolta01 test  1, mrusse03 passed
+given bkolta01 test  1, adreyf01 passed
+given bkolta01 test  1, dwhitn01 passed
+given bkolta01 test  1, sgardn04 timeout -- memory limit exceeded
+given bkolta01 test  1, jaltre01 passed
+given bkolta01 test  1, nbugas01 passed
+given bkolta01 test  1, mleise01 passed
+given gong01   test  1, jkenne05 passed
+given gong01   test  1, hlin02   passed
+given gong01   test  1, esalow01 passed
+given gong01   test  1, bkolta01 passed
+given gong01   test  1, gong01   passed
+given gong01   test  1, nr       passed
+given gong01   test  1, bjorda02 passed
+given gong01   test  1, kmcneely passed
+given gong01   test  1, jtan03   passed
+given gong01   test  1, rmonde01 passed
+given gong01   test  1, ariley03 passed
+given gong01   test  1, agallant passed
+given gong01   test  1, jpearl05 passed
+given gong01   test  1, bsumne01 passed
+given gong01   test  1, tsoule01 passed
+given gong01   test  1, hnasar01 passed
+given gong01   test  1, mrusse03 passed
+given gong01   test  1, adreyf01 passed
+given gong01   test  1, dwhitn01 passed
+given gong01   test  1, sgardn04 timeout -- memory limit exceeded
+given gong01   test  1, jaltre01 passed
+given gong01   test  1, nbugas01 passed
+given gong01   test  1, mleise01 passed
+given bjorda02 test  1, jkenne05 passed
+given bjorda02 test  1, hlin02   mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, esalow01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, bkolta01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, gong01   errored -- run-time error: subclass failed to implement a method that was its responsibility
+given bjorda02 test  1, nr       passed
+given bjorda02 test  1, bjorda02 passed
+given bjorda02 test  1, kmcneely errored -- variable aLPI not found
+given bjorda02 test  1, jtan03   mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, rmonde01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, ariley03 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, agallant mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, jpearl05 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, bsumne01 errored -- Arithmetic overflow
+given bjorda02 test  1, tsoule01 passed
+given bjorda02 test  1, hnasar01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, mrusse03 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, adreyf01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, dwhitn01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, sgardn04 timeout -- memory limit exceeded
+given bjorda02 test  1, jaltre01 errored -- Arithmetic overflow
+given bjorda02 test  1, nbugas01 errored -- Arithmetic overflow
+given bjorda02 test  1, mleise01 mismatch -- Expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given kmcneely test  1, jkenne05 passed
+given kmcneely test  1, hlin02   mismatch -- Expected "0"; got "-0"
+given kmcneely test  1, esalow01 passed
+given kmcneely test  1, bkolta01 passed
+given kmcneely test  1, gong01   errored -- Arithmetic overflow
+given kmcneely test  1, nr       passed
+given kmcneely test  1, bjorda02 passed
+given kmcneely test  1, kmcneely passed
+given kmcneely test  1, jtan03   mismatch -- Expected "0"; got "List( 0 )\ "
+given kmcneely test  1, rmonde01 passed
+given kmcneely test  1, ariley03 passed
+given kmcneely test  1, agallant passed
+given kmcneely test  1, jpearl05 passed
+given kmcneely test  1, bsumne01 errored -- Arithmetic overflow
+given kmcneely test  1, tsoule01 passed
+given kmcneely test  1, hnasar01 passed
+given kmcneely test  1, mrusse03 passed
+given kmcneely test  1, adreyf01 errored -- array subscript out of bounds
+given kmcneely test  1, dwhitn01 passed
+given kmcneely test  1, sgardn04 timeout -- memory limit exceeded
+given kmcneely test  1, jaltre01 errored -- Arithmetic overflow
+given kmcneely test  1, nbugas01 errored -- Arithmetic overflow
+given kmcneely test  1, mleise01 errored -- run-time error: LargeNegativeInteger does not understand message addSmallIntegerTo:
+given jtan03   test  1, jkenne05 passed
+given jtan03   test  1, hlin02   passed
+given jtan03   test  1, esalow01 passed
+given jtan03   test  1, bkolta01 passed
+given jtan03   test  1, gong01   passed
+given jtan03   test  1, nr       passed
+given jtan03   test  1, bjorda02 passed
+given jtan03   test  1, kmcneely passed
+given jtan03   test  1, jtan03   passed
+given jtan03   test  1, rmonde01 passed
+given jtan03   test  1, ariley03 passed
+given jtan03   test  1, agallant passed
+given jtan03   test  1, jpearl05 passed
+given jtan03   test  1, bsumne01 passed
+given jtan03   test  1, tsoule01 passed
+given jtan03   test  1, hnasar01 passed
+given jtan03   test  1, mrusse03 passed
+given jtan03   test  1, adreyf01 timeout -- memory limit exceeded
+given jtan03   test  1, dwhitn01 passed
+given jtan03   test  1, sgardn04 timeout -- memory limit exceeded
+given jtan03   test  1, jaltre01 passed
+given jtan03   test  1, nbugas01 passed
+given jtan03   test  1, mleise01 passed
+given rmonde01 test  1, jkenne05 passed
+given rmonde01 test  1, hlin02   passed
+given rmonde01 test  1, esalow01 passed
+given rmonde01 test  1, bkolta01 passed
+given rmonde01 test  1, gong01   passed
+given rmonde01 test  1, nr       passed
+given rmonde01 test  1, bjorda02 passed
+given rmonde01 test  1, kmcneely passed
+given rmonde01 test  1, jtan03   passed
+given rmonde01 test  1, rmonde01 passed
+given rmonde01 test  1, ariley03 passed
+given rmonde01 test  1, agallant passed
+given rmonde01 test  1, jpearl05 passed
+given rmonde01 test  1, bsumne01 passed
+given rmonde01 test  1, tsoule01 passed
+given rmonde01 test  1, hnasar01 passed
+given rmonde01 test  1, mrusse03 passed
+given rmonde01 test  1, adreyf01 mismatch -- Expected "0"; got "4294967296"
+given rmonde01 test  1, dwhitn01 passed
+given rmonde01 test  1, sgardn04 timeout -- memory limit exceeded
+given rmonde01 test  1, jaltre01 passed
+given rmonde01 test  1, nbugas01 passed
+given rmonde01 test  1, mleise01 passed
+given ariley03 test  1, jkenne05 passed
+given ariley03 test  1, hlin02   passed
+given ariley03 test  1, esalow01 passed
+given ariley03 test  1, bkolta01 passed
+given ariley03 test  1, gong01   passed
+given ariley03 test  1, nr       passed
+given ariley03 test  1, bjorda02 passed
+given ariley03 test  1, kmcneely passed
+given ariley03 test  1, jtan03   passed
+given ariley03 test  1, rmonde01 passed
+given ariley03 test  1, ariley03 passed
+given ariley03 test  1, agallant passed
+given ariley03 test  1, jpearl05 passed
+given ariley03 test  1, bsumne01 passed
+given ariley03 test  1, tsoule01 passed
+given ariley03 test  1, hnasar01 passed
+given ariley03 test  1, mrusse03 passed
+given ariley03 test  1, adreyf01 mismatch -- Expected "34"; got "1"
+given ariley03 test  1, dwhitn01 passed
+given ariley03 test  1, sgardn04 timeout -- memory limit exceeded
+given ariley03 test  1, jaltre01 passed
+given ariley03 test  1, nbugas01 passed
+given ariley03 test  1, mleise01 passed
+given agallant test  1, jkenne05 passed
+given agallant test  1, hlin02   passed
+given agallant test  1, esalow01 passed
+given agallant test  1, bkolta01 passed
+given agallant test  1, gong01   errored -- Arithmetic overflow
+given agallant test  1, nr       passed
+given agallant test  1, bjorda02 mismatch -- Expected "0"; got "-0"
+given agallant test  1, kmcneely errored -- variable aLPI not found
+given agallant test  1, jtan03   mismatch -- Expected "0"; got "List( 0 )\ "
+given agallant test  1, rmonde01 passed
+given agallant test  1, ariley03 passed
+given agallant test  1, agallant passed
+given agallant test  1, jpearl05 passed
+given agallant test  1, bsumne01 errored -- Arithmetic overflow
+given agallant test  1, tsoule01 passed
+given agallant test  1, hnasar01 passed
+given agallant test  1, mrusse03 passed
+given agallant test  1, adreyf01 errored -- array subscript out of bounds
+given agallant test  1, dwhitn01 passed
+given agallant test  1, sgardn04 timeout -- memory limit exceeded
+given agallant test  1, jaltre01 errored -- Arithmetic overflow
+given agallant test  1, nbugas01 errored -- Arithmetic overflow
+given agallant test  1, mleise01 errored -- run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given jpearl05 test  1, jkenne05 passed
+given jpearl05 test  1, hlin02   passed
+given jpearl05 test  1, esalow01 passed
+given jpearl05 test  1, bkolta01 passed
+given jpearl05 test  1, gong01   errored -- Arithmetic overflow
+given jpearl05 test  1, nr       passed
+given jpearl05 test  1, bjorda02 passed
+given jpearl05 test  1, kmcneely errored -- variable aLPI not found
+given jpearl05 test  1, jtan03   mismatch -- Expected "1"; got "List( 1 )\ "
+given jpearl05 test  1, rmonde01 passed
+given jpearl05 test  1, ariley03 passed
+given jpearl05 test  1, agallant passed
+given jpearl05 test  1, jpearl05 passed
+given jpearl05 test  1, bsumne01 errored -- Arithmetic overflow
+given jpearl05 test  1, tsoule01 passed
+given jpearl05 test  1, hnasar01 passed
+given jpearl05 test  1, mrusse03 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given jpearl05 test  1, adreyf01 timeout -- CPU time limit exceeded
+given jpearl05 test  1, dwhitn01 passed
+given jpearl05 test  1, sgardn04 timeout -- memory limit exceeded
+given jpearl05 test  1, jaltre01 errored -- Arithmetic overflow
+given jpearl05 test  1, nbugas01 errored -- Arithmetic overflow
+given jpearl05 test  1, mleise01 passed
+given bsumne01 test  1, jkenne05 passed
+given bsumne01 test  1, hlin02   passed
+given bsumne01 test  1, esalow01 passed
+given bsumne01 test  1, bkolta01 passed
+given bsumne01 test  1, gong01   passed
+given bsumne01 test  1, nr       passed
+given bsumne01 test  1, bjorda02 passed
+given bsumne01 test  1, kmcneely passed
+given bsumne01 test  1, jtan03   passed
+given bsumne01 test  1, rmonde01 passed
+given bsumne01 test  1, ariley03 passed
+given bsumne01 test  1, agallant passed
+given bsumne01 test  1, jpearl05 passed
+given bsumne01 test  1, bsumne01 passed
+given bsumne01 test  1, tsoule01 passed
+given bsumne01 test  1, hnasar01 passed
+given bsumne01 test  1, mrusse03 passed
+given bsumne01 test  1, adreyf01 mismatch -- Expected "5477933233965376701"; got "5477748792533542701"
+given bsumne01 test  1, dwhitn01 passed
+given bsumne01 test  1, sgardn04 timeout -- memory limit exceeded
+given bsumne01 test  1, jaltre01 passed
+given bsumne01 test  1, nbugas01 passed
+given bsumne01 test  1, mleise01 passed
+given tsoule01 test  1, jkenne05 passed
+given tsoule01 test  1, hlin02   passed
+given tsoule01 test  1, esalow01 passed
+given tsoule01 test  1, bkolta01 passed
+given tsoule01 test  1, gong01   passed
+given tsoule01 test  1, nr       passed
+given tsoule01 test  1, bjorda02 passed
+given tsoule01 test  1, kmcneely passed
+given tsoule01 test  1, jtan03   passed
+given tsoule01 test  1, rmonde01 passed
+given tsoule01 test  1, ariley03 passed
+given tsoule01 test  1, agallant passed
+given tsoule01 test  1, jpearl05 passed
+given tsoule01 test  1, bsumne01 passed
+given tsoule01 test  1, tsoule01 passed
+given tsoule01 test  1, hnasar01 passed
+given tsoule01 test  1, mrusse03 passed
+given tsoule01 test  1, adreyf01 passed
+given tsoule01 test  1, dwhitn01 passed
+given tsoule01 test  1, sgardn04 timeout -- memory limit exceeded
+given tsoule01 test  1, jaltre01 passed
+given tsoule01 test  1, nbugas01 passed
+given tsoule01 test  1, mleise01 passed
+given hnasar01 test  1, jkenne05 passed
+given hnasar01 test  1, hlin02   timeout -- CPU time limit exceeded
+given hnasar01 test  1, esalow01 passed
+given hnasar01 test  1, bkolta01 passed
+given hnasar01 test  1, gong01   errored -- Arithmetic overflow
+given hnasar01 test  1, nr       passed
+given hnasar01 test  1, bjorda02 passed
+given hnasar01 test  1, kmcneely errored -- variable aLPI not found
+given hnasar01 test  1, jtan03   mismatch -- Expected "-32767999999999999950848000000000000030719999999999999989760000000000000001919999999999999999808000000000000000008"; got "-List( 3 2 7 6 7 9 9 9 9 9 9 9 9 9 9 9 9 9 5 0 8 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 7 1 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 9 7 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 9 1 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 )\ "
+given hnasar01 test  1, rmonde01 passed
+given hnasar01 test  1, ariley03 passed
+given hnasar01 test  1, agallant passed
+given hnasar01 test  1, jpearl05 passed
+given hnasar01 test  1, bsumne01 errored -- Arithmetic overflow
+given hnasar01 test  1, tsoule01 timeout -- CPU time limit exceeded
+given hnasar01 test  1, hnasar01 passed
+given hnasar01 test  1, mrusse03 passed
+given hnasar01 test  1, adreyf01 errored -- array subscript out of bounds
+given hnasar01 test  1, dwhitn01 passed
+given hnasar01 test  1, sgardn04 errored -- Arithmetic overflow
+given hnasar01 test  1, jaltre01 errored -- Arithmetic overflow
+given hnasar01 test  1, nbugas01 errored -- Arithmetic overflow
+given hnasar01 test  1, mleise01 passed
+given mrusse03 test  1, jkenne05 passed
+given mrusse03 test  1, hlin02   passed
+given mrusse03 test  1, esalow01 passed
+given mrusse03 test  1, bkolta01 passed
+given mrusse03 test  1, gong01   passed
+given mrusse03 test  1, nr       passed
+given mrusse03 test  1, bjorda02 passed
+given mrusse03 test  1, kmcneely passed
+given mrusse03 test  1, jtan03   passed
+given mrusse03 test  1, rmonde01 passed
+given mrusse03 test  1, ariley03 passed
+given mrusse03 test  1, agallant passed
+given mrusse03 test  1, jpearl05 passed
+given mrusse03 test  1, bsumne01 passed
+given mrusse03 test  1, tsoule01 passed
+given mrusse03 test  1, hnasar01 passed
+given mrusse03 test  1, mrusse03 passed
+given mrusse03 test  1, adreyf01 passed
+given mrusse03 test  1, dwhitn01 passed
+given mrusse03 test  1, sgardn04 timeout -- memory limit exceeded
+given mrusse03 test  1, jaltre01 passed
+given mrusse03 test  1, nbugas01 passed
+given mrusse03 test  1, mleise01 passed
+given adreyf01 test  1, jkenne05 passed
+given adreyf01 test  1, hlin02   passed
+given adreyf01 test  1, esalow01 passed
+given adreyf01 test  1, bkolta01 passed
+given adreyf01 test  1, gong01   passed
+given adreyf01 test  1, nr       passed
+given adreyf01 test  1, bjorda02 passed
+given adreyf01 test  1, kmcneely passed
+given adreyf01 test  1, jtan03   passed
+given adreyf01 test  1, rmonde01 passed
+given adreyf01 test  1, ariley03 passed
+given adreyf01 test  1, agallant passed
+given adreyf01 test  1, jpearl05 passed
+given adreyf01 test  1, bsumne01 passed
+given adreyf01 test  1, tsoule01 passed
+given adreyf01 test  1, hnasar01 passed
+given adreyf01 test  1, mrusse03 passed
+given adreyf01 test  1, adreyf01 mismatch -- Expected "-8589934594"; got "8589934594"
+given adreyf01 test  1, dwhitn01 passed
+given adreyf01 test  1, sgardn04 timeout -- memory limit exceeded
+given adreyf01 test  1, jaltre01 passed
+given adreyf01 test  1, nbugas01 passed
+given adreyf01 test  1, mleise01 passed
+given dwhitn01 test  1, jkenne05 passed
+given dwhitn01 test  1, hlin02   passed
+given dwhitn01 test  1, esalow01 passed
+given dwhitn01 test  1, bkolta01 passed
+given dwhitn01 test  1, gong01   passed
+given dwhitn01 test  1, nr       passed
+given dwhitn01 test  1, bjorda02 passed
+given dwhitn01 test  1, kmcneely passed
+given dwhitn01 test  1, jtan03   passed
+given dwhitn01 test  1, rmonde01 passed
+given dwhitn01 test  1, ariley03 passed
+given dwhitn01 test  1, agallant passed
+given dwhitn01 test  1, jpearl05 passed
+given dwhitn01 test  1, bsumne01 passed
+given dwhitn01 test  1, tsoule01 passed
+given dwhitn01 test  1, hnasar01 passed
+given dwhitn01 test  1, mrusse03 passed
+given dwhitn01 test  1, adreyf01 mismatch -- Expected "-2147483649"; got "-2147483647"
+given dwhitn01 test  1, dwhitn01 passed
+given dwhitn01 test  1, sgardn04 timeout -- memory limit exceeded
+given dwhitn01 test  1, jaltre01 passed
+given dwhitn01 test  1, nbugas01 passed
+given dwhitn01 test  1, mleise01 passed
+given sgardn04 test  1, jkenne05 passed
+given sgardn04 test  1, hlin02   errored -- run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given sgardn04 test  1, esalow01 passed
+given sgardn04 test  1, bkolta01 timeout -- CPU time limit exceeded
+given sgardn04 test  1, gong01   errored -- Arithmetic overflow
+given sgardn04 test  1, nr       passed
+given sgardn04 test  1, bjorda02 timeout -- CPU time limit exceeded
+given sgardn04 test  1, kmcneely timeout -- CPU time limit exceeded
+given sgardn04 test  1, jtan03   mismatch -- Expected "596121186084075048430040923729967264426872753432477838364422980"; got "List( 5 9 6 1 2 1 1 8 6 0 8 4 0 7 5 0 4 8 4 3 0 0 4 0 9 2 3 7 2 9 9 6 7 2 6 4 4 2 6 8 7 2 7 5 3 4 3 2 4 7 7 8 3 8 3 6 4 4 2 2 9 8 0 )\ "
+given sgardn04 test  1, rmonde01 passed
+given sgardn04 test  1, ariley03 passed
+given sgardn04 test  1, agallant timeout -- CPU time limit exceeded
+given sgardn04 test  1, jpearl05 mismatch -- Expected "596121186084075048430040923729967264426872753432477838364422980"; got "596121186084075058430040923729967264426872753432477838364422980"
+given sgardn04 test  1, bsumne01 errored -- Arithmetic overflow
+given sgardn04 test  1, tsoule01 timeout -- CPU time limit exceeded
+given sgardn04 test  1, hnasar01 passed
+given sgardn04 test  1, mrusse03 timeout -- CPU time limit exceeded
+given sgardn04 test  1, adreyf01 timeout -- CPU time limit exceeded
+given sgardn04 test  1, dwhitn01 passed
+given sgardn04 test  1, sgardn04 timeout -- memory limit exceeded
+given sgardn04 test  1, jaltre01 errored -- Arithmetic overflow
+given sgardn04 test  1, nbugas01 errored -- Arithmetic overflow
+given sgardn04 test  1, mleise01 errored -- run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given jaltre01 test  1, jkenne05 passed
+given jaltre01 test  1, hlin02   passed
+given jaltre01 test  1, esalow01 passed
+given jaltre01 test  1, bkolta01 passed
+given jaltre01 test  1, gong01   errored -- 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, nr       passed
+given jaltre01 test  1, bjorda02 passed
+given jaltre01 test  1, kmcneely errored -- -8000000000|0|variable aLPI not found
+given jaltre01 test  1, jtan03   mismatch -- Expected "8000000000|0|16000000000000000000\ 0|8000000000|-16000000000000000000\ 4000000010|3999999990|40000000000\ 3999999990|4000000010|-40000000000\ 4000000000|4000000000|0\ 0|-8000000000|-16000000000000000000\ -8000000000|0|16000000000000000000\ -3999999990|-4000000010|-40000000000\ -4000000010|-3999999990|40000000000\ -4000000000|-4000000000|0\ 4000000010|-3999999990|40000000000\ -3999999990|4000000010|-40000000000\ 20|0|100\ 0|20|-100\ 10|10|0\ 3999999990|-4000000010|-40000000000\ -4000000010|3999999990|40000000000\ 0|-20|-100\ -20|0|100\ -10|-10|0\ 4000000000|-4000000000|0\ -4000000000|4000000000|0\ 10|-10|0\ -10|10|0\ 0|0|0\ nil"; got "8000000000|0|List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ 0|8000000000|-List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ 4000000010|3999999990|40000000000\ 3999999990|4000000010|-40000000000\ 4000000000|4000000000|0\ 0|-8000000000|-List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ -8000000000|0|List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ -3999999990|-4000000010|-40000000000\ -4000000010|-3999999990|40000000000\ -4000000000|-4000000000|0\ 4000000010|-3999999990|40000000000\ -3999999990|4000000010|-40000000000\ 20|0|100\ 0|20|-100\ 10|10|0\ 3999999990|-4000000010|-40000000000\ -4000000010|3999999990|40000000000\ 0|-20|-100\ -20|0|100\ -10|-10|0\ 4000000000|-4000000000|0\ -4000000000|4000000000|0\ 10|-10|0\ -10|10|0\ 0|0|0\ nil"
+given jaltre01 test  1, rmonde01 passed
+given jaltre01 test  1, ariley03 passed
+given jaltre01 test  1, agallant passed
+given jaltre01 test  1, jpearl05 passed
+given jaltre01 test  1, bsumne01 errored -- 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, tsoule01 passed
+given jaltre01 test  1, hnasar01 passed
+given jaltre01 test  1, mrusse03 passed
+given jaltre01 test  1, adreyf01 errored -- 8000000000|0|array subscript out of bounds
+given jaltre01 test  1, dwhitn01 passed
+given jaltre01 test  1, sgardn04 timeout -- memory limit exceeded
+given jaltre01 test  1, jaltre01 errored -- 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, nbugas01 errored -- 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, mleise01 passed
+given nbugas01 test  1, jkenne05 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, hlin02   timeout -- memory limit exceeded
+given nbugas01 test  1, esalow01 timeout -- memory limit exceeded
+given nbugas01 test  1, bkolta01 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, gong01   errored -- Arithmetic overflow
+given nbugas01 test  1, nr       passed
+given nbugas01 test  1, bjorda02 timeout -- CPU time limit exceeded
+given nbugas01 test  1, kmcneely errored -- Arithmetic overflow
+given nbugas01 test  1, jtan03   errored -- Arithmetic overflow
+given nbugas01 test  1, rmonde01 errored -- run-time error: numeric primitive expected numeric argument, got <LargePositiveInteger>
+given nbugas01 test  1, ariley03 timeout -- memory limit exceeded
+given nbugas01 test  1, agallant timeout -- memory limit exceeded
+given nbugas01 test  1, jpearl05 errored -- Arithmetic overflow
+given nbugas01 test  1, bsumne01 errored -- Arithmetic overflow
+given nbugas01 test  1, tsoule01 passed
+given nbugas01 test  1, hnasar01 errored -- Arithmetic overflow
+given nbugas01 test  1, mrusse03 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, adreyf01 errored -- array subscript out of bounds
+given nbugas01 test  1, dwhitn01 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, sgardn04 timeout -- memory limit exceeded
+given nbugas01 test  1, jaltre01 errored -- Arithmetic overflow
+given nbugas01 test  1, nbugas01 errored -- Arithmetic overflow
+given nbugas01 test  1, mleise01 errored -- Arithmetic overflow
+given mleise01 test  1, jkenne05 passed
+given mleise01 test  1, hlin02   errored -- run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given mleise01 test  1, esalow01 passed
+given mleise01 test  1, bkolta01 passed
+given mleise01 test  1, gong01   errored -- run-time error: subclass failed to implement a method that was its responsibility
+given mleise01 test  1, nr       passed
+given mleise01 test  1, bjorda02 passed
+given mleise01 test  1, kmcneely passed
+given mleise01 test  1, jtan03   mismatch -- Expected "1551118753287382280224243016469303211063259720016986112000000001275"; got "List( 1 5 5 1 1 1 8 7 5 3 2 8 7 3 8 2 2 8 0 2 2 4 2 4 3 0 1 6 4 6 9 3 0 3 2 1 1 0 6 3 2 5 9 7 2 0 0 1 6 9 8 6 1 1 2 0 0 0 0 0 0 0 0 1 2 7 5 )\ "
+given mleise01 test  1, rmonde01 passed
+given mleise01 test  1, ariley03 passed
+given mleise01 test  1, agallant passed
+given mleise01 test  1, jpearl05 passed
+given mleise01 test  1, bsumne01 errored -- Arithmetic overflow
+given mleise01 test  1, tsoule01 passed
+given mleise01 test  1, hnasar01 passed
+given mleise01 test  1, mrusse03 errored -- run-time error: subclass failed to implement a method that was its responsibility
+given mleise01 test  1, adreyf01 errored -- array subscript out of bounds
+given mleise01 test  1, dwhitn01 passed
+given mleise01 test  1, sgardn04 timeout -- memory limit exceeded
+given mleise01 test  1, jaltre01 errored -- Arithmetic overflow
+given mleise01 test  1, nbugas01 errored -- Arithmetic overflow
+given mleise01 test  1, mleise01 passed

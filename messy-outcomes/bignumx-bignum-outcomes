@@ -1,0 +1,399 @@
+given nr       test  1, gong01   passed
+given nr       test  1, jtan03   passed
+given nr       test  1, nr       passed
+given nr       test  2, gong01   passed
+given nr       test  2, jtan03   passed
+given nr       test  2, nr       passed
+given nr       test  3, gong01   errored -- We tried to compute LargeInteger 11 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test  3, jtan03   passed
+given nr       test  3, nr       passed
+given nr       test  4, gong01   errored -- We tried to compute LargeInteger 422 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test  4, jtan03   passed
+given nr       test  4, nr       passed
+given nr       test  5, gong01   errored -- We tried to compute LargeInteger 32776513994 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test  5, jtan03   passed
+given nr       test  5, nr       passed
+given nr       test  6, gong01   errored -- We tried to compute LargeInteger 1120012261699474421104 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test  6, jtan03   passed
+given nr       test  6, nr       passed
+given nr       test  7, gong01   errored -- We tested 258 < 588 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test  7, jtan03   passed
+given nr       test  7, nr       passed
+given nr       test  8, gong01   errored -- We tested 739 < 237 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test  8, jtan03   passed
+given nr       test  8, nr       passed
+given nr       test  9, gong01   errored -- We tested 780780 < 551330 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test  9, jtan03   passed
+given nr       test  9, nr       passed
+given nr       test 10, gong01   errored -- We tried to compute LargeInteger 129092 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 10, jtan03   passed
+given nr       test 10, nr       passed
+given nr       test 11, gong01   errored -- We tried to compute LargeInteger 2994168 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 11, jtan03   passed
+given nr       test 11, nr       passed
+given nr       test 12, gong01   errored -- We tried to compute LargeInteger 2325128586124 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 12, jtan03   passed
+given nr       test 12, nr       passed
+given nr       test 13, gong01   errored -- We tried to compute LargeInteger 373070 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 13, jtan03   passed
+given nr       test 13, nr       passed
+given nr       test 14, gong01   errored -- We tried to compute LargeInteger 918828 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 14, jtan03   passed
+given nr       test 14, nr       passed
+given nr       test 15, gong01   errored -- We tried to compute LargeInteger -424421223194524788076890421752784800 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 15, jtan03   passed
+given nr       test 15, nr       passed
+given nr       test 16, gong01   errored -- We tried to compute 316 - 14 = 302, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 16, jtan03   passed
+given nr       test 16, nr       passed
+given nr       test 17, gong01   errored -- We tried to compute 211036 - 475914 = -264878, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 17, jtan03   passed
+given nr       test 17, nr       passed
+given nr       test 18, gong01   errored -- We tried to compute 899909156906 - 174891300549 = 725017856357, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 18, jtan03   passed
+given nr       test 18, nr       passed
+given nr       test 19, gong01   errored -- We tried to compute LargeInteger 5 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 19, jtan03   passed
+given nr       test 19, nr       passed
+given nr       test 20, gong01   errored -- We tried to compute LargeInteger 8 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 20, jtan03   passed
+given nr       test 20, nr       passed
+given nr       test 21, gong01   errored -- We tried to compute LargeInteger 143 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 21, jtan03   passed
+given nr       test 21, nr       passed
+given nr       test 22, gong01   errored -- We tried to compute LargeInteger 8342590041 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 22, jtan03   passed
+given nr       test 22, nr       passed
+given nr       test 23, gong01   errored -- We tried to compute LargeInteger 549147136144049259951 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 23, jtan03   passed
+given nr       test 23, nr       passed
+given nr       test 24, gong01   errored -- We tested 83 < 579 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 24, jtan03   passed
+given nr       test 24, nr       passed
+given nr       test 25, gong01   errored -- We tested 877 < 485 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 25, jtan03   passed
+given nr       test 25, nr       passed
+given nr       test 26, gong01   errored -- We tested 184650 < 327942 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 26, jtan03   passed
+given nr       test 26, nr       passed
+given nr       test 27, gong01   errored -- We tried to compute LargeInteger 84 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 27, jtan03   passed
+given nr       test 27, nr       passed
+given nr       test 28, gong01   errored -- We tried to compute LargeInteger 296877420949 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 28, jtan03   passed
+given nr       test 28, nr       passed
+given nr       test 29, gong01   errored -- We tried to compute LargeInteger 1506603632379700265585839 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 29, jtan03   passed
+given nr       test 29, nr       passed
+given nr       test 30, gong01   errored -- We tried to compute LargeInteger -736 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 30, jtan03   passed
+given nr       test 30, nr       passed
+given nr       test 31, gong01   errored -- We tried to compute LargeInteger -2071534317 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 31, jtan03   passed
+given nr       test 31, nr       passed
+given nr       test 32, gong01   errored -- We tried to compute LargeInteger 507821159357 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 32, jtan03   passed
+given nr       test 32, nr       passed
+given nr       test 33, gong01   errored -- We tried to compute 767 - 532 = 235, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 33, jtan03   passed
+given nr       test 33, nr       passed
+given nr       test 34, gong01   errored -- We tried to compute 434564 - 354234 = 80330, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 34, jtan03   passed
+given nr       test 34, nr       passed
+given nr       test 35, gong01   errored -- We tried to compute 78115398739 - 793178688505 = -715063289766, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 35, jtan03   passed
+given nr       test 35, nr       passed
+given nr       test 36, gong01   errored -- We tried to compute LargeInteger 7 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 36, jtan03   passed
+given nr       test 36, nr       passed
+given nr       test 37, gong01   errored -- We tried to compute LargeInteger 15 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 37, jtan03   passed
+given nr       test 37, nr       passed
+given nr       test 38, gong01   errored -- We tried to compute LargeInteger 3930921562 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 38, jtan03   passed
+given nr       test 38, nr       passed
+given nr       test 39, gong01   errored -- We tried to compute LargeInteger 9858017146283021168 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 39, jtan03   passed
+given nr       test 39, nr       passed
+given nr       test 40, gong01   errored -- We tested 954 < 346 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 40, jtan03   passed
+given nr       test 40, nr       passed
+given nr       test 41, gong01   errored -- We tested 584 < 850 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 41, jtan03   passed
+given nr       test 41, nr       passed
+given nr       test 42, gong01   errored -- We tested 357306 < 127206 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 42, jtan03   passed
+given nr       test 42, nr       passed
+given nr       test 43, gong01   errored -- We tried to compute LargeInteger 33346559 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 43, jtan03   passed
+given nr       test 43, nr       passed
+given nr       test 44, gong01   errored -- We tried to compute LargeInteger 804657618480073403847879563393213171712 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 44, jtan03   passed
+given nr       test 44, nr       passed
+given nr       test 45, gong01   errored -- We tried to compute LargeInteger 658106493601 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 45, jtan03   passed
+given nr       test 45, nr       passed
+given nr       test 46, gong01   errored -- We tried to compute LargeInteger -552365 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 46, jtan03   passed
+given nr       test 46, nr       passed
+given nr       test 47, gong01   errored -- We tried to compute LargeInteger 395954 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 47, jtan03   passed
+given nr       test 47, nr       passed
+given nr       test 48, gong01   errored -- We tried to compute LargeInteger 413893168328949898926547 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 48, jtan03   passed
+given nr       test 48, nr       passed
+given nr       test 49, gong01   errored -- We tried to compute 276 - 198 = 78, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 49, jtan03   passed
+given nr       test 49, nr       passed
+given nr       test 50, gong01   errored -- We tried to compute 150798 - 730753 = -579955, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 50, jtan03   passed
+given nr       test 50, nr       passed
+given nr       test 51, gong01   errored -- We tried to compute 720314222160 - 548923797552 = 171390424608, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 51, jtan03   passed
+given nr       test 51, nr       passed
+given nr       test 52, gong01   errored -- We tried to compute LargeInteger 12 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 52, jtan03   passed
+given nr       test 52, nr       passed
+given nr       test 53, gong01   errored -- We tried to compute LargeInteger 482 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 53, jtan03   passed
+given nr       test 53, nr       passed
+given nr       test 54, gong01   errored -- We tried to compute LargeInteger 10216029600 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 54, jtan03   passed
+given nr       test 54, nr       passed
+given nr       test 55, gong01   errored -- We tried to compute LargeInteger 758541132882843692861 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 55, jtan03   passed
+given nr       test 55, nr       passed
+given nr       test 56, gong01   errored -- We tested 498 < 547 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 56, jtan03   passed
+given nr       test 56, nr       passed
+given nr       test 57, gong01   errored -- We tested 379 < 849 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 57, jtan03   passed
+given nr       test 57, nr       passed
+given nr       test 58, gong01   errored -- We tested 636977 < 611497 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 58, jtan03   passed
+given nr       test 58, nr       passed
+given nr       test 59, gong01   errored -- We tried to compute LargeInteger 127072139835744 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 59, jtan03   passed
+given nr       test 59, nr       passed
+given nr       test 60, gong01   errored -- We tried to compute LargeInteger 24341655795279592173223687560 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 60, jtan03   passed
+given nr       test 60, nr       passed
+given nr       test 61, gong01   errored -- We tried to compute LargeInteger 21125035972939639643980390389165698070334080810 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 61, jtan03   passed
+given nr       test 61, nr       passed
+given nr       test 62, gong01   errored -- We tried to compute LargeInteger -35726 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 62, jtan03   passed
+given nr       test 62, nr       passed
+given nr       test 63, gong01   errored -- We tried to compute LargeInteger 84457925460 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 63, jtan03   passed
+given nr       test 63, nr       passed
+given nr       test 64, gong01   errored -- We tried to compute LargeInteger -155693439512265449666384 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 64, jtan03   passed
+given nr       test 64, nr       passed
+given nr       test 65, gong01   errored -- We tried to compute 687 - 231 = 456, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 65, jtan03   passed
+given nr       test 65, nr       passed
+given nr       test 66, gong01   errored -- We tried to compute 569202 - 305730 = 263472, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 66, jtan03   passed
+given nr       test 66, nr       passed
+given nr       test 67, gong01   errored -- We tried to compute 871585189616 - 309079898762 = 562505290854, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 67, jtan03   passed
+given nr       test 67, nr       passed
+given nr       test 68, gong01   errored -- We tried to compute LargeInteger 3 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 68, jtan03   passed
+given nr       test 68, nr       passed
+given nr       test 69, gong01   errored -- We tried to compute LargeInteger 138 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 69, jtan03   passed
+given nr       test 69, nr       passed
+given nr       test 70, gong01   errored -- We tried to compute LargeInteger 5643337572 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 70, jtan03   passed
+given nr       test 70, nr       passed
+given nr       test 71, gong01   errored -- We tried to compute LargeInteger 303905487878552875697 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 71, jtan03   passed
+given nr       test 71, nr       passed
+given nr       test 72, gong01   errored -- We tested 814 < 807 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 72, jtan03   passed
+given nr       test 72, nr       passed
+given nr       test 73, gong01   errored -- We tested 774 < 722 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 73, jtan03   passed
+given nr       test 73, nr       passed
+given nr       test 74, gong01   errored -- We tested 664552 < 489951 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 74, jtan03   passed
+given nr       test 74, nr       passed
+given nr       test 75, gong01   errored -- We tried to compute LargeInteger 920551879936500 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 75, jtan03   passed
+given nr       test 75, nr       passed
+given nr       test 76, gong01   errored -- We tried to compute LargeInteger 21889 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 76, jtan03   passed
+given nr       test 76, nr       passed
+given nr       test 77, gong01   errored -- We tried to compute LargeInteger 24203660910003037890643898578534578935314052624 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 77, jtan03   passed
+given nr       test 77, nr       passed
+given nr       test 78, gong01   errored -- We tried to compute LargeInteger -210 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 78, jtan03   passed
+given nr       test 78, nr       passed
+given nr       test 79, gong01   errored -- We tried to compute LargeInteger 38263137400741677952437 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 79, jtan03   passed
+given nr       test 79, nr       passed
+given nr       test 80, gong01   errored -- We tried to compute LargeInteger -76263178486907445409655792605476810843108311760 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 80, jtan03   passed
+given nr       test 80, nr       passed
+given nr       test 81, gong01   errored -- We tried to compute 254 - 177 = 77, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 81, jtan03   passed
+given nr       test 81, nr       passed
+given nr       test 82, gong01   errored -- We tried to compute 298012 - 850569 = -552557, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 82, jtan03   passed
+given nr       test 82, nr       passed
+given nr       test 83, gong01   errored -- We tried to compute 443917089260 - 546454788619 = -102537699359, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 83, jtan03   passed
+given nr       test 83, nr       passed
+given nr       test 84, gong01   errored -- We tried to compute LargeInteger 6 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 84, jtan03   passed
+given nr       test 84, nr       passed
+given nr       test 85, gong01   errored -- We tried to compute LargeInteger 13 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 85, jtan03   passed
+given nr       test 85, nr       passed
+given nr       test 86, gong01   errored -- We tried to compute LargeInteger 718 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 86, jtan03   passed
+given nr       test 86, nr       passed
+given nr       test 87, gong01   errored -- We tried to compute LargeInteger 21039744925 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 87, jtan03   passed
+given nr       test 87, nr       passed
+given nr       test 88, gong01   errored -- We tried to compute LargeInteger 129286198677912692447 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 88, jtan03   passed
+given nr       test 88, nr       passed
+given nr       test 89, gong01   errored -- We tested 965 < 769 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 89, jtan03   passed
+given nr       test 89, nr       passed
+given nr       test 90, gong01   errored -- We tested 490 < 850 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 90, jtan03   passed
+given nr       test 90, nr       passed
+given nr       test 91, gong01   errored -- We tested 74336 < 861997 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 91, jtan03   passed
+given nr       test 91, nr       passed
+given nr       test 92, gong01   errored -- We tried to compute LargeInteger 1022925 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 92, jtan03   passed
+given nr       test 92, nr       passed
+given nr       test 93, gong01   errored -- We tried to compute LargeInteger 538937969509482835828624272 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 93, jtan03   passed
+given nr       test 93, nr       passed
+given nr       test 94, gong01   errored -- We tried to compute LargeInteger 80140989405730162206898538356195735825443054872360009937124860926174592 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 94, jtan03   passed
+given nr       test 94, nr       passed
+given nr       test 95, gong01   errored -- We tried to compute LargeInteger 999 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 95, jtan03   passed
+given nr       test 95, nr       passed
+given nr       test 96, gong01   errored -- We tried to compute LargeInteger 57597750360534528 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 96, jtan03   passed
+given nr       test 96, nr       passed
+given nr       test 97, gong01   errored -- We tried to compute LargeInteger 56603338837835314710245 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 97, jtan03   passed
+given nr       test 97, nr       passed
+given nr       test 98, gong01   errored -- We tried to compute 614 - 872 = -258, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 98, jtan03   passed
+given nr       test 98, nr       passed
+given nr       test 99, gong01   errored -- We tried to compute 211790 - 570109 = -358319, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 99, jtan03   passed
+given nr       test 99, nr       passed
+given nr       test 100, gong01   errored -- We tried to compute 786009027539 - 893466088480 = -107457060941, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 100, jtan03   passed
+given nr       test 100, nr       passed
+given nr       test 101, gong01   errored -- We tried to compute LargeInteger 1 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 101, jtan03   passed
+given nr       test 101, nr       passed
+given nr       test 102, gong01   errored -- We tried to compute LargeInteger 10 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 102, jtan03   passed
+given nr       test 102, nr       passed
+given nr       test 103, gong01   errored -- We tried to compute LargeInteger 492 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 103, jtan03   passed
+given nr       test 103, nr       passed
+given nr       test 104, gong01   errored -- We tried to compute LargeInteger 28955940397 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 104, jtan03   passed
+given nr       test 104, nr       passed
+given nr       test 105, gong01   errored -- We tried to compute LargeInteger 833227751716847872321 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 105, jtan03   passed
+given nr       test 105, nr       passed
+given nr       test 106, gong01   errored -- We tested 243 < 977 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 106, jtan03   passed
+given nr       test 106, nr       passed
+given nr       test 107, gong01   errored -- We tested 991 < 795 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 107, jtan03   passed
+given nr       test 107, nr       passed
+given nr       test 108, gong01   errored -- We tested 461134 < 878027 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 108, jtan03   passed
+given nr       test 108, nr       passed
+given nr       test 109, gong01   errored -- We tried to compute LargeInteger 172608732 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 109, jtan03   passed
+given nr       test 109, nr       passed
+given nr       test 110, gong01   errored -- We tried to compute LargeInteger 861373675161 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 110, jtan03   passed
+given nr       test 110, nr       passed
+given nr       test 111, gong01   errored -- We tried to compute LargeInteger 311394951776889786728920 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 111, jtan03   passed
+given nr       test 111, nr       passed
+given nr       test 112, gong01   errored -- We tried to compute LargeInteger 29252603 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 112, jtan03   passed
+given nr       test 112, nr       passed
+given nr       test 113, gong01   errored -- We tried to compute LargeInteger 53505117484295365626850 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 113, jtan03   passed
+given nr       test 113, nr       passed
+given nr       test 114, gong01   errored -- We tried to compute LargeInteger -211684000865 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 114, jtan03   passed
+given nr       test 114, nr       passed
+given nr       test 115, gong01   errored -- We tried to compute 841 - 630 = 211, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 115, jtan03   passed
+given nr       test 115, nr       passed
+given nr       test 116, gong01   errored -- We tried to compute 22843 - 650387 = -627544, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 116, jtan03   passed
+given nr       test 116, nr       passed
+given nr       test 117, gong01   errored -- We tried to compute 774349844372 - 353564485793 = 420785358579, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 117, jtan03   passed
+given nr       test 117, nr       passed
+given nr       test 118, gong01   errored -- We tried to compute LargeInteger 2 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 118, jtan03   passed
+given nr       test 118, nr       passed
+given nr       test 119, gong01   errored -- We tried to compute LargeInteger 550 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 119, jtan03   passed
+given nr       test 119, nr       passed
+given nr       test 120, gong01   errored -- We tried to compute LargeInteger 26871458785 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 120, jtan03   passed
+given nr       test 120, nr       passed
+given nr       test 121, gong01   errored -- We tried to compute LargeInteger 185643344517993591129 using only 1, 0, and +, but your code failed with the error message "run-time error: Natural does not understand message +:".
+given nr       test 121, jtan03   passed
+given nr       test 121, nr       passed
+given nr       test 122, gong01   errored -- We tested 819 < 49 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 122, jtan03   passed
+given nr       test 122, nr       passed
+given nr       test 123, gong01   errored -- We tested 658 < 415 = <False>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 123, jtan03   passed
+given nr       test 123, nr       passed
+given nr       test 124, gong01   errored -- We tested 276933 < 785319 = <True>, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 124, jtan03   passed
+given nr       test 124, nr       passed
+given nr       test 125, gong01   errored -- We tried to compute LargeInteger 380 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 125, jtan03   passed
+given nr       test 125, nr       passed
+given nr       test 126, gong01   errored -- We tried to compute LargeInteger 1238293465446 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 126, jtan03   passed
+given nr       test 126, nr       passed
+given nr       test 127, gong01   errored -- We tried to compute LargeInteger 635335139192 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 127, jtan03   passed
+given nr       test 127, nr       passed
+given nr       test 128, gong01   errored -- We tried to compute LargeInteger -243 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 128, jtan03   passed
+given nr       test 128, nr       passed
+given nr       test 129, gong01   errored -- We tried to compute LargeInteger 1063122738118 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 129, jtan03   passed
+given nr       test 129, nr       passed
+given nr       test 130, gong01   errored -- We tried to compute LargeInteger -20561456482579901550388542539334880 using literals, *, and +, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 130, jtan03   passed
+given nr       test 130, nr       passed
+given nr       test 131, gong01   errored -- We tried to compute 880 - 811 = 69, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 131, jtan03   passed
+given nr       test 131, nr       passed
+given nr       test 132, gong01   errored -- We tried to compute 694235 - 700922 = -6687, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 132, jtan03   passed
+given nr       test 132, nr       passed
+given nr       test 133, gong01   errored -- We tried to compute 746330957482 - 839003194452 = -92672236970, but your code failed with the error message "run-time error: Natural does not understand message *:".
+given nr       test 133, jtan03   passed
+given nr       test 133, nr       passed

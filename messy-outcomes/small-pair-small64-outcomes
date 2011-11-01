@@ -1,0 +1,504 @@
+given jkenne05 test  1, jkenne05 passed
+given jkenne05 test  1, hlin02   passed
+given jkenne05 test  1, esalow01 passed
+given jkenne05 test  1, bkolta01 passed
+given jkenne05 test  1, gong01   errored -- error running ''sums and differences of factorials'': Arithmetic overflow
+given jkenne05 test  1, nr       passed
+given jkenne05 test  1, bjorda02 passed
+given jkenne05 test  1, kmcneely passed
+given jkenne05 test  1, jtan03   mismatch -- When running ''sums and differences of factorials'', expected "2851151176543146778666461438920061557329"; got "List( 2 8 5 1 1 5 1 1 7 6 5 4 3 1 4 6 7 7 8 6 6 6 4 6 1 4 3 8 9 2 0 0 6 1 5 5 7 3 2 9 )\ "
+given jkenne05 test  1, agallant passed
+given jkenne05 test  1, jaltre01 errored -- error running ''sums and differences of factorials'': Arithmetic overflow
+given jkenne05 test  1, ariley03 passed
+given jkenne05 test  1, mleise01 errored -- error running ''sums and differences of factorials'': run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given jkenne05 test  1, jpearl05 passed
+given jkenne05 test  1, hnasar01 passed
+given jkenne05 test  1, tsoule01 passed
+given jkenne05 test  1, jtan03x  passed
+given jkenne05 test  1, mrusse03 passed
+given jkenne05 test  1, adreyf01 errored -- error running ''sums and differences of factorials'': array subscript out of bounds
+given jkenne05 test  1, dwhitn01 passed
+given jkenne05 test  1, sgardn04 timeout -- CPU time limit exceeded running ''sums and differences of factorials''
+given jkenne05 test  1, bsumne01 errored -- error running ''sums and differences of factorials'': Arithmetic overflow
+given jkenne05 test  1, nbugas01 errored -- error running ''sums and differences of factorials'': Arithmetic overflow
+given jkenne05 test  1, rmonde01 passed
+given esalow01 test  1, jkenne05 passed
+given esalow01 test  1, hlin02   errored -- error running ''for i in 1..65, 2^i, negated, difference with self not negative'': run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given esalow01 test  1, esalow01 passed
+given esalow01 test  1, bkolta01 passed
+given esalow01 test  1, gong01   errored -- error running ''for i in 1..65, 2^i, negated, difference with self not negative'': Arithmetic overflow
+given esalow01 test  1, nr       passed
+given esalow01 test  1, bjorda02 mismatch -- When running ''for i in 1..65, 2^i, negated, difference with self not negative'', expected "<True>"; got "<False>"
+given esalow01 test  1, kmcneely passed
+given esalow01 test  1, jtan03   passed
+given esalow01 test  1, agallant passed
+given esalow01 test  1, jaltre01 errored -- error running ''for i in 1..65, 2^i, negated, difference with self not negative'': Arithmetic overflow
+given esalow01 test  1, ariley03 passed
+given esalow01 test  1, mleise01 passed
+given esalow01 test  1, jpearl05 passed
+given esalow01 test  1, hnasar01 passed
+given esalow01 test  1, tsoule01 passed
+given esalow01 test  1, jtan03x  passed
+given esalow01 test  1, mrusse03 passed
+given esalow01 test  1, adreyf01 timeout -- CPU time limit exceeded running ''for i in 1..65, 2^i, negated, difference with self not negative''
+given esalow01 test  1, dwhitn01 passed
+given esalow01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''for i in 1..65, 2^i, negated, difference with self not negative''
+given esalow01 test  1, bsumne01 errored -- error running ''for i in 1..65, 2^i, negated, difference with self not negative'': Arithmetic overflow
+given esalow01 test  1, nbugas01 errored -- error running ''for i in 1..65, 2^i, negated, difference with self not negative'': Arithmetic overflow
+given esalow01 test  1, rmonde01 passed
+given bkolta01 test  1, jkenne05 passed
+given bkolta01 test  1, hlin02   passed
+given bkolta01 test  1, esalow01 passed
+given bkolta01 test  1, bkolta01 passed
+given bkolta01 test  1, gong01   passed
+given bkolta01 test  1, nr       passed
+given bkolta01 test  1, bjorda02 passed
+given bkolta01 test  1, kmcneely passed
+given bkolta01 test  1, jtan03   passed
+given bkolta01 test  1, agallant passed
+given bkolta01 test  1, jaltre01 passed
+given bkolta01 test  1, ariley03 passed
+given bkolta01 test  1, mleise01 passed
+given bkolta01 test  1, jpearl05 passed
+given bkolta01 test  1, hnasar01 passed
+given bkolta01 test  1, tsoule01 passed
+given bkolta01 test  1, jtan03x  passed
+given bkolta01 test  1, mrusse03 passed
+given bkolta01 test  1, adreyf01 passed
+given bkolta01 test  1, dwhitn01 passed
+given bkolta01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''-2^31 with small ints (student A)''
+given bkolta01 test  1, bsumne01 passed
+given bkolta01 test  1, nbugas01 passed
+given bkolta01 test  1, rmonde01 passed
+given gong01   test  1, jkenne05 passed
+given gong01   test  1, hlin02   passed
+given gong01   test  1, esalow01 passed
+given gong01   test  1, bkolta01 passed
+given gong01   test  1, gong01   passed
+given gong01   test  1, nr       passed
+given gong01   test  1, bjorda02 passed
+given gong01   test  1, kmcneely passed
+given gong01   test  1, jtan03   passed
+given gong01   test  1, agallant passed
+given gong01   test  1, jaltre01 passed
+given gong01   test  1, ariley03 passed
+given gong01   test  1, mleise01 passed
+given gong01   test  1, jpearl05 passed
+given gong01   test  1, hnasar01 passed
+given gong01   test  1, tsoule01 passed
+given gong01   test  1, jtan03x  passed
+given gong01   test  1, mrusse03 passed
+given gong01   test  1, adreyf01 passed
+given gong01   test  1, dwhitn01 passed
+given gong01   test  1, sgardn04 timeout -- CPU time limit exceeded running ''*, +, - entirely with small ints''
+given gong01   test  1, bsumne01 passed
+given gong01   test  1, nbugas01 passed
+given gong01   test  1, rmonde01 passed
+given bjorda02 test  1, jkenne05 passed
+given bjorda02 test  1, hlin02   mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, esalow01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, bkolta01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, gong01   errored -- error running ''= on small ints; factorials; mixed arithmetic'': Arithmetic overflow
+given bjorda02 test  1, nr       passed
+given bjorda02 test  1, bjorda02 passed
+given bjorda02 test  1, kmcneely errored -- error running ''= on small ints; factorials; mixed arithmetic'': variable aLPI not found
+given bjorda02 test  1, jtan03   mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, agallant mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, jaltre01 errored -- error running ''= on small ints; factorials; mixed arithmetic'': Arithmetic overflow
+given bjorda02 test  1, ariley03 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, mleise01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, jpearl05 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, hnasar01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, tsoule01 passed
+given bjorda02 test  1, jtan03x  mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, mrusse03 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, adreyf01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, dwhitn01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given bjorda02 test  1, sgardn04 timeout -- memory limit exceeded running ''= on small ints; factorials; mixed arithmetic''
+given bjorda02 test  1, bsumne01 errored -- error running ''= on small ints; factorials; mixed arithmetic'': Arithmetic overflow
+given bjorda02 test  1, nbugas01 errored -- error running ''= on small ints; factorials; mixed arithmetic'': Arithmetic overflow
+given bjorda02 test  1, rmonde01 mismatch -- When running ''= on small ints; factorials; mixed arithmetic'', expected "121524306168545278044"; got "YouForgotSmallIntegerEquality"
+given kmcneely test  1, jkenne05 passed
+given kmcneely test  1, hlin02   mismatch -- When running ''multiply may overflow, mixed large and small arith'', expected "0"; got "-0"
+given kmcneely test  1, esalow01 passed
+given kmcneely test  1, bkolta01 passed
+given kmcneely test  1, gong01   errored -- error running ''multiply may overflow, mixed large and small arith'': Arithmetic overflow
+given kmcneely test  1, nr       passed
+given kmcneely test  1, bjorda02 passed
+given kmcneely test  1, kmcneely passed
+given kmcneely test  1, jtan03   mismatch -- When running ''multiply may overflow, mixed large and small arith'', expected "0"; got "List( 0 )\ "
+given kmcneely test  1, agallant passed
+given kmcneely test  1, jaltre01 errored -- error running ''multiply may overflow, mixed large and small arith'': Arithmetic overflow
+given kmcneely test  1, ariley03 passed
+given kmcneely test  1, mleise01 errored -- error running ''multiply may overflow, mixed large and small arith'': run-time error: LargeNegativeInteger does not understand message addSmallIntegerTo:
+given kmcneely test  1, jpearl05 passed
+given kmcneely test  1, hnasar01 passed
+given kmcneely test  1, tsoule01 passed
+given kmcneely test  1, jtan03x  passed
+given kmcneely test  1, mrusse03 passed
+given kmcneely test  1, adreyf01 errored -- error running ''multiply may overflow, mixed large and small arith'': array subscript out of bounds
+given kmcneely test  1, dwhitn01 passed
+given kmcneely test  1, sgardn04 timeout -- CPU time limit exceeded running ''multiply may overflow, mixed large and small arith''
+given kmcneely test  1, bsumne01 errored -- error running ''multiply may overflow, mixed large and small arith'': Arithmetic overflow
+given kmcneely test  1, nbugas01 errored -- error running ''multiply may overflow, mixed large and small arith'': Arithmetic overflow
+given kmcneely test  1, rmonde01 passed
+given jtan03   test  1, jkenne05 passed
+given jtan03   test  1, hlin02   passed
+given jtan03   test  1, esalow01 passed
+given jtan03   test  1, bkolta01 passed
+given jtan03   test  1, gong01   passed
+given jtan03   test  1, nr       passed
+given jtan03   test  1, bjorda02 passed
+given jtan03   test  1, kmcneely passed
+given jtan03   test  1, jtan03   passed
+given jtan03   test  1, agallant passed
+given jtan03   test  1, jaltre01 passed
+given jtan03   test  1, ariley03 passed
+given jtan03   test  1, mleise01 passed
+given jtan03   test  1, jpearl05 passed
+given jtan03   test  1, hnasar01 passed
+given jtan03   test  1, tsoule01 passed
+given jtan03   test  1, jtan03x  passed
+given jtan03   test  1, mrusse03 passed
+given jtan03   test  1, adreyf01 timeout -- CPU time limit exceeded running ''signed and unsigned powers of 2 out to 32 bits''
+given jtan03   test  1, dwhitn01 passed
+given jtan03   test  1, sgardn04 timeout -- CPU time limit exceeded running ''signed and unsigned powers of 2 out to 32 bits''
+given jtan03   test  1, bsumne01 passed
+given jtan03   test  1, nbugas01 passed
+given jtan03   test  1, rmonde01 passed
+given agallant test  1, jkenne05 passed
+given agallant test  1, hlin02   passed
+given agallant test  1, esalow01 passed
+given agallant test  1, bkolta01 passed
+given agallant test  1, gong01   errored -- error running ''- or * overflows, mixed *, large * + -'': Arithmetic overflow
+given agallant test  1, nr       passed
+given agallant test  1, bjorda02 mismatch -- When running ''- or * overflows, mixed *, large * + -'', expected "0"; got "-0"
+given agallant test  1, kmcneely errored -- error running ''- or * overflows, mixed *, large * + -'': variable aLPI not found
+given agallant test  1, jtan03   mismatch -- When running ''- or * overflows, mixed *, large * + -'', expected "0"; got "List( 0 )\ "
+given agallant test  1, agallant passed
+given agallant test  1, jaltre01 errored -- error running ''- or * overflows, mixed *, large * + -'': Arithmetic overflow
+given agallant test  1, ariley03 passed
+given agallant test  1, mleise01 errored -- error running ''- or * overflows, mixed *, large * + -'': run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given agallant test  1, jpearl05 passed
+given agallant test  1, hnasar01 passed
+given agallant test  1, tsoule01 passed
+given agallant test  1, jtan03x  passed
+given agallant test  1, mrusse03 passed
+given agallant test  1, adreyf01 errored -- error running ''- or * overflows, mixed *, large * + -'': array subscript out of bounds
+given agallant test  1, dwhitn01 passed
+given agallant test  1, sgardn04 timeout -- CPU time limit exceeded running ''- or * overflows, mixed *, large * + -''
+given agallant test  1, bsumne01 errored -- error running ''- or * overflows, mixed *, large * + -'': Arithmetic overflow
+given agallant test  1, nbugas01 errored -- error running ''- or * overflows, mixed *, large * + -'': Arithmetic overflow
+given agallant test  1, rmonde01 passed
+given jaltre01 test  1, jkenne05 passed
+given jaltre01 test  1, hlin02   passed
+given jaltre01 test  1, esalow01 passed
+given jaltre01 test  1, bkolta01 passed
+given jaltre01 test  1, gong01   errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, nr       passed
+given jaltre01 test  1, bjorda02 passed
+given jaltre01 test  1, kmcneely errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': -8000000000|0|variable aLPI not found
+given jaltre01 test  1, jtan03   mismatch -- When running ''+ - * on all combos of 2 large and 3 small ints'', expected "8000000000|0|16000000000000000000\ 0|8000000000|-16000000000000000000\ 4000000010|3999999990|40000000000\ 3999999990|4000000010|-40000000000\ 4000000000|4000000000|0\ 0|-8000000000|-16000000000000000000\ -8000000000|0|16000000000000000000\ -3999999990|-4000000010|-40000000000\ -4000000010|-3999999990|40000000000\ -4000000000|-4000000000|0\ 4000000010|-3999999990|40000000000\ -3999999990|4000000010|-40000000000\ 20|0|100\ 0|20|-100\ 10|10|0\ 3999999990|-4000000010|-40000000000\ -4000000010|3999999990|40000000000\ 0|-20|-100\ -20|0|100\ -10|-10|0\ 4000000000|-4000000000|0\ -4000000000|4000000000|0\ 10|-10|0\ -10|10|0\ 0|0|0\ nil"; got "8000000000|0|List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ 0|8000000000|-List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ 4000000010|3999999990|40000000000\ 3999999990|4000000010|-40000000000\ 4000000000|4000000000|0\ 0|-8000000000|-List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ -8000000000|0|List( 1 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )\ \ -3999999990|-4000000010|-40000000000\ -4000000010|-3999999990|40000000000\ -4000000000|-4000000000|0\ 4000000010|-3999999990|40000000000\ -3999999990|4000000010|-40000000000\ 20|0|100\ 0|20|-100\ 10|10|0\ 3999999990|-4000000010|-40000000000\ -4000000010|3999999990|40000000000\ 0|-20|-100\ -20|0|100\ -10|-10|0\ 4000000000|-4000000000|0\ -4000000000|4000000000|0\ 10|-10|0\ -10|10|0\ 0|0|0\ nil"
+given jaltre01 test  1, agallant passed
+given jaltre01 test  1, jaltre01 errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, ariley03 passed
+given jaltre01 test  1, mleise01 passed
+given jaltre01 test  1, jpearl05 passed
+given jaltre01 test  1, hnasar01 passed
+given jaltre01 test  1, tsoule01 passed
+given jaltre01 test  1, jtan03x  passed
+given jaltre01 test  1, mrusse03 passed
+given jaltre01 test  1, adreyf01 errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': 8000000000|0|array subscript out of bounds
+given jaltre01 test  1, dwhitn01 passed
+given jaltre01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''+ - * on all combos of 2 large and 3 small ints''
+given jaltre01 test  1, bsumne01 errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, nbugas01 errored -- error running ''+ - * on all combos of 2 large and 3 small ints'': 8000000000|0|Arithmetic overflow
+given jaltre01 test  1, rmonde01 passed
+given ariley03 test  1, jkenne05 passed
+given ariley03 test  1, hlin02   passed
+given ariley03 test  1, esalow01 passed
+given ariley03 test  1, bkolta01 passed
+given ariley03 test  1, gong01   passed
+given ariley03 test  1, nr       passed
+given ariley03 test  1, bjorda02 passed
+given ariley03 test  1, kmcneely passed
+given ariley03 test  1, jtan03   passed
+given ariley03 test  1, agallant passed
+given ariley03 test  1, jaltre01 passed
+given ariley03 test  1, ariley03 passed
+given ariley03 test  1, mleise01 passed
+given ariley03 test  1, jpearl05 passed
+given ariley03 test  1, hnasar01 passed
+given ariley03 test  1, tsoule01 passed
+given ariley03 test  1, jtan03x  passed
+given ariley03 test  1, mrusse03 passed
+given ariley03 test  1, adreyf01 mismatch -- When running ''mul or sub overflows; compare 2^34; 0 nonnegative'', expected "34"; got "1"
+given ariley03 test  1, dwhitn01 passed
+given ariley03 test  1, sgardn04 timeout -- CPU time limit exceeded running ''mul or sub overflows; compare 2^34; 0 nonnegative''
+given ariley03 test  1, bsumne01 passed
+given ariley03 test  1, nbugas01 passed
+given ariley03 test  1, rmonde01 passed
+given mleise01 test  1, jkenne05 passed
+given mleise01 test  1, hlin02   errored -- error running ''mixed <, 50 factorial, sum large and small'': run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given mleise01 test  1, esalow01 passed
+given mleise01 test  1, bkolta01 passed
+given mleise01 test  1, gong01   errored -- error running ''mixed <, 50 factorial, sum large and small'': run-time error: SmallInteger does not understand message mulByLargePositiveInteger:
+given mleise01 test  1, nr       passed
+given mleise01 test  1, bjorda02 passed
+given mleise01 test  1, kmcneely passed
+given mleise01 test  1, jtan03   mismatch -- When running ''mixed <, 50 factorial, sum large and small'', expected "1551118753287382280224243016469303211063259720016986112000000001275"; got "List( 1 5 5 1 1 1 8 7 5 3 2 8 7 3 8 2 2 8 0 2 2 4 2 4 3 0 1 6 4 6 9 3 0 3 2 1 1 0 6 3 2 5 9 7 2 0 0 1 6 9 8 6 1 1 2 0 0 0 0 0 0 0 0 1 2 7 5 )\ "
+given mleise01 test  1, agallant passed
+given mleise01 test  1, jaltre01 errored -- error running ''mixed <, 50 factorial, sum large and small'': Arithmetic overflow
+given mleise01 test  1, ariley03 passed
+given mleise01 test  1, mleise01 passed
+given mleise01 test  1, jpearl05 passed
+given mleise01 test  1, hnasar01 passed
+given mleise01 test  1, tsoule01 passed
+given mleise01 test  1, jtan03x  passed
+given mleise01 test  1, mrusse03 errored -- error running ''mixed <, 50 factorial, sum large and small'': run-time error: subclass failed to implement a method that was its responsibility
+given mleise01 test  1, adreyf01 errored -- error running ''mixed <, 50 factorial, sum large and small'': array subscript out of bounds
+given mleise01 test  1, dwhitn01 passed
+given mleise01 test  1, sgardn04 timeout -- memory limit exceeded running ''mixed <, 50 factorial, sum large and small''
+given mleise01 test  1, bsumne01 errored -- error running ''mixed <, 50 factorial, sum large and small'': Arithmetic overflow
+given mleise01 test  1, nbugas01 errored -- error running ''mixed <, 50 factorial, sum large and small'': Arithmetic overflow
+given mleise01 test  1, rmonde01 passed
+given jpearl05 test  1, jkenne05 passed
+given jpearl05 test  1, hlin02   passed
+given jpearl05 test  1, esalow01 passed
+given jpearl05 test  1, bkolta01 passed
+given jpearl05 test  1, gong01   errored -- error running ''overflow, combos of big+, big-, small on several ops'': Arithmetic overflow
+given jpearl05 test  1, nr       passed
+given jpearl05 test  1, bjorda02 passed
+given jpearl05 test  1, kmcneely errored -- error running ''overflow, combos of big+, big-, small on several ops'': variable aLPI not found
+given jpearl05 test  1, jtan03   mismatch -- When running ''overflow, combos of big+, big-, small on several ops'', expected "1"; got "List( 1 )\ "
+given jpearl05 test  1, agallant passed
+given jpearl05 test  1, jaltre01 errored -- error running ''overflow, combos of big+, big-, small on several ops'': Arithmetic overflow
+given jpearl05 test  1, ariley03 passed
+given jpearl05 test  1, mleise01 passed
+given jpearl05 test  1, jpearl05 passed
+given jpearl05 test  1, hnasar01 passed
+given jpearl05 test  1, tsoule01 passed
+given jpearl05 test  1, jtan03x  passed
+given jpearl05 test  1, mrusse03 errored -- error running ''overflow, combos of big+, big-, small on several ops'': run-time error: subclass failed to implement a method that was its responsibility
+given jpearl05 test  1, adreyf01 timeout -- CPU time limit exceeded running ''overflow, combos of big+, big-, small on several ops''
+given jpearl05 test  1, dwhitn01 passed
+given jpearl05 test  1, sgardn04 timeout -- CPU time limit exceeded running ''overflow, combos of big+, big-, small on several ops''
+given jpearl05 test  1, bsumne01 errored -- error running ''overflow, combos of big+, big-, small on several ops'': Arithmetic overflow
+given jpearl05 test  1, nbugas01 errored -- error running ''overflow, combos of big+, big-, small on several ops'': Arithmetic overflow
+given jpearl05 test  1, rmonde01 passed
+given hnasar01 test  1, jkenne05 passed
+given hnasar01 test  1, hlin02   timeout -- CPU time limit exceeded running ''* on small and large integers''
+given hnasar01 test  1, esalow01 passed
+given hnasar01 test  1, bkolta01 passed
+given hnasar01 test  1, gong01   errored -- error running ''* on small and large integers'': Arithmetic overflow
+given hnasar01 test  1, nr       passed
+given hnasar01 test  1, bjorda02 passed
+given hnasar01 test  1, kmcneely errored -- error running ''* on small and large integers'': variable aLPI not found
+given hnasar01 test  1, jtan03   mismatch -- When running ''* on small and large integers'', expected "-32767999999999999950848000000000000030719999999999999989760000000000000001919999999999999999808000000000000000008"; got "-List( 3 2 7 6 7 9 9 9 9 9 9 9 9 9 9 9 9 9 5 0 8 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 7 1 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 9 7 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 9 1 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 )\ "
+given hnasar01 test  1, agallant timeout -- CPU time limit exceeded running ''* on small and large integers''
+given hnasar01 test  1, jaltre01 errored -- error running ''* on small and large integers'': Arithmetic overflow
+given hnasar01 test  1, ariley03 passed
+given hnasar01 test  1, mleise01 passed
+given hnasar01 test  1, jpearl05 passed
+given hnasar01 test  1, hnasar01 passed
+given hnasar01 test  1, tsoule01 timeout -- CPU time limit exceeded running ''* on small and large integers''
+given hnasar01 test  1, jtan03x  passed
+given hnasar01 test  1, mrusse03 timeout -- CPU time limit exceeded running ''* on small and large integers''
+given hnasar01 test  1, adreyf01 errored -- error running ''* on small and large integers'': array subscript out of bounds
+given hnasar01 test  1, dwhitn01 passed
+given hnasar01 test  1, sgardn04 errored -- error running ''* on small and large integers'': Arithmetic overflow
+given hnasar01 test  1, bsumne01 errored -- error running ''* on small and large integers'': Arithmetic overflow
+given hnasar01 test  1, nbugas01 errored -- error running ''* on small and large integers'': Arithmetic overflow
+given hnasar01 test  1, rmonde01 passed
+given tsoule01 test  1, jkenne05 passed
+given tsoule01 test  1, hlin02   passed
+given tsoule01 test  1, esalow01 passed
+given tsoule01 test  1, bkolta01 passed
+given tsoule01 test  1, gong01   passed
+given tsoule01 test  1, nr       passed
+given tsoule01 test  1, bjorda02 passed
+given tsoule01 test  1, kmcneely passed
+given tsoule01 test  1, jtan03   passed
+given tsoule01 test  1, agallant passed
+given tsoule01 test  1, jaltre01 passed
+given tsoule01 test  1, ariley03 passed
+given tsoule01 test  1, mleise01 passed
+given tsoule01 test  1, jpearl05 passed
+given tsoule01 test  1, hnasar01 passed
+given tsoule01 test  1, tsoule01 passed
+given tsoule01 test  1, jtan03x  passed
+given tsoule01 test  1, mrusse03 passed
+given tsoule01 test  1, adreyf01 passed
+given tsoule01 test  1, dwhitn01 passed
+given tsoule01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''arithmetic with 2^30 and neighbors''
+given tsoule01 test  1, bsumne01 passed
+given tsoule01 test  1, nbugas01 passed
+given tsoule01 test  1, rmonde01 passed
+given mrusse03 test  1, jkenne05 passed
+given mrusse03 test  1, hlin02   passed
+given mrusse03 test  1, esalow01 passed
+given mrusse03 test  1, bkolta01 passed
+given mrusse03 test  1, gong01   passed
+given mrusse03 test  1, nr       passed
+given mrusse03 test  1, bjorda02 passed
+given mrusse03 test  1, kmcneely passed
+given mrusse03 test  1, jtan03   passed
+given mrusse03 test  1, agallant passed
+given mrusse03 test  1, jaltre01 passed
+given mrusse03 test  1, ariley03 passed
+given mrusse03 test  1, mleise01 passed
+given mrusse03 test  1, jpearl05 passed
+given mrusse03 test  1, hnasar01 passed
+given mrusse03 test  1, tsoule01 passed
+given mrusse03 test  1, jtan03x  passed
+given mrusse03 test  1, mrusse03 passed
+given mrusse03 test  1, adreyf01 passed
+given mrusse03 test  1, dwhitn01 passed
+given mrusse03 test  1, sgardn04 timeout -- memory limit exceeded running ''powers of 2 up to 2^50, large sums''
+given mrusse03 test  1, bsumne01 passed
+given mrusse03 test  1, nbugas01 passed
+given mrusse03 test  1, rmonde01 passed
+given adreyf01 test  1, jkenne05 passed
+given adreyf01 test  1, hlin02   passed
+given adreyf01 test  1, esalow01 passed
+given adreyf01 test  1, bkolta01 passed
+given adreyf01 test  1, gong01   passed
+given adreyf01 test  1, nr       passed
+given adreyf01 test  1, bjorda02 passed
+given adreyf01 test  1, kmcneely passed
+given adreyf01 test  1, jtan03   passed
+given adreyf01 test  1, agallant passed
+given adreyf01 test  1, jaltre01 passed
+given adreyf01 test  1, ariley03 passed
+given adreyf01 test  1, mleise01 passed
+given adreyf01 test  1, jpearl05 passed
+given adreyf01 test  1, hnasar01 passed
+given adreyf01 test  1, tsoule01 passed
+given adreyf01 test  1, jtan03x  passed
+given adreyf01 test  1, mrusse03 passed
+given adreyf01 test  1, adreyf01 mismatch -- When running ''simple tests with 2^32; check small ints'', expected "-8589934594"; got "8589934594"
+given adreyf01 test  1, dwhitn01 passed
+given adreyf01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''simple tests with 2^32; check small ints''
+given adreyf01 test  1, bsumne01 passed
+given adreyf01 test  1, nbugas01 passed
+given adreyf01 test  1, rmonde01 passed
+given dwhitn01 test  1, jkenne05 passed
+given dwhitn01 test  1, hlin02   passed
+given dwhitn01 test  1, esalow01 passed
+given dwhitn01 test  1, bkolta01 passed
+given dwhitn01 test  1, gong01   passed
+given dwhitn01 test  1, nr       passed
+given dwhitn01 test  1, bjorda02 passed
+given dwhitn01 test  1, kmcneely passed
+given dwhitn01 test  1, jtan03   passed
+given dwhitn01 test  1, agallant passed
+given dwhitn01 test  1, jaltre01 passed
+given dwhitn01 test  1, ariley03 passed
+given dwhitn01 test  1, mleise01 passed
+given dwhitn01 test  1, jpearl05 passed
+given dwhitn01 test  1, hnasar01 passed
+given dwhitn01 test  1, tsoule01 passed
+given dwhitn01 test  1, jtan03x  passed
+given dwhitn01 test  1, mrusse03 passed
+given dwhitn01 test  1, adreyf01 mismatch -- When running ''-2^31 with small ints (student B)'', expected "-2147483649"; got "-2147483647"
+given dwhitn01 test  1, dwhitn01 passed
+given dwhitn01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''-2^31 with small ints (student B)''
+given dwhitn01 test  1, bsumne01 passed
+given dwhitn01 test  1, nbugas01 passed
+given dwhitn01 test  1, rmonde01 passed
+given sgardn04 test  1, jkenne05 passed
+given sgardn04 test  1, hlin02   errored -- error running ''sums and differences of factorials up to 50!'': run-time error: LargePositiveInteger does not understand message multiplyBySmallInteger:
+given sgardn04 test  1, esalow01 passed
+given sgardn04 test  1, bkolta01 passed
+given sgardn04 test  1, gong01   errored -- error running ''sums and differences of factorials up to 50!'': Arithmetic overflow
+given sgardn04 test  1, nr       passed
+given sgardn04 test  1, bjorda02 passed
+given sgardn04 test  1, kmcneely passed
+given sgardn04 test  1, jtan03   mismatch -- When running ''sums and differences of factorials up to 50!'', expected "-595671612103250915577020"; got "-List( 5 9 5 6 7 1 6 1 2 1 0 3 2 5 0 9 1 5 5 7 7 0 2 0 )\ "
+given sgardn04 test  1, agallant passed
+given sgardn04 test  1, jaltre01 errored -- error running ''sums and differences of factorials up to 50!'': Arithmetic overflow
+given sgardn04 test  1, ariley03 passed
+given sgardn04 test  1, mleise01 errored -- error running ''sums and differences of factorials up to 50!'': run-time error: LargePositiveInteger does not understand message addSmallIntegerTo:
+given sgardn04 test  1, jpearl05 passed
+given sgardn04 test  1, hnasar01 passed
+given sgardn04 test  1, tsoule01 passed
+given sgardn04 test  1, jtan03x  passed
+given sgardn04 test  1, mrusse03 passed
+given sgardn04 test  1, adreyf01 timeout -- CPU time limit exceeded running ''sums and differences of factorials up to 50!''
+given sgardn04 test  1, dwhitn01 passed
+given sgardn04 test  1, sgardn04 timeout -- CPU time limit exceeded running ''sums and differences of factorials up to 50!''
+given sgardn04 test  1, bsumne01 errored -- error running ''sums and differences of factorials up to 50!'': Arithmetic overflow
+given sgardn04 test  1, nbugas01 errored -- error running ''sums and differences of factorials up to 50!'': Arithmetic overflow
+given sgardn04 test  1, rmonde01 passed
+given bsumne01 test  1, jkenne05 passed
+given bsumne01 test  1, hlin02   passed
+given bsumne01 test  1, esalow01 passed
+given bsumne01 test  1, bkolta01 passed
+given bsumne01 test  1, gong01   passed
+given bsumne01 test  1, nr       passed
+given bsumne01 test  1, bjorda02 passed
+given bsumne01 test  1, kmcneely passed
+given bsumne01 test  1, jtan03   passed
+given bsumne01 test  1, agallant passed
+given bsumne01 test  1, jaltre01 passed
+given bsumne01 test  1, ariley03 passed
+given bsumne01 test  1, mleise01 passed
+given bsumne01 test  1, jpearl05 passed
+given bsumne01 test  1, hnasar01 passed
+given bsumne01 test  1, tsoule01 passed
+given bsumne01 test  1, jtan03x  passed
+given bsumne01 test  1, mrusse03 passed
+given bsumne01 test  1, adreyf01 mismatch -- When running ''mixes *, -, +'', expected "5477933233965376701"; got "5477748792533542701"
+given bsumne01 test  1, dwhitn01 passed
+given bsumne01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''mixes *, -, +''
+given bsumne01 test  1, bsumne01 passed
+given bsumne01 test  1, nbugas01 passed
+given bsumne01 test  1, rmonde01 passed
+given nbugas01 test  1, jkenne05 errored -- error running ''2^128 and (-2)^128'': run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, hlin02   timeout -- memory limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, esalow01 timeout -- CPU time limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, bkolta01 errored -- error running ''2^128 and (-2)^128'': run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, gong01   errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, nr       passed
+given nbugas01 test  1, bjorda02 timeout -- CPU time limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, kmcneely errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, jtan03   errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, agallant timeout -- memory limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, jaltre01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, ariley03 timeout -- CPU time limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, mleise01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, jpearl05 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, hnasar01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, tsoule01 timeout -- CPU time limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, jtan03x  errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, mrusse03 errored -- error running ''2^128 and (-2)^128'': run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, adreyf01 errored -- error running ''2^128 and (-2)^128'': array subscript out of bounds
+given nbugas01 test  1, dwhitn01 errored -- error running ''2^128 and (-2)^128'': run-time error: subclass failed to implement a method that was its responsibility
+given nbugas01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''2^128 and (-2)^128''
+given nbugas01 test  1, bsumne01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, nbugas01 errored -- error running ''2^128 and (-2)^128'': Arithmetic overflow
+given nbugas01 test  1, rmonde01 errored -- error running ''2^128 and (-2)^128'': run-time error: numeric primitive expected numeric argument, got <LargePositiveInteger>
+given rmonde01 test  1, jkenne05 passed
+given rmonde01 test  1, hlin02   passed
+given rmonde01 test  1, esalow01 passed
+given rmonde01 test  1, bkolta01 passed
+given rmonde01 test  1, gong01   passed
+given rmonde01 test  1, nr       passed
+given rmonde01 test  1, bjorda02 passed
+given rmonde01 test  1, kmcneely passed
+given rmonde01 test  1, jtan03   passed
+given rmonde01 test  1, agallant passed
+given rmonde01 test  1, jaltre01 passed
+given rmonde01 test  1, ariley03 passed
+given rmonde01 test  1, mleise01 passed
+given rmonde01 test  1, jpearl05 passed
+given rmonde01 test  1, hnasar01 passed
+given rmonde01 test  1, tsoule01 passed
+given rmonde01 test  1, jtan03x  passed
+given rmonde01 test  1, mrusse03 passed
+given rmonde01 test  1, adreyf01 mismatch -- When running ''+, -, negated using 2^31'', expected "0"; got "4294967296"
+given rmonde01 test  1, dwhitn01 passed
+given rmonde01 test  1, sgardn04 timeout -- CPU time limit exceeded running ''+, -, negated using 2^31''
+given rmonde01 test  1, bsumne01 passed
+given rmonde01 test  1, nbugas01 passed
+given rmonde01 test  1, rmonde01 passed

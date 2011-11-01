@@ -1,0 +1,360 @@
+given nr       test  1, hlin02   passed
+given nr       test  1, zabram02 passed
+given nr       test  1, gong01   passed
+given nr       test  1, bjorda02 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  1, jtan03   passed
+given nr       test  1, jwelch01 passed
+given nr       test  1, hnasar01 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) T F".
+given nr       test  1, sbidwe01 passed
+given nr       test  1, mleise01 passed
+given nr       test  1, dkass01  passed
+given nr       test  1, npalmo01 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  1, bsumne01 passed
+given nr       test  1, jkenne05 passed
+given nr       test  1, esalow01 passed
+given nr       test  1, bkolta01 passed
+given nr       test  1, asamps01 passed
+given nr       test  1, kmcneely passed
+given nr       test  1, jpearl05 passed
+given nr       test  1, jbryan04 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f x))))) T F".
+given nr       test  1, ariley03 passed
+given nr       test  1, mdarsn01 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  1, rmonde01 passed
+given nr       test  1, xzhang01 passed
+given nr       test  1, mrusse03 passed
+given nr       test  1, dreedy01 passed
+given nr       test  1, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  1, adreyf01 passed
+given nr       test  1, tsoule01 passed
+given nr       test  1, agallant passed
+given nr       test  1, jkang09  failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "T F".
+given nr       test  1, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  1, dwhitn01 passed
+given nr       test  1, sgardn04 failed -- We expected term "eq 5 5" to reduce to "T", but using your definitions, it reduced to "T (\y.y) F".
+given nr       test  1, jaltre01 passed
+given nr       test  1, nbugas01 passed
+given nr       test  1, blarsen  passed
+given nr       test  2, hlin02   passed
+given nr       test  2, zabram02 passed
+given nr       test  2, gong01   passed
+given nr       test  2, bjorda02 passed
+given nr       test  2, jtan03   passed
+given nr       test  2, jwelch01 passed
+given nr       test  2, hnasar01 failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f (f x)))))) T F".
+given nr       test  2, sbidwe01 passed
+given nr       test  2, mleise01 passed
+given nr       test  2, dkass01  passed
+given nr       test  2, npalmo01 passed
+given nr       test  2, bsumne01 passed
+given nr       test  2, jkenne05 passed
+given nr       test  2, esalow01 passed
+given nr       test  2, bkolta01 passed
+given nr       test  2, asamps01 passed
+given nr       test  2, kmcneely passed
+given nr       test  2, jpearl05 passed
+given nr       test  2, jbryan04 failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f (f (f (f x))))) (\f.\x.f (f (f (f (f (f x)))))) T F".
+given nr       test  2, ariley03 passed
+given nr       test  2, mdarsn01 failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  2, rmonde01 passed
+given nr       test  2, xzhang01 failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "T".
+given nr       test  2, mrusse03 passed
+given nr       test  2, dreedy01 passed
+given nr       test  2, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  2, adreyf01 passed
+given nr       test  2, tsoule01 passed
+given nr       test  2, agallant passed
+given nr       test  2, jkang09  failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  2, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  2, dwhitn01 passed
+given nr       test  2, sgardn04 failed -- We expected term "eq 5 6" to reduce to "F", but using your definitions, it reduced to "\y.y".
+given nr       test  2, jaltre01 passed
+given nr       test  2, nbugas01 passed
+given nr       test  2, blarsen  passed
+given nr       test  3, hlin02   passed
+given nr       test  3, zabram02 passed
+given nr       test  3, gong01   passed
+given nr       test  3, bjorda02 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  3, jtan03   passed
+given nr       test  3, jwelch01 passed
+given nr       test  3, hnasar01 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) T F".
+given nr       test  3, sbidwe01 passed
+given nr       test  3, mleise01 passed
+given nr       test  3, dkass01  passed
+given nr       test  3, npalmo01 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  3, bsumne01 passed
+given nr       test  3, jkenne05 passed
+given nr       test  3, esalow01 passed
+given nr       test  3, bkolta01 passed
+given nr       test  3, asamps01 passed
+given nr       test  3, kmcneely passed
+given nr       test  3, jpearl05 passed
+given nr       test  3, jbryan04 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f (f x))) (\f.\x.f (f (f x))) T F".
+given nr       test  3, ariley03 passed
+given nr       test  3, mdarsn01 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  3, rmonde01 passed
+given nr       test  3, xzhang01 passed
+given nr       test  3, mrusse03 passed
+given nr       test  3, dreedy01 passed
+given nr       test  3, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  3, adreyf01 passed
+given nr       test  3, tsoule01 passed
+given nr       test  3, agallant passed
+given nr       test  3, jkang09  failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "T F".
+given nr       test  3, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  3, dwhitn01 passed
+given nr       test  3, sgardn04 failed -- We expected term "eq 3 3" to reduce to "T", but using your definitions, it reduced to "T (\y.y) F".
+given nr       test  3, jaltre01 passed
+given nr       test  3, nbugas01 passed
+given nr       test  3, blarsen  passed
+given nr       test  4, hlin02   passed
+given nr       test  4, zabram02 passed
+given nr       test  4, gong01   passed
+given nr       test  4, bjorda02 passed
+given nr       test  4, jtan03   passed
+given nr       test  4, jwelch01 passed
+given nr       test  4, hnasar01 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f (f x))) (\f.\x.f (f (f (f x)))) T F".
+given nr       test  4, sbidwe01 passed
+given nr       test  4, mleise01 passed
+given nr       test  4, dkass01  passed
+given nr       test  4, npalmo01 passed
+given nr       test  4, bsumne01 passed
+given nr       test  4, jkenne05 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "T (T (T F))".
+given nr       test  4, esalow01 passed
+given nr       test  4, bkolta01 passed
+given nr       test  4, asamps01 passed
+given nr       test  4, kmcneely passed
+given nr       test  4, jpearl05 passed
+given nr       test  4, jbryan04 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f (f x))) (\f.\x.f (f (f (f x)))) T F".
+given nr       test  4, ariley03 passed
+given nr       test  4, mdarsn01 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  4, rmonde01 passed
+given nr       test  4, xzhang01 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "T".
+given nr       test  4, mrusse03 passed
+given nr       test  4, dreedy01 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "T (T (T F))".
+given nr       test  4, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  4, adreyf01 passed
+given nr       test  4, tsoule01 passed
+given nr       test  4, agallant passed
+given nr       test  4, jkang09  failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  4, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  4, dwhitn01 passed
+given nr       test  4, sgardn04 failed -- We expected term "eq 3 4" to reduce to "F", but using your definitions, it reduced to "\y.y".
+given nr       test  4, jaltre01 passed
+given nr       test  4, nbugas01 passed
+given nr       test  4, blarsen  passed
+given nr       test  5, hlin02   passed
+given nr       test  5, zabram02 passed
+given nr       test  5, gong01   passed
+given nr       test  5, bjorda02 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, jtan03   passed
+given nr       test  5, jwelch01 passed
+given nr       test  5, hnasar01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "eq (\f.f) (\f.f) T F".
+given nr       test  5, sbidwe01 passed
+given nr       test  5, mleise01 passed
+given nr       test  5, dkass01  passed
+given nr       test  5, npalmo01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "T (\x.x) (\z.z (\f.\x.x) \f.\x.x) F".
+given nr       test  5, bsumne01 passed
+given nr       test  5, jkenne05 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, esalow01 passed
+given nr       test  5, bkolta01 passed
+given nr       test  5, asamps01 passed
+given nr       test  5, kmcneely passed
+given nr       test  5, jpearl05 passed
+given nr       test  5, jbryan04 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "eq (\f.f) (\f.f) T F".
+given nr       test  5, ariley03 passed
+given nr       test  5, mdarsn01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, rmonde01 passed
+given nr       test  5, xzhang01 passed
+given nr       test  5, mrusse03 passed
+given nr       test  5, dreedy01 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  5, adreyf01 passed
+given nr       test  5, tsoule01 passed
+given nr       test  5, agallant passed
+given nr       test  5, jkang09  failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  5, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  5, dwhitn01 passed
+given nr       test  5, sgardn04 failed -- We expected term "eq 1 1" to reduce to "T", but using your definitions, it reduced to "\x.x".
+given nr       test  5, jaltre01 passed
+given nr       test  5, nbugas01 passed
+given nr       test  5, blarsen  passed
+given nr       test  6, hlin02   passed
+given nr       test  6, zabram02 passed
+given nr       test  6, gong01   passed
+given nr       test  6, bjorda02 passed
+given nr       test  6, jtan03   passed
+given nr       test  6, jwelch01 passed
+given nr       test  6, hnasar01 failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "eq (\f.f) (\f.\x.f (f x)) T F".
+given nr       test  6, sbidwe01 passed
+given nr       test  6, mleise01 passed
+given nr       test  6, dkass01  passed
+given nr       test  6, npalmo01 passed
+given nr       test  6, bsumne01 passed
+given nr       test  6, jkenne05 passed
+given nr       test  6, esalow01 passed
+given nr       test  6, bkolta01 passed
+given nr       test  6, asamps01 passed
+given nr       test  6, kmcneely passed
+given nr       test  6, jpearl05 passed
+given nr       test  6, jbryan04 failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "eq (\f.f) (\f.\x.f (f x)) T F".
+given nr       test  6, ariley03 passed
+given nr       test  6, mdarsn01 failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  6, rmonde01 passed
+given nr       test  6, xzhang01 failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "T".
+given nr       test  6, mrusse03 passed
+given nr       test  6, dreedy01 passed
+given nr       test  6, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  6, adreyf01 passed
+given nr       test  6, tsoule01 passed
+given nr       test  6, agallant passed
+given nr       test  6, jkang09  failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  6, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  6, dwhitn01 passed
+given nr       test  6, sgardn04 failed -- We expected term "eq 1 2" to reduce to "F", but using your definitions, it reduced to "T (\x.x) F".
+given nr       test  6, jaltre01 passed
+given nr       test  6, nbugas01 passed
+given nr       test  6, blarsen  passed
+given nr       test  7, hlin02   passed
+given nr       test  7, zabram02 passed
+given nr       test  7, gong01   passed
+given nr       test  7, bjorda02 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  7, jtan03   passed
+given nr       test  7, jwelch01 passed
+given nr       test  7, hnasar01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f x)) (\f.\x.f (f x)) T F".
+given nr       test  7, sbidwe01 passed
+given nr       test  7, mleise01 passed
+given nr       test  7, dkass01  passed
+given nr       test  7, npalmo01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  7, bsumne01 passed
+given nr       test  7, jkenne05 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "T F".
+given nr       test  7, esalow01 passed
+given nr       test  7, bkolta01 passed
+given nr       test  7, asamps01 passed
+given nr       test  7, kmcneely passed
+given nr       test  7, jpearl05 passed
+given nr       test  7, jbryan04 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.f (f x)) (\f.\x.f (f x)) T F".
+given nr       test  7, ariley03 passed
+given nr       test  7, mdarsn01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  7, rmonde01 passed
+given nr       test  7, xzhang01 passed
+given nr       test  7, mrusse03 passed
+given nr       test  7, dreedy01 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "T F".
+given nr       test  7, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  7, adreyf01 passed
+given nr       test  7, tsoule01 passed
+given nr       test  7, agallant passed
+given nr       test  7, jkang09  failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  7, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  7, dwhitn01 passed
+given nr       test  7, sgardn04 failed -- We expected term "eq 2 2" to reduce to "T", but using your definitions, it reduced to "\y.y".
+given nr       test  7, jaltre01 passed
+given nr       test  7, nbugas01 passed
+given nr       test  7, blarsen  passed
+given nr       test  8, hlin02   passed
+given nr       test  8, zabram02 passed
+given nr       test  8, gong01   passed
+given nr       test  8, bjorda02 passed
+given nr       test  8, jtan03   passed
+given nr       test  8, jwelch01 passed
+given nr       test  8, hnasar01 failed -- We expected term "eq 2 3" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f x)) (\f.\x.f (f (f x))) T F".
+given nr       test  8, sbidwe01 passed
+given nr       test  8, mleise01 passed
+given nr       test  8, dkass01  passed
+given nr       test  8, npalmo01 passed
+given nr       test  8, bsumne01 passed
+given nr       test  8, jkenne05 passed
+given nr       test  8, esalow01 passed
+given nr       test  8, bkolta01 passed
+given nr       test  8, asamps01 passed
+given nr       test  8, kmcneely passed
+given nr       test  8, jpearl05 passed
+given nr       test  8, jbryan04 failed -- We expected term "eq 2 3" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.f (f x)) (\f.\x.f (f (f x))) T F".
+given nr       test  8, ariley03 passed
+given nr       test  8, mdarsn01 failed -- We expected term "eq 2 3" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test  8, rmonde01 passed
+given nr       test  8, xzhang01 failed -- We expected term "eq 2 3" to reduce to "F", but using your definitions, it reduced to "T".
+given nr       test  8, mrusse03 passed
+given nr       test  8, dreedy01 passed
+given nr       test  8, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  8, adreyf01 passed
+given nr       test  8, tsoule01 passed
+given nr       test  8, agallant passed
+given nr       test  8, jkang09  passed
+given nr       test  8, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  8, dwhitn01 passed
+given nr       test  8, sgardn04 passed
+given nr       test  8, jaltre01 passed
+given nr       test  8, nbugas01 passed
+given nr       test  8, blarsen  passed
+given nr       test  9, hlin02   passed
+given nr       test  9, zabram02 passed
+given nr       test  9, gong01   passed
+given nr       test  9, bjorda02 passed
+given nr       test  9, jtan03   passed
+given nr       test  9, jwelch01 passed
+given nr       test  9, hnasar01 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.x) (\f.\x.x) T F".
+given nr       test  9, sbidwe01 passed
+given nr       test  9, mleise01 passed
+given nr       test  9, dkass01  passed
+given nr       test  9, npalmo01 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  9, bsumne01 passed
+given nr       test  9, jkenne05 passed
+given nr       test  9, esalow01 passed
+given nr       test  9, bkolta01 passed
+given nr       test  9, asamps01 passed
+given nr       test  9, kmcneely passed
+given nr       test  9, jpearl05 passed
+given nr       test  9, jbryan04 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "eq (\f.\x.x) (\f.\x.x) T F".
+given nr       test  9, ariley03 passed
+given nr       test  9, mdarsn01 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "F".
+given nr       test  9, rmonde01 passed
+given nr       test  9, xzhang01 passed
+given nr       test  9, mrusse03 passed
+given nr       test  9, dreedy01 passed
+given nr       test  9, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test  9, adreyf01 passed
+given nr       test  9, tsoule01 passed
+given nr       test  9, agallant passed
+given nr       test  9, jkang09  passed
+given nr       test  9, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test  9, dwhitn01 passed
+given nr       test  9, sgardn04 failed -- We expected term "eq 0 0" to reduce to "T", but using your definitions, it reduced to "T (\x.\x.\y.y) (\x.\y.x) (\n.n (\x.\x.\y.y) \x.\y.x) F".
+given nr       test  9, jaltre01 passed
+given nr       test  9, nbugas01 passed
+given nr       test  9, blarsen  passed
+given nr       test 10, hlin02   passed
+given nr       test 10, zabram02 passed
+given nr       test 10, gong01   passed
+given nr       test 10, bjorda02 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "\y.y".
+given nr       test 10, jtan03   passed
+given nr       test 10, jwelch01 passed
+given nr       test 10, hnasar01 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.x) (\f.f) T F".
+given nr       test 10, sbidwe01 passed
+given nr       test 10, mleise01 passed
+given nr       test 10, dkass01  passed
+given nr       test 10, npalmo01 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test 10, bsumne01 passed
+given nr       test 10, jkenne05 passed
+given nr       test 10, esalow01 passed
+given nr       test 10, bkolta01 passed
+given nr       test 10, asamps01 passed
+given nr       test 10, kmcneely passed
+given nr       test 10, jpearl05 passed
+given nr       test 10, jbryan04 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "eq (\f.\x.x) (\f.f) T F".
+given nr       test 10, ariley03 passed
+given nr       test 10, mdarsn01 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "T F".
+given nr       test 10, rmonde01 passed
+given nr       test 10, xzhang01 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "T".
+given nr       test 10, mrusse03 passed
+given nr       test 10, dreedy01 passed
+given nr       test 10, drenfr01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: zero; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: Z; error: unbound free variable in RHS of binding: R; syntax error: Invalid Lambda Expression
+given nr       test 10, adreyf01 passed
+given nr       test 10, tsoule01 passed
+given nr       test 10, agallant passed
+given nr       test 10, jkang09  passed
+given nr       test 10, jwoold01 errored -- Loading your lambda code triggered these errors: error: unbound free variable in RHS of binding: xFT; error: unbound free variable in RHS of binding: nPHI; error: unbound free variable in RHS of binding: YDMR; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression; syntax error: Invalid Lambda Expression
+given nr       test 10, dwhitn01 passed
+given nr       test 10, sgardn04 failed -- We expected term "eq 0 1" to reduce to "F", but using your definitions, it reduced to "\x.x".
+given nr       test 10, jaltre01 passed
+given nr       test 10, nbugas01 passed
+given nr       test 10, blarsen  passed

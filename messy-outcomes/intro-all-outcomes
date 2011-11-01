@@ -1,0 +1,500 @@
+given cs40sums   test 1, akhaku01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, akhaku01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, akhaku01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, akhaku01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, akhaku01 passed
+given binary     test 1, akhaku01 failed -- extra newline
+given emptyline-mod-newline test 1, akhaku01 passed
+given emptyline  test 1, akhaku01 failed -- extra newline
+given latin1-mod-newline test 1, akhaku01 passed
+given latin1     test 1, akhaku01 failed -- extra newline
+given noname-mod-newline test 1, akhaku01 passed
+given noname     test 1, akhaku01 failed -- extra newline
+given presidents-mod-newline test 1, akhaku01 passed
+given presidents test 1, akhaku01 failed -- extra newline
+given singleton-mod-newline test 1, akhaku01 passed
+given singleton  test 1, akhaku01 failed -- extra newline
+given startspace-mod-newline test 1, akhaku01 passed
+given startspace test 1, akhaku01 failed -- extra newline
+given tabs-mod-newline test 1, akhaku01 passed
+given tabs       test 1, akhaku01 failed -- extra newline
+given cs40sums   test 1, anicho07 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given nrsums     test 1, anicho07 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given binary     test 1, anicho07 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given emptyline  test 1, anicho07 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given latin1     test 1, anicho07 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given noname     test 1, anicho07 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given presidents test 1, anicho07 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given singleton  test 1, anicho07 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given startspace test 1, anicho07 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given tabs       test 1, anicho07 failed -- fingerprint groups differ from expected
+given tabs-mod-newline test 1, anicho07 failed -- fingerprint groups differ from expected
+given cs40sums   test 1, ariley03 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, ariley03 failed -- fingerprint groups differ from expected
+given nrsums     test 1, ariley03 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, ariley03 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, ariley03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, ariley03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given emptyline-mod-newline test 1, ariley03 passed
+given emptyline  test 1, ariley03 failed -- extra newline at start
+given latin1     test 1, ariley03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, ariley03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given noname-mod-newline test 1, ariley03 passed
+given noname     test 1, ariley03 failed -- extra newline at start
+given presidents-mod-newline test 1, ariley03 passed
+given presidents test 1, ariley03 failed -- extra newline at start
+given singleton  test 1, ariley03 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, ariley03 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, ariley03 passed
+given startspace test 1, ariley03 failed -- extra newline at start
+given tabs-mod-newline test 1, ariley03 passed
+given tabs       test 1, ariley03 failed -- extra newline at start
+given cs40sums   test 1, bsumne01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, bsumne01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, bsumne01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, bsumne01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, bsumne01 passed
+given binary     test 1, bsumne01 failed -- extra newline
+given emptyline-mod-newline test 1, bsumne01 passed
+given emptyline  test 1, bsumne01 failed -- extra newline
+given latin1-mod-newline test 1, bsumne01 passed
+given latin1     test 1, bsumne01 failed -- extra newline
+given noname     test 1, bsumne01 failed -- empty stderr where error message was expected; extra newline
+given noname-mod-newline test 1, bsumne01 failed -- empty stderr where error message was expected
+given presidents-mod-newline test 1, bsumne01 passed
+given presidents test 1, bsumne01 failed -- extra newline
+given singleton-mod-newline test 1, bsumne01 passed
+given singleton  test 1, bsumne01 failed -- extra newline
+given startspace-mod-newline test 1, bsumne01 passed
+given startspace test 1, bsumne01 failed -- extra newline
+given tabs-mod-newline test 1, bsumne01 passed
+given tabs       test 1, bsumne01 failed -- extra newline
+given cs40sums   test 1, bweitz02 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, bweitz02 failed -- fingerprint groups differ from expected
+given nrsums     test 1, bweitz02 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, bweitz02 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, bweitz02 passed
+given binary     test 1, bweitz02 failed -- extra newline
+given emptyline  test 1, bweitz02 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given emptyline-mod-newline test 1, bweitz02 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given latin1-mod-newline test 1, bweitz02 passed
+given latin1     test 1, bweitz02 failed -- extra newline
+given noname-mod-newline test 1, bweitz02 passed
+given noname     test 1, bweitz02 failed -- extra newline
+given presidents-mod-newline test 1, bweitz02 passed
+given presidents test 1, bweitz02 failed -- extra newline
+given singleton-mod-newline test 1, bweitz02 passed
+given singleton  test 1, bweitz02 failed -- extra newline
+given startspace test 1, bweitz02 failed -- empty stderr where error message was expected; extra newline
+given startspace-mod-newline test 1, bweitz02 failed -- empty stderr where error message was expected
+given tabs       test 1, bweitz02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, bweitz02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, cbrink failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, cbrink failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, cbrink failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, cbrink failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given emptyline  test 1, cbrink failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, cbrink failed -- fingerprint groups differ from expected
+given latin1     test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, cbrink failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, cbrink failed -- fingerprint groups differ from expected
+given presidents test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given presidents-mod-newline test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton  test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, cbrink failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, cbrink failed -- fingerprint groups differ from expected
+given tabs       test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, cbrink failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, clangb01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, clangb01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, clangb01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, clangb01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, clangb01 passed
+given binary     test 1, clangb01 failed -- extra newline
+given emptyline  test 1, clangb01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given emptyline-mod-newline test 1, clangb01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given latin1-mod-newline test 1, clangb01 passed
+given latin1     test 1, clangb01 failed -- extra newline
+given noname     test 1, clangb01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given noname-mod-newline test 1, clangb01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given presidents-mod-newline test 1, clangb01 passed
+given presidents test 1, clangb01 failed -- extra newline
+given singleton-mod-newline test 1, clangb01 passed
+given singleton  test 1, clangb01 failed -- extra newline
+given startspace test 1, clangb01 failed -- empty stderr where error message was expected; extra newline
+given startspace-mod-newline test 1, clangb01 failed -- empty stderr where error message was expected
+given tabs-mod-newline test 1, clangb01 passed
+given tabs       test 1, clangb01 failed -- extra newline
+given cs40sums   test 1, csmith05 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, csmith05 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, csmith05 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, csmith05 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, csmith05 failed -- extra newline at start; unexpected output on stderr
+given binary-mod-newline test 1, csmith05 failed -- unexpected output on stderr
+given emptyline-mod-newline test 1, csmith05 passed
+given emptyline  test 1, csmith05 failed -- extra newline at start
+given latin1     test 1, csmith05 failed -- extra newline at start; unexpected output on stderr
+given latin1-mod-newline test 1, csmith05 failed -- unexpected output on stderr
+given noname-mod-newline test 1, csmith05 passed
+given noname     test 1, csmith05 failed -- extra newline at start
+given presidents test 1, csmith05 failed -- extra newline at start; unexpected output on stderr
+given presidents-mod-newline test 1, csmith05 failed -- unexpected output on stderr
+given singleton  test 1, csmith05 failed -- extra newline at start; unexpected output on stderr
+given singleton-mod-newline test 1, csmith05 failed -- unexpected output on stderr
+given startspace-mod-newline test 1, csmith05 passed
+given startspace test 1, csmith05 failed -- extra newline at start
+given tabs       test 1, csmith05 failed -- extra newline at start; unexpected output on stderr
+given tabs-mod-newline test 1, csmith05 failed -- unexpected output on stderr
+given cs40sums   test 1, dporte01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, dporte01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, dporte01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, dporte01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, dporte01 passed
+given binary     test 1, dporte01 failed -- extra newline
+given emptyline  test 1, dporte01 failed -- empty stderr where error message was expected; extra newline
+given emptyline-mod-newline test 1, dporte01 failed -- empty stderr where error message was expected
+given latin1-mod-newline test 1, dporte01 passed
+given latin1     test 1, dporte01 failed -- extra newline
+given noname-mod-newline test 1, dporte01 passed
+given noname     test 1, dporte01 failed -- extra newline
+given presidents-mod-newline test 1, dporte01 passed
+given presidents test 1, dporte01 failed -- extra newline
+given singleton  test 1, dporte01 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, dporte01 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, dporte01 passed
+given startspace test 1, dporte01 failed -- extra newline
+given tabs       test 1, dporte01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, dporte01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, ealter01 passed
+given binary-mod-newline test 1, ealter01 passed
+given emptyline  test 1, ealter01 passed
+given emptyline-mod-newline test 1, ealter01 passed
+given latin1     test 1, ealter01 passed
+given latin1-mod-newline test 1, ealter01 passed
+given noname     test 1, ealter01 passed
+given noname-mod-newline test 1, ealter01 passed
+given presidents test 1, ealter01 passed
+given presidents-mod-newline test 1, ealter01 passed
+given singleton  test 1, ealter01 passed
+given singleton-mod-newline test 1, ealter01 passed
+given tabs       test 1, ealter01 passed
+given tabs-mod-newline test 1, ealter01 passed
+given cs40sums   test 1, ealter01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, ealter01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, ealter01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, ealter01 failed -- fingerprint groups differ from expected
+given startspace test 1, ealter01 failed -- empty stderr where error message was expected
+given startspace-mod-newline test 1, ealter01 failed -- empty stderr where error message was expected
+given cs40sums   test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given emptyline  test 1, ewu02 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, ewu02 failed -- fingerprint groups differ from expected
+given latin1     test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, ewu02 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, ewu02 failed -- fingerprint groups differ from expected
+given presidents test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given presidents-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton  test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, ewu02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, ewu02 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, ewu02 failed -- fingerprint groups differ from expected
+given tabs       test 1, ewu02 failed -- extra newline at start; unexpected output on stderr
+given tabs-mod-newline test 1, ewu02 failed -- unexpected output on stderr
+given cs40sums   test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, fteume01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, fteume01 failed -- fingerprint groups differ from expected
+given emptyline  test 1, fteume01 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, fteume01 failed -- fingerprint groups differ from expected
+given latin1     test 1, fteume01 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, fteume01 failed -- fingerprint groups differ from expected
+given noname     test 1, fteume01 failed -- bad exit code; Segmentation fault; fingerprint groups differ from expected
+given noname-mod-newline test 1, fteume01 failed -- bad exit code; Segmentation fault; fingerprint groups differ from expected
+given presidents test 1, fteume01 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, fteume01 failed -- fingerprint groups differ from expected
+given singleton  test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, fteume01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, fteume01 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, fteume01 failed -- fingerprint groups differ from expected
+given tabs       test 1, fteume01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, fteume01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, ifried01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, ifried01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, ifried01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, ifried01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, ifried01 passed
+given binary     test 1, ifried01 failed -- extra newline
+given emptyline  test 1, ifried01 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, ifried01 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, ifried01 passed
+given latin1     test 1, ifried01 failed -- extra newline
+given noname     test 1, ifried01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given noname-mod-newline test 1, ifried01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given presidents-mod-newline test 1, ifried01 passed
+given presidents test 1, ifried01 failed -- extra newline
+given singleton-mod-newline test 1, ifried01 passed
+given singleton  test 1, ifried01 failed -- extra newline
+given startspace-mod-newline test 1, ifried01 passed
+given startspace test 1, ifried01 failed -- extra newline
+given tabs-mod-newline test 1, ifried01 passed
+given tabs       test 1, ifried01 failed -- extra newline
+given cs40sums   test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, jcanue01 failed -- unexpected output on stderr; extra newline
+given binary-mod-newline test 1, jcanue01 failed -- unexpected output on stderr
+given emptyline-mod-newline test 1, jcanue01 passed
+given emptyline  test 1, jcanue01 failed -- extra newline
+given latin1     test 1, jcanue01 failed -- unexpected output on stderr; extra newline
+given latin1-mod-newline test 1, jcanue01 failed -- unexpected output on stderr
+given noname-mod-newline test 1, jcanue01 passed
+given noname     test 1, jcanue01 failed -- extra newline
+given presidents test 1, jcanue01 failed -- unexpected output on stderr; extra newline
+given presidents-mod-newline test 1, jcanue01 failed -- unexpected output on stderr
+given singleton  test 1, jcanue01 failed -- unexpected output on stderr; extra newline
+given singleton-mod-newline test 1, jcanue01 failed -- unexpected output on stderr
+given startspace-mod-newline test 1, jcanue01 passed
+given startspace test 1, jcanue01 failed -- extra newline
+given tabs       test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, jcanue01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, jkenne05 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given nrsums     test 1, jkenne05 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given binary     test 1, jkenne05 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given emptyline  test 1, jkenne05 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given latin1     test 1, jkenne05 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given noname     test 1, jkenne05 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given presidents test 1, jkenne05 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given singleton  test 1, jkenne05 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given startspace test 1, jkenne05 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given tabs       test 1, jkenne05 failed -- fingerprint groups differ from expected
+given tabs-mod-newline test 1, jkenne05 failed -- fingerprint groups differ from expected
+given cs40sums   test 1, jsilve04 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, jsilve04 failed -- fingerprint groups differ from expected
+given nrsums     test 1, jsilve04 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, jsilve04 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, jsilve04 passed
+given binary     test 1, jsilve04 failed -- extra newline
+given emptyline-mod-newline test 1, jsilve04 passed
+given emptyline  test 1, jsilve04 failed -- extra newline
+given latin1-mod-newline test 1, jsilve04 passed
+given latin1     test 1, jsilve04 failed -- extra newline
+given noname-mod-newline test 1, jsilve04 passed
+given noname     test 1, jsilve04 failed -- extra newline
+given presidents-mod-newline test 1, jsilve04 passed
+given presidents test 1, jsilve04 failed -- extra newline
+given singleton-mod-newline test 1, jsilve04 passed
+given singleton  test 1, jsilve04 failed -- extra newline
+given startspace-mod-newline test 1, jsilve04 passed
+given startspace test 1, jsilve04 failed -- extra newline
+given tabs-mod-newline test 1, jsilve04 passed
+given tabs       test 1, jsilve04 failed -- extra newline
+given cs40sums   test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given emptyline  test 1, jtan03 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, jtan03 failed -- fingerprint groups differ from expected
+given latin1     test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, jtan03 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, jtan03 failed -- fingerprint groups differ from expected
+given presidents test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given presidents-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton  test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, jtan03 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, jtan03 failed -- fingerprint groups differ from expected
+given tabs       test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, jtan03 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, mborys01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, mborys01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given binary     test 1, mborys01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given emptyline  test 1, mborys01 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given latin1     test 1, mborys01 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given noname     test 1, mborys01 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given presidents test 1, mborys01 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given singleton  test 1, mborys01 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given startspace test 1, mborys01 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, mborys01 failed -- fingerprint groups differ from expected
+given tabs       test 1, mborys01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, mborys01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given emptyline  test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given emptyline-mod-newline test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given latin1     test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given noname-mod-newline test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given presidents test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given presidents-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given singleton  test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given startspace-mod-newline test 1, mnoble01 failed -- bad exit code; fingerprint groups differ from expected
+given tabs       test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, mnoble01 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, msmile01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, msmile01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given binary     test 1, msmile01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given emptyline  test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given emptyline-mod-newline test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given latin1     test 1, msmile01 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given noname     test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given noname-mod-newline test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given presidents test 1, msmile01 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given singleton  test 1, msmile01 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given startspace test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given startspace-mod-newline test 1, msmile01 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given tabs       test 1, msmile01 failed -- fingerprint groups differ from expected
+given tabs-mod-newline test 1, msmile01 failed -- fingerprint groups differ from expected
+given cs40sums   test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given emptyline  test 1, nchen06 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, nchen06 failed -- fingerprint groups differ from expected
+given latin1     test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given latin1-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, nchen06 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, nchen06 failed -- fingerprint groups differ from expected
+given presidents test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given presidents-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton  test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given singleton-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given startspace test 1, nchen06 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, nchen06 failed -- fingerprint groups differ from expected
+given tabs       test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, nchen06 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums     test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, preny01 failed -- unexpected output on stderr; extra newline
+given binary-mod-newline test 1, preny01 failed -- unexpected output on stderr
+given emptyline-mod-newline test 1, preny01 passed
+given emptyline  test 1, preny01 failed -- extra newline
+given latin1     test 1, preny01 failed -- unexpected output on stderr; extra newline
+given latin1-mod-newline test 1, preny01 failed -- unexpected output on stderr
+given noname-mod-newline test 1, preny01 passed
+given noname     test 1, preny01 failed -- extra newline
+given presidents test 1, preny01 failed -- unexpected output on stderr; extra newline
+given presidents-mod-newline test 1, preny01 failed -- unexpected output on stderr
+given singleton  test 1, preny01 failed -- unexpected output on stderr; extra newline
+given singleton-mod-newline test 1, preny01 failed -- unexpected output on stderr
+given startspace-mod-newline test 1, preny01 passed
+given startspace test 1, preny01 failed -- extra newline
+given tabs       test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, preny01 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given cs40sums   test 1, rlew02 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given nrsums     test 1, rlew02 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given binary     test 1, rlew02 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given emptyline  test 1, rlew02 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given latin1     test 1, rlew02 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given noname     test 1, rlew02 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given presidents test 1, rlew02 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given singleton  test 1, rlew02 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given startspace test 1, rlew02 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, rlew02 failed -- fingerprint groups differ from expected
+given tabs       test 1, rlew02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given tabs-mod-newline test 1, rlew02 failed -- unexpected output on stderr; fingerprint groups differ from expected
+given binary     test 1, rstern03 passed
+given binary-mod-newline test 1, rstern03 passed
+given emptyline  test 1, rstern03 passed
+given emptyline-mod-newline test 1, rstern03 passed
+given latin1     test 1, rstern03 passed
+given latin1-mod-newline test 1, rstern03 passed
+given presidents test 1, rstern03 passed
+given presidents-mod-newline test 1, rstern03 passed
+given singleton  test 1, rstern03 passed
+given singleton-mod-newline test 1, rstern03 passed
+given tabs       test 1, rstern03 passed
+given tabs-mod-newline test 1, rstern03 passed
+given cs40sums   test 1, rstern03 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, rstern03 failed -- fingerprint groups differ from expected
+given nrsums     test 1, rstern03 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given nrsums-mod-newline test 1, rstern03 failed -- bad exit code; unexpected output on stderr; fingerprint groups differ from expected
+given noname     test 1, rstern03 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given noname-mod-newline test 1, rstern03 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given startspace test 1, rstern03 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given startspace-mod-newline test 1, rstern03 failed -- empty stderr where error message was expected; fingerprint groups differ from expected
+given cs40sums   test 1, tjohn01 failed -- fingerprint groups differ from expected
+given cs40sums-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given nrsums     test 1, tjohn01 failed -- fingerprint groups differ from expected
+given nrsums-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given binary     test 1, tjohn01 failed -- fingerprint groups differ from expected
+given binary-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given emptyline  test 1, tjohn01 failed -- fingerprint groups differ from expected
+given emptyline-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given latin1     test 1, tjohn01 failed -- fingerprint groups differ from expected
+given latin1-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given noname     test 1, tjohn01 failed -- fingerprint groups differ from expected
+given noname-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given presidents test 1, tjohn01 failed -- fingerprint groups differ from expected
+given presidents-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given singleton  test 1, tjohn01 failed -- fingerprint groups differ from expected
+given singleton-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given startspace test 1, tjohn01 failed -- fingerprint groups differ from expected
+given startspace-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
+given tabs       test 1, tjohn01 failed -- fingerprint groups differ from expected
+given tabs-mod-newline test 1, tjohn01 failed -- fingerprint groups differ from expected
