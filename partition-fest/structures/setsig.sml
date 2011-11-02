@@ -3,11 +3,12 @@ sig
   type elem
   type set
 
-  exception NotFound of elem
+  exception NotFound
 
   val empty  : set
   val add    : elem * set -> set
   val member : elem * set -> bool
+  val representative : set -> elem
 
   val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
 
