@@ -3,7 +3,7 @@ sig
   type elem
   type set
 
-  exception NotFound of elem
+  exception NotFound
 
   val empty  : set
   val add    : elem * set -> set
