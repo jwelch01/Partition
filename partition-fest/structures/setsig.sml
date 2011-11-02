@@ -8,6 +8,7 @@ sig
   val empty  : set
   val add    : elem * set -> set
   val member : elem * set -> bool
+  val isEmpty : set -> bool
 
   val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
 
@@ -34,5 +35,9 @@ sig
   val /*/  : set * set -> set (* intersection *)
   val /+/  : set * set -> set (* union *)
   val /-/  : set * set -> set (* difference *)
+
+  val representative : set -> elem option
+    (* representative empty == NONE *)
+    (* if s is not empty, member (representative s, s) *)
 
 end
