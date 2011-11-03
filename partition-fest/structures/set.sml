@@ -1,5 +1,5 @@
-structure Set : SET = struct
-  type elem = 'a
+functor Set (Outcome : OUTCOME) : SET = struct
+  type elem = Outcome.t
   type set = elem list
 
   exception NotFound
@@ -7,11 +7,16 @@ structure Set : SET = struct
 
 
   val empty = []
-  fun add x s = x::s
-  fun member x s = List.exists (fn y => y=x) s
-  fun representative [] = raise NotFound
-    | representative (x::_) = x
+  fun add (x, s) = x::s
+  fun member (x, s) = List.exists (fn y => Outcome.eq (y,x)) s
+  fun representative [] = NONE
+    | representative (x::_) = SOME x
 
+  fun rep x = case representative x of SOME y => y
+                                     | NONE   => raise NotFound
+
+  fun isEmpty [] = true
+    | isEmpty _ = false
 
   fun fold f y s = foldr f y s
 
@@ -19,7 +24,7 @@ structure Set : SET = struct
   fun partition f s = 
    let fun partitionOne x l =
        let fun findEqClass [] = [[x]]
-             | findEqClass (y::ys) = if f (x, (representative y)) 
+             | findEqClass (y::ys) = if f (x, (rep y)) 
                                      then (x::y)::ys
 				     else y::(findEqClass ys)
        in findEqClass l

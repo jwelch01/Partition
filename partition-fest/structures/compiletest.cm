@@ -17,7 +17,7 @@ group is $/basis.cm
 
   embeddedmap.sml
 
-  outcomesig.sml
+  outcomesigtest.sml
   outcome.sml
 
   lex.sml

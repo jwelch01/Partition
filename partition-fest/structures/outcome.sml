@@ -11,15 +11,26 @@ structure Outcome :> OUTCOME = struct
 
 
 
-fun compare (PASSED, PASSED)  = EQUAL
-  | compare (PASSED, _   )  = GREATER
-  | compare (NOTPASSED _, PASSED)  = LESS
-  | compare (NOTPASSED _, _   )  = EQUAL
+fun compareOutcome (PASSED, PASSED)  = EQUAL
+  | compareOutcome (PASSED, _   )  = GREATER
+  | compareOutcome (NOTPASSED _, PASSED)  = LESS
+  | compareOutcome (NOTPASSED _, _   )  = EQUAL
 
-fun eq (o1, o2) = 
-  (case compare (o1, o2)
+fun eqOutcome (o1, o2) = 
+  (case compareOutcome (o1, o2)
     of EQUAL => true
      | _     => false)
 
-end
+fun sameTest ((id1, num1), (id2, num2)) = 
+  id1= id2 andalso num1 = num2
 
+exception DifferentTests
+fun compare ((id1, num1, sid1, out1), (id2, num2, sid2, out2)) = 
+                       if sameTest ((id1, num1), (id2, num2))
+		       then compareOutcome (out1, out2)
+		       else raise DifferentTests
+
+fun eq ((id1, num1, sid1, out1), (id2, num2, sid2, out2)) =
+  sameTest ((id1, num1), (id2, num2)) andalso eqOutcome (out1, out2)
+
+end

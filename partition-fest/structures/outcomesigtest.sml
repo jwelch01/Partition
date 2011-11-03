@@ -14,7 +14,8 @@ signature OUTCOME  = sig
   val sameTest : (string * int) * (string * int)  -> bool
 
   exception DifferentTests
-  val compare : t * t -> order
+  val compare : (string * int * string * outcome) * (string * int * string * outcome)  -> order
 
-  val eq : t * t -> bool (* does not compare solnid *)
+  val eq : (string * int * string * outcome) * (string * int * string * outcome)  -> bool 
+           (* does not compare solnid *)
 end
