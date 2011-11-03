@@ -8,13 +8,8 @@ signature OUTCOME  = sig
            , outcome : outcome
            }
 
-  val compareOutcome : outcome * outcome -> order
-  val eqOutcome      : outcome * outcome -> bool
+  val compare : outcome * outcome -> order
 
-  val sameTest : (string * int) * (string * int)  -> bool
+  val eq     : outcome * outcome -> bool 
 
-  exception DifferentTests
-  val compare : t * t -> order
-
-  val eq : t * t -> bool (* does not compare solnid *)
 end
