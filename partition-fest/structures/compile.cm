@@ -8,7 +8,8 @@ group is $/basis.cm
   graphsig.sml
 
   setsig.sml
-  set.sml
+  testset.sml
+  solnset.sml
 
   ternarykeychar.sml
   ternarystringmap.sml

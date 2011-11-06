@@ -38,7 +38,7 @@ and insert _ x [] = [x]
 
 fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
 
-val cmpResult = fn ((x,y), (x2,y2)) => x = x2 andalso cmpOutcomesEq (y,y2)
+val cmpResult = fn ((x,y), (x2,y2)) => x = x2 andalso Outcome.eq (y,y2)
 
 fun removeDuplicates ((k1,k2), result, resultList) =
   let fun findEq (_, r) = ListPair.allEq cmpResult 
