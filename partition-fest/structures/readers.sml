@@ -44,6 +44,12 @@ end
     | toOutcome ["-given", id, "test", num, ",", soln, badthing, witness] =
         finish id num soln (Outcome.NOTPASSED { outcome = badthing
                                               , witness = witness })
+    | toOutcome ["given", id, "test", num, ",", soln, "passed"] =
+        finish id num soln Outcome.PASSED
+    | toOutcome ["given", id, "test", num, ",", soln, badthing, witness] =
+        finish id num soln (Outcome.NOTPASSED { outcome = badthing
+                                              , witness = witness })
+
     | toOutcome _ = I.impossible "ill-formed input line"
 
 
