@@ -1,5 +1,5 @@
 functor SolnSet (Outcome : OUTCOME) : SET = struct
-  type elem = (string * (string * int * Outcome.outcome) list)
+  type elem = (string * (string * string * Outcome.outcome) list)
   type set = elem list
 
   exception NotFound
@@ -16,9 +16,17 @@ and insert _ x [] = [x]
 
 fun cmpTests ((id1, num1), (id2, num2)) =
   case String.compare (id1, id2)
-    of EQUAL => Int.compare (num1, num2)
+    of EQUAL => String.compare (num1, num2)
      | x     => x
 
+fun cmpTestsO ((id1, num1, _), (id2, num2, _)) = 
+  cmpTests ((id1, num1),(id2, num2))
+
+fun eq ((id1, ol1), (id2, ol2)) =
+  (ListPair.foldrEq (fn ((_,_,out1), (_,_,out2), flag) =>
+           Outcome.eq (out1, out2) andalso flag) true
+           (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
+  handle UnequalLengths => false
 
 (* Real functions *)
 
@@ -63,7 +71,7 @@ fun cmpTests ((id1, num1), (id2, num2)) =
           | eq (_, _) = true
         val (_,list1) = rep set1
         val (_,list2) = rep set2
-    in eq (list1, list2)
+    in eq (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
     end
 
 fun member (x, y) = raise NotImplemented
@@ -86,7 +94,7 @@ fun member (x, y) = raise NotImplemented
           | cmp (_, _) = true
         val (_,list1) = rep set1
         val (_,list2) = rep set2
-    in cmp (list1, list2)
+    in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
     end
 
   fun /*/ (_,_)= raise NotImplemented

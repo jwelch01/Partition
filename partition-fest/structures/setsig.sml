@@ -10,6 +10,8 @@ sig
   val member : elem * set -> bool
   val isEmpty : set -> bool
 
+  val eq     : elem * elem -> bool
+
   val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
 
   val partition : (elem * elem -> bool) -> set -> set list

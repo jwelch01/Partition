@@ -19,13 +19,13 @@ fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
 
 fun sort l = insertion_sort cmpResultName l
 
-fun eqResult ((id, num, ol), (id2, num2, ol2)) = 
-  id = id2 andalso num = num2 andalso
+fun eq ((_, _, ol), (_, _, ol2)) = 
        (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
 		Outcome.eq (out1, out2) andalso flag) true (ol, ol2)
         handle UnequalLengths => false)
 
-
+fun eqResult ((id, num, ol), (id2, num2, ol2)) = 
+  id = id2 andalso num = num2 andalso eq ((id, num, ol), (id2, num2, ol2))
 
 (* real functions *)
   val empty = []

@@ -29,18 +29,28 @@ fun makeTestSet map = m.mapFold
   tSet.empty map
 
 (* Partition TestSet *)
-fun eqResult ((id, num, ol), (id2, num2, ol2)) = 
-       (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
-		Outcome.eq (out1, out2) andalso flag) true (ol, ol2)
-        handle UnequalLengths => false)
-val partitionTests = tSet.partition eqResult
+val partitionTests = tSet.partition tSet.eq
 
 (* Make map from solns -> test * outcome list using a representative from each
 eq class *)
+exception Impossible
+fun addToMap (set, map) = case tSet.representative set
+                            of SOME (name, number, ol) => foldr
+                               (fn ((soln, out), m) => 
+                                 listMap.add (explode soln, 
+                                             (name, number, out),m))
+                               map ol
+                             | NONE => raise Impossible
+
+fun makeSolnMap set = foldr addToMap listMap.empty set
 
 (* Turn map into SolnSet *)
+fun makeSolnSet map = listMap.mapFold
+  (fn (k, testList, set) => sSet.add ((implode k, testList), set))
+  sSet.empty map
 
 (* Partition SolnSet *)
+val partitionSolns = sSet.partition sSet.eq
 
 (* Find subset relations *)
 

@@ -23,6 +23,7 @@ end
 
   fun isDelim c = c = #","   (* limited notion of delim *)
   fun idChar c = Char.isAlphaNum c orelse c = #"-" orelse c = #"."
+                                   orelse c = #"/"
 
   val lex : string -> string list = 
      (* precondition: no space characters *)
