@@ -54,21 +54,16 @@ fun eq ((id1, ol1), (id2, ol2)) =
    in foldr (fn (elem, classes) => partitionOne elem classes) [] s
    end
 
-
-
-(* Dangerous, should be designed out. 2 sets are eq if they have the same 
-   result for all shared tests. Thus the empty set is eq to all sets. Used to
-   avoid problems in subset if a solution has completed more tests than another
-   but has the same results on shared tests *) (* TODO : EDIT OUT *)
+(* equivalence, tests a representative of each set without respect
+   to soln name *)
   fun /==/ (set1, set2) = 
     let fun eq ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
          (case cmpTests ((t1, num1), (t2, num2))
-            of LESS => eq (xs, (t2, num2, out2)::ys)
-             | GREATER => eq ((t1, num1, out1)::xs, ys)
-             | EQUAL => if Outcome.eq (out1, out2) then eq (xs, ys)
-                                                   else false)
-          | eq ([], _) = true
-          | eq (_, _) = true
+            of EQUAL => if Outcome.eq (out1, out2) then eq (xs, ys)
+                                                   else false
+             | _     => false)
+          | eq ([], []) = true
+          | eq (_, _) = false
         val (_,list1) = rep set1
         val (_,list2) = rep set2
     in eq (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
@@ -82,16 +77,32 @@ fun member (x, y) = raise NotImplemented
     end
 *)
 (* A < B iff for all shared tests, if A has passed, B has passed *)
-  fun /<=/ (set1, set2) =
+(*  fun /<=/ (set1, set2) =
     let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
          (case cmpTests ((t1, num1), (t2, num2))
             of LESS => cmp (xs, (t2, num2, out2)::ys)
              | GREATER => cmp ((t1, num1, out1)::xs, ys)
              | EQUAL => (case Outcome.compare (out1, out2)
                            of GREATER => false
-                            | _       => true ) )
+                            | _       => cmp(xs, ys)))
           | cmp ([], _) = true
-          | cmp (_, _) = true
+          | cmp (_, []) = true
+        val (_,list1) = rep set1
+        val (_,list2) = rep set2
+    in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
+    end
+*)
+
+  fun /<=/ (set1, set2) =
+    let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
+         (case cmpTests ((t1, num1), (t2, num2))
+            of LESS => false
+             | GREATER => false
+             | EQUAL => (case Outcome.compare (out1, out2)
+                           of GREATER => false
+                            | _       => cmp(xs, ys)))
+          | cmp ([], _) = true
+          | cmp (_, []) = true
         val (_,list1) = rep set1
         val (_,list2) = rep set2
     in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
