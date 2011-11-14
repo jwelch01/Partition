@@ -116,11 +116,13 @@ struct
              [] (g.getNodes graph);
        (output (out, "}")))
 
+  infixr 0 $
+  fun f $ x = f x
+
   fun buildGraph file = 
-    let val (s, m) = buildMapAndSet(partitionSolns (makeSolnSet (makeSolnMap 
-            (partitionTests 
-                          (makeTestSet
-                          (readToMap (TextIO.openIn file)))))))
+    let val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
+                     makeSolnMap $ partitionTests $ makeTestSet $
+                     readToMap $ TextIO.openIn file
         val g = makeGraph s
     in printGraph g m (TextIO.openOut "out")
     end
