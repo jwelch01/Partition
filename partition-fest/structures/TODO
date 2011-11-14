@@ -1,7 +1,22 @@
-mapFold doesn't actually work. Needs to build up a key list as I go,
-then check if I've hit the sentinel, and call f if and only if I am at the
-sentinel, with the key list not including the sentinel as the key and the 
-value as the value, using the results from f as the y value.
+structure names to begin with capital latters
 
-make sure the getting leaves in each path won't overwrite the y value
-from any other path.
+break up basis.sml into at least three pieces:
+
+  - reading outcomes file (boring)
+  - writing dot file (also boring)
+  - the interesting stuff
+
+For each function in the interesting stuff, put an explicit signature
+in the definition of the Basis structure.
+
+Better dot output (commas, newlines)  ||....|.|
+
+Find a meaningful way to order tests into a test vector (instead of
+arbitrary as now).
+
+
+----------------------------------------------------------------
+
+Print out, in human-readable form, what we have learned about
+contingency (from a set of outcomes).
+

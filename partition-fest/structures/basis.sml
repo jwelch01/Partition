@@ -8,6 +8,7 @@ structure sSet = SolnSet(Outcome)
 
 structure Basis : sig 
   val buildGraph : string -> unit (* read outcomes & write dot to file "out" *)
+  (* TODO: add a signature for each interesting function *)
 end =
 struct
 
