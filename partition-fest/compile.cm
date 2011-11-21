@@ -24,5 +24,9 @@ group is $/basis.cm
   lex.sml
   readers.sml
 
+  structures.sml
+  input.sml
+  output.sml
+
   basis.sml
 

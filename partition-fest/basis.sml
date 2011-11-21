@@ -1,142 +1,96 @@
-structure map = TernaryStringMap(TernaryKeyChar)
-structure listMap = ListMapFn(map)
-structure m = EmbedMap(structure L1 = map
-                       structure L2 = listMap)
-structure g = BasicGraph
-structure tSet = TestSet(Outcome)
-structure sSet = SolnSet(Outcome)
-
 structure Basis : sig 
-  val buildGraph : string -> unit (* read outcomes & write dot to file "out" *)
-  (* TODO: add a signature for each interesting function *)
+  val buildGraph : string -> string -> unit 
+   (* read outcomes & write dot to file "out" *)
 end =
 struct
 
-  (* Build a map from tests to student * outcome lists from input file *)
-  fun readToMap fd =
-    let fun build fd map =
-      case TextIO.inputLine fd
-        of NONE => map
-         | SOME line => let val {num, outcome, solnid, testid} = 
-              OutcomeReader.outcome line
-                        in build fd 
-             (m.add ((explode testid, explode (Int.toString num)), 
-                                  (solnid, outcome), 
-                map))
-              end
-    in build fd m.empty
-    end
-
-
   (* Turn map into a TestSet *)
-  val makeTestSet : (string * Outcome.outcome) m.map -> tSet.set = 
-  fn map => m.mapFold 
-    (fn ((k1,k2), resultList, set) => tSet.add ((implode k1, implode k2, 
+  val makeTestSet : (string * Outcome.outcome) M.map -> TestSet.set = 
+  fn map => M.mapFold 
+    (fn ((k1,k2), resultList, set) => TestSet.add ((implode k1, implode k2, 
                            resultList), set))
-    tSet.empty map
+    TestSet.empty map
 
-  (* Partition TestSet *)
-  val partitionTests : tSet.set -> tSet.set list = tSet.partition tSet.eq
+  (* Partition TesTestSet *)
+  val partitionTests : TestSet.set -> TestSet.set list = TestSet.partition TestSet.eq
 
   (* Make map from solns -> test * outcome list using a representative from each
   eq class *)
   exception Impossible
-  fun addToMap (set, map) = case tSet.representative set
+  fun addToMap (set, map) = case TestSet.representative set
                               of SOME (name, number, ol) => foldr
                                  (fn ((soln, out), m) => 
-                                   listMap.add (explode soln, 
+                                   ListMap.add (explode soln, 
                                                (name, number, out),m))
                                  map ol
                                | NONE => raise Impossible
 
 
   val makeSolnMap :  
-    tSet.set list -> (string * string * Outcome.outcome) listMap.map =
-      fn set => foldr addToMap listMap.empty set
+    TestSet.set list -> (string * string * Outcome.outcome) ListMap.map =
+      fn set => foldr addToMap ListMap.empty set
 
   (* Turn map into SolnSet *)
   val makeSolnSet : 
-    (string * string * Outcome.outcome) listMap.map -> sSet.set = 
-       fn map => listMap.mapFold
-         (fn (k, testList, set) => sSet.add ((implode k, testList), set))
-         sSet.empty map
+    (string * string * Outcome.outcome) ListMap.map -> SolnSet.set = 
+       fn map => ListMap.mapFold
+         (fn (k, testList, set) => SolnSet.add ((implode k, testList), set))
+         SolnSet.empty map
 
   (* Partition SolnSet *)
-  val partitionSolns : sSet.set -> sSet.set list = sSet.partition sSet.eq
+  val partitionSolns : SolnSet.set -> SolnSet.set list = SolnSet.partition SolnSet.eq
 
   (* Produce graph using subset relations *)
 
-  val /<=/ = sSet./<=/
-  val /==/ = sSet./==/
+  val /<=/ = SolnSet./<=/
+  val /==/ = SolnSet./==/
   infix 3 /<=/ /==/
 
 
-  fun rep s = case sSet.representative s
+  fun rep s = case SolnSet.representative s
                 of SOME y => y
                  | NONE   => raise Impossible
 
   (* Make a new set list with renamed members, and a map to the students that
      the new names represent *)
-  val buildMapAndSet : sSet.set list -> sSet.set list * string map.map =
+  val buildMapAndSet : SolnSet.set list -> SolnSet.set list * string Map.map =
   fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
-    let val string = sSet.fold (fn ((n, _), str) => n^(" "^ str)) "" s
+    let val string = SolnSet.fold (fn ((n, _), str) => n^(" "^ str)) "" s
         val (_, l) = rep s
         val node = "N"^Int.toString(c)
-    in (sSet.add((node, l), set), 
-        map.bind(explode node, string, map), c+1) end) 
-    (sSet.empty, map.empty, 1) sl
-   in (sSet.partition sSet.eq s,m) end
+    in (SolnSet.add((node, l), set), 
+        Map.bind(explode node, string, map), c+1) end) 
+    (SolnSet.empty, Map.empty, 1) sl
+   in (SolnSet.partition SolnSet.eq s,m) end
 
-  fun edge id1 label id2 = g.makeEdge (g.makeNode id1, label, g.makeNode id2)
+  fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
 
   (* Make the graph structure *)
-  val makeGraph : sSet.set list -> BasicGraph.graph =
+  val makeGraph : SolnSet.set list -> BasicGraph.graph =
   fn sl => 
     foldr (fn (x, graph) => 
      let val (id1, _) = rep x
      in foldr (fn (y, g) =>
       let val (id2, _) = rep y
       in if x /<=/ y andalso not (y /<=/ x) 
-         then g.addEdge (edge id2 "" id1, g)
+         then G.addEdge (edge id2 "" id1, g)
          else g
       end)
-         (g.addNode(g.makeNode id1, graph)) sl
+         (G.addNode(G.makeNode id1, graph)) sl
      end)
-    g.empty sl
-
-  val output = TextIO.output
-
-
-  val printGraph : 
-    BasicGraph.graph -> string map.map -> TextIO.outstream -> unit =
-  fn graph => fn map => fn out =>
-      (output (out, "digraph testgraph { fontsize=\"9\" \nsize=\"10.3,7.7\"; ratio=compress\nnode [fontsize=\"9\"] \nedge [fontsize=\"9\"]"); 
-       foldl (fn (name, _) =>
-               let val label = g.getNodeLabel name
-               in ((output (out, label ^ " [label=\"" ^
-                                map.lookup(explode label, map) ^ "\"]\n")); [])
-         end)
-       [] (g.getNodes graph);
-       foldl (fn (name, _) =>
-               foldr (fn (name2, _) => 
-                         ((output (out, g.getNodeLabel name ^ " -> " ^
-                                        g.getNodeLabel name2 ^ 
-                                        " [dir=back]\n")); []))
-                  [] (g.getSuccessorNodes (name, graph)))
-             [] (g.getNodes graph);
-       (output (out, "}")))
+    G.empty sl
 
   infixr 0 $
   fun f $ x = f x
 
-  fun buildGraph file = 
+  fun buildGraph infile outfile = 
     let val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
                      makeSolnMap $ partitionTests $ makeTestSet $
-                     readToMap $ TextIO.openIn file
+                     FileReader.readToMap $ TextIO.openIn infile
         val g = makeGraph s
-    in printGraph g m (TextIO.openOut "out")
+    in FileWriter.printGraph g m (TextIO.openOut outfile)
     end
 
 end
