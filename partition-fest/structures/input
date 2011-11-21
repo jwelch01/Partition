@@ -1,6 +1,0 @@
-val m = readToMap (TextIO.openIn "105.outcome");
-val m2 = makeTestSet m;
-val m3 = partitionTests m2;
-val m4 = makeSolnMap m3;
-val m5 = makeSolnSet m4;
-val m6 = partitionSolns m5;

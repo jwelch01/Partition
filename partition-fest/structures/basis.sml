@@ -29,13 +29,14 @@ struct
 
 
   (* Turn map into a TestSet *)
-  fun makeTestSet map = m.mapFold 
+  val makeTestSet : (string * Outcome.outcome) m.map -> tSet.set = 
+  fn map => m.mapFold 
     (fn ((k1,k2), resultList, set) => tSet.add ((implode k1, implode k2, 
                            resultList), set))
     tSet.empty map
 
   (* Partition TestSet *)
-  val partitionTests = tSet.partition tSet.eq
+  val partitionTests : tSet.set -> tSet.set list = tSet.partition tSet.eq
 
   (* Make map from solns -> test * outcome list using a representative from each
   eq class *)
@@ -48,15 +49,20 @@ struct
                                  map ol
                                | NONE => raise Impossible
 
-  fun makeSolnMap set = foldr addToMap listMap.empty set
+
+  val makeSolnMap :  
+    tSet.set list -> (string * string * Outcome.outcome) listMap.map =
+      fn set => foldr addToMap listMap.empty set
 
   (* Turn map into SolnSet *)
-  fun makeSolnSet map = listMap.mapFold
-    (fn (k, testList, set) => sSet.add ((implode k, testList), set))
-    sSet.empty map
+  val makeSolnSet : 
+    (string * string * Outcome.outcome) listMap.map -> sSet.set = 
+       fn map => listMap.mapFold
+         (fn (k, testList, set) => sSet.add ((implode k, testList), set))
+         sSet.empty map
 
   (* Partition SolnSet *)
-  val partitionSolns = sSet.partition sSet.eq
+  val partitionSolns : sSet.set -> sSet.set list = sSet.partition sSet.eq
 
   (* Produce graph using subset relations *)
 
@@ -71,7 +77,8 @@ struct
 
   (* Make a new set list with renamed members, and a map to the students that
      the new names represent *)
-  fun buildMapAndSet sl =
+  val buildMapAndSet : sSet.set list -> sSet.set list * string map.map =
+  fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
     let val string = sSet.fold (fn ((n, _), str) => n^(" "^ str)) "" s
@@ -85,7 +92,8 @@ struct
   fun edge id1 label id2 = g.makeEdge (g.makeNode id1, label, g.makeNode id2)
 
   (* Make the graph structure *)
-  fun makeGraph sl = 
+  val makeGraph : sSet.set list -> BasicGraph.graph =
+  fn sl => 
     foldr (fn (x, graph) => 
      let val (id1, _) = rep x
      in foldr (fn (y, g) =>
@@ -100,7 +108,10 @@ struct
 
   val output = TextIO.output
 
-  fun printGraph graph map out =
+
+  val printGraph : 
+    BasicGraph.graph -> string map.map -> TextIO.outstream -> unit =
+  fn graph => fn map => fn out =>
       (output (out, "digraph testgraph { fontsize=\"9\" \nsize=\"10.3,7.7\"; ratio=compress\nnode [fontsize=\"9\"] \nedge [fontsize=\"9\"]"); 
        foldl (fn (name, _) =>
                let val label = g.getNodeLabel name
