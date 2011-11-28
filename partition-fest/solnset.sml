@@ -77,7 +77,7 @@ fun member (x, y) = raise NotImplemented
     end
 *)
 (* A < B iff for all shared tests, if A has passed, B has passed *)
-(*  fun /<=/ (set1, set2) =
+  fun /<=/ (set1, set2) =
     let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
          (case cmpTests ((t1, num1), (t2, num2))
             of LESS => cmp (xs, (t2, num2, out2)::ys)
@@ -91,8 +91,8 @@ fun member (x, y) = raise NotImplemented
         val (_,list2) = rep set2
     in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
     end
-*)
 
+(*
   fun /<=/ (set1, set2) =
     let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
          (case cmpTests ((t1, num1), (t2, num2))
@@ -107,6 +107,7 @@ fun member (x, y) = raise NotImplemented
         val (_,list2) = rep set2
     in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
     end
+*)
 
   fun /*/ (_,_)= raise NotImplemented
   fun /+/ (_,_)= raise NotImplemented
