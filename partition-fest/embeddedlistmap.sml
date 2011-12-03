@@ -1,5 +1,5 @@
-functor EmbedMap(structure L1 : FINITE_MAP 
-                 structure L2 : FINITE_MAP) : FINITE_MAP = struct
+functor EmbedListMap(structure L1 : FINITE_MAP 
+                     structure L2 : LIST_MAP) : LIST_MAP = struct
 
   type key = (L1.key * L2.key)
 
@@ -7,10 +7,9 @@ functor EmbedMap(structure L1 : FINITE_MAP
 
   val empty = L1.empty
 
-  exception NotFound of key
-
   fun look (k, m) = L1.lookup (k, m) handle L1.NotFound _ => L2.empty
 
+  fun add ((k1,k2), v, m) = L1.bind (k1, (L2.add (k2, v, look (k1, m))), m)
   fun bind ((k1, k2), v, m) = L1.bind (k1, (L2.bind (k2, v,look (k1, m))), m)
   fun lookup ((k1, k2), m) = L2.lookup (k2, (look (k1, m)))
 

@@ -6,7 +6,7 @@ sig
   exception NotFound of key
 
   val empty  : 'a map
-  val bind   : key * 'a * 'a map -> 'a map (* replaces if alreay present *)
+  val bind   : key * 'a * 'a map -> 'a map (* replaces if already present *)
   val lookup : key * 'a map -> 'a
 
   val mapFold   : ((key * 'a * 'b) -> 'b) -> 'b -> 'a map -> 'b

@@ -16,6 +16,7 @@ group is $/basis.cm
   listmap.sml
   graph.sml
 
+  embeddedlistmap.sml
   embeddedmap.sml
 
   outcomesig.sml
