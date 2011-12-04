@@ -7,6 +7,15 @@ group is $/basis.cm
   listmapsig.sml
   graphsig.sml
 
+  stringmapsig.sml
+  stringmap.sml
+
+  outcomemapsig.sml
+  outcomemap.sml
+
+  testdbsig.sml
+  testdb.sml
+
   setsig.sml
   testset.sml
   solnset.sml

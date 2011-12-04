@@ -1,16 +1,16 @@
-functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
-  structure Key = Key 
-
-  type key = char list
+functor OutcomeMapFn(Key: TERNARY_KEY) : OUTCOME_MAP = struct
   
-  datatype 'a map = NODE of { key : Key.ord_key, value: 'a, 
-                              lt : 'a map, eq : 'a map, gt : 'a map }
-                  | LEAF
+  structure Key = Key
 
-  exception NotFound of key
+  datatype  map = NODE of { key : Key.ord_key, value: Outcome.outcome, 
+                              lt :  map, eq :  map, gt : map }
+                 | LEAF
+
+ 
+  exception NotFound of string
   exception AlreadyPresent
 
-  val empty  : 'a map = LEAF
+  val empty  : map = LEAF
 
   fun bind (h::t,x,LEAF) = 
         NODE {key = h, value = x,
@@ -33,7 +33,7 @@ functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
 			       lt = lt, gt = bind ([], x, gt), eq = eq}
 	    | EQUAL   => NODE {key = key, value = x,
 				lt = lt, gt = gt, eq = eq})
-  fun lookup (n, LEAF) = raise NotFound n
+  fun lookup (n, LEAF) = raise NotFound (implode n)
     | lookup (h::t, NODE {key, value, lt, eq, gt}) =
 	(case Key.compare (h, key)
            of EQUAL   => lookup(t, eq)

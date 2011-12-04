@@ -1,13 +1,11 @@
-functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
+functor StringMapFn(Key: TERNARY_KEY) : STRING_MAP = struct
   structure Key = Key 
 
-  type key = char list
-  
   datatype 'a map = NODE of { key : Key.ord_key, value: 'a, 
                               lt : 'a map, eq : 'a map, gt : 'a map }
                   | LEAF
 
-  exception NotFound of key
+  exception NotFound of string
   exception AlreadyPresent
 
   val empty  : 'a map = LEAF
@@ -33,7 +31,7 @@ functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
 			       lt = lt, gt = bind ([], x, gt), eq = eq}
 	    | EQUAL   => NODE {key = key, value = x,
 				lt = lt, gt = gt, eq = eq})
-  fun lookup (n, LEAF) = raise NotFound n
+  fun lookup (n, LEAF) = raise NotFound (implode n)
     | lookup (h::t, NODE {key, value, lt, eq, gt}) =
 	(case Key.compare (h, key)
            of EQUAL   => lookup(t, eq)
