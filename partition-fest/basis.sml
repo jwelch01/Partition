@@ -5,11 +5,18 @@ end =
 struct
 
   (* Turn map into a TestSet *)
-  val makeTestSet : (string * Outcome.outcome) M.map -> TestSet.set = 
+(*  val makeTestSet : (string * Outcome.outcome) M.map -> TestSet.set = 
+
   fn map => M.mapFold 
     (fn ((k1,k2), resultList, set) => TestSet.add ((implode k1, implode k2, 
                            resultList), set))
     TestSet.empty map
+*)
+
+fun makeTestSet db = 
+  DB.foldLists (fn (test, testno, rList, set) => 
+                TestSet.add ((test, testno, rList), set))
+               TestSet.empty db
 
   (* Partition TesTestSet *)
   val partitionTests : TestSet.set -> TestSet.set list = TestSet.partition TestSet.eq

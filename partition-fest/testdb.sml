@@ -30,6 +30,7 @@ functor TestDB (structure M1 : STRING_MAP
     M3.lookup (explode soln, testnolook(explode testno, 
                              testlook (explode test, map)))
     handle M3.NotFound _ => Outcome.DNR
+
   fun fold f y (map, list) = 
     M1.mapFold
      (fn (k, m, y2) => 
@@ -37,9 +38,22 @@ functor TestDB (structure M1 : STRING_MAP
          (fn (k2, m2, y3) =>
            let fun checkSolns ([], y4) = y4
                  | checkSolns (x::xs, y4) = 
-                    f(implode k, implode k2, x, M3.lookup (explode x, m2), y4)
+                    checkSolns (xs, f(implode k, implode k2, x, M3.lookup (explode x, m2), y4))
            in checkSolns (list, y3)
            end)
+         y2 m)
+    y map
+
+  fun foldLists f y (map, list) = 
+    M1.mapFold
+     (fn (k, m, y2) =>
+     M2.mapFold 
+         (fn (k2, m2, y3) =>
+           let fun makeList ([], l) = l
+                 | makeList (x::xs, l) = 
+                     makeList (xs, (x, (M3.lookup (explode x, m2)))::l)
+           in f(implode k, implode k2, makeList (list, []), y3)
+	   end)
          y2 m)
     y map
 

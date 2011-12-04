@@ -1,21 +1,19 @@
 structure FileReader : sig
-  val readToMap : TextIO.instream -> (string * Outcome.outcome) M.map
+  val readToMap : TextIO.instream -> DB.db
 end = 
 struct
 
   (* Build a map from tests to student * outcome lists from input file *)
   fun readToMap fd =
-    let fun build fd map =
+    let fun build fd db =
       case TextIO.inputLine fd
-        of NONE => map
+        of NONE => db
          | SOME line => let val {num, outcome, solnid, testid} = 
               OutcomeReader.outcome line
                         in build fd 
-             (M.add ((explode testid, explode (Int.toString num)), 
-                                  (solnid, outcome), 
-                map))
+             (DB.bind (testid, Int.toString num, solnid, outcome, db))
               end
-    in build fd M.empty
+    in build fd DB.empty
     end
 
 end
