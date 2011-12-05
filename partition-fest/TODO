@@ -1,14 +1,3 @@
-structure names to begin with capital latters
-
-break up basis.sml into at least three pieces:
-
-  - reading outcomes file (boring)
-  - writing dot file (also boring)
-  - the interesting stuff
-
-For each function in the interesting stuff, put an explicit signature
-in the definition of the Basis structure.
-
 Better dot output (commas, newlines)  ||....|.|
 
 Find a meaningful way to order tests into a test vector (instead of
@@ -24,9 +13,6 @@ contingency (from a set of outcomes).
 
 Insure that program is agnostic to outcome type in all areas, except 
 where knowledge is strictly necessary
-
-Add DNR data (modify outcome type, add stage where dataset is completed,
-and all nonexistent data is added with DNR default)
 
 Start creating implications.
 -create a set of every test and its outcome datatype = (test * outcome)

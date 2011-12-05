@@ -24,7 +24,7 @@ fun cmpTestsO ((id1, num1, _), (id2, num2, _)) =
 
 fun eq ((id1, ol1), (id2, ol2)) =
   (ListPair.foldrEq (fn ((_,_,out1), (_,_,out2), flag) =>
-           Outcome.eq (out1, out2) andalso flag) true
+           Outcome.identical (out1, out2) andalso flag) true
            (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
   handle UnequalLengths => false
 

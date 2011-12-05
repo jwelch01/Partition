@@ -21,7 +21,7 @@ fun sort l = insertion_sort cmpResultName l
 
 fun eq ((_, _, ol), (_, _, ol2)) = 
        (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
-		Outcome.eq (out1, out2) andalso flag) true (ol, ol2)
+		Outcome.identical (out1, out2) andalso flag) true (ol, ol2)
         handle UnequalLengths => false)
 
 fun eqResult ((id, num, ol), (id2, num2, ol2)) = 

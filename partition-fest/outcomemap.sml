@@ -33,7 +33,7 @@ functor OutcomeMapFn(Key: TERNARY_KEY) : OUTCOME_MAP = struct
 			       lt = lt, gt = bind ([], x, gt), eq = eq}
 	    | EQUAL   => NODE {key = key, value = x,
 				lt = lt, gt = gt, eq = eq})
-  fun lookup (n, LEAF) = raise NotFound (implode n)
+  fun lookup (n, LEAF) = Outcome.DNR
     | lookup (h::t, NODE {key, value, lt, eq, gt}) =
 	(case Key.compare (h, key)
            of EQUAL   => lookup(t, eq)

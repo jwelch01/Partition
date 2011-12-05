@@ -22,4 +22,19 @@ fun eq (o1, o2) =
     of EQUAL => true
      | _     => false)
 
+fun identical (PASSED, PASSED) = true
+  | identical (NOTPASSED _, NOTPASSED _) = true
+  | identical (DNR, DNR) = true
+  | identical (_,_) = false
+
+fun boolTests (test, num, l) = 
+  let fun f ((soln, out)::xs) outGoal bools= 
+        if identical (out, outGoal) then f xs outGoal ((soln,true)::bools)
+                                    else f xs outGoal ((soln,false)::bools)
+        | f [] _ bools = bools
+  in (true, test, num, "PASSED", f l PASSED [])::
+     (true, test, num, "NOTPASSED", f l (NOTPASSED {outcome = "", witness = ""}) [])::
+     (true, test, num, "DNR", f l DNR [])::[]
+  end
+
 end

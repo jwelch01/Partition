@@ -5,14 +5,6 @@ end =
 struct
 
   (* Turn map into a TestSet *)
-(*  val makeTestSet : (string * Outcome.outcome) M.map -> TestSet.set = 
-
-  fn map => M.mapFold 
-    (fn ((k1,k2), resultList, set) => TestSet.add ((implode k1, implode k2, 
-                           resultList), set))
-    TestSet.empty map
-*)
-
 fun makeTestSet db = 
   DB.foldLists (fn (test, testno, rList, set) => 
                 TestSet.add ((test, testno, rList), set))
@@ -54,9 +46,13 @@ fun makeTestSet db =
   infix 3 /<=/ /==/
 
 
-  fun rep s = case SolnSet.representative s
-                of SOME y => y
-                 | NONE   => raise Impossible
+  fun solnRep s = case SolnSet.representative s
+                    of SOME y => y
+                     | NONE   => raise Impossible
+
+  fun testRep s = case TestSet.representative s
+                    of SOME y => y
+                     | NONE   => raise Impossible
 
   (* Make a new set list with renamed members, and a map to the students that
      the new names represent *)
@@ -65,7 +61,7 @@ fun makeTestSet db =
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
     let val string = SolnSet.fold (fn ((n, _), str) => n^(" "^ str)) "" s
-        val (_, l) = rep s
+        val (_, l) = solnRep s
         val node = "N"^Int.toString(c)
     in (SolnSet.add((node, l), set), 
         Map.bind(explode node, string, map), c+1) end) 
@@ -78,9 +74,9 @@ fun makeTestSet db =
   val makeGraph : SolnSet.set list -> BasicGraph.graph =
   fn sl => 
     foldr (fn (x, graph) => 
-     let val (id1, _) = rep x
+     let val (id1, _) = solnRep x
      in foldr (fn (y, g) =>
-      let val (id2, _) = rep y
+      let val (id2, _) = solnRep y
       in if x /<=/ y andalso not (y /<=/ x) 
          then G.addEdge (edge id2 "" id1, g)
          else g
@@ -88,6 +84,30 @@ fun makeTestSet db =
          (G.addNode(G.makeNode id1, graph)) sl
      end)
     G.empty sl
+
+  type supposition = (bool * string * string * string * (string * bool) list)
+
+  exception AlreadyNegative
+
+  fun negateSupposition (false, _, _, _, _) = raise AlreadyNegative
+    | negateSupposition (_, test, num, out, l) = 
+        let fun neg ((soln, result)::xs) negs = neg xs ((soln, not result)::negs)
+              | neg [] negs = negs
+        in (false, test, num, out, neg l [])
+        end
+
+
+  fun makePositiveSuppositionList testSetList = 
+    foldr (fn (testList, supps) => 
+            (Outcome.boolTests (testRep testList)) @ supps)
+    [] testSetList
+
+  fun makeSuppositionList testSetList = 
+    foldr (fn (supp, supps) =>
+            (supp::(negateSupposition supp)::supps))
+    [] (makePositiveSuppositionList testSetList)
+
+
 
   infixr 0 $
   fun f $ x = f x
