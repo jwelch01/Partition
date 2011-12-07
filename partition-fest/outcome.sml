@@ -33,7 +33,7 @@ fun boolTests (test, num, l) =
                                     else f xs outGoal ((soln,false)::bools)
         | f [] _ bools = bools
   in (true, test, num, "PASSED", f l PASSED [])::
-     (true, test, num, "NOTPASSED", f l (NOTPASSED {outcome = "", witness = ""}) [])::
+     (true, test, num, "FAILED", f l (NOTPASSED {outcome = "", witness = ""}) [])::
      (true, test, num, "DNR", f l DNR [])::[]
   end
 

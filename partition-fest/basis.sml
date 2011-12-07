@@ -85,28 +85,89 @@ fun makeTestSet db =
      end)
     G.empty sl
 
-  type supposition = (bool * string * string * string * (string * bool) list)
+  type proposition = (bool * string * string * string * (string * bool) list)
 
   exception AlreadyNegative
 
-  fun negateSupposition (false, _, _, _, _) = raise AlreadyNegative
-    | negateSupposition (_, test, num, out, l) = 
+ fun insertion_sort _ [] = []
+ | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
+and insert _ x [] = [x]
+ | insert cmp x (l as y::ys) =
+      case cmp (x, y) of GREATER => y :: insert cmp x ys
+                       | _       => x :: l
+
+  fun cmpPropName ((name, _), (name2,_)) = String.compare (name, name2)
+
+  val propSort : (string * bool) list -> (string * bool) list  = 
+      insertion_sort cmpPropName
+
+  fun propExists prop = foldr (fn ((_,out), flag) => out orelse flag) false prop
+
+ fun negateProposition (false, _, _, _, _) = raise AlreadyNegative
+    | negateProposition (_, test, num, out, l) = 
         let fun neg ((soln, result)::xs) negs = neg xs ((soln, not result)::negs)
               | neg [] negs = negs
         in (false, test, num, out, neg l [])
         end
 
 
-  fun makePositiveSuppositionList testSetList = 
-    foldr (fn (testList, supps) => 
-            (Outcome.boolTests (testRep testList)) @ supps)
+  fun makePositivePropositionList testSetList = 
+    foldr (fn (testList, props) => 
+            (Outcome.boolTests (testRep testList)) @ props)
     [] testSetList
 
-  fun makeSuppositionList testSetList = 
-    foldr (fn (supp, supps) =>
-            (supp::(negateSupposition supp)::supps))
-    [] (makePositiveSuppositionList testSetList)
+  fun makePropositionList testSetList = 
+    foldr (fn (prop, props) =>
+            (prop::(negateProposition prop)::props))
+    [] (makePositivePropositionList testSetList)
 
+  fun makePropMapAndSet propList =
+   let val (s, m, _) =
+    foldr (fn ((b, test, num, out, props), (s, m, c)) =>
+      let val name = if b then test ^ " " ^ num ^ " " ^ out
+                          else test ^ " " ^ num ^ " not " ^ out
+          val node = "N" ^ Int.toString(c)
+      in (((name,props)::s),
+           Map.bind (explode node, name, m),
+           c+1)
+      end)
+    ([], Map.empty, 1) propList
+   in (s, m) end
+
+  val /->/ : (string * bool) list * (string * bool) list -> bool = 
+   fn (prop1, prop2) =>
+    if (propExists prop1) then
+     ListPair.foldr (fn ((_, out1), (_, out2), flag) =>
+                     if out1 then out2 andalso flag
+                             else flag)
+     true (propSort prop1, propSort prop2)
+    else false
+ 
+  infixr 0 /->/
+
+  fun filt (node, (soln, p)::props) = 
+       if p then not (foldr (fn ((_, out), flag) => out andalso flag) 
+                      true props)
+            else not (foldr (fn ((_, out), flag) => (not out) andalso flag)
+                      true props)
+    | filt (_, []) = raise Impossible
+    
+  val filterProps : (string * (string * bool) list) list ->
+                    (string * (string * bool) list) list
+  = List.filter filt
+
+
+  fun makePropositionGraph propList = 
+    foldr (fn ((node, props), impls) =>
+      let val impls_ = G.addNode (node, impls)
+      in foldr (fn ((node2, props2), impls2) =>
+                if props /->/ props2 
+                then G.addEdge (edge node "" node2, impls2) 
+                else impls2)
+         impls_ propList
+      end)
+    G.empty propList
+        
 
 
   infixr 0 $
