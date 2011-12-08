@@ -20,6 +20,9 @@ group is $/basis.cm
   testset.sml
   solnset.sml
 
+  propositionsig.sml
+  proposition.sml
+
   ternarykeychar.sml
   ternarystringmap.sml
   listmap.sml
