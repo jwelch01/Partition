@@ -96,7 +96,7 @@ fun makeTestSet db =
                      partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile
         val g      = Prop.makePropGraph s
-    in FileWriter.printGraph g m (TextIO.openOut outfile)
+    in FileWriter.printGraph g m (TextIO.openOut outfile) false
     end
 
 
@@ -105,7 +105,7 @@ fun makeTestSet db =
                      makeSolnMap $ partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile
         val g = makeGraph s
-    in FileWriter.printGraph g m (TextIO.openOut outfile)
+    in FileWriter.printGraph g m (TextIO.openOut outfile) true
     end
 
 end
