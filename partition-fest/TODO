@@ -10,15 +10,3 @@ Print out, in human-readable form, what we have learned about
 contingency (from a set of outcomes).
 
 ----------------------------------------------------------------
-
-Insure that program is agnostic to outcome type in all areas, except 
-where knowledge is strictly necessary
-
-Start creating implications.
--create a set of every test and its outcome datatype = (test * outcome)
--create its inverse
--append them and name it literals
--double fold across literals, testing if, for each pair of literals,
- p->q, and adding them to a list of implications if true
--turn this implication list into a graph
--make the graph dot output, tred it, and see what happens
