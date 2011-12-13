@@ -96,7 +96,10 @@ fun makeTestSet db =
                      partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile
         val g      = Prop.makePropGraph s
-    in FileWriter.printGraph g m (TextIO.openOut outfile) false
+        val fd     = TextIO.openOut outfile
+        val ()     = FileWriter.printGraph g m fd false
+        val ()     = TextIO.closeOut fd
+    in  ()
     end
 
 
