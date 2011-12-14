@@ -6,7 +6,7 @@ structure BuildPropGraph = struct (* for use on the command line *)
                                  | _ => !usage ())
           , "build-graph infile outfile"
           )
-        , ("build-prop-graph", (fn [inf, outf] => Basis.buildGraph inf outf
+        , ("build-prop-graph", (fn [inf, outf] => Basis.buildPropGraph inf outf
                                  | _ => !usage ())
           , "build-prop-graph infile outfile"
           )
