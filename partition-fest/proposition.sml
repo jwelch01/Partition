@@ -1,4 +1,6 @@
-structure Prop :> PROPOSITION = struct
+structure Prop :> PROPOSITION where type testset = TestSet.set = 
+struct
+  type testset = TestSet.set
   type prop = (bool * string * string * string * (string * bool) list)
   type simpProp = (string * (string * bool) list)
 

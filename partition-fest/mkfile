@@ -1,0 +1,14 @@
+SOURCES=`echo *.sml`
+
+all:V: swiss-army-knife
+
+# compile with mlton
+swiss-army-knife: $SOURCES compile.mlb
+	mlton -verbose 1 -output $target compile.mlb
+
+
+nj:V: # compile with sml/nj
+	echo 'CM.make "compile.cm";' | sml
+
+
+
