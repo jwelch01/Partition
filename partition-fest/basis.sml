@@ -91,7 +91,7 @@ fun makeTestSet db =
   val partitionProps = Prop.partition Prop.eq
 
   fun buildPropGraph infile outfile =
-    let val (s, m) = Prop.makePropMapAndSet $ 
+    let val (s, m) = Prop.makePropMapAndSet $ Prop.removeDuals $ 
                      partitionProps $ Prop.makePropList $
                      partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile

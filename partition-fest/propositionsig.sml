@@ -8,4 +8,5 @@ signature PROPOSITION = sig
   val makePropMapAndSet : prop list list -> simpProp list * string Map.map
   val makePropGraph : simpProp list -> BasicGraph.graph
   val eq : prop * prop -> bool
+  val removeDuals : prop list list -> prop list list
 end
