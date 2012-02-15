@@ -118,5 +118,44 @@ and insert _ x [] = [x]
       end)
     G.empty propList
 
+  val cmp : prop * prop -> order =
+  fn ((b1, n1, num1, test1, l1), (b2, n2, num2, test2, l2)) => 
+    if n1 < n2 then LESS
+     else if n1 = n2 then if num1 < num2 then LESS
+		           else if num1 = num2 then if test1 < test2 then LESS
+                                                     else if test1 = test2
+                                                          then EQUAL
+							  else GREATER
+                                 else GREATER
+           else GREATER
+
+  val equiv : prop * prop * bool -> bool =
+  fn ((_, n1, num1, test1, _), (_, n2, num2, test2, _), flag) =>
+    n1 = n2 andalso num1 = num2 andalso test1 = test2 andalso flag
+
+  val equivPropLists : prop list * prop list -> bool =
+  fn (l1, l2) => 
+   ListPair.foldrEq equiv true (insertion_sort cmp l1, insertion_sort cmp l2)
+   handle UnequalLengths => false
+(*
+  fun addPropList (l1, propCollection) = 
+   if foldr (fn (l2, flag) => if equivPropLists (l1, l2) then true else flag)
+       false propCollection
+   then propCollection else l1::propCollection
+*)  
+  val isRun : prop -> bool =
+  fn (b, n1, _, _, _) => not b andalso n1 = "DNR"
+
+  fun choose (l1, l2) =
+   if List.exists isRun l1 then l2 else l1
+
+  fun add (l1, []) = [l1]
+    | add (l1, p::ps) = if equivPropLists (l1, p)
+                        then (choose (l1, p))::ps
+			else p::(add (l1, ps))
+
+  fun removeDuals propCollection =
+   foldr add [] propCollection
+
 
 end

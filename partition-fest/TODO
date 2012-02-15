@@ -10,3 +10,16 @@ Print out, in human-readable form, what we have learned about
 contingency (from a set of outcomes).
 
 ----------------------------------------------------------------
+
+Remove redundant info - if PASS & NOT FAILED | FAILED & NOT PASSED
+are in the same eq class, keep only the positive one.
+
+----------------------------------------------------------------
+
+Add a way to query specifically for readable contingency information
+
+----------------------------------------------------------------
+
+Replace not DNR with RAN
+
+----------------------------------------------------------------
