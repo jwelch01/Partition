@@ -35,4 +35,7 @@ signature GRAPH =
 
     val getNode    : node_label * graph -> node
 
+    val getNodesFromEdges : edge list -> node list
+    val getGraphFromEdges : edge list -> graph
+
   end

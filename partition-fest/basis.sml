@@ -1,6 +1,6 @@
 structure Basis : sig 
   val buildGraph : string -> string -> unit 
-  val buildPropGraph : string -> string -> unit
+  val buildPropGraph : string -> string -> BasicGraph.graph
 end =
 struct
 
@@ -90,16 +90,40 @@ fun makeTestSet db =
 
   val partitionProps = Prop.partition Prop.eq
 
+  fun condenseNames [] = ""
+    | condenseNames ((b, test, num, out, props)::xs) =
+       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ out
+                           else "\\n" ^test ^ " " ^ num ^ " not " ^ out
+       in name ^ condenseNames xs
+       end
+  
+  fun condenseMap map = 
+    Map.mapFold (fn (key, pList, m2) => Map.bind (key, condenseNames pList, m2))
+      Map.empty map
+
+  fun removeTautologies g m =
+    let val edges = BasicGraph.getEdges g
+        val edges2 = 
+          foldr (fn (e, es) => 
+            if Prop.tautology (Map.lookup (explode (BasicGraph.getIn e), m),
+                               Map.lookup (explode (BasicGraph.getOut e), m))
+            then es
+            else e::es)
+            [] edges
+    in BasicGraph.getGraphFromEdges edges2
+    end
+
+
   fun buildPropGraph infile outfile =
-    let val (s, m) = Prop.makePropMapAndSet $ Prop.removeDuals $ 
+    let val (s, m) = Prop.makePropMapAndSet $ 
                      partitionProps $ Prop.makePropList $
                      partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile
-        val g      = Prop.makePropGraph s
+        val g      = removeTautologies (Prop.makePropGraph s) m
         val fd     = TextIO.openOut outfile
-        val ()     = FileWriter.printGraph g m fd false
+        val ()     = FileWriter.printGraph g (condenseMap m) fd false
         val ()     = TextIO.closeOut fd
-    in  ()
+    in  g
     end
 
 

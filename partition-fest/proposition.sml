@@ -64,11 +64,10 @@ and insert _ x [] = [x]
 
   fun makePropMapAndSet propList =
    let val (s, m, _) =
-    foldr (fn (pList, (s, m, c)) =>
-      let val (name, props) = condenseNames pList
-          val node = "N" ^ Int.toString(c)
+    foldr (fn ((b, test, num, out, props)::xs, (s, m, c)) =>
+      let val node = "N" ^ Int.toString(c)
       in (((node,props)::s),
-           Map.bind (explode node, name, m),
+           Map.bind (explode node, (b, test, num, out, props)::xs, m),
            c+1)
       end)
     ([], Map.empty, 1) propList
@@ -157,5 +156,22 @@ and insert _ x [] = [x]
   fun removeDuals propCollection =
    foldr add [] propCollection
 
+  val tautCheck : prop * prop list -> bool =
+  fn ((bool, name, num, result, _), pList2) =>
+   if result = "PASSED" andalso bool
+   then List.exists (fn (bool2, name2, num2, result2, _) =>
+     name = name2 andalso num = num2 andalso
+     ((result2 = "NOTPASSED" andalso not bool2) orelse
+      (result2 = "DNR" andalso not bool2))) pList2
+   else if result = "NOTPASSED" andalso bool
+        then List.exists (fn (bool2, name2, num2, result2, _) =>
+          name = name2 andalso num = num2 andalso
+           ((result2 = "PASSED" andalso not bool2) orelse
+            (result2 = "DNR" andalso not bool2))) pList2
+        else false
+
+  fun tautology (pList1, pList2) = 
+    foldr (fn (prop, flag) => tautCheck (prop, pList2) orelse flag)
+    false pList1
 
 end

@@ -12,10 +12,20 @@ structure BasicGraph : GRAPH = struct
   fun makeNode x = x
   fun makeEdge (s, l, d) = EDGE { source = s, label = l, dest = d }
 
-  fun addNode (n, GRAPH { nodes, edges }) = GRAPH { nodes = n::nodes,
-                                                    edges = edges }
-  fun addEdge (e, GRAPH { nodes, edges }) = GRAPH { nodes = nodes,
-                                                    edges = e::edges }
+  fun memberNode (n, GRAPH {nodes, edges}) = 
+      List.exists (fn x => x=n) nodes
+
+  fun memberEdge (e, GRAPH {nodes, edges}) =
+      List.exists (fn x => x=e) edges
+
+  fun addNode (n, GRAPH { nodes, edges }) = 
+    if memberNode (n, GRAPH { nodes = nodes, edges = edges })
+    then GRAPH { nodes = nodes, edges = edges }
+    else GRAPH { nodes = n::nodes, edges = edges }  
+  fun addEdge (e, GRAPH { nodes, edges }) = 
+    if memberEdge (e, GRAPH { nodes = nodes, edges = edges })
+    then GRAPH { nodes = nodes, edges = edges }
+    else GRAPH { nodes = nodes, edges = e::edges }
 
   fun getNodes (GRAPH { nodes, edges }) = nodes
   fun getEdges (GRAPH { nodes, edges }) = edges
@@ -24,13 +34,7 @@ structure BasicGraph : GRAPH = struct
   fun getIn (EDGE { source, label, dest }) = source
   fun getOut (EDGE { source, label, dest }) = dest
   fun getEdgeLabel (EDGE { source, label, dest }) =  label
-  
 
-  fun memberNode (n, GRAPH {nodes, edges}) = 
-      List.exists (fn x => x=n) nodes
-
-  fun memberEdge (e, GRAPH {nodes, edges}) =
-      List.exists (fn x => x=e) edges
 
 
   fun getSuccessorEdges (n, GRAPH { nodes, edges }) =
@@ -82,5 +86,14 @@ structure BasicGraph : GRAPH = struct
   fun getNode (l, g) = if memberNode (makeNode l, g) 
                        then makeNode l
                        else raise NotFound (makeNode l)
+
+fun addNodesFromEdge (EDGE {source, label, dest}, graph) =
+  (addNode (source, (addNode (dest, graph))))
+
+fun getNodesFromEdges (edgeList) = 
+  getNodes (foldr addNodesFromEdge empty edgeList)
+
+fun getGraphFromEdges (edgeList) = 
+  GRAPH {nodes = getNodesFromEdges edgeList, edges = edgeList}
 
 end
