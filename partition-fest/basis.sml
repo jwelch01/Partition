@@ -1,6 +1,7 @@
 structure Basis : sig 
   val buildGraph : string -> string -> unit 
-  val buildPropGraph : string -> string -> BasicGraph.graph
+  val buildPropGraph : string -> string -> (BasicGraph.graph * BasicGraph.graph * BasicGraph.graph)
+
 end =
 struct
 
@@ -101,6 +102,13 @@ fun makeTestSet db =
     Map.mapFold (fn (key, pList, m2) => Map.bind (key, condenseNames pList, m2))
       Map.empty map
 
+  fun removeIntraNodeTautologies m = 
+    Map.mapFold (fn (key, pList, m2) => 
+                  Map.bind (key, Prop.removeIntraNodeTautologies pList, m2))
+      Map.empty m
+
+  fun fixMap m = condenseMap (removeIntraNodeTautologies m) 
+
   fun removeTautologies g m =
     let val edges = BasicGraph.getEdges g
         val edges2 = 
@@ -113,7 +121,33 @@ fun makeTestSet db =
     in BasicGraph.getGraphFromEdges edges2
     end
 
+  fun contraEdges (e1, e2) m =
+    Prop.contraList (Map.lookup (explode (BasicGraph.getIn e1), m),
+                     Map.lookup (explode (BasicGraph.getOut e2), m))
+    andalso
+    Prop.contraList (Map.lookup (explode (BasicGraph.getOut e1), m),
+                     Map.lookup (explode (BasicGraph.getIn e2), m))
+  
+  fun chooseEdge (edge, edges) m = 
+    let fun swap [] = []
+          | swap (x::xs) = if contraEdges (edge, x) m
+                           then edge::xs
+                           else swap xs
+        val swapped = swap edges
+    in if (length (BasicGraph.getNodesFromEdges edges) <
+           length (BasicGraph.getNodesFromEdges swapped))
+       then edges else swapped
+    end
 
+  fun removeContrapositives g m =
+  BasicGraph.getGraphFromEdges (
+   foldr (fn (e1, es) => if (List.exists (fn e2 => contraEdges (e1, e2) m) es)
+                             then chooseEdge (e1, es) m
+                             else e1::es)
+       [] (BasicGraph.getEdges g))
+
+  
+  (*
   fun buildPropGraph infile outfile =
     let val (s, m) = Prop.makePropMapAndSet $ 
                      partitionProps $ Prop.makePropList $
@@ -121,11 +155,25 @@ fun makeTestSet db =
                      FileReader.readToMap $ TextIO.openIn infile
         val g      = removeTautologies (Prop.makePropGraph s) m
         val fd     = TextIO.openOut outfile
-        val ()     = FileWriter.printGraph g (condenseMap m) fd false
+        val ()     = FileWriter.printGraph g (fixMap m) fd false
         val ()     = TextIO.closeOut fd
     in  g
     end
+  *)
 
+  fun buildPropGraph infile outfile =
+    let val (s, m) = Prop.makePropMapAndSet $ 
+                     partitionProps $ Prop.makePropList $
+                     partitionTests $ makeTestSet $
+                     FileReader.readToMap $ TextIO.openIn infile
+        val g      = Prop.makePropGraph s
+        val g2     = removeContrapositives g m
+        val g3     = removeTautologies g2 m
+        val fd     = TextIO.openOut outfile
+        val ()     = FileWriter.printGraph g3 (fixMap m) fd false
+        val ()     = TextIO.closeOut fd
+    in  (g, g2, g3)
+    end
 
   fun buildGraph infile outfile = 
     let val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $

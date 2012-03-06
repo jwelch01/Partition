@@ -9,6 +9,10 @@ signature PROPOSITION = sig
   val makePropMapAndSet : prop list list -> simpProp list * prop list Map.map
   val makePropGraph : simpProp list -> BasicGraph.graph
   val eq : prop * prop -> bool
-  val removeDuals : prop list list -> prop list list
+  val contra: prop * prop -> bool
+    (* returns true if props are contrapositives *)
+  val contraList : prop list * prop list -> bool 
+    (* returns true if lists are contrapositives *)
   val tautology : prop list * prop list -> bool
+  val removeIntraNodeTautologies : prop list -> prop list
 end

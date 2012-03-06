@@ -87,6 +87,15 @@ and insert _ x [] = [x]
                      out1 = out2 andalso flag)
     true (propSort prop1, propSort prop2)
 
+  fun contra ((b, name, num, test, _),
+              (b2, name2, num2, test2, _)) =
+    b = not b2 andalso name = name2 andalso num = num2 andalso test = test2
+
+  fun contraList (p1, p2) =
+    foldr (fn (prop, flag) => flag andalso
+             List.exists (fn prop2 => contra (prop, prop2)) p2)
+    true p1
+
   fun representative [] = NONE
     | representative (x::_) = SOME x
   fun rep x = case representative x of SOME y => y
@@ -110,7 +119,7 @@ and insert _ x [] = [x]
     foldr (fn ((node, props), impls) =>
       let val impls_ = G.addNode (node, impls)
       in foldr (fn ((node2, props2), impls2) =>
-                if (node, props) /->/ (node, props2)
+                if (node, props) /->/ (node, props2) andalso not (node = node2)
                 then G.addEdge (edge node "" node2, impls2) 
                 else impls2)
          impls_ propList
@@ -161,17 +170,39 @@ and insert _ x [] = [x]
    if result = "PASSED" andalso bool
    then List.exists (fn (bool2, name2, num2, result2, _) =>
      name = name2 andalso num = num2 andalso
-     ((result2 = "NOTPASSED" andalso not bool2) orelse
+     ((result2 = "FAILED" andalso not bool2) orelse
       (result2 = "DNR" andalso not bool2))) pList2
-   else if result = "NOTPASSED" andalso bool
+   else if result = "FAILED" andalso bool
         then List.exists (fn (bool2, name2, num2, result2, _) =>
           name = name2 andalso num = num2 andalso
            ((result2 = "PASSED" andalso not bool2) orelse
             (result2 = "DNR" andalso not bool2))) pList2
-        else false
+        else if result = "DNR" andalso bool
+             then List.exists (fn (bool2, name2, num2, result2, _) =>
+               name = name2 andalso num = num2 andalso
+                 ((result2 = "PASSED" andalso not bool2) orelse
+                  (result2 = "FAILED" andalso not bool2))) pList2
+             else false
 
   fun tautology (pList1, pList2) = 
     foldr (fn (prop, flag) => tautCheck (prop, pList2) orelse flag)
     false pList1
+
+  fun chooseProp ((bool, name, num, result, l),
+                  (bool2, name2, num2, result2, l2)) =
+      if bool then (bool, name, num, result, l)
+              else (bool2, name2, num2, result2, l2) 
+
+  fun sameTest ((bool, name, num, result, l),
+                  (bool2, name2, num2, result2, l2)) =
+    name = name2 andalso num = num2
+
+  fun addProp (l1, []) = [l1]
+    | addProp (l1, x::xs) = if sameTest (l1, x)
+                            then chooseProp (l1, x)::xs
+                            else x::(addProp (l1, xs))
+ 
+  fun removeIntraNodeTautologies pList = 
+    foldr addProp [] pList
 
 end

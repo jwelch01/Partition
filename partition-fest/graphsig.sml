@@ -24,7 +24,6 @@ signature GRAPH =
     val getEdgeLabel : edge -> edge_label
     val getNodeLabel : node -> node_label    
 
-
     val getSuccessorNodes   : node * graph -> node list
     val getPredecessorNodes : node * graph -> node list
     val getSuccessorEdges   : node * graph -> edge list
