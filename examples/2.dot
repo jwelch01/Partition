@@ -1,0 +1,19 @@
+digraph testgraph { fontsize="9" 
+size="10.3,7.7"; ratio=compress
+node [fontsize="9"] 
+edge [fontsize="9"]N12 [label="\nnr 1 not DNR"]
+N10 [label="\nnr 1 not FAILED"]
+N8 [label="\nnr 1 not PASSED"]
+N11 [label="\nnr 1 DNR"]
+N6 [label="\nnr 115 not DNR"]
+N5 [label="\nnr 115 DNR"]
+N4 [label="\nnr 115 not FAILED"]
+N3 [label="\nnr 115 FAILED"]
+N2 [label="\nnr 115 not PASSED"]
+N12 -> N4 
+N11 -> N10 
+N11 -> N8 
+N11 -> N6 
+N5 -> N4 
+N3 -> N2 
+}
