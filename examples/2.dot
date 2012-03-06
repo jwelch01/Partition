@@ -1,7 +1,8 @@
 digraph testgraph { fontsize="9" 
 size="7.7,10.3"; ratio=compress
 node [fontsize="9"] 
-edge [fontsize="9"]N12 [label="\nnr-1 != DNR"]
+edge [fontsize="9"]
+N12 [label="\nnr-1 != DNR"]
 N10 [label="\nnr-1 != FAILED"]
 N8 [label="\nnr-1 != PASSED"]
 N11 [label="\nnr-1 == DNR"]
