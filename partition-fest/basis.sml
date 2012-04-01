@@ -12,7 +12,7 @@ fun makeTestSet db =
                TestSet.empty db
 
   (* Partition TesTestSet *)
-  val partitionTests : TestSet.set -> TestSet.set list = TestSet.partition TestSet.eq
+  val partitionTests : TestSet.set -> TestSet.set list = TestSet.partition TestSet.eqMult
 
   (* Make map from solns -> test * outcome list using a representative from each
   eq class *)
@@ -38,7 +38,7 @@ fun makeTestSet db =
          SolnSet.empty map
 
   (* Partition SolnSet *)
-  val partitionSolns : SolnSet.set -> SolnSet.set list = SolnSet.partition SolnSet.eq
+  val partitionSolns : SolnSet.set -> SolnSet.set list = SolnSet.partition SolnSet.eqMult
 
   (* Produce graph using subset relations *)
 
@@ -67,7 +67,7 @@ fun makeTestSet db =
     in (SolnSet.add((node, l), set), 
         Map.bind(explode node, string, map), c+1) end) 
     (SolnSet.empty, Map.empty, 1) sl
-   in (SolnSet.partition SolnSet.eq s,m) end
+   in (partitionSolns s,m) end
 
   fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
 
@@ -121,13 +121,13 @@ fun makeTestSet db =
     in BasicGraph.getGraphFromEdges edges2
     end
 
-  fun contraEdges (e1, e2) m =
-    Prop.contraList (Map.lookup (explode (BasicGraph.getIn e1), m),
-                     Map.lookup (explode (BasicGraph.getOut e2), m))
-    andalso
-    Prop.contraList (Map.lookup (explode (BasicGraph.getOut e1), m),
-                     Map.lookup (explode (BasicGraph.getIn e2), m))
-  
+  fun contraNodes (n1, n2) m =
+    Prop.complementList (Map.lookup (explode n1, m),
+                         Map.lookup (explode n2, m))
+  fun contraEdges (e1, e2) m = 
+    contraNodes (BasicGraph.getIn e1, BasicGraph.getOut e2) m andalso
+    contraNodes (BasicGraph.getIn e2, BasicGraph.getOut e1) m
+
   fun chooseEdge (edge, edges) m = 
     let fun swap [] = []
           | swap (x::xs) = if contraEdges (edge, x) m
@@ -139,12 +139,51 @@ fun makeTestSet db =
        then edges else swapped
     end
 
+  fun addingContraNode edges n m =
+    let fun con e = contraNodes (n, BasicGraph.getIn e) m orelse
+                    contraNodes (n, BasicGraph.getOut e) m
+    in List.exists con edges
+    end
+
+  fun equiv e1 e2 m = e1 = e2 orelse contraEdges (e1, e2) m
   fun removeContrapositives g m =
-  BasicGraph.getGraphFromEdges (
+    let val edges  = BasicGraph.getEdges g
+        fun posEdge e = 
+          Prop.positive (Map.lookup (explode (BasicGraph.getIn e), m)) andalso
+          Prop.positive (Map.lookup (explode (BasicGraph.getOut e), m)) 
+        val positives = List.filter posEdge edges
+        val negatives = List.filter (not o posEdge) edges
+  in BasicGraph.getGraphFromEdges (
    foldr (fn (e1, es) => if (List.exists (fn e2 => contraEdges (e1, e2) m) es)
                              then chooseEdge (e1, es) m
                              else e1::es)
-       [] (BasicGraph.getEdges g))
+       positives negatives)
+  end
+
+  fun removeContra g m =
+    let fun getNeighbors n = BasicGraph.getPredecessorEdges (n, g) @
+			     BasicGraph.getSuccessorEdges   (n, g)
+
+        fun equiv e1 e2 = e1 = e2 orelse contraEdges (e1, e2) m
+
+ 	fun badEdge e es = addingContraNode es (BasicGraph.getIn e) m orelse
+			   addingContraNode es (BasicGraph.getOut e) m 
+
+        fun add (edge, (nodes, edges)) = 
+          if List.exists (equiv edge) edges
+          then (nodes, edges)
+          else (BasicGraph.getIn edge :: BasicGraph.getOut edge :: nodes,
+                edge::edges)
+
+        val (n::_) = BasicGraph.getNodes g
+
+        fun rC edges (n::ns) = 
+             let val (ns2, es2) = foldr add (ns, edges) (getNeighbors n)
+             in rC es2 ns2 end
+          | rC edges [] = edges (* needs to be fixed *)
+    in BasicGraph.getGraphFromEdges (rC [] [n])
+    end
+     
 
   
   (*

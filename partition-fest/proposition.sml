@@ -87,13 +87,13 @@ and insert _ x [] = [x]
                      out1 = out2 andalso flag)
     true (propSort prop1, propSort prop2)
 
-  fun contra ((b, name, num, test, _),
-              (b2, name2, num2, test2, _)) =
+  fun complement ((b, name, num, test, _),
+                  (b2, name2, num2, test2, _)) =
     b = not b2 andalso name = name2 andalso num = num2 andalso test = test2
 
-  fun contraList (p1, p2) =
+  fun complementList (p1, p2) =
     foldr (fn (prop, flag) => flag andalso
-             List.exists (fn prop2 => contra (prop, prop2)) p2)
+             List.exists (fn prop2 => complement (prop, prop2)) p2)
     true p1
 
   fun representative [] = NONE
@@ -119,7 +119,7 @@ and insert _ x [] = [x]
     foldr (fn ((node, props), impls) =>
       let val impls_ = G.addNode (node, impls)
       in foldr (fn ((node2, props2), impls2) =>
-                if (node, props) /->/ (node, props2) andalso not (node = node2)
+                if (node, props) /->/ (node, props2) andalso not (node = node2) 
                 then G.addEdge (edge node "" node2, impls2) 
                 else impls2)
          impls_ propList
@@ -204,5 +204,8 @@ and insert _ x [] = [x]
  
   fun removeIntraNodeTautologies pList = 
     foldr addProp [] pList
+
+  fun positive [] = true
+    | positive ((bool, _,_,_,_)::ps) = if bool then positive ps else false
 
 end

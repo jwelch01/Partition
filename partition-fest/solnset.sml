@@ -28,6 +28,12 @@ fun eq ((id1, ol1), (id2, ol2)) =
            (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
   handle UnequalLengths => false
 
+fun eqMult ((id1, ol1), (id2, ol2)) =
+  (ListPair.foldrEq (fn ((_,_,out1), (_,_,out2), flag) =>
+           Outcome.identicalMult (out1, out2) andalso flag) true
+           (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
+  handle UnequalLengths => false
+
 (* Real functions *)
 
   val empty = []
@@ -82,7 +88,7 @@ fun member (x, y) = raise NotImplemented
          (case cmpTests ((t1, num1), (t2, num2))
             of LESS => cmp (xs, (t2, num2, out2)::ys)
              | GREATER => cmp ((t1, num1, out1)::xs, ys)
-             | EQUAL => (case Outcome.compare (out1, out2)
+             | EQUAL => (case Outcome.compareMult (out1, out2)
                            of GREATER => false
                             | _       => cmp(xs, ys)))
           | cmp ([], _) = true

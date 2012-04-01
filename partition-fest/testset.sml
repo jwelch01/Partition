@@ -24,6 +24,11 @@ fun eq ((_, _, ol), (_, _, ol2)) =
 		Outcome.identical (out1, out2) andalso flag) true (ol, ol2)
         handle UnequalLengths => false)
 
+fun eqMult ((_, _, ol), (_, _, ol2)) = 
+       (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
+		Outcome.identicalMult (out1, out2) andalso flag) true (ol, ol2)
+        handle UnequalLengths => false)
+
 fun eqResult ((id, num, ol), (id2, num2, ol2)) = 
   id = id2 andalso num = num2 andalso eq ((id, num, ol), (id2, num2, ol2))
 

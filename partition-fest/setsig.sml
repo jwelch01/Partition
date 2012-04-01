@@ -11,6 +11,9 @@ sig
   val isEmpty : set -> bool
 
   val eq     : elem * elem -> bool
+  val eqMult : elem * elem -> bool (* needed for convenience for testSet
+                                      changes to add multiple failure states
+                                      TODO: refactor *)
 
   val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
 
