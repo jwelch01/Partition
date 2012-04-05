@@ -1,8 +1,8 @@
 functor TestDB (structure M1 : STRING_MAP
 		structure M2 : STRING_MAP
-                structure M3 : OUTCOME_MAP) : TEST_DB = struct
+                structure M3 : STRING_MAP) : TEST_DB = struct
 
-  type db = M3.map M2.map M1.map * string list
+  type db =  Outcome.outcome M3.map M2.map M1.map * string list
 
   exception NotDone
 
@@ -15,6 +15,7 @@ functor TestDB (structure M1 : STRING_MAP
 
   fun testlook (t, m) = M1.lookup (t, m) handle M1.NotFound _ => M2.empty
   fun testnolook (t, m) = M2.lookup (t, m) handle M2.NotFound _ => M3.empty
+  fun outcomelook (t, m) = M3.lookup (t,m) handle M3.NotFound _ => Outcome.DNR
 
   fun bind (test, testno, soln, out, (map, list)) = 
     let val testnomap   = testlook (explode test, map)
@@ -25,11 +26,12 @@ functor TestDB (structure M1 : STRING_MAP
                           testnomap),
                  map), add (soln, list))
     end
-  
+
+
+
   fun lookup (test, testno, soln, (map, list)) = 
-    M3.lookup (explode soln, testnolook(explode testno, 
+    outcomelook (explode soln, testnolook(explode testno, 
                              testlook (explode test, map)))
-    handle M3.NotFound _ => Outcome.DNR
 
   fun fold f y (map, list) = 
     M1.mapFold
@@ -51,7 +53,7 @@ functor TestDB (structure M1 : STRING_MAP
          (fn (k2, m2, y3) =>
            let fun makeList ([], l) = l
                  | makeList (x::xs, l) = 
-                     makeList (xs, (x, (M3.lookup (explode x, m2)))::l)
+                     makeList (xs, (x, (outcomelook (explode x, m2)))::l)
            in f(implode k, implode k2, makeList (list, []), y3)
 	   end)
          y2 m)

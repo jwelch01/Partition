@@ -10,9 +10,6 @@ group is $/basis.cm
   stringmapsig.sml
   stringmap.sml
 
-  outcomemapsig.sml
-  outcomemap.sml
-
   testdbsig.sml
   testdb.sml
 

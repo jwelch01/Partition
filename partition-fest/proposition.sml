@@ -1,8 +1,12 @@
 structure Prop :> PROPOSITION where type testset = TestSet.set = 
 struct
   type testset = TestSet.set
-  type prop = (bool * string * string * string * (string * bool) list)
-  type simpProp = (string * (string * bool) list)
+  type result = (string * bool) list
+  (*datatype prop = PROP of { flag : bool, test : string, number : string,
+			    soln : string, results : result }
+*)
+  type prop = bool * string * string * string * result
+  type stringProp = string * result
 
   exception AlreadyNegative
   exception Impossible
@@ -25,7 +29,16 @@ and insert _ x [] = [x]
   fun testRep s = case TestSet.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
-
+(*
+  fun negatePropoisition (PROP {flag, test, number, soln, results}) = 
+    if not flag then raise AlreadyNegative
+    else let fun neg ((soln, result)::xs) negs = 
+                       neg xs ((soln, not result)::negs)
+              | neg [] negs = negs
+         in (PROP{flag = false, test = test, number = num,
+                  soln = out, results = neg l [])
+         end
+*)
  fun negateProposition (false, _, _, _, _) = raise AlreadyNegative
     | negateProposition (_, test, num, out, l) = 
         let fun neg ((soln, result)::xs) negs = neg xs ((soln, not result)::negs)
@@ -34,9 +47,21 @@ and insert _ x [] = [x]
         end
 
 
+  fun boolTests (test, num, l) = 
+    let fun f ((soln, out)::xs) outGoal bools= 
+            if Outcome.identical (out, outGoal) 
+            then f xs outGoal ((soln,true)::bools)
+            else f xs outGoal ((soln,false)::bools)
+          | f [] _ bools = bools
+    in (true, test, num, "PASSED", f l Outcome.PASSED [])::
+       (true, test, num, "FAILED", 
+            f l (Outcome.NOTPASSED {outcome = "", witness = ""}) [])::
+       (true, test, num, "DNR", f l Outcome.DNR [])::[]
+    end
+
   fun makePositivePropositionList testSetList = 
     foldr (fn (testList, props) => 
-            (Outcome.boolTests (testRep testList)) @ props)
+            (boolTests (testRep testList)) @ props)
     [] testSetList
 
   fun filt (_,_,_,_, (soln, p)::props) = 
@@ -207,5 +232,12 @@ and insert _ x [] = [x]
 
   fun positive [] = true
     | positive ((bool, _,_,_,_)::ps) = if bool then positive ps else false
+
+  fun toString [] = ""
+    | toString ((b, test, num, out, props)::xs) =
+       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ out
+                           else "\\n" ^test ^ " " ^ num ^ " not " ^ out
+       in name ^ toString xs
+       end
 
 end

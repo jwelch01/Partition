@@ -9,12 +9,12 @@ signature OUTCOME  = sig
            , outcome : outcome
            }
 
-  val compare : outcome * outcome -> order
+  val compare     : outcome * outcome -> order
   val compareMult : outcome * outcome -> order
 
-  val eq         : outcome * outcome -> bool 
-  val eqMult : outcome * outcome -> bool
-  val identical  : outcome * outcome -> bool
+  val eq            : outcome * outcome -> bool 
+  val eqMult        : outcome * outcome -> bool
+  val identical     : outcome * outcome -> bool
   val identicalMult : outcome * outcome -> bool
 
   val boolTests : string * string * (string * outcome) list ->

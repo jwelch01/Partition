@@ -1,6 +1,6 @@
 structure Basis : sig 
   val buildGraph : string -> string -> unit 
-  val buildPropGraph : string -> string -> (BasicGraph.graph * BasicGraph.graph * BasicGraph.graph)
+  val buildPropGraph : string -> string -> string list -> (BasicGraph.graph * BasicGraph.graph)
 
 end =
 struct
@@ -61,7 +61,7 @@ fun makeTestSet db =
   fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
-    let val string = SolnSet.fold (fn ((n, _), str) => n^(" "^ str)) "" s
+    let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
         val (_, l) = solnRep s
         val node = "N"^Int.toString(c)
     in (SolnSet.add((node, l), set), 
@@ -90,16 +90,9 @@ fun makeTestSet db =
   fun f $ x = f x
 
   val partitionProps = Prop.partition Prop.eq
-
-  fun condenseNames [] = ""
-    | condenseNames ((b, test, num, out, props)::xs) =
-       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ out
-                           else "\\n" ^test ^ " " ^ num ^ " not " ^ out
-       in name ^ condenseNames xs
-       end
-  
+ 
   fun condenseMap map = 
-    Map.mapFold (fn (key, pList, m2) => Map.bind (key, condenseNames pList, m2))
+    Map.mapFold (fn (key, pList, m2) => Map.bind (key, Prop.toString pList, m2))
       Map.empty map
 
   fun removeIntraNodeTautologies m = 
@@ -109,7 +102,7 @@ fun makeTestSet db =
 
   fun fixMap m = condenseMap (removeIntraNodeTautologies m) 
 
-  fun removeTautologies g m =
+  fun removeTautologies (g, m) =
     let val edges = BasicGraph.getEdges g
         val edges2 = 
           foldr (fn (e, es) => 
@@ -118,7 +111,7 @@ fun makeTestSet db =
             then es
             else e::es)
             [] edges
-    in BasicGraph.getGraphFromEdges edges2
+    in (BasicGraph.getGraphFromEdges edges2, m)
     end
 
   fun contraNodes (n1, n2) m =
@@ -146,21 +139,25 @@ fun makeTestSet db =
     end
 
   fun equiv e1 e2 m = e1 = e2 orelse contraEdges (e1, e2) m
-  fun removeContrapositives g m =
+  
+  fun removeContrapositives (g, m) =
     let val edges  = BasicGraph.getEdges g
         fun posEdge e = 
           Prop.positive (Map.lookup (explode (BasicGraph.getIn e), m)) andalso
           Prop.positive (Map.lookup (explode (BasicGraph.getOut e), m)) 
         val positives = List.filter posEdge edges
         val negatives = List.filter (not o posEdge) edges
-  in BasicGraph.getGraphFromEdges (
-   foldr (fn (e1, es) => if (List.exists (fn e2 => contraEdges (e1, e2) m) es)
-                             then chooseEdge (e1, es) m
-                             else e1::es)
-       positives negatives)
+  in (BasicGraph.getGraphFromEdges (
+        foldr (fn (e1, es) => if (List.exists 
+                                   (fn e2 => contraEdges (e1, e2) m) es)
+                              then chooseEdge (e1, es) m
+                              else e1::es)
+        positives negatives),
+     m)
+   
   end
 
-  fun removeContra g m =
+  fun removeContra (g, m) =
     let fun getNeighbors n = BasicGraph.getPredecessorEdges (n, g) @
 			     BasicGraph.getSuccessorEdges   (n, g)
 
@@ -181,7 +178,7 @@ fun makeTestSet db =
              let val (ns2, es2) = foldr add (ns, edges) (getNeighbors n)
              in rC es2 ns2 end
           | rC edges [] = edges (* needs to be fixed *)
-    in BasicGraph.getGraphFromEdges (rC [] [n])
+    in (BasicGraph.getGraphFromEdges (rC [] [n]), m)
     end
      
 
@@ -200,18 +197,25 @@ fun makeTestSet db =
     end
   *)
 
-  fun buildPropGraph infile outfile =
+  fun buildPropGraphAndMap infile = 
     let val (s, m) = Prop.makePropMapAndSet $ 
                      partitionProps $ Prop.makePropList $
                      partitionTests $ makeTestSet $
                      FileReader.readToMap $ TextIO.openIn infile
-        val g      = Prop.makePropGraph s
-        val g2     = removeContrapositives g m
-        val g3     = removeTautologies g2 m
+    in (Prop.makePropGraph s, m)
+    end
+
+  fun reduction [] = (fn x => x)
+    | reduction (flag::xs) = 
+        case flag of "-c" => removeContrapositives o reduction xs
+                   | "-t" => removeTautologies o reduction xs
+  fun buildPropGraph infile outfile  flags =
+    let val (g,  m) = buildPropGraphAndMap infile
+        val (g', _) = reduction flags (g, m)
         val fd     = TextIO.openOut outfile
-        val ()     = FileWriter.printGraph g3 (fixMap m) fd false
+        val ()     = FileWriter.printGraph g' (fixMap m) fd false
         val ()     = TextIO.closeOut fd
-    in  (g, g2, g3)
+    in  (g, g')
     end
 
   fun buildGraph infile outfile = 
