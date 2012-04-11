@@ -46,7 +46,7 @@ functor TestDB (structure M1 : STRING_MAP
          y2 m)
     y map
 
-  fun foldLists f y (map, list) = 
+  fun foldStudents f y (map, list) = 
     M1.mapFold
      (fn (k, m, y2) =>
      M2.mapFold 

@@ -1,5 +1,5 @@
 signature PROPOSITION = sig
-  type testset
+  type testset = TestSet.set
   type prop
   type stringProp (* stringProps are utilized for ease of interaction with
                      the map interface and .dot file format *)
@@ -17,5 +17,13 @@ signature PROPOSITION = sig
   val tautology : prop list * prop list -> bool
   val removeIntraNodeTautologies : prop list -> prop list
   val positive : prop list -> bool
+  
+  val union : prop * prop -> prop
+  val unionstar : prop list -> prop
+
+  val getPropsWithResult : prop list -> (bool * string) -> prop list
+
+  val getId : prop -> string * string
+
   val toString : prop list -> string
 end

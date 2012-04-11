@@ -1,5 +1,9 @@
 functor SolnSet (Outcome : OUTCOME) : SET = struct
-  type elem = (string * (string * string * Outcome.outcome) list)
+  structure LP = ListPair
+  
+  type testid = string * string
+  type solnid = string
+  type elem = solnid * (testid * Outcome.outcome) list
   type set = elem list
 
   exception NotFound
@@ -7,32 +11,23 @@ functor SolnSet (Outcome : OUTCOME) : SET = struct
 
 (* Helper functions *)
 
-fun insertion_sort _ [] = []
- | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
-and insert _ x [] = [x]
- | insert cmp x (l as y::ys) =
-      case cmp (x, y) of GREATER => y :: insert cmp x ys
-                       | _       => x :: l
-
 fun cmpTests ((id1, num1), (id2, num2)) =
   case String.compare (id1, id2)
     of EQUAL => String.compare (num1, num2)
      | x     => x
 
-fun cmpTestsO ((id1, num1, _), (id2, num2, _)) = 
+fun getId _ = raise NotImplemented
+
+
+fun cmpTestsO (((id1, num1), _), ((id2, num2), _)) = 
   cmpTests ((id1, num1),(id2, num2))
 
 fun eq ((id1, ol1), (id2, ol2)) =
-  (ListPair.foldrEq (fn ((_,_,out1), (_,_,out2), flag) =>
-           Outcome.identical (out1, out2) andalso flag) true
-           (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
+  (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
+           Outcome.eq (out1, out2) andalso flag) true
+           (Util.insertion_sort cmpTestsO ol1, Util.insertion_sort cmpTestsO ol2))
   handle UnequalLengths => false
 
-fun eqMult ((id1, ol1), (id2, ol2)) =
-  (ListPair.foldrEq (fn ((_,_,out1), (_,_,out2), flag) =>
-           Outcome.identicalMult (out1, out2) andalso flag) true
-           (insertion_sort cmpTestsO ol1, insertion_sort cmpTestsO ol2))
-  handle UnequalLengths => false
 
 (* Real functions *)
 
@@ -60,63 +55,34 @@ fun eqMult ((id1, ol1), (id2, ol2)) =
    in foldr (fn (elem, classes) => partitionOne elem classes) [] s
    end
 
-(* equivalence, tests a representative of each set without respect
-   to soln name *)
-  fun /==/ (set1, set2) = 
-    let fun eq ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
-         (case cmpTests ((t1, num1), (t2, num2))
-            of EQUAL => if Outcome.eq (out1, out2) then eq (xs, ys)
-                                                   else false
-             | _     => false)
-          | eq ([], []) = true
-          | eq (_, _) = false
-        val (_,list1) = rep set1
-        val (_,list2) = rep set2
-    in eq (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
-    end
-
-fun member (x, y) = raise NotImplemented
-(*
-  fun member ((id, ol), s) = 
-    let val tmpSet = add ((id, ol), empty)
-    in List.exists (fn (id2, ol2) => /==/ ((id2, ol2), tmpSet)) s
-    end
-*)
 (* A < B iff for all shared tests, if A has passed, B has passed *)
+  
+  fun isDNR (_, x)  = Outcome.eq (x, Outcome.DNR)
+  fun stripDNR outcomes = List.filter 
+                           (fn (out1, out2) => 
+			     not (isDNR out1 orelse isDNR out2)) outcomes
+
   fun /<=/ (set1, set2) =
-    let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
-         (case cmpTests ((t1, num1), (t2, num2))
-            of LESS => cmp (xs, (t2, num2, out2)::ys)
-             | GREATER => cmp ((t1, num1, out1)::xs, ys)
-             | EQUAL => (case Outcome.compareMult (out1, out2)
-                           of GREATER => false
-                            | _       => cmp(xs, ys)))
-          | cmp ([], _) = true
-          | cmp (_, []) = true
-        val (_,list1) = rep set1
-        val (_,list2) = rep set2
-    in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
+    let val ((_, out1), (_, out2)) = (rep set1, rep set2)
+        val (out1, out2) = (Util.insertion_sort cmpTestsO out1,
+                            Util.insertion_sort cmpTestsO out2)
+        val (out1, out2) = (LP.unzip o stripDNR o LP.zip) (out1, out2)
+        fun compare ((_, out1), (_,out2)) = Outcome.compare (out1, out2)
+        val rank = Util.vcompare compare (out1, out2)
+    in rank = SOME LESS
     end
 
-(*
-  fun /<=/ (set1, set2) =
-    let fun cmp ((t1, num1, out1)::xs, (t2, num2, out2)::ys) = 
-         (case cmpTests ((t1, num1), (t2, num2))
-            of LESS => false
-             | GREATER => false
-             | EQUAL => (case Outcome.compare (out1, out2)
-                           of GREATER => false
-                            | _       => cmp(xs, ys)))
-          | cmp ([], _) = true
-          | cmp (_, []) = true
-        val (_,list1) = rep set1
-        val (_,list2) = rep set2
-    in cmp (insertion_sort cmpTestsO list1, insertion_sort cmpTestsO list2)
+(* A = B iff for all tests T, T(A) = T(B). Soln name is not considered *)
+  fun /==/ (set1, set2) =
+    let val ((_, out1), (_, out2)) = (rep set1, rep set2)
+        val (out1, out2) = (Util.insertion_sort cmpTestsO out1,
+                            Util.insertion_sort cmpTestsO out2)
+        fun compare ((_, out1), (_,out2)) = Outcome.compare (out1, out2)
+        val rank = Util.vcompare compare (out1, out2)
+    in rank = SOME EQUAL
     end
-*)
 
-  fun /*/ (_,_)= raise NotImplemented
-  fun /+/ (_,_)= raise NotImplemented
-  fun /-/ (_,_)= raise NotImplemented
+  fun member (elem, set) = List.exists 
+                             (fn e2 => /==/ ([e2], [elem])) set
 
 end

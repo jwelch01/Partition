@@ -1,5 +1,9 @@
 group is $/basis.cm
 
+  outcomesig.sml
+  outcome.sml
+  util.sml
+
   impossible.sml
 
   ternarykeysig.sml
@@ -28,13 +32,11 @@ group is $/basis.cm
   embeddedlistmap.sml
   embeddedmap.sml
 
-  outcomesig.sml
-  outcome.sml
-
+  structures.sml
   lex.sml
   readers.sml
 
-  structures.sml
+
   input.sml
   output.sml
 

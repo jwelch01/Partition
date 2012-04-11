@@ -11,11 +11,10 @@ sig
   val isEmpty : set -> bool
 
   val eq     : elem * elem -> bool
-  val eqMult : elem * elem -> bool (* needed for convenience for testSet
-                                      changes to add multiple failure states
-                                      TODO: refactor *)
 
   val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
+
+  val getId : elem -> string * string
 
   val partition : (elem * elem -> bool) -> set -> set list
     (* arg is an equivalence relation,
@@ -36,10 +35,6 @@ sig
 
   val /<=/ : set * set -> bool (* subset *)
   val /==/ : set * set -> bool (* equality *)
-
-  val /*/  : set * set -> set (* intersection *)
-  val /+/  : set * set -> set (* union *)
-  val /-/  : set * set -> set (* difference *)
 
   val representative : set -> elem option
     (* representative empty == NONE *)

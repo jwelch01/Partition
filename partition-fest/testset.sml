@@ -7,27 +7,17 @@ functor TestSet (Outcome : OUTCOME) : SET = struct
 
 (* Helper functions *)
 
-
-
-fun insertion_sort _ [] = []
- | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
-and insert _ x [] = [x]
- | insert cmp x (l as y::ys) =
-      case cmp (x, y) of GREATER => y :: insert cmp x ys
-                       | _       => x :: l
 fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
 
-fun sort l = insertion_sort cmpResultName l
+fun sort l = Util.insertion_sort cmpResultName l
+
+fun getId (name, num, _) = (name, num)
 
 fun eq ((_, _, ol), (_, _, ol2)) = 
        (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
-		Outcome.identical (out1, out2) andalso flag) true (ol, ol2)
+		Outcome.eq (out1, out2) andalso flag) true (ol, ol2)
         handle UnequalLengths => false)
 
-fun eqMult ((_, _, ol), (_, _, ol2)) = 
-       (ListPair.foldrEq (fn ((_,out1), (_,out2), flag) =>
-		Outcome.identicalMult (out1, out2) andalso flag) true (ol, ol2)
-        handle UnequalLengths => false)
 
 fun eqResult ((id, num, ol), (id2, num2, ol2)) = 
   id = id2 andalso num = num2 andalso eq ((id, num, ol), (id2, num2, ol2))

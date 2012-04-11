@@ -1,0 +1,12 @@
+-given nr       test  1, jkenne05 failed -- fail
+-given jw       test  2, jkenne05 passed
+-given ben       test  3, jkenne05 failed -- fail
+-given nr       test  1, jnw passed
+-given jw       test  2, jnw failed -- fail
+-given ben       test  3, jnw failed -- fail
+-given nr       test  1, nr failed -- fail
+-given jw       test  2, nr failed -- fail
+-given ben       test  3, nr failed -- fail
+-given nr       test  1, ben passed
+-given jw       test  2, ben passed
+-given ben       test  3, ben passed

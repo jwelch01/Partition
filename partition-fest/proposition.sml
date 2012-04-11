@@ -1,44 +1,34 @@
-structure Prop :> PROPOSITION where type testset = TestSet.set = 
+structure Prop :> PROPOSITION  = 
 struct
   type testset = TestSet.set
   type result = (string * bool) list
   (*datatype prop = PROP of { flag : bool, test : string, number : string,
-			    soln : string, results : result }
+			      outcome : outcome, results : result }
 *)
   type prop = bool * string * string * string * result
   type stringProp = string * result
 
   exception AlreadyNegative
   exception Impossible
+  exception NotImplemented
 
+  fun getId (_, test, num, _, _) = (test, num)
 
- fun insertion_sort _ [] = []
- | insertion_sort cmp (x::xs) = insert cmp x (insertion_sort cmp xs)
-and insert _ x [] = [x]
- | insert cmp x (l as y::ys) =
-      case cmp (x, y) of GREATER => y :: insert cmp x ys
-                       | _       => x :: l
+  fun tempProp ol = (true, "", "", "", ol)
+
+  fun outcomes (_, _, _, _, ol) = ol
 
   fun cmpPropName ((name, _), (name2,_)) = String.compare (name, name2)
 
-  val propSort : (string * bool) list -> (string * bool) list  = 
-      insertion_sort cmpPropName
+  val propSort : result -> result = 
+      Util.insertion_sort cmpPropName
 
   fun propExists (_,_,_,_, prop) = 
     foldr (fn ((_,out), flag) => out orelse flag) false prop
   fun testRep s = case TestSet.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
-(*
-  fun negatePropoisition (PROP {flag, test, number, soln, results}) = 
-    if not flag then raise AlreadyNegative
-    else let fun neg ((soln, result)::xs) negs = 
-                       neg xs ((soln, not result)::negs)
-              | neg [] negs = negs
-         in (PROP{flag = false, test = test, number = num,
-                  soln = out, results = neg l [])
-         end
-*)
+
  fun negateProposition (false, _, _, _, _) = raise AlreadyNegative
     | negateProposition (_, test, num, out, l) = 
         let fun neg ((soln, result)::xs) negs = neg xs ((soln, not result)::negs)
@@ -46,10 +36,26 @@ and insert _ x [] = [x]
         in (false, test, num, out, neg l [])
         end
 
+  fun union (p1, p2) = 
+    let val (ol1, ol2) = ((propSort o outcomes) p1, (propSort o outcomes) p2)
+        val ol         =  ListPair.foldr (fn ((n1, o1), (n2, o2), ol) => 
+                                           (n1, o1 orelse o2)::ol) [] (ol1,ol2)
+    in tempProp ol
+    end 
+
+  fun getPropsWithResult [] _ = []
+    | getPropsWithResult ((flag, name, num, out, pl)::xs) (flag2, out2) = 
+         if flag = flag2 andalso out = out2
+         then (flag, name, num, out, pl)::(getPropsWithResult xs (flag2, out2))
+         else (getPropsWithResult xs (flag2, out2))
+
+  exception UnionOfNilList
+  fun unionstar []      = raise UnionOfNilList
+    | unionstar (p::ps) = foldr union p ps
 
   fun boolTests (test, num, l) = 
     let fun f ((soln, out)::xs) outGoal bools= 
-            if Outcome.identical (out, outGoal) 
+            if Outcome.eq (out, outGoal) 
             then f xs outGoal ((soln,true)::bools)
             else f xs outGoal ((soln,false)::bools)
           | f [] _ bools = bools
@@ -72,7 +78,7 @@ and insert _ x [] = [x]
     | filt (_,_,_,_, []) = raise Impossible
     
 
-  fun makePropList testSetList = List.filter filt (
+  fun makePropList testSetList = ( (*List.filter filt ( *)
     foldr (fn (prop, props) =>
             (prop::(negateProposition prop)::props))
     [] (makePositivePropositionList testSetList))
@@ -90,11 +96,13 @@ and insert _ x [] = [x]
   fun makePropMapAndSet propList =
    let val (s, m, _) =
     foldr (fn ((b, test, num, out, props)::xs, (s, m, c)) =>
-      let val node = "N" ^ Int.toString(c)
-      in (((node,props)::s),
-           Map.bind (explode node, (b, test, num, out, props)::xs, m),
-           c+1)
-      end)
+                  let val node = "N" ^ Int.toString(c)
+                  in (((node,props)::s),
+                      Map.bind (explode node, 
+                                (b, test, num, out, props)::xs, m),
+                       c+1)
+                  end
+              )
     ([], Map.empty, 1) propList
    in (s, m) end
 
@@ -168,14 +176,10 @@ and insert _ x [] = [x]
 
   val equivPropLists : prop list * prop list -> bool =
   fn (l1, l2) => 
-   ListPair.foldrEq equiv true (insertion_sort cmp l1, insertion_sort cmp l2)
+   ListPair.foldrEq equiv true (Util.insertion_sort cmp l1, Util.insertion_sort cmp l2)
    handle UnequalLengths => false
-(*
-  fun addPropList (l1, propCollection) = 
-   if foldr (fn (l2, flag) => if equivPropLists (l1, l2) then true else flag)
-       false propCollection
-   then propCollection else l1::propCollection
-*)  
+
+
   val isRun : prop -> bool =
   fn (b, n1, _, _, _) => not b andalso n1 = "DNR"
 

@@ -1,11 +1,22 @@
 
 structure OutcomeReader : sig
+    type t = { testid  : string    (* source of the test *)
+           , num     : int       (* number of the test from that source *)
+           , solnid  : string    (* identity of the solution *)
+           , outcome : Outcome.outcome
+           }
+
+
     val lex     : string -> string list (* for debugging only *)
-    val outcome : string -> Outcome.t
+    val outcome : string -> t
     val outcome2 : string -> string list option
 end
 = struct
-
+    type t = { testid  : string    (* source of the test *)
+           , num     : int       (* number of the test from that source *)
+           , solnid  : string    (* identity of the solution *)
+           , outcome : Outcome.outcome
+           }
   structure I = Impossible
 
   open Lex (* never do this *)
@@ -64,7 +75,7 @@ end
     | test x = SOME x;
 
 
-  val outcome : string -> Outcome.t = toOutcome o lex
+  val outcome : string -> t = toOutcome o lex
 
   val outcome2 : string -> string list option = test o lex
 
