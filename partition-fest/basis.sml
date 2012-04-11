@@ -301,7 +301,7 @@ struct
     end
 
   fun buildGraph infile outfile flags = 
-    let val tests  = (testSetReduction flags) (getTestPartitions infile)
+    let val tests  = testSetReduction flags $ getTestPartitions infile
         val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
                      makeSolnMap tests
         val g      = makeGraph s
