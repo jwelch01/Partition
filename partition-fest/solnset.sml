@@ -67,7 +67,9 @@ fun eq ((id1, ol1), (id2, ol2)) =
 
 (* A < B iff for all shared tests, if A has passed, B has passed *)
   
-  fun isDNR (_, x)  = Outcome.eq (x, Outcome.DNR)
+  fun isDNR (_, Outcome.DNR) = true
+    | isDNR _ = false
+
   fun stripDNR outcomes = List.filter 
                            (fn (out1, out2) => 
 			     not (isDNR out1 orelse isDNR out2)) outcomes
@@ -136,8 +138,13 @@ fun eq ((id1, ol1), (id2, ol2)) =
                                                                      , witness = w }))
                                   , G.lift O.DNR
                                   ]
-          val elem = G.zip (solnid, G.list (G.lift true) (G.zip (id, outcome)))
-          val set = G.list (G.lift true) elem
+          fun nodups [] = []
+            | nodups (t::ts) = t :: nodups (List.filter (different_id t) ts)
+          and different_id (id, _) (id', _) = id <> id'
+
+          val elem = G.zip (solnid, G.list (G.flip' (1,4)) (G.zip (id, outcome)) >>=
+                                    G.lift o nodups)
+          val set = G.list G.flip elem
 
           val elemPair = unimp
 
@@ -146,8 +153,21 @@ fun eq ((id1, ol1), (id2, ol2)) =
 
           infix /<=/ /==/ /</
 
+          fun youpass (tid, _) = (tid, Outcome.PASSED)
+          fun youfail (tid, _) = (tid, Outcome.NOTPASSED { outcome = "failed"
+                                                         , witness = "I made you mess up "
+                                                         })
+
+
           fun reflexive xs = xs /<=/ xs
           val rprop = Q.pred reflexive
+
+          fun smap f (sid, results) = (sid, map f results)
+          fun snd (x, y) = y
+
+
+          fun lt_test xs = smap youfail xs /</ smap youpass xs
+          val lt_prop = Q.implies (not o null o snd, Q.pred lt_test) : elem Q.prop
       end
 
 

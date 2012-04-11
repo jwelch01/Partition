@@ -60,6 +60,8 @@ fun eqResult ((id, num, ol), (id2, num2, ol2)) =
 
   structure QC = struct
     fun reflexive _ = raise NotImplemented
+    val rprop : elem QCheck.prop = QCheck.pred (fn _ => false)
+    val lt_prop = rprop
     fun elem _ = raise NotImplemented
     fun set _  = raise NotImplemented
   end
