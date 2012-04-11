@@ -62,14 +62,13 @@ fun eq ((id1, ol1), (id2, ol2)) =
                            (fn (out1, out2) => 
 			     not (isDNR out1 orelse isDNR out2)) outcomes
 
-  fun /<=/ (set1, set2) =
+  val rank : set * set -> order option = fn (set1, set2) => 
     let val ((_, out1), (_, out2)) = (rep set1, rep set2)
         val (out1, out2) = (Util.insertion_sort cmpTestsO out1,
                             Util.insertion_sort cmpTestsO out2)
         val (out1, out2) = (LP.unzip o stripDNR o LP.zip) (out1, out2)
         fun compare ((_, out1), (_,out2)) = Outcome.compare (out1, out2)
-        val rank = Util.vcompare compare (out1, out2)
-    in rank = SOME LESS
+    in  Util.vcompare compare (out1, out2)
     end
 
 (* A = B iff for all tests T, T(A) = T(B). Soln name is not considered *)
