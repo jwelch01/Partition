@@ -1,5 +1,7 @@
 group is $/basis.cm
 
+  sample.sml
+
   outcomesig.sml
   outcome.sml
   util.sml
@@ -20,6 +22,8 @@ group is $/basis.cm
   setsig.sml
   testset.sml
   solnset.sml
+
+  
 
   solnstring.sml
 
