@@ -21,6 +21,8 @@ group is $/basis.cm
   testset.sml
   solnset.sml
 
+  solnstring.sml
+
   propositionsig.sml
   proposition.sml
 
