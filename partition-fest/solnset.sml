@@ -11,6 +11,16 @@ functor SolnSet (Outcome : OUTCOME) : SET = struct
 
 (* Helper functions *)
 
+   (* all outcomes in a list are equivalent *)
+  fun equivOutcomes ((_, x)::(id, x')::ps) =
+        Outcome.eq (x, x') andalso equivOutcomes ((id, x')::ps)
+    | equivOutcomes [_] = true
+    | equivOutcomes [] = true
+
+  fun snd (x, y) = y
+
+  fun goodSet ps = List.all (equivOutcomes o snd) ps
+
 fun cmpTests ((id1, num1), (id2, num2)) =
   case String.compare (id1, id2)
     of EQUAL => String.compare (num1, num2)
@@ -62,21 +72,33 @@ fun eq ((id1, ol1), (id2, ol2)) =
                            (fn (out1, out2) => 
 			     not (isDNR out1 orelse isDNR out2)) outcomes
 
-  val rank : set * set -> order option = fn (set1, set2) => 
-    let val ((_, out1), (_, out2)) = (rep set1, rep set2)
-        val (out1, out2) = (Util.insertion_sort cmpTestsO out1,
-                            Util.insertion_sort cmpTestsO out2)
-        val (out1, out2) = (LP.unzip o stripDNR o LP.zip) (out1, out2)
+  (* contract:
+       1. caller must ensure that inputs (e1, e2) have the same
+          set of test ids
+
+       2. rankElem (e1, e2) gives a partial order of the outcomes
+          compared pointwise
+   *)
+   
+
+  val rankElem : elem * elem -> order option = fn ((_, v1), (_, v2)) => 
+      (* v1 and v2 are vectors of (tagged) outcomes *)
+    let val (v1, v2) = (Util.insertion_sort cmpTestsO v1,
+                        Util.insertion_sort cmpTestsO v2)
+        val (v1, v2) = (LP.unzip o stripDNR o LP.zip) (v1, v2)
         fun compare ((_, out1), (_,out2)) = Outcome.compare (out1, out2)
-    in  Util.vcompare compare (out1, out2)
+    in  Util.vcompare compare (v1, v2)
     end
 
-  fun /<=/ (set1, set2) = case rank (set1, set2)
+  val rank : set * set -> order option = fn (set1, set2) => 
+      rankElem (rep set1, rep set2)
+
+  fun /<=/ (elem1, elem2) = case rankElem (elem1, elem2)
                             of SOME LESS => true
                              | SOME EQUAL => true
                              | _ => false
                                 
-  fun /</ (set1, set2) = case rank (set1, set2)
+  fun /</ (elem1, elem2) = case rankElem (elem1, elem2)
                             of SOME LESS => true
                              | _ => false
                                 
@@ -89,6 +111,8 @@ fun eq ((id1, ol1), (id2, ol2)) =
                              (fn e2 => /==/ ([e2], [elem])) set
 
   
+  fun unimp _ = let exception Unimp in raise Unimp end
+
 
   structure QC =
       struct (* qcheck properties *)
@@ -115,11 +139,15 @@ fun eq ((id1, ol1), (id2, ol2)) =
           val elem = G.zip (solnid, G.list (G.lift true) (G.zip (id, outcome)))
           val set = G.list (G.lift true) elem
 
+          val elemPair = unimp
+
+
               (***********************)
 
           infix /<=/ /==/ /</
 
           fun reflexive xs = xs /<=/ xs
+          val rprop = Q.pred reflexive
       end
 
 

@@ -77,18 +77,19 @@ struct
   fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
 
   (* Make the implication graph *)
+  fun id (solnid, _) = solnid
   val makeGraph : SolnSet.set list -> BasicGraph.graph =
   fn sl => 
     foldr (fn (x, graph) => 
-     let val (id1, _) = solnRep x
-     in foldr (fn (y, g) =>
-      let val (id2, _) = solnRep y
-      in if x /</ y andalso not (y /</ x) 
-         then G.addEdge (edge id2 "" id1, g)
-         else g
-      end)
-         (G.addNode(G.makeNode id1, graph)) sl
-     end)
+           let val x = solnRep x
+           in  foldr (fn (y, g) =>
+                      let val y = solnRep y
+                      in  if x /</ y andalso not (y /</ x) 
+                          then G.addEdge (edge (id y) "" (id x), g)
+                          else g
+                      end)
+               (G.addNode(G.makeNode (id x), graph)) sl
+           end)
     G.empty sl
 
 

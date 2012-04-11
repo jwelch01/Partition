@@ -33,7 +33,7 @@ sig
 
    *)           
 
-  val /</  : set * set -> bool (* strict subset *)
+  val /</  : elem * elem -> bool (* strictly lower in rank order *)
   val /==/ : set * set -> bool (* equality *)
 
   val representative : set -> elem option
@@ -41,7 +41,7 @@ sig
     (* if s is not empty, member (representative s, s) *)
 
   structure QC : sig
-    val reflexive : set -> bool
+    val reflexive : elem -> bool
     val elem : elem QCheck.Gen.gen
     val set  : set  QCheck.Gen.gen
   end
