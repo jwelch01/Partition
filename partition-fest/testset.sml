@@ -51,7 +51,7 @@ fun eqResult ((id, num, ol), (id2, num2, ol2)) =
    in foldr (fn (elem, classes) => partitionOne elem classes) [] s
    end
 
-  fun /<=/ (_,_) = raise NotImplemented
+  fun /</ (_,_) = raise NotImplemented
   fun /==/ (set1, set2) = eqResult (rep set1, rep set2)
 
   fun /*/  (_,_) = raise NotImplemented

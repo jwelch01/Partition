@@ -48,8 +48,8 @@ struct
 
   (* Produce graph using subset relations *)
 
-  val /<=/ = SolnSet./<=/
-  infix 3 /<=/
+  val /</ = SolnSet./</
+  infix 3 /</
 
   fun solnRep s = case SolnSet.representative s
                     of SOME y => y
@@ -83,7 +83,7 @@ struct
      let val (id1, _) = solnRep x
      in foldr (fn (y, g) =>
       let val (id2, _) = solnRep y
-      in if x /<=/ y andalso not (y /<=/ x) 
+      in if x /</ y andalso not (y /</ x) 
          then G.addEdge (edge id2 "" id1, g)
          else g
       end)

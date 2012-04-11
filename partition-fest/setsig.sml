@@ -33,7 +33,7 @@ sig
 
    *)           
 
-  val /<=/ : set * set -> bool (* subset *)
+  val /</  : set * set -> bool (* strict subset *)
   val /==/ : set * set -> bool (* equality *)
 
   val representative : set -> elem option
