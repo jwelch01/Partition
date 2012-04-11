@@ -306,7 +306,9 @@ struct
         val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
                      makeSolnMap tests
         val g      = makeGraph s
-        val ()     = FileWriter.printGraph g m (TextIO.openOut outfile) true
+        val fd     = TextIO.openOut outfile
+        val ()     = FileWriter.printGraph g m fd true
+        val _      = TextIO.closeOut fd
     in tests
     end
 
