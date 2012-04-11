@@ -101,6 +101,7 @@ fun eq ((id1, ol1), (id2, ol2)) =
           structure O = Outcome
           structure Q = QCheck
           structure G = QCheck.Gen
+          val solnid = G.select #["Alice", "Bob", "Carla"]
           val id = G.select #[("nr", "1"), ("jw", "2"), ("bh", "99")]
           val wit = G.select #["Your code sucks", "The dog ate your homework",
                                "You used a curse word"]
@@ -111,7 +112,14 @@ fun eq ((id1, ol1), (id2, ol2)) =
                                                                      , witness = w }))
                                   , G.lift O.DNR
                                   ]
-                                  
+          val elem = G.zip (solnid, G.list (G.lift true) (G.zip (id, outcome)))
+          val set = G.list (G.lift true) elem
+
+              (***********************)
+
+          infix /<=/ /==/ /</
+
+          fun reflexive xs = xs /<=/ xs
       end
 
 
