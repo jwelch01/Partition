@@ -177,13 +177,14 @@ struct
           else (BasicGraph.getIn edge :: BasicGraph.getOut edge :: nodes,
                 edge::edges)
 
-        val (n::_) = BasicGraph.getNodes g
 
         fun rC edges (n::ns) = 
              let val (ns2, es2) = foldr add (ns, edges) (getNeighbors n)
              in rC es2 ns2 end
           | rC edges [] = edges (* needs to be fixed *)
-    in (BasicGraph.getGraphFromEdges (rC [] [n]), m)
+    in  case BasicGraph.getNodes g
+          of n :: _ => (BasicGraph.getGraphFromEdges (rC [] [n]), m)
+           | [] => let exception EmptyGraph in raise EmptyGraph end
     end
      
 

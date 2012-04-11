@@ -95,14 +95,15 @@ struct
 
   fun makePropMapAndSet propList =
    let val (s, m, _) =
-    foldr (fn ((b, test, num, out, props)::xs, (s, m, c)) =>
+    foldr (fn (props as (_, _, _, _, result)::_, (s, m, c)) =>
                   let val node = "N" ^ Int.toString(c)
-                  in (((node,props)::s),
-                      Map.bind (explode node, 
-                                (b, test, num, out, props)::xs, m),
-                       c+1)
+                  in ( (node, result)::s
+                     , Map.bind (explode node, props, m)
+                     , c+1
+                     )
                   end
-              )
+              | ([], _) => let exception EmptyProps in raise EmptyProps end
+           )
     ([], Map.empty, 1) propList
    in (s, m) end
 
