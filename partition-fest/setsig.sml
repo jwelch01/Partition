@@ -40,4 +40,10 @@ sig
     (* representative empty == NONE *)
     (* if s is not empty, member (representative s, s) *)
 
+  structure QC : sig
+    val reflexive : set -> bool
+    val elem : elem QCheck.Gen.gen
+    val set  : set  QCheck.Gen.gen
+  end
+
 end

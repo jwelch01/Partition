@@ -58,4 +58,12 @@ fun eqResult ((id, num, ol), (id2, num2, ol2)) =
   fun /+/  (_,_) = raise NotImplemented
   fun /-/  (_,_) = raise NotImplemented
 
+  structure QC = struct
+    fun reflexive _ = raise NotImplemented
+    fun elem _ = raise NotImplemented
+    fun set _  = raise NotImplemented
+  end
+
+
+
 end
