@@ -85,4 +85,31 @@ fun eq ((id1, ol1), (id2, ol2)) =
   fun member (elem, set) = List.exists 
                              (fn e2 => /==/ ([e2], [elem])) set
 
+  
+
+  structure QC =
+      struct (* qcheck properties *)
+          infix 0 >>=
+
+          fun gen >>= k = (fn rand => let val (a, rand) = gen rand
+                                      in  k a rand
+                                      end)
+                           
+          structure O = Outcome
+          structure Q = QCheck
+          structure G = QCheck.Gen
+          val id = G.select #[("nr", "1"), ("jw", "2"), ("bh", "99")]
+          val wit = G.select #["Your code sucks", "The dog ate your homework",
+                               "You used a curse word"]
+          val refined_outcome = G.select #["failed", "errored", "segfaulted"]
+          val outcome = G.choose #[ G.lift O.PASSED
+                                  , G.zip (refined_outcome, wit) >>=
+                                    (fn (c, w) => G.lift (O.NOTPASSED { outcome = c
+                                                                     , witness = w }))
+                                  , G.lift O.DNR
+                                  ]
+                                  
+      end
+
+
 end
