@@ -4,6 +4,8 @@ signature OUTCOME = sig
     | NOTPASSED of { outcome : string, witness : string }
     | DNR
 
+  val toString : outcome -> string
+
   exception DNRComparison
 
   val compare     : outcome * outcome -> order
