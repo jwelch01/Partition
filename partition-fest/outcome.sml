@@ -35,7 +35,7 @@ structure OutcomeMultiple :> OUTCOME = struct
     | compare (PASSED, _) = EQUAL
     | compare (NOTPASSED _, PASSED) = LESS
     | compare (NOTPASSED {outcome = out1, witness = wit1}, 
-                   NOTPASSED {outcome = out2, witness = wit2}) = 
+               NOTPASSED {outcome = out2, witness = wit2}) = 
             if out1 = out2 then EQUAL
                           else if out1 = "errored" then LESS else GREATER
     | compare (_, _) = EQUAL
@@ -47,4 +47,4 @@ structure OutcomeMultiple :> OUTCOME = struct
 
 end
 
-structure Outcome = OutcomeMultiple
+structure Outcome = OutcomeSingle

@@ -41,8 +41,8 @@
 
   (* Produce graph using subset relations *)
 
-  val /<=/ = SolnSet./<=/
-  infix 3 /<=/
+  val /</ = SolnSet./</
+  infix 3 /</
 
   fun solnRep s = case SolnSet.representative s
                     of SOME y => y
@@ -70,18 +70,19 @@
   fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
 
   (* Make the implication graph *)
+  fun id (solnid, _) = solnid
   val makeGraph : SolnSet.set list -> BasicGraph.graph =
   fn sl => 
     foldr (fn (x, graph) => 
-     let val (id1, _) = solnRep x
-     in foldr (fn (y, g) =>
-      let val (id2, _) = solnRep y
-      in if x /<=/ y andalso not (y /<=/ x) 
-         then G.addEdge (edge id2 "" id1, g)
-         else g
-      end)
-         (G.addNode(G.makeNode id1, graph)) sl
-     end)
+           let val x = solnRep x
+           in  foldr (fn (y, g) =>
+                      let val y = solnRep y
+                      in  if x /</ y andalso not (y /</ x) 
+                          then G.addEdge (edge (id y) "" (id x), g)
+                          else g
+                      end)
+               (G.addNode(G.makeNode (id x), graph)) sl
+           end)
     G.empty sl
 
 
@@ -170,13 +171,14 @@
           else (BasicGraph.getIn edge :: BasicGraph.getOut edge :: nodes,
                 edge::edges)
 
-        val (n::_) = BasicGraph.getNodes g
 
         fun rC edges (n::ns) = 
              let val (ns2, es2) = foldr add (ns, edges) (getNeighbors n)
              in rC es2 ns2 end
           | rC edges [] = edges (* needs to be fixed *)
-    in (BasicGraph.getGraphFromEdges (rC [] [n]), m)
+    in  case BasicGraph.getNodes g
+          of n :: _ => (BasicGraph.getGraphFromEdges (rC [] [n]), m)
+           | [] => let exception EmptyGraph in raise EmptyGraph end
     end
      
 
@@ -293,10 +295,13 @@
     end
 
   fun buildGraph infile outfile flags = 
-    let val tests  = (testSetReduction flags) (getTestPartitions infile)
+    let val tests  = testSetReduction flags $ getTestPartitions infile
         val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
                      makeSolnMap tests
         val g      = makeGraph s
-        val ()     = FileWriter.printGraph g m (TextIO.openOut outfile) true
+        val fd     = TextIO.openOut outfile
+        val ()     = FileWriter.printGraph g m fd true
+        val _      = TextIO.closeOut fd
     in tests
     end
+

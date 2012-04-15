@@ -1,5 +1,6 @@
 structure Basis : sig 
-  val buildGraph : string -> string -> string list -> TestSet.set list 
+  val buildGraph : string -> string -> string -> 
+                   string list -> SolnSet.set list 
   val buildPropGraph : string -> string -> string list -> Prop.prop list list
 
 end =
@@ -65,13 +66,15 @@ struct
   fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
-    let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
-        val (_, l) = solnRep s
-        val node = "N"^Int.toString(c)
-    in (SolnSet.add((node, l), set), 
-        Map.bind(explode node, string, map), c+1) end) 
+      let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
+          val (_, l) = solnRep s
+          val node = "N"^Int.toString(c)
+      in (SolnSet.add((node, l), set), 
+          Map.bind(explode node, string, map), c+1) 
+      end) 
     (SolnSet.empty, Map.empty, 1) sl
-   in (partitionSolns s,m) end
+   in (partitionSolns s,m) 
+   end
 
   (* curried, simplified function to make an edge *)
   fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
@@ -301,15 +304,18 @@ struct
     in  p
     end
 
-  fun buildGraph infile outfile flags = 
-    let val tests  = testSetReduction flags $ getTestPartitions infile
-        val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
-                     makeSolnMap tests
-        val g      = makeGraph s
-        val fd     = TextIO.openOut outfile
-        val ()     = FileWriter.printGraph g m fd true
-        val _      = TextIO.closeOut fd
-    in tests
+  fun buildGraph infile outfile outfileTests flags = 
+    let val tests     = testSetReduction flags $ getTestPartitions infile
+        val (s, m)    = buildMapAndSet $ partitionSolns $ makeSolnSet $
+                        makeSolnMap tests
+        val g         = makeGraph s
+        val (fd, tfd) = (TextIO.openOut outfile, TextIO.openOut outfileTests)
+        val ()        = FileWriter.printSolnGraph g m s fd 
+        val ()        = TextIO.output (tfd, foldr (fn (test, s) => 
+                                                TestSet.toString test^"\n"^s)
+                                            "" tests)
+        val _         = (TextIO.closeOut fd; TextIO.closeOut tfd)
+    in s
     end
 
 end

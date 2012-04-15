@@ -1,6 +1,13 @@
 signature PROPOSITION = sig
   type testset = TestSet.set
-  type prop
+(*  type prop *)
+
+  type result = (string * bool) list
+  (*datatype prop = PROP of { flag : bool, test : string, number : string,
+			      outcome : outcome, results : result }
+*)
+  type prop = bool * string * string * string * result
+
   type stringProp (* stringProps are utilized for ease of interaction with
                      the map interface and .dot file format *)
 

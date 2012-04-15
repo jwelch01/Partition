@@ -21,6 +21,8 @@ functor SolnSet (Outcome : OUTCOME) : SET = struct
 
   fun goodSet ps = List.all (equivOutcomes o snd) ps
 
+  fun toString set = foldr (fn ((x, _), y) => x ^ "\n" ^ y) "" set
+
 fun cmpTests ((id1, num1), (id2, num2)) =
   case String.compare (id1, id2)
     of EQUAL => String.compare (num1, num2)

@@ -36,6 +36,8 @@ sig
   val /</  : elem * elem -> bool (* strictly lower in rank order *)
   val /==/ : set * set -> bool (* equality *)
 
+  val toString : set -> string
+
   val representative : set -> elem option
     (* representative empty == NONE *)
     (* if s is not empty, member (representative s, s) *)

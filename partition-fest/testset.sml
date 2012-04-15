@@ -11,6 +11,7 @@ fun cmpResultName ((x, _), (y, _)) = String.compare (x, y)
 
 fun sort l = Util.insertion_sort cmpResultName l
 
+fun idToString (name, num) = name ^ " " ^ num
 fun getId (name, num, _) = (name, num)
 
 fun eq ((_, _, ol), (_, _, ol2)) = 
@@ -33,6 +34,13 @@ fun eqResult ((id, num, ol), (id2, num2, ol2)) =
     | representative (x::_) = SOME x
   fun rep x = case representative x of SOME y => y
                                      | NONE   => raise NotFound
+(*
+  fun toString [] = ""
+    | toString (x::xs) = idToString (getId x)  
+*)
+
+  fun toString set = foldr (fn (x, y) => (idToString o getId) x ^ "\n" ^ y) "" set
+
 
   fun isEmpty [] = true
     | isEmpty _ = false
