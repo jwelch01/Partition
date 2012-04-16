@@ -1,0 +1,9 @@
+group
+  signature ANIMALS
+  structure Animals
+is
+
+  animals.sig
+  animals.sml
+
+  $/basis.cm
