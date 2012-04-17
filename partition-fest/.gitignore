@@ -1,1 +1,5 @@
 /swiss-army-knife
+/*.dot
+rank.*-*
+/retained.out
+/witnesses.out
