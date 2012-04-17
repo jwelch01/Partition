@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+
+HEAP=$(echo $DIR/rank.*-*)
+
+case $# in
+  0) exec sml @SMLload="$HEAP" ;;
+  *) exec sml @SMLload="$HEAP" "$@" ;;
+esac

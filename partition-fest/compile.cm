@@ -51,5 +51,7 @@ group is $/basis.cm
 
   basis.sml
 
+  commandline.sml
+
   $qcheck/qcheck.cm
 

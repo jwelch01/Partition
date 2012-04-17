@@ -1,6 +1,6 @@
-SOURCES=`echo *.sml`
+SOURCES=`echo *.sml *.cm */*.sml */*.sig`
 
-all:V: swiss-army-knife
+all:V: njbin
 
 # compile with mlton
 swiss-army-knife: $SOURCES compile.mlb
@@ -9,6 +9,13 @@ swiss-army-knife: $SOURCES compile.mlb
 
 nj:V: # compile with sml/nj
 	echo 'CM.make "compile.cm";' | sml
+
+
+njbin:V:
+	sml <<'EOF'
+	CM.make "compile.cm";
+	SMLofNJ.exportFn ("rank", CommandLine.run);
+	EOF
 
 
 
