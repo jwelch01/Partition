@@ -1,0 +1,17 @@
+group
+  signature ANIMALS
+  structure Animals
+  signature NUM_ANONYMIZER
+  structure Anonymizer
+is
+
+  animals.sig
+  animals.sml
+
+  anonymizer.sig
+  anonymizer.sml
+
+  MD5.sig
+  MD5.sml
+
+  $/basis.cm

@@ -1,5 +1,9 @@
 group is $/basis.cm
 
+  anonymizer/anon.cm
+  anonsig.sml
+  anon.sml
+
   sample.sml
 
   outcomesig.sml
