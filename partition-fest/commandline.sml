@@ -37,8 +37,10 @@ structure CommandLine = struct
                                       (witnessfile options) []
           ; OS.Process.success
           )
-       | (options, _) =>
+       | (options, argv) =>
             ( app eprint ["Usage: ", prog, " [-c | -u | -o filename] outcomefile\n" ]
+            ; eprint "Got these args:" ; app (fn s => app eprint [" ", s]) argv
+            ; eprint "\n"
             ; OS.Process.failure
             )
 
