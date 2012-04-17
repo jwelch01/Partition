@@ -98,7 +98,7 @@ struct
     foldr (fn (props as (_, _, _, _, result)::_, (s, m, c)) =>
                   let val node = "N" ^ Int.toString(c)
                   in ( (node, result)::s
-                     , Map.bind (explode node, props, m)
+                     , Map.bind (node, props, m)
                      , c+1
                      )
                   end

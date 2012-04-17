@@ -26,7 +26,7 @@ struct
   fun addToMap (set, map) = case TestSet.representative set
                               of SOME (name, number, ol) => foldr
                                  (fn ((soln, out), m) => 
-                                   ListMap.add (explode soln, 
+                                   ListMap.add ( soln, 
                                                ((name, number), out),m))
                                  map ol
                                | NONE => raise Impossible
@@ -41,7 +41,7 @@ struct
   val makeSolnSet : 
     ((string * string) * Outcome.outcome) ListMap.map -> SolnSet.set = 
        fn map => ListMap.mapFold
-         (fn (k, testList, set) => SolnSet.add ((implode k, testList), set))
+         (fn (k, testList, set) => SolnSet.add ((k, testList), set))
          SolnSet.empty map
 
   (* Partition SolnSet *)
@@ -70,7 +70,7 @@ struct
           val (_, l) = solnRep s
           val node = "N"^Int.toString(c)
       in (SolnSet.add((node, l), set), 
-          Map.bind(explode node, string, map), c+1) 
+          Map.bind( node, string, map), c+1) 
       end) 
     (SolnSet.empty, Map.empty, 1) sl
    in (partitionSolns s,m) 
@@ -115,8 +115,8 @@ struct
     let val edges = BasicGraph.getEdges g
         val edges2 = 
           foldr (fn (e, es) => 
-            if Prop.tautology (Map.lookup (explode (BasicGraph.getIn e), m),
-                               Map.lookup (explode (BasicGraph.getOut e), m))
+            if Prop.tautology (Map.lookup ( BasicGraph.getIn e, m),
+                               Map.lookup ( BasicGraph.getOut e, m))
             then es
             else e::es)
             [] edges
@@ -124,8 +124,8 @@ struct
     end
 
   fun contraNodes (n1, n2) m =
-    Prop.complementList (Map.lookup (explode n1, m),
-                         Map.lookup (explode n2, m))
+    Prop.complementList (Map.lookup ( n1, m),
+                         Map.lookup ( n2, m))
   fun contraEdges (e1, e2) m = 
     contraNodes (BasicGraph.getIn e1, BasicGraph.getOut e2) m andalso
     contraNodes (BasicGraph.getIn e2, BasicGraph.getOut e1) m
@@ -152,8 +152,8 @@ struct
   fun removeContrapositives (g, m) =
     let val edges  = BasicGraph.getEdges g
         fun posEdge e = 
-          Prop.positive (Map.lookup (explode (BasicGraph.getIn e), m)) andalso
-          Prop.positive (Map.lookup (explode (BasicGraph.getOut e), m)) 
+          Prop.positive (Map.lookup (BasicGraph.getIn e, m)) andalso
+          Prop.positive (Map.lookup (BasicGraph.getOut e, m)) 
         val positives = List.filter posEdge edges
         val negatives = List.filter (not o posEdge) edges
   in (BasicGraph.getGraphFromEdges (
@@ -218,7 +218,7 @@ struct
                       Prop.prop list Map.map -> Prop.prop = 
   (fn (n, g, m) =>
     let val implyingNodes = BasicGraph.getPredecessorNodes (n, g)
-        fun look node = Map.lookup (explode $ BasicGraph.getNodeLabel node, m)
+        fun look node = Map.lookup (BasicGraph.getNodeLabel node, m)
         val implyingProps = map look implyingNodes
         val falseImplyingProps = List.filter containsFalse implyingProps
         val reps = map propRep falseImplyingProps 
@@ -231,7 +231,7 @@ struct
      the union of all implying failure sets.
      PRECONDITION: n maps to a prop list that contains at least one failure *)
   fun failureRedundantUnderUnion (n, g, m) = 
-    let val self = Map.lookup (explode $ BasicGraph.getNodeLabel n, m)
+    let val self = Map.lookup (BasicGraph.getNodeLabel n, m)
     in Prop.eq (propRep self, getFalseUnion (n, g, m))
        handle _ => false
     end
@@ -242,7 +242,7 @@ struct
   fun findRedundantFailures (g, m) =
     let val nodes = BasicGraph.getNodes g
         fun addIfRedundant (n, xs) = 
-          let val pl = Map.lookup (explode $ BasicGraph.getNodeLabel n, m)
+          let val pl = Map.lookup (BasicGraph.getNodeLabel n, m)
           in if not $ containsFalse pl then xs
              else if failureRedundantUnderUnion (n,g,m)
                   then getFalseReps pl @ xs

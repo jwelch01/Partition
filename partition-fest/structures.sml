@@ -1,4 +1,4 @@
-structure Map = TernaryStringMap(TernaryKeyChar)
+structure Map = StringMap(TernaryKeyChar)
 structure ListMap = ListMapFn(Map)
 structure StringMap = StringMapFn(TernaryKeyChar)
 structure M = EmbedListMap(structure L1 = Map

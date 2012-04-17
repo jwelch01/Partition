@@ -46,6 +46,7 @@ sig
     val reflexive : elem -> bool
     val rprop : elem QCheck.prop
     val lt_prop : elem QCheck.prop
+(*    val lte_test : elem QCheck.prop *)
     val elem : elem QCheck.Gen.gen
     val set  : set  QCheck.Gen.gen
   end

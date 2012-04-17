@@ -13,9 +13,6 @@ group is $/basis.cm
   listmapsig.sml
   graphsig.sml
 
-  stringmapsig.sml
-  stringmap.sml
-
   testdbsig.sml
   testdb.sml
 
@@ -23,7 +20,8 @@ group is $/basis.cm
   testset.sml
   solnset.sml
 
-  
+  stringmapsig.sml  
+  stringmap.sml
 
   solnstring.sml
 
@@ -32,6 +30,7 @@ group is $/basis.cm
 
   ternarykeychar.sml
   ternarystringmap.sml
+  smap.sml
   listmap.sml
   graph.sml
 

@@ -70,6 +70,7 @@ fun eqResult ((id, num, ol), (id2, num2, ol2)) =
     fun reflexive _ = raise NotImplemented
     val rprop : elem QCheck.prop = QCheck.pred (fn _ => false)
     val lt_prop = rprop
+(*    val lte_test = rprop *)
     fun elem _ = raise NotImplemented
     fun set _  = raise NotImplemented
   end

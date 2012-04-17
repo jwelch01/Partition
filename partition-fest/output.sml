@@ -15,11 +15,11 @@ struct
   val output = TextIO.output
 
   fun printGraph graph map out back =
-      (output (out, "digraph testgraph { fontsize=\"9\" \nsize=\"10.3,7.7\"; ratio=compress\nnode [fontsize=\"9\"] \nedge [fontsize=\"9\"]"); 
+      (output (out, "digraph testgraph { fontsize=\"9\" \nsize=\"10.3,7.7\"; ratio=compress\nnode [fontsize=\"9\"] \nedge [fontsize=\"9\"]\n"); 
        foldl (fn (name, _) =>
                let val label = G.getNodeLabel name
                in ((output (out, label ^ " [label=\"" ^
-                                Map.lookup(explode label, map) ^ "\"]\n")); [])
+                                Map.lookup(label, map) ^ "\"]\n")); [])
          end)
        [] (G.getNodes graph);
        foldl (fn (name, _) =>
@@ -43,7 +43,7 @@ struct
 
        foldl (fn ((label, results),_) =>
          (output (out, label ^ " [label=\"" ^
-                                Map.lookup(explode label, map) ^
+                                Map.lookup(label, map) ^
           foldr (fn ((_, outcome), s) => if Outcome.eq (outcome, Outcome.PASSED)
                                          then "|" ^ s
                                          else "." ^ s) "" results

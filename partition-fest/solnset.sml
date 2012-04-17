@@ -160,14 +160,31 @@ fun eq ((id1, ol1), (id2, ol2)) =
                                                          , witness = "I made you mess up "
                                                          })
 
+          fun gte_elem (id, results) =
+            (id, foldr (fn ((id, out), rs) =>
+                   if Outcome.eq (out, Outcome.PASSED)
+                     (* if xs passes, y must pass *)
+                   then (id, G.lift O.PASSED)::rs 
+                      (* if xs does not pass, y can have any result *)
+                   else (id, outcome)::rs) [] results)
 
           fun reflexive xs = xs /<=/ xs
           val rprop = Q.pred reflexive
 
           fun smap f (sid, results) = (sid, map f results)
           fun snd (x, y) = y
-
-
+(*
+          fun lte_test (id, results) = 
+            let val ys = (id, foldr (fn ((id, out), rs) =>
+                                      if Outcome.eq (out, Outcome.PASSED)
+                                      (* if xs passes, y must pass *)
+                                      then (id, G.lift O.PASSED)::rs 
+                                      (* if xs does not pass,
+                                         y can have any result *)
+                                      else (id, outcome)::rs) [] results)
+            in (id, results) /<=/ ys
+            end
+*)
           fun lt_test xs = smap youfail xs /</ smap youpass xs
           val lt_prop = Q.implies (not o null o snd, Q.pred lt_test) : elem Q.prop
       end
