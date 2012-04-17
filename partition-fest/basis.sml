@@ -1,6 +1,6 @@
 structure Basis : sig 
-  val buildGraph : string -> string -> string -> 
-                   string list -> SolnSet.set list 
+  val buildGraph : string -> string -> string -> string ->
+                   string list -> SolnSet.set 
   val buildPropGraph : string -> string -> string list -> Prop.prop list list
 
 end =
@@ -304,18 +304,22 @@ struct
     in  p
     end
 
-  fun buildGraph infile outfile outfileTests flags = 
+  fun buildGraph infile outfile outfileTests outfileFailures flags = 
     let val tests     = testSetReduction flags $ getTestPartitions infile
-        val (s, m)    = buildMapAndSet $ partitionSolns $ makeSolnSet $
-                        makeSolnMap tests
+        val solns     = makeSolnSet $ makeSolnMap tests
+        val (s, m)    = buildMapAndSet $ partitionSolns solns
         val g         = makeGraph s
-        val (fd, tfd) = (TextIO.openOut outfile, TextIO.openOut outfileTests)
+        val (fd, tfd, ffd) = (TextIO.openOut outfile, 
+                              TextIO.openOut outfileTests,
+                              TextIO.openOut outfileFailures)
         val ()        = FileWriter.printSolnGraph g m s fd 
         val ()        = TextIO.output (tfd, foldr (fn (test, s) => 
                                                 TestSet.toString test^"\n"^s)
                                             "" tests)
-        val _         = (TextIO.closeOut fd; TextIO.closeOut tfd)
-    in s
+        val ()        = FileWriter.printStudentFailures solns ffd
+        val _         = (TextIO.closeOut fd; TextIO.closeOut tfd;
+                         TextIO.closeOut ffd)
+    in solns
     end
 
 end

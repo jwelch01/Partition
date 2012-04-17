@@ -9,6 +9,9 @@ structure FileWriter : sig
     BasicGraph.graph -> string Map.map -> SolnSet.set list ->
     TextIO.outstream -> unit
 
+  val printStudentFailures :
+    SolnSet.set -> TextIO.outstream -> unit
+
 end =
 struct
 
@@ -58,4 +61,20 @@ struct
                   [] (G.getSuccessorNodes (name, graph)))
              [] (G.getNodes graph);
        (output (out, "}")))
+
+  fun idToString (x,y) = x ^ " " ^ y
+
+  fun printStudentFailures solns out = 
+   foldr (fn ((student, results), _) =>
+           ((output (out, student ^ " failed tests:\n"));
+            (output (out, 
+            foldr (fn ((id, outcome), failures) =>
+             (case outcome 
+               of Outcome.NOTPASSED {witness = witness, outcome = outcome} =>
+                   "   " ^ idToString id ^ " : " ^ witness ^ "\n" ^ failures
+                | _  => failures))
+            "" results)); (output (out, "\n\n"))))
+  () solns
+             
+
 end
