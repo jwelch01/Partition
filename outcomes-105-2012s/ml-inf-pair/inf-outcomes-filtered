@@ -1,0 +1,1260 @@
+given ewu02 test 1, wbutt01 passed
+given ewu02 test 1, dreif01 errored -- Term "(begin)" should have type "unit", but your interpreter failed with an uncaught exception.
+given ewu02 test 1, malex errored -- Term "(begin)" should have type "unit", but your interpreter failed with an uncaught exception.
+given ewu02 test 1, ahamli02 passed
+given ewu02 test 1, jtorru01 passed
+given ewu02 test 1, ead36 passed
+given ewu02 test 1, ahay01 passed
+given ewu02 test 1, czuber01 passed
+given ewu02 test 1, sratta01 passed
+given ewu02 test 1, apolya01 passed
+given ewu02 test 1, abell01 passed
+given ewu02 test 1, byukse01 passed
+given ewu02 test 1, shalst01 errored -- Term "(begin)" should have type "unit", but your interpreter failed with an uncaught exception.
+given ewu02 test 1, mnoble01 passed
+given ewu02 test 1, amcgla01 passed
+given ewu02 test 1, ewu02 passed
+given ewu02 test 1, wholah01 passed
+given ewu02 test 1, akhaku01 passed
+given ewu02 test 1, ccann passed
+given ewu02 test 1, fteume01 passed
+given ewu02 test 1, mbfrey passed
+given ewu02 test 1, dfortu01 passed
+given ewu02 test 1, clangb01 passed
+given ewu02 test 1, jglazi01 passed
+given ewu02 test 1, gbodwi01 passed
+given ewu02 test 1, akuan01 errored -- Term "(begin)" should have type "unit", but your interpreter failed with an uncaught exception.
+given ewu02 test 1, jwilde01 passed
+given ewu02 test 1, jliebo01 passed
+given ewu02 test 1, mmoute01 passed
+given ewu02 test 1, cbrink passed
+given clangb01 test 2, wbutt01 passed
+given clangb01 test 2, dreif01 passed
+given clangb01 test 2, malex passed
+given clangb01 test 2, ahamli02 passed
+given clangb01 test 2, jtorru01 passed
+given clangb01 test 2, ead36 passed
+given clangb01 test 2, ahay01 passed
+given clangb01 test 2, czuber01 passed
+given clangb01 test 2, sratta01 passed
+given clangb01 test 2, apolya01 passed
+given clangb01 test 2, abell01 typed-untypeable -- Term "(1 (2 4))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given clangb01 test 2, byukse01 passed
+given clangb01 test 2, shalst01 passed
+given clangb01 test 2, mnoble01 passed
+given clangb01 test 2, amcgla01 passed
+given clangb01 test 2, ewu02 passed
+given clangb01 test 2, wholah01 passed
+given clangb01 test 2, akhaku01 passed
+given clangb01 test 2, ccann passed
+given clangb01 test 2, fteume01 passed
+given clangb01 test 2, mbfrey passed
+given clangb01 test 2, dfortu01 passed
+given clangb01 test 2, clangb01 passed
+given clangb01 test 2, jglazi01 passed
+given clangb01 test 2, gbodwi01 passed
+given clangb01 test 2, akuan01 passed
+given clangb01 test 2, jwilde01 passed
+given clangb01 test 2, jliebo01 passed
+given clangb01 test 2, mmoute01 passed
+given clangb01 test 2, cbrink passed
+given dreif01 test 2, wbutt01 passed
+given dreif01 test 2, dreif01 typed-untypeable -- Term "(if #t 1 #f)" should trigger a uML type error, but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given dreif01 test 2, malex passed
+given dreif01 test 2, ahamli02 passed
+given dreif01 test 2, jtorru01 passed
+given dreif01 test 2, ead36 passed
+given dreif01 test 2, ahay01 passed
+given dreif01 test 2, czuber01 passed
+given dreif01 test 2, sratta01 passed
+given dreif01 test 2, apolya01 passed
+given dreif01 test 2, abell01 typed-untypeable -- Term "(if #t 1 #f)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given dreif01 test 2, byukse01 passed
+given dreif01 test 2, shalst01 passed
+given dreif01 test 2, mnoble01 passed
+given dreif01 test 2, amcgla01 passed
+given dreif01 test 2, ewu02 passed
+given dreif01 test 2, wholah01 passed
+given dreif01 test 2, akhaku01 passed
+given dreif01 test 2, ccann passed
+given dreif01 test 2, fteume01 passed
+given dreif01 test 2, mbfrey passed
+given dreif01 test 2, dfortu01 passed
+given dreif01 test 2, clangb01 passed
+given dreif01 test 2, jglazi01 passed
+given dreif01 test 2, gbodwi01 passed
+given dreif01 test 2, akuan01 passed
+given dreif01 test 2, jwilde01 passed
+given dreif01 test 2, jliebo01 passed
+given dreif01 test 2, mmoute01 passed
+given dreif01 test 2, cbrink passed
+given abell01 test 2, wbutt01 typed-untypeable -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Wrong number of arguments to closure.
+given abell01 test 2, dreif01 passed
+given abell01 test 2, malex passed
+given abell01 test 2, ahamli02 passed
+given abell01 test 2, jtorru01 passed
+given abell01 test 2, ead36 passed
+given abell01 test 2, ahay01 passed
+given abell01 test 2, czuber01 errored -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given abell01 test 2, sratta01 errored -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given abell01 test 2, apolya01 passed
+given abell01 test 2, abell01 passed
+given abell01 test 2, byukse01 passed
+given abell01 test 2, shalst01 errored -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given abell01 test 2, mnoble01 passed
+given abell01 test 2, amcgla01 passed
+given abell01 test 2, ewu02 passed
+given abell01 test 2, wholah01 passed
+given abell01 test 2, akhaku01 passed
+given abell01 test 2, ccann passed
+given abell01 test 2, fteume01 passed
+given abell01 test 2, mbfrey errored -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given abell01 test 2, dfortu01 passed
+given abell01 test 2, clangb01 typed-untypeable -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Wrong number of arguments to closure.
+given abell01 test 2, jglazi01 passed
+given abell01 test 2, gbodwi01 errored -- Term "(list1 1 2 3)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given abell01 test 2, akuan01 passed
+given abell01 test 2, jwilde01 passed
+given abell01 test 2, jliebo01 passed
+given abell01 test 2, mmoute01 passed
+given abell01 test 2, cbrink passed
+given malex test 3, wbutt01 passed
+given malex test 3, dreif01 passed
+given malex test 3, malex passed
+given malex test 3, ahamli02 passed
+given malex test 3, jtorru01 passed
+given malex test 3, ead36 passed
+given malex test 3, ahay01 passed
+given malex test 3, czuber01 passed
+given malex test 3, sratta01 passed
+given malex test 3, apolya01 passed
+given malex test 3, abell01 typed-untypeable -- Term "(list3 4 #t 5)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given malex test 3, byukse01 passed
+given malex test 3, shalst01 typed-untypeable -- Term "(list3 4 #t 5)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given malex test 3, mnoble01 passed
+given malex test 3, amcgla01 passed
+given malex test 3, ewu02 passed
+given malex test 3, wholah01 typed-untypeable -- Term "(list3 4 #t 5)" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given malex test 3, akhaku01 passed
+given malex test 3, ccann passed
+given malex test 3, fteume01 passed
+given malex test 3, mbfrey passed
+given malex test 3, dfortu01 passed
+given malex test 3, clangb01 typed-untypeable -- Term "(list3 4 #t 5)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given malex test 3, jglazi01 passed
+given malex test 3, gbodwi01 passed
+given malex test 3, akuan01 typed-untypeable -- Term "(list3 4 #t 5)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given malex test 3, jwilde01 passed
+given malex test 3, jliebo01 passed
+given malex test 3, mmoute01 passed
+given malex test 3, cbrink passed
+given abell01 test 1, wbutt01 passed
+given abell01 test 1, dreif01 passed
+given abell01 test 1, malex passed
+given abell01 test 1, ahamli02 passed
+given abell01 test 1, jtorru01 passed
+given abell01 test 1, ead36 passed
+given abell01 test 1, ahay01 passed
+given abell01 test 1, czuber01 passed
+given abell01 test 1, sratta01 passed
+given abell01 test 1, apolya01 passed
+given abell01 test 1, abell01 passed
+given abell01 test 1, byukse01 passed
+given abell01 test 1, shalst01 passed
+given abell01 test 1, mnoble01 passed
+given abell01 test 1, amcgla01 passed
+given abell01 test 1, ewu02 passed
+given abell01 test 1, wholah01 passed
+given abell01 test 1, akhaku01 passed
+given abell01 test 1, ccann passed
+given abell01 test 1, fteume01 passed
+given abell01 test 1, mbfrey passed
+given abell01 test 1, dfortu01 passed
+given abell01 test 1, clangb01 typed-incorrectly -- Term "(begin (+ 1 1))" should have type "int", but your interpreter inferred type "forall 'a . 'a".
+given abell01 test 1, jglazi01 passed
+given abell01 test 1, gbodwi01 passed
+given abell01 test 1, akuan01 passed
+given abell01 test 1, jwilde01 passed
+given abell01 test 1, jliebo01 typed-incorrectly -- Term "(begin (+ 1 1))" should have type "int", but your interpreter inferred type "forall 'a . 'a".
+given abell01 test 1, mmoute01 passed
+given abell01 test 1, cbrink passed
+given dfortu01 test 2, wbutt01 passed
+given dfortu01 test 2, dreif01 passed
+given dfortu01 test 2, malex passed
+given dfortu01 test 2, ahamli02 passed
+given dfortu01 test 2, jtorru01 passed
+given dfortu01 test 2, ead36 passed
+given dfortu01 test 2, ahay01 passed
+given dfortu01 test 2, czuber01 passed
+given dfortu01 test 2, sratta01 passed
+given dfortu01 test 2, apolya01 passed
+given dfortu01 test 2, abell01 passed
+given dfortu01 test 2, byukse01 passed
+given dfortu01 test 2, shalst01 passed
+given dfortu01 test 2, mnoble01 passed
+given dfortu01 test 2, amcgla01 passed
+given dfortu01 test 2, ewu02 passed
+given dfortu01 test 2, wholah01 passed
+given dfortu01 test 2, akhaku01 passed
+given dfortu01 test 2, ccann passed
+given dfortu01 test 2, fteume01 passed
+given dfortu01 test 2, mbfrey passed
+given dfortu01 test 2, dfortu01 passed
+given dfortu01 test 2, clangb01 typed-untypeable -- Term "(+ (pair 4 #t) 1)" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given dfortu01 test 2, jglazi01 passed
+given dfortu01 test 2, gbodwi01 passed
+given dfortu01 test 2, akuan01 passed
+given dfortu01 test 2, jwilde01 passed
+given dfortu01 test 2, jliebo01 passed
+given dfortu01 test 2, mmoute01 passed
+given dfortu01 test 2, cbrink passed
+given wbutt01 test 2, wbutt01 passed
+given wbutt01 test 2, dreif01 typed-untypeable -- Term "(if (= 0 #t) 1 0)" should trigger a uML type error, but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given wbutt01 test 2, malex passed
+given wbutt01 test 2, ahamli02 passed
+given wbutt01 test 2, jtorru01 passed
+given wbutt01 test 2, ead36 typed-untypeable -- Term "(if (= 0 #t) 1 0)" should trigger a uML type error, but your interpreter inferred type "int".
+given wbutt01 test 2, ahay01 passed
+given wbutt01 test 2, czuber01 passed
+given wbutt01 test 2, sratta01 passed
+given wbutt01 test 2, apolya01 passed
+given wbutt01 test 2, abell01 typed-untypeable -- Term "(if (= 0 #t) 1 0)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given wbutt01 test 2, byukse01 passed
+given wbutt01 test 2, shalst01 passed
+given wbutt01 test 2, mnoble01 passed
+given wbutt01 test 2, amcgla01 passed
+given wbutt01 test 2, ewu02 passed
+given wbutt01 test 2, wholah01 typed-untypeable -- Term "(if (= 0 #t) 1 0)" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given wbutt01 test 2, akhaku01 passed
+given wbutt01 test 2, ccann passed
+given wbutt01 test 2, fteume01 passed
+given wbutt01 test 2, mbfrey passed
+given wbutt01 test 2, dfortu01 passed
+given wbutt01 test 2, clangb01 typed-untypeable -- Term "(if (= 0 #t) 1 0)" should trigger a uML type error, but your interpreter inferred type "int".
+given wbutt01 test 2, jglazi01 passed
+given wbutt01 test 2, gbodwi01 passed
+given wbutt01 test 2, akuan01 passed
+given wbutt01 test 2, jwilde01 passed
+given wbutt01 test 2, jliebo01 passed
+given wbutt01 test 2, mmoute01 passed
+given wbutt01 test 2, cbrink passed
+given sratta01 test 1, wbutt01 passed
+given sratta01 test 1, dreif01 typed-untypeable -- Term "(cons 1 (pair 1 2))" should trigger a uML type error, but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given sratta01 test 1, malex passed
+given sratta01 test 1, ahamli02 passed
+given sratta01 test 1, jtorru01 passed
+given sratta01 test 1, ead36 passed
+given sratta01 test 1, ahay01 passed
+given sratta01 test 1, czuber01 errored -- Term "(cons 1 (pair 1 2))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given sratta01 test 1, sratta01 passed
+given sratta01 test 1, apolya01 passed
+given sratta01 test 1, abell01 passed
+given sratta01 test 1, byukse01 passed
+given sratta01 test 1, shalst01 passed
+given sratta01 test 1, mnoble01 passed
+given sratta01 test 1, amcgla01 passed
+given sratta01 test 1, ewu02 passed
+given sratta01 test 1, wholah01 passed
+given sratta01 test 1, akhaku01 passed
+given sratta01 test 1, ccann passed
+given sratta01 test 1, fteume01 typed-untypeable -- Term "(cons 1 (pair 1 2))" should trigger a uML type error, but your interpreter wrote the error message "variable x not found variable alist not found variable alist not found variable alist not found variable l not found variable l not found variable l not found variable l not found variable b not found variable b not found variable b not found variable l1 not found variable l1 not found variable f not found variable f not found variable f not found variable l not found variable l not found variable l not found variable l not found variable l not found variable l not found variable not not found variable not not found variable not not found variable x not found variable x not found variable m not found variable n not found variable m not found variable foldr not found variable foldr not found variable foldr not found variable foldr not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable l not found variable l not found".
+given sratta01 test 1, mbfrey passed
+given sratta01 test 1, dfortu01 passed
+given sratta01 test 1, clangb01 typed-untypeable -- Term "(cons 1 (pair 1 2))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given sratta01 test 1, jglazi01 passed
+given sratta01 test 1, gbodwi01 passed
+given sratta01 test 1, akuan01 passed
+given sratta01 test 1, jwilde01 passed
+given sratta01 test 1, jliebo01 passed
+given sratta01 test 1, mmoute01 passed
+given sratta01 test 1, cbrink passed
+given nr test 2, wbutt01 did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "types of elements in list do not match".
+given nr test 2, dreif01 errored -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter failed with an uncaught exception.
+given nr test 2, malex passed
+given nr test 2, ahamli02 did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 2, jtorru01 passed
+given nr test 2, ead36 passed
+given nr test 2, ahay01 passed
+given nr test 2, czuber01 typed-incorrectly -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 2, sratta01 passed
+given nr test 2, apolya01 passed
+given nr test 2, abell01 typed-incorrectly -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter inferred type "forall 'a . 'a".
+given nr test 2, byukse01 did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 2, shalst01 passed
+given nr test 2, mnoble01 passed
+given nr test 2, amcgla01 passed
+given nr test 2, ewu02 passed
+given nr test 2, wholah01 passed
+given nr test 2, akhaku01 passed
+given nr test 2, ccann passed
+given nr test 2, fteume01 errored -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter wrote the error message "variable x not found variable alist not found variable alist not found variable alist not found variable l not found variable l not found variable l not found variable l not found variable b not found variable b not found variable b not found variable l1 not found variable l1 not found variable f not found variable f not found variable f not found variable l not found variable l not found variable l not found variable l not found variable l not found variable l not found variable not not found variable not not found variable not not found variable x not found variable x not found variable m not found variable n not found variable m not found variable foldr not found variable foldr not found variable foldr not found variable foldr not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable l not found variable l not found".
+given nr test 2, mbfrey did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "Mixed types in list literal.".
+given nr test 2, dfortu01 passed
+given nr test 2, clangb01 typed-incorrectly -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter inferred type "(unit) list".
+given nr test 2, jglazi01 passed
+given nr test 2, gbodwi01 did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 2, akuan01 typed-incorrectly -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 2, jwilde01 passed
+given nr test 2, jliebo01 did-not-type -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter found a type error: "Mismatch in list literal types".
+given nr test 2, mmoute01 passed
+given nr test 2, cbrink typed-incorrectly -- Term "(val lists '(() ()))" should have type "forall 'a . 'a list list", but your interpreter inferred type "ill formed PAIR/list".
+given czuber01 test 2, wbutt01 passed
+given czuber01 test 2, dreif01 passed
+given czuber01 test 2, malex passed
+given czuber01 test 2, ahamli02 passed
+given czuber01 test 2, jtorru01 passed
+given czuber01 test 2, ead36 passed
+given czuber01 test 2, ahay01 passed
+given czuber01 test 2, czuber01 passed
+given czuber01 test 2, sratta01 passed
+given czuber01 test 2, apolya01 passed
+given czuber01 test 2, abell01 typed-incorrectly -- Term "(begin (+ 1 2) #t 'a)" should have type "sym", but your interpreter inferred type "forall 'a . 'a".
+given czuber01 test 2, byukse01 passed
+given czuber01 test 2, shalst01 passed
+given czuber01 test 2, mnoble01 passed
+given czuber01 test 2, amcgla01 typed-incorrectly -- Term "(begin (+ 1 2) #t 'a)" should have type "sym", but your interpreter inferred type "int".
+given czuber01 test 2, ewu02 passed
+given czuber01 test 2, wholah01 passed
+given czuber01 test 2, akhaku01 passed
+given czuber01 test 2, ccann passed
+given czuber01 test 2, fteume01 passed
+given czuber01 test 2, mbfrey passed
+given czuber01 test 2, dfortu01 passed
+given czuber01 test 2, clangb01 passed
+given czuber01 test 2, jglazi01 passed
+given czuber01 test 2, gbodwi01 passed
+given czuber01 test 2, akuan01 passed
+given czuber01 test 2, jwilde01 passed
+given czuber01 test 2, jliebo01 passed
+given czuber01 test 2, mmoute01 passed
+given czuber01 test 2, cbrink passed
+given gbodwi01 test 2, wbutt01 passed
+given gbodwi01 test 2, dreif01 passed
+given gbodwi01 test 2, malex passed
+given gbodwi01 test 2, ahamli02 passed
+given gbodwi01 test 2, jtorru01 passed
+given gbodwi01 test 2, ead36 typed-untypeable -- Term "(lambda (x) (if x x 1))" should trigger a uML type error, but your interpreter inferred type "forall 'a . bool -> 'a".
+given gbodwi01 test 2, ahay01 passed
+given gbodwi01 test 2, czuber01 passed
+given gbodwi01 test 2, sratta01 passed
+given gbodwi01 test 2, apolya01 passed
+given gbodwi01 test 2, abell01 typed-untypeable -- Term "(lambda (x) (if x x 1))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given gbodwi01 test 2, byukse01 passed
+given gbodwi01 test 2, shalst01 typed-untypeable -- Term "(lambda (x) (if x x 1))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a -> int".
+given gbodwi01 test 2, mnoble01 passed
+given gbodwi01 test 2, amcgla01 passed
+given gbodwi01 test 2, ewu02 passed
+given gbodwi01 test 2, wholah01 typed-untypeable -- Term "(lambda (x) (if x x 1))" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given gbodwi01 test 2, akhaku01 passed
+given gbodwi01 test 2, ccann passed
+given gbodwi01 test 2, fteume01 passed
+given gbodwi01 test 2, mbfrey passed
+given gbodwi01 test 2, dfortu01 passed
+given gbodwi01 test 2, clangb01 typed-untypeable -- Term "(lambda (x) (if x x 1))" should trigger a uML type error, but your interpreter inferred type "int -> int".
+given gbodwi01 test 2, jglazi01 passed
+given gbodwi01 test 2, gbodwi01 passed
+given gbodwi01 test 2, akuan01 passed
+given gbodwi01 test 2, jwilde01 passed
+given gbodwi01 test 2, jliebo01 passed
+given gbodwi01 test 2, mmoute01 passed
+given gbodwi01 test 2, cbrink passed
+given nr test 3, wbutt01 passed
+given nr test 3, dreif01 passed
+given nr test 3, malex passed
+given nr test 3, ahamli02 passed
+given nr test 3, jtorru01 passed
+given nr test 3, ead36 typed-untypeable -- Term "(val lists2 '((a) (1)))" should trigger a uML type error, but your interpreter inferred type "sym list list".
+given nr test 3, ahay01 typed-untypeable -- Term "(val lists2 '((a) (1)))" should trigger a uML type error, but your interpreter inferred type "sym list list".
+given nr test 3, czuber01 passed
+given nr test 3, sratta01 passed
+given nr test 3, apolya01 passed
+given nr test 3, abell01 typed-untypeable -- Term "(val lists2 '((a) (1)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given nr test 3, byukse01 passed
+given nr test 3, shalst01 passed
+given nr test 3, mnoble01 passed
+given nr test 3, amcgla01 passed
+given nr test 3, ewu02 passed
+given nr test 3, wholah01 passed
+given nr test 3, akhaku01 passed
+given nr test 3, ccann passed
+given nr test 3, fteume01 passed
+given nr test 3, mbfrey passed
+given nr test 3, dfortu01 passed
+given nr test 3, clangb01 passed
+given nr test 3, jglazi01 passed
+given nr test 3, gbodwi01 passed
+given nr test 3, akuan01 typed-untypeable -- Term "(val lists2 '((a) (1)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given nr test 3, jwilde01 passed
+given nr test 3, jliebo01 passed
+given nr test 3, mmoute01 passed
+given nr test 3, cbrink typed-untypeable -- Term "(val lists2 '((a) (1)))" should trigger a uML type error, but your interpreter inferred type "ill formed PAIR/list".
+given malex test 2, wbutt01 passed
+given malex test 2, dreif01 passed
+given malex test 2, malex passed
+given malex test 2, ahamli02 passed
+given malex test 2, jtorru01 passed
+given malex test 2, ead36 passed
+given malex test 2, ahay01 passed
+given malex test 2, czuber01 errored -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given malex test 2, sratta01 errored -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given malex test 2, apolya01 passed
+given malex test 2, abell01 typed-untypeable -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Wrong number of arguments to closure.
+given malex test 2, byukse01 passed
+given malex test 2, shalst01 typed-untypeable -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Wrong number of arguments to closure.
+given malex test 2, mnoble01 passed
+given malex test 2, amcgla01 passed
+given malex test 2, ewu02 passed
+given malex test 2, wholah01 passed
+given malex test 2, akhaku01 passed
+given malex test 2, ccann passed
+given malex test 2, fteume01 passed
+given malex test 2, mbfrey errored -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given malex test 2, dfortu01 passed
+given malex test 2, clangb01 typed-untypeable -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Wrong number of arguments to closure.
+given malex test 2, jglazi01 passed
+given malex test 2, gbodwi01 errored -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given malex test 2, akuan01 passed
+given malex test 2, jwilde01 passed
+given malex test 2, jliebo01 passed
+given malex test 2, mmoute01 passed
+given malex test 2, cbrink typed-untypeable -- Term "(exists? min '(1 2 3 4))" should trigger a uML type error, but your interpreter inferred type "Can't unify type lists of different lengths".
+given shalst01 test 1, wbutt01 passed
+given shalst01 test 1, dreif01 typed-untypeable -- Term "(val a (car (pair 1 #t)))" should trigger a uML type error, but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given shalst01 test 1, malex passed
+given shalst01 test 1, ahamli02 passed
+given shalst01 test 1, jtorru01 passed
+given shalst01 test 1, ead36 passed
+given shalst01 test 1, ahay01 passed
+given shalst01 test 1, czuber01 errored -- Term "(val a (car (pair 1 #t)))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given shalst01 test 1, sratta01 passed
+given shalst01 test 1, apolya01 passed
+given shalst01 test 1, abell01 passed
+given shalst01 test 1, byukse01 passed
+given shalst01 test 1, shalst01 passed
+given shalst01 test 1, mnoble01 passed
+given shalst01 test 1, amcgla01 passed
+given shalst01 test 1, ewu02 passed
+given shalst01 test 1, wholah01 passed
+given shalst01 test 1, akhaku01 passed
+given shalst01 test 1, ccann passed
+given shalst01 test 1, fteume01 passed
+given shalst01 test 1, mbfrey passed
+given shalst01 test 1, dfortu01 passed
+given shalst01 test 1, clangb01 typed-untypeable -- Term "(val a (car (pair 1 #t)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given shalst01 test 1, jglazi01 passed
+given shalst01 test 1, gbodwi01 passed
+given shalst01 test 1, akuan01 passed
+given shalst01 test 1, jwilde01 passed
+given shalst01 test 1, jliebo01 passed
+given shalst01 test 1, mmoute01 passed
+given shalst01 test 1, cbrink passed
+given nr test 4, wbutt01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "types of elements in list do not match".
+given nr test 4, dreif01 errored -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given nr test 4, malex passed
+given nr test 4, ahamli02 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 4, jtorru01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "mixed types in list literal".
+given nr test 4, ead36 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, ahay01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, czuber01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 4, sratta01 passed
+given nr test 4, apolya01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, abell01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a".
+given nr test 4, byukse01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 4, shalst01 passed
+given nr test 4, mnoble01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, amcgla01 passed
+given nr test 4, ewu02 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, wholah01 passed
+given nr test 4, akhaku01 passed
+given nr test 4, ccann did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "mixed types in list literal".
+given nr test 4, fteume01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Cannot unify int and 'a list".
+given nr test 4, mbfrey did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Mixed types in list literal.".
+given nr test 4, dfortu01 passed
+given nr test 4, clangb01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "not given equal arguments".
+given nr test 4, jglazi01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Mixed Types in List Literals!".
+given nr test 4, gbodwi01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 4, akuan01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 4, jwilde01 typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 4, jliebo01 did-not-type -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter found a type error: "Mismatch in list literal types".
+given nr test 4, mmoute01 passed
+given nr test 4, cbrink typed-incorrectly -- Term "(val lists3 '(() (1) ()))" should have type "int list list", but your interpreter inferred type "ill formed PAIR/list".
+given nr test 5, wbutt01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "types of elements in list do not match".
+given nr test 5, dreif01 errored -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter failed with an uncaught exception.
+given nr test 5, malex passed
+given nr test 5, ahamli02 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, jtorru01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "mixed types in list literal".
+given nr test 5, ead36 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 5, ahay01 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 5, czuber01 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 5, sratta01 passed
+given nr test 5, apolya01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, abell01 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a".
+given nr test 5, byukse01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, shalst01 passed
+given nr test 5, mnoble01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, amcgla01 passed
+given nr test 5, ewu02 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, wholah01 passed
+given nr test 5, akhaku01 passed
+given nr test 5, ccann did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "mixed types in list literal".
+given nr test 5, fteume01 errored -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter wrote the error message "variable x not found variable alist not found variable alist not found variable alist not found variable l not found variable l not found variable l not found variable l not found variable b not found variable b not found variable b not found variable l1 not found variable l1 not found variable f not found variable f not found variable f not found variable l not found variable l not found variable l not found variable l not found variable l not found variable l not found variable not not found variable not not found variable not not found variable x not found variable x not found variable m not found variable n not found variable m not found variable foldr not found variable foldr not found variable foldr not found variable foldr not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable x not found variable l not found variable l not found".
+given nr test 5, mbfrey did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Mixed types in list literal.".
+given nr test 5, dfortu01 passed
+given nr test 5, clangb01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "not given equal arguments".
+given nr test 5, jglazi01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Mixed Types in List Literals!".
+given nr test 5, gbodwi01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Cannot unify 'a and 'a list".
+given nr test 5, akuan01 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 5, jwilde01 typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "forall 'a . 'a list list".
+given nr test 5, jliebo01 did-not-type -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter found a type error: "Mismatch in list literal types".
+given nr test 5, mmoute01 passed
+given nr test 5, cbrink typed-incorrectly -- Term "(val lists4 '(() (()) ()))" should have type "forall 'a . 'a list list list", but your interpreter inferred type "ill formed PAIR/list".
+given nr test 6, wbutt01 passed
+given nr test 6, dreif01 errored -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given nr test 6, malex passed
+given nr test 6, ahamli02 passed
+given nr test 6, jtorru01 passed
+given nr test 6, ead36 typed-incorrectly -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 6, ahay01 passed
+given nr test 6, czuber01 passed
+given nr test 6, sratta01 passed
+given nr test 6, apolya01 passed
+given nr test 6, abell01 typed-incorrectly -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter inferred type "forall 'a . 'a".
+given nr test 6, byukse01 passed
+given nr test 6, shalst01 passed
+given nr test 6, mnoble01 passed
+given nr test 6, amcgla01 passed
+given nr test 6, ewu02 passed
+given nr test 6, wholah01 passed
+given nr test 6, akhaku01 passed
+given nr test 6, ccann passed
+given nr test 6, fteume01 did-not-type -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter found a type error: "Cannot unify 'a list and int".
+given nr test 6, mbfrey passed
+given nr test 6, dfortu01 passed
+given nr test 6, clangb01 did-not-type -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter found a type error: "given non-equal arguments".
+given nr test 6, jglazi01 passed
+given nr test 6, gbodwi01 passed
+given nr test 6, akuan01 typed-incorrectly -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 6, jwilde01 typed-incorrectly -- Term "(val uni (if #t '() '(3)))" should have type "int list", but your interpreter inferred type "forall 'a . 'a list".
+given nr test 6, jliebo01 passed
+given nr test 6, mmoute01 passed
+given nr test 6, cbrink passed
+given sratta01 test 2, wbutt01 passed
+given sratta01 test 2, dreif01 passed
+given sratta01 test 2, malex passed
+given sratta01 test 2, ahamli02 passed
+given sratta01 test 2, jtorru01 passed
+given sratta01 test 2, ead36 passed
+given sratta01 test 2, ahay01 passed
+given sratta01 test 2, czuber01 passed
+given sratta01 test 2, sratta01 passed
+given sratta01 test 2, apolya01 passed
+given sratta01 test 2, abell01 typed-untypeable -- Term "((lambda (a b) (cons a b)) #t 1)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given sratta01 test 2, byukse01 passed
+given sratta01 test 2, shalst01 typed-untypeable -- Term "((lambda (a b) (cons a b)) #t 1)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given sratta01 test 2, mnoble01 passed
+given sratta01 test 2, amcgla01 passed
+given sratta01 test 2, ewu02 passed
+given sratta01 test 2, wholah01 passed
+given sratta01 test 2, akhaku01 passed
+given sratta01 test 2, ccann passed
+given sratta01 test 2, fteume01 passed
+given sratta01 test 2, mbfrey passed
+given sratta01 test 2, dfortu01 passed
+given sratta01 test 2, clangb01 typed-untypeable -- Term "((lambda (a b) (cons a b)) #t 1)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given sratta01 test 2, jglazi01 passed
+given sratta01 test 2, gbodwi01 passed
+given sratta01 test 2, akuan01 passed
+given sratta01 test 2, jwilde01 passed
+given sratta01 test 2, jliebo01 passed
+given sratta01 test 2, mmoute01 passed
+given sratta01 test 2, cbrink passed
+given wholah01 test 2, wbutt01 passed
+given wholah01 test 2, dreif01 passed
+given wholah01 test 2, malex passed
+given wholah01 test 2, ahamli02 passed
+given wholah01 test 2, jtorru01 passed
+given wholah01 test 2, ead36 passed
+given wholah01 test 2, ahay01 passed
+given wholah01 test 2, czuber01 passed
+given wholah01 test 2, sratta01 passed
+given wholah01 test 2, apolya01 passed
+given wholah01 test 2, abell01 typed-untypeable -- Term "(val t2 (foldr #t '() '(1 #t f)))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given wholah01 test 2, byukse01 passed
+given wholah01 test 2, shalst01 passed
+given wholah01 test 2, mnoble01 passed
+given wholah01 test 2, amcgla01 passed
+given wholah01 test 2, ewu02 passed
+given wholah01 test 2, wholah01 passed
+given wholah01 test 2, akhaku01 passed
+given wholah01 test 2, ccann passed
+given wholah01 test 2, fteume01 passed
+given wholah01 test 2, mbfrey passed
+given wholah01 test 2, dfortu01 passed
+given wholah01 test 2, clangb01 passed
+given wholah01 test 2, jglazi01 passed
+given wholah01 test 2, gbodwi01 passed
+given wholah01 test 2, akuan01 passed
+given wholah01 test 2, jwilde01 passed
+given wholah01 test 2, jliebo01 passed
+given wholah01 test 2, mmoute01 passed
+given wholah01 test 2, cbrink typed-untypeable -- Term "(val t2 (foldr #t '() '(1 #t f)))" should trigger a uML type error, but your interpreter inferred type "ill formed PAIR/list".
+given wholah01 test 1, wbutt01 typed-incorrectly -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter inferred type "int".
+given wholah01 test 1, dreif01 errored -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter wrote the error message "type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented type error: Lambda unimplemented".
+given wholah01 test 1, malex passed
+given wholah01 test 1, ahamli02 passed
+given wholah01 test 1, jtorru01 passed
+given wholah01 test 1, ead36 typed-incorrectly -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter inferred type "forall 'a . 'a".
+given wholah01 test 1, ahay01 passed
+given wholah01 test 1, czuber01 passed
+given wholah01 test 1, sratta01 passed
+given wholah01 test 1, apolya01 passed
+given wholah01 test 1, abell01 typed-incorrectly -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter inferred type "forall 'a, 'b . 'a * 'b".
+given wholah01 test 1, byukse01 passed
+given wholah01 test 1, shalst01 passed
+given wholah01 test 1, mnoble01 passed
+given wholah01 test 1, amcgla01 passed
+given wholah01 test 1, ewu02 passed
+given wholah01 test 1, wholah01 passed
+given wholah01 test 1, akhaku01 passed
+given wholah01 test 1, ccann passed
+given wholah01 test 1, fteume01 did-not-type -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter found a type error: "Cannot unify int and sym".
+given wholah01 test 1, mbfrey passed
+given wholah01 test 1, dfortu01 passed
+given wholah01 test 1, clangb01 typed-incorrectly -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter signalled a bug in type inference, issuing message arity 2.
+given wholah01 test 1, jglazi01 passed
+given wholah01 test 1, gbodwi01 passed
+given wholah01 test 1, akuan01 typed-incorrectly -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter inferred type "forall 'a . 'a".
+given wholah01 test 1, jwilde01 passed
+given wholah01 test 1, jliebo01 did-not-type -- Term "(val t1 (snd (pair 1 (pair 1 't))))" should have type "int * sym", but your interpreter found a type error: "Cannot unify 'a and ('c, 'd) 'b".
+given wholah01 test 1, mmoute01 passed
+given wholah01 test 1, cbrink passed
+given malex test 1, wbutt01 passed
+given malex test 1, dreif01 did-not-type -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter found a type error: "Lambda unimplemented".
+given malex test 1, malex passed
+given malex test 1, ahamli02 passed
+given malex test 1, jtorru01 passed
+given malex test 1, ead36 did-not-type -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter found a type error: "variable all? not found".
+given malex test 1, ahay01 passed
+given malex test 1, czuber01 passed
+given malex test 1, sratta01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . ('a -> bool) list * 'b list -> bool".
+given malex test 1, apolya01 passed
+given malex test 1, abell01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b, 'c . 'a * 'b -> 'c".
+given malex test 1, byukse01 passed
+given malex test 1, shalst01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . 'a * 'b -> bool".
+given malex test 1, mnoble01 passed
+given malex test 1, amcgla01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . ('a -> bool) list * 'b list -> bool".
+given malex test 1, ewu02 passed
+given malex test 1, wholah01 errored -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given malex test 1, akhaku01 passed
+given malex test 1, ccann passed
+given malex test 1, fteume01 did-not-type -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter found a type error: "variable all? not found".
+given malex test 1, mbfrey passed
+given malex test 1, dfortu01 passed
+given malex test 1, clangb01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b, 'c . 'a * 'b -> 'c".
+given malex test 1, jglazi01 passed
+given malex test 1, gbodwi01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . 'a list * 'b list -> bool".
+given malex test 1, akuan01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . 'a list * 'b list -> bool".
+given malex test 1, jwilde01 passed
+given malex test 1, jliebo01 did-not-type -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter found a type error: "variable all? not found".
+given malex test 1, mmoute01 typed-incorrectly -- Term "(lambda (x y) (all? (car x) (cdr y)))" should have type "forall 'a . ('a -> bool) list * 'a list -> bool", but your interpreter inferred type "forall 'a, 'b . ('a -> 'b) list * 'a list -> bool".
+given malex test 1, cbrink passed
+given jliebo01 test 2, wbutt01 passed
+given jliebo01 test 2, dreif01 did-not-type -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter found a type error: "Letrec unimplemented".
+given jliebo01 test 2, malex passed
+given jliebo01 test 2, ahamli02 passed
+given jliebo01 test 2, jtorru01 passed
+given jliebo01 test 2, ead36 passed
+given jliebo01 test 2, ahay01 passed
+given jliebo01 test 2, czuber01 did-not-type -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter found a type error: "variable x not found".
+given jliebo01 test 2, sratta01 did-not-type -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter found a type error: "variable x not found".
+given jliebo01 test 2, apolya01 passed
+given jliebo01 test 2, abell01 passed
+given jliebo01 test 2, byukse01 passed
+given jliebo01 test 2, shalst01 passed
+given jliebo01 test 2, mnoble01 passed
+given jliebo01 test 2, amcgla01 passed
+given jliebo01 test 2, ewu02 passed
+given jliebo01 test 2, wholah01 passed
+given jliebo01 test 2, akhaku01 passed
+given jliebo01 test 2, ccann passed
+given jliebo01 test 2, fteume01 errored -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter failed with an uncaught exception.
+given jliebo01 test 2, mbfrey passed
+given jliebo01 test 2, dfortu01 passed
+given jliebo01 test 2, clangb01 did-not-type -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter found a type error: "variable x not found".
+given jliebo01 test 2, jglazi01 passed
+given jliebo01 test 2, gbodwi01 passed
+given jliebo01 test 2, akuan01 passed
+given jliebo01 test 2, jwilde01 passed
+given jliebo01 test 2, jliebo01 did-not-type -- Term "(letrec ((x (lambda (y) (x y)))) (x 1))" should have type "", but your interpreter found a type error: "Cannot unify 'a and 'b -> 'c".
+given jliebo01 test 2, mmoute01 passed
+given jliebo01 test 2, cbrink passed
+given akhaku01 test 3, wbutt01 passed
+given akhaku01 test 3, dreif01 passed
+given akhaku01 test 3, malex passed
+given akhaku01 test 3, ahamli02 passed
+given akhaku01 test 3, jtorru01 passed
+given akhaku01 test 3, ead36 passed
+given akhaku01 test 3, ahay01 passed
+given akhaku01 test 3, czuber01 passed
+given akhaku01 test 3, sratta01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "int -> bool".
+given akhaku01 test 3, apolya01 passed
+given akhaku01 test 3, abell01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given akhaku01 test 3, byukse01 passed
+given akhaku01 test 3, shalst01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a -> bool".
+given akhaku01 test 3, mnoble01 passed
+given akhaku01 test 3, amcgla01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "int -> int".
+given akhaku01 test 3, ewu02 passed
+given akhaku01 test 3, wholah01 passed
+given akhaku01 test 3, akhaku01 passed
+given akhaku01 test 3, ccann passed
+given akhaku01 test 3, fteume01 passed
+given akhaku01 test 3, mbfrey passed
+given akhaku01 test 3, dfortu01 passed
+given akhaku01 test 3, clangb01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given akhaku01 test 3, jglazi01 passed
+given akhaku01 test 3, gbodwi01 typed-untypeable -- Term "(val x (lambda (y) (begin (+ y 2) (not y))))" should trigger a uML type error, but your interpreter inferred type "bool -> bool".
+given akhaku01 test 3, akuan01 passed
+given akhaku01 test 3, jwilde01 passed
+given akhaku01 test 3, jliebo01 passed
+given akhaku01 test 3, mmoute01 passed
+given akhaku01 test 3, cbrink passed
+given jwilde01 test 3, wbutt01 passed
+given jwilde01 test 3, dreif01 passed
+given jwilde01 test 3, malex typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list -> 'a".
+given jwilde01 test 3, ahamli02 passed
+given jwilde01 test 3, jtorru01 passed
+given jwilde01 test 3, ead36 typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . bool -> 'a".
+given jwilde01 test 3, ahay01 passed
+given jwilde01 test 3, czuber01 passed
+given jwilde01 test 3, sratta01 passed
+given jwilde01 test 3, apolya01 passed
+given jwilde01 test 3, abell01 typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 3, byukse01 passed
+given jwilde01 test 3, shalst01 typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 3, mnoble01 passed
+given jwilde01 test 3, amcgla01 typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list -> 'a".
+given jwilde01 test 3, ewu02 passed
+given jwilde01 test 3, wholah01 passed
+given jwilde01 test 3, akhaku01 passed
+given jwilde01 test 3, ccann passed
+given jwilde01 test 3, fteume01 passed
+given jwilde01 test 3, mbfrey passed
+given jwilde01 test 3, dfortu01 passed
+given jwilde01 test 3, clangb01 typed-untypeable -- Term "(define f (x)  (if x      (car x)      (f x)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . bool -> 'a".
+given jwilde01 test 3, jglazi01 passed
+given jwilde01 test 3, gbodwi01 passed
+given jwilde01 test 3, akuan01 passed
+given jwilde01 test 3, jwilde01 passed
+given jwilde01 test 3, jliebo01 passed
+given jwilde01 test 3, mmoute01 passed
+given jwilde01 test 3, cbrink passed
+given byukse01 test 2, wbutt01 passed
+given byukse01 test 2, dreif01 passed
+given byukse01 test 2, malex passed
+given byukse01 test 2, ahamli02 passed
+given byukse01 test 2, jtorru01 passed
+given byukse01 test 2, ead36 passed
+given byukse01 test 2, ahay01 passed
+given byukse01 test 2, czuber01 passed
+given byukse01 test 2, sratta01 passed
+given byukse01 test 2, apolya01 passed
+given byukse01 test 2, abell01 typed-untypeable -- Term "(val bad (let ((x (pair 1 #t)) (y (snd 1))) x))" should trigger a uML type error, but your interpreter inferred type "snd applied to non-pair".
+given byukse01 test 2, byukse01 passed
+given byukse01 test 2, shalst01 passed
+given byukse01 test 2, mnoble01 passed
+given byukse01 test 2, amcgla01 passed
+given byukse01 test 2, ewu02 passed
+given byukse01 test 2, wholah01 passed
+given byukse01 test 2, akhaku01 passed
+given byukse01 test 2, ccann passed
+given byukse01 test 2, fteume01 errored -- Term "(val bad (let ((x (pair 1 #t)) (y (snd 1))) x))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given byukse01 test 2, mbfrey passed
+given byukse01 test 2, dfortu01 passed
+given byukse01 test 2, clangb01 typed-untypeable -- Term "(val bad (let ((x (pair 1 #t)) (y (snd 1))) x))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arity 2.
+given byukse01 test 2, jglazi01 passed
+given byukse01 test 2, gbodwi01 passed
+given byukse01 test 2, akuan01 passed
+given byukse01 test 2, jwilde01 passed
+given byukse01 test 2, jliebo01 passed
+given byukse01 test 2, mmoute01 passed
+given byukse01 test 2, cbrink passed
+given dfortu01 test 3, wbutt01 passed
+given dfortu01 test 3, dreif01 passed
+given dfortu01 test 3, malex passed
+given dfortu01 test 3, ahamli02 passed
+given dfortu01 test 3, jtorru01 passed
+given dfortu01 test 3, ead36 passed
+given dfortu01 test 3, ahay01 passed
+given dfortu01 test 3, czuber01 errored -- Term "(val crazy (lambda (x) (cons x (lambda (x) x))))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given dfortu01 test 3, sratta01 passed
+given dfortu01 test 3, apolya01 passed
+given dfortu01 test 3, abell01 passed
+given dfortu01 test 3, byukse01 passed
+given dfortu01 test 3, shalst01 passed
+given dfortu01 test 3, mnoble01 passed
+given dfortu01 test 3, amcgla01 passed
+given dfortu01 test 3, ewu02 passed
+given dfortu01 test 3, wholah01 passed
+given dfortu01 test 3, akhaku01 passed
+given dfortu01 test 3, ccann passed
+given dfortu01 test 3, fteume01 passed
+given dfortu01 test 3, mbfrey passed
+given dfortu01 test 3, dfortu01 passed
+given dfortu01 test 3, clangb01 typed-untypeable -- Term "(val crazy (lambda (x) (cons x (lambda (x) x))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given dfortu01 test 3, jglazi01 passed
+given dfortu01 test 3, gbodwi01 passed
+given dfortu01 test 3, akuan01 passed
+given dfortu01 test 3, jwilde01 passed
+given dfortu01 test 3, jliebo01 passed
+given dfortu01 test 3, mmoute01 passed
+given dfortu01 test 3, cbrink passed
+given jglazi01 test 3, wbutt01 passed
+given jglazi01 test 3, dreif01 passed
+given jglazi01 test 3, malex passed
+given jglazi01 test 3, ahamli02 passed
+given jglazi01 test 3, jtorru01 passed
+given jglazi01 test 3, ead36 typed-untypeable -- Term "((lambda (x) (if #t (cons 1 x) (cons #t x))) '())" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given jglazi01 test 3, ahay01 passed
+given jglazi01 test 3, czuber01 passed
+given jglazi01 test 3, sratta01 passed
+given jglazi01 test 3, apolya01 passed
+given jglazi01 test 3, abell01 typed-untypeable -- Term "((lambda (x) (if #t (cons 1 x) (cons #t x))) '())" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given jglazi01 test 3, byukse01 passed
+given jglazi01 test 3, shalst01 passed
+given jglazi01 test 3, mnoble01 passed
+given jglazi01 test 3, amcgla01 passed
+given jglazi01 test 3, ewu02 passed
+given jglazi01 test 3, wholah01 typed-untypeable -- Term "((lambda (x) (if #t (cons 1 x) (cons #t x))) '())" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given jglazi01 test 3, akhaku01 passed
+given jglazi01 test 3, ccann passed
+given jglazi01 test 3, fteume01 passed
+given jglazi01 test 3, mbfrey passed
+given jglazi01 test 3, dfortu01 passed
+given jglazi01 test 3, clangb01 typed-untypeable -- Term "((lambda (x) (if #t (cons 1 x) (cons #t x))) '())" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given jglazi01 test 3, jglazi01 passed
+given jglazi01 test 3, gbodwi01 passed
+given jglazi01 test 3, akuan01 typed-untypeable -- Term "((lambda (x) (if #t (cons 1 x) (cons #t x))) '())" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a list".
+given jglazi01 test 3, jwilde01 passed
+given jglazi01 test 3, jliebo01 passed
+given jglazi01 test 3, mmoute01 passed
+given jglazi01 test 3, cbrink passed
+given nr test 1, wbutt01 passed
+given nr test 1, dreif01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Letrec unimplemented".
+given nr test 1, malex passed
+given nr test 1, ahamli02 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Cannot unify int and bool".
+given nr test 1, jtorru01 passed
+given nr test 1, ead36 errored -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given nr test 1, ahay01 passed
+given nr test 1, czuber01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "variable id not found".
+given nr test 1, sratta01 passed
+given nr test 1, apolya01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Cannot unify int and bool".
+given nr test 1, abell01 typed-incorrectly -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter inferred type "forall 'a, 'b . 'a * 'b".
+given nr test 1, byukse01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Cannot unify int and bool".
+given nr test 1, shalst01 typed-incorrectly -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter inferred type "forall 'a, 'b . 'a * 'b".
+given nr test 1, mnoble01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Cannot unify int and bool".
+given nr test 1, amcgla01 passed
+given nr test 1, ewu02 passed
+given nr test 1, wholah01 errored -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given nr test 1, akhaku01 passed
+given nr test 1, ccann passed
+given nr test 1, fteume01 errored -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter failed with an uncaught exception.
+given nr test 1, mbfrey passed
+given nr test 1, dfortu01 passed
+given nr test 1, clangb01 typed-incorrectly -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter inferred type "forall 'a . 'a".
+given nr test 1, jglazi01 passed
+given nr test 1, gbodwi01 passed
+given nr test 1, akuan01 typed-incorrectly -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter inferred type "forall 'a, 'b . 'a * 'b".
+given nr test 1, jwilde01 passed
+given nr test 1, jliebo01 did-not-type -- Term "(letrec ((id (lambda (x) x))) (pair (id 0) (id #t)))" should have type "int * bool", but your interpreter found a type error: "Cannot unify 'a and 'b -> 'b".
+given nr test 1, mmoute01 passed
+given nr test 1, cbrink passed
+given jwilde01 test 1, wbutt01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, dreif01 passed
+given jwilde01 test 1, malex typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, ahamli02 passed
+given jwilde01 test 1, jtorru01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, ead36 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, ahay01 passed
+given jwilde01 test 1, czuber01 passed
+given jwilde01 test 1, sratta01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, apolya01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, abell01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, byukse01 passed
+given jwilde01 test 1, shalst01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, mnoble01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . ('a -> 'b) -> 'b".
+given jwilde01 test 1, amcgla01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, ewu02 passed
+given jwilde01 test 1, wholah01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given jwilde01 test 1, akhaku01 passed
+given jwilde01 test 1, ccann typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, fteume01 errored -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given jwilde01 test 1, mbfrey typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, dfortu01 passed
+given jwilde01 test 1, clangb01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, jglazi01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, gbodwi01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, akuan01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, jwilde01 passed
+given jwilde01 test 1, jliebo01 passed
+given jwilde01 test 1, mmoute01 typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jwilde01 test 1, cbrink typed-untypeable -- Term "(define f (x)   (let ((q (lambda (x) (f x))))    (q f)))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given ewu02 test 3, wbutt01 passed
+given ewu02 test 3, dreif01 passed
+given ewu02 test 3, malex passed
+given ewu02 test 3, ahamli02 passed
+given ewu02 test 3, jtorru01 passed
+given ewu02 test 3, ead36 typed-untypeable -- Term "(val-rec function (lambda (x) (lambda (x) (function x))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('a -> ('b -> 'c))".
+given ewu02 test 3, ahay01 passed
+given ewu02 test 3, czuber01 passed
+given ewu02 test 3, sratta01 passed
+given ewu02 test 3, apolya01 passed
+given ewu02 test 3, abell01 typed-untypeable -- Term "(val-rec function (lambda (x) (lambda (x) (function x))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('b -> ('b -> 'c))".
+given ewu02 test 3, byukse01 passed
+given ewu02 test 3, shalst01 passed
+given ewu02 test 3, mnoble01 passed
+given ewu02 test 3, amcgla01 passed
+given ewu02 test 3, ewu02 passed
+given ewu02 test 3, wholah01 passed
+given ewu02 test 3, akhaku01 passed
+given ewu02 test 3, ccann passed
+given ewu02 test 3, fteume01 passed
+given ewu02 test 3, mbfrey passed
+given ewu02 test 3, dfortu01 passed
+given ewu02 test 3, clangb01 typed-untypeable -- Term "(val-rec function (lambda (x) (lambda (x) (function x))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('b -> 'c)".
+given ewu02 test 3, jglazi01 passed
+given ewu02 test 3, gbodwi01 passed
+given ewu02 test 3, akuan01 typed-untypeable -- Term "(val-rec function (lambda (x) (lambda (x) (function x))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('b -> ('b -> 'c))".
+given ewu02 test 3, jwilde01 passed
+given ewu02 test 3, jliebo01 passed
+given ewu02 test 3, mmoute01 passed
+given ewu02 test 3, cbrink passed
+given akhaku01 test 2, wbutt01 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, dreif01 passed
+given akhaku01 test 2, malex passed
+given akhaku01 test 2, ahamli02 passed
+given akhaku01 test 2, jtorru01 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, ead36 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given akhaku01 test 2, ahay01 passed
+given akhaku01 test 2, czuber01 passed
+given akhaku01 test 2, sratta01 passed
+given akhaku01 test 2, apolya01 passed
+given akhaku01 test 2, abell01 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, byukse01 passed
+given akhaku01 test 2, shalst01 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, mnoble01 passed
+given akhaku01 test 2, amcgla01 passed
+given akhaku01 test 2, ewu02 passed
+given akhaku01 test 2, wholah01 passed
+given akhaku01 test 2, akhaku01 passed
+given akhaku01 test 2, ccann typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, fteume01 errored -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given akhaku01 test 2, mbfrey typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, dfortu01 passed
+given akhaku01 test 2, clangb01 passed
+given akhaku01 test 2, jglazi01 passed
+given akhaku01 test 2, gbodwi01 passed
+given akhaku01 test 2, akuan01 typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given akhaku01 test 2, jwilde01 passed
+given akhaku01 test 2, jliebo01 passed
+given akhaku01 test 2, mmoute01 passed
+given akhaku01 test 2, cbrink typed-untypeable -- Term "(letrec ((f (lambda (x) (g x))) (g (lambda (f) (f)))) (f 2))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message Applied non-function.
+given gbodwi01 test 3, wbutt01 typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, dreif01 passed
+given gbodwi01 test 3, malex passed
+given gbodwi01 test 3, ahamli02 passed
+given gbodwi01 test 3, jtorru01 typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, ead36 passed
+given gbodwi01 test 3, ahay01 passed
+given gbodwi01 test 3, czuber01 passed
+given gbodwi01 test 3, sratta01 passed
+given gbodwi01 test 3, apolya01 passed
+given gbodwi01 test 3, abell01 typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, byukse01 passed
+given gbodwi01 test 3, shalst01 typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, mnoble01 passed
+given gbodwi01 test 3, amcgla01 passed
+given gbodwi01 test 3, ewu02 passed
+given gbodwi01 test 3, wholah01 passed
+given gbodwi01 test 3, akhaku01 passed
+given gbodwi01 test 3, ccann typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, fteume01 errored -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given gbodwi01 test 3, mbfrey typed-untypeable -- Term "(letrec (	(v (lambda (v) 4))	(z (lambda (n) (+ v n)))	)(z 8))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given gbodwi01 test 3, dfortu01 passed
+given gbodwi01 test 3, clangb01 passed
+given gbodwi01 test 3, jglazi01 passed
+given gbodwi01 test 3, gbodwi01 passed
+given gbodwi01 test 3, akuan01 passed
+given gbodwi01 test 3, jwilde01 passed
+given gbodwi01 test 3, jliebo01 passed
+given gbodwi01 test 3, mmoute01 passed
+given gbodwi01 test 3, cbrink passed
+given jglazi01 test 1, wbutt01 passed
+given jglazi01 test 1, dreif01 passed
+given jglazi01 test 1, malex passed
+given jglazi01 test 1, ahamli02 passed
+given jglazi01 test 1, jtorru01 passed
+given jglazi01 test 1, ead36 passed
+given jglazi01 test 1, ahay01 passed
+given jglazi01 test 1, czuber01 typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter inferred type "bool -> bool".
+given jglazi01 test 1, sratta01 passed
+given jglazi01 test 1, apolya01 passed
+given jglazi01 test 1, abell01 typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b".
+given jglazi01 test 1, byukse01 passed
+given jglazi01 test 1, shalst01 typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter inferred type "forall 'a, 'b . 'a -> 'b list".
+given jglazi01 test 1, mnoble01 passed
+given jglazi01 test 1, amcgla01 passed
+given jglazi01 test 1, ewu02 passed
+given jglazi01 test 1, wholah01 typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given jglazi01 test 1, akhaku01 passed
+given jglazi01 test 1, ccann passed
+given jglazi01 test 1, fteume01 errored -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given jglazi01 test 1, mbfrey passed
+given jglazi01 test 1, dfortu01 passed
+given jglazi01 test 1, clangb01 typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter inferred type "(unit) -> unit".
+given jglazi01 test 1, jglazi01 passed
+given jglazi01 test 1, gbodwi01 passed
+given jglazi01 test 1, akuan01 passed
+given jglazi01 test 1, jwilde01 passed
+given jglazi01 test 1, jliebo01 passed
+given jglazi01 test 1, mmoute01 passed
+given jglazi01 test 1, cbrink typed-untypeable -- Term "(val f (lambda (x) (let ((a (list1 x)) (b '())) (if x x b))))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given amcgla01 test 1, wbutt01 passed
+given amcgla01 test 1, dreif01 did-not-type -- Term "(define fib (n) (if (< n 2) 1 (+ (fib (- n 1)) (fib (- n 2)))))" should have type "int -> int", but your interpreter found a type error: "Lambda unimplemented".
+given amcgla01 test 1, malex passed
+given amcgla01 test 1, ahamli02 passed
+given amcgla01 test 1, jtorru01 passed
+given amcgla01 test 1, ead36 typed-incorrectly -- Term "(define fib (n) (if (< n 2) 1 (+ (fib (- n 1)) (fib (- n 2)))))" should have type "int -> int", but your interpreter inferred type "forall 'a . 'a -> int".
+given amcgla01 test 1, ahay01 passed
+given amcgla01 test 1, czuber01 passed
+given amcgla01 test 1, sratta01 passed
+given amcgla01 test 1, apolya01 passed
+given amcgla01 test 1, abell01 passed
+given amcgla01 test 1, byukse01 passed
+given amcgla01 test 1, shalst01 passed
+given amcgla01 test 1, mnoble01 passed
+given amcgla01 test 1, amcgla01 passed
+given amcgla01 test 1, ewu02 passed
+given amcgla01 test 1, wholah01 passed
+given amcgla01 test 1, akhaku01 passed
+given amcgla01 test 1, ccann passed
+given amcgla01 test 1, fteume01 did-not-type -- Term "(define fib (n) (if (< n 2) 1 (+ (fib (- n 1)) (fib (- n 2)))))" should have type "int -> int", but your interpreter found a type error: "variable n not found".
+given amcgla01 test 1, mbfrey passed
+given amcgla01 test 1, dfortu01 passed
+given amcgla01 test 1, clangb01 typed-incorrectly -- Term "(define fib (n) (if (< n 2) 1 (+ (fib (- n 1)) (fib (- n 2)))))" should have type "int -> int", but your interpreter inferred type "forall 'a . 'a -> int".
+given amcgla01 test 1, jglazi01 passed
+given amcgla01 test 1, gbodwi01 passed
+given amcgla01 test 1, akuan01 passed
+given amcgla01 test 1, jwilde01 passed
+given amcgla01 test 1, jliebo01 did-not-type -- Term "(define fib (n) (if (< n 2) 1 (+ (fib (- n 1)) (fib (- n 2)))))" should have type "int -> int", but your interpreter found a type error: "Cannot unify 'a and 'b -> 'c".
+given amcgla01 test 1, mmoute01 passed
+given amcgla01 test 1, cbrink passed
+given mbfrey test 2, wbutt01 passed
+given mbfrey test 2, dreif01 passed
+given mbfrey test 2, malex passed
+given mbfrey test 2, ahamli02 passed
+given mbfrey test 2, jtorru01 passed
+given mbfrey test 2, ead36 passed
+given mbfrey test 2, ahay01 passed
+given mbfrey test 2, czuber01 passed
+given mbfrey test 2, sratta01 passed
+given mbfrey test 2, apolya01 passed
+given mbfrey test 2, abell01 typed-untypeable -- Term "(let* ((x 5) (y 'symbol) (z 'symbol2) (b (if #t x (if #f y z)))) b)" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given mbfrey test 2, byukse01 passed
+given mbfrey test 2, shalst01 passed
+given mbfrey test 2, mnoble01 passed
+given mbfrey test 2, amcgla01 passed
+given mbfrey test 2, ewu02 passed
+given mbfrey test 2, wholah01 passed
+given mbfrey test 2, akhaku01 passed
+given mbfrey test 2, ccann passed
+given mbfrey test 2, fteume01 errored -- Term "(let* ((x 5) (y 'symbol) (z 'symbol2) (b (if #t x (if #f y z)))) b)" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given mbfrey test 2, mbfrey passed
+given mbfrey test 2, dfortu01 passed
+given mbfrey test 2, clangb01 passed
+given mbfrey test 2, jglazi01 passed
+given mbfrey test 2, gbodwi01 passed
+given mbfrey test 2, akuan01 passed
+given mbfrey test 2, jwilde01 passed
+given mbfrey test 2, jliebo01 passed
+given mbfrey test 2, mmoute01 passed
+given mbfrey test 2, cbrink typed-untypeable -- Term "(let* ((x 5) (y 'symbol) (z 'symbol2) (b (if #t x (if #f y z)))) b)" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given apolya01 test 3, wbutt01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, dreif01 passed
+given apolya01 test 3, malex passed
+given apolya01 test 3, ahamli02 passed
+given apolya01 test 3, jtorru01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, ead36 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given apolya01 test 3, ahay01 passed
+given apolya01 test 3, czuber01 passed
+given apolya01 test 3, sratta01 passed
+given apolya01 test 3, apolya01 passed
+given apolya01 test 3, abell01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given apolya01 test 3, byukse01 passed
+given apolya01 test 3, shalst01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given apolya01 test 3, mnoble01 passed
+given apolya01 test 3, amcgla01 passed
+given apolya01 test 3, ewu02 passed
+given apolya01 test 3, wholah01 passed
+given apolya01 test 3, akhaku01 passed
+given apolya01 test 3, ccann typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, fteume01 errored -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given apolya01 test 3, mbfrey typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, dfortu01 passed
+given apolya01 test 3, clangb01 passed
+given apolya01 test 3, jglazi01 passed
+given apolya01 test 3, gbodwi01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, akuan01 passed
+given apolya01 test 3, jwilde01 passed
+given apolya01 test 3, jliebo01 passed
+given apolya01 test 3, mmoute01 typed-untypeable -- Term "(letrec ((f (lambda (x) (+ x 3))) (g (lambda (x) (if (f x) 4 5)))) (g 4))" should trigger a uML type error, but your interpreter inferred type "int".
+given apolya01 test 3, cbrink passed
+given cbrink test 1, wbutt01 passed
+given cbrink test 1, dreif01 passed
+given cbrink test 1, malex passed
+given cbrink test 1, ahamli02 passed
+given cbrink test 1, jtorru01 passed
+given cbrink test 1, ead36 passed
+given cbrink test 1, ahay01 passed
+given cbrink test 1, czuber01 typed-untypeable -- Term "(=  (fst (car (cadr    (list3      (list1 (pair 1 2))      (list1 (pair 3 4))      (list1 (pair '() '()))))))  3)" should trigger a uML type error, but your interpreter inferred type "bool".
+given cbrink test 1, sratta01 passed
+given cbrink test 1, apolya01 passed
+given cbrink test 1, abell01 typed-untypeable -- Term "(=  (fst (car (cadr    (list3      (list1 (pair 1 2))      (list1 (pair 3 4))      (list1 (pair '() '()))))))  3)" should trigger a uML type error, but your interpreter inferred type "bool".
+given cbrink test 1, byukse01 passed
+given cbrink test 1, shalst01 typed-untypeable -- Term "(=  (fst (car (cadr    (list3      (list1 (pair 1 2))      (list1 (pair 3 4))      (list1 (pair '() '()))))))  3)" should trigger a uML type error, but your interpreter inferred type "bool".
+given cbrink test 1, mnoble01 passed
+given cbrink test 1, amcgla01 passed
+given cbrink test 1, ewu02 passed
+given cbrink test 1, wholah01 passed
+given cbrink test 1, akhaku01 passed
+given cbrink test 1, ccann passed
+given cbrink test 1, fteume01 passed
+given cbrink test 1, mbfrey passed
+given cbrink test 1, dfortu01 passed
+given cbrink test 1, clangb01 typed-untypeable -- Term "(=  (fst (car (cadr    (list3      (list1 (pair 1 2))      (list1 (pair 3 4))      (list1 (pair '() '()))))))  3)" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arity 2.
+given cbrink test 1, jglazi01 passed
+given cbrink test 1, gbodwi01 passed
+given cbrink test 1, akuan01 typed-untypeable -- Term "(=  (fst (car (cadr    (list3      (list1 (pair 1 2))      (list1 (pair 3 4))      (list1 (pair '() '()))))))  3)" should trigger a uML type error, but your interpreter inferred type "bool".
+given cbrink test 1, jwilde01 passed
+given cbrink test 1, jliebo01 passed
+given cbrink test 1, mmoute01 passed
+given cbrink test 1, cbrink passed
+given clangb01 test 1, wbutt01 passed
+given clangb01 test 1, dreif01 passed
+given clangb01 test 1, malex passed
+given clangb01 test 1, ahamli02 passed
+given clangb01 test 1, jtorru01 passed
+given clangb01 test 1, ead36 typed-untypeable -- Term "(letrec ((add5        (lambda (x) (+ x 5)))          (three_seven (lambda (x) (if x 3 7))))        (add5 (three_seven 1)))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given clangb01 test 1, ahay01 passed
+given clangb01 test 1, czuber01 passed
+given clangb01 test 1, sratta01 passed
+given clangb01 test 1, apolya01 passed
+given clangb01 test 1, abell01 typed-untypeable -- Term "(letrec ((add5        (lambda (x) (+ x 5)))          (three_seven (lambda (x) (if x 3 7))))        (add5 (three_seven 1)))" should trigger a uML type error, but your interpreter inferred type "int".
+given clangb01 test 1, byukse01 passed
+given clangb01 test 1, shalst01 typed-untypeable -- Term "(letrec ((add5        (lambda (x) (+ x 5)))          (three_seven (lambda (x) (if x 3 7))))        (add5 (three_seven 1)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given clangb01 test 1, mnoble01 passed
+given clangb01 test 1, amcgla01 passed
+given clangb01 test 1, ewu02 passed
+given clangb01 test 1, wholah01 passed
+given clangb01 test 1, akhaku01 passed
+given clangb01 test 1, ccann passed
+given clangb01 test 1, fteume01 errored -- Term "(letrec ((add5        (lambda (x) (+ x 5)))          (three_seven (lambda (x) (if x 3 7))))        (add5 (three_seven 1)))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given clangb01 test 1, mbfrey passed
+given clangb01 test 1, dfortu01 passed
+given clangb01 test 1, clangb01 typed-untypeable -- Term "(letrec ((add5        (lambda (x) (+ x 5)))          (three_seven (lambda (x) (if x 3 7))))        (add5 (three_seven 1)))" should trigger a uML type error, but your interpreter inferred type "forall 'a . 'a".
+given clangb01 test 1, jglazi01 passed
+given clangb01 test 1, gbodwi01 passed
+given clangb01 test 1, akuan01 passed
+given clangb01 test 1, jwilde01 passed
+given clangb01 test 1, jliebo01 passed
+given clangb01 test 1, mmoute01 passed
+given clangb01 test 1, cbrink passed
+given mbfrey test 3, wbutt01 passed
+given mbfrey test 3, dreif01 passed
+given mbfrey test 3, malex passed
+given mbfrey test 3, ahamli02 passed
+given mbfrey test 3, jtorru01 passed
+given mbfrey test 3, ead36 typed-untypeable -- Term "(letrec ((fac (lambda (n) (if (= n 1) n (* n (fac (- n 1))))))) (let ((x 5) (y 7) (z 'a)) (begin (fac x) (fac y) (fac z))))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given mbfrey test 3, ahay01 passed
+given mbfrey test 3, czuber01 passed
+given mbfrey test 3, sratta01 passed
+given mbfrey test 3, apolya01 passed
+given mbfrey test 3, abell01 typed-untypeable -- Term "(letrec ((fac (lambda (n) (if (= n 1) n (* n (fac (- n 1))))))) (let ((x 5) (y 7) (z 'a)) (begin (fac x) (fac y) (fac z))))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given mbfrey test 3, byukse01 passed
+given mbfrey test 3, shalst01 typed-untypeable -- Term "(letrec ((fac (lambda (n) (if (= n 1) n (* n (fac (- n 1))))))) (let ((x 5) (y 7) (z 'a)) (begin (fac x) (fac y) (fac z))))" should trigger a uML type error, but your interpreter signalled a bug in type inference, issuing message arithmetic on non-numbers.
+given mbfrey test 3, mnoble01 passed
+given mbfrey test 3, amcgla01 passed
+given mbfrey test 3, ewu02 passed
+given mbfrey test 3, wholah01 passed
+given mbfrey test 3, akhaku01 passed
+given mbfrey test 3, ccann passed
+given mbfrey test 3, fteume01 errored -- Term "(letrec ((fac (lambda (n) (if (= n 1) n (* n (fac (- n 1))))))) (let ((x 5) (y 7) (z 'a)) (begin (fac x) (fac y) (fac z))))" should trigger a uML type error, but your interpreter failed with an uncaught exception.
+given mbfrey test 3, mbfrey passed
+given mbfrey test 3, dfortu01 passed
+given mbfrey test 3, clangb01 passed
+given mbfrey test 3, jglazi01 passed
+given mbfrey test 3, gbodwi01 passed
+given mbfrey test 3, akuan01 passed
+given mbfrey test 3, jwilde01 passed
+given mbfrey test 3, jliebo01 passed
+given mbfrey test 3, mmoute01 passed
+given mbfrey test 3, cbrink typed-untypeable -- Term "(letrec ((fac (lambda (n) (if (= n 1) n (* n (fac (- n 1))))))) (let ((x 5) (y 7) (z 'a)) (begin (fac x) (fac y) (fac z))))" should trigger a uML type error, but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given clangb01 test 3, wbutt01 passed
+given clangb01 test 3, dreif01 did-not-type -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter found a type error: "Didn't finish Let".
+given clangb01 test 3, malex passed
+given clangb01 test 3, ahamli02 passed
+given clangb01 test 3, jtorru01 passed
+given clangb01 test 3, ead36 errored -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given clangb01 test 3, ahay01 passed
+given clangb01 test 3, czuber01 did-not-type -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter found a type error: "variable x2 not found".
+given clangb01 test 3, sratta01 passed
+given clangb01 test 3, apolya01 passed
+given clangb01 test 3, abell01 passed
+given clangb01 test 3, byukse01 passed
+given clangb01 test 3, shalst01 typed-incorrectly -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter inferred type "forall 'a . 'a".
+given clangb01 test 3, mnoble01 passed
+given clangb01 test 3, amcgla01 passed
+given clangb01 test 3, ewu02 passed
+given clangb01 test 3, wholah01 passed
+given clangb01 test 3, akhaku01 passed
+given clangb01 test 3, ccann passed
+given clangb01 test 3, fteume01 errored -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter failed with an uncaught exception.
+given clangb01 test 3, mbfrey passed
+given clangb01 test 3, dfortu01 passed
+given clangb01 test 3, clangb01 typed-incorrectly -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter inferred type "forall 'a . 'a".
+given clangb01 test 3, jglazi01 passed
+given clangb01 test 3, gbodwi01 passed
+given clangb01 test 3, akuan01 passed
+given clangb01 test 3, jwilde01 passed
+given clangb01 test 3, jliebo01 did-not-type -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter found a type error: "Cannot unify 'a and 'b -> 'c".
+given clangb01 test 3, mmoute01 passed
+given clangb01 test 3, cbrink errored -- Term "(let ((twenty (letrec ((x2   (lambda (x) (* x 2)))                        (ten  (lambda (x) (if x 10 4))))                       (x2 (ten #t)))))     twenty)" should have type "int", but your interpreter ran into the CPU cap (probably because of an infinite loop).
+given ahay01 test 1, wbutt01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b, 'c . ('a * 'b -> bool) -> ('c list -> 'c list)".
+given ahay01 test 1, dreif01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "Lambda unimplemented".
+given ahay01 test 1, malex passed
+given ahay01 test 1, ahamli02 passed
+given ahay01 test 1, jtorru01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . 'a -> ('b list -> 'b list)".
+given ahay01 test 1, ead36 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "variable filter not found".
+given ahay01 test 1, ahay01 passed
+given ahay01 test 1, czuber01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "variable sort not found".
+given ahay01 test 1, sratta01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "variable sort not found".
+given ahay01 test 1, apolya01 passed
+given ahay01 test 1, abell01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('b -> 'c)".
+given ahay01 test 1, byukse01 passed
+given ahay01 test 1, shalst01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b, 'c . 'a -> ('b -> 'c)".
+given ahay01 test 1, mnoble01 passed
+given ahay01 test 1, amcgla01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . ('a * 'b -> bool) -> ('a list -> 'a list)".
+given ahay01 test 1, ewu02 passed
+given ahay01 test 1, wholah01 errored -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter wrote the error message "type error: fst applied to non-pair type error: fst applied to non-pair type error: fst applied to non-pair".
+given ahay01 test 1, akhaku01 passed
+given ahay01 test 1, ccann typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . 'a -> ('b list -> 'b list)".
+given ahay01 test 1, fteume01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "variable xs not found".
+given ahay01 test 1, mbfrey typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . 'a -> ('b list -> 'b list)".
+given ahay01 test 1, dfortu01 passed
+given ahay01 test 1, clangb01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "variable sort not found".
+given ahay01 test 1, jglazi01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . ('a * 'b -> bool) -> ('b list -> 'b list)".
+given ahay01 test 1, gbodwi01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b, 'c . ('a * 'b -> bool) -> ('b list -> 'c list)".
+given ahay01 test 1, akuan01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b, 'c, 'd . ('a * 'b -> bool) -> ('c list -> 'd list)".
+given ahay01 test 1, jwilde01 passed
+given ahay01 test 1, jliebo01 did-not-type -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter found a type error: "Cannot unify 'a and 'b list".
+given ahay01 test 1, mmoute01 typed-incorrectly -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter inferred type "forall 'a, 'b . ('a * 'a -> 'b) -> ('a list -> 'a list)".
+given ahay01 test 1, cbrink errored -- Term "(define qsort (op)    (lambda (xs) (if (null? xs) xs        (letrec          ((sort (lambda (as bs)                   (if (null? as)                     bs                     (let* ((pivot (car as))                           (right (filter ((curry op) pivot) (cdr as)))                           (left (filter (o not ((curry op) pivot)) (cdr as))))                       (sort left (cons pivot (sort right bs))))))))          (sort xs '())))))" should have type "forall 'a . ('a * 'a -> bool) -> ('a list -> 'a list)", but your interpreter ran into the CPU cap (probably because of an infinite loop).

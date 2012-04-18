@@ -1,0 +1,1633 @@
+given all?-under19-1e98 test 1, mborys01 errored -- Your (all? ((curry >) 19) (-5 3 -16 11 9 -11 -4 3 14 -20 18 16 0 6 -14)) caused a run-time error: variable f not found
+given all?-under19-1e98 test 1, enicol01 passed
+given all?-under19-1e98 test 1, dreif01 passed
+given all?-under19-1e98 test 1, graymo01 passed
+given all?-under19-1e98 test 1, ahamli02 passed
+given all?-under19-1e98 test 1, czuber01 passed
+given all?-under19-1e98 test 1, sratta01 passed
+given all?-under19-1e98 test 1, apolya01 passed
+given all?-under19-1e98 test 1, cbrink passed
+given all?-under19-1e98 test 1, mmcgow02 passed
+given all?-under19-1e98 test 1, ahay01 passed
+given all?-under19-1e98 test 1, ewu02 passed
+given all?-under19-1e98 test 1, cgrama01 failed -- Your (all? ((curry >) 19) (-5 3 -16 11 9 -11 -4 3 14 -20 18 16 0 6 -14)) returned #f but the correct answer is #t
+given all?-under19-1e98 test 1, ryagud01 passed
+given all?-under19-1e98 test 1, ccann passed
+given all?-under19-1e98 test 1, fschot01 passed
+given all?-under19-1e98 test 1, ealter01 passed
+given all?-under19-1e98 test 1, jwilde01 passed
+given all?-under19-1e98 test 1, jliebo01 passed
+given all?-under19-1e98 test 1, mbulia01 passed
+given all?-under19-1e98 test 1, bakasl01 passed
+given all?-under19-1e98 test 1, akuan01 passed
+given all?-under19-1e98 test 1, malex passed
+given all?-under19-1e98 test 1, tlim02 passed
+given all?-under19-1e98 test 1, jtorru01 passed
+given all?-under19-1e98 test 1, ead36 passed
+given all?-under19-1e98 test 1, mgolds07 passed
+given all?-under19-1e98 test 1, wbutt01 passed
+given all?-under19-1e98 test 1, spanut01 passed
+given all?-under19-1e98 test 1, abell01 passed
+given all?-under19-1e98 test 1, dfortu01 passed
+given all?-under19-1e98 test 1, shalst01 passed
+given all?-under19-1e98 test 1, clangb01 passed
+given all?-under19-1e98 test 1, amcgla01 failed -- Your (all? ((curry >) 19) (-5 3 -16 11 9 -11 -4 3 14 -20 18 16 0 6 -14)) returned #f but the correct answer is #t
+given all?-under19-1e98 test 1, naiken02 passed
+given all?-under19-1e98 test 1, mnoble01 passed
+given all?-under19-1e98 test 1, akhaku01 passed
+given all?-under19-1e98 test 1, byukse01 passed
+given all?-under19-1e98 test 1, wholah01 passed
+given all?-under19-1e98 test 1, deder01 passed
+given all?-under19-1e98 test 1, mbfrey passed
+given all?-under19-1e98 test 1, csmith05 passed
+given all?-under19-1e98 test 1, jglazi01 passed
+given all?-under19-1e98 test 1, jmonte03 passed
+given all?-under19-1e98 test 1, alevin01 errored -- Your (all? ((curry >) 19) (-5 3 -16 11 9 -11 -4 3 14 -20 18 16 0 6 -14)) caused a run-time error: expected 1 but found 2 arguments in (op (car xs) (foldr op zero (cdr xs)))
+given all?-under19-1e98 test 1, jlockw01 passed
+given all?-under19-1e98 test 1, shaney02 passed
+given all?-under19-1e98 test 1, mmoute01 passed
+given all?-under19-1e98 test 1, gbodwi01 passed
+given all?-under19-6a78 test 1, mborys01 errored -- Your (all? ((curry >) 19) (-17)) caused a run-time error: variable f not found
+given all?-under19-6a78 test 1, enicol01 passed
+given all?-under19-6a78 test 1, dreif01 passed
+given all?-under19-6a78 test 1, graymo01 passed
+given all?-under19-6a78 test 1, ahamli02 passed
+given all?-under19-6a78 test 1, czuber01 passed
+given all?-under19-6a78 test 1, sratta01 passed
+given all?-under19-6a78 test 1, apolya01 passed
+given all?-under19-6a78 test 1, cbrink passed
+given all?-under19-6a78 test 1, mmcgow02 passed
+given all?-under19-6a78 test 1, ahay01 passed
+given all?-under19-6a78 test 1, ewu02 passed
+given all?-under19-6a78 test 1, cgrama01 failed -- Your (all? ((curry >) 19) (-17)) returned #f but the correct answer is #t
+given all?-under19-6a78 test 1, ryagud01 passed
+given all?-under19-6a78 test 1, ccann passed
+given all?-under19-6a78 test 1, fschot01 passed
+given all?-under19-6a78 test 1, ealter01 passed
+given all?-under19-6a78 test 1, jwilde01 passed
+given all?-under19-6a78 test 1, jliebo01 passed
+given all?-under19-6a78 test 1, mbulia01 passed
+given all?-under19-6a78 test 1, bakasl01 passed
+given all?-under19-6a78 test 1, akuan01 passed
+given all?-under19-6a78 test 1, malex passed
+given all?-under19-6a78 test 1, tlim02 passed
+given all?-under19-6a78 test 1, jtorru01 passed
+given all?-under19-6a78 test 1, ead36 passed
+given all?-under19-6a78 test 1, mgolds07 passed
+given all?-under19-6a78 test 1, wbutt01 passed
+given all?-under19-6a78 test 1, spanut01 passed
+given all?-under19-6a78 test 1, abell01 passed
+given all?-under19-6a78 test 1, dfortu01 passed
+given all?-under19-6a78 test 1, shalst01 passed
+given all?-under19-6a78 test 1, clangb01 passed
+given all?-under19-6a78 test 1, amcgla01 failed -- Your (all? ((curry >) 19) (-17)) returned #f but the correct answer is #t
+given all?-under19-6a78 test 1, naiken02 passed
+given all?-under19-6a78 test 1, mnoble01 passed
+given all?-under19-6a78 test 1, akhaku01 passed
+given all?-under19-6a78 test 1, byukse01 passed
+given all?-under19-6a78 test 1, wholah01 passed
+given all?-under19-6a78 test 1, deder01 passed
+given all?-under19-6a78 test 1, mbfrey passed
+given all?-under19-6a78 test 1, csmith05 passed
+given all?-under19-6a78 test 1, jglazi01 passed
+given all?-under19-6a78 test 1, jmonte03 passed
+given all?-under19-6a78 test 1, alevin01 failed -- Your (all? ((curry >) 19) (-17)) returned -17 but the correct answer is #t
+given all?-under19-6a78 test 1, jlockw01 passed
+given all?-under19-6a78 test 1, shaney02 passed
+given all?-under19-6a78 test 1, mmoute01 passed
+given all?-under19-6a78 test 1, gbodwi01 passed
+given all?-under19-f52d test 1, mborys01 failed -- Your (all? ((curry >) 19) ()) returned #f but the correct answer is #t
+given all?-under19-f52d test 1, enicol01 passed
+given all?-under19-f52d test 1, dreif01 passed
+given all?-under19-f52d test 1, graymo01 passed
+given all?-under19-f52d test 1, ahamli02 passed
+given all?-under19-f52d test 1, czuber01 passed
+given all?-under19-f52d test 1, sratta01 passed
+given all?-under19-f52d test 1, apolya01 passed
+given all?-under19-f52d test 1, cbrink passed
+given all?-under19-f52d test 1, mmcgow02 passed
+given all?-under19-f52d test 1, ahay01 passed
+given all?-under19-f52d test 1, ewu02 passed
+given all?-under19-f52d test 1, cgrama01 passed
+given all?-under19-f52d test 1, ryagud01 passed
+given all?-under19-f52d test 1, ccann passed
+given all?-under19-f52d test 1, fschot01 passed
+given all?-under19-f52d test 1, ealter01 passed
+given all?-under19-f52d test 1, jwilde01 passed
+given all?-under19-f52d test 1, jliebo01 passed
+given all?-under19-f52d test 1, mbulia01 failed -- Your (all? ((curry >) 19) ()) returned () but the correct answer is #t
+given all?-under19-f52d test 1, bakasl01 passed
+given all?-under19-f52d test 1, akuan01 passed
+given all?-under19-f52d test 1, malex passed
+given all?-under19-f52d test 1, tlim02 passed
+given all?-under19-f52d test 1, jtorru01 passed
+given all?-under19-f52d test 1, ead36 passed
+given all?-under19-f52d test 1, mgolds07 passed
+given all?-under19-f52d test 1, wbutt01 failed -- Your (all? ((curry >) 19) ()) returned () but the correct answer is #t
+given all?-under19-f52d test 1, spanut01 passed
+given all?-under19-f52d test 1, abell01 passed
+given all?-under19-f52d test 1, dfortu01 passed
+given all?-under19-f52d test 1, shalst01 passed
+given all?-under19-f52d test 1, clangb01 failed -- Your (all? ((curry >) 19) ()) returned #f but the correct answer is #t
+given all?-under19-f52d test 1, amcgla01 failed -- Your (all? ((curry >) 19) ()) returned #f but the correct answer is #t
+given all?-under19-f52d test 1, naiken02 passed
+given all?-under19-f52d test 1, mnoble01 passed
+given all?-under19-f52d test 1, akhaku01 failed -- Your (all? ((curry >) 19) ()) returned #f but the correct answer is #t
+given all?-under19-f52d test 1, byukse01 failed -- Your (all? ((curry >) 19) ()) returned #f but the correct answer is #t
+given all?-under19-f52d test 1, wholah01 passed
+given all?-under19-f52d test 1, deder01 passed
+given all?-under19-f52d test 1, mbfrey passed
+given all?-under19-f52d test 1, csmith05 passed
+given all?-under19-f52d test 1, jglazi01 passed
+given all?-under19-f52d test 1, jmonte03 passed
+given all?-under19-f52d test 1, alevin01 passed
+given all?-under19-f52d test 1, jlockw01 passed
+given all?-under19-f52d test 1, shaney02 passed
+given all?-under19-f52d test 1, mmoute01 passed
+given all?-under19-f52d test 1, gbodwi01 passed
+given append-ref-ad6d test 1, mborys01 passed
+given append-ref-ad6d test 1, enicol01 passed
+given append-ref-ad6d test 1, dreif01 passed
+given append-ref-ad6d test 1, graymo01 passed
+given append-ref-ad6d test 1, ahamli02 passed
+given append-ref-ad6d test 1, czuber01 passed
+given append-ref-ad6d test 1, sratta01 passed
+given append-ref-ad6d test 1, apolya01 passed
+given append-ref-ad6d test 1, cbrink passed
+given append-ref-ad6d test 1, mmcgow02 passed
+given append-ref-ad6d test 1, ahay01 passed
+given append-ref-ad6d test 1, ewu02 passed
+given append-ref-ad6d test 1, cgrama01 passed
+given append-ref-ad6d test 1, ryagud01 passed
+given append-ref-ad6d test 1, ccann passed
+given append-ref-ad6d test 1, fschot01 passed
+given append-ref-ad6d test 1, ealter01 passed
+given append-ref-ad6d test 1, jwilde01 passed
+given append-ref-ad6d test 1, jliebo01 failed -- Appending (-7 15 -4 -18 -19 4 15 -9) and (10 20 11 11 3 4 18 -11 9) produced (10 20 11 11 3 4 18 -11 9 -7 15 -4 -18 -19 4 15 -9) but the correct answer is (-7 15 -4 -18 -19 4 15 -9 10 20 11 11 3 4 18 -11 9)
+given append-ref-ad6d test 1, mbulia01 passed
+given append-ref-ad6d test 1, bakasl01 passed
+given append-ref-ad6d test 1, akuan01 passed
+given append-ref-ad6d test 1, malex passed
+given append-ref-ad6d test 1, tlim02 passed
+given append-ref-ad6d test 1, jtorru01 passed
+given append-ref-ad6d test 1, ead36 failed -- Appending (-7 15 -4 -18 -19 4 15 -9) and (10 20 11 11 3 4 18 -11 9) produced (9 -11 18 4 3 11 11 20 10 -7 15 -4 -18 -19 4 15 -9) but the correct answer is (-7 15 -4 -18 -19 4 15 -9 10 20 11 11 3 4 18 -11 9)
+given append-ref-ad6d test 1, mgolds07 passed
+given append-ref-ad6d test 1, wbutt01 passed
+given append-ref-ad6d test 1, spanut01 failed -- Appending (-7 15 -4 -18 -19 4 15 -9) and (10 20 11 11 3 4 18 -11 9) produced (10 20 11 11 3 4 18 -11 9 -7 15 -4 -18 -19 4 15 -9) but the correct answer is (-7 15 -4 -18 -19 4 15 -9 10 20 11 11 3 4 18 -11 9)
+given append-ref-ad6d test 1, abell01 passed
+given append-ref-ad6d test 1, dfortu01 passed
+given append-ref-ad6d test 1, shalst01 passed
+given append-ref-ad6d test 1, clangb01 passed
+given append-ref-ad6d test 1, amcgla01 passed
+given append-ref-ad6d test 1, naiken02 passed
+given append-ref-ad6d test 1, mnoble01 passed
+given append-ref-ad6d test 1, akhaku01 passed
+given append-ref-ad6d test 1, byukse01 errored -- append-ref caused a run-time error: expected 1 but found 2 arguments in (append xs ys)
+given append-ref-ad6d test 1, wholah01 passed
+given append-ref-ad6d test 1, deder01 passed
+given append-ref-ad6d test 1, mbfrey passed
+given append-ref-ad6d test 1, csmith05 passed
+given append-ref-ad6d test 1, jglazi01 passed
+given append-ref-ad6d test 1, jmonte03 passed
+given append-ref-ad6d test 1, alevin01 passed
+given append-ref-ad6d test 1, jlockw01 passed
+given append-ref-ad6d test 1, shaney02 passed
+given append-ref-ad6d test 1, mmoute01 passed
+given append-ref-ad6d test 1, gbodwi01 passed
+given append-ref-db5 test 1, mborys01 passed
+given append-ref-db5 test 1, enicol01 passed
+given append-ref-db5 test 1, dreif01 passed
+given append-ref-db5 test 1, graymo01 passed
+given append-ref-db5 test 1, ahamli02 passed
+given append-ref-db5 test 1, czuber01 passed
+given append-ref-db5 test 1, sratta01 passed
+given append-ref-db5 test 1, apolya01 passed
+given append-ref-db5 test 1, cbrink passed
+given append-ref-db5 test 1, mmcgow02 passed
+given append-ref-db5 test 1, ahay01 passed
+given append-ref-db5 test 1, ewu02 passed
+given append-ref-db5 test 1, cgrama01 passed
+given append-ref-db5 test 1, ryagud01 passed
+given append-ref-db5 test 1, ccann passed
+given append-ref-db5 test 1, fschot01 passed
+given append-ref-db5 test 1, ealter01 passed
+given append-ref-db5 test 1, jwilde01 passed
+given append-ref-db5 test 1, jliebo01 passed
+given append-ref-db5 test 1, mbulia01 passed
+given append-ref-db5 test 1, bakasl01 passed
+given append-ref-db5 test 1, akuan01 passed
+given append-ref-db5 test 1, malex passed
+given append-ref-db5 test 1, tlim02 passed
+given append-ref-db5 test 1, jtorru01 passed
+given append-ref-db5 test 1, ead36 failed -- Appending () and (18 -16 -12 -2 19 13 -20 1 -19 -1 -2 9 -11) produced (-11 9 -2 -1 -19 1 -20 13 19 -2 -12 -16 18) but the correct answer is (18 -16 -12 -2 19 13 -20 1 -19 -1 -2 9 -11)
+given append-ref-db5 test 1, mgolds07 passed
+given append-ref-db5 test 1, wbutt01 passed
+given append-ref-db5 test 1, spanut01 passed
+given append-ref-db5 test 1, abell01 passed
+given append-ref-db5 test 1, dfortu01 passed
+given append-ref-db5 test 1, shalst01 passed
+given append-ref-db5 test 1, clangb01 passed
+given append-ref-db5 test 1, amcgla01 passed
+given append-ref-db5 test 1, naiken02 passed
+given append-ref-db5 test 1, mnoble01 passed
+given append-ref-db5 test 1, akhaku01 passed
+given append-ref-db5 test 1, byukse01 errored -- append-ref caused a run-time error: expected 1 but found 2 arguments in (append xs ys)
+given append-ref-db5 test 1, wholah01 passed
+given append-ref-db5 test 1, deder01 passed
+given append-ref-db5 test 1, mbfrey passed
+given append-ref-db5 test 1, csmith05 passed
+given append-ref-db5 test 1, jglazi01 passed
+given append-ref-db5 test 1, jmonte03 passed
+given append-ref-db5 test 1, alevin01 passed
+given append-ref-db5 test 1, jlockw01 passed
+given append-ref-db5 test 1, shaney02 passed
+given append-ref-db5 test 1, mmoute01 passed
+given append-ref-db5 test 1, gbodwi01 passed
+given append-ref-efac test 1, mborys01 passed
+given append-ref-efac test 1, enicol01 passed
+given append-ref-efac test 1, dreif01 passed
+given append-ref-efac test 1, graymo01 passed
+given append-ref-efac test 1, ahamli02 passed
+given append-ref-efac test 1, czuber01 passed
+given append-ref-efac test 1, sratta01 passed
+given append-ref-efac test 1, apolya01 passed
+given append-ref-efac test 1, cbrink passed
+given append-ref-efac test 1, mmcgow02 passed
+given append-ref-efac test 1, ahay01 passed
+given append-ref-efac test 1, ewu02 passed
+given append-ref-efac test 1, cgrama01 passed
+given append-ref-efac test 1, ryagud01 passed
+given append-ref-efac test 1, ccann passed
+given append-ref-efac test 1, fschot01 passed
+given append-ref-efac test 1, ealter01 passed
+given append-ref-efac test 1, jwilde01 passed
+given append-ref-efac test 1, jliebo01 passed
+given append-ref-efac test 1, mbulia01 passed
+given append-ref-efac test 1, bakasl01 passed
+given append-ref-efac test 1, akuan01 passed
+given append-ref-efac test 1, malex passed
+given append-ref-efac test 1, tlim02 passed
+given append-ref-efac test 1, jtorru01 passed
+given append-ref-efac test 1, ead36 passed
+given append-ref-efac test 1, mgolds07 passed
+given append-ref-efac test 1, wbutt01 passed
+given append-ref-efac test 1, spanut01 passed
+given append-ref-efac test 1, abell01 passed
+given append-ref-efac test 1, dfortu01 passed
+given append-ref-efac test 1, shalst01 passed
+given append-ref-efac test 1, clangb01 passed
+given append-ref-efac test 1, amcgla01 passed
+given append-ref-efac test 1, naiken02 passed
+given append-ref-efac test 1, mnoble01 passed
+given append-ref-efac test 1, akhaku01 passed
+given append-ref-efac test 1, byukse01 errored -- append-ref caused a run-time error: expected 1 but found 2 arguments in (append xs ys)
+given append-ref-efac test 1, wholah01 passed
+given append-ref-efac test 1, deder01 passed
+given append-ref-efac test 1, mbfrey passed
+given append-ref-efac test 1, csmith05 passed
+given append-ref-efac test 1, jglazi01 passed
+given append-ref-efac test 1, jmonte03 passed
+given append-ref-efac test 1, alevin01 passed
+given append-ref-efac test 1, jlockw01 passed
+given append-ref-efac test 1, shaney02 passed
+given append-ref-efac test 1, mmoute01 passed
+given append-ref-efac test 1, gbodwi01 passed
+given exists?-mul5-8e6 test 1, mborys01 passed
+given exists?-mul5-8e6 test 1, enicol01 passed
+given exists?-mul5-8e6 test 1, dreif01 passed
+given exists?-mul5-8e6 test 1, graymo01 passed
+given exists?-mul5-8e6 test 1, ahamli02 passed
+given exists?-mul5-8e6 test 1, czuber01 passed
+given exists?-mul5-8e6 test 1, sratta01 passed
+given exists?-mul5-8e6 test 1, apolya01 passed
+given exists?-mul5-8e6 test 1, cbrink passed
+given exists?-mul5-8e6 test 1, mmcgow02 passed
+given exists?-mul5-8e6 test 1, ahay01 passed
+given exists?-mul5-8e6 test 1, ewu02 passed
+given exists?-mul5-8e6 test 1, cgrama01 failed -- Your (exists? mul-of-5 (0 12 6 13 -19 12 -12 -10 -6 -13)) returned #f but the correct answer is #t
+given exists?-mul5-8e6 test 1, ryagud01 passed
+given exists?-mul5-8e6 test 1, ccann passed
+given exists?-mul5-8e6 test 1, fschot01 passed
+given exists?-mul5-8e6 test 1, ealter01 passed
+given exists?-mul5-8e6 test 1, jwilde01 passed
+given exists?-mul5-8e6 test 1, jliebo01 passed
+given exists?-mul5-8e6 test 1, mbulia01 passed
+given exists?-mul5-8e6 test 1, bakasl01 passed
+given exists?-mul5-8e6 test 1, akuan01 passed
+given exists?-mul5-8e6 test 1, malex passed
+given exists?-mul5-8e6 test 1, tlim02 passed
+given exists?-mul5-8e6 test 1, jtorru01 passed
+given exists?-mul5-8e6 test 1, ead36 passed
+given exists?-mul5-8e6 test 1, mgolds07 passed
+given exists?-mul5-8e6 test 1, wbutt01 passed
+given exists?-mul5-8e6 test 1, spanut01 passed
+given exists?-mul5-8e6 test 1, abell01 passed
+given exists?-mul5-8e6 test 1, dfortu01 passed
+given exists?-mul5-8e6 test 1, shalst01 passed
+given exists?-mul5-8e6 test 1, clangb01 passed
+given exists?-mul5-8e6 test 1, amcgla01 failed -- Your (exists? mul-of-5 (0 12 6 13 -19 12 -12 -10 -6 -13)) returned #f but the correct answer is #t
+given exists?-mul5-8e6 test 1, naiken02 passed
+given exists?-mul5-8e6 test 1, mnoble01 passed
+given exists?-mul5-8e6 test 1, akhaku01 passed
+given exists?-mul5-8e6 test 1, byukse01 errored -- Your (exists? mul-of-5 (0 12 6 13 -19 12 -12 -10 -6 -13)) caused a run-time error: expected 3 but found 1 argument in (foldr (lambda (n xs) (not (= (foldr (lambda (n xs) (if (f n) '#t xs)) '() l) '()))))
+given exists?-mul5-8e6 test 1, wholah01 passed
+given exists?-mul5-8e6 test 1, deder01 passed
+given exists?-mul5-8e6 test 1, mbfrey passed
+given exists?-mul5-8e6 test 1, csmith05 passed
+given exists?-mul5-8e6 test 1, jglazi01 passed
+given exists?-mul5-8e6 test 1, jmonte03 failed -- Your (exists? mul-of-5 (0 12 6 13 -19 12 -12 -10 -6 -13)) returned #f but the correct answer is #t
+given exists?-mul5-8e6 test 1, alevin01 passed
+given exists?-mul5-8e6 test 1, jlockw01 passed
+given exists?-mul5-8e6 test 1, shaney02 passed
+given exists?-mul5-8e6 test 1, mmoute01 passed
+given exists?-mul5-8e6 test 1, gbodwi01 passed
+given exists?-mul5-f52d test 1, mborys01 passed
+given exists?-mul5-f52d test 1, enicol01 passed
+given exists?-mul5-f52d test 1, dreif01 passed
+given exists?-mul5-f52d test 1, graymo01 passed
+given exists?-mul5-f52d test 1, ahamli02 passed
+given exists?-mul5-f52d test 1, czuber01 passed
+given exists?-mul5-f52d test 1, sratta01 passed
+given exists?-mul5-f52d test 1, apolya01 passed
+given exists?-mul5-f52d test 1, cbrink passed
+given exists?-mul5-f52d test 1, mmcgow02 passed
+given exists?-mul5-f52d test 1, ahay01 passed
+given exists?-mul5-f52d test 1, ewu02 passed
+given exists?-mul5-f52d test 1, cgrama01 passed
+given exists?-mul5-f52d test 1, ryagud01 passed
+given exists?-mul5-f52d test 1, ccann passed
+given exists?-mul5-f52d test 1, fschot01 passed
+given exists?-mul5-f52d test 1, ealter01 passed
+given exists?-mul5-f52d test 1, jwilde01 passed
+given exists?-mul5-f52d test 1, jliebo01 passed
+given exists?-mul5-f52d test 1, mbulia01 failed -- Your (exists? mul-of-5 ()) returned () but the correct answer is #f
+given exists?-mul5-f52d test 1, bakasl01 passed
+given exists?-mul5-f52d test 1, akuan01 passed
+given exists?-mul5-f52d test 1, malex passed
+given exists?-mul5-f52d test 1, tlim02 passed
+given exists?-mul5-f52d test 1, jtorru01 passed
+given exists?-mul5-f52d test 1, ead36 passed
+given exists?-mul5-f52d test 1, mgolds07 passed
+given exists?-mul5-f52d test 1, wbutt01 failed -- Your (exists? mul-of-5 ()) returned () but the correct answer is #f
+given exists?-mul5-f52d test 1, spanut01 passed
+given exists?-mul5-f52d test 1, abell01 passed
+given exists?-mul5-f52d test 1, dfortu01 passed
+given exists?-mul5-f52d test 1, shalst01 passed
+given exists?-mul5-f52d test 1, clangb01 passed
+given exists?-mul5-f52d test 1, amcgla01 passed
+given exists?-mul5-f52d test 1, naiken02 passed
+given exists?-mul5-f52d test 1, mnoble01 passed
+given exists?-mul5-f52d test 1, akhaku01 passed
+given exists?-mul5-f52d test 1, byukse01 errored -- Your (exists? mul-of-5 ()) caused a run-time error: expected 3 but found 1 argument in (foldr (lambda (n xs) (not (= (foldr (lambda (n xs) (if (f n) '#t xs)) '() l) '()))))
+given exists?-mul5-f52d test 1, wholah01 passed
+given exists?-mul5-f52d test 1, deder01 passed
+given exists?-mul5-f52d test 1, mbfrey passed
+given exists?-mul5-f52d test 1, csmith05 passed
+given exists?-mul5-f52d test 1, jglazi01 passed
+given exists?-mul5-f52d test 1, jmonte03 passed
+given exists?-mul5-f52d test 1, alevin01 passed
+given exists?-mul5-f52d test 1, jlockw01 passed
+given exists?-mul5-f52d test 1, shaney02 passed
+given exists?-mul5-f52d test 1, mmoute01 passed
+given exists?-mul5-f52d test 1, gbodwi01 passed
+given gcdstar-542 test 1, mborys01 passed
+given gcdstar-542 test 1, enicol01 passed
+given gcdstar-542 test 1, dreif01 passed
+given gcdstar-542 test 1, graymo01 passed
+given gcdstar-542 test 1, ahamli02 passed
+given gcdstar-542 test 1, czuber01 passed
+given gcdstar-542 test 1, sratta01 passed
+given gcdstar-542 test 1, apolya01 passed
+given gcdstar-542 test 1, cbrink passed
+given gcdstar-542 test 1, mmcgow02 passed
+given gcdstar-542 test 1, ahay01 passed
+given gcdstar-542 test 1, ewu02 passed
+given gcdstar-542 test 1, cgrama01 passed
+given gcdstar-542 test 1, ryagud01 passed
+given gcdstar-542 test 1, ccann passed
+given gcdstar-542 test 1, fschot01 passed
+given gcdstar-542 test 1, ealter01 passed
+given gcdstar-542 test 1, jwilde01 failed -- Your (gcd* (8 18 -14)) returned 1, but the gcd is 2
+given gcdstar-542 test 1, jliebo01 passed
+given gcdstar-542 test 1, mbulia01 passed
+given gcdstar-542 test 1, bakasl01 passed
+given gcdstar-542 test 1, akuan01 passed
+given gcdstar-542 test 1, malex passed
+given gcdstar-542 test 1, tlim02 passed
+given gcdstar-542 test 1, jtorru01 passed
+given gcdstar-542 test 1, ead36 passed
+given gcdstar-542 test 1, mgolds07 passed
+given gcdstar-542 test 1, wbutt01 passed
+given gcdstar-542 test 1, spanut01 passed
+given gcdstar-542 test 1, abell01 passed
+given gcdstar-542 test 1, dfortu01 passed
+given gcdstar-542 test 1, shalst01 passed
+given gcdstar-542 test 1, clangb01 passed
+given gcdstar-542 test 1, amcgla01 passed
+given gcdstar-542 test 1, naiken02 passed
+given gcdstar-542 test 1, mnoble01 passed
+given gcdstar-542 test 1, akhaku01 passed
+given gcdstar-542 test 1, byukse01 passed
+given gcdstar-542 test 1, wholah01 passed
+given gcdstar-542 test 1, deder01 passed
+given gcdstar-542 test 1, mbfrey passed
+given gcdstar-542 test 1, csmith05 passed
+given gcdstar-542 test 1, jglazi01 passed
+given gcdstar-542 test 1, jmonte03 passed
+given gcdstar-542 test 1, alevin01 passed
+given gcdstar-542 test 1, jlockw01 passed
+given gcdstar-542 test 1, shaney02 passed
+given gcdstar-542 test 1, mmoute01 passed
+given gcdstar-542 test 1, gbodwi01 passed
+given isort-sorted-852 test 1, mborys01 passed
+given isort-sorted-852 test 1, enicol01 passed
+given isort-sorted-852 test 1, dreif01 errored -- Calling (insertion-sort ()) causes a run-time error: car applied to non-pair () in (car xs)
+given isort-sorted-852 test 1, graymo01 passed
+given isort-sorted-852 test 1, ahamli02 passed
+given isort-sorted-852 test 1, czuber01 passed
+given isort-sorted-852 test 1, sratta01 passed
+given isort-sorted-852 test 1, apolya01 passed
+given isort-sorted-852 test 1, cbrink passed
+given isort-sorted-852 test 1, mmcgow02 passed
+given isort-sorted-852 test 1, ahay01 passed
+given isort-sorted-852 test 1, ewu02 passed
+given isort-sorted-852 test 1, cgrama01 passed
+given isort-sorted-852 test 1, ryagud01 passed
+given isort-sorted-852 test 1, ccann passed
+given isort-sorted-852 test 1, fschot01 passed
+given isort-sorted-852 test 1, ealter01 passed
+given isort-sorted-852 test 1, jwilde01 passed
+given isort-sorted-852 test 1, jliebo01 passed
+given isort-sorted-852 test 1, mbulia01 passed
+given isort-sorted-852 test 1, bakasl01 errored -- Calling (insertion-sort ()) causes a run-time error: car applied to non-pair () in (car xs)
+given isort-sorted-852 test 1, akuan01 passed
+given isort-sorted-852 test 1, malex passed
+given isort-sorted-852 test 1, tlim02 passed
+given isort-sorted-852 test 1, jtorru01 passed
+given isort-sorted-852 test 1, ead36 passed
+given isort-sorted-852 test 1, mgolds07 passed
+given isort-sorted-852 test 1, wbutt01 passed
+given isort-sorted-852 test 1, spanut01 passed
+given isort-sorted-852 test 1, abell01 passed
+given isort-sorted-852 test 1, dfortu01 passed
+given isort-sorted-852 test 1, shalst01 errored -- Calling (insertion-sort ()) causes a run-time error: car applied to non-pair () in (car xs)
+given isort-sorted-852 test 1, clangb01 errored -- Calling (insertion-sort ()) causes a run-time error: variable insertion-sort not found
+given isort-sorted-852 test 1, amcgla01 passed
+given isort-sorted-852 test 1, naiken02 passed
+given isort-sorted-852 test 1, mnoble01 passed
+given isort-sorted-852 test 1, akhaku01 errored -- Calling (insertion-sort ()) causes a run-time error: car applied to non-pair () in (car xs)
+given isort-sorted-852 test 1, byukse01 passed
+given isort-sorted-852 test 1, wholah01 passed
+given isort-sorted-852 test 1, deder01 passed
+given isort-sorted-852 test 1, mbfrey passed
+given isort-sorted-852 test 1, csmith05 passed
+given isort-sorted-852 test 1, jglazi01 passed
+given isort-sorted-852 test 1, jmonte03 passed
+given isort-sorted-852 test 1, alevin01 passed
+given isort-sorted-852 test 1, jlockw01 passed
+given isort-sorted-852 test 1, shaney02 passed
+given isort-sorted-852 test 1, mmoute01 passed
+given isort-sorted-852 test 1, gbodwi01 passed
+given isort-sorted-fb70 test 1, mborys01 passed
+given isort-sorted-fb70 test 1, enicol01 passed
+given isort-sorted-fb70 test 1, dreif01 passed
+given isort-sorted-fb70 test 1, graymo01 passed
+given isort-sorted-fb70 test 1, ahamli02 passed
+given isort-sorted-fb70 test 1, czuber01 passed
+given isort-sorted-fb70 test 1, sratta01 passed
+given isort-sorted-fb70 test 1, apolya01 passed
+given isort-sorted-fb70 test 1, cbrink passed
+given isort-sorted-fb70 test 1, mmcgow02 passed
+given isort-sorted-fb70 test 1, ahay01 passed
+given isort-sorted-fb70 test 1, ewu02 passed
+given isort-sorted-fb70 test 1, cgrama01 passed
+given isort-sorted-fb70 test 1, ryagud01 passed
+given isort-sorted-fb70 test 1, ccann passed
+given isort-sorted-fb70 test 1, fschot01 passed
+given isort-sorted-fb70 test 1, ealter01 passed
+given isort-sorted-fb70 test 1, jwilde01 passed
+given isort-sorted-fb70 test 1, jliebo01 passed
+given isort-sorted-fb70 test 1, mbulia01 passed
+given isort-sorted-fb70 test 1, bakasl01 passed
+given isort-sorted-fb70 test 1, akuan01 passed
+given isort-sorted-fb70 test 1, malex passed
+given isort-sorted-fb70 test 1, tlim02 passed
+given isort-sorted-fb70 test 1, jtorru01 passed
+given isort-sorted-fb70 test 1, ead36 passed
+given isort-sorted-fb70 test 1, mgolds07 passed
+given isort-sorted-fb70 test 1, wbutt01 passed
+given isort-sorted-fb70 test 1, spanut01 passed
+given isort-sorted-fb70 test 1, abell01 passed
+given isort-sorted-fb70 test 1, dfortu01 passed
+given isort-sorted-fb70 test 1, shalst01 passed
+given isort-sorted-fb70 test 1, clangb01 errored -- Calling (insertion-sort (10 -14 -6 -17 -10 -10 -9 1 -19 0 -17 18 19 7 1 -5 8 -4 4 8)) causes a run-time error: variable insertion-sort not found
+given isort-sorted-fb70 test 1, amcgla01 passed
+given isort-sorted-fb70 test 1, naiken02 passed
+given isort-sorted-fb70 test 1, mnoble01 passed
+given isort-sorted-fb70 test 1, akhaku01 passed
+given isort-sorted-fb70 test 1, byukse01 passed
+given isort-sorted-fb70 test 1, wholah01 passed
+given isort-sorted-fb70 test 1, deder01 passed
+given isort-sorted-fb70 test 1, mbfrey passed
+given isort-sorted-fb70 test 1, csmith05 passed
+given isort-sorted-fb70 test 1, jglazi01 passed
+given isort-sorted-fb70 test 1, jmonte03 passed
+given isort-sorted-fb70 test 1, alevin01 passed
+given isort-sorted-fb70 test 1, jlockw01 passed
+given isort-sorted-fb70 test 1, shaney02 passed
+given isort-sorted-fb70 test 1, mmoute01 passed
+given isort-sorted-fb70 test 1, gbodwi01 passed
+given lcmstar-042 test 1, mborys01 passed
+given lcmstar-042 test 1, enicol01 passed
+given lcmstar-042 test 1, dreif01 passed
+given lcmstar-042 test 1, graymo01 passed
+given lcmstar-042 test 1, ahamli02 passed
+given lcmstar-042 test 1, czuber01 passed
+given lcmstar-042 test 1, sratta01 passed
+given lcmstar-042 test 1, apolya01 passed
+given lcmstar-042 test 1, cbrink passed
+given lcmstar-042 test 1, mmcgow02 passed
+given lcmstar-042 test 1, ahay01 passed
+given lcmstar-042 test 1, ewu02 passed
+given lcmstar-042 test 1, cgrama01 passed
+given lcmstar-042 test 1, ryagud01 passed
+given lcmstar-042 test 1, ccann passed
+given lcmstar-042 test 1, fschot01 passed
+given lcmstar-042 test 1, ealter01 passed
+given lcmstar-042 test 1, jwilde01 passed
+given lcmstar-042 test 1, jliebo01 passed
+given lcmstar-042 test 1, mbulia01 passed
+given lcmstar-042 test 1, bakasl01 passed
+given lcmstar-042 test 1, akuan01 passed
+given lcmstar-042 test 1, malex passed
+given lcmstar-042 test 1, tlim02 passed
+given lcmstar-042 test 1, jtorru01 passed
+given lcmstar-042 test 1, ead36 passed
+given lcmstar-042 test 1, mgolds07 passed
+given lcmstar-042 test 1, wbutt01 errored -- Your (lcm* (-3 0 5 13 -1)) caused a run-time error: division by zero
+given lcmstar-042 test 1, spanut01 passed
+given lcmstar-042 test 1, abell01 passed
+given lcmstar-042 test 1, dfortu01 passed
+given lcmstar-042 test 1, shalst01 passed
+given lcmstar-042 test 1, clangb01 passed
+given lcmstar-042 test 1, amcgla01 passed
+given lcmstar-042 test 1, naiken02 passed
+given lcmstar-042 test 1, mnoble01 passed
+given lcmstar-042 test 1, akhaku01 passed
+given lcmstar-042 test 1, byukse01 passed
+given lcmstar-042 test 1, wholah01 passed
+given lcmstar-042 test 1, deder01 passed
+given lcmstar-042 test 1, mbfrey passed
+given lcmstar-042 test 1, csmith05 passed
+given lcmstar-042 test 1, jglazi01 passed
+given lcmstar-042 test 1, jmonte03 passed
+given lcmstar-042 test 1, alevin01 passed
+given lcmstar-042 test 1, jlockw01 passed
+given lcmstar-042 test 1, shaney02 passed
+given lcmstar-042 test 1, mmoute01 passed
+given lcmstar-042 test 1, gbodwi01 passed
+given lcmstar-922 test 1, mborys01 passed
+given lcmstar-922 test 1, enicol01 passed
+given lcmstar-922 test 1, dreif01 passed
+given lcmstar-922 test 1, graymo01 passed
+given lcmstar-922 test 1, ahamli02 passed
+given lcmstar-922 test 1, czuber01 passed
+given lcmstar-922 test 1, sratta01 passed
+given lcmstar-922 test 1, apolya01 passed
+given lcmstar-922 test 1, cbrink passed
+given lcmstar-922 test 1, mmcgow02 passed
+given lcmstar-922 test 1, ahay01 passed
+given lcmstar-922 test 1, ewu02 passed
+given lcmstar-922 test 1, cgrama01 passed
+given lcmstar-922 test 1, ryagud01 passed
+given lcmstar-922 test 1, ccann passed
+given lcmstar-922 test 1, fschot01 passed
+given lcmstar-922 test 1, ealter01 passed
+given lcmstar-922 test 1, jwilde01 passed
+given lcmstar-922 test 1, jliebo01 passed
+given lcmstar-922 test 1, mbulia01 passed
+given lcmstar-922 test 1, bakasl01 passed
+given lcmstar-922 test 1, akuan01 passed
+given lcmstar-922 test 1, malex passed
+given lcmstar-922 test 1, tlim02 passed
+given lcmstar-922 test 1, jtorru01 passed
+given lcmstar-922 test 1, ead36 passed
+given lcmstar-922 test 1, mgolds07 passed
+given lcmstar-922 test 1, wbutt01 failed -- Your (lcm* (-5 -6 -3)) returned 0, but the lcm is 30
+given lcmstar-922 test 1, spanut01 passed
+given lcmstar-922 test 1, abell01 passed
+given lcmstar-922 test 1, dfortu01 passed
+given lcmstar-922 test 1, shalst01 passed
+given lcmstar-922 test 1, clangb01 passed
+given lcmstar-922 test 1, amcgla01 passed
+given lcmstar-922 test 1, naiken02 passed
+given lcmstar-922 test 1, mnoble01 passed
+given lcmstar-922 test 1, akhaku01 passed
+given lcmstar-922 test 1, byukse01 passed
+given lcmstar-922 test 1, wholah01 passed
+given lcmstar-922 test 1, deder01 failed -- Your (lcm* (-5 -6 -3)) returned 0, but the lcm is 30
+given lcmstar-922 test 1, mbfrey passed
+given lcmstar-922 test 1, csmith05 passed
+given lcmstar-922 test 1, jglazi01 passed
+given lcmstar-922 test 1, jmonte03 passed
+given lcmstar-922 test 1, alevin01 passed
+given lcmstar-922 test 1, jlockw01 passed
+given lcmstar-922 test 1, shaney02 passed
+given lcmstar-922 test 1, mmoute01 passed
+given lcmstar-922 test 1, gbodwi01 passed
+given lcmstar-a59 test 1, mborys01 passed
+given lcmstar-a59 test 1, enicol01 passed
+given lcmstar-a59 test 1, dreif01 passed
+given lcmstar-a59 test 1, graymo01 passed
+given lcmstar-a59 test 1, ahamli02 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, czuber01 passed
+given lcmstar-a59 test 1, sratta01 passed
+given lcmstar-a59 test 1, apolya01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, cbrink passed
+given lcmstar-a59 test 1, mmcgow02 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, ahay01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, ewu02 passed
+given lcmstar-a59 test 1, cgrama01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, ryagud01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, ccann passed
+given lcmstar-a59 test 1, fschot01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, ealter01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, jwilde01 passed
+given lcmstar-a59 test 1, jliebo01 passed
+given lcmstar-a59 test 1, mbulia01 passed
+given lcmstar-a59 test 1, bakasl01 passed
+given lcmstar-a59 test 1, akuan01 passed
+given lcmstar-a59 test 1, malex errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, tlim02 passed
+given lcmstar-a59 test 1, jtorru01 passed
+given lcmstar-a59 test 1, ead36 passed
+given lcmstar-a59 test 1, mgolds07 passed
+given lcmstar-a59 test 1, wbutt01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, spanut01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, abell01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, dfortu01 passed
+given lcmstar-a59 test 1, shalst01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, clangb01 passed
+given lcmstar-a59 test 1, amcgla01 passed
+given lcmstar-a59 test 1, naiken02 passed
+given lcmstar-a59 test 1, mnoble01 passed
+given lcmstar-a59 test 1, akhaku01 passed
+given lcmstar-a59 test 1, byukse01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, wholah01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, deder01 passed
+given lcmstar-a59 test 1, mbfrey passed
+given lcmstar-a59 test 1, csmith05 passed
+given lcmstar-a59 test 1, jglazi01 passed
+given lcmstar-a59 test 1, jmonte03 passed
+given lcmstar-a59 test 1, alevin01 passed
+given lcmstar-a59 test 1, jlockw01 passed
+given lcmstar-a59 test 1, shaney02 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-a59 test 1, mmoute01 passed
+given lcmstar-a59 test 1, gbodwi01 errored -- Your (lcm* (0 7 -9 18 -4 4)) caused a run-time error: division by zero
+given lcmstar-bd1 test 1, mborys01 passed
+given lcmstar-bd1 test 1, enicol01 passed
+given lcmstar-bd1 test 1, dreif01 passed
+given lcmstar-bd1 test 1, graymo01 passed
+given lcmstar-bd1 test 1, ahamli02 passed
+given lcmstar-bd1 test 1, czuber01 passed
+given lcmstar-bd1 test 1, sratta01 passed
+given lcmstar-bd1 test 1, apolya01 passed
+given lcmstar-bd1 test 1, cbrink passed
+given lcmstar-bd1 test 1, mmcgow02 passed
+given lcmstar-bd1 test 1, ahay01 passed
+given lcmstar-bd1 test 1, ewu02 passed
+given lcmstar-bd1 test 1, cgrama01 passed
+given lcmstar-bd1 test 1, ryagud01 passed
+given lcmstar-bd1 test 1, ccann passed
+given lcmstar-bd1 test 1, fschot01 passed
+given lcmstar-bd1 test 1, ealter01 passed
+given lcmstar-bd1 test 1, jwilde01 passed
+given lcmstar-bd1 test 1, jliebo01 passed
+given lcmstar-bd1 test 1, mbulia01 passed
+given lcmstar-bd1 test 1, bakasl01 passed
+given lcmstar-bd1 test 1, akuan01 passed
+given lcmstar-bd1 test 1, malex passed
+given lcmstar-bd1 test 1, tlim02 passed
+given lcmstar-bd1 test 1, jtorru01 passed
+given lcmstar-bd1 test 1, ead36 passed
+given lcmstar-bd1 test 1, mgolds07 passed
+given lcmstar-bd1 test 1, wbutt01 failed -- Your (lcm* (-3 -15 -12 4 15 14 18 -14 -14 17 9 16 -17 15 15)) returned 0, but the lcm is 85680
+given lcmstar-bd1 test 1, spanut01 passed
+given lcmstar-bd1 test 1, abell01 passed
+given lcmstar-bd1 test 1, dfortu01 passed
+given lcmstar-bd1 test 1, shalst01 passed
+given lcmstar-bd1 test 1, clangb01 passed
+given lcmstar-bd1 test 1, amcgla01 passed
+given lcmstar-bd1 test 1, naiken02 passed
+given lcmstar-bd1 test 1, mnoble01 passed
+given lcmstar-bd1 test 1, akhaku01 passed
+given lcmstar-bd1 test 1, byukse01 passed
+given lcmstar-bd1 test 1, wholah01 passed
+given lcmstar-bd1 test 1, deder01 passed
+given lcmstar-bd1 test 1, mbfrey passed
+given lcmstar-bd1 test 1, csmith05 passed
+given lcmstar-bd1 test 1, jglazi01 passed
+given lcmstar-bd1 test 1, jmonte03 passed
+given lcmstar-bd1 test 1, alevin01 passed
+given lcmstar-bd1 test 1, jlockw01 passed
+given lcmstar-bd1 test 1, shaney02 passed
+given lcmstar-bd1 test 1, mmoute01 passed
+given lcmstar-bd1 test 1, gbodwi01 passed
+given lcmstar-e9da test 1, mborys01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, enicol01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, dreif01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, graymo01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ahamli02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, czuber01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, sratta01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, apolya01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, cbrink errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mmcgow02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ahay01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ewu02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, cgrama01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ryagud01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ccann errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, fschot01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ealter01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jwilde01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jliebo01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mbulia01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, bakasl01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, akuan01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, malex errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, tlim02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jtorru01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, ead36 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mgolds07 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, wbutt01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, spanut01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, abell01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, dfortu01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, shalst01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, clangb01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, amcgla01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, naiken02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mnoble01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, akhaku01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, byukse01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, wholah01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, deder01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mbfrey errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, csmith05 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jglazi01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jmonte03 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, alevin01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, jlockw01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, shaney02 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, mmoute01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given lcmstar-e9da test 1, gbodwi01 errored -- Your (lcm* (-3 -9 0 0 -14 -12 10 -6 -3 -10 -3 10 -15 18 -4 -5 7 -13 13)) caused a run-time error: division by zero
+given map-triple-a30 test 1, mborys01 passed
+given map-triple-a30 test 1, enicol01 passed
+given map-triple-a30 test 1, dreif01 passed
+given map-triple-a30 test 1, graymo01 passed
+given map-triple-a30 test 1, ahamli02 passed
+given map-triple-a30 test 1, czuber01 passed
+given map-triple-a30 test 1, sratta01 passed
+given map-triple-a30 test 1, apolya01 passed
+given map-triple-a30 test 1, cbrink passed
+given map-triple-a30 test 1, mmcgow02 passed
+given map-triple-a30 test 1, ahay01 passed
+given map-triple-a30 test 1, ewu02 passed
+given map-triple-a30 test 1, cgrama01 passed
+given map-triple-a30 test 1, ryagud01 passed
+given map-triple-a30 test 1, ccann passed
+given map-triple-a30 test 1, fschot01 passed
+given map-triple-a30 test 1, ealter01 passed
+given map-triple-a30 test 1, jwilde01 passed
+given map-triple-a30 test 1, jliebo01 passed
+given map-triple-a30 test 1, mbulia01 passed
+given map-triple-a30 test 1, bakasl01 passed
+given map-triple-a30 test 1, akuan01 passed
+given map-triple-a30 test 1, malex passed
+given map-triple-a30 test 1, tlim02 passed
+given map-triple-a30 test 1, jtorru01 passed
+given map-triple-a30 test 1, ead36 passed
+given map-triple-a30 test 1, mgolds07 passed
+given map-triple-a30 test 1, wbutt01 passed
+given map-triple-a30 test 1, spanut01 passed
+given map-triple-a30 test 1, abell01 passed
+given map-triple-a30 test 1, dfortu01 passed
+given map-triple-a30 test 1, shalst01 passed
+given map-triple-a30 test 1, clangb01 passed
+given map-triple-a30 test 1, amcgla01 passed
+given map-triple-a30 test 1, naiken02 passed
+given map-triple-a30 test 1, mnoble01 passed
+given map-triple-a30 test 1, akhaku01 passed
+given map-triple-a30 test 1, byukse01 passed
+given map-triple-a30 test 1, wholah01 passed
+given map-triple-a30 test 1, deder01 passed
+given map-triple-a30 test 1, mbfrey passed
+given map-triple-a30 test 1, csmith05 passed
+given map-triple-a30 test 1, jglazi01 passed
+given map-triple-a30 test 1, jmonte03 passed
+given map-triple-a30 test 1, alevin01 failed -- Your (map ((curry *) 3) (-16 16 -4 -15 -17 -1 1 -7 11 12)) returned (16 -4 -15 -17 -1 1 -7 11 12 . -48) but the correct answer is (-48 48 -12 -45 -51 -3 3 -21 33 36)
+given map-triple-a30 test 1, jlockw01 passed
+given map-triple-a30 test 1, shaney02 passed
+given map-triple-a30 test 1, mmoute01 passed
+given map-triple-a30 test 1, gbodwi01 passed
+given maxstar-ae5 test 1, mborys01 passed
+given maxstar-ae5 test 1, enicol01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, dreif01 passed
+given maxstar-ae5 test 1, graymo01 passed
+given maxstar-ae5 test 1, ahamli02 passed
+given maxstar-ae5 test 1, czuber01 passed
+given maxstar-ae5 test 1, sratta01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, apolya01 passed
+given maxstar-ae5 test 1, cbrink passed
+given maxstar-ae5 test 1, mmcgow02 passed
+given maxstar-ae5 test 1, ahay01 passed
+given maxstar-ae5 test 1, ewu02 passed
+given maxstar-ae5 test 1, cgrama01 passed
+given maxstar-ae5 test 1, ryagud01 passed
+given maxstar-ae5 test 1, ccann failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, fschot01 passed
+given maxstar-ae5 test 1, ealter01 passed
+given maxstar-ae5 test 1, jwilde01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, jliebo01 passed
+given maxstar-ae5 test 1, mbulia01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, bakasl01 passed
+given maxstar-ae5 test 1, akuan01 passed
+given maxstar-ae5 test 1, malex failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, tlim02 passed
+given maxstar-ae5 test 1, jtorru01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, ead36 passed
+given maxstar-ae5 test 1, mgolds07 passed
+given maxstar-ae5 test 1, wbutt01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, spanut01 passed
+given maxstar-ae5 test 1, abell01 passed
+given maxstar-ae5 test 1, dfortu01 passed
+given maxstar-ae5 test 1, shalst01 passed
+given maxstar-ae5 test 1, clangb01 passed
+given maxstar-ae5 test 1, amcgla01 passed
+given maxstar-ae5 test 1, naiken02 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, mnoble01 passed
+given maxstar-ae5 test 1, akhaku01 passed
+given maxstar-ae5 test 1, byukse01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, wholah01 passed
+given maxstar-ae5 test 1, deder01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, mbfrey passed
+given maxstar-ae5 test 1, csmith05 passed
+given maxstar-ae5 test 1, jglazi01 passed
+given maxstar-ae5 test 1, jmonte03 passed
+given maxstar-ae5 test 1, alevin01 passed
+given maxstar-ae5 test 1, jlockw01 failed -- Your (max* (-3)) returned 0, but the maximum is -3
+given maxstar-ae5 test 1, shaney02 passed
+given maxstar-ae5 test 1, mmoute01 passed
+given maxstar-ae5 test 1, gbodwi01 passed
+given product-65ba test 1, mborys01 passed
+given product-65ba test 1, enicol01 passed
+given product-65ba test 1, dreif01 passed
+given product-65ba test 1, graymo01 passed
+given product-65ba test 1, ahamli02 passed
+given product-65ba test 1, czuber01 passed
+given product-65ba test 1, sratta01 passed
+given product-65ba test 1, apolya01 passed
+given product-65ba test 1, cbrink passed
+given product-65ba test 1, mmcgow02 passed
+given product-65ba test 1, ahay01 passed
+given product-65ba test 1, ewu02 passed
+given product-65ba test 1, cgrama01 passed
+given product-65ba test 1, ryagud01 passed
+given product-65ba test 1, ccann passed
+given product-65ba test 1, fschot01 passed
+given product-65ba test 1, ealter01 passed
+given product-65ba test 1, jwilde01 passed
+given product-65ba test 1, jliebo01 passed
+given product-65ba test 1, mbulia01 passed
+given product-65ba test 1, bakasl01 passed
+given product-65ba test 1, malex passed
+given product-65ba test 1, tlim02 passed
+given product-65ba test 1, jtorru01 passed
+given product-65ba test 1, ead36 passed
+given product-65ba test 1, mgolds07 passed
+given product-65ba test 1, wbutt01 passed
+given product-65ba test 1, spanut01 passed
+given product-65ba test 1, csmith05 passed
+given product-65ba test 1, dfortu01 passed
+given product-65ba test 1, shalst01 passed
+given product-65ba test 1, clangb01 passed
+given product-65ba test 1, amcgla01 passed
+given product-65ba test 1, naiken02 passed
+given product-65ba test 1, mnoble01 passed
+given product-65ba test 1, akhaku01 passed
+given product-65ba test 1, byukse01 passed
+given product-65ba test 1, wholah01 passed
+given product-65ba test 1, deder01 passed
+given product-65ba test 1, mbfrey passed
+given product-65ba test 1, jmonte03 passed
+given product-65ba test 1, jglazi01 passed
+given product-65ba test 1, jlockw01 passed
+given product-65ba test 1, alevin01 passed
+given product-65ba test 1, abell01 passed
+given product-65ba test 1, shaney02 passed
+given product-65ba test 1, mmoute01 passed
+given product-65ba test 1, gbodwi01 passed
+given qsort-len-list-85a test 1, mborys01 passed
+given qsort-len-list-85a test 1, enicol01 errored -- qsort-len-list caused a run-time error: variable ys not found
+given qsort-len-list-85a test 1, dreif01 passed
+given qsort-len-list-85a test 1, graymo01 passed
+given qsort-len-list-85a test 1, ahamli02 passed
+given qsort-len-list-85a test 1, czuber01 passed
+given qsort-len-list-85a test 1, sratta01 errored -- qsort-len-list caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (10 12 14 -3 14 16 11 -18 11 -11 0 13 -18 -10 -7 -8 -7 -9) in 61f
+given qsort-len-list-85a test 1, apolya01 passed
+given qsort-len-list-85a test 1, cbrink passed
+given qsort-len-list-85a test 1, mmcgow02 passed
+given qsort-len-list-85a test 1, ahay01 passed
+given qsort-len-list-85a test 1, ewu02 passed
+given qsort-len-list-85a test 1, cgrama01 passed
+given qsort-len-list-85a test 1, ryagud01 errored -- qsort-len-list caused a run-time error: variable nr.length not found
+given qsort-len-list-85a test 1, ccann passed
+given qsort-len-list-85a test 1, fschot01 passed
+given qsort-len-list-85a test 1, ealter01 passed
+given qsort-len-list-85a test 1, jwilde01 passed
+given qsort-len-list-85a test 1, jliebo01 errored -- qsort-len-list caused a run-time error: Recursion too deep
+given qsort-len-list-85a test 1, mbulia01 passed
+given qsort-len-list-85a test 1, bakasl01 passed
+given qsort-len-list-85a test 1, malex passed
+given qsort-len-list-85a test 1, ead36 passed
+given qsort-len-list-85a test 1, wbutt01 passed
+given qsort-len-list-85a test 1, mgolds07 passed
+given qsort-len-list-85a test 1, tlim02 errored -- qsort-len-list caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-len-list-85a test 1, spanut01 passed
+given qsort-len-list-85a test 1, dfortu01 passed
+given qsort-len-list-85a test 1, csmith05 passed
+given qsort-len-list-85a test 1, clangb01 passed
+given qsort-len-list-85a test 1, amcgla01 passed
+given qsort-len-list-85a test 1, shalst01 passed
+given qsort-len-list-85a test 1, mnoble01 passed
+given qsort-len-list-85a test 1, akhaku01 passed
+given qsort-len-list-85a test 1, byukse01 errored -- qsort-len-list caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-len-list-85a test 1, wholah01 passed
+given qsort-len-list-85a test 1, deder01 passed
+given qsort-len-list-85a test 1, mbfrey passed
+given qsort-len-list-85a test 1, jmonte03 errored -- qsort-len-list caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-len-list-85a test 1, jglazi01 errored -- qsort-len-list caused a run-time error: variable pivot not found
+given qsort-len-list-85a test 1, jlockw01 passed
+given qsort-len-list-85a test 1, alevin01 errored -- qsort-len-list caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-len-list-85a test 1, abell01 passed
+given qsort-len-list-85a test 1, shaney02 passed
+given qsort-len-list-85a test 1, mmoute01 passed
+given qsort-len-list-85a test 1, gbodwi01 passed
+given qsort-len-list-f52d test 1, mborys01 passed
+given qsort-len-list-f52d test 1, enicol01 errored -- qsort-len-list caused a run-time error: variable ys not found
+given qsort-len-list-f52d test 1, dreif01 passed
+given qsort-len-list-f52d test 1, graymo01 passed
+given qsort-len-list-f52d test 1, ahamli02 passed
+given qsort-len-list-f52d test 1, czuber01 passed
+given qsort-len-list-f52d test 1, sratta01 passed
+given qsort-len-list-f52d test 1, apolya01 passed
+given qsort-len-list-f52d test 1, cbrink passed
+given qsort-len-list-f52d test 1, mmcgow02 passed
+given qsort-len-list-f52d test 1, ahay01 passed
+given qsort-len-list-f52d test 1, ewu02 passed
+given qsort-len-list-f52d test 1, cgrama01 passed
+given qsort-len-list-f52d test 1, ryagud01 errored -- qsort-len-list caused a run-time error: variable nr.length not found
+given qsort-len-list-f52d test 1, ccann passed
+given qsort-len-list-f52d test 1, fschot01 passed
+given qsort-len-list-f52d test 1, ealter01 passed
+given qsort-len-list-f52d test 1, jwilde01 passed
+given qsort-len-list-f52d test 1, mbulia01 passed
+given qsort-len-list-f52d test 1, bakasl01 passed
+given qsort-len-list-f52d test 1, malex passed
+given qsort-len-list-f52d test 1, ead36 passed
+given qsort-len-list-f52d test 1, mgolds07 passed
+given qsort-len-list-f52d test 1, wbutt01 passed
+given qsort-len-list-f52d test 1, tlim02 errored -- qsort-len-list caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-len-list-f52d test 1, dfortu01 passed
+given qsort-len-list-f52d test 1, spanut01 passed
+given qsort-len-list-f52d test 1, clangb01 passed
+given qsort-len-list-f52d test 1, jlockw01 passed
+given qsort-len-list-f52d test 1, shalst01 passed
+given qsort-len-list-f52d test 1, mnoble01 passed
+given qsort-len-list-f52d test 1, akhaku01 passed
+given qsort-len-list-f52d test 1, gbodwi01 passed
+given qsort-len-list-f52d test 1, wholah01 passed
+given qsort-len-list-f52d test 1, deder01 passed
+given qsort-len-list-f52d test 1, mbfrey passed
+given qsort-len-list-f52d test 1, abell01 passed
+given qsort-len-list-f52d test 1, jglazi01 passed
+given qsort-len-list-f52d test 1, jmonte03 errored -- qsort-len-list caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-len-list-f52d test 1, csmith05 passed
+given qsort-len-list-f52d test 1, byukse01 errored -- qsort-len-list caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-len-list-f52d test 1, shaney02 passed
+given qsort-len-list-f52d test 1, mmoute01 passed
+given qsort-len-list-f52d test 1, alevin01 errored -- qsort-len-list caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-perm-1db test 1, mborys01 passed
+given qsort-perm-1db test 1, enicol01 errored -- qsort-perm caused a run-time error: variable ys not found
+given qsort-perm-1db test 1, dreif01 passed
+given qsort-perm-1db test 1, graymo01 passed
+given qsort-perm-1db test 1, ahamli02 passed
+given qsort-perm-1db test 1, czuber01 passed
+given qsort-perm-1db test 1, sratta01 errored -- qsort-perm caused a run-time error: car applied to non-pair 16 in (car xs)
+given qsort-perm-1db test 1, apolya01 passed
+given qsort-perm-1db test 1, cbrink passed
+given qsort-perm-1db test 1, mmcgow02 passed
+given qsort-perm-1db test 1, ahay01 passed
+given qsort-perm-1db test 1, ewu02 passed
+given qsort-perm-1db test 1, cgrama01 passed
+given qsort-perm-1db test 1, ryagud01 passed
+given qsort-perm-1db test 1, ccann passed
+given qsort-perm-1db test 1, fschot01 passed
+given qsort-perm-1db test 1, ealter01 passed
+given qsort-perm-1db test 1, jwilde01 passed
+given qsort-perm-1db test 1, jliebo01 errored -- qsort-perm caused a run-time error: Recursion too deep
+given qsort-perm-1db test 1, mbulia01 passed
+given qsort-perm-1db test 1, bakasl01 passed
+given qsort-perm-1db test 1, akuan01 failed -- Your ((qsort >=) (-2 13 -6 -1 -14 -16 15 20 5 17 -19)) == (15 13 -1 -2 -6 -14 -16 -19), which is not a valid permuation of (-2 13 -6 -1 -14 -16 15 20 5 17 -19).
+given qsort-perm-1db test 1, malex passed
+given qsort-perm-1db test 1, tlim02 errored -- qsort-perm caused a run-time error: in (f x y), expected an integer, but got <procedure>
+given qsort-perm-1db test 1, ead36 passed
+given qsort-perm-1db test 1, mgolds07 passed
+given qsort-perm-1db test 1, wbutt01 passed
+given qsort-perm-1db test 1, spanut01 passed
+given qsort-perm-1db test 1, abell01 passed
+given qsort-perm-1db test 1, dfortu01 passed
+given qsort-perm-1db test 1, shalst01 passed
+given qsort-perm-1db test 1, clangb01 passed
+given qsort-perm-1db test 1, amcgla01 passed
+given qsort-perm-1db test 1, naiken02 passed
+given qsort-perm-1db test 1, mnoble01 passed
+given qsort-perm-1db test 1, akhaku01 passed
+given qsort-perm-1db test 1, byukse01 errored -- qsort-perm caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-perm-1db test 1, wholah01 passed
+given qsort-perm-1db test 1, deder01 passed
+given qsort-perm-1db test 1, mbfrey passed
+given qsort-perm-1db test 1, csmith05 passed
+given qsort-perm-1db test 1, jglazi01 errored -- qsort-perm caused a run-time error: variable pivot not found
+given qsort-perm-1db test 1, jmonte03 errored -- qsort-perm caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-perm-1db test 1, alevin01 errored -- qsort-perm caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-perm-1db test 1, jlockw01 passed
+given qsort-perm-1db test 1, shaney02 passed
+given qsort-perm-1db test 1, mmoute01 passed
+given qsort-perm-1db test 1, gbodwi01 passed
+given qsort-perm-list-201 test 1, mborys01 passed
+given qsort-perm-list-201 test 1, enicol01 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: variable ys not found
+given qsort-perm-list-201 test 1, dreif01 passed
+given qsort-perm-list-201 test 1, graymo01 passed
+given qsort-perm-list-201 test 1, ahamli02 passed
+given qsort-perm-list-201 test 1, czuber01 passed
+given qsort-perm-list-201 test 1, sratta01 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (20 16 -17 -18 -6 14 12 10 -13 -1 -14 12 11 -2 -9 15 -4) in 61f
+given qsort-perm-list-201 test 1, apolya01 passed
+given qsort-perm-list-201 test 1, cbrink passed
+given qsort-perm-list-201 test 1, mmcgow02 passed
+given qsort-perm-list-201 test 1, ahay01 passed
+given qsort-perm-list-201 test 1, ewu02 passed
+given qsort-perm-list-201 test 1, cgrama01 passed
+given qsort-perm-list-201 test 1, ryagud01 passed
+given qsort-perm-list-201 test 1, ccann passed
+given qsort-perm-list-201 test 1, fschot01 passed
+given qsort-perm-list-201 test 1, ealter01 passed
+given qsort-perm-list-201 test 1, jwilde01 passed
+given qsort-perm-list-201 test 1, naiken02 failed -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) == ((-17 -8 -14 10 -13 2 12) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (15 -5 -19 14 1 15 7 -14 17 -5 9 17 10)), which is not a valid permuation of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)).
+given qsort-perm-list-201 test 1, mbulia01 passed
+given qsort-perm-list-201 test 1, bakasl01 passed
+given qsort-perm-list-201 test 1, akuan01 passed
+given qsort-perm-list-201 test 1, malex passed
+given qsort-perm-list-201 test 1, ead36 passed
+given qsort-perm-list-201 test 1, mgolds07 passed
+given qsort-perm-list-201 test 1, wbutt01 passed
+given qsort-perm-list-201 test 1, tlim02 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-perm-list-201 test 1, dfortu01 passed
+given qsort-perm-list-201 test 1, spanut01 passed
+given qsort-perm-list-201 test 1, clangb01 passed
+given qsort-perm-list-201 test 1, jlockw01 passed
+given qsort-perm-list-201 test 1, shalst01 passed
+given qsort-perm-list-201 test 1, mnoble01 passed
+given qsort-perm-list-201 test 1, akhaku01 passed
+given qsort-perm-list-201 test 1, byukse01 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-perm-list-201 test 1, wholah01 passed
+given qsort-perm-list-201 test 1, deder01 passed
+given qsort-perm-list-201 test 1, mbfrey passed
+given qsort-perm-list-201 test 1, csmith05 passed
+given qsort-perm-list-201 test 1, jglazi01 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: variable pivot not found
+given qsort-perm-list-201 test 1, jmonte03 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-perm-list-201 test 1, alevin01 errored -- Your quicksort of ((15 -5 -19 14 1 15 7 -14 17 -5 9 17 10) (-13 3 -10 -9 7 5 -1 20 11 -1 11 -11) (-17 -8 -14 10 -13 2 12) () (6) (-12 2 -17 17 -2 13 0 6 -4 10 18 -18 -5 -4) () (16 13 -4) (17 9 -3 7 16) (-2 17 -19 -17 4 -11 6 7 -14 -17 0 7 10 16 -3 7 19 12 -17 20) (19 13 -6 -11 9 -18 6 -4 19 5 14 15 6 18 -2 16 3 -16 -18 7) (9 -4 0 -15 -17 -2 18 -14 -2 16 -16 -10) (-7 20 -7 20 -5) (4 -11 -15 -10 -14) (-15 9 9 -13 -5 -7 17 12 13 -19 15 -9) (-19 9 16 -15 20 -14 -1 19 -1 -1 -6 10 -17 3 16 -7 9 0 -2 -2)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-perm-list-201 test 1, abell01 passed
+given qsort-perm-list-201 test 1, shaney02 passed
+given qsort-perm-list-201 test 1, mmoute01 passed
+given qsort-perm-list-201 test 1, gbodwi01 passed
+given qsort-perm-list-2b35 test 1, mborys01 passed
+given qsort-perm-list-2b35 test 1, enicol01 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: variable ys not found
+given qsort-perm-list-2b35 test 1, dreif01 passed
+given qsort-perm-list-2b35 test 1, graymo01 passed
+given qsort-perm-list-2b35 test 1, ahamli02 passed
+given qsort-perm-list-2b35 test 1, czuber01 passed
+given qsort-perm-list-2b35 test 1, sratta01 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (-7 12 17 -13 -11 -4 -8 18) in 61f
+given qsort-perm-list-2b35 test 1, apolya01 passed
+given qsort-perm-list-2b35 test 1, cbrink passed
+given qsort-perm-list-2b35 test 1, mmcgow02 passed
+given qsort-perm-list-2b35 test 1, ahay01 passed
+given qsort-perm-list-2b35 test 1, ewu02 passed
+given qsort-perm-list-2b35 test 1, cgrama01 passed
+given qsort-perm-list-2b35 test 1, ryagud01 passed
+given qsort-perm-list-2b35 test 1, ccann passed
+given qsort-perm-list-2b35 test 1, fschot01 passed
+given qsort-perm-list-2b35 test 1, ealter01 passed
+given qsort-perm-list-2b35 test 1, jwilde01 passed
+given qsort-perm-list-2b35 test 1, naiken02 passed
+given qsort-perm-list-2b35 test 1, mbulia01 passed
+given qsort-perm-list-2b35 test 1, bakasl01 passed
+given qsort-perm-list-2b35 test 1, akuan01 passed
+given qsort-perm-list-2b35 test 1, malex passed
+given qsort-perm-list-2b35 test 1, ead36 passed
+given qsort-perm-list-2b35 test 1, mgolds07 passed
+given qsort-perm-list-2b35 test 1, wbutt01 passed
+given qsort-perm-list-2b35 test 1, tlim02 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-perm-list-2b35 test 1, dfortu01 passed
+given qsort-perm-list-2b35 test 1, spanut01 passed
+given qsort-perm-list-2b35 test 1, clangb01 passed
+given qsort-perm-list-2b35 test 1, jlockw01 passed
+given qsort-perm-list-2b35 test 1, shalst01 passed
+given qsort-perm-list-2b35 test 1, mnoble01 passed
+given qsort-perm-list-2b35 test 1, akhaku01 passed
+given qsort-perm-list-2b35 test 1, byukse01 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-perm-list-2b35 test 1, wholah01 passed
+given qsort-perm-list-2b35 test 1, deder01 passed
+given qsort-perm-list-2b35 test 1, mbfrey passed
+given qsort-perm-list-2b35 test 1, csmith05 passed
+given qsort-perm-list-2b35 test 1, jglazi01 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: variable pivot not found
+given qsort-perm-list-2b35 test 1, jmonte03 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-perm-list-2b35 test 1, alevin01 errored -- Your quicksort of ((14 1 -19 -3 -18 -12 -7 14 -4 17 -20 11 4 -19 15 12) (17 20 6 -1 -6 15 -2 -3 20) (2 -17 11 -7 17 -9 -6 -6 -6 2 7) (18 3 -12 8)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-perm-list-2b35 test 1, abell01 passed
+given qsort-perm-list-2b35 test 1, shaney02 passed
+given qsort-perm-list-2b35 test 1, mmoute01 passed
+given qsort-perm-list-2b35 test 1, gbodwi01 passed
+given qsort-sorted-807 test 1, mborys01 passed
+given qsort-sorted-807 test 1, enicol01 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: variable ys not found
+given qsort-sorted-807 test 1, dreif01 passed
+given qsort-sorted-807 test 1, graymo01 passed
+given qsort-sorted-807 test 1, ahamli02 passed
+given qsort-sorted-807 test 1, czuber01 passed
+given qsort-sorted-807 test 1, sratta01 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: car applied to non-pair -16 in (car xs)
+given qsort-sorted-807 test 1, apolya01 failed -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) == (19 19 18 17 15 12 12 11 6 5 2 -1 -4 -6 -12), which is not sorted according to <
+given qsort-sorted-807 test 1, cbrink passed
+given qsort-sorted-807 test 1, mmcgow02 passed
+given qsort-sorted-807 test 1, ahay01 passed
+given qsort-sorted-807 test 1, ewu02 passed
+given qsort-sorted-807 test 1, cgrama01 failed -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) == (19 19 18 17 15 12 12 11 6 5 2 -1 -4 -6 -12), which is not sorted according to <
+given qsort-sorted-807 test 1, ryagud01 passed
+given qsort-sorted-807 test 1, ccann passed
+given qsort-sorted-807 test 1, fschot01 passed
+given qsort-sorted-807 test 1, ealter01 passed
+given qsort-sorted-807 test 1, jwilde01 passed
+given qsort-sorted-807 test 1, jliebo01 passed
+given qsort-sorted-807 test 1, mbulia01 passed
+given qsort-sorted-807 test 1, bakasl01 passed
+given qsort-sorted-807 test 1, akuan01 passed
+given qsort-sorted-807 test 1, malex passed
+given qsort-sorted-807 test 1, ead36 failed -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) == (19 19 18 6 11 15 12 12 17 5 -4 -1 2 -6 -12), which is not sorted according to <
+given qsort-sorted-807 test 1, wbutt01 failed -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) == (19 19 18 17 15 12 12 11 6 5 2 -1 -4 -6 -12), which is not sorted according to <
+given qsort-sorted-807 test 1, mgolds07 passed
+given qsort-sorted-807 test 1, tlim02 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: in (< x y), expected an integer, but got <procedure>
+given qsort-sorted-807 test 1, spanut01 failed -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) == (18 5 -6 -12 -1 -4 2 17 11 6 12 12 15 19 19), which is not sorted according to <
+given qsort-sorted-807 test 1, dfortu01 passed
+given qsort-sorted-807 test 1, abell01 passed
+given qsort-sorted-807 test 1, clangb01 passed
+given qsort-sorted-807 test 1, shalst01 passed
+given qsort-sorted-807 test 1, naiken02 passed
+given qsort-sorted-807 test 1, mnoble01 passed
+given qsort-sorted-807 test 1, akhaku01 passed
+given qsort-sorted-807 test 1, byukse01 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-807 test 1, wholah01 passed
+given qsort-sorted-807 test 1, deder01 passed
+given qsort-sorted-807 test 1, mbfrey passed
+given qsort-sorted-807 test 1, csmith05 passed
+given qsort-sorted-807 test 1, jglazi01 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: variable pivot not found
+given qsort-sorted-807 test 1, jmonte03 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-sorted-807 test 1, alevin01 errored -- Your ((qsort <) (18 19 19 5 -6 17 11 12 -1 15 -4 -12 6 2 12)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-sorted-807 test 1, jlockw01 passed
+given qsort-sorted-807 test 1, shaney02 passed
+given qsort-sorted-807 test 1, mmoute01 passed
+given qsort-sorted-807 test 1, gbodwi01 passed
+given qsort-sorted-f52d test 1, mborys01 passed
+given qsort-sorted-f52d test 1, enicol01 errored -- Your ((qsort >=) ()) caused a run-time error: variable ys not found
+given qsort-sorted-f52d test 1, dreif01 passed
+given qsort-sorted-f52d test 1, graymo01 passed
+given qsort-sorted-f52d test 1, ahamli02 passed
+given qsort-sorted-f52d test 1, czuber01 passed
+given qsort-sorted-f52d test 1, sratta01 passed
+given qsort-sorted-f52d test 1, apolya01 passed
+given qsort-sorted-f52d test 1, cbrink passed
+given qsort-sorted-f52d test 1, mmcgow02 passed
+given qsort-sorted-f52d test 1, ahay01 passed
+given qsort-sorted-f52d test 1, ewu02 passed
+given qsort-sorted-f52d test 1, cgrama01 passed
+given qsort-sorted-f52d test 1, ryagud01 passed
+given qsort-sorted-f52d test 1, ccann passed
+given qsort-sorted-f52d test 1, fschot01 passed
+given qsort-sorted-f52d test 1, ealter01 passed
+given qsort-sorted-f52d test 1, jwilde01 passed
+given qsort-sorted-f52d test 1, jliebo01 passed
+given qsort-sorted-f52d test 1, mbulia01 passed
+given qsort-sorted-f52d test 1, bakasl01 passed
+given qsort-sorted-f52d test 1, akuan01 passed
+given qsort-sorted-f52d test 1, malex passed
+given qsort-sorted-f52d test 1, ead36 passed
+given qsort-sorted-f52d test 1, wbutt01 passed
+given qsort-sorted-f52d test 1, mgolds07 passed
+given qsort-sorted-f52d test 1, tlim02 errored -- Your ((qsort >=) ()) caused a run-time error: in (< x y), expected an integer, but got <procedure>
+given qsort-sorted-f52d test 1, spanut01 passed
+given qsort-sorted-f52d test 1, dfortu01 passed
+given qsort-sorted-f52d test 1, abell01 passed
+given qsort-sorted-f52d test 1, clangb01 passed
+given qsort-sorted-f52d test 1, shalst01 passed
+given qsort-sorted-f52d test 1, naiken02 passed
+given qsort-sorted-f52d test 1, mnoble01 passed
+given qsort-sorted-f52d test 1, akhaku01 passed
+given qsort-sorted-f52d test 1, byukse01 errored -- Your ((qsort >=) ()) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-f52d test 1, wholah01 passed
+given qsort-sorted-f52d test 1, deder01 passed
+given qsort-sorted-f52d test 1, mbfrey passed
+given qsort-sorted-f52d test 1, csmith05 passed
+given qsort-sorted-f52d test 1, jglazi01 passed
+given qsort-sorted-f52d test 1, jmonte03 errored -- Your ((qsort >=) ()) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-sorted-f52d test 1, alevin01 errored -- Your ((qsort >=) ()) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-sorted-f52d test 1, jlockw01 passed
+given qsort-sorted-f52d test 1, shaney02 passed
+given qsort-sorted-f52d test 1, mmoute01 passed
+given qsort-sorted-f52d test 1, gbodwi01 passed
+given qsort-sorted-list-92a test 1, mborys01 passed
+given qsort-sorted-list-92a test 1, enicol01 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: variable ys not found
+given qsort-sorted-list-92a test 1, dreif01 passed
+given qsort-sorted-list-92a test 1, graymo01 passed
+given qsort-sorted-list-92a test 1, ahamli02 passed
+given qsort-sorted-list-92a test 1, czuber01 passed
+given qsort-sorted-list-92a test 1, sratta01 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (-15 -8 -3 14 -15) in 61f
+given qsort-sorted-list-92a test 1, apolya01 failed -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) == ((-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (16 12 10 9 10 -11 5 5)), which is not sorted by a lexicographic >=
+given qsort-sorted-list-92a test 1, cbrink passed
+given qsort-sorted-list-92a test 1, mmcgow02 passed
+given qsort-sorted-list-92a test 1, ahay01 passed
+given qsort-sorted-list-92a test 1, ewu02 passed
+given qsort-sorted-list-92a test 1, cgrama01 failed -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) == ((-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (16 12 10 9 10 -11 5 5)), which is not sorted by a lexicographic >=
+given qsort-sorted-list-92a test 1, ryagud01 passed
+given qsort-sorted-list-92a test 1, ccann passed
+given qsort-sorted-list-92a test 1, fschot01 passed
+given qsort-sorted-list-92a test 1, ealter01 passed
+given qsort-sorted-list-92a test 1, jwilde01 passed
+given qsort-sorted-list-92a test 1, naiken02 passed
+given qsort-sorted-list-92a test 1, mbulia01 passed
+given qsort-sorted-list-92a test 1, bakasl01 passed
+given qsort-sorted-list-92a test 1, akuan01 passed
+given qsort-sorted-list-92a test 1, malex passed
+given qsort-sorted-list-92a test 1, ead36 failed -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) == ((14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (16 12 10 9 10 -11 5 5)), which is not sorted by a lexicographic >=
+given qsort-sorted-list-92a test 1, mgolds07 passed
+given qsort-sorted-list-92a test 1, wbutt01 failed -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) == ((-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (16 12 10 9 10 -11 5 5)), which is not sorted by a lexicographic >=
+given qsort-sorted-list-92a test 1, tlim02 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-92a test 1, dfortu01 passed
+given qsort-sorted-list-92a test 1, spanut01 passed
+given qsort-sorted-list-92a test 1, clangb01 passed
+given qsort-sorted-list-92a test 1, jlockw01 passed
+given qsort-sorted-list-92a test 1, shalst01 passed
+given qsort-sorted-list-92a test 1, mnoble01 passed
+given qsort-sorted-list-92a test 1, akhaku01 passed
+given qsort-sorted-list-92a test 1, byukse01 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-92a test 1, wholah01 passed
+given qsort-sorted-list-92a test 1, deder01 passed
+given qsort-sorted-list-92a test 1, mbfrey passed
+given qsort-sorted-list-92a test 1, csmith05 passed
+given qsort-sorted-list-92a test 1, jglazi01 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: variable pivot not found
+given qsort-sorted-list-92a test 1, jmonte03 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-sorted-list-92a test 1, alevin01 errored -- Your quicksort of ((16 12 10 9 10 -11 5 5) (14 -7 12 -17 -15 -6 18 -16 -5 17 17 3 -3 -1 -3 9) (1 -16 -10 10 -1 -15 2 -11 15 -9 -2 0) (-11 -7 -11 -20 -3 -5 -5 -6 0 10 -10 -3 -8 8 16 9 -4 0 -10)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-sorted-list-92a test 1, abell01 passed
+given qsort-sorted-list-92a test 1, shaney02 passed
+given qsort-sorted-list-92a test 1, mmoute01 passed
+given qsort-sorted-list-92a test 1, gbodwi01 passed
+given qsort-sorted-list-94b test 1, mborys01 passed
+given qsort-sorted-list-94b test 1, enicol01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: variable ys not found
+given qsort-sorted-list-94b test 1, dreif01 passed
+given qsort-sorted-list-94b test 1, graymo01 passed
+given qsort-sorted-list-94b test 1, ahamli02 passed
+given qsort-sorted-list-94b test 1, czuber01 passed
+given qsort-sorted-list-94b test 1, sratta01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (-19 -9 -2 8 11 -18 6 2 -15 -8 -1 -12 -14 19 -12 -17) in 61f
+given qsort-sorted-list-94b test 1, apolya01 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == ((19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (5 12 -15 -9 -6 -10 -11) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-9 1 13 5 11 -18 -13 -18 17 -4 4) ()), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, cbrink passed
+given qsort-sorted-list-94b test 1, mmcgow02 passed
+given qsort-sorted-list-94b test 1, ahay01 passed
+given qsort-sorted-list-94b test 1, ewu02 passed
+given qsort-sorted-list-94b test 1, cgrama01 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == ((19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (5 12 -15 -9 -6 -10 -11) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-9 1 13 5 11 -18 -13 -18 17 -4 4) ()), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, ryagud01 passed
+given qsort-sorted-list-94b test 1, ccann passed
+given qsort-sorted-list-94b test 1, fschot01 passed
+given qsort-sorted-list-94b test 1, ealter01 passed
+given qsort-sorted-list-94b test 1, jwilde01 passed
+given qsort-sorted-list-94b test 1, jliebo01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: Recursion too deep
+given qsort-sorted-list-94b test 1, mbulia01 passed
+given qsort-sorted-list-94b test 1, bakasl01 passed
+given qsort-sorted-list-94b test 1, akuan01 passed
+given qsort-sorted-list-94b test 1, malex passed
+given qsort-sorted-list-94b test 1, tlim02 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-94b test 1, ead36 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == ((-9 1 13 5 11 -18 -13 -18 17 -4 4) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (5 12 -15 -9 -6 -10 -11) (10 -14 20 -14 1 18 -16 -14 -5) (14 18 -10 -9) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) ()), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, mgolds07 passed
+given qsort-sorted-list-94b test 1, wbutt01 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == ((19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (5 12 -15 -9 -6 -10 -11) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-9 1 13 5 11 -18 -13 -18 17 -4 4) ()), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, spanut01 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, abell01 failed -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) == (() (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5) (5 12 -15 -9 -6 -10 -11) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (10 -14 20 -14 1 18 -16 -14 -5) (14 18 -10 -9) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-94b test 1, dfortu01 passed
+given qsort-sorted-list-94b test 1, shalst01 passed
+given qsort-sorted-list-94b test 1, clangb01 passed
+given qsort-sorted-list-94b test 1, amcgla01 passed
+given qsort-sorted-list-94b test 1, naiken02 passed
+given qsort-sorted-list-94b test 1, mnoble01 passed
+given qsort-sorted-list-94b test 1, akhaku01 passed
+given qsort-sorted-list-94b test 1, byukse01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-94b test 1, wholah01 passed
+given qsort-sorted-list-94b test 1, deder01 passed
+given qsort-sorted-list-94b test 1, mbfrey passed
+given qsort-sorted-list-94b test 1, csmith05 passed
+given qsort-sorted-list-94b test 1, jglazi01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: variable pivot not found
+given qsort-sorted-list-94b test 1, jmonte03 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-sorted-list-94b test 1, alevin01 errored -- Your quicksort of (() (5 12 -15 -9 -6 -10 -11) (-9 15 -11 1 16 -18 9 -10 9 -13 -9) (6 4 -6 -8 3 -3 -3 -19 17 -1 -5) (-9 1 13 5 11 -18 -13 -18 17 -4 4) (-1 -7 -18 -13 0 -6 9 -14 18 -18 -2 1 -1 16 2 -4 -6) (19 5 -2 11 -10 -11 14 -3 -9 11 14 15 3 -8 -13 6 -1 8 20) (14 18 -10 -9) (10 -14 20 -14 1 18 -16 -14 -5) (-4 5 9 14 16 -1 8 11 -18 20 19 8 -1 6 7 7 0 5)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-sorted-list-94b test 1, jlockw01 passed
+given qsort-sorted-list-94b test 1, shaney02 passed
+given qsort-sorted-list-94b test 1, mmoute01 passed
+given qsort-sorted-list-94b test 1, gbodwi01 passed
+given qsort-sorted-list-b05d test 1, mborys01 passed
+given qsort-sorted-list-b05d test 1, enicol01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: variable ys not found
+given qsort-sorted-list-b05d test 1, dreif01 passed
+given qsort-sorted-list-b05d test 1, graymo01 passed
+given qsort-sorted-list-b05d test 1, ahamli02 passed
+given qsort-sorted-list-b05d test 1, czuber01 passed
+given qsort-sorted-list-b05d test 1, sratta01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: (foldr cons ((qsort c?) (filter (lambda (n) (not (c? n als))) dls)) (foldr cons als ((qsort c?) (filter (lambda (n) (c? n als)) dls)))) evaluates to non-function (10 -14 20 -14 1 18 -16 -14 -5) in 61f
+given qsort-sorted-list-b05d test 1, apolya01 failed -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) == ((20 -13 7 -10 -1) (12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-b05d test 1, cbrink passed
+given qsort-sorted-list-b05d test 1, mmcgow02 passed
+given qsort-sorted-list-b05d test 1, ahay01 passed
+given qsort-sorted-list-b05d test 1, ewu02 passed
+given qsort-sorted-list-b05d test 1, cgrama01 failed -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) == ((20 -13 7 -10 -1) (12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-b05d test 1, ryagud01 passed
+given qsort-sorted-list-b05d test 1, ccann passed
+given qsort-sorted-list-b05d test 1, fschot01 passed
+given qsort-sorted-list-b05d test 1, ealter01 passed
+given qsort-sorted-list-b05d test 1, jwilde01 passed
+given qsort-sorted-list-b05d test 1, jliebo01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: Recursion too deep
+given qsort-sorted-list-b05d test 1, mbulia01 passed
+given qsort-sorted-list-b05d test 1, bakasl01 passed
+given qsort-sorted-list-b05d test 1, akuan01 passed
+given qsort-sorted-list-b05d test 1, malex passed
+given qsort-sorted-list-b05d test 1, tlim02 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-b05d test 1, ead36 failed -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) == ((20 -13 7 -10 -1) (12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-b05d test 1, mgolds07 passed
+given qsort-sorted-list-b05d test 1, wbutt01 failed -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) == ((20 -13 7 -10 -1) (12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-b05d test 1, spanut01 failed -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) == ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15) (20 -13 7 -10 -1)), which is not sorted by a lexicographic <=
+given qsort-sorted-list-b05d test 1, abell01 passed
+given qsort-sorted-list-b05d test 1, dfortu01 passed
+given qsort-sorted-list-b05d test 1, shalst01 passed
+given qsort-sorted-list-b05d test 1, clangb01 passed
+given qsort-sorted-list-b05d test 1, amcgla01 passed
+given qsort-sorted-list-b05d test 1, naiken02 passed
+given qsort-sorted-list-b05d test 1, mnoble01 passed
+given qsort-sorted-list-b05d test 1, akhaku01 passed
+given qsort-sorted-list-b05d test 1, byukse01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: car applied to non-pair <procedure> in (car xs)
+given qsort-sorted-list-b05d test 1, wholah01 passed
+given qsort-sorted-list-b05d test 1, deder01 passed
+given qsort-sorted-list-b05d test 1, mbfrey passed
+given qsort-sorted-list-b05d test 1, csmith05 passed
+given qsort-sorted-list-b05d test 1, jglazi01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: variable pivot not found
+given qsort-sorted-list-b05d test 1, jmonte03 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: expected 3 but found 1 argument in (sort lt)
+given qsort-sorted-list-b05d test 1, alevin01 errored -- Your quicksort of ((12 -13 -4 -3 8 15) (0 11 -6 -7 7 17 6 -2 -12 -3 -14 19 -8 13 -10 8 -13 -20) (20 -13 7 -10 -1) (-3 16 17 -15 11 11 6 2 -16) (-12 -19 5 7 -11 -19 14 -12 -6 6 -2 -19 14 -1 -8 13 6 20 -18 -15)) caused a run-time error: expected 2 but found 1 argument in (sort lt)
+given qsort-sorted-list-b05d test 1, jlockw01 passed
+given qsort-sorted-list-b05d test 1, shaney02 passed
+given qsort-sorted-list-b05d test 1, mmoute01 passed
+given qsort-sorted-list-b05d test 1, gbodwi01 passed
+given reverse-length-5d40 test 1, mborys01 passed
+given reverse-length-5d40 test 1, enicol01 passed
+given reverse-length-5d40 test 1, dreif01 passed
+given reverse-length-5d40 test 1, graymo01 passed
+given reverse-length-5d40 test 1, ahamli02 passed
+given reverse-length-5d40 test 1, czuber01 passed
+given reverse-length-5d40 test 1, sratta01 passed
+given reverse-length-5d40 test 1, apolya01 passed
+given reverse-length-5d40 test 1, cbrink passed
+given reverse-length-5d40 test 1, mmcgow02 passed
+given reverse-length-5d40 test 1, ahay01 passed
+given reverse-length-5d40 test 1, ewu02 passed
+given reverse-length-5d40 test 1, cgrama01 passed
+given reverse-length-5d40 test 1, ryagud01 errored -- Calling (reverse (15 -18 -17 -19 -8 7 -14 -11 -13 -5 -6 10 0 12 3 0)) causes a run-time error: variable nr.length not found
+given reverse-length-5d40 test 1, ccann passed
+given reverse-length-5d40 test 1, fschot01 passed
+given reverse-length-5d40 test 1, ealter01 passed
+given reverse-length-5d40 test 1, jwilde01 passed
+given reverse-length-5d40 test 1, jliebo01 passed
+given reverse-length-5d40 test 1, mbulia01 passed
+given reverse-length-5d40 test 1, bakasl01 passed
+given reverse-length-5d40 test 1, akuan01 passed
+given reverse-length-5d40 test 1, malex passed
+given reverse-length-5d40 test 1, tlim02 passed
+given reverse-length-5d40 test 1, jtorru01 passed
+given reverse-length-5d40 test 1, ead36 passed
+given reverse-length-5d40 test 1, mgolds07 passed
+given reverse-length-5d40 test 1, wbutt01 passed
+given reverse-length-5d40 test 1, spanut01 passed
+given reverse-length-5d40 test 1, abell01 passed
+given reverse-length-5d40 test 1, dfortu01 passed
+given reverse-length-5d40 test 1, shalst01 passed
+given reverse-length-5d40 test 1, clangb01 passed
+given reverse-length-5d40 test 1, amcgla01 passed
+given reverse-length-5d40 test 1, naiken02 passed
+given reverse-length-5d40 test 1, mnoble01 passed
+given reverse-length-5d40 test 1, akhaku01 passed
+given reverse-length-5d40 test 1, byukse01 passed
+given reverse-length-5d40 test 1, wholah01 passed
+given reverse-length-5d40 test 1, deder01 passed
+given reverse-length-5d40 test 1, mbfrey passed
+given reverse-length-5d40 test 1, csmith05 passed
+given reverse-length-5d40 test 1, jglazi01 passed
+given reverse-length-5d40 test 1, jmonte03 passed
+given reverse-length-5d40 test 1, alevin01 passed
+given reverse-length-5d40 test 1, jlockw01 passed
+given reverse-length-5d40 test 1, shaney02 passed
+given reverse-length-5d40 test 1, mmoute01 passed
+given reverse-length-5d40 test 1, gbodwi01 passed
+given reverse-ref-4dd5e test 1, mborys01 passed
+given reverse-ref-4dd5e test 1, enicol01 passed
+given reverse-ref-4dd5e test 1, dreif01 passed
+given reverse-ref-4dd5e test 1, graymo01 passed
+given reverse-ref-4dd5e test 1, ahamli02 passed
+given reverse-ref-4dd5e test 1, czuber01 passed
+given reverse-ref-4dd5e test 1, sratta01 passed
+given reverse-ref-4dd5e test 1, apolya01 passed
+given reverse-ref-4dd5e test 1, cbrink passed
+given reverse-ref-4dd5e test 1, mmcgow02 passed
+given reverse-ref-4dd5e test 1, ahay01 passed
+given reverse-ref-4dd5e test 1, ewu02 passed
+given reverse-ref-4dd5e test 1, cgrama01 passed
+given reverse-ref-4dd5e test 1, ryagud01 passed
+given reverse-ref-4dd5e test 1, ccann passed
+given reverse-ref-4dd5e test 1, fschot01 passed
+given reverse-ref-4dd5e test 1, ealter01 passed
+given reverse-ref-4dd5e test 1, jwilde01 passed
+given reverse-ref-4dd5e test 1, jliebo01 passed
+given reverse-ref-4dd5e test 1, mbulia01 passed
+given reverse-ref-4dd5e test 1, bakasl01 passed
+given reverse-ref-4dd5e test 1, akuan01 passed
+given reverse-ref-4dd5e test 1, malex passed
+given reverse-ref-4dd5e test 1, tlim02 failed -- Calling (reverse (-8 0 -10 6 12 -10 -16 -17 4)) returns (-8 0 -10 6 12 -10 -16 -17 4) but the correct answer is (4 -17 -16 -10 12 6 -10 0 -8)
+given reverse-ref-4dd5e test 1, jtorru01 passed
+given reverse-ref-4dd5e test 1, ead36 passed
+given reverse-ref-4dd5e test 1, mgolds07 passed
+given reverse-ref-4dd5e test 1, wbutt01 passed
+given reverse-ref-4dd5e test 1, spanut01 passed
+given reverse-ref-4dd5e test 1, abell01 passed
+given reverse-ref-4dd5e test 1, dfortu01 passed
+given reverse-ref-4dd5e test 1, shalst01 passed
+given reverse-ref-4dd5e test 1, clangb01 passed
+given reverse-ref-4dd5e test 1, amcgla01 passed
+given reverse-ref-4dd5e test 1, naiken02 passed
+given reverse-ref-4dd5e test 1, mnoble01 passed
+given reverse-ref-4dd5e test 1, akhaku01 passed
+given reverse-ref-4dd5e test 1, byukse01 passed
+given reverse-ref-4dd5e test 1, wholah01 passed
+given reverse-ref-4dd5e test 1, deder01 passed
+given reverse-ref-4dd5e test 1, mbfrey passed
+given reverse-ref-4dd5e test 1, csmith05 passed
+given reverse-ref-4dd5e test 1, jglazi01 passed
+given reverse-ref-4dd5e test 1, jmonte03 passed
+given reverse-ref-4dd5e test 1, alevin01 passed
+given reverse-ref-4dd5e test 1, jlockw01 passed
+given reverse-ref-4dd5e test 1, shaney02 passed
+given reverse-ref-4dd5e test 1, mmoute01 passed
+given reverse-ref-4dd5e test 1, gbodwi01 passed
+given reverse-ref-852 test 1, mborys01 errored -- Calling (reverse ()) caused a run-time error: car applied to non-pair () in (car xs)
+given reverse-ref-852 test 1, enicol01 passed
+given reverse-ref-852 test 1, dreif01 errored -- Calling (reverse ()) caused a run-time error: car applied to non-pair () in (car xs)
+given reverse-ref-852 test 1, graymo01 passed
+given reverse-ref-852 test 1, ahamli02 passed
+given reverse-ref-852 test 1, czuber01 passed
+given reverse-ref-852 test 1, sratta01 passed
+given reverse-ref-852 test 1, apolya01 passed
+given reverse-ref-852 test 1, cbrink passed
+given reverse-ref-852 test 1, mmcgow02 passed
+given reverse-ref-852 test 1, ahay01 passed
+given reverse-ref-852 test 1, ewu02 passed
+given reverse-ref-852 test 1, cgrama01 passed
+given reverse-ref-852 test 1, ryagud01 passed
+given reverse-ref-852 test 1, ccann passed
+given reverse-ref-852 test 1, fschot01 passed
+given reverse-ref-852 test 1, ealter01 passed
+given reverse-ref-852 test 1, jwilde01 passed
+given reverse-ref-852 test 1, jliebo01 passed
+given reverse-ref-852 test 1, mbulia01 passed
+given reverse-ref-852 test 1, bakasl01 passed
+given reverse-ref-852 test 1, akuan01 passed
+given reverse-ref-852 test 1, malex passed
+given reverse-ref-852 test 1, tlim02 passed
+given reverse-ref-852 test 1, jtorru01 passed
+given reverse-ref-852 test 1, ead36 passed
+given reverse-ref-852 test 1, mgolds07 passed
+given reverse-ref-852 test 1, wbutt01 passed
+given reverse-ref-852 test 1, spanut01 passed
+given reverse-ref-852 test 1, abell01 passed
+given reverse-ref-852 test 1, dfortu01 passed
+given reverse-ref-852 test 1, shalst01 passed
+given reverse-ref-852 test 1, clangb01 passed
+given reverse-ref-852 test 1, amcgla01 passed
+given reverse-ref-852 test 1, naiken02 passed
+given reverse-ref-852 test 1, mnoble01 passed
+given reverse-ref-852 test 1, akhaku01 passed
+given reverse-ref-852 test 1, byukse01 passed
+given reverse-ref-852 test 1, wholah01 passed
+given reverse-ref-852 test 1, deder01 passed
+given reverse-ref-852 test 1, mbfrey passed
+given reverse-ref-852 test 1, csmith05 passed
+given reverse-ref-852 test 1, jglazi01 passed
+given reverse-ref-852 test 1, jmonte03 passed
+given reverse-ref-852 test 1, alevin01 passed
+given reverse-ref-852 test 1, jlockw01 passed
+given reverse-ref-852 test 1, shaney02 passed
+given reverse-ref-852 test 1, mmoute01 passed
+given reverse-ref-852 test 1, gbodwi01 passed
+given self-palindrome-81c test 1, mborys01 errored -- Your palindrome? predicate hit a run-time error: variable remove_dashes not found
+given self-palindrome-81c test 1, enicol01 passed
+given self-palindrome-81c test 1, dreif01 passed
+given self-palindrome-81c test 1, graymo01 passed
+given self-palindrome-81c test 1, ahamli02 passed
+given self-palindrome-81c test 1, czuber01 passed
+given self-palindrome-81c test 1, sratta01 passed
+given self-palindrome-81c test 1, abell01 passed
+given self-palindrome-81c test 1, cbrink passed
+given self-palindrome-81c test 1, mmcgow02 passed
+given self-palindrome-81c test 1, ahay01 passed
+given self-palindrome-81c test 1, ewu02 passed
+given self-palindrome-81c test 1, cgrama01 passed
+given self-palindrome-81c test 1, ryagud01 passed
+given self-palindrome-81c test 1, ccann passed
+given self-palindrome-81c test 1, fschot01 passed
+given self-palindrome-81c test 1, jlockw01 passed
+given self-palindrome-81c test 1, jwilde01 passed
+given self-palindrome-81c test 1, jliebo01 passed
+given self-palindrome-81c test 1, mbulia01 passed
+given self-palindrome-81c test 1, bakasl01 passed
+given self-palindrome-81c test 1, akuan01 passed
+given self-palindrome-81c test 1, malex passed
+given self-palindrome-81c test 1, jtorru01 passed
+given self-palindrome-81c test 1, ead36 passed
+given self-palindrome-81c test 1, naiken02 passed
+given self-palindrome-81c test 1, dfortu01 passed
+given self-palindrome-81c test 1, wbutt01 passed
+given self-palindrome-81c test 1, mnoble01 passed
+given self-palindrome-81c test 1, amcgla01 passed
+given self-palindrome-81c test 1, tlim02 passed
+given self-palindrome-81c test 1, jmonte03 passed
+given self-palindrome-81c test 1, akhaku01 passed
+given self-palindrome-81c test 1, shalst01 passed
+given self-palindrome-81c test 1, wholah01 passed
+given self-palindrome-81c test 1, deder01 passed
+given self-palindrome-81c test 1, gbodwi01 passed
+given self-palindrome-81c test 1, mgolds07 passed
+given self-palindrome-81c test 1, jglazi01 passed
+given self-palindrome-81c test 1, mbfrey passed
+given self-palindrome-81c test 1, csmith05 passed
+given self-palindrome-81c test 1, ealter01 passed
+given self-palindrome-81c test 1, shaney02 passed
+given self-palindrome-81c test 1, mmoute01 passed
+given self-palindrome-81c test 1, alevin01 passed
+given self-palindrome-f52d test 1, mborys01 passed
+given self-palindrome-f52d test 1, enicol01 passed
+given self-palindrome-f52d test 1, dreif01 errored -- Your palindrome? predicate hit a run-time error: car applied to non-pair () in (car xs)
+given self-palindrome-f52d test 1, graymo01 passed
+given self-palindrome-f52d test 1, ahamli02 passed
+given self-palindrome-f52d test 1, czuber01 passed
+given self-palindrome-f52d test 1, sratta01 passed
+given self-palindrome-f52d test 1, abell01 passed
+given self-palindrome-f52d test 1, cbrink passed
+given self-palindrome-f52d test 1, mmcgow02 passed
+given self-palindrome-f52d test 1, ahay01 passed
+given self-palindrome-f52d test 1, ewu02 passed
+given self-palindrome-f52d test 1, cgrama01 passed
+given self-palindrome-f52d test 1, ryagud01 passed
+given self-palindrome-f52d test 1, ccann passed
+given self-palindrome-f52d test 1, fschot01 failed -- Your palindrome? predicate incorrectly judged () followed by its reverse *not* to be a palindrome.
+given self-palindrome-f52d test 1, jlockw01 passed
+given self-palindrome-f52d test 1, jwilde01 passed
+given self-palindrome-f52d test 1, jliebo01 passed
+given self-palindrome-f52d test 1, mbulia01 passed
+given self-palindrome-f52d test 1, bakasl01 passed
+given self-palindrome-f52d test 1, akuan01 passed
+given self-palindrome-f52d test 1, malex passed
+given self-palindrome-f52d test 1, jtorru01 passed
+given self-palindrome-f52d test 1, ead36 passed
+given self-palindrome-f52d test 1, naiken02 passed
+given self-palindrome-f52d test 1, dfortu01 passed
+given self-palindrome-f52d test 1, wbutt01 passed
+given self-palindrome-f52d test 1, mnoble01 passed
+given self-palindrome-f52d test 1, amcgla01 passed
+given self-palindrome-f52d test 1, tlim02 passed
+given self-palindrome-f52d test 1, jmonte03 passed
+given self-palindrome-f52d test 1, akhaku01 passed
+given self-palindrome-f52d test 1, shalst01 passed
+given self-palindrome-f52d test 1, wholah01 passed
+given self-palindrome-f52d test 1, deder01 passed
+given self-palindrome-f52d test 1, gbodwi01 passed
+given self-palindrome-f52d test 1, mgolds07 passed
+given self-palindrome-f52d test 1, jglazi01 passed
+given self-palindrome-f52d test 1, mbfrey passed
+given self-palindrome-f52d test 1, csmith05 passed
+given self-palindrome-f52d test 1, ealter01 passed
+given self-palindrome-f52d test 1, shaney02 passed
+given self-palindrome-f52d test 1, mmoute01 passed
+given self-palindrome-f52d test 1, alevin01 passed

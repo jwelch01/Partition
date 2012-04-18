@@ -1,0 +1,3382 @@
+given abell01 test 1, abell01 passed
+given abell01 test 2, abell01 passed
+given abell01 test 3, abell01 passed
+given abell01 test 1, ahamli02 passed
+given abell01 test 2, ahamli02 passed
+given abell01 test 3, ahamli02 passed
+given abell01 test 1, ahay01 passed
+given abell01 test 2, ahay01 passed
+given abell01 test 3, ahay01 passed
+given abell01 test 1, akhaku01 passed
+given abell01 test 2, akhaku01 passed
+given abell01 test 3, akhaku01 passed
+given abell01 test 1, akuan01 passed
+given abell01 test 2, akuan01 passed
+given abell01 test 3, akuan01 passed
+given abell01 test 1, amcgla01 passed
+given abell01 test 2, amcgla01 passed
+given abell01 test 3, amcgla01 passed
+given abell01 test 1, apolya01 passed
+given abell01 test 3, apolya01 failed -- formula (and (or (and x y z) (and (not y)) (or (not x) y z)) (and (not x) y)) has a solution, but your solver did not find one
+given abell01 test 2, apolya01 errored -- unknown run-time merror
+given abell01 test 1, bakasl01 passed
+given abell01 test 2, bakasl01 passed
+given abell01 test 3, bakasl01 failed -- formula (and (or (and x y z) (and (not y)) (or (not x) y z)) (and (not x) y)) has a solution, but your solver did not find one
+given abell01 test 1, byukse01 passed
+given abell01 test 2, byukse01 errored -- unknown run-time merror
+given abell01 test 3, byukse01 errored -- unknown run-time merror
+given abell01 test 1, cbrink passed
+given abell01 test 2, cbrink passed
+given abell01 test 3, cbrink passed
+given abell01 test 1, ccann passed
+given abell01 test 2, ccann passed
+given abell01 test 3, ccann passed
+given abell01 test 2, cgrama01 passed
+given abell01 test 3, cgrama01 passed
+given abell01 test 1, cgrama01 errored -- unknown run-time merror
+given abell01 test 1, csmith05 passed
+given abell01 test 2, csmith05 passed
+given abell01 test 3, csmith05 passed
+given abell01 test 1, czuber01 errored -- unknown run-time merror
+given abell01 test 2, czuber01 errored -- unknown run-time merror
+given abell01 test 3, czuber01 errored -- unknown run-time merror
+given abell01 test 2, deder01 failed -- formula (and (not (or x y z)) (or x y)) should have no solution, but your solver claimed to find a solution
+given abell01 test 1, deder01 errored -- unknown run-time merror
+given abell01 test 3, deder01 errored -- unknown run-time merror
+given abell01 test 1, dfortu01 passed
+given abell01 test 2, dfortu01 passed
+given abell01 test 3, dfortu01 passed
+given abell01 test 1, ead36 passed
+given abell01 test 2, ead36 passed
+given abell01 test 3, ead36 passed
+given abell01 test 1, ealter01 passed
+given abell01 test 2, ealter01 passed
+given abell01 test 3, ealter01 passed
+given abell01 test 1, ewu02 passed
+given abell01 test 2, ewu02 passed
+given abell01 test 3, ewu02 passed
+given abell01 test 2, gbodwi01 passed
+given abell01 test 3, gbodwi01 failed -- formula (and (or (and x y z) (and (not y)) (or (not x) y z)) (and (not x) y)) has a solution, but your solver did not find one
+given abell01 test 1, gbodwi01 errored -- unknown run-time merror
+given abell01 test 1, graymo01 passed
+given abell01 test 2, graymo01 passed
+given abell01 test 3, graymo01 passed
+given abell01 test 1, jglazi01 passed
+given abell01 test 2, jglazi01 passed
+given abell01 test 3, jglazi01 passed
+given abell01 test 1, jlockw01 errored -- unknown run-time merror
+given abell01 test 2, jlockw01 errored -- unknown run-time merror
+given abell01 test 3, jlockw01 errored -- unknown run-time merror
+given abell01 test 1, jmonte03 errored -- unknown run-time merror
+given abell01 test 2, jmonte03 errored -- unknown run-time merror
+given abell01 test 3, jmonte03 errored -- unknown run-time merror
+given abell01 test 1, jwilde01 failed -- . #f
+given abell01 test 2, jwilde01 failed -- formula (and (not (or x y z)) (or x y)) should have no solution, but your solver claimed to find a solution
+given abell01 test 3, jwilde01 failed -- . #f
+given abell01 test 1, malex passed
+given abell01 test 2, malex passed
+given abell01 test 3, malex passed
+given abell01 test 1, mbfrey passed
+given abell01 test 2, mbfrey passed
+given abell01 test 3, mbfrey passed
+given abell01 test 1, mborys01 passed
+given abell01 test 2, mborys01 passed
+given abell01 test 3, mborys01 passed
+given abell01 test 1, mbulia01 passed
+given abell01 test 2, mbulia01 failed -- formula (and (not (or x y z)) (or x y)) should have no solution, but your solver claimed to find a solution
+given abell01 test 3, mbulia01 passed
+given abell01 test 1, mgolds07 passed
+given abell01 test 2, mgolds07 passed
+given abell01 test 3, mgolds07 passed
+given abell01 test 1, mmcgow02 passed
+given abell01 test 2, mmcgow02 passed
+given abell01 test 3, mmcgow02 errored -- unknown run-time merror
+given abell01 test 1, mmoute01 passed
+given abell01 test 2, mmoute01 passed
+given abell01 test 3, mmoute01 passed
+given abell01 test 1, mnoble01 errored -- unknown run-time merror
+given abell01 test 2, mnoble01 errored -- unknown run-time merror
+given abell01 test 3, mnoble01 errored -- unknown run-time merror
+given abell01 test 1, naiken02 passed
+given abell01 test 2, naiken02 failed -- formula (and (not (or x y z)) (or x y)) should have no solution, but your solver claimed to find a solution
+given abell01 test 3, naiken02 passed
+given abell01 test 1, shaney02 passed
+given abell01 test 2, shaney02 passed
+given abell01 test 3, shaney02 passed
+given abell01 test 1, spanut01 passed
+given abell01 test 2, spanut01 failed -- formula (and (not (or x y z)) (or x y)) should have no solution, but your solver claimed to find a solution
+given abell01 test 3, spanut01 errored -- unknown run-time merror
+given abell01 test 1, wbutt01 passed
+given abell01 test 2, wbutt01 passed
+given abell01 test 3, wbutt01 passed
+given abell01 test 1, wholah01 errored -- unknown run-time merror
+given abell01 test 2, wholah01 errored -- unknown run-time merror
+given abell01 test 3, wholah01 errored -- unknown run-time merror
+given ahamli02 test 1, abell01 passed
+given ahamli02 test 1, ahamli02 passed
+given ahamli02 test 1, ahay01 passed
+given ahamli02 test 1, akhaku01 passed
+given ahamli02 test 1, akuan01 passed
+given ahamli02 test 1, amcgla01 passed
+given ahamli02 test 1, apolya01 failed -- formula (and (or f (not g) (not h)) g (not f)) has a solution, but your solver did not find one
+given ahamli02 test 1, bakasl01 failed -- formula (and (or f (not g) (not h)) g (not f)) has a solution, but your solver did not find one
+given ahamli02 test 1, byukse01 errored -- unknown run-time merror
+given ahamli02 test 1, cbrink passed
+given ahamli02 test 1, ccann passed
+given ahamli02 test 1, cgrama01 passed
+given ahamli02 test 1, csmith05 passed
+given ahamli02 test 1, czuber01 errored -- unknown run-time merror
+given ahamli02 test 1, deder01 errored -- unknown run-time merror
+given ahamli02 test 1, dfortu01 passed
+given ahamli02 test 1, ead36 passed
+given ahamli02 test 1, ealter01 passed
+given ahamli02 test 1, ewu02 passed
+given ahamli02 test 1, gbodwi01 failed -- formula (and (or f (not g) (not h)) g (not f)) has a solution, but your solver did not find one
+given ahamli02 test 1, graymo01 passed
+given ahamli02 test 1, jglazi01 passed
+given ahamli02 test 1, jlockw01 errored -- unknown run-time merror
+given ahamli02 test 1, jmonte03 errored -- unknown run-time merror
+given ahamli02 test 1, jwilde01 failed -- . #f
+given ahamli02 test 1, malex passed
+given ahamli02 test 1, mbfrey passed
+given ahamli02 test 1, mborys01 passed
+given ahamli02 test 1, mbulia01 passed
+given ahamli02 test 1, mgolds07 passed
+given ahamli02 test 1, mmcgow02 passed
+given ahamli02 test 1, mmoute01 passed
+given ahamli02 test 1, mnoble01 errored -- unknown run-time merror
+given ahamli02 test 1, naiken02 passed
+given ahamli02 test 1, shaney02 passed
+given ahamli02 test 1, spanut01 failed -- formula (and (or f (not g) (not h)) g (not f)) has a solution, but your solver returned ((f #t) (g #t)) which is not a satisfying assignment
+given ahamli02 test 1, wbutt01 passed
+given ahamli02 test 1, wholah01 errored -- unknown run-time merror
+given ahay01 test 2, abell01 passed
+given ahay01 test 3, abell01 passed
+given ahay01 test 2, ahamli02 passed
+given ahay01 test 3, ahamli02 passed
+given ahay01 test 2, ahay01 passed
+given ahay01 test 3, ahay01 passed
+given ahay01 test 2, akhaku01 passed
+given ahay01 test 3, akhaku01 passed
+given ahay01 test 2, akuan01 passed
+given ahay01 test 3, akuan01 passed
+given ahay01 test 2, amcgla01 passed
+given ahay01 test 3, amcgla01 passed
+given ahay01 test 2, apolya01 failed -- formula (and (not a) (or b c d e) (not b) (not c) (or d (not a)) (not d)) has a solution, but your solver did not find one
+given ahay01 test 3, apolya01 failed -- formula (and and (and or (not not))) has a solution, but your solver did not find one
+given ahay01 test 2, bakasl01 failed -- formula (and (not a) (or b c d e) (not b) (not c) (or d (not a)) (not d)) has a solution, but your solver did not find one
+given ahay01 test 3, bakasl01 failed -- formula (and and (and or (not not))) has a solution, but your solver did not find one
+given ahay01 test 2, byukse01 errored -- unknown run-time merror
+given ahay01 test 3, byukse01 errored -- unknown run-time merror
+given ahay01 test 2, cbrink passed
+given ahay01 test 3, cbrink passed
+given ahay01 test 2, ccann passed
+given ahay01 test 3, ccann failed -- formula (and and (and or (not not))) has a solution, but your solver did not find one
+given ahay01 test 2, cgrama01 passed
+given ahay01 test 3, cgrama01 passed
+given ahay01 test 2, csmith05 passed
+given ahay01 test 3, csmith05 passed
+given ahay01 test 2, czuber01 errored -- unknown run-time merror
+given ahay01 test 3, czuber01 errored -- unknown run-time merror
+given ahay01 test 3, deder01 passed
+given ahay01 test 2, deder01 errored -- unknown run-time merror
+given ahay01 test 2, dfortu01 passed
+given ahay01 test 3, dfortu01 passed
+given ahay01 test 2, ead36 passed
+given ahay01 test 3, ead36 passed
+given ahay01 test 2, ealter01 passed
+given ahay01 test 3, ealter01 passed
+given ahay01 test 2, ewu02 passed
+given ahay01 test 3, ewu02 passed
+given ahay01 test 2, gbodwi01 failed -- formula (and (not a) (or b c d e) (not b) (not c) (or d (not a)) (not d)) has a solution, but your solver did not find one
+given ahay01 test 3, gbodwi01 errored -- unknown run-time merror
+given ahay01 test 2, graymo01 passed
+given ahay01 test 3, graymo01 passed
+given ahay01 test 2, jglazi01 passed
+given ahay01 test 3, jglazi01 passed
+given ahay01 test 2, jlockw01 errored -- unknown run-time merror
+given ahay01 test 3, jlockw01 errored -- unknown run-time merror
+given ahay01 test 2, jmonte03 errored -- unknown run-time merror
+given ahay01 test 3, jmonte03 errored -- unknown run-time merror
+given ahay01 test 2, jwilde01 failed -- . #f
+given ahay01 test 3, jwilde01 failed -- . #f
+given ahay01 test 2, malex passed
+given ahay01 test 3, malex passed
+given ahay01 test 2, mbfrey passed
+given ahay01 test 3, mbfrey passed
+given ahay01 test 2, mborys01 passed
+given ahay01 test 3, mborys01 failed -- formula (and and (and or (not not))) has a solution, but your solver returned () which is not a satisfying assignment
+given ahay01 test 2, mbulia01 passed
+given ahay01 test 3, mbulia01 passed
+given ahay01 test 2, mgolds07 passed
+given ahay01 test 3, mgolds07 passed
+given ahay01 test 2, mmcgow02 errored -- unknown run-time merror
+given ahay01 test 3, mmcgow02 errored -- unknown run-time merror
+given ahay01 test 2, mmoute01 passed
+given ahay01 test 3, mmoute01 passed
+given ahay01 test 2, mnoble01 errored -- unknown run-time merror
+given ahay01 test 3, mnoble01 errored -- unknown run-time merror
+given ahay01 test 2, naiken02 passed
+given ahay01 test 3, naiken02 passed
+given ahay01 test 2, shaney02 passed
+given ahay01 test 3, shaney02 passed
+given ahay01 test 2, spanut01 failed -- formula (and (not a) (or b c d e) (not b) (not c) (or d (not a)) (not d)) has a solution, but your solver returned ((a #f) (b #t)) which is not a satisfying assignment
+given ahay01 test 3, spanut01 passed
+given ahay01 test 2, wbutt01 passed
+given ahay01 test 3, wbutt01 passed
+given ahay01 test 3, wholah01 failed -- formula (and and (and or (not not))) has a solution, but your solver returned (formula (and and (and or (not not))) has a solution, but your solver returned (formula (and and (and or (not not))) has a solution, but your solver returned () which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given ahay01 test 2, wholah01 errored -- unknown run-time merror
+given akhaku01 test 1, abell01 passed
+given akhaku01 test 2, abell01 passed
+given akhaku01 test 3, abell01 passed
+given akhaku01 test 1, ahamli02 passed
+given akhaku01 test 2, ahamli02 passed
+given akhaku01 test 3, ahamli02 passed
+given akhaku01 test 1, ahay01 passed
+given akhaku01 test 2, ahay01 passed
+given akhaku01 test 3, ahay01 passed
+given akhaku01 test 1, akhaku01 passed
+given akhaku01 test 2, akhaku01 passed
+given akhaku01 test 3, akhaku01 passed
+given akhaku01 test 1, akuan01 passed
+given akhaku01 test 2, akuan01 passed
+given akhaku01 test 3, akuan01 passed
+given akhaku01 test 1, amcgla01 passed
+given akhaku01 test 2, amcgla01 passed
+given akhaku01 test 3, amcgla01 passed
+given akhaku01 test 1, apolya01 passed
+given akhaku01 test 2, apolya01 failed -- formula (and (and (or (or x y) z) (not y)) (not x)) has a solution, but your solver did not find one
+given akhaku01 test 3, apolya01 passed
+given akhaku01 test 1, bakasl01 passed
+given akhaku01 test 2, bakasl01 failed -- formula (and (and (or (or x y) z) (not y)) (not x)) has a solution, but your solver did not find one
+given akhaku01 test 3, bakasl01 passed
+given akhaku01 test 1, byukse01 errored -- unknown run-time merror
+given akhaku01 test 2, byukse01 errored -- unknown run-time merror
+given akhaku01 test 3, byukse01 errored -- unknown run-time merror
+given akhaku01 test 1, cbrink passed
+given akhaku01 test 2, cbrink passed
+given akhaku01 test 3, cbrink passed
+given akhaku01 test 1, ccann passed
+given akhaku01 test 2, ccann passed
+given akhaku01 test 3, ccann passed
+given akhaku01 test 1, cgrama01 passed
+given akhaku01 test 2, cgrama01 passed
+given akhaku01 test 3, cgrama01 errored -- unknown run-time merror
+given akhaku01 test 1, csmith05 passed
+given akhaku01 test 2, csmith05 passed
+given akhaku01 test 3, csmith05 passed
+given akhaku01 test 1, czuber01 errored -- unknown run-time merror
+given akhaku01 test 2, czuber01 errored -- unknown run-time merror
+given akhaku01 test 3, czuber01 errored -- unknown run-time merror
+given akhaku01 test 1, deder01 failed -- formula (and (not (or x y)) (not (and x y))) has a solution, but your solver returned ((y #t) (x #t)) which is not a satisfying assignment
+given akhaku01 test 2, deder01 errored -- unknown run-time merror
+given akhaku01 test 3, deder01 errored -- unknown run-time merror
+given akhaku01 test 1, dfortu01 passed
+given akhaku01 test 2, dfortu01 passed
+given akhaku01 test 3, dfortu01 passed
+given akhaku01 test 1, ead36 passed
+given akhaku01 test 2, ead36 passed
+given akhaku01 test 3, ead36 passed
+given akhaku01 test 1, ealter01 passed
+given akhaku01 test 2, ealter01 passed
+given akhaku01 test 3, ealter01 passed
+given akhaku01 test 1, ewu02 passed
+given akhaku01 test 2, ewu02 passed
+given akhaku01 test 3, ewu02 passed
+given akhaku01 test 2, gbodwi01 failed -- formula (and (and (or (or x y) z) (not y)) (not x)) has a solution, but your solver did not find one
+given akhaku01 test 3, gbodwi01 passed
+given akhaku01 test 1, gbodwi01 errored -- unknown run-time merror
+given akhaku01 test 1, graymo01 passed
+given akhaku01 test 2, graymo01 passed
+given akhaku01 test 3, graymo01 passed
+given akhaku01 test 1, jglazi01 passed
+given akhaku01 test 2, jglazi01 passed
+given akhaku01 test 3, jglazi01 passed
+given akhaku01 test 1, jlockw01 errored -- unknown run-time merror
+given akhaku01 test 2, jlockw01 errored -- unknown run-time merror
+given akhaku01 test 3, jlockw01 errored -- unknown run-time merror
+given akhaku01 test 1, jmonte03 errored -- unknown run-time merror
+given akhaku01 test 2, jmonte03 errored -- unknown run-time merror
+given akhaku01 test 3, jmonte03 errored -- unknown run-time merror
+given akhaku01 test 1, jwilde01 failed -- . #f
+given akhaku01 test 2, jwilde01 failed -- . #f
+given akhaku01 test 3, jwilde01 failed -- formula (and (not (or (and (not x) (not y)) x)) x) should have no solution, but your solver claimed to find a solution
+given akhaku01 test 1, malex passed
+given akhaku01 test 2, malex passed
+given akhaku01 test 3, malex passed
+given akhaku01 test 1, mbfrey passed
+given akhaku01 test 2, mbfrey passed
+given akhaku01 test 3, mbfrey passed
+given akhaku01 test 1, mborys01 passed
+given akhaku01 test 2, mborys01 passed
+given akhaku01 test 3, mborys01 passed
+given akhaku01 test 1, mbulia01 passed
+given akhaku01 test 2, mbulia01 failed -- formula (and (and (or (or x y) z) (not y)) (not x)) has a solution, but your solver returned ((y #f) (x #f)) which is not a satisfying assignment
+given akhaku01 test 3, mbulia01 failed -- formula (and (not (or (and (not x) (not y)) x)) x) should have no solution, but your solver claimed to find a solution
+given akhaku01 test 1, mgolds07 passed
+given akhaku01 test 2, mgolds07 passed
+given akhaku01 test 3, mgolds07 passed
+given akhaku01 test 1, mmcgow02 passed
+given akhaku01 test 2, mmcgow02 passed
+given akhaku01 test 3, mmcgow02 errored -- unknown run-time merror
+given akhaku01 test 1, mmoute01 passed
+given akhaku01 test 2, mmoute01 passed
+given akhaku01 test 3, mmoute01 passed
+given akhaku01 test 1, mnoble01 errored -- unknown run-time merror
+given akhaku01 test 2, mnoble01 errored -- unknown run-time merror
+given akhaku01 test 3, mnoble01 errored -- unknown run-time merror
+given akhaku01 test 1, naiken02 passed
+given akhaku01 test 2, naiken02 passed
+given akhaku01 test 3, naiken02 passed
+given akhaku01 test 1, shaney02 passed
+given akhaku01 test 2, shaney02 passed
+given akhaku01 test 3, shaney02 passed
+given akhaku01 test 2, spanut01 passed
+given akhaku01 test 3, spanut01 failed -- formula (and (not (or (and (not x) (not y)) x)) x) should have no solution, but your solver claimed to find a solution
+given akhaku01 test 1, spanut01 errored -- unknown run-time merror
+given akhaku01 test 1, wbutt01 passed
+given akhaku01 test 2, wbutt01 passed
+given akhaku01 test 3, wbutt01 passed
+given akhaku01 test 1, wholah01 errored -- unknown run-time merror
+given akhaku01 test 2, wholah01 errored -- unknown run-time merror
+given akhaku01 test 3, wholah01 errored -- unknown run-time merror
+given akuan01 test 2, abell01 passed
+given akuan01 test 3, abell01 passed
+given akuan01 test 2, ahamli02 passed
+given akuan01 test 3, ahamli02 passed
+given akuan01 test 2, ahay01 passed
+given akuan01 test 3, ahay01 passed
+given akuan01 test 2, akhaku01 passed
+given akuan01 test 3, akhaku01 passed
+given akuan01 test 2, akuan01 passed
+given akuan01 test 3, akuan01 passed
+given akuan01 test 2, amcgla01 passed
+given akuan01 test 3, amcgla01 passed
+given akuan01 test 3, apolya01 failed -- formula (and (or x y z) (not x) (not y)) has a solution, but your solver did not find one
+given akuan01 test 2, apolya01 errored -- unknown run-time merror
+given akuan01 test 2, bakasl01 passed
+given akuan01 test 3, bakasl01 failed -- formula (and (or x y z) (not x) (not y)) has a solution, but your solver did not find one
+given akuan01 test 2, byukse01 errored -- unknown run-time merror
+given akuan01 test 3, byukse01 errored -- unknown run-time merror
+given akuan01 test 2, cbrink passed
+given akuan01 test 3, cbrink passed
+given akuan01 test 2, ccann passed
+given akuan01 test 3, ccann passed
+given akuan01 test 2, cgrama01 passed
+given akuan01 test 3, cgrama01 passed
+given akuan01 test 2, csmith05 passed
+given akuan01 test 3, csmith05 passed
+given akuan01 test 2, czuber01 errored -- unknown run-time merror
+given akuan01 test 3, czuber01 errored -- unknown run-time merror
+given akuan01 test 2, deder01 errored -- unknown run-time merror
+given akuan01 test 3, deder01 errored -- unknown run-time merror
+given akuan01 test 2, dfortu01 passed
+given akuan01 test 3, dfortu01 passed
+given akuan01 test 2, ead36 passed
+given akuan01 test 3, ead36 passed
+given akuan01 test 2, ealter01 passed
+given akuan01 test 3, ealter01 passed
+given akuan01 test 2, ewu02 passed
+given akuan01 test 3, ewu02 passed
+given akuan01 test 3, gbodwi01 failed -- formula (and (or x y z) (not x) (not y)) has a solution, but your solver did not find one
+given akuan01 test 2, gbodwi01 errored -- unknown run-time merror
+given akuan01 test 2, graymo01 passed
+given akuan01 test 3, graymo01 passed
+given akuan01 test 2, jglazi01 passed
+given akuan01 test 3, jglazi01 passed
+given akuan01 test 2, jlockw01 errored -- unknown run-time merror
+given akuan01 test 3, jlockw01 errored -- unknown run-time merror
+given akuan01 test 2, jmonte03 errored -- unknown run-time merror
+given akuan01 test 3, jmonte03 errored -- unknown run-time merror
+given akuan01 test 2, jwilde01 failed -- . #f
+given akuan01 test 3, jwilde01 failed -- . #f
+given akuan01 test 2, malex passed
+given akuan01 test 3, malex passed
+given akuan01 test 2, mbfrey passed
+given akuan01 test 3, mbfrey passed
+given akuan01 test 2, mborys01 passed
+given akuan01 test 3, mborys01 passed
+given akuan01 test 2, mbulia01 passed
+given akuan01 test 3, mbulia01 passed
+given akuan01 test 2, mgolds07 passed
+given akuan01 test 3, mgolds07 passed
+given akuan01 test 2, mmcgow02 passed
+given akuan01 test 3, mmcgow02 errored -- unknown run-time merror
+given akuan01 test 2, mmoute01 passed
+given akuan01 test 3, mmoute01 passed
+given akuan01 test 2, mnoble01 errored -- unknown run-time merror
+given akuan01 test 3, mnoble01 errored -- unknown run-time merror
+given akuan01 test 2, naiken02 passed
+given akuan01 test 3, naiken02 passed
+given akuan01 test 2, shaney02 passed
+given akuan01 test 3, shaney02 passed
+given akuan01 test 2, spanut01 passed
+given akuan01 test 3, spanut01 failed -- formula (and (or x y z) (not x) (not y)) has a solution, but your solver returned ((y #t) (x #f)) which is not a satisfying assignment
+given akuan01 test 2, wbutt01 passed
+given akuan01 test 3, wbutt01 passed
+given akuan01 test 2, wholah01 errored -- unknown run-time merror
+given akuan01 test 3, wholah01 errored -- unknown run-time merror
+given alevin01 test 2, abell01 passed
+given alevin01 test 3, abell01 passed
+given alevin01 test 2, ahamli02 passed
+given alevin01 test 3, ahamli02 passed
+given alevin01 test 2, ahay01 passed
+given alevin01 test 3, ahay01 passed
+given alevin01 test 2, akhaku01 passed
+given alevin01 test 3, akhaku01 passed
+given alevin01 test 2, akuan01 passed
+given alevin01 test 3, akuan01 passed
+given alevin01 test 2, amcgla01 passed
+given alevin01 test 3, amcgla01 passed
+given alevin01 test 2, apolya01 errored -- unknown run-time merror
+given alevin01 test 3, apolya01 errored -- unknown run-time merror
+given alevin01 test 2, bakasl01 failed -- formula (and (or x (not x)) (and (or y (not y)) (or (not y) x) (and (not x) (not y)))) has a solution, but your solver did not find one
+given alevin01 test 3, bakasl01 passed
+given alevin01 test 2, byukse01 errored -- unknown run-time merror
+given alevin01 test 3, byukse01 errored -- unknown run-time merror
+given alevin01 test 2, cbrink passed
+given alevin01 test 3, cbrink passed
+given alevin01 test 2, ccann passed
+given alevin01 test 3, ccann passed
+given alevin01 test 2, cgrama01 passed
+given alevin01 test 3, cgrama01 passed
+given alevin01 test 2, csmith05 passed
+given alevin01 test 3, csmith05 passed
+given alevin01 test 2, czuber01 errored -- unknown run-time merror
+given alevin01 test 3, czuber01 errored -- unknown run-time merror
+given alevin01 test 2, deder01 errored -- unknown run-time merror
+given alevin01 test 3, deder01 errored -- unknown run-time merror
+given alevin01 test 2, dfortu01 passed
+given alevin01 test 3, dfortu01 passed
+given alevin01 test 2, ead36 failed -- formula (and (or x (not x)) (and (or y (not y)) (or (not y) x) (and (not x) (not y)))) has a solution, but your solver did not find one
+given alevin01 test 3, ead36 passed
+given alevin01 test 2, ealter01 passed
+given alevin01 test 3, ealter01 passed
+given alevin01 test 2, ewu02 passed
+given alevin01 test 3, ewu02 passed
+given alevin01 test 2, gbodwi01 failed -- formula (and (or x (not x)) (and (or y (not y)) (or (not y) x) (and (not x) (not y)))) has a solution, but your solver did not find one
+given alevin01 test 3, gbodwi01 passed
+given alevin01 test 2, graymo01 passed
+given alevin01 test 3, graymo01 passed
+given alevin01 test 2, jglazi01 passed
+given alevin01 test 3, jglazi01 passed
+given alevin01 test 2, jlockw01 errored -- unknown run-time merror
+given alevin01 test 3, jlockw01 errored -- unknown run-time merror
+given alevin01 test 2, jmonte03 errored -- unknown run-time merror
+given alevin01 test 3, jmonte03 errored -- unknown run-time merror
+given alevin01 test 2, jwilde01 failed -- . #f
+given alevin01 test 3, jwilde01 failed -- formula (and (or y x) (or (not x) y) (or (not y) (not x)) (or x (not y))) should have no solution, but your solver claimed to find a solution
+given alevin01 test 2, malex passed
+given alevin01 test 3, malex passed
+given alevin01 test 2, mbfrey passed
+given alevin01 test 3, mbfrey passed
+given alevin01 test 2, mborys01 passed
+given alevin01 test 3, mborys01 passed
+given alevin01 test 2, mbulia01 passed
+given alevin01 test 3, mbulia01 failed -- formula (and (or y x) (or (not x) y) (or (not y) (not x)) (or x (not y))) should have no solution, but your solver claimed to find a solution
+given alevin01 test 2, mgolds07 passed
+given alevin01 test 3, mgolds07 passed
+given alevin01 test 2, mmcgow02 errored -- unknown run-time merror
+given alevin01 test 3, mmcgow02 errored -- unknown run-time merror
+given alevin01 test 2, mmoute01 passed
+given alevin01 test 3, mmoute01 passed
+given alevin01 test 2, mnoble01 errored -- unknown run-time merror
+given alevin01 test 3, mnoble01 errored -- unknown run-time merror
+given alevin01 test 2, naiken02 passed
+given alevin01 test 3, naiken02 passed
+given alevin01 test 2, shaney02 passed
+given alevin01 test 3, shaney02 passed
+given alevin01 test 2, spanut01 failed -- formula (and (or x (not x)) (and (or y (not y)) (or (not y) x) (and (not x) (not y)))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given alevin01 test 3, spanut01 failed -- formula (and (or y x) (or (not x) y) (or (not y) (not x)) (or x (not y))) should have no solution, but your solver claimed to find a solution
+given alevin01 test 2, wbutt01 passed
+given alevin01 test 3, wbutt01 passed
+given alevin01 test 2, wholah01 errored -- unknown run-time merror
+given alevin01 test 3, wholah01 errored -- unknown run-time merror
+given amcgla01 test 1, abell01 passed
+given amcgla01 test 3, abell01 passed
+given amcgla01 test 2, abell01 errored -- unknown run-time merror
+given amcgla01 test 1, ahamli02 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver returned ((or #f)) which is not a satisfying assignment
+given amcgla01 test 2, ahamli02 passed
+given amcgla01 test 3, ahamli02 passed
+given amcgla01 test 1, ahay01 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver did not find one
+given amcgla01 test 2, ahay01 passed
+given amcgla01 test 3, ahay01 passed
+given amcgla01 test 1, akhaku01 passed
+given amcgla01 test 2, akhaku01 passed
+given amcgla01 test 3, akhaku01 passed
+given amcgla01 test 1, akuan01 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver returned ((or #f)) which is not a satisfying assignment
+given amcgla01 test 3, akuan01 passed
+given amcgla01 test 2, akuan01 errored -- unknown run-time merror
+given amcgla01 test 1, amcgla01 passed
+given amcgla01 test 2, amcgla01 passed
+given amcgla01 test 3, amcgla01 passed
+given amcgla01 test 3, apolya01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver did not find one
+given amcgla01 test 1, apolya01 errored -- unknown run-time merror
+given amcgla01 test 2, apolya01 errored -- unknown run-time merror
+given amcgla01 test 1, bakasl01 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver did not find one
+given amcgla01 test 3, bakasl01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver did not find one
+given amcgla01 test 2, bakasl01 errored -- unknown run-time merror
+given amcgla01 test 1, byukse01 passed
+given amcgla01 test 2, byukse01 passed
+given amcgla01 test 3, byukse01 errored -- unknown run-time merror
+given amcgla01 test 1, cbrink failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver returned ((or #f)) which is not a satisfying assignment
+given amcgla01 test 2, cbrink passed
+given amcgla01 test 3, cbrink passed
+given amcgla01 test 1, ccann failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver did not find one
+given amcgla01 test 2, ccann passed
+given amcgla01 test 3, ccann passed
+given amcgla01 test 2, cgrama01 passed
+given amcgla01 test 3, cgrama01 passed
+given amcgla01 test 1, cgrama01 errored -- unknown run-time merror
+given amcgla01 test 1, csmith05 passed
+given amcgla01 test 2, csmith05 passed
+given amcgla01 test 3, csmith05 passed
+given amcgla01 test 1, czuber01 passed
+given amcgla01 test 2, czuber01 errored -- unknown run-time merror
+given amcgla01 test 3, czuber01 errored -- unknown run-time merror
+given amcgla01 test 2, deder01 passed
+given amcgla01 test 3, deder01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given amcgla01 test 1, deder01 errored -- unknown run-time merror
+given amcgla01 test 1, dfortu01 passed
+given amcgla01 test 2, dfortu01 passed
+given amcgla01 test 3, dfortu01 passed
+given amcgla01 test 1, ead36 passed
+given amcgla01 test 2, ead36 passed
+given amcgla01 test 3, ead36 passed
+given amcgla01 test 1, ealter01 passed
+given amcgla01 test 2, ealter01 passed
+given amcgla01 test 3, ealter01 passed
+given amcgla01 test 1, ewu02 passed
+given amcgla01 test 2, ewu02 passed
+given amcgla01 test 3, ewu02 passed
+given amcgla01 test 3, gbodwi01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver did not find one
+given amcgla01 test 1, gbodwi01 errored -- unknown run-time merror
+given amcgla01 test 2, gbodwi01 errored -- unknown run-time merror
+given amcgla01 test 1, graymo01 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver did not find one
+given amcgla01 test 2, graymo01 passed
+given amcgla01 test 3, graymo01 passed
+given amcgla01 test 1, jglazi01 passed
+given amcgla01 test 2, jglazi01 passed
+given amcgla01 test 3, jglazi01 passed
+given amcgla01 test 1, jlockw01 errored -- unknown run-time merror
+given amcgla01 test 2, jlockw01 errored -- unknown run-time merror
+given amcgla01 test 3, jlockw01 errored -- unknown run-time merror
+given amcgla01 test 1, jmonte03 errored -- unknown run-time merror
+given amcgla01 test 2, jmonte03 errored -- unknown run-time merror
+given amcgla01 test 3, jmonte03 errored -- unknown run-time merror
+given amcgla01 test 1, jwilde01 failed -- . #f
+given amcgla01 test 2, jwilde01 failed -- . #f
+given amcgla01 test 3, jwilde01 failed -- . #f
+given amcgla01 test 1, malex passed
+given amcgla01 test 2, malex passed
+given amcgla01 test 3, malex passed
+given amcgla01 test 1, mbfrey passed
+given amcgla01 test 2, mbfrey passed
+given amcgla01 test 3, mbfrey passed
+given amcgla01 test 1, mborys01 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver did not find one
+given amcgla01 test 3, mborys01 passed
+given amcgla01 test 2, mborys01 errored -- unknown run-time merror
+given amcgla01 test 1, mbulia01 passed
+given amcgla01 test 2, mbulia01 passed
+given amcgla01 test 3, mbulia01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given amcgla01 test 1, mgolds07 passed
+given amcgla01 test 2, mgolds07 passed
+given amcgla01 test 3, mgolds07 passed
+given amcgla01 test 1, mmcgow02 passed
+given amcgla01 test 2, mmcgow02 errored -- unknown run-time merror
+given amcgla01 test 3, mmcgow02 errored -- unknown run-time merror
+given amcgla01 test 1, mmoute01 passed
+given amcgla01 test 2, mmoute01 passed
+given amcgla01 test 3, mmoute01 passed
+given amcgla01 test 1, mnoble01 errored -- unknown run-time merror
+given amcgla01 test 2, mnoble01 errored -- unknown run-time merror
+given amcgla01 test 3, mnoble01 errored -- unknown run-time merror
+given amcgla01 test 1, naiken02 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver returned () which is not a satisfying assignment
+given amcgla01 test 3, naiken02 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver returned ((x #t) (y #f)) which is not a satisfying assignment
+given amcgla01 test 2, naiken02 errored -- unknown run-time merror
+given amcgla01 test 1, shaney02 failed -- formula (not (and (or or and) (or (not or) and))) has a solution, but your solver returned ((or #f)) which is not a satisfying assignment
+given amcgla01 test 2, shaney02 passed
+given amcgla01 test 3, shaney02 passed
+given amcgla01 test 1, spanut01 passed
+given amcgla01 test 2, spanut01 passed
+given amcgla01 test 3, spanut01 failed -- formula (and (or x y) (not (or x (not y)))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given amcgla01 test 1, wbutt01 passed
+given amcgla01 test 2, wbutt01 passed
+given amcgla01 test 3, wbutt01 passed
+given amcgla01 test 2, wholah01 passed
+given amcgla01 test 1, wholah01 errored -- unknown run-time merror
+given amcgla01 test 3, wholah01 errored -- unknown run-time merror
+given apolya01 test 1, abell01 passed
+given apolya01 test 3, abell01 passed
+given apolya01 test 1, ahamli02 passed
+given apolya01 test 3, ahamli02 passed
+given apolya01 test 1, ahay01 passed
+given apolya01 test 3, ahay01 passed
+given apolya01 test 1, akhaku01 passed
+given apolya01 test 3, akhaku01 passed
+given apolya01 test 1, akuan01 passed
+given apolya01 test 3, akuan01 passed
+given apolya01 test 1, amcgla01 passed
+given apolya01 test 3, amcgla01 passed
+given apolya01 test 3, apolya01 passed
+given apolya01 test 1, apolya01 errored -- unknown run-time merror
+given apolya01 test 1, bakasl01 passed
+given apolya01 test 3, bakasl01 passed
+given apolya01 test 1, byukse01 errored -- unknown run-time merror
+given apolya01 test 3, byukse01 errored -- unknown run-time merror
+given apolya01 test 1, cbrink passed
+given apolya01 test 3, cbrink passed
+given apolya01 test 1, ccann passed
+given apolya01 test 3, ccann passed
+given apolya01 test 1, cgrama01 passed
+given apolya01 test 3, cgrama01 passed
+given apolya01 test 1, csmith05 passed
+given apolya01 test 3, csmith05 passed
+given apolya01 test 1, czuber01 errored -- unknown run-time merror
+given apolya01 test 3, czuber01 errored -- unknown run-time merror
+given apolya01 test 1, deder01 failed -- formula (and (not (or x y)) (or x z)) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given apolya01 test 3, deder01 passed
+given apolya01 test 1, dfortu01 passed
+given apolya01 test 3, dfortu01 passed
+given apolya01 test 1, ead36 passed
+given apolya01 test 3, ead36 passed
+given apolya01 test 1, ealter01 passed
+given apolya01 test 3, ealter01 passed
+given apolya01 test 1, ewu02 passed
+given apolya01 test 3, ewu02 passed
+given apolya01 test 1, gbodwi01 errored -- unknown run-time merror
+given apolya01 test 3, gbodwi01 errored -- unknown run-time merror
+given apolya01 test 1, graymo01 passed
+given apolya01 test 3, graymo01 passed
+given apolya01 test 1, jglazi01 passed
+given apolya01 test 3, jglazi01 passed
+given apolya01 test 1, jlockw01 errored -- unknown run-time merror
+given apolya01 test 3, jlockw01 errored -- unknown run-time merror
+given apolya01 test 1, jmonte03 errored -- unknown run-time merror
+given apolya01 test 3, jmonte03 errored -- unknown run-time merror
+given apolya01 test 1, jwilde01 failed -- . #f
+given apolya01 test 3, jwilde01 failed -- . #f
+given apolya01 test 1, malex passed
+given apolya01 test 3, malex passed
+given apolya01 test 1, mbfrey passed
+given apolya01 test 3, mbfrey passed
+given apolya01 test 1, mborys01 passed
+given apolya01 test 3, mborys01 passed
+given apolya01 test 1, mbulia01 failed -- formula (and (not (or x y)) (or x z)) has a solution, but your solver returned ((x #f) (z #t)) which is not a satisfying assignment
+given apolya01 test 3, mbulia01 passed
+given apolya01 test 1, mgolds07 passed
+given apolya01 test 3, mgolds07 passed
+given apolya01 test 1, mmcgow02 passed
+given apolya01 test 3, mmcgow02 passed
+given apolya01 test 1, mmoute01 passed
+given apolya01 test 3, mmoute01 passed
+given apolya01 test 1, mnoble01 errored -- unknown run-time merror
+given apolya01 test 3, mnoble01 errored -- unknown run-time merror
+given apolya01 test 1, naiken02 failed -- formula (and (not (or x y)) (or x z)) has a solution, but your solver returned ((x #f) (z #t)) which is not a satisfying assignment
+given apolya01 test 3, naiken02 passed
+given apolya01 test 1, shaney02 passed
+given apolya01 test 3, shaney02 passed
+given apolya01 test 1, spanut01 failed -- formula (and (not (or x y)) (or x z)) has a solution, but your solver returned ((x #f) (z #t)) which is not a satisfying assignment
+given apolya01 test 3, spanut01 passed
+given apolya01 test 1, wbutt01 passed
+given apolya01 test 3, wbutt01 passed
+given apolya01 test 1, wholah01 errored -- unknown run-time merror
+given apolya01 test 3, wholah01 errored -- unknown run-time merror
+given bakasl01 test 1, abell01 passed
+given bakasl01 test 2, abell01 passed
+given bakasl01 test 3, abell01 passed
+given bakasl01 test 1, ahamli02 passed
+given bakasl01 test 2, ahamli02 passed
+given bakasl01 test 3, ahamli02 passed
+given bakasl01 test 1, ahay01 passed
+given bakasl01 test 2, ahay01 passed
+given bakasl01 test 3, ahay01 passed
+given bakasl01 test 1, akhaku01 passed
+given bakasl01 test 2, akhaku01 passed
+given bakasl01 test 3, akhaku01 passed
+given bakasl01 test 1, akuan01 passed
+given bakasl01 test 2, akuan01 passed
+given bakasl01 test 3, akuan01 passed
+given bakasl01 test 1, amcgla01 passed
+given bakasl01 test 2, amcgla01 passed
+given bakasl01 test 3, amcgla01 passed
+given bakasl01 test 1, apolya01 passed
+given bakasl01 test 2, apolya01 passed
+given bakasl01 test 3, apolya01 passed
+given bakasl01 test 1, bakasl01 passed
+given bakasl01 test 2, bakasl01 passed
+given bakasl01 test 3, bakasl01 passed
+given bakasl01 test 1, byukse01 passed
+given bakasl01 test 2, byukse01 errored -- unknown run-time merror
+given bakasl01 test 3, byukse01 errored -- unknown run-time merror
+given bakasl01 test 1, cbrink passed
+given bakasl01 test 2, cbrink passed
+given bakasl01 test 3, cbrink passed
+given bakasl01 test 1, ccann passed
+given bakasl01 test 2, ccann passed
+given bakasl01 test 3, ccann passed
+given bakasl01 test 1, cgrama01 passed
+given bakasl01 test 2, cgrama01 passed
+given bakasl01 test 3, cgrama01 passed
+given bakasl01 test 1, csmith05 passed
+given bakasl01 test 2, csmith05 passed
+given bakasl01 test 3, csmith05 passed
+given bakasl01 test 1, czuber01 errored -- unknown run-time merror
+given bakasl01 test 2, czuber01 errored -- unknown run-time merror
+given bakasl01 test 3, czuber01 errored -- unknown run-time merror
+given bakasl01 test 1, deder01 passed
+given bakasl01 test 2, deder01 passed
+given bakasl01 test 3, deder01 passed
+given bakasl01 test 1, dfortu01 passed
+given bakasl01 test 2, dfortu01 passed
+given bakasl01 test 3, dfortu01 passed
+given bakasl01 test 1, ead36 passed
+given bakasl01 test 2, ead36 passed
+given bakasl01 test 3, ead36 passed
+given bakasl01 test 1, ealter01 passed
+given bakasl01 test 2, ealter01 passed
+given bakasl01 test 3, ealter01 passed
+given bakasl01 test 1, ewu02 passed
+given bakasl01 test 2, ewu02 passed
+given bakasl01 test 3, ewu02 passed
+given bakasl01 test 2, gbodwi01 passed
+given bakasl01 test 3, gbodwi01 passed
+given bakasl01 test 1, gbodwi01 errored -- unknown run-time merror
+given bakasl01 test 1, graymo01 passed
+given bakasl01 test 2, graymo01 passed
+given bakasl01 test 3, graymo01 passed
+given bakasl01 test 1, jglazi01 passed
+given bakasl01 test 2, jglazi01 passed
+given bakasl01 test 3, jglazi01 passed
+given bakasl01 test 1, jlockw01 errored -- unknown run-time merror
+given bakasl01 test 2, jlockw01 errored -- unknown run-time merror
+given bakasl01 test 3, jlockw01 errored -- unknown run-time merror
+given bakasl01 test 1, jmonte03 errored -- unknown run-time merror
+given bakasl01 test 2, jmonte03 errored -- unknown run-time merror
+given bakasl01 test 3, jmonte03 errored -- unknown run-time merror
+given bakasl01 test 1, jwilde01 failed -- . #f
+given bakasl01 test 2, jwilde01 failed -- formula (and t h i s i s j u s t a r e a l l y l o n g t e s (not t)) should have no solution, but your solver claimed to find a solution
+given bakasl01 test 3, jwilde01 failed -- formula (and (and x y) (and (not x) (not y))) should have no solution, but your solver claimed to find a solution
+given bakasl01 test 1, malex passed
+given bakasl01 test 2, malex passed
+given bakasl01 test 3, malex passed
+given bakasl01 test 1, mbfrey passed
+given bakasl01 test 2, mbfrey passed
+given bakasl01 test 3, mbfrey passed
+given bakasl01 test 1, mborys01 passed
+given bakasl01 test 2, mborys01 passed
+given bakasl01 test 3, mborys01 passed
+given bakasl01 test 1, mbulia01 passed
+given bakasl01 test 2, mbulia01 passed
+given bakasl01 test 3, mbulia01 passed
+given bakasl01 test 1, mgolds07 passed
+given bakasl01 test 2, mgolds07 passed
+given bakasl01 test 3, mgolds07 passed
+given bakasl01 test 1, mmcgow02 passed
+given bakasl01 test 2, mmcgow02 errored -- unknown run-time merror
+given bakasl01 test 3, mmcgow02 errored -- unknown run-time merror
+given bakasl01 test 1, mmoute01 passed
+given bakasl01 test 2, mmoute01 passed
+given bakasl01 test 3, mmoute01 passed
+given bakasl01 test 1, mnoble01 errored -- unknown run-time merror
+given bakasl01 test 2, mnoble01 errored -- unknown run-time merror
+given bakasl01 test 3, mnoble01 errored -- unknown run-time merror
+given bakasl01 test 1, naiken02 passed
+given bakasl01 test 2, naiken02 passed
+given bakasl01 test 3, naiken02 passed
+given bakasl01 test 1, shaney02 passed
+given bakasl01 test 2, shaney02 passed
+given bakasl01 test 3, shaney02 passed
+given bakasl01 test 1, spanut01 passed
+given bakasl01 test 2, spanut01 failed -- formula (and t h i s i s j u s t a r e a l l y l o n g t e s (not t)) should have no solution, but your solver claimed to find a solution
+given bakasl01 test 3, spanut01 passed
+given bakasl01 test 1, wbutt01 passed
+given bakasl01 test 2, wbutt01 passed
+given bakasl01 test 3, wbutt01 passed
+given bakasl01 test 1, wholah01 failed -- formula (not (not (not (not (not x))))) has a solution, but your solver returned (formula (not (not (not (not (not x))))) has a solution, but your solver returned (formula (not (not (not (not (not x))))) has a solution, but your solver returned (formula (not (not (not (not (not x))))) has a solution, but your solver returned (formula (not (not (not (not (not x))))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given bakasl01 test 2, wholah01 failed -- formula (and t h i s i s j u s t a r e a l l y l o n g t e s (not t)) should have no solution, but your solver claimed to find a solution
+given bakasl01 test 3, wholah01 errored -- unknown run-time merror
+given byukse01 test 1, abell01 passed
+given byukse01 test 2, abell01 passed
+given byukse01 test 3, abell01 passed
+given byukse01 test 1, ahamli02 passed
+given byukse01 test 2, ahamli02 passed
+given byukse01 test 3, ahamli02 passed
+given byukse01 test 1, ahay01 passed
+given byukse01 test 2, ahay01 passed
+given byukse01 test 3, ahay01 passed
+given byukse01 test 1, akhaku01 passed
+given byukse01 test 2, akhaku01 passed
+given byukse01 test 3, akhaku01 passed
+given byukse01 test 1, akuan01 passed
+given byukse01 test 2, akuan01 passed
+given byukse01 test 3, akuan01 passed
+given byukse01 test 1, amcgla01 passed
+given byukse01 test 2, amcgla01 passed
+given byukse01 test 3, amcgla01 passed
+given byukse01 test 1, apolya01 passed
+given byukse01 test 2, apolya01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given byukse01 test 3, apolya01 failed -- formula (and and (or and or)) has a solution, but your solver returned () which is not a satisfying assignment
+given byukse01 test 1, bakasl01 passed
+given byukse01 test 2, bakasl01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given byukse01 test 3, bakasl01 failed -- formula (and and (or and or)) has a solution, but your solver returned () which is not a satisfying assignment
+given byukse01 test 1, byukse01 errored -- unknown run-time merror
+given byukse01 test 2, byukse01 errored -- unknown run-time merror
+given byukse01 test 3, byukse01 errored -- unknown run-time merror
+given byukse01 test 1, cbrink passed
+given byukse01 test 2, cbrink passed
+given byukse01 test 3, cbrink passed
+given byukse01 test 1, ccann passed
+given byukse01 test 2, ccann passed
+given byukse01 test 3, ccann failed -- formula (and and (or and or)) has a solution, but your solver returned () which is not a satisfying assignment
+given byukse01 test 1, cgrama01 passed
+given byukse01 test 2, cgrama01 passed
+given byukse01 test 3, cgrama01 passed
+given byukse01 test 1, csmith05 passed
+given byukse01 test 2, csmith05 passed
+given byukse01 test 3, csmith05 passed
+given byukse01 test 3, czuber01 passed
+given byukse01 test 1, czuber01 errored -- unknown run-time merror
+given byukse01 test 2, czuber01 errored -- unknown run-time merror
+given byukse01 test 1, deder01 passed
+given byukse01 test 3, deder01 passed
+given byukse01 test 2, deder01 errored -- unknown run-time merror
+given byukse01 test 1, dfortu01 passed
+given byukse01 test 2, dfortu01 passed
+given byukse01 test 3, dfortu01 passed
+given byukse01 test 1, ead36 passed
+given byukse01 test 2, ead36 passed
+given byukse01 test 3, ead36 passed
+given byukse01 test 1, ealter01 passed
+given byukse01 test 2, ealter01 passed
+given byukse01 test 3, ealter01 passed
+given byukse01 test 1, ewu02 passed
+given byukse01 test 2, ewu02 passed
+given byukse01 test 3, ewu02 passed
+given byukse01 test 1, gbodwi01 passed
+given byukse01 test 2, gbodwi01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given byukse01 test 3, gbodwi01 errored -- unknown run-time merror
+given byukse01 test 1, graymo01 passed
+given byukse01 test 2, graymo01 passed
+given byukse01 test 3, graymo01 passed
+given byukse01 test 1, jglazi01 passed
+given byukse01 test 2, jglazi01 passed
+given byukse01 test 3, jglazi01 passed
+given byukse01 test 1, jlockw01 errored -- unknown run-time merror
+given byukse01 test 2, jlockw01 errored -- unknown run-time merror
+given byukse01 test 3, jlockw01 errored -- unknown run-time merror
+given byukse01 test 1, jmonte03 errored -- unknown run-time merror
+given byukse01 test 2, jmonte03 errored -- unknown run-time merror
+given byukse01 test 3, jmonte03 errored -- unknown run-time merror
+given byukse01 test 1, jwilde01 failed -- formula (and (and x y) (not y)) should have no solution, but your solver claimed to find a solution
+given byukse01 test 2, jwilde01 failed -- . #f
+given byukse01 test 3, jwilde01 failed -- . #f
+given byukse01 test 1, malex passed
+given byukse01 test 2, malex passed
+given byukse01 test 3, malex passed
+given byukse01 test 1, mbfrey passed
+given byukse01 test 2, mbfrey passed
+given byukse01 test 3, mbfrey passed
+given byukse01 test 1, mborys01 passed
+given byukse01 test 2, mborys01 passed
+given byukse01 test 3, mborys01 failed -- formula (and and (or and or)) has a solution, but your solver did not find one
+given byukse01 test 1, mbulia01 passed
+given byukse01 test 2, mbulia01 passed
+given byukse01 test 3, mbulia01 passed
+given byukse01 test 1, mgolds07 passed
+given byukse01 test 2, mgolds07 passed
+given byukse01 test 3, mgolds07 passed
+given byukse01 test 1, mmcgow02 passed
+given byukse01 test 2, mmcgow02 passed
+given byukse01 test 3, mmcgow02 passed
+given byukse01 test 1, mmoute01 passed
+given byukse01 test 2, mmoute01 passed
+given byukse01 test 3, mmoute01 passed
+given byukse01 test 1, mnoble01 errored -- unknown run-time merror
+given byukse01 test 2, mnoble01 errored -- unknown run-time merror
+given byukse01 test 3, mnoble01 errored -- unknown run-time merror
+given byukse01 test 1, naiken02 passed
+given byukse01 test 2, naiken02 passed
+given byukse01 test 3, naiken02 failed -- formula (and and (or and or)) has a solution, but your solver did not find one
+given byukse01 test 1, shaney02 passed
+given byukse01 test 2, shaney02 passed
+given byukse01 test 3, shaney02 passed
+given byukse01 test 1, spanut01 passed
+given byukse01 test 2, spanut01 passed
+given byukse01 test 3, spanut01 errored -- unknown run-time merror
+given byukse01 test 1, wbutt01 passed
+given byukse01 test 2, wbutt01 passed
+given byukse01 test 3, wbutt01 passed
+given byukse01 test 1, wholah01 errored -- unknown run-time merror
+given byukse01 test 2, wholah01 errored -- unknown run-time merror
+given byukse01 test 3, wholah01 errored -- unknown run-time merror
+given cbrink test 1, abell01 passed
+given cbrink test 2, abell01 passed
+given cbrink test 3, abell01 passed
+given cbrink test 1, ahamli02 passed
+given cbrink test 2, ahamli02 passed
+given cbrink test 3, ahamli02 passed
+given cbrink test 1, ahay01 passed
+given cbrink test 2, ahay01 passed
+given cbrink test 3, ahay01 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver did not find one
+given cbrink test 1, akhaku01 passed
+given cbrink test 2, akhaku01 passed
+given cbrink test 3, akhaku01 passed
+given cbrink test 1, akuan01 passed
+given cbrink test 2, akuan01 passed
+given cbrink test 3, akuan01 passed
+given cbrink test 1, amcgla01 passed
+given cbrink test 2, amcgla01 passed
+given cbrink test 3, amcgla01 passed
+given cbrink test 1, apolya01 passed
+given cbrink test 2, apolya01 passed
+given cbrink test 3, apolya01 errored -- unknown run-time merror
+given cbrink test 1, bakasl01 passed
+given cbrink test 2, bakasl01 passed
+given cbrink test 3, bakasl01 passed
+given cbrink test 1, byukse01 errored -- unknown run-time merror
+given cbrink test 2, byukse01 errored -- unknown run-time merror
+given cbrink test 3, byukse01 errored -- unknown run-time merror
+given cbrink test 1, cbrink passed
+given cbrink test 2, cbrink passed
+given cbrink test 3, cbrink passed
+given cbrink test 1, ccann passed
+given cbrink test 2, ccann passed
+given cbrink test 3, ccann passed
+given cbrink test 1, cgrama01 passed
+given cbrink test 2, cgrama01 passed
+given cbrink test 3, cgrama01 passed
+given cbrink test 1, csmith05 passed
+given cbrink test 2, csmith05 passed
+given cbrink test 3, csmith05 passed
+given cbrink test 1, czuber01 errored -- unknown run-time merror
+given cbrink test 2, czuber01 errored -- unknown run-time merror
+given cbrink test 3, czuber01 errored -- unknown run-time merror
+given cbrink test 1, deder01 passed
+given cbrink test 2, deder01 passed
+given cbrink test 3, deder01 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver returned ((y #t) (x #t) (a #t)) which is not a satisfying assignment
+given cbrink test 1, dfortu01 passed
+given cbrink test 2, dfortu01 passed
+given cbrink test 3, dfortu01 passed
+given cbrink test 1, ead36 passed
+given cbrink test 2, ead36 failed -- formula (and (or x a) (not a)) has a solution, but your solver did not find one
+given cbrink test 3, ead36 passed
+given cbrink test 1, ealter01 passed
+given cbrink test 2, ealter01 passed
+given cbrink test 3, ealter01 passed
+given cbrink test 1, ewu02 passed
+given cbrink test 2, ewu02 passed
+given cbrink test 3, ewu02 passed
+given cbrink test 1, gbodwi01 passed
+given cbrink test 2, gbodwi01 errored -- unknown run-time merror
+given cbrink test 3, gbodwi01 errored -- unknown run-time merror
+given cbrink test 1, graymo01 passed
+given cbrink test 2, graymo01 passed
+given cbrink test 3, graymo01 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver did not find one
+given cbrink test 1, jglazi01 passed
+given cbrink test 2, jglazi01 passed
+given cbrink test 3, jglazi01 passed
+given cbrink test 1, jlockw01 errored -- unknown run-time merror
+given cbrink test 2, jlockw01 errored -- unknown run-time merror
+given cbrink test 3, jlockw01 errored -- unknown run-time merror
+given cbrink test 1, jmonte03 errored -- unknown run-time merror
+given cbrink test 2, jmonte03 errored -- unknown run-time merror
+given cbrink test 3, jmonte03 errored -- unknown run-time merror
+given cbrink test 1, jwilde01 failed -- formula (and x (not x)) should have no solution, but your solver claimed to find a solution
+given cbrink test 2, jwilde01 failed -- . #f
+given cbrink test 3, jwilde01 failed -- . #f
+given cbrink test 1, malex passed
+given cbrink test 2, malex passed
+given cbrink test 3, malex passed
+given cbrink test 1, mbfrey passed
+given cbrink test 2, mbfrey passed
+given cbrink test 3, mbfrey passed
+given cbrink test 1, mborys01 passed
+given cbrink test 2, mborys01 failed -- formula (and (or x a) (not a)) has a solution, but your solver did not find one
+given cbrink test 3, mborys01 passed
+given cbrink test 1, mbulia01 passed
+given cbrink test 2, mbulia01 passed
+given cbrink test 3, mbulia01 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver did not find one
+given cbrink test 1, mgolds07 passed
+given cbrink test 2, mgolds07 passed
+given cbrink test 3, mgolds07 passed
+given cbrink test 1, mmcgow02 passed
+given cbrink test 2, mmcgow02 passed
+given cbrink test 3, mmcgow02 passed
+given cbrink test 1, mmoute01 passed
+given cbrink test 2, mmoute01 passed
+given cbrink test 3, mmoute01 passed
+given cbrink test 1, mnoble01 errored -- unknown run-time merror
+given cbrink test 2, mnoble01 errored -- unknown run-time merror
+given cbrink test 3, mnoble01 errored -- unknown run-time merror
+given cbrink test 1, naiken02 passed
+given cbrink test 2, naiken02 passed
+given cbrink test 3, naiken02 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver did not find one
+given cbrink test 1, shaney02 passed
+given cbrink test 2, shaney02 passed
+given cbrink test 3, shaney02 passed
+given cbrink test 1, spanut01 passed
+given cbrink test 2, spanut01 passed
+given cbrink test 3, spanut01 failed -- formula (and (not (or a b c)) x (not (and x y))) has a solution, but your solver returned ((a #f) (x #t)) which is not a satisfying assignment
+given cbrink test 1, wbutt01 passed
+given cbrink test 2, wbutt01 passed
+given cbrink test 3, wbutt01 passed
+given cbrink test 1, wholah01 failed -- formula (and x (not x)) should have no solution, but your solver claimed to find a solution
+given cbrink test 2, wholah01 errored -- unknown run-time merror
+given cbrink test 3, wholah01 errored -- unknown run-time merror
+given ccann test 2, abell01 passed
+given ccann test 3, abell01 passed
+given ccann test 2, ahamli02 passed
+given ccann test 3, ahamli02 passed
+given ccann test 2, ahay01 passed
+given ccann test 3, ahay01 passed
+given ccann test 2, akhaku01 passed
+given ccann test 3, akhaku01 passed
+given ccann test 2, akuan01 passed
+given ccann test 3, akuan01 passed
+given ccann test 2, amcgla01 passed
+given ccann test 3, amcgla01 passed
+given ccann test 2, apolya01 passed
+given ccann test 3, apolya01 failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver did not find one
+given ccann test 2, bakasl01 passed
+given ccann test 3, bakasl01 failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver did not find one
+given ccann test 2, byukse01 passed
+given ccann test 3, byukse01 errored -- unknown run-time merror
+given ccann test 2, cbrink passed
+given ccann test 3, cbrink failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver did not find one
+given ccann test 2, ccann passed
+given ccann test 3, ccann passed
+given ccann test 2, cgrama01 passed
+given ccann test 3, cgrama01 passed
+given ccann test 2, csmith05 passed
+given ccann test 3, csmith05 passed
+given ccann test 2, czuber01 errored -- unknown run-time merror
+given ccann test 3, czuber01 errored -- unknown run-time merror
+given ccann test 2, deder01 failed -- formula (not (not (not (not x)))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given ccann test 3, deder01 errored -- unknown run-time merror
+given ccann test 2, dfortu01 passed
+given ccann test 3, dfortu01 passed
+given ccann test 2, ead36 passed
+given ccann test 3, ead36 passed
+given ccann test 2, ealter01 passed
+given ccann test 3, ealter01 passed
+given ccann test 2, ewu02 passed
+given ccann test 3, ewu02 passed
+given ccann test 3, gbodwi01 failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver did not find one
+given ccann test 2, gbodwi01 errored -- unknown run-time merror
+given ccann test 2, graymo01 passed
+given ccann test 3, graymo01 passed
+given ccann test 2, jglazi01 passed
+given ccann test 3, jglazi01 passed
+given ccann test 2, jlockw01 errored -- unknown run-time merror
+given ccann test 3, jlockw01 errored -- unknown run-time merror
+given ccann test 2, jmonte03 errored -- unknown run-time merror
+given ccann test 3, jmonte03 errored -- unknown run-time merror
+given ccann test 2, jwilde01 failed -- . #f
+given ccann test 3, jwilde01 failed -- . #f
+given ccann test 2, malex passed
+given ccann test 3, malex passed
+given ccann test 2, mbfrey passed
+given ccann test 3, mbfrey passed
+given ccann test 2, mborys01 passed
+given ccann test 3, mborys01 passed
+given ccann test 2, mbulia01 passed
+given ccann test 3, mbulia01 passed
+given ccann test 2, mgolds07 passed
+given ccann test 3, mgolds07 passed
+given ccann test 2, mmcgow02 passed
+given ccann test 3, mmcgow02 errored -- unknown run-time merror
+given ccann test 2, mmoute01 passed
+given ccann test 3, mmoute01 passed
+given ccann test 2, mnoble01 errored -- unknown run-time merror
+given ccann test 3, mnoble01 errored -- unknown run-time merror
+given ccann test 2, naiken02 failed -- formula (not (not (not (not x)))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given ccann test 3, naiken02 failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver did not find one
+given ccann test 2, shaney02 passed
+given ccann test 3, shaney02 passed
+given ccann test 2, spanut01 passed
+given ccann test 3, spanut01 failed -- formula (and (or x y z) (not x) (not y) (not (not z))) has a solution, but your solver returned ((y #t) (x #f)) which is not a satisfying assignment
+given ccann test 2, wbutt01 passed
+given ccann test 3, wbutt01 passed
+given ccann test 2, wholah01 failed -- formula (not (not (not (not x)))) has a solution, but your solver returned (formula (not (not (not (not x)))) has a solution, but your solver returned (formula (not (not (not (not x)))) has a solution, but your solver returned (formula (not (not (not (not x)))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given ccann test 3, wholah01 errored -- unknown run-time merror
+given csmith05 test 1, abell01 passed
+given csmith05 test 2, abell01 passed
+given csmith05 test 3, abell01 passed
+given csmith05 test 1, ahamli02 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, ahamli02 passed
+given csmith05 test 3, ahamli02 passed
+given csmith05 test 1, ahay01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver did not find one
+given csmith05 test 2, ahay01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, ahay01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver did not find one
+given csmith05 test 1, akhaku01 passed
+given csmith05 test 2, akhaku01 passed
+given csmith05 test 3, akhaku01 passed
+given csmith05 test 1, akuan01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, akuan01 passed
+given csmith05 test 3, akuan01 passed
+given csmith05 test 1, amcgla01 passed
+given csmith05 test 2, amcgla01 passed
+given csmith05 test 3, amcgla01 passed
+given csmith05 test 1, apolya01 passed
+given csmith05 test 2, apolya01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, apolya01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver did not find one
+given csmith05 test 1, bakasl01 passed
+given csmith05 test 2, bakasl01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, bakasl01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver did not find one
+given csmith05 test 1, byukse01 passed
+given csmith05 test 2, byukse01 passed
+given csmith05 test 3, byukse01 errored -- unknown run-time merror
+given csmith05 test 1, cbrink failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, cbrink failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, cbrink passed
+given csmith05 test 1, ccann passed
+given csmith05 test 2, ccann failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, ccann passed
+given csmith05 test 1, cgrama01 passed
+given csmith05 test 3, cgrama01 passed
+given csmith05 test 2, cgrama01 errored -- unknown run-time merror
+given csmith05 test 1, csmith05 passed
+given csmith05 test 2, csmith05 passed
+given csmith05 test 3, csmith05 passed
+given csmith05 test 2, czuber01 passed
+given csmith05 test 1, czuber01 errored -- unknown run-time merror
+given csmith05 test 3, czuber01 errored -- unknown run-time merror
+given csmith05 test 1, deder01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given csmith05 test 2, deder01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver returned ((or #f) (and #f)) which is not a satisfying assignment
+given csmith05 test 3, deder01 errored -- unknown run-time merror
+given csmith05 test 1, dfortu01 passed
+given csmith05 test 2, dfortu01 passed
+given csmith05 test 3, dfortu01 passed
+given csmith05 test 1, ead36 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver did not find one
+given csmith05 test 2, ead36 passed
+given csmith05 test 3, ead36 passed
+given csmith05 test 1, ealter01 passed
+given csmith05 test 2, ealter01 passed
+given csmith05 test 3, ealter01 passed
+given csmith05 test 1, ewu02 passed
+given csmith05 test 2, ewu02 passed
+given csmith05 test 3, ewu02 passed
+given csmith05 test 2, gbodwi01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, gbodwi01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver did not find one
+given csmith05 test 1, gbodwi01 errored -- unknown run-time merror
+given csmith05 test 1, graymo01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver did not find one
+given csmith05 test 2, graymo01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, graymo01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver did not find one
+given csmith05 test 1, jglazi01 passed
+given csmith05 test 2, jglazi01 passed
+given csmith05 test 3, jglazi01 passed
+given csmith05 test 1, jlockw01 errored -- unknown run-time merror
+given csmith05 test 2, jlockw01 errored -- unknown run-time merror
+given csmith05 test 3, jlockw01 errored -- unknown run-time merror
+given csmith05 test 1, jmonte03 errored -- unknown run-time merror
+given csmith05 test 2, jmonte03 errored -- unknown run-time merror
+given csmith05 test 3, jmonte03 errored -- unknown run-time merror
+given csmith05 test 1, jwilde01 failed -- . #f
+given csmith05 test 2, jwilde01 failed -- . #f
+given csmith05 test 3, jwilde01 failed -- . #f
+given csmith05 test 1, malex passed
+given csmith05 test 2, malex passed
+given csmith05 test 3, malex passed
+given csmith05 test 1, mbfrey passed
+given csmith05 test 2, mbfrey passed
+given csmith05 test 3, mbfrey passed
+given csmith05 test 1, mborys01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver did not find one
+given csmith05 test 2, mborys01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, mborys01 passed
+given csmith05 test 1, mbulia01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, mbulia01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver returned ((and #t) (or #t)) which is not a satisfying assignment
+given csmith05 test 3, mbulia01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given csmith05 test 1, mgolds07 passed
+given csmith05 test 2, mgolds07 passed
+given csmith05 test 3, mgolds07 passed
+given csmith05 test 1, mmcgow02 passed
+given csmith05 test 2, mmcgow02 passed
+given csmith05 test 3, mmcgow02 errored -- unknown run-time merror
+given csmith05 test 1, mmoute01 passed
+given csmith05 test 2, mmoute01 passed
+given csmith05 test 3, mmoute01 passed
+given csmith05 test 1, mnoble01 errored -- unknown run-time merror
+given csmith05 test 2, mnoble01 errored -- unknown run-time merror
+given csmith05 test 3, mnoble01 errored -- unknown run-time merror
+given csmith05 test 1, naiken02 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, naiken02 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver returned () which is not a satisfying assignment
+given csmith05 test 3, naiken02 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given csmith05 test 1, shaney02 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, shaney02 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver did not find one
+given csmith05 test 3, shaney02 passed
+given csmith05 test 1, spanut01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given csmith05 test 2, spanut01 failed -- formula (not (or (and (not and) (not or)) and)) has a solution, but your solver returned ((and #t) (or #t)) which is not a satisfying assignment
+given csmith05 test 3, spanut01 failed -- formula (and (not (and x y)) (not (or (not x) y))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given csmith05 test 1, wbutt01 passed
+given csmith05 test 2, wbutt01 passed
+given csmith05 test 3, wbutt01 passed
+given csmith05 test 1, wholah01 failed -- formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned (formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned (formula (not (or (or x (and y (not z)) z))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given csmith05 test 2, wholah01 errored -- unknown run-time merror
+given csmith05 test 3, wholah01 errored -- unknown run-time merror
+given deder01 test 2, abell01 passed
+given deder01 test 2, ahamli02 passed
+given deder01 test 2, ahay01 passed
+given deder01 test 2, akhaku01 passed
+given deder01 test 2, akuan01 passed
+given deder01 test 2, amcgla01 passed
+given deder01 test 2, apolya01 passed
+given deder01 test 2, bakasl01 passed
+given deder01 test 2, byukse01 passed
+given deder01 test 2, cbrink passed
+given deder01 test 2, ccann passed
+given deder01 test 2, cgrama01 errored -- unknown run-time merror
+given deder01 test 2, csmith05 passed
+given deder01 test 2, czuber01 errored -- unknown run-time merror
+given deder01 test 2, deder01 failed -- formula (not (and x y (or x y))) has a solution, but your solver returned ((y #t) (x #t)) which is not a satisfying assignment
+given deder01 test 2, dfortu01 passed
+given deder01 test 2, ead36 passed
+given deder01 test 2, ealter01 passed
+given deder01 test 2, ewu02 passed
+given deder01 test 2, gbodwi01 errored -- unknown run-time merror
+given deder01 test 2, graymo01 passed
+given deder01 test 2, jglazi01 passed
+given deder01 test 2, jlockw01 errored -- unknown run-time merror
+given deder01 test 2, jmonte03 errored -- unknown run-time merror
+given deder01 test 2, jwilde01 failed -- . #f
+given deder01 test 2, malex passed
+given deder01 test 2, mbfrey passed
+given deder01 test 2, mborys01 passed
+given deder01 test 2, mbulia01 passed
+given deder01 test 2, mgolds07 passed
+given deder01 test 2, mmcgow02 passed
+given deder01 test 2, mmoute01 passed
+given deder01 test 2, mnoble01 errored -- unknown run-time merror
+given deder01 test 2, naiken02 passed
+given deder01 test 2, shaney02 passed
+given deder01 test 2, spanut01 passed
+given deder01 test 2, wbutt01 passed
+given deder01 test 2, wholah01 failed -- formula (not (and x y (or x y))) has a solution, but your solver returned (formula (not (and x y (or x y))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment) which is not a satisfying assignment
+given dfortu01 test 1, abell01 passed
+given dfortu01 test 2, abell01 passed
+given dfortu01 test 3, abell01 passed
+given dfortu01 test 1, ahamli02 passed
+given dfortu01 test 2, ahamli02 passed
+given dfortu01 test 3, ahamli02 passed
+given dfortu01 test 1, ahay01 passed
+given dfortu01 test 2, ahay01 passed
+given dfortu01 test 3, ahay01 passed
+given dfortu01 test 1, akhaku01 passed
+given dfortu01 test 2, akhaku01 passed
+given dfortu01 test 3, akhaku01 passed
+given dfortu01 test 1, akuan01 passed
+given dfortu01 test 2, akuan01 passed
+given dfortu01 test 3, akuan01 passed
+given dfortu01 test 1, amcgla01 passed
+given dfortu01 test 2, amcgla01 passed
+given dfortu01 test 3, amcgla01 passed
+given dfortu01 test 2, apolya01 failed -- formula (and (or x y) (and (not x) y)) has a solution, but your solver did not find one
+given dfortu01 test 1, apolya01 errored -- unknown run-time merror
+given dfortu01 test 3, apolya01 errored -- unknown run-time merror
+given dfortu01 test 1, bakasl01 passed
+given dfortu01 test 2, bakasl01 failed -- formula (and (or x y) (and (not x) y)) has a solution, but your solver did not find one
+given dfortu01 test 3, bakasl01 passed
+given dfortu01 test 1, byukse01 errored -- unknown run-time merror
+given dfortu01 test 2, byukse01 errored -- unknown run-time merror
+given dfortu01 test 3, byukse01 errored -- unknown run-time merror
+given dfortu01 test 1, cbrink passed
+given dfortu01 test 2, cbrink passed
+given dfortu01 test 3, cbrink passed
+given dfortu01 test 1, ccann passed
+given dfortu01 test 2, ccann passed
+given dfortu01 test 3, ccann passed
+given dfortu01 test 1, cgrama01 passed
+given dfortu01 test 2, cgrama01 passed
+given dfortu01 test 3, cgrama01 passed
+given dfortu01 test 1, csmith05 passed
+given dfortu01 test 2, csmith05 passed
+given dfortu01 test 3, csmith05 passed
+given dfortu01 test 1, czuber01 errored -- unknown run-time merror
+given dfortu01 test 2, czuber01 errored -- unknown run-time merror
+given dfortu01 test 3, czuber01 errored -- unknown run-time merror
+given dfortu01 test 1, deder01 failed -- formula (and (and (not (or x y)) z) (or x y z)) has a solution, but your solver returned ((z #t) (x #t)) which is not a satisfying assignment
+given dfortu01 test 2, deder01 errored -- unknown run-time merror
+given dfortu01 test 3, deder01 errored -- unknown run-time merror
+given dfortu01 test 1, dfortu01 passed
+given dfortu01 test 2, dfortu01 passed
+given dfortu01 test 3, dfortu01 passed
+given dfortu01 test 1, ead36 passed
+given dfortu01 test 2, ead36 passed
+given dfortu01 test 3, ead36 passed
+given dfortu01 test 1, ealter01 passed
+given dfortu01 test 2, ealter01 passed
+given dfortu01 test 3, ealter01 passed
+given dfortu01 test 1, ewu02 passed
+given dfortu01 test 2, ewu02 passed
+given dfortu01 test 3, ewu02 passed
+given dfortu01 test 2, gbodwi01 failed -- formula (and (or x y) (and (not x) y)) has a solution, but your solver did not find one
+given dfortu01 test 3, gbodwi01 passed
+given dfortu01 test 1, gbodwi01 errored -- unknown run-time merror
+given dfortu01 test 1, graymo01 passed
+given dfortu01 test 2, graymo01 passed
+given dfortu01 test 3, graymo01 passed
+given dfortu01 test 1, jglazi01 passed
+given dfortu01 test 2, jglazi01 passed
+given dfortu01 test 3, jglazi01 passed
+given dfortu01 test 1, jlockw01 errored -- unknown run-time merror
+given dfortu01 test 2, jlockw01 errored -- unknown run-time merror
+given dfortu01 test 3, jlockw01 errored -- unknown run-time merror
+given dfortu01 test 1, jmonte03 errored -- unknown run-time merror
+given dfortu01 test 2, jmonte03 errored -- unknown run-time merror
+given dfortu01 test 3, jmonte03 errored -- unknown run-time merror
+given dfortu01 test 1, jwilde01 failed -- . #f
+given dfortu01 test 2, jwilde01 failed -- . #f
+given dfortu01 test 3, jwilde01 failed -- formula (and x y (or (not x) (not y))) should have no solution, but your solver claimed to find a solution
+given dfortu01 test 1, malex passed
+given dfortu01 test 2, malex passed
+given dfortu01 test 3, malex passed
+given dfortu01 test 1, mbfrey passed
+given dfortu01 test 2, mbfrey passed
+given dfortu01 test 3, mbfrey passed
+given dfortu01 test 1, mborys01 passed
+given dfortu01 test 2, mborys01 passed
+given dfortu01 test 3, mborys01 passed
+given dfortu01 test 1, mbulia01 failed -- formula (and (and (not (or x y)) z) (or x y z)) has a solution, but your solver returned ((x #f) (z #t) (y #t)) which is not a satisfying assignment
+given dfortu01 test 2, mbulia01 passed
+given dfortu01 test 3, mbulia01 failed -- formula (and x y (or (not x) (not y))) should have no solution, but your solver claimed to find a solution
+given dfortu01 test 1, mgolds07 passed
+given dfortu01 test 2, mgolds07 passed
+given dfortu01 test 3, mgolds07 passed
+given dfortu01 test 1, mmcgow02 passed
+given dfortu01 test 3, mmcgow02 passed
+given dfortu01 test 2, mmcgow02 errored -- unknown run-time merror
+given dfortu01 test 1, mmoute01 passed
+given dfortu01 test 2, mmoute01 passed
+given dfortu01 test 3, mmoute01 passed
+given dfortu01 test 1, mnoble01 errored -- unknown run-time merror
+given dfortu01 test 2, mnoble01 errored -- unknown run-time merror
+given dfortu01 test 3, mnoble01 errored -- unknown run-time merror
+given dfortu01 test 1, naiken02 failed -- formula (and (and (not (or x y)) z) (or x y z)) has a solution, but your solver returned ((x #f) (z #t) (y #t)) which is not a satisfying assignment
+given dfortu01 test 2, naiken02 passed
+given dfortu01 test 3, naiken02 passed
+given dfortu01 test 1, shaney02 passed
+given dfortu01 test 2, shaney02 passed
+given dfortu01 test 3, shaney02 passed
+given dfortu01 test 1, spanut01 failed -- formula (and (and (not (or x y)) z) (or x y z)) has a solution, but your solver returned ((x #f) (z #t) (y #t)) which is not a satisfying assignment
+given dfortu01 test 2, spanut01 passed
+given dfortu01 test 3, spanut01 failed -- formula (and x y (or (not x) (not y))) should have no solution, but your solver claimed to find a solution
+given dfortu01 test 1, wbutt01 passed
+given dfortu01 test 2, wbutt01 passed
+given dfortu01 test 3, wbutt01 passed
+given dfortu01 test 3, wholah01 failed -- formula (and x y (or (not x) (not y))) should have no solution, but your solver claimed to find a solution
+given dfortu01 test 1, wholah01 errored -- unknown run-time merror
+given dfortu01 test 2, wholah01 errored -- unknown run-time merror
+given ead36 test 2, abell01 passed
+given ead36 test 3, abell01 passed
+given ead36 test 2, ahamli02 passed
+given ead36 test 3, ahamli02 passed
+given ead36 test 2, ahay01 passed
+given ead36 test 3, ahay01 passed
+given ead36 test 2, akhaku01 passed
+given ead36 test 3, akhaku01 passed
+given ead36 test 2, akuan01 passed
+given ead36 test 3, akuan01 passed
+given ead36 test 2, amcgla01 passed
+given ead36 test 3, amcgla01 passed
+given ead36 test 2, apolya01 failed -- formula (and (or (not x) y) x) has a solution, but your solver did not find one
+given ead36 test 3, apolya01 errored -- unknown run-time merror
+given ead36 test 2, bakasl01 failed -- formula (and (or (not x) y) x) has a solution, but your solver did not find one
+given ead36 test 3, bakasl01 failed -- formula (and (or (not and) or) and (not not)) has a solution, but your solver did not find one
+given ead36 test 2, byukse01 errored -- unknown run-time merror
+given ead36 test 3, byukse01 errored -- unknown run-time merror
+given ead36 test 2, cbrink passed
+given ead36 test 3, cbrink passed
+given ead36 test 2, ccann passed
+given ead36 test 3, ccann failed -- formula (and (or (not and) or) and (not not)) has a solution, but your solver returned ((and #f) (not #f)) which is not a satisfying assignment
+given ead36 test 2, cgrama01 passed
+given ead36 test 3, cgrama01 passed
+given ead36 test 2, csmith05 passed
+given ead36 test 3, csmith05 passed
+given ead36 test 2, czuber01 errored -- unknown run-time merror
+given ead36 test 3, czuber01 errored -- unknown run-time merror
+given ead36 test 2, deder01 errored -- unknown run-time merror
+given ead36 test 3, deder01 errored -- unknown run-time merror
+given ead36 test 2, dfortu01 passed
+given ead36 test 3, dfortu01 passed
+given ead36 test 2, ead36 passed
+given ead36 test 3, ead36 passed
+given ead36 test 2, ealter01 passed
+given ead36 test 3, ealter01 passed
+given ead36 test 2, ewu02 passed
+given ead36 test 3, ewu02 passed
+given ead36 test 2, gbodwi01 failed -- formula (and (or (not x) y) x) has a solution, but your solver did not find one
+given ead36 test 3, gbodwi01 failed -- formula (and (or (not and) or) and (not not)) has a solution, but your solver did not find one
+given ead36 test 2, graymo01 passed
+given ead36 test 3, graymo01 passed
+given ead36 test 2, jglazi01 passed
+given ead36 test 3, jglazi01 passed
+given ead36 test 2, jlockw01 errored -- unknown run-time merror
+given ead36 test 3, jlockw01 errored -- unknown run-time merror
+given ead36 test 2, jmonte03 errored -- unknown run-time merror
+given ead36 test 3, jmonte03 errored -- unknown run-time merror
+given ead36 test 2, jwilde01 failed -- . #f
+given ead36 test 3, jwilde01 failed -- . #f
+given ead36 test 2, malex passed
+given ead36 test 3, malex passed
+given ead36 test 2, mbfrey passed
+given ead36 test 3, mbfrey passed
+given ead36 test 2, mborys01 passed
+given ead36 test 3, mborys01 failed -- formula (and (or (not and) or) and (not not)) has a solution, but your solver did not find one
+given ead36 test 2, mbulia01 passed
+given ead36 test 3, mbulia01 passed
+given ead36 test 2, mgolds07 passed
+given ead36 test 3, mgolds07 passed
+given ead36 test 2, mmcgow02 passed
+given ead36 test 3, mmcgow02 errored -- unknown run-time merror
+given ead36 test 2, mmoute01 passed
+given ead36 test 3, mmoute01 passed
+given ead36 test 2, mnoble01 errored -- unknown run-time merror
+given ead36 test 3, mnoble01 errored -- unknown run-time merror
+given ead36 test 2, naiken02 passed
+given ead36 test 3, naiken02 passed
+given ead36 test 2, shaney02 passed
+given ead36 test 3, shaney02 passed
+given ead36 test 2, spanut01 passed
+given ead36 test 3, spanut01 errored -- unknown run-time merror
+given ead36 test 2, wbutt01 passed
+given ead36 test 3, wbutt01 passed
+given ead36 test 2, wholah01 errored -- unknown run-time merror
+given ead36 test 3, wholah01 errored -- unknown run-time merror
+given ealter01 test 1, abell01 passed
+given ealter01 test 2, abell01 passed
+given ealter01 test 3, abell01 passed
+given ealter01 test 1, ahamli02 passed
+given ealter01 test 2, ahamli02 passed
+given ealter01 test 3, ahamli02 passed
+given ealter01 test 1, ahay01 passed
+given ealter01 test 2, ahay01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, ahay01 passed
+given ealter01 test 1, akhaku01 passed
+given ealter01 test 2, akhaku01 passed
+given ealter01 test 3, akhaku01 passed
+given ealter01 test 1, akuan01 passed
+given ealter01 test 2, akuan01 passed
+given ealter01 test 3, akuan01 passed
+given ealter01 test 1, amcgla01 passed
+given ealter01 test 2, amcgla01 passed
+given ealter01 test 3, amcgla01 passed
+given ealter01 test 1, apolya01 passed
+given ealter01 test 2, apolya01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, apolya01 passed
+given ealter01 test 1, bakasl01 passed
+given ealter01 test 2, bakasl01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, bakasl01 passed
+given ealter01 test 1, byukse01 passed
+given ealter01 test 2, byukse01 errored -- unknown run-time merror
+given ealter01 test 3, byukse01 errored -- unknown run-time merror
+given ealter01 test 1, cbrink passed
+given ealter01 test 2, cbrink passed
+given ealter01 test 3, cbrink passed
+given ealter01 test 1, ccann passed
+given ealter01 test 2, ccann passed
+given ealter01 test 3, ccann passed
+given ealter01 test 1, cgrama01 passed
+given ealter01 test 2, cgrama01 passed
+given ealter01 test 3, cgrama01 passed
+given ealter01 test 1, csmith05 passed
+given ealter01 test 2, csmith05 passed
+given ealter01 test 3, csmith05 passed
+given ealter01 test 1, czuber01 errored -- unknown run-time merror
+given ealter01 test 2, czuber01 errored -- unknown run-time merror
+given ealter01 test 3, czuber01 errored -- unknown run-time merror
+given ealter01 test 1, deder01 failed -- formula (not (or (not x) y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given ealter01 test 2, deder01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver returned ((z #t) (x #t) (y #t)) which is not a satisfying assignment
+given ealter01 test 3, deder01 failed -- formula (and (not (or x (not y))) x) should have no solution, but your solver claimed to find a solution
+given ealter01 test 1, dfortu01 passed
+given ealter01 test 2, dfortu01 passed
+given ealter01 test 3, dfortu01 passed
+given ealter01 test 1, ead36 passed
+given ealter01 test 2, ead36 passed
+given ealter01 test 3, ead36 passed
+given ealter01 test 1, ealter01 passed
+given ealter01 test 2, ealter01 passed
+given ealter01 test 3, ealter01 passed
+given ealter01 test 1, ewu02 passed
+given ealter01 test 2, ewu02 passed
+given ealter01 test 3, ewu02 passed
+given ealter01 test 2, gbodwi01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, gbodwi01 passed
+given ealter01 test 1, gbodwi01 errored -- unknown run-time merror
+given ealter01 test 1, graymo01 passed
+given ealter01 test 2, graymo01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, graymo01 passed
+given ealter01 test 1, jglazi01 passed
+given ealter01 test 2, jglazi01 passed
+given ealter01 test 3, jglazi01 passed
+given ealter01 test 1, jlockw01 errored -- unknown run-time merror
+given ealter01 test 2, jlockw01 errored -- unknown run-time merror
+given ealter01 test 3, jlockw01 errored -- unknown run-time merror
+given ealter01 test 1, jmonte03 errored -- unknown run-time merror
+given ealter01 test 2, jmonte03 errored -- unknown run-time merror
+given ealter01 test 3, jmonte03 errored -- unknown run-time merror
+given ealter01 test 1, jwilde01 failed -- . #f
+given ealter01 test 2, jwilde01 failed -- . #f
+given ealter01 test 3, jwilde01 failed -- formula (and (not (or x (not y))) x) should have no solution, but your solver claimed to find a solution
+given ealter01 test 1, malex passed
+given ealter01 test 2, malex passed
+given ealter01 test 3, malex passed
+given ealter01 test 1, mbfrey passed
+given ealter01 test 2, mbfrey passed
+given ealter01 test 3, mbfrey passed
+given ealter01 test 1, mborys01 passed
+given ealter01 test 2, mborys01 passed
+given ealter01 test 3, mborys01 passed
+given ealter01 test 1, mbulia01 failed -- formula (not (or (not x) y)) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given ealter01 test 2, mbulia01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, mbulia01 failed -- formula (and (not (or x (not y))) x) should have no solution, but your solver claimed to find a solution
+given ealter01 test 1, mgolds07 passed
+given ealter01 test 2, mgolds07 passed
+given ealter01 test 3, mgolds07 passed
+given ealter01 test 1, mmcgow02 passed
+given ealter01 test 2, mmcgow02 passed
+given ealter01 test 3, mmcgow02 passed
+given ealter01 test 1, mmoute01 passed
+given ealter01 test 2, mmoute01 passed
+given ealter01 test 3, mmoute01 passed
+given ealter01 test 1, mnoble01 errored -- unknown run-time merror
+given ealter01 test 2, mnoble01 errored -- unknown run-time merror
+given ealter01 test 3, mnoble01 errored -- unknown run-time merror
+given ealter01 test 1, naiken02 failed -- formula (not (or (not x) y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given ealter01 test 2, naiken02 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, naiken02 failed -- formula (and (not (or x (not y))) x) should have no solution, but your solver claimed to find a solution
+given ealter01 test 1, shaney02 passed
+given ealter01 test 2, shaney02 passed
+given ealter01 test 3, shaney02 passed
+given ealter01 test 1, spanut01 failed -- formula (not (or (not x) y)) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given ealter01 test 2, spanut01 failed -- formula (and (not (and y x z)) x y) has a solution, but your solver did not find one
+given ealter01 test 3, spanut01 failed -- formula (and (not (or x (not y))) x) should have no solution, but your solver claimed to find a solution
+given ealter01 test 1, wbutt01 passed
+given ealter01 test 2, wbutt01 passed
+given ealter01 test 3, wbutt01 passed
+given ealter01 test 1, wholah01 errored -- unknown run-time merror
+given ealter01 test 2, wholah01 errored -- unknown run-time merror
+given ealter01 test 3, wholah01 errored -- unknown run-time merror
+given enicol01 test 2, abell01 passed
+given enicol01 test 2, ahamli02 passed
+given enicol01 test 2, ahay01 failed -- formula (not (and z (or (not z) (and x (not z))))) has a solution, but your solver did not find one
+given enicol01 test 2, akhaku01 passed
+given enicol01 test 2, akuan01 passed
+given enicol01 test 2, amcgla01 passed
+given enicol01 test 2, apolya01 passed
+given enicol01 test 2, bakasl01 passed
+given enicol01 test 2, byukse01 passed
+given enicol01 test 2, cbrink passed
+given enicol01 test 2, ccann passed
+given enicol01 test 2, cgrama01 errored -- unknown run-time merror
+given enicol01 test 2, csmith05 passed
+given enicol01 test 2, czuber01 errored -- unknown run-time merror
+given enicol01 test 2, deder01 errored -- unknown run-time merror
+given enicol01 test 2, dfortu01 passed
+given enicol01 test 2, ead36 passed
+given enicol01 test 2, ealter01 passed
+given enicol01 test 2, ewu02 passed
+given enicol01 test 2, gbodwi01 errored -- unknown run-time merror
+given enicol01 test 2, graymo01 failed -- formula (not (and z (or (not z) (and x (not z))))) has a solution, but your solver did not find one
+given enicol01 test 2, jglazi01 passed
+given enicol01 test 2, jlockw01 errored -- unknown run-time merror
+given enicol01 test 2, jmonte03 errored -- unknown run-time merror
+given enicol01 test 2, jwilde01 failed -- . #f
+given enicol01 test 2, malex passed
+given enicol01 test 2, mbfrey passed
+given enicol01 test 2, mborys01 passed
+given enicol01 test 2, mbulia01 passed
+given enicol01 test 2, mgolds07 passed
+given enicol01 test 2, mmcgow02 passed
+given enicol01 test 2, mmoute01 passed
+given enicol01 test 2, mnoble01 errored -- unknown run-time merror
+given enicol01 test 2, naiken02 passed
+given enicol01 test 2, shaney02 passed
+given enicol01 test 2, spanut01 failed -- formula (not (and z (or (not z) (and x (not z))))) has a solution, but your solver did not find one
+given enicol01 test 2, wbutt01 passed
+given enicol01 test 2, wholah01 failed -- formula (not (and z (or (not z) (and x (not z))))) has a solution, but your solver returned (formula (not (and z (or (not z) (and x (not z))))) has a solution, but your solver returned ((z #f)) which is not a satisfying assignment) which is not a satisfying assignment
+given ewu02 test 1, abell01 passed
+given ewu02 test 2, abell01 passed
+given ewu02 test 3, abell01 passed
+given ewu02 test 1, ahamli02 passed
+given ewu02 test 2, ahamli02 passed
+given ewu02 test 3, ahamli02 errored -- unknown run-time merror
+given ewu02 test 1, ahay01 passed
+given ewu02 test 2, ahay01 passed
+given ewu02 test 3, ahay01 passed
+given ewu02 test 1, akhaku01 passed
+given ewu02 test 2, akhaku01 passed
+given ewu02 test 3, akhaku01 passed
+given ewu02 test 1, akuan01 passed
+given ewu02 test 2, akuan01 passed
+given ewu02 test 3, akuan01 passed
+given ewu02 test 1, amcgla01 passed
+given ewu02 test 2, amcgla01 passed
+given ewu02 test 3, amcgla01 passed
+given ewu02 test 2, apolya01 passed
+given ewu02 test 1, apolya01 errored -- unknown run-time merror
+given ewu02 test 3, apolya01 errored -- unknown run-time merror
+given ewu02 test 1, bakasl01 passed
+given ewu02 test 2, bakasl01 passed
+given ewu02 test 3, bakasl01 passed
+given ewu02 test 2, byukse01 passed
+given ewu02 test 1, byukse01 errored -- unknown run-time merror
+given ewu02 test 3, byukse01 errored -- unknown run-time merror
+given ewu02 test 1, cbrink passed
+given ewu02 test 2, cbrink failed -- formula (not (not (not (and (not a) (not b) (not c))))) has a solution, but your solver returned ((a #f)) which is not a satisfying assignment
+given ewu02 test 3, cbrink passed
+given ewu02 test 1, ccann passed
+given ewu02 test 2, ccann passed
+given ewu02 test 3, ccann passed
+given ewu02 test 1, cgrama01 passed
+given ewu02 test 2, cgrama01 passed
+given ewu02 test 3, cgrama01 passed
+given ewu02 test 1, csmith05 passed
+given ewu02 test 2, csmith05 passed
+given ewu02 test 3, csmith05 passed
+given ewu02 test 1, czuber01 errored -- unknown run-time merror
+given ewu02 test 2, czuber01 errored -- unknown run-time merror
+given ewu02 test 3, czuber01 errored -- unknown run-time merror
+given ewu02 test 2, deder01 failed -- formula (not (not (not (and (not a) (not b) (not c))))) has a solution, but your solver returned ((c #f) (b #f) (a #f)) which is not a satisfying assignment
+given ewu02 test 1, deder01 errored -- unknown run-time merror
+given ewu02 test 3, deder01 errored -- unknown run-time merror
+given ewu02 test 1, dfortu01 passed
+given ewu02 test 2, dfortu01 passed
+given ewu02 test 3, dfortu01 passed
+given ewu02 test 1, ead36 passed
+given ewu02 test 2, ead36 passed
+given ewu02 test 3, ead36 failed -- formula (and (and (and (and (and (and (and (and (and (and (and (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) (or x y z) (or (not x) (not y) (not z)) (or x y (not z))) has a solution, but your solver did not find one
+given ewu02 test 1, ealter01 passed
+given ewu02 test 2, ealter01 passed
+given ewu02 test 3, ealter01 passed
+given ewu02 test 1, ewu02 passed
+given ewu02 test 2, ewu02 passed
+given ewu02 test 3, ewu02 passed
+given ewu02 test 1, gbodwi01 passed
+given ewu02 test 2, gbodwi01 errored -- unknown run-time merror
+given ewu02 test 3, gbodwi01 errored -- unknown run-time merror
+given ewu02 test 1, graymo01 passed
+given ewu02 test 2, graymo01 passed
+given ewu02 test 3, graymo01 passed
+given ewu02 test 1, jglazi01 passed
+given ewu02 test 2, jglazi01 passed
+given ewu02 test 3, jglazi01 passed
+given ewu02 test 1, jlockw01 errored -- unknown run-time merror
+given ewu02 test 2, jlockw01 errored -- unknown run-time merror
+given ewu02 test 3, jlockw01 errored -- unknown run-time merror
+given ewu02 test 1, jmonte03 errored -- unknown run-time merror
+given ewu02 test 2, jmonte03 errored -- unknown run-time merror
+given ewu02 test 3, jmonte03 errored -- unknown run-time merror
+given ewu02 test 1, jwilde01 failed -- formula (and x y z (or (not z) (not y) (not x))) should have no solution, but your solver claimed to find a solution
+given ewu02 test 2, jwilde01 failed -- . #f
+given ewu02 test 3, jwilde01 failed -- . #f
+given ewu02 test 1, malex passed
+given ewu02 test 2, malex passed
+given ewu02 test 3, malex passed
+given ewu02 test 1, mbfrey passed
+given ewu02 test 2, mbfrey passed
+given ewu02 test 3, mbfrey passed
+given ewu02 test 1, mborys01 passed
+given ewu02 test 2, mborys01 passed
+given ewu02 test 3, mborys01 passed
+given ewu02 test 1, mbulia01 failed -- formula (and x y z (or (not z) (not y) (not x))) should have no solution, but your solver claimed to find a solution
+given ewu02 test 2, mbulia01 passed
+given ewu02 test 3, mbulia01 passed
+given ewu02 test 1, mgolds07 passed
+given ewu02 test 2, mgolds07 passed
+given ewu02 test 3, mgolds07 passed
+given ewu02 test 1, mmcgow02 passed
+given ewu02 test 2, mmcgow02 passed
+given ewu02 test 3, mmcgow02 errored -- unknown run-time merror
+given ewu02 test 1, mmoute01 passed
+given ewu02 test 2, mmoute01 passed
+given ewu02 test 3, mmoute01 passed
+given ewu02 test 1, mnoble01 errored -- unknown run-time merror
+given ewu02 test 2, mnoble01 errored -- unknown run-time merror
+given ewu02 test 3, mnoble01 errored -- unknown run-time merror
+given ewu02 test 1, naiken02 passed
+given ewu02 test 2, naiken02 failed -- formula (not (not (not (and (not a) (not b) (not c))))) has a solution, but your solver returned ((a #f) (b #f) (c #f)) which is not a satisfying assignment
+given ewu02 test 3, naiken02 passed
+given ewu02 test 1, shaney02 passed
+given ewu02 test 2, shaney02 passed
+given ewu02 test 3, shaney02 passed
+given ewu02 test 1, spanut01 failed -- formula (and x y z (or (not z) (not y) (not x))) should have no solution, but your solver claimed to find a solution
+given ewu02 test 2, spanut01 passed
+given ewu02 test 3, spanut01 errored -- unknown run-time merror
+given ewu02 test 1, wbutt01 passed
+given ewu02 test 2, wbutt01 passed
+given ewu02 test 3, wbutt01 passed
+given ewu02 test 1, wholah01 failed -- formula (and x y z (or (not z) (not y) (not x))) should have no solution, but your solver claimed to find a solution
+given ewu02 test 2, wholah01 errored -- unknown run-time merror
+given ewu02 test 3, wholah01 errored -- unknown run-time merror
+given gbodwi01 test 1, abell01 passed
+given gbodwi01 test 2, abell01 passed
+given gbodwi01 test 1, ahamli02 passed
+given gbodwi01 test 2, ahamli02 passed
+given gbodwi01 test 1, ahay01 passed
+given gbodwi01 test 2, ahay01 passed
+given gbodwi01 test 1, akhaku01 passed
+given gbodwi01 test 2, akhaku01 passed
+given gbodwi01 test 1, akuan01 passed
+given gbodwi01 test 2, akuan01 passed
+given gbodwi01 test 1, amcgla01 passed
+given gbodwi01 test 2, amcgla01 passed
+given gbodwi01 test 1, apolya01 passed
+given gbodwi01 test 2, apolya01 errored -- unknown run-time merror
+given gbodwi01 test 1, bakasl01 passed
+given gbodwi01 test 2, bakasl01 passed
+given gbodwi01 test 1, byukse01 passed
+given gbodwi01 test 2, byukse01 errored -- unknown run-time merror
+given gbodwi01 test 1, cbrink passed
+given gbodwi01 test 2, cbrink passed
+given gbodwi01 test 1, ccann passed
+given gbodwi01 test 2, ccann passed
+given gbodwi01 test 1, cgrama01 passed
+given gbodwi01 test 2, cgrama01 passed
+given gbodwi01 test 1, csmith05 passed
+given gbodwi01 test 2, csmith05 passed
+given gbodwi01 test 1, czuber01 passed
+given gbodwi01 test 2, czuber01 errored -- unknown run-time merror
+given gbodwi01 test 1, deder01 passed
+given gbodwi01 test 2, deder01 errored -- unknown run-time merror
+given gbodwi01 test 1, dfortu01 passed
+given gbodwi01 test 2, dfortu01 passed
+given gbodwi01 test 2, ead36 passed
+given gbodwi01 test 1, ead36 errored -- unknown run-time merror
+given gbodwi01 test 1, ealter01 passed
+given gbodwi01 test 2, ealter01 passed
+given gbodwi01 test 1, ewu02 passed
+given gbodwi01 test 2, ewu02 passed
+given gbodwi01 test 1, gbodwi01 errored -- unknown run-time merror
+given gbodwi01 test 2, gbodwi01 errored -- unknown run-time merror
+given gbodwi01 test 1, graymo01 passed
+given gbodwi01 test 2, graymo01 passed
+given gbodwi01 test 1, jglazi01 passed
+given gbodwi01 test 2, jglazi01 passed
+given gbodwi01 test 1, jlockw01 errored -- unknown run-time merror
+given gbodwi01 test 2, jlockw01 errored -- unknown run-time merror
+given gbodwi01 test 1, jmonte03 errored -- unknown run-time merror
+given gbodwi01 test 2, jmonte03 errored -- unknown run-time merror
+given gbodwi01 test 1, jwilde01 failed -- . #f
+given gbodwi01 test 2, jwilde01 failed -- . #f
+given gbodwi01 test 1, malex passed
+given gbodwi01 test 2, malex passed
+given gbodwi01 test 1, mbfrey passed
+given gbodwi01 test 2, mbfrey passed
+given gbodwi01 test 1, mborys01 passed
+given gbodwi01 test 2, mborys01 passed
+given gbodwi01 test 1, mbulia01 passed
+given gbodwi01 test 2, mbulia01 failed -- formula (or (and (or x y) (or (not x) y) (or x (not y)) (or (not x) (not y))) (and a b c)) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given gbodwi01 test 1, mgolds07 passed
+given gbodwi01 test 2, mgolds07 passed
+given gbodwi01 test 1, mmcgow02 passed
+given gbodwi01 test 2, mmcgow02 errored -- unknown run-time merror
+given gbodwi01 test 1, mmoute01 passed
+given gbodwi01 test 2, mmoute01 passed
+given gbodwi01 test 1, mnoble01 errored -- unknown run-time merror
+given gbodwi01 test 2, mnoble01 errored -- unknown run-time merror
+given gbodwi01 test 1, naiken02 failed -- formula (not (or)) has a solution, but your solver did not find one
+given gbodwi01 test 2, naiken02 passed
+given gbodwi01 test 1, shaney02 passed
+given gbodwi01 test 2, shaney02 passed
+given gbodwi01 test 1, spanut01 passed
+given gbodwi01 test 2, spanut01 failed -- formula (or (and (or x y) (or (not x) y) (or x (not y)) (or (not x) (not y))) (and a b c)) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given gbodwi01 test 1, wbutt01 passed
+given gbodwi01 test 2, wbutt01 passed
+given gbodwi01 test 1, wholah01 failed -- formula (not (or)) has a solution, but your solver returned (formula (not (or)) has a solution, but your solver returned () which is not a satisfying assignment) which is not a satisfying assignment
+given gbodwi01 test 2, wholah01 errored -- unknown run-time merror
+given graymo01 test 1, abell01 passed
+given graymo01 test 2, abell01 passed
+given graymo01 test 3, abell01 passed
+given graymo01 test 1, ahamli02 passed
+given graymo01 test 2, ahamli02 passed
+given graymo01 test 3, ahamli02 passed
+given graymo01 test 1, ahay01 passed
+given graymo01 test 2, ahay01 passed
+given graymo01 test 3, ahay01 passed
+given graymo01 test 1, akhaku01 passed
+given graymo01 test 2, akhaku01 passed
+given graymo01 test 3, akhaku01 passed
+given graymo01 test 1, akuan01 passed
+given graymo01 test 2, akuan01 passed
+given graymo01 test 3, akuan01 passed
+given graymo01 test 1, amcgla01 passed
+given graymo01 test 2, amcgla01 passed
+given graymo01 test 3, amcgla01 passed
+given graymo01 test 2, apolya01 passed
+given graymo01 test 3, apolya01 failed -- formula (and (or x (or y z)) (and (not x) y)) has a solution, but your solver did not find one
+given graymo01 test 1, apolya01 errored -- unknown run-time merror
+given graymo01 test 2, bakasl01 passed
+given graymo01 test 3, bakasl01 failed -- formula (and (or x (or y z)) (and (not x) y)) has a solution, but your solver did not find one
+given graymo01 test 1, bakasl01 errored -- unknown run-time merror
+given graymo01 test 1, byukse01 passed
+given graymo01 test 2, byukse01 errored -- unknown run-time merror
+given graymo01 test 3, byukse01 errored -- unknown run-time merror
+given graymo01 test 1, cbrink passed
+given graymo01 test 2, cbrink passed
+given graymo01 test 3, cbrink passed
+given graymo01 test 1, ccann failed -- formula (not (or (not not) (and (or or or or) (and and and and)))) has a solution, but your solver returned ((not #t)) which is not a satisfying assignment
+given graymo01 test 2, ccann passed
+given graymo01 test 3, ccann passed
+given graymo01 test 2, cgrama01 passed
+given graymo01 test 3, cgrama01 passed
+given graymo01 test 1, cgrama01 errored -- unknown run-time merror
+given graymo01 test 1, csmith05 passed
+given graymo01 test 2, csmith05 passed
+given graymo01 test 3, csmith05 passed
+given graymo01 test 1, czuber01 errored -- unknown run-time merror
+given graymo01 test 2, czuber01 errored -- unknown run-time merror
+given graymo01 test 3, czuber01 errored -- unknown run-time merror
+given graymo01 test 1, deder01 failed -- formula (not (or (not not) (and (or or or or) (and and and and)))) has a solution, but your solver returned ((not #f)) which is not a satisfying assignment
+given graymo01 test 2, deder01 passed
+given graymo01 test 3, deder01 errored -- unknown run-time merror
+given graymo01 test 1, dfortu01 passed
+given graymo01 test 2, dfortu01 passed
+given graymo01 test 3, dfortu01 passed
+given graymo01 test 1, ead36 passed
+given graymo01 test 2, ead36 passed
+given graymo01 test 3, ead36 passed
+given graymo01 test 1, ealter01 passed
+given graymo01 test 2, ealter01 passed
+given graymo01 test 3, ealter01 passed
+given graymo01 test 1, ewu02 passed
+given graymo01 test 2, ewu02 passed
+given graymo01 test 3, ewu02 passed
+given graymo01 test 2, gbodwi01 passed
+given graymo01 test 3, gbodwi01 failed -- formula (and (or x (or y z)) (and (not x) y)) has a solution, but your solver did not find one
+given graymo01 test 1, gbodwi01 errored -- unknown run-time merror
+given graymo01 test 1, graymo01 passed
+given graymo01 test 2, graymo01 passed
+given graymo01 test 3, graymo01 passed
+given graymo01 test 1, jglazi01 passed
+given graymo01 test 2, jglazi01 passed
+given graymo01 test 3, jglazi01 passed
+given graymo01 test 1, jlockw01 errored -- unknown run-time merror
+given graymo01 test 2, jlockw01 errored -- unknown run-time merror
+given graymo01 test 3, jlockw01 errored -- unknown run-time merror
+given graymo01 test 1, jmonte03 errored -- unknown run-time merror
+given graymo01 test 2, jmonte03 errored -- unknown run-time merror
+given graymo01 test 3, jmonte03 errored -- unknown run-time merror
+given graymo01 test 1, jwilde01 failed -- . #f
+given graymo01 test 2, jwilde01 failed -- formula (and (not y) (and x y)) should have no solution, but your solver claimed to find a solution
+given graymo01 test 3, jwilde01 failed -- . #f
+given graymo01 test 1, malex passed
+given graymo01 test 2, malex passed
+given graymo01 test 3, malex passed
+given graymo01 test 1, mbfrey passed
+given graymo01 test 2, mbfrey passed
+given graymo01 test 3, mbfrey passed
+given graymo01 test 1, mborys01 failed -- formula (not (or (not not) (and (or or or or) (and and and and)))) has a solution, but your solver returned () which is not a satisfying assignment
+given graymo01 test 2, mborys01 passed
+given graymo01 test 3, mborys01 passed
+given graymo01 test 1, mbulia01 failed -- formula (not (or (not not) (and (or or or or) (and and and and)))) has a solution, but your solver returned ((not #t)) which is not a satisfying assignment
+given graymo01 test 2, mbulia01 passed
+given graymo01 test 3, mbulia01 passed
+given graymo01 test 1, mgolds07 passed
+given graymo01 test 2, mgolds07 passed
+given graymo01 test 3, mgolds07 passed
+given graymo01 test 2, mmcgow02 passed
+given graymo01 test 1, mmcgow02 errored -- unknown run-time merror
+given graymo01 test 3, mmcgow02 errored -- unknown run-time merror
+given graymo01 test 1, mmoute01 passed
+given graymo01 test 2, mmoute01 passed
+given graymo01 test 3, mmoute01 passed
+given graymo01 test 1, mnoble01 errored -- unknown run-time merror
+given graymo01 test 2, mnoble01 errored -- unknown run-time merror
+given graymo01 test 3, mnoble01 errored -- unknown run-time merror
+given graymo01 test 1, naiken02 passed
+given graymo01 test 2, naiken02 passed
+given graymo01 test 3, naiken02 passed
+given graymo01 test 1, shaney02 passed
+given graymo01 test 2, shaney02 passed
+given graymo01 test 3, shaney02 passed
+given graymo01 test 1, spanut01 failed -- formula (not (or (not not) (and (or or or or) (and and and and)))) has a solution, but your solver returned ((not #t)) which is not a satisfying assignment
+given graymo01 test 2, spanut01 passed
+given graymo01 test 3, spanut01 passed
+given graymo01 test 1, wbutt01 passed
+given graymo01 test 2, wbutt01 passed
+given graymo01 test 3, wbutt01 passed
+given graymo01 test 1, wholah01 errored -- unknown run-time merror
+given graymo01 test 2, wholah01 errored -- unknown run-time merror
+given graymo01 test 3, wholah01 errored -- unknown run-time merror
+given jglazi01 test 1, abell01 passed
+given jglazi01 test 2, abell01 passed
+given jglazi01 test 3, abell01 passed
+given jglazi01 test 1, ahamli02 passed
+given jglazi01 test 2, ahamli02 passed
+given jglazi01 test 3, ahamli02 passed
+given jglazi01 test 1, ahay01 passed
+given jglazi01 test 2, ahay01 passed
+given jglazi01 test 3, ahay01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 1, akhaku01 passed
+given jglazi01 test 2, akhaku01 passed
+given jglazi01 test 3, akhaku01 passed
+given jglazi01 test 1, akuan01 passed
+given jglazi01 test 2, akuan01 failed -- formula (and (or (not not) or) not (not and)) has a solution, but your solver returned ((not #f) (() #f) (and #f)) which is not a satisfying assignment
+given jglazi01 test 3, akuan01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver returned ((not #t) (or #f) (() #t) (and #f)) which is not a satisfying assignment
+given jglazi01 test 1, amcgla01 passed
+given jglazi01 test 2, amcgla01 passed
+given jglazi01 test 3, amcgla01 passed
+given jglazi01 test 1, apolya01 errored -- unknown run-time merror
+given jglazi01 test 2, apolya01 errored -- unknown run-time merror
+given jglazi01 test 3, apolya01 errored -- unknown run-time merror
+given jglazi01 test 1, bakasl01 errored -- unknown run-time merror
+given jglazi01 test 2, bakasl01 errored -- unknown run-time merror
+given jglazi01 test 3, bakasl01 errored -- unknown run-time merror
+given jglazi01 test 1, byukse01 passed
+given jglazi01 test 3, byukse01 passed
+given jglazi01 test 2, byukse01 errored -- unknown run-time merror
+given jglazi01 test 1, cbrink failed -- formula (not (not (and not))) has a solution, but your solver returned ((not #f)) which is not a satisfying assignment
+given jglazi01 test 2, cbrink passed
+given jglazi01 test 3, cbrink failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 1, ccann errored -- unknown run-time merror
+given jglazi01 test 2, ccann errored -- unknown run-time merror
+given jglazi01 test 3, ccann errored -- unknown run-time merror
+given jglazi01 test 1, cgrama01 passed
+given jglazi01 test 2, cgrama01 passed
+given jglazi01 test 3, cgrama01 errored -- unknown run-time merror
+given jglazi01 test 1, csmith05 passed
+given jglazi01 test 2, csmith05 passed
+given jglazi01 test 3, csmith05 passed
+given jglazi01 test 1, czuber01 errored -- unknown run-time merror
+given jglazi01 test 2, czuber01 errored -- unknown run-time merror
+given jglazi01 test 3, czuber01 errored -- unknown run-time merror
+given jglazi01 test 1, deder01 passed
+given jglazi01 test 3, deder01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver returned ((or #t) (not #f)) which is not a satisfying assignment
+given jglazi01 test 2, deder01 errored -- unknown run-time merror
+given jglazi01 test 1, dfortu01 passed
+given jglazi01 test 2, dfortu01 passed
+given jglazi01 test 3, dfortu01 passed
+given jglazi01 test 1, ead36 passed
+given jglazi01 test 2, ead36 passed
+given jglazi01 test 3, ead36 passed
+given jglazi01 test 1, ealter01 passed
+given jglazi01 test 2, ealter01 passed
+given jglazi01 test 3, ealter01 passed
+given jglazi01 test 1, ewu02 passed
+given jglazi01 test 2, ewu02 passed
+given jglazi01 test 3, ewu02 passed
+given jglazi01 test 2, gbodwi01 failed -- formula (and (or (not not) or) not (not and)) has a solution, but your solver did not find one
+given jglazi01 test 3, gbodwi01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 1, gbodwi01 errored -- unknown run-time merror
+given jglazi01 test 1, graymo01 passed
+given jglazi01 test 2, graymo01 passed
+given jglazi01 test 3, graymo01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 1, jglazi01 passed
+given jglazi01 test 2, jglazi01 passed
+given jglazi01 test 3, jglazi01 passed
+given jglazi01 test 1, jlockw01 errored -- unknown run-time merror
+given jglazi01 test 2, jlockw01 errored -- unknown run-time merror
+given jglazi01 test 3, jlockw01 errored -- unknown run-time merror
+given jglazi01 test 1, jmonte03 errored -- unknown run-time merror
+given jglazi01 test 2, jmonte03 errored -- unknown run-time merror
+given jglazi01 test 3, jmonte03 errored -- unknown run-time merror
+given jglazi01 test 1, jwilde01 failed -- . #f
+given jglazi01 test 2, jwilde01 failed -- . #f
+given jglazi01 test 3, jwilde01 failed -- . #f
+given jglazi01 test 1, malex passed
+given jglazi01 test 2, malex passed
+given jglazi01 test 3, malex passed
+given jglazi01 test 1, mbfrey passed
+given jglazi01 test 2, mbfrey passed
+given jglazi01 test 3, mbfrey passed
+given jglazi01 test 1, mborys01 failed -- formula (not (not (and not))) has a solution, but your solver returned () which is not a satisfying assignment
+given jglazi01 test 2, mborys01 failed -- formula (and (or (not not) or) not (not and)) has a solution, but your solver did not find one
+given jglazi01 test 3, mborys01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 1, mbulia01 passed
+given jglazi01 test 2, mbulia01 passed
+given jglazi01 test 3, mbulia01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver returned ((not #t) (or #f)) which is not a satisfying assignment
+given jglazi01 test 1, mgolds07 passed
+given jglazi01 test 2, mgolds07 passed
+given jglazi01 test 3, mgolds07 passed
+given jglazi01 test 1, mmcgow02 errored -- unknown run-time merror
+given jglazi01 test 2, mmcgow02 errored -- unknown run-time merror
+given jglazi01 test 3, mmcgow02 errored -- unknown run-time merror
+given jglazi01 test 1, mmoute01 passed
+given jglazi01 test 2, mmoute01 passed
+given jglazi01 test 3, mmoute01 passed
+given jglazi01 test 1, mnoble01 errored -- unknown run-time merror
+given jglazi01 test 2, mnoble01 errored -- unknown run-time merror
+given jglazi01 test 3, mnoble01 errored -- unknown run-time merror
+given jglazi01 test 1, naiken02 passed
+given jglazi01 test 2, naiken02 passed
+given jglazi01 test 3, naiken02 passed
+given jglazi01 test 1, shaney02 passed
+given jglazi01 test 2, shaney02 passed
+given jglazi01 test 3, shaney02 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver did not find one
+given jglazi01 test 2, spanut01 failed -- formula (and (or (not not) or) not (not and)) has a solution, but your solver returned ((not #f) (and #t)) which is not a satisfying assignment
+given jglazi01 test 3, spanut01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver returned ((not #t) (or #f)) which is not a satisfying assignment
+given jglazi01 test 1, spanut01 errored -- unknown run-time merror
+given jglazi01 test 1, wbutt01 passed
+given jglazi01 test 2, wbutt01 passed
+given jglazi01 test 3, wbutt01 passed
+given jglazi01 test 1, wholah01 failed -- formula (not (not (and not))) has a solution, but your solver returned (formula (not (not (and not))) has a solution, but your solver returned (formula (not (not (and not))) has a solution, but your solver returned () which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given jglazi01 test 3, wholah01 failed -- formula (not (or (and (not not) or) not and)) has a solution, but your solver returned (formula (not (or (and (not not) or) not and)) has a solution, but your solver returned (formula (not (or (and (not not) or) not and)) has a solution, but your solver returned (formula (not (or (and (not not) or) not and)) has a solution, but your solver returned () which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given jglazi01 test 2, wholah01 errored -- unknown run-time merror
+given jlockw01 test 1, abell01 passed
+given jlockw01 test 2, abell01 passed
+given jlockw01 test 3, abell01 passed
+given jlockw01 test 1, ahamli02 failed -- formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given jlockw01 test 2, ahamli02 passed
+given jlockw01 test 3, ahamli02 passed
+given jlockw01 test 1, ahay01 passed
+given jlockw01 test 2, ahay01 passed
+given jlockw01 test 3, ahay01 passed
+given jlockw01 test 1, akhaku01 passed
+given jlockw01 test 2, akhaku01 passed
+given jlockw01 test 3, akhaku01 passed
+given jlockw01 test 1, akuan01 passed
+given jlockw01 test 2, akuan01 passed
+given jlockw01 test 3, akuan01 passed
+given jlockw01 test 1, amcgla01 passed
+given jlockw01 test 2, amcgla01 passed
+given jlockw01 test 3, amcgla01 passed
+given jlockw01 test 1, apolya01 passed
+given jlockw01 test 3, apolya01 passed
+given jlockw01 test 2, apolya01 errored -- unknown run-time merror
+given jlockw01 test 1, bakasl01 passed
+given jlockw01 test 2, bakasl01 passed
+given jlockw01 test 3, bakasl01 passed
+given jlockw01 test 1, byukse01 passed
+given jlockw01 test 2, byukse01 errored -- unknown run-time merror
+given jlockw01 test 3, byukse01 errored -- unknown run-time merror
+given jlockw01 test 1, cbrink failed -- formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned ((x #f) (y #f) (z #f)) which is not a satisfying assignment
+given jlockw01 test 2, cbrink passed
+given jlockw01 test 3, cbrink passed
+given jlockw01 test 1, ccann passed
+given jlockw01 test 2, ccann passed
+given jlockw01 test 3, ccann passed
+given jlockw01 test 1, cgrama01 passed
+given jlockw01 test 2, cgrama01 passed
+given jlockw01 test 3, cgrama01 passed
+given jlockw01 test 1, csmith05 passed
+given jlockw01 test 2, csmith05 passed
+given jlockw01 test 3, csmith05 passed
+given jlockw01 test 1, czuber01 errored -- unknown run-time merror
+given jlockw01 test 2, czuber01 errored -- unknown run-time merror
+given jlockw01 test 3, czuber01 errored -- unknown run-time merror
+given jlockw01 test 1, deder01 passed
+given jlockw01 test 2, deder01 errored -- unknown run-time merror
+given jlockw01 test 3, deder01 errored -- unknown run-time merror
+given jlockw01 test 1, dfortu01 passed
+given jlockw01 test 2, dfortu01 passed
+given jlockw01 test 3, dfortu01 passed
+given jlockw01 test 1, ead36 passed
+given jlockw01 test 2, ead36 failed -- formula (and (or (not x) (not y) (not z)) (or x y z)) has a solution, but your solver did not find one
+given jlockw01 test 3, ead36 passed
+given jlockw01 test 1, ealter01 passed
+given jlockw01 test 2, ealter01 passed
+given jlockw01 test 3, ealter01 passed
+given jlockw01 test 1, ewu02 passed
+given jlockw01 test 2, ewu02 passed
+given jlockw01 test 3, ewu02 passed
+given jlockw01 test 3, gbodwi01 passed
+given jlockw01 test 1, gbodwi01 errored -- unknown run-time merror
+given jlockw01 test 2, gbodwi01 errored -- unknown run-time merror
+given jlockw01 test 1, graymo01 passed
+given jlockw01 test 2, graymo01 passed
+given jlockw01 test 3, graymo01 passed
+given jlockw01 test 1, jglazi01 passed
+given jlockw01 test 2, jglazi01 passed
+given jlockw01 test 3, jglazi01 passed
+given jlockw01 test 1, jlockw01 errored -- unknown run-time merror
+given jlockw01 test 2, jlockw01 errored -- unknown run-time merror
+given jlockw01 test 3, jlockw01 errored -- unknown run-time merror
+given jlockw01 test 1, jmonte03 errored -- unknown run-time merror
+given jlockw01 test 2, jmonte03 errored -- unknown run-time merror
+given jlockw01 test 3, jmonte03 errored -- unknown run-time merror
+given jlockw01 test 1, jwilde01 failed -- . #f
+given jlockw01 test 2, jwilde01 failed -- . #f
+given jlockw01 test 3, jwilde01 failed -- formula (and (or a b c) (and (not a) (not b) (not c))) should have no solution, but your solver claimed to find a solution
+given jlockw01 test 1, malex passed
+given jlockw01 test 2, malex passed
+given jlockw01 test 3, malex passed
+given jlockw01 test 1, mbfrey passed
+given jlockw01 test 2, mbfrey passed
+given jlockw01 test 3, mbfrey passed
+given jlockw01 test 1, mborys01 passed
+given jlockw01 test 2, mborys01 passed
+given jlockw01 test 3, mborys01 passed
+given jlockw01 test 1, mbulia01 passed
+given jlockw01 test 2, mbulia01 passed
+given jlockw01 test 3, mbulia01 failed -- formula (and (or a b c) (and (not a) (not b) (not c))) should have no solution, but your solver claimed to find a solution
+given jlockw01 test 1, mgolds07 passed
+given jlockw01 test 2, mgolds07 passed
+given jlockw01 test 3, mgolds07 passed
+given jlockw01 test 1, mmcgow02 passed
+given jlockw01 test 2, mmcgow02 passed
+given jlockw01 test 3, mmcgow02 errored -- unknown run-time merror
+given jlockw01 test 1, mmoute01 passed
+given jlockw01 test 2, mmoute01 passed
+given jlockw01 test 3, mmoute01 passed
+given jlockw01 test 1, mnoble01 errored -- unknown run-time merror
+given jlockw01 test 2, mnoble01 errored -- unknown run-time merror
+given jlockw01 test 3, mnoble01 errored -- unknown run-time merror
+given jlockw01 test 1, naiken02 failed -- formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned ((x #f) (y #f) (z #f)) which is not a satisfying assignment
+given jlockw01 test 2, naiken02 passed
+given jlockw01 test 3, naiken02 passed
+given jlockw01 test 1, shaney02 passed
+given jlockw01 test 2, shaney02 passed
+given jlockw01 test 3, shaney02 passed
+given jlockw01 test 1, spanut01 failed -- formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given jlockw01 test 2, spanut01 passed
+given jlockw01 test 3, spanut01 passed
+given jlockw01 test 1, wbutt01 passed
+given jlockw01 test 2, wbutt01 passed
+given jlockw01 test 3, wbutt01 passed
+given jlockw01 test 1, wholah01 failed -- formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned (formula (not (not (not (not (not (not (and x y z))))))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment) which is not a satisfying assignment
+given jlockw01 test 2, wholah01 errored -- unknown run-time merror
+given jlockw01 test 3, wholah01 errored -- unknown run-time merror
+given jwilde01 test 1, abell01 passed
+given jwilde01 test 1, ahamli02 passed
+given jwilde01 test 1, ahay01 passed
+given jwilde01 test 1, akhaku01 passed
+given jwilde01 test 1, akuan01 passed
+given jwilde01 test 1, amcgla01 passed
+given jwilde01 test 1, apolya01 passed
+given jwilde01 test 1, bakasl01 passed
+given jwilde01 test 1, byukse01 errored -- unknown run-time merror
+given jwilde01 test 1, cbrink passed
+given jwilde01 test 1, ccann passed
+given jwilde01 test 1, cgrama01 passed
+given jwilde01 test 1, csmith05 passed
+given jwilde01 test 1, czuber01 errored -- unknown run-time merror
+given jwilde01 test 1, deder01 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given jwilde01 test 1, dfortu01 passed
+given jwilde01 test 1, ead36 passed
+given jwilde01 test 1, ealter01 passed
+given jwilde01 test 1, ewu02 passed
+given jwilde01 test 1, gbodwi01 passed
+given jwilde01 test 1, graymo01 passed
+given jwilde01 test 1, jglazi01 passed
+given jwilde01 test 1, jlockw01 errored -- unknown run-time merror
+given jwilde01 test 1, jmonte03 errored -- unknown run-time merror
+given jwilde01 test 1, jwilde01 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given jwilde01 test 1, malex passed
+given jwilde01 test 1, mbfrey passed
+given jwilde01 test 1, mborys01 passed
+given jwilde01 test 1, mbulia01 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given jwilde01 test 1, mgolds07 passed
+given jwilde01 test 1, mmcgow02 errored -- unknown run-time merror
+given jwilde01 test 1, mmoute01 passed
+given jwilde01 test 1, mnoble01 errored -- unknown run-time merror
+given jwilde01 test 1, naiken02 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given jwilde01 test 1, shaney02 passed
+given jwilde01 test 1, spanut01 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given jwilde01 test 1, wbutt01 passed
+given jwilde01 test 1, wholah01 failed -- formula (and x (not (or x y))) should have no solution, but your solver claimed to find a solution
+given malex test 2, abell01 passed
+given malex test 2, ahamli02 passed
+given malex test 2, ahay01 passed
+given malex test 2, akhaku01 passed
+given malex test 2, akuan01 passed
+given malex test 2, amcgla01 passed
+given malex test 2, apolya01 passed
+given malex test 2, bakasl01 passed
+given malex test 2, byukse01 errored -- unknown run-time merror
+given malex test 2, cbrink passed
+given malex test 2, ccann passed
+given malex test 2, cgrama01 passed
+given malex test 2, csmith05 passed
+given malex test 2, czuber01 errored -- unknown run-time merror
+given malex test 2, deder01 errored -- unknown run-time merror
+given malex test 2, dfortu01 passed
+given malex test 2, ead36 passed
+given malex test 2, ealter01 passed
+given malex test 2, ewu02 passed
+given malex test 2, gbodwi01 passed
+given malex test 2, graymo01 passed
+given malex test 2, jglazi01 passed
+given malex test 2, jlockw01 errored -- unknown run-time merror
+given malex test 2, jmonte03 errored -- unknown run-time merror
+given malex test 2, jwilde01 failed -- formula (and (and x y) (or z o x) (or o x w) (and (not z) (not o) (not (or w z))) (not x)) should have no solution, but your solver claimed to find a solution
+given malex test 2, malex passed
+given malex test 2, mbfrey passed
+given malex test 2, mborys01 passed
+given malex test 2, mbulia01 passed
+given malex test 2, mgolds07 passed
+given malex test 2, mmcgow02 errored -- unknown run-time merror
+given malex test 2, mmoute01 passed
+given malex test 2, mnoble01 errored -- unknown run-time merror
+given malex test 2, naiken02 passed
+given malex test 2, shaney02 passed
+given malex test 2, spanut01 failed -- formula (and (and x y) (or z o x) (or o x w) (and (not z) (not o) (not (or w z))) (not x)) should have no solution, but your solver claimed to find a solution
+given malex test 2, wbutt01 passed
+given malex test 2, wholah01 errored -- unknown run-time merror
+given mbfrey test 1, abell01 passed
+given mbfrey test 2, abell01 passed
+given mbfrey test 3, abell01 passed
+given mbfrey test 1, ahamli02 passed
+given mbfrey test 2, ahamli02 passed
+given mbfrey test 3, ahamli02 passed
+given mbfrey test 1, ahay01 passed
+given mbfrey test 2, ahay01 passed
+given mbfrey test 3, ahay01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, akhaku01 passed
+given mbfrey test 2, akhaku01 passed
+given mbfrey test 3, akhaku01 passed
+given mbfrey test 1, akuan01 passed
+given mbfrey test 2, akuan01 passed
+given mbfrey test 3, akuan01 passed
+given mbfrey test 1, amcgla01 passed
+given mbfrey test 2, amcgla01 passed
+given mbfrey test 3, amcgla01 passed
+given mbfrey test 1, apolya01 failed -- formula (and (or x y z) (and (not x) (not y)) (or (not z) x (not y))) has a solution, but your solver did not find one
+given mbfrey test 2, apolya01 passed
+given mbfrey test 3, apolya01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, bakasl01 failed -- formula (and (or x y z) (and (not x) (not y)) (or (not z) x (not y))) has a solution, but your solver did not find one
+given mbfrey test 2, bakasl01 passed
+given mbfrey test 3, bakasl01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 3, byukse01 passed
+given mbfrey test 1, byukse01 errored -- unknown run-time merror
+given mbfrey test 2, byukse01 errored -- unknown run-time merror
+given mbfrey test 1, cbrink passed
+given mbfrey test 2, cbrink passed
+given mbfrey test 3, cbrink failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, ccann passed
+given mbfrey test 2, ccann passed
+given mbfrey test 3, ccann passed
+given mbfrey test 1, cgrama01 passed
+given mbfrey test 2, cgrama01 passed
+given mbfrey test 3, cgrama01 errored -- unknown run-time merror
+given mbfrey test 1, csmith05 passed
+given mbfrey test 2, csmith05 passed
+given mbfrey test 3, csmith05 passed
+given mbfrey test 1, czuber01 errored -- unknown run-time merror
+given mbfrey test 2, czuber01 errored -- unknown run-time merror
+given mbfrey test 3, czuber01 errored -- unknown run-time merror
+given mbfrey test 3, deder01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver returned ((y #t) (x #t)) which is not a satisfying assignment
+given mbfrey test 1, deder01 errored -- unknown run-time merror
+given mbfrey test 2, deder01 errored -- unknown run-time merror
+given mbfrey test 1, dfortu01 passed
+given mbfrey test 2, dfortu01 passed
+given mbfrey test 3, dfortu01 passed
+given mbfrey test 1, ead36 passed
+given mbfrey test 2, ead36 passed
+given mbfrey test 3, ead36 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, ealter01 passed
+given mbfrey test 2, ealter01 passed
+given mbfrey test 3, ealter01 passed
+given mbfrey test 1, ewu02 passed
+given mbfrey test 2, ewu02 passed
+given mbfrey test 3, ewu02 passed
+given mbfrey test 1, gbodwi01 failed -- formula (and (or x y z) (and (not x) (not y)) (or (not z) x (not y))) has a solution, but your solver did not find one
+given mbfrey test 2, gbodwi01 passed
+given mbfrey test 3, gbodwi01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, graymo01 passed
+given mbfrey test 2, graymo01 passed
+given mbfrey test 3, graymo01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, jglazi01 passed
+given mbfrey test 2, jglazi01 passed
+given mbfrey test 3, jglazi01 passed
+given mbfrey test 1, jlockw01 errored -- unknown run-time merror
+given mbfrey test 2, jlockw01 errored -- unknown run-time merror
+given mbfrey test 3, jlockw01 errored -- unknown run-time merror
+given mbfrey test 1, jmonte03 errored -- unknown run-time merror
+given mbfrey test 2, jmonte03 errored -- unknown run-time merror
+given mbfrey test 3, jmonte03 errored -- unknown run-time merror
+given mbfrey test 1, jwilde01 failed -- . #f
+given mbfrey test 2, jwilde01 failed -- formula (and (or x y z) (and (not x) (not y)) (or x y (not z))) should have no solution, but your solver claimed to find a solution
+given mbfrey test 3, jwilde01 failed -- . #f
+given mbfrey test 1, malex passed
+given mbfrey test 2, malex passed
+given mbfrey test 3, malex passed
+given mbfrey test 1, mbfrey passed
+given mbfrey test 2, mbfrey passed
+given mbfrey test 3, mbfrey passed
+given mbfrey test 1, mborys01 passed
+given mbfrey test 2, mborys01 passed
+given mbfrey test 3, mborys01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, mbulia01 passed
+given mbfrey test 2, mbulia01 failed -- formula (and (or x y z) (and (not x) (not y)) (or x y (not z))) should have no solution, but your solver claimed to find a solution
+given mbfrey test 3, mbulia01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given mbfrey test 1, mgolds07 passed
+given mbfrey test 2, mgolds07 passed
+given mbfrey test 3, mgolds07 passed
+given mbfrey test 1, mmcgow02 errored -- unknown run-time merror
+given mbfrey test 2, mmcgow02 errored -- unknown run-time merror
+given mbfrey test 3, mmcgow02 errored -- unknown run-time merror
+given mbfrey test 1, mmoute01 passed
+given mbfrey test 2, mmoute01 passed
+given mbfrey test 3, mmoute01 passed
+given mbfrey test 1, mnoble01 errored -- unknown run-time merror
+given mbfrey test 2, mnoble01 errored -- unknown run-time merror
+given mbfrey test 3, mnoble01 errored -- unknown run-time merror
+given mbfrey test 1, naiken02 passed
+given mbfrey test 2, naiken02 passed
+given mbfrey test 3, naiken02 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given mbfrey test 1, shaney02 passed
+given mbfrey test 2, shaney02 passed
+given mbfrey test 3, shaney02 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver did not find one
+given mbfrey test 1, spanut01 failed -- formula (and (or x y z) (and (not x) (not y)) (or (not z) x (not y))) has a solution, but your solver did not find one
+given mbfrey test 2, spanut01 passed
+given mbfrey test 3, spanut01 failed -- formula (not (not (not (or (and x y) (and y z) (or x z) (not y))))) has a solution, but your solver returned ((x #f) (y #f)) which is not a satisfying assignment
+given mbfrey test 1, wbutt01 passed
+given mbfrey test 2, wbutt01 passed
+given mbfrey test 3, wbutt01 passed
+given mbfrey test 1, wholah01 errored -- unknown run-time merror
+given mbfrey test 2, wholah01 errored -- unknown run-time merror
+given mbfrey test 3, wholah01 errored -- unknown run-time merror
+given mborys01 test 1, abell01 passed
+given mborys01 test 2, abell01 passed
+given mborys01 test 3, abell01 passed
+given mborys01 test 1, ahamli02 passed
+given mborys01 test 2, ahamli02 passed
+given mborys01 test 3, ahamli02 passed
+given mborys01 test 1, ahay01 passed
+given mborys01 test 2, ahay01 passed
+given mborys01 test 3, ahay01 passed
+given mborys01 test 1, akhaku01 passed
+given mborys01 test 2, akhaku01 passed
+given mborys01 test 3, akhaku01 passed
+given mborys01 test 1, akuan01 passed
+given mborys01 test 2, akuan01 passed
+given mborys01 test 3, akuan01 passed
+given mborys01 test 1, amcgla01 passed
+given mborys01 test 2, amcgla01 passed
+given mborys01 test 3, amcgla01 passed
+given mborys01 test 1, apolya01 passed
+given mborys01 test 2, apolya01 passed
+given mborys01 test 3, apolya01 passed
+given mborys01 test 1, bakasl01 passed
+given mborys01 test 2, bakasl01 passed
+given mborys01 test 3, bakasl01 passed
+given mborys01 test 3, byukse01 passed
+given mborys01 test 1, byukse01 errored -- unknown run-time merror
+given mborys01 test 2, byukse01 errored -- unknown run-time merror
+given mborys01 test 1, cbrink passed
+given mborys01 test 2, cbrink passed
+given mborys01 test 3, cbrink passed
+given mborys01 test 1, ccann passed
+given mborys01 test 2, ccann passed
+given mborys01 test 3, ccann passed
+given mborys01 test 1, cgrama01 passed
+given mborys01 test 2, cgrama01 passed
+given mborys01 test 3, cgrama01 passed
+given mborys01 test 1, csmith05 passed
+given mborys01 test 2, csmith05 passed
+given mborys01 test 3, csmith05 passed
+given mborys01 test 1, czuber01 errored -- unknown run-time merror
+given mborys01 test 2, czuber01 errored -- unknown run-time merror
+given mborys01 test 3, czuber01 errored -- unknown run-time merror
+given mborys01 test 1, deder01 failed -- formula (and x (not (not (not (not (not (or y z))))))) has a solution, but your solver returned ((y #t) (x #t)) which is not a satisfying assignment
+given mborys01 test 3, deder01 passed
+given mborys01 test 2, deder01 errored -- unknown run-time merror
+given mborys01 test 1, dfortu01 passed
+given mborys01 test 2, dfortu01 passed
+given mborys01 test 3, dfortu01 passed
+given mborys01 test 1, ead36 passed
+given mborys01 test 2, ead36 passed
+given mborys01 test 3, ead36 passed
+given mborys01 test 1, ealter01 passed
+given mborys01 test 2, ealter01 passed
+given mborys01 test 3, ealter01 passed
+given mborys01 test 1, ewu02 passed
+given mborys01 test 2, ewu02 passed
+given mborys01 test 3, ewu02 passed
+given mborys01 test 2, gbodwi01 passed
+given mborys01 test 1, gbodwi01 errored -- unknown run-time merror
+given mborys01 test 3, gbodwi01 errored -- unknown run-time merror
+given mborys01 test 1, graymo01 passed
+given mborys01 test 2, graymo01 passed
+given mborys01 test 3, graymo01 passed
+given mborys01 test 1, jglazi01 passed
+given mborys01 test 2, jglazi01 passed
+given mborys01 test 3, jglazi01 passed
+given mborys01 test 1, jlockw01 errored -- unknown run-time merror
+given mborys01 test 2, jlockw01 errored -- unknown run-time merror
+given mborys01 test 3, jlockw01 errored -- unknown run-time merror
+given mborys01 test 1, jmonte03 errored -- unknown run-time merror
+given mborys01 test 2, jmonte03 errored -- unknown run-time merror
+given mborys01 test 3, jmonte03 errored -- unknown run-time merror
+given mborys01 test 1, jwilde01 failed -- . #f
+given mborys01 test 2, jwilde01 failed -- formula (and (or x y) (and x (not x) (or y x))) should have no solution, but your solver claimed to find a solution
+given mborys01 test 3, jwilde01 failed -- . #f
+given mborys01 test 1, malex passed
+given mborys01 test 2, malex passed
+given mborys01 test 3, malex passed
+given mborys01 test 1, mbfrey passed
+given mborys01 test 2, mbfrey passed
+given mborys01 test 3, mbfrey passed
+given mborys01 test 1, mborys01 passed
+given mborys01 test 2, mborys01 passed
+given mborys01 test 3, mborys01 passed
+given mborys01 test 1, mbulia01 failed -- formula (and x (not (not (not (not (not (or y z))))))) has a solution, but your solver returned ((x #t) (y #f)) which is not a satisfying assignment
+given mborys01 test 2, mbulia01 passed
+given mborys01 test 3, mbulia01 passed
+given mborys01 test 1, mgolds07 passed
+given mborys01 test 2, mgolds07 passed
+given mborys01 test 3, mgolds07 passed
+given mborys01 test 1, mmcgow02 passed
+given mborys01 test 3, mmcgow02 passed
+given mborys01 test 2, mmcgow02 errored -- unknown run-time merror
+given mborys01 test 1, mmoute01 passed
+given mborys01 test 2, mmoute01 passed
+given mborys01 test 3, mmoute01 passed
+given mborys01 test 1, mnoble01 errored -- unknown run-time merror
+given mborys01 test 2, mnoble01 errored -- unknown run-time merror
+given mborys01 test 3, mnoble01 errored -- unknown run-time merror
+given mborys01 test 1, naiken02 failed -- formula (and x (not (not (not (not (not (or y z))))))) has a solution, but your solver returned ((x #t) (y #f)) which is not a satisfying assignment
+given mborys01 test 2, naiken02 passed
+given mborys01 test 3, naiken02 passed
+given mborys01 test 1, shaney02 passed
+given mborys01 test 2, shaney02 passed
+given mborys01 test 3, shaney02 passed
+given mborys01 test 1, spanut01 failed -- formula (and x (not (not (not (not (not (or y z))))))) has a solution, but your solver returned ((x #t) (y #f)) which is not a satisfying assignment
+given mborys01 test 3, spanut01 passed
+given mborys01 test 2, spanut01 errored -- unknown run-time merror
+given mborys01 test 1, wbutt01 passed
+given mborys01 test 2, wbutt01 passed
+given mborys01 test 3, wbutt01 passed
+given mborys01 test 1, wholah01 failed -- formula (and x (not (not (not (not (not (or y z))))))) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given mborys01 test 3, wholah01 failed -- formula (not (and x (not (or z y)))) has a solution, but your solver returned (formula (not (and x (not (or z y)))) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment) which is not a satisfying assignment
+given mborys01 test 2, wholah01 errored -- unknown run-time merror
+given mbulia01 test 1, abell01 passed
+given mbulia01 test 2, abell01 passed
+given mbulia01 test 3, abell01 passed
+given mbulia01 test 1, ahamli02 passed
+given mbulia01 test 2, ahamli02 passed
+given mbulia01 test 3, ahamli02 passed
+given mbulia01 test 1, ahay01 passed
+given mbulia01 test 2, ahay01 passed
+given mbulia01 test 3, ahay01 passed
+given mbulia01 test 1, akhaku01 passed
+given mbulia01 test 2, akhaku01 passed
+given mbulia01 test 3, akhaku01 passed
+given mbulia01 test 1, akuan01 passed
+given mbulia01 test 2, akuan01 passed
+given mbulia01 test 3, akuan01 passed
+given mbulia01 test 1, amcgla01 passed
+given mbulia01 test 2, amcgla01 passed
+given mbulia01 test 3, amcgla01 passed
+given mbulia01 test 1, apolya01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given mbulia01 test 2, apolya01 passed
+given mbulia01 test 3, apolya01 failed -- formula (and (and and or) (or (not and) not)) has a solution, but your solver did not find one
+given mbulia01 test 1, bakasl01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given mbulia01 test 2, bakasl01 passed
+given mbulia01 test 3, bakasl01 failed -- formula (and (and and or) (or (not and) not)) has a solution, but your solver did not find one
+given mbulia01 test 1, byukse01 errored -- unknown run-time merror
+given mbulia01 test 2, byukse01 errored -- unknown run-time merror
+given mbulia01 test 3, byukse01 errored -- unknown run-time merror
+given mbulia01 test 1, cbrink passed
+given mbulia01 test 2, cbrink passed
+given mbulia01 test 3, cbrink passed
+given mbulia01 test 1, ccann passed
+given mbulia01 test 2, ccann passed
+given mbulia01 test 3, ccann failed -- formula (and (and and or) (or (not and) not)) has a solution, but your solver did not find one
+given mbulia01 test 1, cgrama01 passed
+given mbulia01 test 2, cgrama01 passed
+given mbulia01 test 3, cgrama01 passed
+given mbulia01 test 1, csmith05 passed
+given mbulia01 test 2, csmith05 passed
+given mbulia01 test 3, csmith05 passed
+given mbulia01 test 1, czuber01 errored -- unknown run-time merror
+given mbulia01 test 2, czuber01 errored -- unknown run-time merror
+given mbulia01 test 3, czuber01 errored -- unknown run-time merror
+given mbulia01 test 2, deder01 passed
+given mbulia01 test 1, deder01 errored -- unknown run-time merror
+given mbulia01 test 3, deder01 errored -- unknown run-time merror
+given mbulia01 test 1, dfortu01 passed
+given mbulia01 test 2, dfortu01 passed
+given mbulia01 test 3, dfortu01 passed
+given mbulia01 test 1, ead36 passed
+given mbulia01 test 2, ead36 passed
+given mbulia01 test 3, ead36 passed
+given mbulia01 test 1, ealter01 passed
+given mbulia01 test 2, ealter01 passed
+given mbulia01 test 3, ealter01 passed
+given mbulia01 test 1, ewu02 passed
+given mbulia01 test 2, ewu02 passed
+given mbulia01 test 3, ewu02 passed
+given mbulia01 test 1, gbodwi01 failed -- formula (and (or x y) (not x)) has a solution, but your solver did not find one
+given mbulia01 test 2, gbodwi01 passed
+given mbulia01 test 3, gbodwi01 errored -- unknown run-time merror
+given mbulia01 test 1, graymo01 passed
+given mbulia01 test 2, graymo01 passed
+given mbulia01 test 3, graymo01 passed
+given mbulia01 test 1, jglazi01 passed
+given mbulia01 test 2, jglazi01 passed
+given mbulia01 test 3, jglazi01 passed
+given mbulia01 test 1, jlockw01 errored -- unknown run-time merror
+given mbulia01 test 2, jlockw01 errored -- unknown run-time merror
+given mbulia01 test 3, jlockw01 errored -- unknown run-time merror
+given mbulia01 test 1, jmonte03 errored -- unknown run-time merror
+given mbulia01 test 2, jmonte03 errored -- unknown run-time merror
+given mbulia01 test 3, jmonte03 errored -- unknown run-time merror
+given mbulia01 test 1, jwilde01 failed -- . #f
+given mbulia01 test 2, jwilde01 failed -- formula (and (and x y) (and x (not y))) should have no solution, but your solver claimed to find a solution
+given mbulia01 test 3, jwilde01 failed -- . #f
+given mbulia01 test 1, malex passed
+given mbulia01 test 2, malex passed
+given mbulia01 test 3, malex passed
+given mbulia01 test 1, mbfrey passed
+given mbulia01 test 2, mbfrey passed
+given mbulia01 test 3, mbfrey passed
+given mbulia01 test 1, mborys01 passed
+given mbulia01 test 2, mborys01 passed
+given mbulia01 test 3, mborys01 failed -- formula (and (and and or) (or (not and) not)) has a solution, but your solver did not find one
+given mbulia01 test 1, mbulia01 passed
+given mbulia01 test 2, mbulia01 passed
+given mbulia01 test 3, mbulia01 passed
+given mbulia01 test 1, mgolds07 passed
+given mbulia01 test 2, mgolds07 passed
+given mbulia01 test 3, mgolds07 passed
+given mbulia01 test 1, mmcgow02 passed
+given mbulia01 test 3, mmcgow02 passed
+given mbulia01 test 2, mmcgow02 errored -- unknown run-time merror
+given mbulia01 test 1, mmoute01 passed
+given mbulia01 test 2, mmoute01 passed
+given mbulia01 test 3, mmoute01 passed
+given mbulia01 test 1, mnoble01 errored -- unknown run-time merror
+given mbulia01 test 2, mnoble01 errored -- unknown run-time merror
+given mbulia01 test 3, mnoble01 errored -- unknown run-time merror
+given mbulia01 test 1, naiken02 passed
+given mbulia01 test 2, naiken02 passed
+given mbulia01 test 3, naiken02 failed -- formula (and (and and or) (or (not and) not)) has a solution, but your solver did not find one
+given mbulia01 test 1, shaney02 passed
+given mbulia01 test 2, shaney02 passed
+given mbulia01 test 3, shaney02 passed
+given mbulia01 test 1, spanut01 passed
+given mbulia01 test 3, spanut01 passed
+given mbulia01 test 2, spanut01 errored -- unknown run-time merror
+given mbulia01 test 1, wbutt01 passed
+given mbulia01 test 2, wbutt01 passed
+given mbulia01 test 3, wbutt01 passed
+given mbulia01 test 1, wholah01 errored -- unknown run-time merror
+given mbulia01 test 2, wholah01 errored -- unknown run-time merror
+given mbulia01 test 3, wholah01 errored -- unknown run-time merror
+given mgolds07 test 1, abell01 passed
+given mgolds07 test 2, abell01 passed
+given mgolds07 test 3, abell01 passed
+given mgolds07 test 1, ahamli02 passed
+given mgolds07 test 2, ahamli02 failed -- formula (or (and (or (not a) (not b)) a b) (not (not (and x (not (and x)))))) should have no solution, but your solver claimed to find a solution
+given mgolds07 test 3, ahamli02 passed
+given mgolds07 test 1, ahay01 passed
+given mgolds07 test 2, ahay01 passed
+given mgolds07 test 3, ahay01 passed
+given mgolds07 test 1, akhaku01 passed
+given mgolds07 test 2, akhaku01 passed
+given mgolds07 test 3, akhaku01 passed
+given mgolds07 test 1, akuan01 passed
+given mgolds07 test 2, akuan01 passed
+given mgolds07 test 3, akuan01 passed
+given mgolds07 test 1, amcgla01 passed
+given mgolds07 test 2, amcgla01 passed
+given mgolds07 test 3, amcgla01 passed
+given mgolds07 test 1, apolya01 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver did not find one
+given mgolds07 test 2, apolya01 errored -- unknown run-time merror
+given mgolds07 test 3, apolya01 errored -- unknown run-time merror
+given mgolds07 test 1, bakasl01 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver did not find one
+given mgolds07 test 2, bakasl01 passed
+given mgolds07 test 3, bakasl01 passed
+given mgolds07 test 1, byukse01 errored -- unknown run-time merror
+given mgolds07 test 2, byukse01 errored -- unknown run-time merror
+given mgolds07 test 3, byukse01 errored -- unknown run-time merror
+given mgolds07 test 1, cbrink passed
+given mgolds07 test 2, cbrink passed
+given mgolds07 test 3, cbrink passed
+given mgolds07 test 1, ccann failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver returned ((and #f) (not #f)) which is not a satisfying assignment
+given mgolds07 test 2, ccann passed
+given mgolds07 test 3, ccann passed
+given mgolds07 test 1, cgrama01 passed
+given mgolds07 test 2, cgrama01 passed
+given mgolds07 test 3, cgrama01 passed
+given mgolds07 test 1, csmith05 passed
+given mgolds07 test 2, csmith05 passed
+given mgolds07 test 3, csmith05 passed
+given mgolds07 test 1, czuber01 errored -- unknown run-time merror
+given mgolds07 test 2, czuber01 errored -- unknown run-time merror
+given mgolds07 test 3, czuber01 errored -- unknown run-time merror
+given mgolds07 test 1, deder01 errored -- unknown run-time merror
+given mgolds07 test 2, deder01 errored -- unknown run-time merror
+given mgolds07 test 3, deder01 errored -- unknown run-time merror
+given mgolds07 test 1, dfortu01 passed
+given mgolds07 test 2, dfortu01 passed
+given mgolds07 test 3, dfortu01 passed
+given mgolds07 test 1, ead36 passed
+given mgolds07 test 2, ead36 passed
+given mgolds07 test 3, ead36 passed
+given mgolds07 test 1, ealter01 passed
+given mgolds07 test 2, ealter01 passed
+given mgolds07 test 3, ealter01 passed
+given mgolds07 test 1, ewu02 passed
+given mgolds07 test 2, ewu02 passed
+given mgolds07 test 3, ewu02 passed
+given mgolds07 test 1, gbodwi01 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver did not find one
+given mgolds07 test 2, gbodwi01 passed
+given mgolds07 test 3, gbodwi01 errored -- unknown run-time merror
+given mgolds07 test 1, graymo01 passed
+given mgolds07 test 2, graymo01 passed
+given mgolds07 test 3, graymo01 passed
+given mgolds07 test 1, jglazi01 passed
+given mgolds07 test 2, jglazi01 passed
+given mgolds07 test 3, jglazi01 passed
+given mgolds07 test 1, jlockw01 errored -- unknown run-time merror
+given mgolds07 test 2, jlockw01 errored -- unknown run-time merror
+given mgolds07 test 3, jlockw01 errored -- unknown run-time merror
+given mgolds07 test 1, jmonte03 errored -- unknown run-time merror
+given mgolds07 test 2, jmonte03 errored -- unknown run-time merror
+given mgolds07 test 3, jmonte03 errored -- unknown run-time merror
+given mgolds07 test 1, jwilde01 failed -- . #f
+given mgolds07 test 2, jwilde01 failed -- formula (or (and (or (not a) (not b)) a b) (not (not (and x (not (and x)))))) should have no solution, but your solver claimed to find a solution
+given mgolds07 test 3, jwilde01 failed -- . #f
+given mgolds07 test 1, malex passed
+given mgolds07 test 2, malex passed
+given mgolds07 test 3, malex passed
+given mgolds07 test 1, mbfrey passed
+given mgolds07 test 2, mbfrey passed
+given mgolds07 test 3, mbfrey passed
+given mgolds07 test 1, mborys01 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver did not find one
+given mgolds07 test 2, mborys01 passed
+given mgolds07 test 3, mborys01 passed
+given mgolds07 test 1, mbulia01 passed
+given mgolds07 test 2, mbulia01 failed -- formula (or (and (or (not a) (not b)) a b) (not (not (and x (not (and x)))))) should have no solution, but your solver claimed to find a solution
+given mgolds07 test 3, mbulia01 failed -- formula (or (and (or (not a) (not b)) a b) (and x (not (and x))) (and a b c)) has a solution, but your solver returned ((a #t) (b #t)) which is not a satisfying assignment
+given mgolds07 test 1, mgolds07 passed
+given mgolds07 test 2, mgolds07 passed
+given mgolds07 test 3, mgolds07 passed
+given mgolds07 test 1, mmcgow02 errored -- unknown run-time merror
+given mgolds07 test 2, mmcgow02 errored -- unknown run-time merror
+given mgolds07 test 3, mmcgow02 errored -- unknown run-time merror
+given mgolds07 test 1, mmoute01 passed
+given mgolds07 test 2, mmoute01 passed
+given mgolds07 test 3, mmoute01 passed
+given mgolds07 test 1, mnoble01 errored -- unknown run-time merror
+given mgolds07 test 2, mnoble01 errored -- unknown run-time merror
+given mgolds07 test 3, mnoble01 errored -- unknown run-time merror
+given mgolds07 test 1, naiken02 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver did not find one
+given mgolds07 test 2, naiken02 failed -- formula (or (and (or (not a) (not b)) a b) (not (not (and x (not (and x)))))) should have no solution, but your solver claimed to find a solution
+given mgolds07 test 3, naiken02 passed
+given mgolds07 test 1, shaney02 passed
+given mgolds07 test 2, shaney02 passed
+given mgolds07 test 3, shaney02 passed
+given mgolds07 test 1, spanut01 failed -- formula (and (or and not or) (not and) (not not)) has a solution, but your solver returned ((or #f) (and #f)) which is not a satisfying assignment
+given mgolds07 test 2, spanut01 failed -- formula (or (and (or (not a) (not b)) a b) (not (not (and x (not (and x)))))) should have no solution, but your solver claimed to find a solution
+given mgolds07 test 3, spanut01 failed -- formula (or (and (or (not a) (not b)) a b) (and x (not (and x))) (and a b c)) has a solution, but your solver returned ((b #f) (a #t)) which is not a satisfying assignment
+given mgolds07 test 1, wbutt01 passed
+given mgolds07 test 2, wbutt01 passed
+given mgolds07 test 3, wbutt01 passed
+given mgolds07 test 1, wholah01 errored -- unknown run-time merror
+given mgolds07 test 2, wholah01 errored -- unknown run-time merror
+given mgolds07 test 3, wholah01 errored -- unknown run-time merror
+given mmcgow02 test 1, abell01 passed
+given mmcgow02 test 2, abell01 passed
+given mmcgow02 test 3, abell01 passed
+given mmcgow02 test 1, ahamli02 passed
+given mmcgow02 test 2, ahamli02 passed
+given mmcgow02 test 3, ahamli02 passed
+given mmcgow02 test 1, ahay01 passed
+given mmcgow02 test 2, ahay01 passed
+given mmcgow02 test 3, ahay01 passed
+given mmcgow02 test 1, akhaku01 passed
+given mmcgow02 test 2, akhaku01 passed
+given mmcgow02 test 3, akhaku01 passed
+given mmcgow02 test 1, akuan01 passed
+given mmcgow02 test 2, akuan01 passed
+given mmcgow02 test 3, akuan01 passed
+given mmcgow02 test 1, amcgla01 passed
+given mmcgow02 test 2, amcgla01 passed
+given mmcgow02 test 3, amcgla01 passed
+given mmcgow02 test 1, apolya01 passed
+given mmcgow02 test 2, apolya01 passed
+given mmcgow02 test 3, apolya01 errored -- unknown run-time merror
+given mmcgow02 test 1, bakasl01 passed
+given mmcgow02 test 2, bakasl01 passed
+given mmcgow02 test 3, bakasl01 passed
+given mmcgow02 test 1, byukse01 passed
+given mmcgow02 test 2, byukse01 errored -- unknown run-time merror
+given mmcgow02 test 3, byukse01 errored -- unknown run-time merror
+given mmcgow02 test 1, cbrink passed
+given mmcgow02 test 2, cbrink passed
+given mmcgow02 test 3, cbrink passed
+given mmcgow02 test 1, ccann passed
+given mmcgow02 test 2, ccann passed
+given mmcgow02 test 3, ccann passed
+given mmcgow02 test 2, cgrama01 passed
+given mmcgow02 test 3, cgrama01 passed
+given mmcgow02 test 1, cgrama01 errored -- unknown run-time merror
+given mmcgow02 test 1, csmith05 passed
+given mmcgow02 test 2, csmith05 passed
+given mmcgow02 test 3, csmith05 passed
+given mmcgow02 test 1, czuber01 errored -- unknown run-time merror
+given mmcgow02 test 2, czuber01 errored -- unknown run-time merror
+given mmcgow02 test 3, czuber01 errored -- unknown run-time merror
+given mmcgow02 test 1, deder01 failed -- formula (not (or (and w x) (and y z))) has a solution, but your solver returned ((x #t) (w #t)) which is not a satisfying assignment
+given mmcgow02 test 2, deder01 failed -- formula (and (not (and x y)) (or y z)) has a solution, but your solver returned ((y #t) (x #t)) which is not a satisfying assignment
+given mmcgow02 test 3, deder01 errored -- unknown run-time merror
+given mmcgow02 test 1, dfortu01 passed
+given mmcgow02 test 2, dfortu01 passed
+given mmcgow02 test 3, dfortu01 passed
+given mmcgow02 test 1, ead36 passed
+given mmcgow02 test 2, ead36 passed
+given mmcgow02 test 3, ead36 passed
+given mmcgow02 test 1, ealter01 passed
+given mmcgow02 test 2, ealter01 passed
+given mmcgow02 test 3, ealter01 passed
+given mmcgow02 test 1, ewu02 passed
+given mmcgow02 test 2, ewu02 passed
+given mmcgow02 test 3, ewu02 passed
+given mmcgow02 test 1, gbodwi01 errored -- unknown run-time merror
+given mmcgow02 test 2, gbodwi01 errored -- unknown run-time merror
+given mmcgow02 test 3, gbodwi01 errored -- unknown run-time merror
+given mmcgow02 test 1, graymo01 passed
+given mmcgow02 test 2, graymo01 passed
+given mmcgow02 test 3, graymo01 passed
+given mmcgow02 test 1, jglazi01 passed
+given mmcgow02 test 2, jglazi01 passed
+given mmcgow02 test 3, jglazi01 passed
+given mmcgow02 test 1, jlockw01 errored -- unknown run-time merror
+given mmcgow02 test 2, jlockw01 errored -- unknown run-time merror
+given mmcgow02 test 3, jlockw01 errored -- unknown run-time merror
+given mmcgow02 test 1, jmonte03 errored -- unknown run-time merror
+given mmcgow02 test 2, jmonte03 errored -- unknown run-time merror
+given mmcgow02 test 3, jmonte03 errored -- unknown run-time merror
+given mmcgow02 test 1, jwilde01 failed -- . #f
+given mmcgow02 test 2, jwilde01 failed -- . #f
+given mmcgow02 test 3, jwilde01 failed -- . #f
+given mmcgow02 test 1, malex passed
+given mmcgow02 test 2, malex passed
+given mmcgow02 test 3, malex passed
+given mmcgow02 test 1, mbfrey passed
+given mmcgow02 test 2, mbfrey passed
+given mmcgow02 test 3, mbfrey passed
+given mmcgow02 test 1, mborys01 passed
+given mmcgow02 test 2, mborys01 passed
+given mmcgow02 test 3, mborys01 passed
+given mmcgow02 test 1, mbulia01 failed -- formula (not (or (and w x) (and y z))) has a solution, but your solver returned ((w #f) (x #f)) which is not a satisfying assignment
+given mmcgow02 test 2, mbulia01 passed
+given mmcgow02 test 3, mbulia01 passed
+given mmcgow02 test 1, mgolds07 passed
+given mmcgow02 test 2, mgolds07 passed
+given mmcgow02 test 3, mgolds07 passed
+given mmcgow02 test 1, mmcgow02 passed
+given mmcgow02 test 2, mmcgow02 passed
+given mmcgow02 test 3, mmcgow02 passed
+given mmcgow02 test 1, mmoute01 passed
+given mmcgow02 test 2, mmoute01 passed
+given mmcgow02 test 3, mmoute01 passed
+given mmcgow02 test 1, mnoble01 errored -- unknown run-time merror
+given mmcgow02 test 2, mnoble01 errored -- unknown run-time merror
+given mmcgow02 test 3, mnoble01 errored -- unknown run-time merror
+given mmcgow02 test 1, naiken02 failed -- formula (not (or (and w x) (and y z))) has a solution, but your solver returned ((w #f) (x #f)) which is not a satisfying assignment
+given mmcgow02 test 2, naiken02 passed
+given mmcgow02 test 3, naiken02 passed
+given mmcgow02 test 1, shaney02 passed
+given mmcgow02 test 2, shaney02 passed
+given mmcgow02 test 3, shaney02 passed
+given mmcgow02 test 1, spanut01 failed -- formula (not (or (and w x) (and y z))) has a solution, but your solver returned ((w #f) (x #f)) which is not a satisfying assignment
+given mmcgow02 test 2, spanut01 passed
+given mmcgow02 test 3, spanut01 passed
+given mmcgow02 test 1, wbutt01 passed
+given mmcgow02 test 2, wbutt01 passed
+given mmcgow02 test 3, wbutt01 passed
+given mmcgow02 test 1, wholah01 errored -- unknown run-time merror
+given mmcgow02 test 2, wholah01 errored -- unknown run-time merror
+given mmcgow02 test 3, wholah01 errored -- unknown run-time merror
+given mmoute01 test 1, abell01 passed
+given mmoute01 test 2, abell01 passed
+given mmoute01 test 3, abell01 passed
+given mmoute01 test 1, ahamli02 passed
+given mmoute01 test 2, ahamli02 passed
+given mmoute01 test 3, ahamli02 passed
+given mmoute01 test 1, ahay01 passed
+given mmoute01 test 2, ahay01 passed
+given mmoute01 test 3, ahay01 passed
+given mmoute01 test 1, akhaku01 passed
+given mmoute01 test 2, akhaku01 passed
+given mmoute01 test 3, akhaku01 passed
+given mmoute01 test 1, akuan01 passed
+given mmoute01 test 2, akuan01 passed
+given mmoute01 test 3, akuan01 passed
+given mmoute01 test 1, amcgla01 passed
+given mmoute01 test 2, amcgla01 passed
+given mmoute01 test 3, amcgla01 passed
+given mmoute01 test 2, apolya01 passed
+given mmoute01 test 3, apolya01 passed
+given mmoute01 test 1, apolya01 errored -- unknown run-time merror
+given mmoute01 test 1, bakasl01 failed -- formula (and (and and and) (or or or)) has a solution, but your solver did not find one
+given mmoute01 test 2, bakasl01 passed
+given mmoute01 test 3, bakasl01 passed
+given mmoute01 test 3, byukse01 passed
+given mmoute01 test 1, byukse01 errored -- unknown run-time merror
+given mmoute01 test 2, byukse01 errored -- unknown run-time merror
+given mmoute01 test 1, cbrink passed
+given mmoute01 test 2, cbrink passed
+given mmoute01 test 3, cbrink passed
+given mmoute01 test 1, ccann failed -- formula (and (and and and) (or or or)) has a solution, but your solver did not find one
+given mmoute01 test 2, ccann passed
+given mmoute01 test 3, ccann passed
+given mmoute01 test 1, cgrama01 passed
+given mmoute01 test 2, cgrama01 passed
+given mmoute01 test 3, cgrama01 passed
+given mmoute01 test 1, csmith05 passed
+given mmoute01 test 2, csmith05 passed
+given mmoute01 test 3, csmith05 passed
+given mmoute01 test 1, czuber01 passed
+given mmoute01 test 2, czuber01 errored -- unknown run-time merror
+given mmoute01 test 3, czuber01 errored -- unknown run-time merror
+given mmoute01 test 1, deder01 passed
+given mmoute01 test 2, deder01 passed
+given mmoute01 test 3, deder01 failed -- formula (not (or x y)) has a solution, but your solver returned ((x #t)) which is not a satisfying assignment
+given mmoute01 test 1, dfortu01 passed
+given mmoute01 test 2, dfortu01 passed
+given mmoute01 test 3, dfortu01 passed
+given mmoute01 test 1, ead36 passed
+given mmoute01 test 2, ead36 passed
+given mmoute01 test 3, ead36 passed
+given mmoute01 test 1, ealter01 passed
+given mmoute01 test 2, ealter01 passed
+given mmoute01 test 3, ealter01 passed
+given mmoute01 test 1, ewu02 passed
+given mmoute01 test 2, ewu02 passed
+given mmoute01 test 3, ewu02 passed
+given mmoute01 test 2, gbodwi01 passed
+given mmoute01 test 1, gbodwi01 errored -- unknown run-time merror
+given mmoute01 test 3, gbodwi01 errored -- unknown run-time merror
+given mmoute01 test 1, graymo01 passed
+given mmoute01 test 2, graymo01 passed
+given mmoute01 test 3, graymo01 passed
+given mmoute01 test 1, jglazi01 passed
+given mmoute01 test 2, jglazi01 passed
+given mmoute01 test 3, jglazi01 passed
+given mmoute01 test 1, jlockw01 errored -- unknown run-time merror
+given mmoute01 test 2, jlockw01 errored -- unknown run-time merror
+given mmoute01 test 3, jlockw01 errored -- unknown run-time merror
+given mmoute01 test 1, jmonte03 errored -- unknown run-time merror
+given mmoute01 test 2, jmonte03 errored -- unknown run-time merror
+given mmoute01 test 3, jmonte03 errored -- unknown run-time merror
+given mmoute01 test 1, jwilde01 failed -- . #f
+given mmoute01 test 2, jwilde01 failed -- formula (and x (not x)) should have no solution, but your solver claimed to find a solution
+given mmoute01 test 3, jwilde01 failed -- . #f
+given mmoute01 test 1, malex passed
+given mmoute01 test 2, malex passed
+given mmoute01 test 3, malex passed
+given mmoute01 test 1, mbfrey passed
+given mmoute01 test 2, mbfrey passed
+given mmoute01 test 3, mbfrey passed
+given mmoute01 test 1, mborys01 failed -- formula (and (and and and) (or or or)) has a solution, but your solver did not find one
+given mmoute01 test 2, mborys01 passed
+given mmoute01 test 3, mborys01 passed
+given mmoute01 test 1, mbulia01 passed
+given mmoute01 test 2, mbulia01 passed
+given mmoute01 test 3, mbulia01 failed -- formula (not (or x y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given mmoute01 test 1, mgolds07 passed
+given mmoute01 test 2, mgolds07 passed
+given mmoute01 test 3, mgolds07 passed
+given mmoute01 test 1, mmcgow02 passed
+given mmoute01 test 2, mmcgow02 passed
+given mmoute01 test 3, mmcgow02 passed
+given mmoute01 test 1, mmoute01 passed
+given mmoute01 test 2, mmoute01 passed
+given mmoute01 test 3, mmoute01 passed
+given mmoute01 test 1, mnoble01 errored -- unknown run-time merror
+given mmoute01 test 2, mnoble01 errored -- unknown run-time merror
+given mmoute01 test 3, mnoble01 errored -- unknown run-time merror
+given mmoute01 test 1, naiken02 failed -- formula (and (and and and) (or or or)) has a solution, but your solver did not find one
+given mmoute01 test 2, naiken02 passed
+given mmoute01 test 3, naiken02 failed -- formula (not (or x y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given mmoute01 test 1, shaney02 passed
+given mmoute01 test 2, shaney02 passed
+given mmoute01 test 3, shaney02 passed
+given mmoute01 test 1, spanut01 passed
+given mmoute01 test 2, spanut01 passed
+given mmoute01 test 3, spanut01 failed -- formula (not (or x y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment
+given mmoute01 test 1, wbutt01 passed
+given mmoute01 test 2, wbutt01 passed
+given mmoute01 test 3, wbutt01 passed
+given mmoute01 test 2, wholah01 failed -- formula (and x (not x)) should have no solution, but your solver claimed to find a solution
+given mmoute01 test 3, wholah01 failed -- formula (not (or x y)) has a solution, but your solver returned (formula (not (or x y)) has a solution, but your solver returned ((x #f)) which is not a satisfying assignment) which is not a satisfying assignment
+given mmoute01 test 1, wholah01 errored -- unknown run-time merror
+given naiken02 test 1, abell01 passed
+given naiken02 test 2, abell01 passed
+given naiken02 test 1, ahamli02 passed
+given naiken02 test 2, ahamli02 passed
+given naiken02 test 1, ahay01 passed
+given naiken02 test 2, ahay01 passed
+given naiken02 test 1, akhaku01 passed
+given naiken02 test 2, akhaku01 passed
+given naiken02 test 1, akuan01 passed
+given naiken02 test 2, akuan01 passed
+given naiken02 test 1, amcgla01 passed
+given naiken02 test 2, amcgla01 passed
+given naiken02 test 2, apolya01 failed -- formula (and (or x y z) (not x) (and (not y) k) f) has a solution, but your solver did not find one
+given naiken02 test 1, apolya01 errored -- unknown run-time merror
+given naiken02 test 1, bakasl01 passed
+given naiken02 test 2, bakasl01 failed -- formula (and (or x y z) (not x) (and (not y) k) f) has a solution, but your solver did not find one
+given naiken02 test 1, byukse01 errored -- unknown run-time merror
+given naiken02 test 2, byukse01 errored -- unknown run-time merror
+given naiken02 test 1, cbrink passed
+given naiken02 test 2, cbrink passed
+given naiken02 test 1, ccann passed
+given naiken02 test 2, ccann passed
+given naiken02 test 1, cgrama01 passed
+given naiken02 test 2, cgrama01 passed
+given naiken02 test 1, csmith05 passed
+given naiken02 test 2, csmith05 passed
+given naiken02 test 1, czuber01 errored -- unknown run-time merror
+given naiken02 test 2, czuber01 errored -- unknown run-time merror
+given naiken02 test 1, deder01 errored -- unknown run-time merror
+given naiken02 test 2, deder01 errored -- unknown run-time merror
+given naiken02 test 1, dfortu01 passed
+given naiken02 test 2, dfortu01 passed
+given naiken02 test 1, ead36 passed
+given naiken02 test 2, ead36 passed
+given naiken02 test 1, ealter01 passed
+given naiken02 test 2, ealter01 passed
+given naiken02 test 1, ewu02 passed
+given naiken02 test 2, ewu02 passed
+given naiken02 test 2, gbodwi01 failed -- formula (and (or x y z) (not x) (and (not y) k) f) has a solution, but your solver did not find one
+given naiken02 test 1, gbodwi01 errored -- unknown run-time merror
+given naiken02 test 1, graymo01 passed
+given naiken02 test 2, graymo01 passed
+given naiken02 test 1, jglazi01 passed
+given naiken02 test 2, jglazi01 passed
+given naiken02 test 1, jlockw01 errored -- unknown run-time merror
+given naiken02 test 2, jlockw01 errored -- unknown run-time merror
+given naiken02 test 1, jmonte03 errored -- unknown run-time merror
+given naiken02 test 2, jmonte03 errored -- unknown run-time merror
+given naiken02 test 1, jwilde01 failed -- . #f
+given naiken02 test 2, jwilde01 failed -- . #f
+given naiken02 test 1, malex passed
+given naiken02 test 2, malex passed
+given naiken02 test 1, mbfrey passed
+given naiken02 test 2, mbfrey passed
+given naiken02 test 1, mborys01 passed
+given naiken02 test 2, mborys01 passed
+given naiken02 test 1, mbulia01 passed
+given naiken02 test 2, mbulia01 passed
+given naiken02 test 1, mgolds07 passed
+given naiken02 test 2, mgolds07 passed
+given naiken02 test 1, mmcgow02 errored -- unknown run-time merror
+given naiken02 test 2, mmcgow02 errored -- unknown run-time merror
+given naiken02 test 1, mmoute01 passed
+given naiken02 test 2, mmoute01 passed
+given naiken02 test 1, mnoble01 errored -- unknown run-time merror
+given naiken02 test 2, mnoble01 errored -- unknown run-time merror
+given naiken02 test 1, naiken02 passed
+given naiken02 test 2, naiken02 passed
+given naiken02 test 1, shaney02 passed
+given naiken02 test 2, shaney02 passed
+given naiken02 test 1, spanut01 failed -- formula (and z (and (or (not z) k) g (or f m) (not (and p o)))) has a solution, but your solver returned ((z #t) (k #t) (g #t)) which is not a satisfying assignment
+given naiken02 test 2, spanut01 failed -- formula (and (or x y z) (not x) (and (not y) k) f) has a solution, but your solver returned ((y #t) (x #f)) which is not a satisfying assignment
+given naiken02 test 1, wbutt01 passed
+given naiken02 test 2, wbutt01 passed
+given naiken02 test 1, wholah01 failed -- formula (and z (and (or (not z) k) g (or f m) (not (and p o)))) has a solution, but your solver returned ((z #t)) which is not a satisfying assignment
+given naiken02 test 2, wholah01 errored -- unknown run-time merror
+given ryagud01 test 1, abell01 passed
+given ryagud01 test 2, abell01 passed
+given ryagud01 test 3, abell01 passed
+given ryagud01 test 1, ahamli02 passed
+given ryagud01 test 2, ahamli02 passed
+given ryagud01 test 3, ahamli02 passed
+given ryagud01 test 1, ahay01 passed
+given ryagud01 test 2, ahay01 passed
+given ryagud01 test 3, ahay01 passed
+given ryagud01 test 1, akhaku01 passed
+given ryagud01 test 2, akhaku01 passed
+given ryagud01 test 3, akhaku01 passed
+given ryagud01 test 1, akuan01 passed
+given ryagud01 test 2, akuan01 passed
+given ryagud01 test 3, akuan01 passed
+given ryagud01 test 1, amcgla01 passed
+given ryagud01 test 2, amcgla01 passed
+given ryagud01 test 3, amcgla01 passed
+given ryagud01 test 1, apolya01 passed
+given ryagud01 test 2, apolya01 passed
+given ryagud01 test 3, apolya01 passed
+given ryagud01 test 1, bakasl01 passed
+given ryagud01 test 2, bakasl01 passed
+given ryagud01 test 3, bakasl01 passed
+given ryagud01 test 1, byukse01 errored -- unknown run-time merror
+given ryagud01 test 2, byukse01 errored -- unknown run-time merror
+given ryagud01 test 3, byukse01 errored -- unknown run-time merror
+given ryagud01 test 1, cbrink passed
+given ryagud01 test 2, cbrink passed
+given ryagud01 test 3, cbrink passed
+given ryagud01 test 1, ccann passed
+given ryagud01 test 2, ccann passed
+given ryagud01 test 3, ccann passed
+given ryagud01 test 1, cgrama01 passed
+given ryagud01 test 2, cgrama01 passed
+given ryagud01 test 3, cgrama01 passed
+given ryagud01 test 1, csmith05 passed
+given ryagud01 test 2, csmith05 passed
+given ryagud01 test 3, csmith05 passed
+given ryagud01 test 1, czuber01 errored -- unknown run-time merror
+given ryagud01 test 2, czuber01 errored -- unknown run-time merror
+given ryagud01 test 3, czuber01 errored -- unknown run-time merror
+given ryagud01 test 1, deder01 passed
+given ryagud01 test 2, deder01 passed
+given ryagud01 test 3, deder01 passed
+given ryagud01 test 1, dfortu01 passed
+given ryagud01 test 2, dfortu01 passed
+given ryagud01 test 3, dfortu01 passed
+given ryagud01 test 1, ead36 passed
+given ryagud01 test 2, ead36 passed
+given ryagud01 test 3, ead36 passed
+given ryagud01 test 1, ealter01 passed
+given ryagud01 test 2, ealter01 passed
+given ryagud01 test 3, ealter01 passed
+given ryagud01 test 1, ewu02 passed
+given ryagud01 test 2, ewu02 passed
+given ryagud01 test 3, ewu02 passed
+given ryagud01 test 3, gbodwi01 passed
+given ryagud01 test 1, gbodwi01 errored -- unknown run-time merror
+given ryagud01 test 2, gbodwi01 errored -- unknown run-time merror
+given ryagud01 test 1, graymo01 passed
+given ryagud01 test 2, graymo01 passed
+given ryagud01 test 3, graymo01 passed
+given ryagud01 test 1, jglazi01 passed
+given ryagud01 test 2, jglazi01 passed
+given ryagud01 test 3, jglazi01 passed
+given ryagud01 test 1, jlockw01 errored -- unknown run-time merror
+given ryagud01 test 2, jlockw01 errored -- unknown run-time merror
+given ryagud01 test 3, jlockw01 errored -- unknown run-time merror
+given ryagud01 test 1, jmonte03 errored -- unknown run-time merror
+given ryagud01 test 2, jmonte03 errored -- unknown run-time merror
+given ryagud01 test 3, jmonte03 errored -- unknown run-time merror
+given ryagud01 test 1, jwilde01 failed -- . #f
+given ryagud01 test 2, jwilde01 failed -- . #f
+given ryagud01 test 3, jwilde01 failed -- formula (and (not x) (and x y)) should have no solution, but your solver claimed to find a solution
+given ryagud01 test 1, malex passed
+given ryagud01 test 2, malex passed
+given ryagud01 test 3, malex passed
+given ryagud01 test 1, mbfrey passed
+given ryagud01 test 2, mbfrey passed
+given ryagud01 test 3, mbfrey passed
+given ryagud01 test 1, mborys01 passed
+given ryagud01 test 2, mborys01 passed
+given ryagud01 test 3, mborys01 passed
+given ryagud01 test 1, mbulia01 passed
+given ryagud01 test 2, mbulia01 passed
+given ryagud01 test 3, mbulia01 passed
+given ryagud01 test 1, mgolds07 passed
+given ryagud01 test 2, mgolds07 passed
+given ryagud01 test 3, mgolds07 passed
+given ryagud01 test 1, mmcgow02 passed
+given ryagud01 test 2, mmcgow02 passed
+given ryagud01 test 3, mmcgow02 errored -- unknown run-time merror
+given ryagud01 test 1, mmoute01 passed
+given ryagud01 test 2, mmoute01 passed
+given ryagud01 test 3, mmoute01 passed
+given ryagud01 test 1, mnoble01 errored -- unknown run-time merror
+given ryagud01 test 2, mnoble01 errored -- unknown run-time merror
+given ryagud01 test 3, mnoble01 errored -- unknown run-time merror
+given ryagud01 test 1, naiken02 passed
+given ryagud01 test 2, naiken02 passed
+given ryagud01 test 3, naiken02 passed
+given ryagud01 test 1, shaney02 passed
+given ryagud01 test 2, shaney02 passed
+given ryagud01 test 3, shaney02 passed
+given ryagud01 test 1, spanut01 passed
+given ryagud01 test 2, spanut01 passed
+given ryagud01 test 3, spanut01 passed
+given ryagud01 test 1, wbutt01 passed
+given ryagud01 test 2, wbutt01 passed
+given ryagud01 test 3, wbutt01 passed
+given ryagud01 test 1, wholah01 passed
+given ryagud01 test 2, wholah01 passed
+given ryagud01 test 3, wholah01 errored -- unknown run-time merror
+given shaney02 test 1, abell01 passed
+given shaney02 test 1, ahamli02 passed
+given shaney02 test 1, ahay01 passed
+given shaney02 test 1, akhaku01 passed
+given shaney02 test 1, akuan01 passed
+given shaney02 test 1, amcgla01 passed
+given shaney02 test 1, apolya01 failed -- formula (and (or x y z) (or y z) (and (not x) (not y))) has a solution, but your solver did not find one
+given shaney02 test 1, bakasl01 failed -- formula (and (or x y z) (or y z) (and (not x) (not y))) has a solution, but your solver did not find one
+given shaney02 test 1, byukse01 errored -- unknown run-time merror
+given shaney02 test 1, cbrink passed
+given shaney02 test 1, ccann passed
+given shaney02 test 1, cgrama01 passed
+given shaney02 test 1, csmith05 passed
+given shaney02 test 1, czuber01 errored -- unknown run-time merror
+given shaney02 test 1, deder01 errored -- unknown run-time merror
+given shaney02 test 1, dfortu01 passed
+given shaney02 test 1, ead36 passed
+given shaney02 test 1, ealter01 passed
+given shaney02 test 1, ewu02 passed
+given shaney02 test 1, gbodwi01 failed -- formula (and (or x y z) (or y z) (and (not x) (not y))) has a solution, but your solver did not find one
+given shaney02 test 1, graymo01 passed
+given shaney02 test 1, jglazi01 passed
+given shaney02 test 1, jlockw01 errored -- unknown run-time merror
+given shaney02 test 1, jmonte03 errored -- unknown run-time merror
+given shaney02 test 1, jwilde01 failed -- . #f
+given shaney02 test 1, malex passed
+given shaney02 test 1, mbfrey passed
+given shaney02 test 1, mborys01 passed
+given shaney02 test 1, mbulia01 passed
+given shaney02 test 1, mgolds07 passed
+given shaney02 test 1, mmcgow02 errored -- unknown run-time merror
+given shaney02 test 1, mmoute01 passed
+given shaney02 test 1, mnoble01 errored -- unknown run-time merror
+given shaney02 test 1, naiken02 passed
+given shaney02 test 1, shaney02 passed
+given shaney02 test 1, spanut01 failed -- formula (and (or x y z) (or y z) (and (not x) (not y))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given shaney02 test 1, wbutt01 passed
+given shaney02 test 1, wholah01 errored -- unknown run-time merror
+given spanut01 test 2, abell01 passed
+given spanut01 test 3, abell01 errored -- unknown run-time merror
+given spanut01 test 2, ahamli02 passed
+given spanut01 test 3, ahamli02 passed
+given spanut01 test 2, ahay01 passed
+given spanut01 test 3, ahay01 passed
+given spanut01 test 2, akhaku01 passed
+given spanut01 test 3, akhaku01 passed
+given spanut01 test 2, akuan01 passed
+given spanut01 test 3, akuan01 errored -- unknown run-time merror
+given spanut01 test 2, amcgla01 passed
+given spanut01 test 3, amcgla01 passed
+given spanut01 test 2, apolya01 failed -- formula (and and or) has a solution, but your solver did not find one
+given spanut01 test 3, apolya01 errored -- unknown run-time merror
+given spanut01 test 2, bakasl01 failed -- formula (and and or) has a solution, but your solver did not find one
+given spanut01 test 3, bakasl01 errored -- unknown run-time merror
+given spanut01 test 3, byukse01 passed
+given spanut01 test 2, byukse01 errored -- unknown run-time merror
+given spanut01 test 2, cbrink passed
+given spanut01 test 3, cbrink passed
+given spanut01 test 2, ccann failed -- formula (and and or) has a solution, but your solver did not find one
+given spanut01 test 3, ccann passed
+given spanut01 test 2, cgrama01 passed
+given spanut01 test 3, cgrama01 passed
+given spanut01 test 2, csmith05 passed
+given spanut01 test 3, csmith05 passed
+given spanut01 test 2, czuber01 passed
+given spanut01 test 3, czuber01 errored -- unknown run-time merror
+given spanut01 test 2, deder01 passed
+given spanut01 test 3, deder01 passed
+given spanut01 test 2, dfortu01 passed
+given spanut01 test 3, dfortu01 passed
+given spanut01 test 2, ead36 passed
+given spanut01 test 3, ead36 passed
+given spanut01 test 2, ealter01 passed
+given spanut01 test 3, ealter01 passed
+given spanut01 test 2, ewu02 passed
+given spanut01 test 3, ewu02 passed
+given spanut01 test 2, gbodwi01 errored -- unknown run-time merror
+given spanut01 test 3, gbodwi01 errored -- unknown run-time merror
+given spanut01 test 2, graymo01 passed
+given spanut01 test 3, graymo01 passed
+given spanut01 test 2, jglazi01 passed
+given spanut01 test 3, jglazi01 passed
+given spanut01 test 2, jlockw01 errored -- unknown run-time merror
+given spanut01 test 3, jlockw01 errored -- unknown run-time merror
+given spanut01 test 2, jmonte03 errored -- unknown run-time merror
+given spanut01 test 3, jmonte03 errored -- unknown run-time merror
+given spanut01 test 2, jwilde01 failed -- . #f
+given spanut01 test 3, jwilde01 failed -- . #f
+given spanut01 test 2, malex passed
+given spanut01 test 3, malex passed
+given spanut01 test 2, mbfrey passed
+given spanut01 test 3, mbfrey passed
+given spanut01 test 2, mborys01 failed -- formula (and and or) has a solution, but your solver did not find one
+given spanut01 test 3, mborys01 errored -- unknown run-time merror
+given spanut01 test 2, mbulia01 passed
+given spanut01 test 3, mbulia01 passed
+given spanut01 test 2, mgolds07 passed
+given spanut01 test 3, mgolds07 passed
+given spanut01 test 2, mmcgow02 passed
+given spanut01 test 3, mmcgow02 errored -- unknown run-time merror
+given spanut01 test 2, mmoute01 passed
+given spanut01 test 3, mmoute01 passed
+given spanut01 test 2, mnoble01 errored -- unknown run-time merror
+given spanut01 test 3, mnoble01 errored -- unknown run-time merror
+given spanut01 test 2, naiken02 failed -- formula (and and or) has a solution, but your solver did not find one
+given spanut01 test 3, naiken02 errored -- unknown run-time merror
+given spanut01 test 2, shaney02 passed
+given spanut01 test 3, shaney02 passed
+given spanut01 test 2, spanut01 passed
+given spanut01 test 3, spanut01 passed
+given spanut01 test 2, wbutt01 passed
+given spanut01 test 3, wbutt01 passed
+given spanut01 test 3, wholah01 passed
+given spanut01 test 2, wholah01 errored -- unknown run-time merror
+given wbutt01 test 1, abell01 passed
+given wbutt01 test 2, abell01 passed
+given wbutt01 test 3, abell01 passed
+given wbutt01 test 1, ahamli02 passed
+given wbutt01 test 2, ahamli02 passed
+given wbutt01 test 3, ahamli02 passed
+given wbutt01 test 1, ahay01 passed
+given wbutt01 test 2, ahay01 passed
+given wbutt01 test 3, ahay01 passed
+given wbutt01 test 1, akhaku01 passed
+given wbutt01 test 2, akhaku01 passed
+given wbutt01 test 3, akhaku01 passed
+given wbutt01 test 1, akuan01 passed
+given wbutt01 test 2, akuan01 passed
+given wbutt01 test 3, akuan01 passed
+given wbutt01 test 1, amcgla01 passed
+given wbutt01 test 2, amcgla01 passed
+given wbutt01 test 3, amcgla01 passed
+given wbutt01 test 1, apolya01 failed -- formula (and (or a b c d e) (not a) (not b) (not c) (not d)) has a solution, but your solver did not find one
+given wbutt01 test 2, apolya01 passed
+given wbutt01 test 3, apolya01 passed
+given wbutt01 test 1, bakasl01 failed -- formula (and (or a b c d e) (not a) (not b) (not c) (not d)) has a solution, but your solver did not find one
+given wbutt01 test 2, bakasl01 passed
+given wbutt01 test 3, bakasl01 passed
+given wbutt01 test 1, byukse01 errored -- unknown run-time merror
+given wbutt01 test 2, byukse01 errored -- unknown run-time merror
+given wbutt01 test 3, byukse01 errored -- unknown run-time merror
+given wbutt01 test 1, cbrink passed
+given wbutt01 test 2, cbrink passed
+given wbutt01 test 3, cbrink passed
+given wbutt01 test 1, ccann passed
+given wbutt01 test 2, ccann passed
+given wbutt01 test 3, ccann passed
+given wbutt01 test 1, cgrama01 passed
+given wbutt01 test 2, cgrama01 passed
+given wbutt01 test 3, cgrama01 passed
+given wbutt01 test 1, csmith05 passed
+given wbutt01 test 2, csmith05 passed
+given wbutt01 test 3, csmith05 passed
+given wbutt01 test 1, czuber01 errored -- unknown run-time merror
+given wbutt01 test 2, czuber01 errored -- unknown run-time merror
+given wbutt01 test 3, czuber01 errored -- unknown run-time merror
+given wbutt01 test 2, deder01 passed
+given wbutt01 test 3, deder01 passed
+given wbutt01 test 1, deder01 errored -- unknown run-time merror
+given wbutt01 test 1, dfortu01 passed
+given wbutt01 test 2, dfortu01 passed
+given wbutt01 test 3, dfortu01 passed
+given wbutt01 test 1, ead36 passed
+given wbutt01 test 2, ead36 passed
+given wbutt01 test 3, ead36 passed
+given wbutt01 test 1, ealter01 passed
+given wbutt01 test 2, ealter01 passed
+given wbutt01 test 3, ealter01 passed
+given wbutt01 test 1, ewu02 passed
+given wbutt01 test 2, ewu02 passed
+given wbutt01 test 3, ewu02 passed
+given wbutt01 test 1, gbodwi01 failed -- formula (and (or a b c d e) (not a) (not b) (not c) (not d)) has a solution, but your solver did not find one
+given wbutt01 test 2, gbodwi01 passed
+given wbutt01 test 3, gbodwi01 errored -- unknown run-time merror
+given wbutt01 test 1, graymo01 passed
+given wbutt01 test 2, graymo01 passed
+given wbutt01 test 3, graymo01 passed
+given wbutt01 test 1, jglazi01 passed
+given wbutt01 test 2, jglazi01 passed
+given wbutt01 test 3, jglazi01 passed
+given wbutt01 test 1, jlockw01 errored -- unknown run-time merror
+given wbutt01 test 2, jlockw01 errored -- unknown run-time merror
+given wbutt01 test 3, jlockw01 errored -- unknown run-time merror
+given wbutt01 test 1, jmonte03 errored -- unknown run-time merror
+given wbutt01 test 2, jmonte03 errored -- unknown run-time merror
+given wbutt01 test 3, jmonte03 errored -- unknown run-time merror
+given wbutt01 test 1, jwilde01 failed -- . #f
+given wbutt01 test 2, jwilde01 failed -- formula (and (not x) (not y) (and z y)) should have no solution, but your solver claimed to find a solution
+given wbutt01 test 3, jwilde01 failed -- . #f
+given wbutt01 test 1, malex passed
+given wbutt01 test 2, malex passed
+given wbutt01 test 3, malex passed
+given wbutt01 test 1, mbfrey passed
+given wbutt01 test 2, mbfrey passed
+given wbutt01 test 3, mbfrey passed
+given wbutt01 test 1, mborys01 passed
+given wbutt01 test 2, mborys01 passed
+given wbutt01 test 3, mborys01 passed
+given wbutt01 test 1, mbulia01 passed
+given wbutt01 test 2, mbulia01 passed
+given wbutt01 test 3, mbulia01 passed
+given wbutt01 test 1, mgolds07 passed
+given wbutt01 test 2, mgolds07 passed
+given wbutt01 test 3, mgolds07 passed
+given wbutt01 test 2, mmcgow02 passed
+given wbutt01 test 3, mmcgow02 passed
+given wbutt01 test 1, mmcgow02 errored -- unknown run-time merror
+given wbutt01 test 1, mmoute01 passed
+given wbutt01 test 2, mmoute01 passed
+given wbutt01 test 3, mmoute01 passed
+given wbutt01 test 1, mnoble01 errored -- unknown run-time merror
+given wbutt01 test 2, mnoble01 errored -- unknown run-time merror
+given wbutt01 test 3, mnoble01 errored -- unknown run-time merror
+given wbutt01 test 1, naiken02 passed
+given wbutt01 test 2, naiken02 passed
+given wbutt01 test 3, naiken02 passed
+given wbutt01 test 1, shaney02 passed
+given wbutt01 test 2, shaney02 passed
+given wbutt01 test 3, shaney02 passed
+given wbutt01 test 1, spanut01 failed -- formula (and (or a b c d e) (not a) (not b) (not c) (not d)) has a solution, but your solver returned ((b #t) (a #f)) which is not a satisfying assignment
+given wbutt01 test 2, spanut01 failed -- formula (and (not x) (not y) (and z y)) should have no solution, but your solver claimed to find a solution
+given wbutt01 test 3, spanut01 passed
+given wbutt01 test 1, wbutt01 passed
+given wbutt01 test 2, wbutt01 passed
+given wbutt01 test 3, wbutt01 passed
+given wbutt01 test 1, wholah01 errored -- unknown run-time merror
+given wbutt01 test 2, wholah01 errored -- unknown run-time merror
+given wbutt01 test 3, wholah01 errored -- unknown run-time merror
+given wholah01 test 1, abell01 passed
+given wholah01 test 3, abell01 passed
+given wholah01 test 1, ahamli02 passed
+given wholah01 test 3, ahamli02 passed
+given wholah01 test 1, ahay01 passed
+given wholah01 test 3, ahay01 passed
+given wholah01 test 1, akhaku01 passed
+given wholah01 test 3, akhaku01 passed
+given wholah01 test 1, akuan01 passed
+given wholah01 test 3, akuan01 passed
+given wholah01 test 1, amcgla01 passed
+given wholah01 test 3, amcgla01 passed
+given wholah01 test 1, apolya01 passed
+given wholah01 test 3, apolya01 errored -- unknown run-time merror
+given wholah01 test 1, bakasl01 passed
+given wholah01 test 3, bakasl01 passed
+given wholah01 test 1, byukse01 errored -- unknown run-time merror
+given wholah01 test 3, byukse01 errored -- unknown run-time merror
+given wholah01 test 1, cbrink passed
+given wholah01 test 3, cbrink passed
+given wholah01 test 1, ccann passed
+given wholah01 test 3, ccann passed
+given wholah01 test 1, cgrama01 passed
+given wholah01 test 3, cgrama01 passed
+given wholah01 test 1, csmith05 passed
+given wholah01 test 3, csmith05 passed
+given wholah01 test 1, czuber01 errored -- unknown run-time merror
+given wholah01 test 3, czuber01 errored -- unknown run-time merror
+given wholah01 test 1, deder01 failed -- formula (and (not (or y x)) (not (and x y))) has a solution, but your solver returned ((x #t) (y #t)) which is not a satisfying assignment
+given wholah01 test 3, deder01 errored -- unknown run-time merror
+given wholah01 test 1, dfortu01 passed
+given wholah01 test 3, dfortu01 passed
+given wholah01 test 1, ead36 passed
+given wholah01 test 3, ead36 passed
+given wholah01 test 1, ealter01 passed
+given wholah01 test 3, ealter01 passed
+given wholah01 test 1, ewu02 passed
+given wholah01 test 3, ewu02 passed
+given wholah01 test 1, gbodwi01 errored -- unknown run-time merror
+given wholah01 test 3, gbodwi01 errored -- unknown run-time merror
+given wholah01 test 1, graymo01 passed
+given wholah01 test 3, graymo01 passed
+given wholah01 test 1, jglazi01 passed
+given wholah01 test 3, jglazi01 passed
+given wholah01 test 1, jlockw01 errored -- unknown run-time merror
+given wholah01 test 3, jlockw01 errored -- unknown run-time merror
+given wholah01 test 1, jmonte03 errored -- unknown run-time merror
+given wholah01 test 3, jmonte03 errored -- unknown run-time merror
+given wholah01 test 1, jwilde01 failed -- . #f
+given wholah01 test 3, jwilde01 failed -- . #f
+given wholah01 test 1, malex passed
+given wholah01 test 3, malex passed
+given wholah01 test 1, mbfrey passed
+given wholah01 test 3, mbfrey passed
+given wholah01 test 1, mborys01 passed
+given wholah01 test 3, mborys01 passed
+given wholah01 test 1, mbulia01 passed
+given wholah01 test 3, mbulia01 passed
+given wholah01 test 1, mgolds07 passed
+given wholah01 test 3, mgolds07 passed
+given wholah01 test 1, mmcgow02 passed
+given wholah01 test 3, mmcgow02 passed
+given wholah01 test 1, mmoute01 passed
+given wholah01 test 3, mmoute01 passed
+given wholah01 test 1, mnoble01 errored -- unknown run-time merror
+given wholah01 test 3, mnoble01 errored -- unknown run-time merror
+given wholah01 test 1, naiken02 passed
+given wholah01 test 3, naiken02 passed
+given wholah01 test 1, shaney02 passed
+given wholah01 test 3, shaney02 passed
+given wholah01 test 1, spanut01 passed
+given wholah01 test 3, spanut01 passed
+given wholah01 test 1, wbutt01 passed
+given wholah01 test 3, wbutt01 passed
+given wholah01 test 1, wholah01 errored -- unknown run-time merror
+given wholah01 test 3, wholah01 errored -- unknown run-time merror

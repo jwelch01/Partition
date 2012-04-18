@@ -1,0 +1,990 @@
+given nr test 12, wbutt01 passed
+given nr test 12, dreif01 errored -- Unifying "'a" and "'a" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 12, malex passed
+given nr test 12, ahamli02 passed
+given nr test 12, jtorru01 passed
+given nr test 12, ead36 passed
+given nr test 12, ahay01 passed
+given nr test 12, czuber01 passed
+given nr test 12, sratta01 passed
+given nr test 12, apolya01 passed
+given nr test 12, abell01 passed
+given nr test 12, byukse01 passed
+given nr test 12, shalst01 passed
+given nr test 12, mnoble01 passed
+given nr test 12, amcgla01 passed
+given nr test 12, ewu02 passed
+given nr test 12, wholah01 passed
+given nr test 12, akhaku01 passed
+given nr test 12, ccann passed
+given nr test 12, fteume01 passed
+given nr test 12, mbfrey passed
+given nr test 12, dfortu01 passed
+given nr test 12, clangb01 passed
+given nr test 12, jglazi01 passed
+given nr test 12, gbodwi01 passed
+given nr test 12, akuan01 passed
+given nr test 12, jwilde01 passed
+given nr test 12, jliebo01 passed
+given nr test 12, mmoute01 passed
+given nr test 12, cbrink passed
+given czuber01 test 1, wbutt01 passed
+given czuber01 test 1, dreif01 passed
+given czuber01 test 1, malex passed
+given czuber01 test 1, ahamli02 passed
+given czuber01 test 1, jtorru01 passed
+given czuber01 test 1, ead36 passed
+given czuber01 test 1, ahay01 passed
+given czuber01 test 1, czuber01 passed
+given czuber01 test 1, sratta01 passed
+given czuber01 test 1, apolya01 passed
+given czuber01 test 1, abell01 passed
+given czuber01 test 1, byukse01 passed
+given czuber01 test 1, shalst01 passed
+given czuber01 test 1, mnoble01 passed
+given czuber01 test 1, amcgla01 passed
+given czuber01 test 1, ewu02 passed
+given czuber01 test 1, wholah01 passed
+given czuber01 test 1, akhaku01 passed
+given czuber01 test 1, ccann passed
+given czuber01 test 1, fteume01 passed
+given czuber01 test 1, mbfrey passed
+given czuber01 test 1, dfortu01 passed
+given czuber01 test 1, clangb01 passed
+given czuber01 test 1, jglazi01 passed
+given czuber01 test 1, gbodwi01 passed
+given czuber01 test 1, akuan01 badsubst -- Given input types tau1 = "'a" and tau2 = "'b", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "'a", and theta tau2 = "'b" are different.
+given czuber01 test 1, jwilde01 passed
+given czuber01 test 1, jliebo01 passed
+given czuber01 test 1, mmoute01 passed
+given czuber01 test 1, cbrink passed
+given wbutt01 test 1, wbutt01 passed
+given wbutt01 test 1, dreif01 passed
+given wbutt01 test 1, malex passed
+given wbutt01 test 1, ahamli02 passed
+given wbutt01 test 1, jtorru01 passed
+given wbutt01 test 1, ead36 passed
+given wbutt01 test 1, ahay01 passed
+given wbutt01 test 1, czuber01 passed
+given wbutt01 test 1, sratta01 passed
+given wbutt01 test 1, apolya01 passed
+given wbutt01 test 1, abell01 passed
+given wbutt01 test 1, byukse01 passed
+given wbutt01 test 1, shalst01 passed
+given wbutt01 test 1, mnoble01 passed
+given wbutt01 test 1, amcgla01 passed
+given wbutt01 test 1, ewu02 passed
+given wbutt01 test 1, wholah01 passed
+given wbutt01 test 1, akhaku01 passed
+given wbutt01 test 1, ccann passed
+given wbutt01 test 1, fteume01 passed
+given wbutt01 test 1, mbfrey passed
+given wbutt01 test 1, dfortu01 passed
+given wbutt01 test 1, clangb01 passed
+given wbutt01 test 1, jglazi01 passed
+given wbutt01 test 1, gbodwi01 passed
+given wbutt01 test 1, akuan01 passed
+given wbutt01 test 1, jwilde01 passed
+given wbutt01 test 1, jliebo01 failed -- Types "'a" and "(int)" can be unified, but your unifier failed with the message "Cannot unify 'a and int".
+given wbutt01 test 1, mmoute01 passed
+given wbutt01 test 1, cbrink passed
+given nr test 130, wbutt01 passed
+given nr test 130, dreif01 passed
+given nr test 130, malex passed
+given nr test 130, ahamli02 passed
+given nr test 130, jtorru01 passed
+given nr test 130, ead36 passed
+given nr test 130, ahay01 passed
+given nr test 130, czuber01 passed
+given nr test 130, sratta01 passed
+given nr test 130, apolya01 passed
+given nr test 130, abell01 passed
+given nr test 130, byukse01 passed
+given nr test 130, shalst01 passed
+given nr test 130, mnoble01 passed
+given nr test 130, amcgla01 passed
+given nr test 130, ewu02 passed
+given nr test 130, wholah01 passed
+given nr test 130, akhaku01 passed
+given nr test 130, ccann passed
+given nr test 130, fteume01 passed
+given nr test 130, mbfrey passed
+given nr test 130, dfortu01 passed
+given nr test 130, clangb01 passed
+given nr test 130, jglazi01 passed
+given nr test 130, gbodwi01 passed
+given nr test 130, akuan01 badsubst -- Given input types tau1 = "('a)" and tau2 = "('b)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a)", and theta tau2 = "('b)" are different.
+given nr test 130, jwilde01 passed
+given nr test 130, jliebo01 passed
+given nr test 130, mmoute01 failed -- Types "('a)" and "('b)" can be unified, but your unifier failed with the message "Cannot unify 'a and 'b".
+given nr test 130, cbrink passed
+given nr test 33, wbutt01 passed
+given nr test 33, dreif01 passed
+given nr test 33, malex passed
+given nr test 33, ahamli02 passed
+given nr test 33, jtorru01 passed
+given nr test 33, ead36 passed
+given nr test 33, ahay01 passed
+given nr test 33, czuber01 passed
+given nr test 33, sratta01 passed
+given nr test 33, apolya01 passed
+given nr test 33, abell01 passed
+given nr test 33, byukse01 passed
+given nr test 33, shalst01 passed
+given nr test 33, mnoble01 passed
+given nr test 33, amcgla01 passed
+given nr test 33, ewu02 passed
+given nr test 33, wholah01 passed
+given nr test 33, akhaku01 passed
+given nr test 33, ccann passed
+given nr test 33, fteume01 passed
+given nr test 33, mbfrey passed
+given nr test 33, dfortu01 passed
+given nr test 33, clangb01 badsubst -- Given input types tau1 = "(int)" and tau2 = "('a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(int)", and theta tau2 = "('a)" are different.
+given nr test 33, jglazi01 passed
+given nr test 33, gbodwi01 passed
+given nr test 33, akuan01 passed
+given nr test 33, jwilde01 passed
+given nr test 33, jliebo01 passed
+given nr test 33, mmoute01 failed -- Types "(int)" and "('a)" can be unified, but your unifier failed with the message "Cannot unify int and 'a".
+given nr test 33, cbrink passed
+given nr test 161, wbutt01 passed
+given nr test 161, dreif01 errored -- Unifying "'a" and "(ref 'a)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 161, malex passed
+given nr test 161, ahamli02 passed
+given nr test 161, jtorru01 passed
+given nr test 161, ead36 passed
+given nr test 161, ahay01 passed
+given nr test 161, czuber01 passed
+given nr test 161, sratta01 passed
+given nr test 161, apolya01 passed
+given nr test 161, abell01 badunify -- Types "'a" and "(ref 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 161, byukse01 passed
+given nr test 161, shalst01 passed
+given nr test 161, mnoble01 passed
+given nr test 161, amcgla01 passed
+given nr test 161, ewu02 passed
+given nr test 161, wholah01 passed
+given nr test 161, akhaku01 passed
+given nr test 161, ccann passed
+given nr test 161, fteume01 badunify -- Types "'a" and "(ref 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 161, mbfrey passed
+given nr test 161, dfortu01 passed
+given nr test 161, clangb01 badunify -- Types "'a" and "(ref 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 161, jglazi01 passed
+given nr test 161, gbodwi01 passed
+given nr test 161, akuan01 badunify -- Types "'a" and "(ref 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 161, jwilde01 passed
+given nr test 161, jliebo01 badunify -- Types "'a" and "(ref 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 161, mmoute01 passed
+given nr test 161, cbrink passed
+given fteume01 test 1, wbutt01 passed
+given fteume01 test 1, dreif01 badunify -- Types "(pair 'a)" and "b" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given fteume01 test 1, malex passed
+given fteume01 test 1, ahamli02 passed
+given fteume01 test 1, jtorru01 passed
+given fteume01 test 1, ead36 passed
+given fteume01 test 1, ahay01 passed
+given fteume01 test 1, czuber01 passed
+given fteume01 test 1, sratta01 passed
+given fteume01 test 1, apolya01 passed
+given fteume01 test 1, abell01 passed
+given fteume01 test 1, byukse01 passed
+given fteume01 test 1, shalst01 passed
+given fteume01 test 1, mnoble01 passed
+given fteume01 test 1, amcgla01 passed
+given fteume01 test 1, ewu02 passed
+given fteume01 test 1, wholah01 passed
+given fteume01 test 1, akhaku01 passed
+given fteume01 test 1, ccann passed
+given fteume01 test 1, fteume01 passed
+given fteume01 test 1, mbfrey passed
+given fteume01 test 1, dfortu01 passed
+given fteume01 test 1, clangb01 passed
+given fteume01 test 1, jglazi01 passed
+given fteume01 test 1, gbodwi01 passed
+given fteume01 test 1, akuan01 passed
+given fteume01 test 1, jwilde01 passed
+given fteume01 test 1, jliebo01 passed
+given fteume01 test 1, mmoute01 passed
+given fteume01 test 1, cbrink passed
+given nr test 86, wbutt01 passed
+given nr test 86, dreif01 passed
+given nr test 86, malex passed
+given nr test 86, ahamli02 passed
+given nr test 86, jtorru01 passed
+given nr test 86, ead36 passed
+given nr test 86, ahay01 passed
+given nr test 86, czuber01 passed
+given nr test 86, sratta01 passed
+given nr test 86, apolya01 passed
+given nr test 86, abell01 passed
+given nr test 86, byukse01 passed
+given nr test 86, shalst01 passed
+given nr test 86, mnoble01 passed
+given nr test 86, amcgla01 passed
+given nr test 86, ewu02 passed
+given nr test 86, wholah01 passed
+given nr test 86, akhaku01 passed
+given nr test 86, ccann passed
+given nr test 86, fteume01 passed
+given nr test 86, mbfrey passed
+given nr test 86, dfortu01 passed
+given nr test 86, clangb01 failed -- Types "((int))" and "((int))" can be unified, but your unifier failed with the message "Cannot unify int and int".
+given nr test 86, jglazi01 passed
+given nr test 86, gbodwi01 passed
+given nr test 86, akuan01 passed
+given nr test 86, jwilde01 passed
+given nr test 86, jliebo01 passed
+given nr test 86, mmoute01 passed
+given nr test 86, cbrink passed
+given fteume01 test 3, wbutt01 passed
+given fteume01 test 3, dreif01 passed
+given fteume01 test 3, malex passed
+given fteume01 test 3, ahamli02 passed
+given fteume01 test 3, jtorru01 passed
+given fteume01 test 3, ead36 passed
+given fteume01 test 3, ahay01 passed
+given fteume01 test 3, czuber01 passed
+given fteume01 test 3, sratta01 passed
+given fteume01 test 3, apolya01 passed
+given fteume01 test 3, abell01 passed
+given fteume01 test 3, byukse01 passed
+given fteume01 test 3, shalst01 passed
+given fteume01 test 3, mnoble01 passed
+given fteume01 test 3, amcgla01 passed
+given fteume01 test 3, ewu02 passed
+given fteume01 test 3, wholah01 passed
+given fteume01 test 3, akhaku01 passed
+given fteume01 test 3, ccann passed
+given fteume01 test 3, fteume01 passed
+given fteume01 test 3, mbfrey passed
+given fteume01 test 3, dfortu01 passed
+given fteume01 test 3, clangb01 badunify -- Types "(pair a)" and "(list b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given fteume01 test 3, jglazi01 passed
+given fteume01 test 3, gbodwi01 passed
+given fteume01 test 3, akuan01 passed
+given fteume01 test 3, jwilde01 passed
+given fteume01 test 3, jliebo01 passed
+given fteume01 test 3, mmoute01 passed
+given fteume01 test 3, cbrink passed
+given ccann test 3, wbutt01 passed
+given ccann test 3, dreif01 errored -- Unifying "'a" and "(list (list 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given ccann test 3, malex passed
+given ccann test 3, ahamli02 passed
+given ccann test 3, jtorru01 passed
+given ccann test 3, ead36 passed
+given ccann test 3, ahay01 passed
+given ccann test 3, czuber01 passed
+given ccann test 3, sratta01 passed
+given ccann test 3, apolya01 passed
+given ccann test 3, abell01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, byukse01 passed
+given ccann test 3, shalst01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, mnoble01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, amcgla01 passed
+given ccann test 3, ewu02 passed
+given ccann test 3, wholah01 passed
+given ccann test 3, akhaku01 passed
+given ccann test 3, ccann passed
+given ccann test 3, fteume01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, mbfrey passed
+given ccann test 3, dfortu01 passed
+given ccann test 3, clangb01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, jglazi01 passed
+given ccann test 3, gbodwi01 passed
+given ccann test 3, akuan01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, jwilde01 passed
+given ccann test 3, jliebo01 badunify -- Types "'a" and "(list (list 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given ccann test 3, mmoute01 passed
+given ccann test 3, cbrink passed
+given akhaku01 test 3, wbutt01 passed
+given akhaku01 test 3, dreif01 passed
+given akhaku01 test 3, malex passed
+given akhaku01 test 3, ahamli02 passed
+given akhaku01 test 3, jtorru01 passed
+given akhaku01 test 3, ead36 passed
+given akhaku01 test 3, ahay01 passed
+given akhaku01 test 3, czuber01 passed
+given akhaku01 test 3, sratta01 passed
+given akhaku01 test 3, apolya01 passed
+given akhaku01 test 3, abell01 passed
+given akhaku01 test 3, byukse01 passed
+given akhaku01 test 3, shalst01 passed
+given akhaku01 test 3, mnoble01 passed
+given akhaku01 test 3, amcgla01 passed
+given akhaku01 test 3, ewu02 passed
+given akhaku01 test 3, wholah01 passed
+given akhaku01 test 3, akhaku01 passed
+given akhaku01 test 3, ccann passed
+given akhaku01 test 3, fteume01 badsubst -- Given input types tau1 = "('a b 'a)" and tau2 = "('a 'b int)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(int b int)", and theta tau2 = "(int 'b int)" are different.
+given akhaku01 test 3, mbfrey passed
+given akhaku01 test 3, dfortu01 passed
+given akhaku01 test 3, clangb01 badsubst -- Given input types tau1 = "('a b 'a)" and tau2 = "('a 'b int)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a b 'a)", and theta tau2 = "('a 'b int)" are different.
+given akhaku01 test 3, jglazi01 passed
+given akhaku01 test 3, gbodwi01 passed
+given akhaku01 test 3, akuan01 passed
+given akhaku01 test 3, jwilde01 passed
+given akhaku01 test 3, jliebo01 badsubst -- Given input types tau1 = "('a b 'a)" and tau2 = "('a 'b int)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a b 'a)", and theta tau2 = "('a 'b int)" are different.
+given akhaku01 test 3, mmoute01 passed
+given akhaku01 test 3, cbrink passed
+given nr test 163, wbutt01 passed
+given nr test 163, dreif01 errored -- Unifying "(('a) ('b))" and "('b ('a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 163, malex passed
+given nr test 163, ahamli02 passed
+given nr test 163, jtorru01 passed
+given nr test 163, ead36 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, ahay01 errored -- Unifying "(('a) ('b))" and "('b ('a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: b 'a).
+given nr test 163, czuber01 passed
+given nr test 163, sratta01 passed
+given nr test 163, apolya01 passed
+given nr test 163, abell01 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, byukse01 passed
+given nr test 163, shalst01 passed
+given nr test 163, mnoble01 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, amcgla01 passed
+given nr test 163, ewu02 passed
+given nr test 163, wholah01 passed
+given nr test 163, akhaku01 passed
+given nr test 163, ccann passed
+given nr test 163, fteume01 passed
+given nr test 163, mbfrey passed
+given nr test 163, dfortu01 passed
+given nr test 163, clangb01 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, jglazi01 passed
+given nr test 163, gbodwi01 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, akuan01 badunify -- Types "(('a) ('b))" and "('b ('a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 163, jwilde01 passed
+given nr test 163, jliebo01 passed
+given nr test 163, mmoute01 passed
+given nr test 163, cbrink passed
+given nr test 16, wbutt01 passed
+given nr test 16, dreif01 errored -- Unifying "('a (('a)))" and "('b (('a)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 16, malex passed
+given nr test 16, ahamli02 passed
+given nr test 16, jtorru01 passed
+given nr test 16, ead36 passed
+given nr test 16, ahay01 passed
+given nr test 16, czuber01 passed
+given nr test 16, sratta01 passed
+given nr test 16, apolya01 passed
+given nr test 16, abell01 passed
+given nr test 16, byukse01 passed
+given nr test 16, shalst01 badsubst -- Given input types tau1 = "('a (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 16, mnoble01 passed
+given nr test 16, amcgla01 passed
+given nr test 16, ewu02 passed
+given nr test 16, wholah01 passed
+given nr test 16, akhaku01 passed
+given nr test 16, ccann passed
+given nr test 16, fteume01 badsubst -- Given input types tau1 = "('a (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 16, mbfrey passed
+given nr test 16, dfortu01 passed
+given nr test 16, clangb01 passed
+given nr test 16, jglazi01 passed
+given nr test 16, gbodwi01 passed
+given nr test 16, akuan01 badsubst -- Given input types tau1 = "('a (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 16, jwilde01 passed
+given nr test 16, jliebo01 passed
+given nr test 16, mmoute01 failed -- Types "('a (('a)))" and "('b (('a)))" can be unified, but your unifier failed with the message "Cannot unify 'b 'b and 'b 'a".
+given nr test 16, cbrink passed
+given shalst01 test 3, wbutt01 passed
+given shalst01 test 3, dreif01 errored -- Unifying "'a" and "(function ('a 'b) 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given shalst01 test 3, malex passed
+given shalst01 test 3, ahamli02 passed
+given shalst01 test 3, jtorru01 passed
+given shalst01 test 3, ead36 passed
+given shalst01 test 3, ahay01 passed
+given shalst01 test 3, czuber01 passed
+given shalst01 test 3, sratta01 passed
+given shalst01 test 3, apolya01 passed
+given shalst01 test 3, abell01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, byukse01 passed
+given shalst01 test 3, shalst01 passed
+given shalst01 test 3, mnoble01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, amcgla01 passed
+given shalst01 test 3, ewu02 passed
+given shalst01 test 3, wholah01 passed
+given shalst01 test 3, akhaku01 passed
+given shalst01 test 3, ccann passed
+given shalst01 test 3, fteume01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, mbfrey passed
+given shalst01 test 3, dfortu01 passed
+given shalst01 test 3, clangb01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, jglazi01 passed
+given shalst01 test 3, gbodwi01 passed
+given shalst01 test 3, akuan01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, jwilde01 passed
+given shalst01 test 3, jliebo01 badunify -- Types "'a" and "(function ('a 'b) 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given shalst01 test 3, mmoute01 passed
+given shalst01 test 3, cbrink passed
+given nr test 165, wbutt01 passed
+given nr test 165, dreif01 errored -- Unifying "((('a 'a)) 'a)" and "(('b) 'b)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 165, malex passed
+given nr test 165, ahamli02 passed
+given nr test 165, jtorru01 passed
+given nr test 165, ead36 passed
+given nr test 165, ahay01 errored -- Unifying "((('a 'a)) 'a)" and "(('b) 'b)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: b 'a 'a).
+given nr test 165, czuber01 passed
+given nr test 165, sratta01 passed
+given nr test 165, apolya01 passed
+given nr test 165, abell01 badunify -- Types "((('a 'a)) 'a)" and "(('b) 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 165, byukse01 passed
+given nr test 165, shalst01 passed
+given nr test 165, mnoble01 passed
+given nr test 165, amcgla01 passed
+given nr test 165, ewu02 passed
+given nr test 165, wholah01 passed
+given nr test 165, akhaku01 passed
+given nr test 165, ccann passed
+given nr test 165, fteume01 passed
+given nr test 165, mbfrey passed
+given nr test 165, dfortu01 passed
+given nr test 165, clangb01 badunify -- Types "((('a 'a)) 'a)" and "(('b) 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 165, jglazi01 passed
+given nr test 165, gbodwi01 passed
+given nr test 165, akuan01 badunify -- Types "((('a 'a)) 'a)" and "(('b) 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 165, jwilde01 passed
+given nr test 165, jliebo01 passed
+given nr test 165, mmoute01 passed
+given nr test 165, cbrink passed
+given nr test 17, wbutt01 passed
+given nr test 17, dreif01 errored -- Unifying "(int (('a)))" and "('b (('a)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 17, malex passed
+given nr test 17, ahamli02 passed
+given nr test 17, jtorru01 passed
+given nr test 17, ead36 passed
+given nr test 17, ahay01 passed
+given nr test 17, czuber01 passed
+given nr test 17, sratta01 passed
+given nr test 17, apolya01 passed
+given nr test 17, abell01 passed
+given nr test 17, byukse01 passed
+given nr test 17, shalst01 badsubst -- Given input types tau1 = "(int (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(int (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 17, mnoble01 passed
+given nr test 17, amcgla01 passed
+given nr test 17, ewu02 passed
+given nr test 17, wholah01 passed
+given nr test 17, akhaku01 passed
+given nr test 17, ccann passed
+given nr test 17, fteume01 badsubst -- Given input types tau1 = "(int (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(int (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 17, mbfrey passed
+given nr test 17, dfortu01 passed
+given nr test 17, clangb01 badsubst -- Given input types tau1 = "(int (('a)))" and tau2 = "('b (('a)))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(int (('a)))", and theta tau2 = "('b (('a)))" are different.
+given nr test 17, jglazi01 passed
+given nr test 17, gbodwi01 passed
+given nr test 17, akuan01 passed
+given nr test 17, jwilde01 passed
+given nr test 17, jliebo01 passed
+given nr test 17, mmoute01 failed -- Types "(int (('a)))" and "('b (('a)))" can be unified, but your unifier failed with the message "Cannot unify 'b int and 'b 'a".
+given nr test 17, cbrink passed
+given akhaku01 test 1, wbutt01 badunify -- Types "(list int)" and "(list int int)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given akhaku01 test 1, dreif01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: UnificationError: unify lists have different length.).
+given akhaku01 test 1, malex passed
+given akhaku01 test 1, ahamli02 passed
+given akhaku01 test 1, jtorru01 passed
+given akhaku01 test 1, ead36 passed
+given akhaku01 test 1, ahay01 passed
+given akhaku01 test 1, czuber01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given akhaku01 test 1, sratta01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ListLength: Unify).
+given akhaku01 test 1, apolya01 passed
+given akhaku01 test 1, abell01 passed
+given akhaku01 test 1, byukse01 passed
+given akhaku01 test 1, shalst01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthMismatch).
+given akhaku01 test 1, mnoble01 passed
+given akhaku01 test 1, amcgla01 passed
+given akhaku01 test 1, ewu02 passed
+given akhaku01 test 1, wholah01 passed
+given akhaku01 test 1, akhaku01 passed
+given akhaku01 test 1, ccann passed
+given akhaku01 test 1, fteume01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given akhaku01 test 1, mbfrey errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Match).
+given akhaku01 test 1, dfortu01 passed
+given akhaku01 test 1, clangb01 badunify -- Types "(list int)" and "(list int int)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given akhaku01 test 1, jglazi01 passed
+given akhaku01 test 1, gbodwi01 errored -- Unifying "(list int)" and "(list int int)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: BugInTypeInference: unify list mismatch).
+given akhaku01 test 1, akuan01 passed
+given akhaku01 test 1, jwilde01 passed
+given akhaku01 test 1, jliebo01 passed
+given akhaku01 test 1, mmoute01 passed
+given akhaku01 test 1, cbrink passed
+given nr test 108, wbutt01 passed
+given nr test 108, dreif01 errored -- Unifying "(((list)) (('a 'b)))" and "('c 'b)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 108, malex passed
+given nr test 108, ahamli02 passed
+given nr test 108, jtorru01 passed
+given nr test 108, ead36 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, ahay01 errored -- Unifying "(((list)) (('a 'b)))" and "('c 'b)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: c list).
+given nr test 108, czuber01 passed
+given nr test 108, sratta01 passed
+given nr test 108, apolya01 passed
+given nr test 108, abell01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, byukse01 passed
+given nr test 108, shalst01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, mnoble01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, amcgla01 passed
+given nr test 108, ewu02 passed
+given nr test 108, wholah01 passed
+given nr test 108, akhaku01 passed
+given nr test 108, ccann passed
+given nr test 108, fteume01 passed
+given nr test 108, mbfrey passed
+given nr test 108, dfortu01 passed
+given nr test 108, clangb01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, jglazi01 passed
+given nr test 108, gbodwi01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, akuan01 badunify -- Types "(((list)) (('a 'b)))" and "('c 'b)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 108, jwilde01 passed
+given nr test 108, jliebo01 passed
+given nr test 108, mmoute01 passed
+given nr test 108, cbrink passed
+given dfortu01 test 2, wbutt01 passed
+given dfortu01 test 2, dreif01 errored -- Unifying "(function ('a) 'b)" and "(tuple 'a)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: UnificationError: unify lists have different length.).
+given dfortu01 test 2, malex passed
+given dfortu01 test 2, ahamli02 passed
+given dfortu01 test 2, jtorru01 passed
+given dfortu01 test 2, ead36 passed
+given dfortu01 test 2, ahay01 passed
+given dfortu01 test 2, czuber01 errored -- Unifying "(function ('a) 'b)" and "(tuple 'a)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given dfortu01 test 2, sratta01 passed
+given dfortu01 test 2, apolya01 passed
+given dfortu01 test 2, abell01 passed
+given dfortu01 test 2, byukse01 passed
+given dfortu01 test 2, shalst01 passed
+given dfortu01 test 2, mnoble01 passed
+given dfortu01 test 2, amcgla01 passed
+given dfortu01 test 2, ewu02 passed
+given dfortu01 test 2, wholah01 passed
+given dfortu01 test 2, akhaku01 passed
+given dfortu01 test 2, ccann passed
+given dfortu01 test 2, fteume01 errored -- Unifying "(function ('a) 'b)" and "(tuple 'a)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given dfortu01 test 2, mbfrey passed
+given dfortu01 test 2, dfortu01 passed
+given dfortu01 test 2, clangb01 badunify -- Types "(function ('a) 'b)" and "(tuple 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given dfortu01 test 2, jglazi01 passed
+given dfortu01 test 2, gbodwi01 passed
+given dfortu01 test 2, akuan01 passed
+given dfortu01 test 2, jwilde01 passed
+given dfortu01 test 2, jliebo01 passed
+given dfortu01 test 2, mmoute01 passed
+given dfortu01 test 2, cbrink passed
+given nr test 172, wbutt01 passed
+given nr test 172, dreif01 errored -- Unifying "(((ref) ('a)) (('b) 'b))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: UnificationError: unify lists have different length.).
+given nr test 172, malex passed
+given nr test 172, ahamli02 passed
+given nr test 172, jtorru01 passed
+given nr test 172, ead36 passed
+given nr test 172, ahay01 errored -- Unifying "(((ref) ('a)) (('b) 'b))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: c 'a ref).
+given nr test 172, czuber01 passed
+given nr test 172, sratta01 passed
+given nr test 172, apolya01 passed
+given nr test 172, abell01 passed
+given nr test 172, byukse01 passed
+given nr test 172, shalst01 passed
+given nr test 172, mnoble01 passed
+given nr test 172, amcgla01 passed
+given nr test 172, ewu02 passed
+given nr test 172, wholah01 passed
+given nr test 172, akhaku01 passed
+given nr test 172, ccann passed
+given nr test 172, fteume01 passed
+given nr test 172, mbfrey passed
+given nr test 172, dfortu01 passed
+given nr test 172, clangb01 badunify -- Types "(((ref) ('a)) (('b) 'b))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 172, jglazi01 passed
+given nr test 172, gbodwi01 passed
+given nr test 172, akuan01 passed
+given nr test 172, jwilde01 passed
+given nr test 172, jliebo01 passed
+given nr test 172, mmoute01 passed
+given nr test 172, cbrink passed
+given jliebo01 test 2, wbutt01 passed
+given jliebo01 test 2, dreif01 passed
+given jliebo01 test 2, malex passed
+given jliebo01 test 2, ahamli02 passed
+given jliebo01 test 2, jtorru01 passed
+given jliebo01 test 2, ead36 passed
+given jliebo01 test 2, ahay01 passed
+given jliebo01 test 2, czuber01 passed
+given jliebo01 test 2, sratta01 passed
+given jliebo01 test 2, apolya01 passed
+given jliebo01 test 2, abell01 passed
+given jliebo01 test 2, byukse01 passed
+given jliebo01 test 2, shalst01 passed
+given jliebo01 test 2, mnoble01 passed
+given jliebo01 test 2, amcgla01 badsubst -- Given input types tau1 = "('a 'b)" and tau2 = "('b (function (tuple int) sym))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('b (function (tuple int) sym))", and theta tau2 = "((function (tuple int) sym) (function (tuple int) sym))" are different.
+given jliebo01 test 2, ewu02 passed
+given jliebo01 test 2, wholah01 passed
+given jliebo01 test 2, akhaku01 passed
+given jliebo01 test 2, ccann passed
+given jliebo01 test 2, fteume01 badsubst -- Given input types tau1 = "('a 'b)" and tau2 = "('b (function (tuple int) sym))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a (function (tuple int) sym))", and theta tau2 = "((function (tuple int) sym) (function (tuple int) sym))" are different.
+given jliebo01 test 2, mbfrey passed
+given jliebo01 test 2, dfortu01 passed
+given jliebo01 test 2, clangb01 badsubst -- Given input types tau1 = "('a 'b)" and tau2 = "('b (function (tuple int) sym))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('b 'b)", and theta tau2 = "('b (function (tuple int) sym))" are different.
+given jliebo01 test 2, jglazi01 passed
+given jliebo01 test 2, gbodwi01 passed
+given jliebo01 test 2, akuan01 badsubst -- Given input types tau1 = "('a 'b)" and tau2 = "('b (function (tuple int) sym))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "('a (function (tuple int) sym))", and theta tau2 = "((function (tuple int) sym) (function (tuple int) sym))" are different.
+given jliebo01 test 2, jwilde01 passed
+given jliebo01 test 2, jliebo01 failed -- Types "('a 'b)" and "('b (function (int) sym))" can be unified, but your unifier failed with the message "Cannot unify 'a and int -> sym".
+given jliebo01 test 2, mmoute01 failed -- Types "('a 'b)" and "('b (function (int) sym))" can be unified, but your unifier failed with the message "Cannot unify 'b 'a and (int -> sym) 'b".
+given jliebo01 test 2, cbrink passed
+given nr test 29, wbutt01 badunify -- Types "((int 'a) ('b int array))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 29, dreif01 badunify -- Types "((int 'a) ('b int array))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 29, malex passed
+given nr test 29, ahamli02 passed
+given nr test 29, jtorru01 passed
+given nr test 29, ead36 passed
+given nr test 29, ahay01 passed
+given nr test 29, czuber01 errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given nr test 29, sratta01 errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ListLength: Unify).
+given nr test 29, apolya01 passed
+given nr test 29, abell01 passed
+given nr test 29, byukse01 passed
+given nr test 29, shalst01 errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthMismatch).
+given nr test 29, mnoble01 passed
+given nr test 29, amcgla01 passed
+given nr test 29, ewu02 passed
+given nr test 29, wholah01 passed
+given nr test 29, akhaku01 passed
+given nr test 29, ccann passed
+given nr test 29, fteume01 errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given nr test 29, mbfrey errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Match).
+given nr test 29, dfortu01 passed
+given nr test 29, clangb01 badunify -- Types "((int 'a) ('b int array))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 29, jglazi01 passed
+given nr test 29, gbodwi01 errored -- Unifying "((int 'a) ('b int array))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: BugInTypeInference: unify list mismatch).
+given nr test 29, akuan01 passed
+given nr test 29, jwilde01 passed
+given nr test 29, jliebo01 passed
+given nr test 29, mmoute01 passed
+given nr test 29, cbrink passed
+given nr test 175, wbutt01 passed
+given nr test 175, dreif01 badunify -- Types "(('a) ((ref) ('b 'c)))" and "('b ('c ('c 'a)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 175, malex passed
+given nr test 175, ahamli02 passed
+given nr test 175, jtorru01 passed
+given nr test 175, ead36 passed
+given nr test 175, ahay01 errored -- Unifying "(('a) ((ref) ('b 'c)))" and "('b ('c ('c 'a)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: b 'a).
+given nr test 175, czuber01 passed
+given nr test 175, sratta01 passed
+given nr test 175, apolya01 passed
+given nr test 175, abell01 passed
+given nr test 175, byukse01 passed
+given nr test 175, shalst01 passed
+given nr test 175, mnoble01 passed
+given nr test 175, amcgla01 passed
+given nr test 175, ewu02 passed
+given nr test 175, wholah01 passed
+given nr test 175, akhaku01 passed
+given nr test 175, ccann passed
+given nr test 175, fteume01 passed
+given nr test 175, mbfrey passed
+given nr test 175, dfortu01 passed
+given nr test 175, clangb01 badunify -- Types "(('a) ((ref) ('b 'c)))" and "('b ('c ('c 'a)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 175, jglazi01 passed
+given nr test 175, gbodwi01 passed
+given nr test 175, akuan01 passed
+given nr test 175, jwilde01 passed
+given nr test 175, jliebo01 passed
+given nr test 175, mmoute01 passed
+given nr test 175, cbrink passed
+given nr test 177, wbutt01 passed
+given nr test 177, dreif01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, malex passed
+given nr test 177, ahamli02 passed
+given nr test 177, jtorru01 passed
+given nr test 177, ead36 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, ahay01 passed
+given nr test 177, czuber01 passed
+given nr test 177, sratta01 passed
+given nr test 177, apolya01 passed
+given nr test 177, abell01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, byukse01 passed
+given nr test 177, shalst01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, mnoble01 passed
+given nr test 177, amcgla01 passed
+given nr test 177, ewu02 passed
+given nr test 177, wholah01 passed
+given nr test 177, akhaku01 passed
+given nr test 177, ccann passed
+given nr test 177, fteume01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, mbfrey passed
+given nr test 177, dfortu01 passed
+given nr test 177, clangb01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, jglazi01 passed
+given nr test 177, gbodwi01 passed
+given nr test 177, akuan01 badunify -- Types "(((int 'a 'a) (list)) 'b)" and "(('b (list)) 'a)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 177, jwilde01 passed
+given nr test 177, jliebo01 passed
+given nr test 177, mmoute01 passed
+given nr test 177, cbrink passed
+given mbfrey test 3, wbutt01 passed
+given mbfrey test 3, dreif01 passed
+given mbfrey test 3, malex passed
+given mbfrey test 3, ahamli02 passed
+given mbfrey test 3, jtorru01 passed
+given mbfrey test 3, ead36 badunify -- Types "(tuple 'a 'c int 'a)" and "(tuple 'b 'b 'c bool)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given mbfrey test 3, ahay01 passed
+given mbfrey test 3, czuber01 passed
+given mbfrey test 3, sratta01 passed
+given mbfrey test 3, apolya01 passed
+given mbfrey test 3, abell01 badunify -- Types "(tuple 'a 'c int 'a)" and "(tuple 'b 'b 'c bool)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given mbfrey test 3, byukse01 passed
+given mbfrey test 3, shalst01 passed
+given mbfrey test 3, mnoble01 passed
+given mbfrey test 3, amcgla01 passed
+given mbfrey test 3, ewu02 passed
+given mbfrey test 3, wholah01 badunify -- Types "(tuple 'a 'c int 'a)" and "(tuple 'b 'b 'c bool)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given mbfrey test 3, akhaku01 passed
+given mbfrey test 3, ccann passed
+given mbfrey test 3, fteume01 passed
+given mbfrey test 3, mbfrey passed
+given mbfrey test 3, dfortu01 passed
+given mbfrey test 3, clangb01 badunify -- Types "(tuple 'a 'c int 'a)" and "(tuple 'b 'b 'c bool)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given mbfrey test 3, jglazi01 passed
+given mbfrey test 3, gbodwi01 passed
+given mbfrey test 3, akuan01 passed
+given mbfrey test 3, jwilde01 passed
+given mbfrey test 3, jliebo01 passed
+given mbfrey test 3, mmoute01 passed
+given mbfrey test 3, cbrink passed
+given mmoute01 test 2, wbutt01 passed
+given mmoute01 test 2, dreif01 badsubst -- Given input types tau1 = "(funtype 'a (funtype 'b 'a))" and tau2 = "(funtype int 'c)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(funtype int (funtype 'b int))", and theta tau2 = "(funtype int funtype)" are different.
+given mmoute01 test 2, malex passed
+given mmoute01 test 2, ahamli02 passed
+given mmoute01 test 2, jtorru01 passed
+given mmoute01 test 2, ead36 badsubst -- Given input types tau1 = "(funtype 'a (funtype 'b 'a))" and tau2 = "(funtype int 'c)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(funtype int (funtype 'b int))", and theta tau2 = "(funtype int (funtype 'b 'a))" are different.
+given mmoute01 test 2, ahay01 passed
+given mmoute01 test 2, czuber01 passed
+given mmoute01 test 2, sratta01 passed
+given mmoute01 test 2, apolya01 passed
+given mmoute01 test 2, abell01 passed
+given mmoute01 test 2, byukse01 passed
+given mmoute01 test 2, shalst01 passed
+given mmoute01 test 2, mnoble01 passed
+given mmoute01 test 2, amcgla01 passed
+given mmoute01 test 2, ewu02 passed
+given mmoute01 test 2, wholah01 passed
+given mmoute01 test 2, akhaku01 passed
+given mmoute01 test 2, ccann passed
+given mmoute01 test 2, fteume01 badsubst -- Given input types tau1 = "(funtype 'a (funtype 'b 'a))" and tau2 = "(funtype int 'c)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(funtype 'a (funtype 'b 'a))", and theta tau2 = "(funtype int (funtype 'b int))" are different.
+given mmoute01 test 2, mbfrey passed
+given mmoute01 test 2, dfortu01 passed
+given mmoute01 test 2, clangb01 badsubst -- Given input types tau1 = "(funtype 'a (funtype 'b 'a))" and tau2 = "(funtype int 'c)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(funtype 'a (funtype 'b 'a))", and theta tau2 = "(funtype int 'c)" are different.
+given mmoute01 test 2, jglazi01 passed
+given mmoute01 test 2, gbodwi01 passed
+given mmoute01 test 2, akuan01 badsubst -- Given input types tau1 = "(funtype 'a (funtype 'b 'a))" and tau2 = "(funtype int 'c)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(funtype int (funtype 'b int))", and theta tau2 = "(funtype int (funtype 'b 'a))" are different.
+given mmoute01 test 2, jwilde01 passed
+given mmoute01 test 2, jliebo01 failed -- Types "(funtype 'a (funtype 'b 'a))" and "(funtype int 'c)" can be unified, but your unifier failed with the message "Cannot unify 'a and ('b, int) funtype".
+given mmoute01 test 2, mmoute01 passed
+given mmoute01 test 2, cbrink passed
+given nr test 174, wbutt01 passed
+given nr test 174, dreif01 badunify -- Types "(((int)) ((bool 'a) (array)))" and "(('b) ('b (array)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 174, malex passed
+given nr test 174, ahamli02 passed
+given nr test 174, jtorru01 passed
+given nr test 174, ead36 passed
+given nr test 174, ahay01 passed
+given nr test 174, czuber01 errored -- Unifying "(((int)) ((bool 'a) (array)))" and "(('b) ('b (array)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given nr test 174, sratta01 passed
+given nr test 174, apolya01 passed
+given nr test 174, abell01 passed
+given nr test 174, byukse01 passed
+given nr test 174, shalst01 passed
+given nr test 174, mnoble01 passed
+given nr test 174, amcgla01 passed
+given nr test 174, ewu02 passed
+given nr test 174, wholah01 passed
+given nr test 174, akhaku01 passed
+given nr test 174, ccann passed
+given nr test 174, fteume01 errored -- Unifying "(((int)) ((bool 'a) (array)))" and "(('b) ('b (array)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given nr test 174, mbfrey passed
+given nr test 174, dfortu01 passed
+given nr test 174, clangb01 badunify -- Types "(((int)) ((bool 'a) (array)))" and "(('b) ('b (array)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 174, jglazi01 passed
+given nr test 174, gbodwi01 passed
+given nr test 174, akuan01 passed
+given nr test 174, jwilde01 passed
+given nr test 174, jliebo01 passed
+given nr test 174, mmoute01 passed
+given nr test 174, cbrink passed
+given nr test 30, wbutt01 passed
+given nr test 30, dreif01 errored -- Unifying "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given nr test 30, malex passed
+given nr test 30, ahamli02 passed
+given nr test 30, jtorru01 passed
+given nr test 30, ead36 passed
+given nr test 30, ahay01 errored -- Unifying "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: b 'a).
+given nr test 30, czuber01 errored -- Unifying "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given nr test 30, sratta01 passed
+given nr test 30, apolya01 passed
+given nr test 30, abell01 passed
+given nr test 30, byukse01 passed
+given nr test 30, shalst01 errored -- Unifying "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthMismatch).
+given nr test 30, mnoble01 passed
+given nr test 30, amcgla01 passed
+given nr test 30, ewu02 passed
+given nr test 30, wholah01 passed
+given nr test 30, akhaku01 passed
+given nr test 30, ccann passed
+given nr test 30, fteume01 errored -- Unifying "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given nr test 30, mbfrey passed
+given nr test 30, dfortu01 passed
+given nr test 30, clangb01 badunify -- Types "((('a)) ((array list) ('b) ('b) ('c)))" and "('b ('a 'c 'c 'a))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 30, jglazi01 passed
+given nr test 30, gbodwi01 passed
+given nr test 30, akuan01 passed
+given nr test 30, jwilde01 passed
+given nr test 30, jliebo01 passed
+given nr test 30, mmoute01 passed
+given nr test 30, cbrink passed
+given nr test 114, wbutt01 passed
+given nr test 114, dreif01 badunify -- Types "(((array)) ((array) (ref list list) ('a)))" and "('b ('c 'a 'c))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 114, malex passed
+given nr test 114, ahamli02 passed
+given nr test 114, jtorru01 passed
+given nr test 114, ead36 badunify -- Types "(((array)) ((array) (ref list list) ('a)))" and "('b ('c 'a 'c))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 114, ahay01 errored -- Unifying "(((array)) ((array) (ref list list) ('a)))" and "('b ('c 'a 'c))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: b array).
+given nr test 114, czuber01 passed
+given nr test 114, sratta01 passed
+given nr test 114, apolya01 passed
+given nr test 114, abell01 passed
+given nr test 114, byukse01 passed
+given nr test 114, shalst01 passed
+given nr test 114, mnoble01 passed
+given nr test 114, amcgla01 passed
+given nr test 114, ewu02 passed
+given nr test 114, wholah01 badunify -- Types "(((array)) ((array) (ref list list) ('a)))" and "('b ('c 'a 'c))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 114, akhaku01 passed
+given nr test 114, ccann passed
+given nr test 114, fteume01 passed
+given nr test 114, mbfrey passed
+given nr test 114, dfortu01 passed
+given nr test 114, clangb01 badunify -- Types "(((array)) ((array) (ref list list) ('a)))" and "('b ('c 'a 'c))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 114, jglazi01 passed
+given nr test 114, gbodwi01 passed
+given nr test 114, akuan01 passed
+given nr test 114, jwilde01 passed
+given nr test 114, jliebo01 passed
+given nr test 114, mmoute01 passed
+given nr test 114, cbrink passed
+given nr test 170, wbutt01 passed
+given nr test 170, dreif01 badunify -- Types "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 170, malex passed
+given nr test 170, ahamli02 passed
+given nr test 170, jtorru01 passed
+given nr test 170, ead36 badunify -- Types "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 170, ahay01 errored -- Unifying "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: c 'a).
+given nr test 170, czuber01 passed
+given nr test 170, sratta01 passed
+given nr test 170, apolya01 passed
+given nr test 170, abell01 badunify -- Types "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 170, byukse01 passed
+given nr test 170, shalst01 passed
+given nr test 170, mnoble01 passed
+given nr test 170, amcgla01 passed
+given nr test 170, ewu02 passed
+given nr test 170, wholah01 passed
+given nr test 170, akhaku01 passed
+given nr test 170, ccann passed
+given nr test 170, fteume01 errored -- Unifying "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given nr test 170, mbfrey passed
+given nr test 170, dfortu01 passed
+given nr test 170, clangb01 badunify -- Types "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 170, jglazi01 passed
+given nr test 170, gbodwi01 passed
+given nr test 170, akuan01 badunify -- Types "((('a)) ('a ('a) (bool list 'a) ('b)))" and "('c ('d ('b) 'd ('c)))" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 170, jwilde01 passed
+given nr test 170, jliebo01 passed
+given nr test 170, mmoute01 passed
+given nr test 170, cbrink passed
+given jwilde01 test 3, wbutt01 passed
+given jwilde01 test 3, dreif01 passed
+given jwilde01 test 3, malex passed
+given jwilde01 test 3, ahamli02 passed
+given jwilde01 test 3, jtorru01 passed
+given jwilde01 test 3, ead36 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple 'b 'b)) bool)", and theta tau2 = "(tuple (list (tuple 'b 'b)) 'b)" are different.
+given jwilde01 test 3, ahay01 passed
+given jwilde01 test 3, czuber01 passed
+given jwilde01 test 3, sratta01 passed
+given jwilde01 test 3, apolya01 passed
+given jwilde01 test 3, abell01 passed
+given jwilde01 test 3, byukse01 passed
+given jwilde01 test 3, shalst01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple 'a bool)) bool)", and theta tau2 = "(tuple (list (tuple bool 'a)) 'a)" are different.
+given jwilde01 test 3, mnoble01 passed
+given jwilde01 test 3, amcgla01 passed
+given jwilde01 test 3, ewu02 passed
+given jwilde01 test 3, wholah01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple bool 'b)) bool)", and theta tau2 = "(tuple (list (tuple 'b bool)) bool)" are different.
+given jwilde01 test 3, akhaku01 passed
+given jwilde01 test 3, ccann passed
+given jwilde01 test 3, fteume01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple bool 'b)) bool)", and theta tau2 = "(tuple (list (tuple 'b bool)) bool)" are different.
+given jwilde01 test 3, mbfrey passed
+given jwilde01 test 3, dfortu01 passed
+given jwilde01 test 3, clangb01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple 'a 'b)) bool)", and theta tau2 = "(tuple (list (tuple 'b 'a)) 'a)" are different.
+given jwilde01 test 3, jglazi01 passed
+given jwilde01 test 3, gbodwi01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple 'b bool)) bool)", and theta tau2 = "(tuple (list (tuple bool 'b)) 'b)" are different.
+given jwilde01 test 3, akuan01 passed
+given jwilde01 test 3, jwilde01 passed
+given jwilde01 test 3, jliebo01 badsubst -- Given input types tau1 = "(tuple (list (tuple 'a 'b)) bool)" and tau2 = "(tuple (list (tuple 'b 'a)) 'a)", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(tuple (list (tuple 'a 'b)) bool)", and theta tau2 = "(tuple (list (tuple 'b 'a)) 'a)" are different.
+given jwilde01 test 3, mmoute01 passed
+given jwilde01 test 3, cbrink passed
+given nr test 31, wbutt01 passed
+given nr test 31, dreif01 badunify -- Types "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 31, malex passed
+given nr test 31, ahamli02 passed
+given nr test 31, jtorru01 passed
+given nr test 31, ead36 passed
+given nr test 31, ahay01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ThisCan'tHappen: c 'a).
+given nr test 31, czuber01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Mismatch: Can't unify type lists of different lengths).
+given nr test 31, sratta01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: ListLength: Unify).
+given nr test 31, apolya01 passed
+given nr test 31, abell01 passed
+given nr test 31, byukse01 passed
+given nr test 31, shalst01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthMismatch).
+given nr test 31, mnoble01 passed
+given nr test 31, amcgla01 passed
+given nr test 31, ewu02 passed
+given nr test 31, wholah01 passed
+given nr test 31, akhaku01 passed
+given nr test 31, ccann passed
+given nr test 31, fteume01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: LengthError: Lists of unequal length!).
+given nr test 31, mbfrey errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: Match).
+given nr test 31, dfortu01 passed
+given nr test 31, clangb01 badunify -- Types "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" are not unifiable, but instead of raising the 'TypeError' exception, your 'unify' function returned a substitution.
+given nr test 31, jglazi01 passed
+given nr test 31, gbodwi01 errored -- Unifying "((int (list) ('a) (ref)) (int (list bool array) ('a) (list) ('b)))" and "('c 'c)" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: BugInTypeInference: unify list mismatch).
+given nr test 31, akuan01 passed
+given nr test 31, jwilde01 passed
+given nr test 31, jliebo01 passed
+given nr test 31, mmoute01 passed
+given nr test 31, cbrink passed
+given ahay01 test 1, wbutt01 passed
+given ahay01 test 1, dreif01 errored -- Unifying "(function ((function ('a 'a) bool) (list 'a)) (list 'a))" and "(function ((function ('b 'b) bool) (list 'c)) (list 'c))" raised an exception other than TypeError, which is the only exception that 'unify' may raise (Uncaught exception: CircularError).
+given ahay01 test 1, malex passed
+given ahay01 test 1, ahamli02 passed
+given ahay01 test 1, jtorru01 passed
+given ahay01 test 1, ead36 passed
+given ahay01 test 1, ahay01 passed
+given ahay01 test 1, czuber01 passed
+given ahay01 test 1, sratta01 passed
+given ahay01 test 1, apolya01 passed
+given ahay01 test 1, abell01 passed
+given ahay01 test 1, byukse01 passed
+given ahay01 test 1, shalst01 passed
+given ahay01 test 1, mnoble01 passed
+given ahay01 test 1, amcgla01 passed
+given ahay01 test 1, ewu02 passed
+given ahay01 test 1, wholah01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'c 'c) bool) (list 'c)) (list 'c))", and theta tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, akhaku01 passed
+given ahay01 test 1, ccann passed
+given ahay01 test 1, fteume01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))", and theta tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, mbfrey passed
+given ahay01 test 1, dfortu01 passed
+given ahay01 test 1, clangb01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))", and theta tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, jglazi01 passed
+given ahay01 test 1, gbodwi01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'b 'b) bool) (list 'b)) (list 'b))", and theta tau2 = "(function (tuple (function (tuple 'c 'c) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, akuan01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))", and theta tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, jwilde01 passed
+given ahay01 test 1, jliebo01 badsubst -- Given input types tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))" and tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))", your 'unify(tau1, tau2)' function returned a substitution theta that is not a unifier. The two types theta tau1 and theta tau2 should be equal, but theta tau1 = "(function (tuple (function (tuple 'a 'a) bool) (list 'a)) (list 'a))", and theta tau2 = "(function (tuple (function (tuple 'b 'b) bool) (list 'c)) (list 'c))" are different.
+given ahay01 test 1, mmoute01 passed
+given ahay01 test 1, cbrink passed

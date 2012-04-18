@@ -1,0 +1,1368 @@
+given abell01 test 2, mborys01 passed
+given abell01 test 2, mgolds07 passed
+given abell01 test 2, ahamli02 passed
+given abell01 test 2, apolya01 passed
+given abell01 test 2, cbrink passed
+given abell01 test 2, mmcgow02 errored -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 2, ahay01 passed
+given abell01 test 2, ewu02 passed
+given abell01 test 2, cgrama01 passed
+given abell01 test 2, ryagud01 passed
+given abell01 test 2, ccann passed
+given abell01 test 2, fteume01 errored -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 2, ealter01 passed
+given abell01 test 2, jwilde01 passed
+given abell01 test 2, jliebo01 passed
+given abell01 test 2, bakasl01 passed
+given abell01 test 2, akuan01 passed
+given abell01 test 2, malex passed
+given abell01 test 2, jtorru01 failed -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but a run produced this error instead: variable o not found
+given abell01 test 2, ead36 passed
+given abell01 test 2, gbodwi01 passed
+given abell01 test 2, clangb01 failed -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but a run produced this error instead: variable o not found
+given abell01 test 2, naiken02 errored -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given abell01 test 2, akhaku01 passed
+given abell01 test 2, dfortu01 passed
+given abell01 test 2, wholah01 passed
+given abell01 test 2, deder01 failed -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but a run produced this error instead: variable o not found
+given abell01 test 2, spanut01 passed
+given abell01 test 2, mbfrey passed
+given abell01 test 2, jglazi01 passed
+given abell01 test 2, wbutt01 passed
+given abell01 test 2, csmith05 passed
+given abell01 test 2, alevin01 failed -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but a run produced this error instead: variable o not found
+given abell01 test 2, abell01 errored -- On term "(val e2 o)", the test said to expect type "(forall ('a 'b 'c) (function ((function ('b) 'c) (function ('a) 'b)) (function ('a) 'c)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 2, mmoute01 passed
+given abell01 test 2, mnoble01 passed
+given dfortu01 test 2, mborys01 passed
+given dfortu01 test 2, mgolds07 passed
+given dfortu01 test 2, ahamli02 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, apolya01 passed
+given dfortu01 test 2, cbrink passed
+given dfortu01 test 2, mmcgow02 errored -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given dfortu01 test 2, ahay01 passed
+given dfortu01 test 2, ewu02 passed
+given dfortu01 test 2, cgrama01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, ryagud01 passed
+given dfortu01 test 2, ccann passed
+given dfortu01 test 2, fteume01 errored -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given dfortu01 test 2, ealter01 passed
+given dfortu01 test 2, jwilde01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, jliebo01 passed
+given dfortu01 test 2, bakasl01 passed
+given dfortu01 test 2, akuan01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, malex passed
+given dfortu01 test 2, jtorru01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, ead36 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, gbodwi01 passed
+given dfortu01 test 2, clangb01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, naiken02 errored -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given dfortu01 test 2, akhaku01 passed
+given dfortu01 test 2, dfortu01 passed
+given dfortu01 test 2, wholah01 passed
+given dfortu01 test 2, deder01 passed
+given dfortu01 test 2, spanut01 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, mbfrey passed
+given dfortu01 test 2, jglazi01 passed
+given dfortu01 test 2, wbutt01 passed
+given dfortu01 test 2, csmith05 failed -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but a run produced this error instead: variable map not found
+given dfortu01 test 2, alevin01 passed
+given dfortu01 test 2, abell01 errored -- On term "(val e2 map)", the test said to expect type "(forall ('a 'b) (function ((function ('a) 'b) (list 'a)) (list 'b)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given dfortu01 test 2, mmoute01 passed
+given dfortu01 test 2, mnoble01 passed
+given mborys01 test 3, mborys01 passed
+given mborys01 test 3, mgolds07 passed
+given mborys01 test 3, ahamli02 passed
+given mborys01 test 3, apolya01 passed
+given mborys01 test 3, cbrink passed
+given mborys01 test 3, mmcgow02 errored -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mborys01 test 3, ahay01 passed
+given mborys01 test 3, ewu02 passed
+given mborys01 test 3, cgrama01 passed
+given mborys01 test 3, ryagud01 passed
+given mborys01 test 3, ccann passed
+given mborys01 test 3, fteume01 errored -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mborys01 test 3, ealter01 passed
+given mborys01 test 3, jwilde01 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "(forall (a) (list 'a))" instead
+given mborys01 test 3, jliebo01 passed
+given mborys01 test 3, bakasl01 passed
+given mborys01 test 3, akuan01 passed
+given mborys01 test 3, malex passed
+given mborys01 test 3, jtorru01 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "(list 'a)" instead
+given mborys01 test 3, ead36 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "(forall ('a) 'a)" instead
+given mborys01 test 3, gbodwi01 passed
+given mborys01 test 3, clangb01 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "unit" instead
+given mborys01 test 3, naiken02 errored -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given mborys01 test 3, akhaku01 passed
+given mborys01 test 3, dfortu01 passed
+given mborys01 test 3, wholah01 passed
+given mborys01 test 3, deder01 passed
+given mborys01 test 3, spanut01 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "unit" instead
+given mborys01 test 3, mbfrey passed
+given mborys01 test 3, jglazi01 passed
+given mborys01 test 3, wbutt01 passed
+given mborys01 test 3, csmith05 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "(forall (a) (list 'a))" instead
+given mborys01 test 3, alevin01 failed -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but a run produced "unit" instead
+given mborys01 test 3, abell01 errored -- On term "(val e3 '())", the test said to expect type "(forall ('a) (list 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mborys01 test 3, mmoute01 passed
+given mborys01 test 3, mnoble01 passed
+given abell01 test 1, mborys01 passed
+given abell01 test 1, mgolds07 passed
+given abell01 test 1, ahamli02 passed
+given abell01 test 1, apolya01 passed
+given abell01 test 1, cbrink passed
+given abell01 test 1, mmcgow02 errored -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 1, ahay01 passed
+given abell01 test 1, ewu02 passed
+given abell01 test 1, cgrama01 passed
+given abell01 test 1, ryagud01 passed
+given abell01 test 1, ccann passed
+given abell01 test 1, fteume01 errored -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 1, ealter01 passed
+given abell01 test 1, jwilde01 passed
+given abell01 test 1, jliebo01 passed
+given abell01 test 1, bakasl01 passed
+given abell01 test 1, akuan01 passed
+given abell01 test 1, malex passed
+given abell01 test 1, jtorru01 failed -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but a run produced this error instead: variable list1 not found
+given abell01 test 1, ead36 failed -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but a run produced this error instead: variable list1 not found
+given abell01 test 1, gbodwi01 passed
+given abell01 test 1, clangb01 failed -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but a run produced this error instead: variable list1 not found
+given abell01 test 1, naiken02 errored -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given abell01 test 1, akhaku01 passed
+given abell01 test 1, dfortu01 passed
+given abell01 test 1, wholah01 passed
+given abell01 test 1, deder01 passed
+given abell01 test 1, spanut01 failed -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but a run produced this error instead: variable list1 not found
+given abell01 test 1, mbfrey passed
+given abell01 test 1, jglazi01 passed
+given abell01 test 1, wbutt01 passed
+given abell01 test 1, csmith05 passed
+given abell01 test 1, alevin01 failed -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but a run produced this error instead: variable list1 not found
+given abell01 test 1, abell01 errored -- On term "(val e1 list1)", the test said to expect type "(forall ('a) (function ('a) (list 'a)))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 1, mmoute01 passed
+given abell01 test 1, mnoble01 passed
+given ead36 test 3, mborys01 passed
+given ead36 test 3, mgolds07 passed
+given ead36 test 3, ahamli02 passed
+given ead36 test 3, apolya01 passed
+given ead36 test 3, cbrink passed
+given ead36 test 3, mmcgow02 errored -- On term "(val e3 print)", the test said to expect type "(forall ('a) (function ('a) unit))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 3, ahay01 passed
+given ead36 test 3, ewu02 passed
+given ead36 test 3, cgrama01 passed
+given ead36 test 3, ryagud01 passed
+given ead36 test 3, ccann passed
+given ead36 test 3, fteume01 errored -- On term "(val e3 print)", the test said to expect type "(forall ('a) (function ('a) unit))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 3, ealter01 passed
+given ead36 test 3, jwilde01 passed
+given ead36 test 3, jliebo01 passed
+given ead36 test 3, bakasl01 passed
+given ead36 test 3, akuan01 passed
+given ead36 test 3, malex passed
+given ead36 test 3, jtorru01 passed
+given ead36 test 3, ead36 passed
+given ead36 test 3, gbodwi01 passed
+given ead36 test 3, clangb01 passed
+given ead36 test 3, naiken02 errored -- On term "(val e3 print)", the test said to expect type "(forall ('a) (function ('a) unit))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ead36 test 3, akhaku01 passed
+given ead36 test 3, dfortu01 passed
+given ead36 test 3, wholah01 passed
+given ead36 test 3, deder01 passed
+given ead36 test 3, spanut01 passed
+given ead36 test 3, mbfrey passed
+given ead36 test 3, jglazi01 passed
+given ead36 test 3, wbutt01 passed
+given ead36 test 3, csmith05 passed
+given ead36 test 3, alevin01 passed
+given ead36 test 3, abell01 errored -- On term "(val e3 print)", the test said to expect type "(forall ('a) (function ('a) unit))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 3, mmoute01 passed
+given ead36 test 3, mnoble01 passed
+given nr test 10, mborys01 passed
+given nr test 10, mgolds07 passed
+given nr test 10, ahamli02 passed
+given nr test 10, apolya01 passed
+given nr test 10, cbrink passed
+given nr test 10, mmcgow02 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 10, ahay01 passed
+given nr test 10, ewu02 passed
+given nr test 10, cgrama01 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LengthMismatch
+given nr test 10, ryagud01 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 10, ccann passed
+given nr test 10, fteume01 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 10, ealter01 passed
+given nr test 10, jwilde01 passed
+given nr test 10, jliebo01 passed
+given nr test 10, bakasl01 passed
+given nr test 10, akuan01 passed
+given nr test 10, malex failed -- On term "(val e9 (+ 1))", the test said to expect an error, but a run produced "bug in type checking: arity 2" instead
+given nr test 10, jtorru01 failed -- On term "(val e9 (+ 1))", the test said to expect an error, but a run produced "bug in type checking: arity 2" instead
+given nr test 10, ead36 passed
+given nr test 10, gbodwi01 passed
+given nr test 10, clangb01 passed
+given nr test 10, naiken02 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 10, akhaku01 passed
+given nr test 10, dfortu01 passed
+given nr test 10, wholah01 passed
+given nr test 10, deder01 passed
+given nr test 10, spanut01 passed
+given nr test 10, mbfrey passed
+given nr test 10, jglazi01 passed
+given nr test 10, wbutt01 passed
+given nr test 10, csmith05 passed
+given nr test 10, alevin01 passed
+given nr test 10, abell01 errored -- On term "(val e9 (+ 1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 10, mmoute01 passed
+given nr test 10, mnoble01 failed -- On term "(val e9 (+ 1))", the test said to expect an error, but a run produced "bug in type checking: arity 2" instead
+given mmcgow02 test 1, mborys01 passed
+given mmcgow02 test 1, mgolds07 passed
+given mmcgow02 test 1, ahamli02 passed
+given mmcgow02 test 1, apolya01 passed
+given mmcgow02 test 1, cbrink passed
+given mmcgow02 test 1, mmcgow02 errored -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 1, ahay01 passed
+given mmcgow02 test 1, ewu02 passed
+given mmcgow02 test 1, cgrama01 passed
+given mmcgow02 test 1, ryagud01 passed
+given mmcgow02 test 1, ccann passed
+given mmcgow02 test 1, fteume01 errored -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 1, ealter01 passed
+given mmcgow02 test 1, jwilde01 passed
+given mmcgow02 test 1, jliebo01 passed
+given mmcgow02 test 1, bakasl01 passed
+given mmcgow02 test 1, akuan01 passed
+given mmcgow02 test 1, malex passed
+given mmcgow02 test 1, jtorru01 failed -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but a run produced "(function (int int) int)" instead
+given mmcgow02 test 1, ead36 passed
+given mmcgow02 test 1, gbodwi01 passed
+given mmcgow02 test 1, clangb01 passed
+given mmcgow02 test 1, naiken02 errored -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given mmcgow02 test 1, akhaku01 passed
+given mmcgow02 test 1, dfortu01 passed
+given mmcgow02 test 1, wholah01 passed
+given mmcgow02 test 1, deder01 passed
+given mmcgow02 test 1, spanut01 passed
+given mmcgow02 test 1, mbfrey passed
+given mmcgow02 test 1, jglazi01 passed
+given mmcgow02 test 1, wbutt01 passed
+given mmcgow02 test 1, csmith05 passed
+given mmcgow02 test 1, alevin01 failed -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but a run produced this error instead: type error: atau is inte is (function (int int) int)
+given mmcgow02 test 1, abell01 errored -- On term "(val e1 (+ 3 6))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 1, mmoute01 passed
+given mmcgow02 test 1, mnoble01 passed
+given nr test 6, mborys01 passed
+given nr test 6, mgolds07 passed
+given nr test 6, ahamli02 passed
+given nr test 6, apolya01 passed
+given nr test 6, cbrink passed
+given nr test 6, mmcgow02 errored -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 6, ahay01 passed
+given nr test 6, ewu02 passed
+given nr test 6, cgrama01 passed
+given nr test 6, ryagud01 errored -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 6, ccann passed
+given nr test 6, fteume01 errored -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 6, ealter01 passed
+given nr test 6, jwilde01 passed
+given nr test 6, jliebo01 passed
+given nr test 6, bakasl01 passed
+given nr test 6, akuan01 passed
+given nr test 6, malex failed -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but a run produced "bug in type checking: arithmetic on non-numbers" instead
+given nr test 6, jtorru01 failed -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but a run produced "bug in type checking: arithmetic on non-numbers" instead
+given nr test 6, ead36 passed
+given nr test 6, gbodwi01 passed
+given nr test 6, clangb01 passed
+given nr test 6, naiken02 errored -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 6, akhaku01 passed
+given nr test 6, dfortu01 passed
+given nr test 6, wholah01 passed
+given nr test 6, deder01 passed
+given nr test 6, spanut01 passed
+given nr test 6, mbfrey passed
+given nr test 6, jglazi01 passed
+given nr test 6, wbutt01 passed
+given nr test 6, csmith05 passed
+given nr test 6, alevin01 passed
+given nr test 6, abell01 errored -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 6, mmoute01 passed
+given nr test 6, mnoble01 failed -- On term "(val e5 (+ 1 #t))", the test said to expect an error, but a run produced "bug in type checking: arithmetic on non-numbers" instead
+given cgrama01 test 2, mborys01 passed
+given cgrama01 test 2, mgolds07 passed
+given cgrama01 test 2, ahamli02 passed
+given cgrama01 test 2, apolya01 passed
+given cgrama01 test 2, cbrink passed
+given cgrama01 test 2, mmcgow02 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given cgrama01 test 2, ahay01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given cgrama01 test 2, ewu02 passed
+given cgrama01 test 2, cgrama01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given cgrama01 test 2, ryagud01 passed
+given cgrama01 test 2, ccann passed
+given cgrama01 test 2, fteume01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given cgrama01 test 2, ealter01 passed
+given cgrama01 test 2, jwilde01 passed
+given cgrama01 test 2, jliebo01 passed
+given cgrama01 test 2, bakasl01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given cgrama01 test 2, akuan01 passed
+given cgrama01 test 2, malex errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Tyapply fail.
+given cgrama01 test 2, jtorru01 passed
+given cgrama01 test 2, ead36 passed
+given cgrama01 test 2, gbodwi01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given cgrama01 test 2, clangb01 passed
+given cgrama01 test 2, naiken02 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given cgrama01 test 2, akhaku01 passed
+given cgrama01 test 2, dfortu01 passed
+given cgrama01 test 2, wholah01 passed
+given cgrama01 test 2, deder01 passed
+given cgrama01 test 2, spanut01 passed
+given cgrama01 test 2, mbfrey passed
+given cgrama01 test 2, jglazi01 passed
+given cgrama01 test 2, wbutt01 passed
+given cgrama01 test 2, csmith05 passed
+given cgrama01 test 2, alevin01 passed
+given cgrama01 test 2, abell01 errored -- On term "(val e2 (@ + bool))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given cgrama01 test 2, mmoute01 passed
+given cgrama01 test 2, mnoble01 passed
+given bakasl01 test 1, mborys01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, mgolds07 passed
+given bakasl01 test 1, ahamli02 passed
+given bakasl01 test 1, apolya01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, cbrink passed
+given bakasl01 test 1, mmcgow02 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 1, ahay01 passed
+given bakasl01 test 1, ewu02 passed
+given bakasl01 test 1, cgrama01 passed
+given bakasl01 test 1, ryagud01 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 1, ccann passed
+given bakasl01 test 1, fteume01 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 1, ealter01 passed
+given bakasl01 test 1, jwilde01 passed
+given bakasl01 test 1, jliebo01 passed
+given bakasl01 test 1, bakasl01 passed
+given bakasl01 test 1, akuan01 passed
+given bakasl01 test 1, malex errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Unprotected X!
+given bakasl01 test 1, jtorru01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, ead36 passed
+given bakasl01 test 1, gbodwi01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, clangb01 passed
+given bakasl01 test 1, naiken02 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given bakasl01 test 1, akhaku01 passed
+given bakasl01 test 1, dfortu01 passed
+given bakasl01 test 1, wholah01 passed
+given bakasl01 test 1, deder01 passed
+given bakasl01 test 1, spanut01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, mbfrey failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, jglazi01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, wbutt01 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckingError
+given bakasl01 test 1, csmith05 passed
+given bakasl01 test 1, alevin01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, abell01 errored -- On term "(val-rec int e1 e1)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 1, mmoute01 failed -- On term "(val-rec int e1 e1)", the test said to expect an error, but a run produced "int" instead
+given bakasl01 test 1, mnoble01 passed
+given gbodwi01 test 3, mborys01 passed
+given gbodwi01 test 3, mgolds07 passed
+given gbodwi01 test 3, ahamli02 passed
+given gbodwi01 test 3, apolya01 passed
+given gbodwi01 test 3, cbrink failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "bool" instead
+given gbodwi01 test 3, mmcgow02 errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given gbodwi01 test 3, ahay01 passed
+given gbodwi01 test 3, ewu02 passed
+given gbodwi01 test 3, cgrama01 passed
+given gbodwi01 test 3, ryagud01 errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given gbodwi01 test 3, ccann failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "bool" instead
+given gbodwi01 test 3, fteume01 errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given gbodwi01 test 3, ealter01 passed
+given gbodwi01 test 3, jwilde01 passed
+given gbodwi01 test 3, jliebo01 passed
+given gbodwi01 test 3, bakasl01 passed
+given gbodwi01 test 3, akuan01 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "bool" instead
+given gbodwi01 test 3, malex errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Incorrect type of val-rec.
+given gbodwi01 test 3, jtorru01 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "int" instead
+given gbodwi01 test 3, ead36 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "int" instead
+given gbodwi01 test 3, gbodwi01 passed
+given gbodwi01 test 3, clangb01 passed
+given gbodwi01 test 3, naiken02 errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given gbodwi01 test 3, akhaku01 passed
+given gbodwi01 test 3, dfortu01 passed
+given gbodwi01 test 3, wholah01 passed
+given gbodwi01 test 3, deder01 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "int" instead
+given gbodwi01 test 3, spanut01 passed
+given gbodwi01 test 3, mbfrey failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "bool" instead
+given gbodwi01 test 3, jglazi01 passed
+given gbodwi01 test 3, wbutt01 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "bool" instead
+given gbodwi01 test 3, csmith05 passed
+given gbodwi01 test 3, alevin01 failed -- On term "(val-rec int e3 #t)", the test said to expect an error, but a run produced "int" instead
+given gbodwi01 test 3, abell01 errored -- On term "(val-rec int e3 #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given gbodwi01 test 3, mmoute01 passed
+given gbodwi01 test 3, mnoble01 passed
+given nr test 9, mborys01 passed
+given nr test 9, mgolds07 passed
+given nr test 9, ahamli02 passed
+given nr test 9, apolya01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, cbrink failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, mmcgow02 errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 9, ahay01 passed
+given nr test 9, ewu02 passed
+given nr test 9, cgrama01 passed
+given nr test 9, ryagud01 errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 9, ccann failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, fteume01 errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 9, ealter01 passed
+given nr test 9, jwilde01 passed
+given nr test 9, jliebo01 passed
+given nr test 9, bakasl01 passed
+given nr test 9, akuan01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, malex errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Incorrect type of val-rec.
+given nr test 9, jtorru01 passed
+given nr test 9, ead36 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "int" instead
+given nr test 9, gbodwi01 passed
+given nr test 9, clangb01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, naiken02 errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 9, akhaku01 passed
+given nr test 9, dfortu01 passed
+given nr test 9, wholah01 passed
+given nr test 9, deder01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, spanut01 passed
+given nr test 9, mbfrey failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, jglazi01 passed
+given nr test 9, wbutt01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () bool)" instead
+given nr test 9, csmith05 passed
+given nr test 9, alevin01 failed -- On term "(define int e8 () #t)", the test said to expect an error, but a run produced "(function () int)" instead
+given nr test 9, abell01 errored -- On term "(define int e8 () #t)", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 9, mmoute01 passed
+given nr test 9, mnoble01 passed
+given nr test 11, mborys01 passed
+given nr test 11, mgolds07 passed
+given nr test 11, ahamli02 passed
+given nr test 11, apolya01 passed
+given nr test 11, cbrink passed
+given nr test 11, mmcgow02 errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 11, ahay01 passed
+given nr test 11, ewu02 passed
+given nr test 11, cgrama01 passed
+given nr test 11, ryagud01 errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 11, ccann failed -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but a run produced "(list int)" instead
+given nr test 11, fteume01 errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 11, ealter01 passed
+given nr test 11, jwilde01 passed
+given nr test 11, jliebo01 passed
+given nr test 11, bakasl01 passed
+given nr test 11, akuan01 passed
+given nr test 11, malex errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Mismatched types in pair.
+given nr test 11, jtorru01 passed
+given nr test 11, ead36 failed -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but a run produced "(forall ('a) 'a)" instead
+given nr test 11, gbodwi01 passed
+given nr test 11, clangb01 passed
+given nr test 11, naiken02 errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 11, akhaku01 passed
+given nr test 11, dfortu01 passed
+given nr test 11, wholah01 passed
+given nr test 11, deder01 passed
+given nr test 11, spanut01 passed
+given nr test 11, mbfrey passed
+given nr test 11, jglazi01 passed
+given nr test 11, wbutt01 passed
+given nr test 11, csmith05 passed
+given nr test 11, alevin01 failed -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but a run produced "(tuple int (tuple bool (tuple int (tuple int unit))))" instead
+given nr test 11, abell01 errored -- On term "(val e10 '(1 #t 3 4))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 11, mmoute01 passed
+given nr test 11, mnoble01 passed
+given nr test 12, mborys01 passed
+given nr test 12, mgolds07 passed
+given nr test 12, ahamli02 passed
+given nr test 12, apolya01 passed
+given nr test 12, cbrink passed
+given nr test 12, mmcgow02 errored -- On term "(val e11 (let* () 3))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 12, ahay01 passed
+given nr test 12, ewu02 passed
+given nr test 12, cgrama01 passed
+given nr test 12, ryagud01 passed
+given nr test 12, ccann passed
+given nr test 12, fteume01 errored -- On term "(val e11 (let* () 3))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 12, ealter01 passed
+given nr test 12, jwilde01 passed
+given nr test 12, jliebo01 passed
+given nr test 12, bakasl01 passed
+given nr test 12, akuan01 passed
+given nr test 12, malex passed
+given nr test 12, jtorru01 failed -- On term "(val e11 (let* () 3))", the test said to expect type "int", but a run produced this error instead: type error: LET* is NI
+given nr test 12, ead36 failed -- On term "(val e11 (let* () 3))", the test said to expect type "int", but a run produced this error instead: type error: unwritten type rule
+given nr test 12, gbodwi01 passed
+given nr test 12, clangb01 passed
+given nr test 12, naiken02 errored -- On term "(val e11 (let* () 3))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 12, akhaku01 passed
+given nr test 12, dfortu01 passed
+given nr test 12, wholah01 passed
+given nr test 12, deder01 passed
+given nr test 12, spanut01 passed
+given nr test 12, mbfrey passed
+given nr test 12, jglazi01 passed
+given nr test 12, wbutt01 passed
+given nr test 12, csmith05 passed
+given nr test 12, alevin01 failed -- On term "(val e11 (let* () 3))", the test said to expect type "int", but a run produced this error instead: type error: Incorrect types
+given nr test 12, abell01 errored -- On term "(val e11 (let* () 3))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 12, mmoute01 passed
+given nr test 12, mnoble01 passed
+given nr test 13, mborys01 passed
+given nr test 13, mgolds07 passed
+given nr test 13, ahamli02 failed -- On term "(val e12 (let () #t))", the test said to expect type "bool", but a run produced this error instead: type error: Empty let expression
+given nr test 13, apolya01 passed
+given nr test 13, cbrink passed
+given nr test 13, mmcgow02 errored -- On term "(val e12 (let () #t))", the test said to expect type "bool", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 13, ahay01 passed
+given nr test 13, ewu02 passed
+given nr test 13, cgrama01 passed
+given nr test 13, ryagud01 passed
+given nr test 13, ccann passed
+given nr test 13, fteume01 errored -- On term "(val e12 (let () #t))", the test said to expect type "bool", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 13, ealter01 passed
+given nr test 13, jwilde01 passed
+given nr test 13, jliebo01 passed
+given nr test 13, bakasl01 passed
+given nr test 13, akuan01 passed
+given nr test 13, malex passed
+given nr test 13, jtorru01 passed
+given nr test 13, ead36 passed
+given nr test 13, gbodwi01 passed
+given nr test 13, clangb01 passed
+given nr test 13, naiken02 errored -- On term "(val e12 (let () #t))", the test said to expect type "bool", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 13, akhaku01 passed
+given nr test 13, dfortu01 passed
+given nr test 13, wholah01 passed
+given nr test 13, deder01 passed
+given nr test 13, spanut01 passed
+given nr test 13, mbfrey passed
+given nr test 13, jglazi01 passed
+given nr test 13, wbutt01 passed
+given nr test 13, csmith05 passed
+given nr test 13, alevin01 passed
+given nr test 13, abell01 errored -- On term "(val e12 (let () #t))", the test said to expect type "bool", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 13, mmoute01 passed
+given nr test 13, mnoble01 passed
+given jliebo01 test 3, mborys01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `list', which is not a type
+given jliebo01 test 3, mgolds07 passed
+given jliebo01 test 3, ahamli02 passed
+given jliebo01 test 3, apolya01 passed
+given jliebo01 test 3, cbrink passed
+given jliebo01 test 3, mmcgow02 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 3, ahay01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `list', which is not a type
+given jliebo01 test 3, ewu02 passed
+given jliebo01 test 3, cgrama01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `list', which is not a type
+given jliebo01 test 3, ryagud01 passed
+given jliebo01 test 3, ccann passed
+given jliebo01 test 3, fteume01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 3, ealter01 passed
+given jliebo01 test 3, jwilde01 passed
+given jliebo01 test 3, jliebo01 passed
+given jliebo01 test 3, bakasl01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `list', which is not a type
+given jliebo01 test 3, akuan01 passed
+given jliebo01 test 3, malex failed -- On term "(val e3 (@ cons list))", the test said to expect an error, but a run produced "(function (list (list list)) (list list))" instead
+given jliebo01 test 3, jtorru01 passed
+given jliebo01 test 3, ead36 passed
+given jliebo01 test 3, gbodwi01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `list', which is not a type
+given jliebo01 test 3, clangb01 passed
+given jliebo01 test 3, naiken02 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given jliebo01 test 3, akhaku01 passed
+given jliebo01 test 3, dfortu01 passed
+given jliebo01 test 3, wholah01 passed
+given jliebo01 test 3, deder01 passed
+given jliebo01 test 3, spanut01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: used type constructor `list' as a type
+given jliebo01 test 3, mbfrey failed -- On term "(val e3 (@ cons list))", the test said to expect an error, but a run produced "(function (list (list list)) (list list))" instead
+given jliebo01 test 3, jglazi01 passed
+given jliebo01 test 3, wbutt01 passed
+given jliebo01 test 3, csmith05 passed
+given jliebo01 test 3, alevin01 failed -- On term "(val e3 (@ cons list))", the test said to expect an error, but a run produced "(forall ('a) (function ('a (list 'a)) (list 'a)))" instead
+given jliebo01 test 3, abell01 errored -- On term "(val e3 (@ cons list))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 3, mmoute01 passed
+given jliebo01 test 3, mnoble01 passed
+given abell01 test 3, mborys01 passed
+given abell01 test 3, mgolds07 passed
+given abell01 test 3, ahamli02 passed
+given abell01 test 3, apolya01 passed
+given abell01 test 3, cbrink passed
+given abell01 test 3, mmcgow02 errored -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 3, ahay01 passed
+given abell01 test 3, ewu02 passed
+given abell01 test 3, cgrama01 passed
+given abell01 test 3, ryagud01 errored -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 3, ccann passed
+given abell01 test 3, fteume01 errored -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 3, ealter01 passed
+given abell01 test 3, jwilde01 passed
+given abell01 test 3, jliebo01 passed
+given abell01 test 3, bakasl01 passed
+given abell01 test 3, akuan01 passed
+given abell01 test 3, malex failed -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but a run produced "bug in type checking: arithmetic on non-numbers" instead
+given abell01 test 3, jtorru01 passed
+given abell01 test 3, ead36 passed
+given abell01 test 3, gbodwi01 passed
+given abell01 test 3, clangb01 passed
+given abell01 test 3, naiken02 errored -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given abell01 test 3, akhaku01 passed
+given abell01 test 3, dfortu01 passed
+given abell01 test 3, wholah01 passed
+given abell01 test 3, deder01 passed
+given abell01 test 3, spanut01 passed
+given abell01 test 3, mbfrey passed
+given abell01 test 3, jglazi01 passed
+given abell01 test 3, wbutt01 passed
+given abell01 test 3, csmith05 passed
+given abell01 test 3, alevin01 passed
+given abell01 test 3, abell01 errored -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given abell01 test 3, mmoute01 passed
+given abell01 test 3, mnoble01 failed -- On term "(val e3 (* 1 (not #f)))", the test said to expect an error, but a run produced "bug in type checking: arithmetic on non-numbers" instead
+given mmoute01 test 2, mborys01 passed
+given mmoute01 test 2, mgolds07 passed
+given mmoute01 test 2, ahamli02 passed
+given mmoute01 test 2, apolya01 passed
+given mmoute01 test 2, cbrink passed
+given mmoute01 test 2, mmcgow02 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 2, ahay01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given mmoute01 test 2, ewu02 passed
+given mmoute01 test 2, cgrama01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given mmoute01 test 2, ryagud01 passed
+given mmoute01 test 2, ccann passed
+given mmoute01 test 2, fteume01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 2, ealter01 passed
+given mmoute01 test 2, jwilde01 passed
+given mmoute01 test 2, jliebo01 passed
+given mmoute01 test 2, bakasl01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given mmoute01 test 2, akuan01 passed
+given mmoute01 test 2, malex errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Tyapply fail.
+given mmoute01 test 2, jtorru01 passed
+given mmoute01 test 2, ead36 passed
+given mmoute01 test 2, gbodwi01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to instantiate term of non-polymorphic type
+given mmoute01 test 2, clangb01 passed
+given mmoute01 test 2, naiken02 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given mmoute01 test 2, akhaku01 passed
+given mmoute01 test 2, dfortu01 passed
+given mmoute01 test 2, wholah01 passed
+given mmoute01 test 2, deder01 passed
+given mmoute01 test 2, spanut01 passed
+given mmoute01 test 2, mbfrey passed
+given mmoute01 test 2, jglazi01 passed
+given mmoute01 test 2, wbutt01 passed
+given mmoute01 test 2, csmith05 passed
+given mmoute01 test 2, alevin01 failed -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but a run produced "(forall ('a) (function ((list 'a)) 'a))" instead
+given mmoute01 test 2, abell01 errored -- On term "(val e3 (@ (@ car int) int))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 2, mmoute01 passed
+given mmoute01 test 2, mnoble01 passed
+given ead36 test 1, mborys01 passed
+given ead36 test 1, mgolds07 passed
+given ead36 test 1, ahamli02 passed
+given ead36 test 1, apolya01 passed
+given ead36 test 1, cbrink passed
+given ead36 test 1, mmcgow02 errored -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 1, ahay01 passed
+given ead36 test 1, ewu02 passed
+given ead36 test 1, cgrama01 passed
+given ead36 test 1, ryagud01 passed
+given ead36 test 1, ccann passed
+given ead36 test 1, fteume01 errored -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 1, ealter01 passed
+given ead36 test 1, jwilde01 passed
+given ead36 test 1, jliebo01 passed
+given ead36 test 1, bakasl01 passed
+given ead36 test 1, akuan01 failed -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but a run produced this error instead: variable x not found
+given ead36 test 1, malex passed
+given ead36 test 1, jtorru01 failed -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but a run produced this error instead: type error: LET* is NI
+given ead36 test 1, ead36 passed
+given ead36 test 1, gbodwi01 passed
+given ead36 test 1, clangb01 passed
+given ead36 test 1, naiken02 errored -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ead36 test 1, akhaku01 passed
+given ead36 test 1, dfortu01 passed
+given ead36 test 1, wholah01 passed
+given ead36 test 1, deder01 passed
+given ead36 test 1, spanut01 passed
+given ead36 test 1, mbfrey passed
+given ead36 test 1, jglazi01 passed
+given ead36 test 1, wbutt01 passed
+given ead36 test 1, csmith05 passed
+given ead36 test 1, alevin01 failed -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but a run produced this error instead: type error: Incorrect types
+given ead36 test 1, abell01 errored -- On term "(val e1 (let* ((x 3) (y x)) x))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ead36 test 1, mmoute01 passed
+given ead36 test 1, mnoble01 passed
+given deder01 test 2, mborys01 passed
+given deder01 test 2, mgolds07 passed
+given deder01 test 2, ahamli02 passed
+given deder01 test 2, apolya01 passed
+given deder01 test 2, cbrink failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: fn takes different (number of?) arguments
+given deder01 test 2, mmcgow02 errored -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given deder01 test 2, ahay01 passed
+given deder01 test 2, ewu02 passed
+given deder01 test 2, cgrama01 passed
+given deder01 test 2, ryagud01 passed
+given deder01 test 2, ccann passed
+given deder01 test 2, fteume01 errored -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given deder01 test 2, ealter01 passed
+given deder01 test 2, jwilde01 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: Mismatched types int and int
+given deder01 test 2, jliebo01 passed
+given deder01 test 2, bakasl01 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: int does not match (forall ('a) (list 'a))
+given deder01 test 2, akuan01 passed
+given deder01 test 2, malex passed
+given deder01 test 2, jtorru01 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: Pair values not same type
+given deder01 test 2, ead36 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: Actual parameter types are wrong!
+given deder01 test 2, gbodwi01 passed
+given deder01 test 2, clangb01 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: ty apply
+given deder01 test 2, naiken02 errored -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given deder01 test 2, akhaku01 passed
+given deder01 test 2, dfortu01 passed
+given deder01 test 2, wholah01 passed
+given deder01 test 2, deder01 passed
+given deder01 test 2, spanut01 passed
+given deder01 test 2, mbfrey passed
+given deder01 test 2, jglazi01 passed
+given deder01 test 2, wbutt01 passed
+given deder01 test 2, csmith05 passed
+given deder01 test 2, alevin01 failed -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but a run produced this error instead: type error: atau is (tuple int (tuple int (tuple int unit)))e is (forall ('a) (function ((list 'a)) 'a))
+given deder01 test 2, abell01 errored -- On term "(val e2 ((@ car int) '(1 2 3)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given deder01 test 2, mmoute01 passed
+given deder01 test 2, mnoble01 passed
+given ahamli02 test 1, mborys01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced "(function ((list int)) (sum sym (list int) bool))" instead
+given ahamli02 test 1, mgolds07 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced "(list int) + bool" instead
+given ahamli02 test 1, ahamli02 passed
+given ahamli02 test 1, apolya01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: type error: instantiated polymorphic term at wrong number of arguments
+given ahamli02 test 1, cbrink failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given ahamli02 test 1, mmcgow02 errored -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 1, ahay01 errored -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated polymorphic term at wrong number of arguments
+given ahamli02 test 1, ewu02 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced "(function ((list int)) (sum (list (list int)) (list bool)))" instead
+given ahamli02 test 1, cgrama01 passed
+given ahamli02 test 1, ryagud01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given ahamli02 test 1, ccann passed
+given ahamli02 test 1, fteume01 errored -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 1, ealter01 passed
+given ahamli02 test 1, jwilde01 passed
+given ahamli02 test 1, jliebo01 passed
+given ahamli02 test 1, bakasl01 passed
+given ahamli02 test 1, akuan01 passed
+given ahamli02 test 1, malex passed
+given ahamli02 test 1, jtorru01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: type error: TYAPPLY NI
+given ahamli02 test 1, ead36 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced "(function ((list int)) (SUM (list int) bool))" instead
+given ahamli02 test 1, gbodwi01 passed
+given ahamli02 test 1, clangb01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: type error: ty apply
+given ahamli02 test 1, naiken02 errored -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ahamli02 test 1, akhaku01 passed
+given ahamli02 test 1, dfortu01 passed
+given ahamli02 test 1, wholah01 passed
+given ahamli02 test 1, deder01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given ahamli02 test 1, spanut01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given ahamli02 test 1, mbfrey failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given ahamli02 test 1, jglazi01 passed
+given ahamli02 test 1, wbutt01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: type error: instantiated polymorphic term at wrong number of arguments
+given ahamli02 test 1, csmith05 passed
+given ahamli02 test 1, alevin01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: type error: type constructor sum applied to the wrong arguments
+given ahamli02 test 1, abell01 errored -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 1, mmoute01 passed
+given ahamli02 test 1, mnoble01 failed -- On term "(val e1 (@ left (list int) bool))", the test said to expect type "(function ((list int)) (sum (list int) bool))", but a run produced this error instead: variable left not found
+given mmcgow02 test 3, mborys01 passed
+given mmcgow02 test 3, mgolds07 passed
+given mmcgow02 test 3, ahamli02 passed
+given mmcgow02 test 3, apolya01 passed
+given mmcgow02 test 3, cbrink failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced "(forall ((forall (int) (list int))) (list (forall (int) (list int))))" instead
+given mmcgow02 test 3, mmcgow02 errored -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 3, ahay01 passed
+given mmcgow02 test 3, ewu02 passed
+given mmcgow02 test 3, cgrama01 passed
+given mmcgow02 test 3, ryagud01 passed
+given mmcgow02 test 3, ccann passed
+given mmcgow02 test 3, fteume01 errored -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 3, ealter01 passed
+given mmcgow02 test 3, jwilde01 failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced this error instead: type error: Mismatched types int and int
+given mmcgow02 test 3, jliebo01 passed
+given mmcgow02 test 3, bakasl01 failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced this error instead: type error: int does not match (forall ('a) (list 'a))
+given mmcgow02 test 3, akuan01 passed
+given mmcgow02 test 3, malex errored -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but your interpreter crashed with this run-time error: Uncaught exception: Fail: Mismatched types in pair.
+given mmcgow02 test 3, jtorru01 failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced this error instead: type error: Pair values not same type
+given mmcgow02 test 3, ead36 failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced "(forall ('a) 'a)" instead
+given mmcgow02 test 3, gbodwi01 passed
+given mmcgow02 test 3, clangb01 passed
+given mmcgow02 test 3, naiken02 errored -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given mmcgow02 test 3, akhaku01 passed
+given mmcgow02 test 3, dfortu01 passed
+given mmcgow02 test 3, wholah01 passed
+given mmcgow02 test 3, deder01 passed
+given mmcgow02 test 3, spanut01 passed
+given mmcgow02 test 3, mbfrey passed
+given mmcgow02 test 3, jglazi01 passed
+given mmcgow02 test 3, wbutt01 passed
+given mmcgow02 test 3, csmith05 passed
+given mmcgow02 test 3, alevin01 failed -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but a run produced "(tuple (tuple int (tuple int (tuple int unit))) (tuple (tuple int (tuple int (tuple int unit))) (tuple (tuple int (tuple int (tuple int unit))) unit)))" instead
+given mmcgow02 test 3, abell01 errored -- On term "(val e3 '((1 2 3) (4 5 6) (7 8 9)))", the test said to expect type "(list (list int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmcgow02 test 3, mmoute01 passed
+given mmcgow02 test 3, mnoble01 passed
+given nr test 5, mborys01 passed
+given nr test 5, mgolds07 passed
+given nr test 5, ahamli02 passed
+given nr test 5, apolya01 passed
+given nr test 5, cbrink passed
+given nr test 5, mmcgow02 errored -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 5, ahay01 passed
+given nr test 5, ewu02 passed
+given nr test 5, cgrama01 passed
+given nr test 5, ryagud01 passed
+given nr test 5, ccann passed
+given nr test 5, fteume01 errored -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 5, ealter01 passed
+given nr test 5, jwilde01 passed
+given nr test 5, jliebo01 passed
+given nr test 5, bakasl01 passed
+given nr test 5, akuan01 failed -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but a run produced this error instead: variable f not found
+given nr test 5, malex passed
+given nr test 5, jtorru01 failed -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but a run produced this error instead: type error: LET* is NI
+given nr test 5, ead36 passed
+given nr test 5, gbodwi01 passed
+given nr test 5, clangb01 passed
+given nr test 5, naiken02 errored -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 5, akhaku01 passed
+given nr test 5, dfortu01 passed
+given nr test 5, wholah01 passed
+given nr test 5, deder01 failed -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but a run produced this error instead: variable f not found
+given nr test 5, spanut01 passed
+given nr test 5, mbfrey passed
+given nr test 5, jglazi01 passed
+given nr test 5, wbutt01 passed
+given nr test 5, csmith05 passed
+given nr test 5, alevin01 failed -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but a run produced this error instead: type error: Incorrect types
+given nr test 5, abell01 errored -- On term "(val e4 (let* ((f 3) (g f)) (+ g 39)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 5, mmoute01 passed
+given nr test 5, mnoble01 passed
+given ahay01 test 1, mborys01 passed
+given ahay01 test 1, mgolds07 passed
+given ahay01 test 1, ahamli02 passed
+given ahay01 test 1, apolya01 passed
+given ahay01 test 1, cbrink passed
+given ahay01 test 1, mmcgow02 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahay01 test 1, ahay01 passed
+given ahay01 test 1, ewu02 passed
+given ahay01 test 1, cgrama01 passed
+given ahay01 test 1, ryagud01 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahay01 test 1, ccann passed
+given ahay01 test 1, fteume01 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahay01 test 1, ealter01 passed
+given ahay01 test 1, jwilde01 passed
+given ahay01 test 1, jliebo01 passed
+given ahay01 test 1, bakasl01 passed
+given ahay01 test 1, akuan01 passed
+given ahay01 test 1, malex errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Unprotected X!
+given ahay01 test 1, jtorru01 failed -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but a run produced "bug in type checking: applied non-function" instead
+given ahay01 test 1, ead36 passed
+given ahay01 test 1, gbodwi01 passed
+given ahay01 test 1, clangb01 passed
+given ahay01 test 1, naiken02 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ahay01 test 1, akhaku01 passed
+given ahay01 test 1, dfortu01 passed
+given ahay01 test 1, wholah01 passed
+given ahay01 test 1, deder01 passed
+given ahay01 test 1, spanut01 passed
+given ahay01 test 1, mbfrey passed
+given ahay01 test 1, jglazi01 passed
+given ahay01 test 1, wbutt01 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckingError
+given ahay01 test 1, csmith05 passed
+given ahay01 test 1, alevin01 failed -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but a run produced "bug in type checking: applied non-function" instead
+given ahay01 test 1, abell01 errored -- On term "(val-rec (function (int) bool) e1 (e1))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahay01 test 1, mmoute01 passed
+given ahay01 test 1, mnoble01 passed
+given akhaku01 test 2, mborys01 passed
+given akhaku01 test 2, mgolds07 passed
+given akhaku01 test 2, ahamli02 passed
+given akhaku01 test 2, apolya01 passed
+given akhaku01 test 2, cbrink passed
+given akhaku01 test 2, mmcgow02 errored -- On term "(val e2 (let ((x 1) (y 2) (z (+ x y))) z ))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given akhaku01 test 2, ahay01 passed
+given akhaku01 test 2, ewu02 passed
+given akhaku01 test 2, cgrama01 passed
+given akhaku01 test 2, ryagud01 passed
+given akhaku01 test 2, ccann passed
+given akhaku01 test 2, fteume01 errored -- On term "(val e2 (let ((x 1) (y 2) (z (+ x y))) z ))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given akhaku01 test 2, ealter01 passed
+given akhaku01 test 2, jwilde01 passed
+given akhaku01 test 2, jliebo01 passed
+given akhaku01 test 2, bakasl01 passed
+given akhaku01 test 2, akuan01 passed
+given akhaku01 test 2, malex errored -- On term "(val e2 (let ((x 1) (y 2) (z (+ x y))) z ))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: Fail: Foo.
+given akhaku01 test 2, jtorru01 passed
+given akhaku01 test 2, ead36 passed
+given akhaku01 test 2, gbodwi01 passed
+given akhaku01 test 2, clangb01 passed
+given akhaku01 test 2, naiken02 errored -- On term "(val e2 (let ((x 1) (y 2) (z (+ x y))) z ))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given akhaku01 test 2, akhaku01 passed
+given akhaku01 test 2, dfortu01 passed
+given akhaku01 test 2, wholah01 passed
+given akhaku01 test 2, deder01 passed
+given akhaku01 test 2, spanut01 passed
+given akhaku01 test 2, mbfrey passed
+given akhaku01 test 2, jglazi01 passed
+given akhaku01 test 2, wbutt01 passed
+given akhaku01 test 2, csmith05 passed
+given akhaku01 test 2, alevin01 passed
+given akhaku01 test 2, abell01 errored -- On term "(val e2 (let ((x 1) (y 2) (z (+ x y))) z ))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given akhaku01 test 2, mmoute01 passed
+given akhaku01 test 2, mnoble01 passed
+given ewu02 test 3, mborys01 passed
+given ewu02 test 3, mgolds07 passed
+given ewu02 test 3, ahamli02 passed
+given ewu02 test 3, apolya01 passed
+given ewu02 test 3, cbrink passed
+given ewu02 test 3, mmcgow02 errored -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ewu02 test 3, ahay01 passed
+given ewu02 test 3, ewu02 passed
+given ewu02 test 3, cgrama01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: Type mismatch
+given ewu02 test 3, ryagud01 passed
+given ewu02 test 3, ccann passed
+given ewu02 test 3, fteume01 errored -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ewu02 test 3, ealter01 passed
+given ewu02 test 3, jwilde01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: The body of the function will not have the same type as the declaration.
+given ewu02 test 3, jliebo01 passed
+given ewu02 test 3, bakasl01 passed
+given ewu02 test 3, akuan01 passed
+given ewu02 test 3, malex passed
+given ewu02 test 3, jtorru01 passed
+given ewu02 test 3, ead36 passed
+given ewu02 test 3, gbodwi01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: Valrec type mismatch
+given ewu02 test 3, clangb01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: improper arguments for val rec
+given ewu02 test 3, naiken02 errored -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ewu02 test 3, akhaku01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: The return type does not match
+given ewu02 test 3, dfortu01 passed
+given ewu02 test 3, wholah01 passed
+given ewu02 test 3, deder01 passed
+given ewu02 test 3, spanut01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: exp has type unit not type (forall ('abc) (list 'abc))
+given ewu02 test 3, mbfrey passed
+given ewu02 test 3, jglazi01 passed
+given ewu02 test 3, wbutt01 passed
+given ewu02 test 3, csmith05 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: The body of the function will not have the same type as the declaration.
+given ewu02 test 3, alevin01 passed
+given ewu02 test 3, abell01 errored -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ewu02 test 3, mmoute01 failed -- On term "(val-rec (forall ('abc) (list 'abc)) e3 '())", the test said to expect type "(forall ('abc) (list 'abc))", but a run produced this error instead: type error: recursive type does not match type of exp
+given ewu02 test 3, mnoble01 passed
+given jliebo01 test 2, mborys01 passed
+given jliebo01 test 2, mgolds07 passed
+given jliebo01 test 2, ahamli02 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, apolya01 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, cbrink passed
+given jliebo01 test 2, mmcgow02 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 2, ahay01 passed
+given jliebo01 test 2, ewu02 passed
+given jliebo01 test 2, cgrama01 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, ryagud01 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 2, ccann failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, fteume01 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 2, ealter01 passed
+given jliebo01 test 2, jwilde01 passed
+given jliebo01 test 2, jliebo01 passed
+given jliebo01 test 2, bakasl01 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, akuan01 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, malex failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, jtorru01 passed
+given jliebo01 test 2, ead36 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, gbodwi01 passed
+given jliebo01 test 2, clangb01 passed
+given jliebo01 test 2, naiken02 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given jliebo01 test 2, akhaku01 passed
+given jliebo01 test 2, dfortu01 passed
+given jliebo01 test 2, wholah01 passed
+given jliebo01 test 2, deder01 passed
+given jliebo01 test 2, spanut01 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: used type constructor `list' as a type
+given jliebo01 test 2, mbfrey failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, jglazi01 passed
+given jliebo01 test 2, wbutt01 failed -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but a run produced "(forall ('a) (function (list) int))" instead
+given jliebo01 test 2, csmith05 passed
+given jliebo01 test 2, alevin01 passed
+given jliebo01 test 2, abell01 errored -- On term "(val e2 (type-lambda ('a) (lambda ((list a)) 3)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jliebo01 test 2, mmoute01 passed
+given jliebo01 test 2, mnoble01 passed
+given ealter01 test 3, mborys01 passed
+given ealter01 test 3, mgolds07 passed
+given ealter01 test 3, ahamli02 passed
+given ealter01 test 3, apolya01 passed
+given ealter01 test 3, cbrink passed
+given ealter01 test 3, mmcgow02 errored -- On term "(val e3 (begin (@ cons bool) (= 3 7) (set x '())))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ealter01 test 3, ahay01 passed
+given ealter01 test 3, ewu02 passed
+given ealter01 test 3, cgrama01 passed
+given ealter01 test 3, ryagud01 errored -- On term "(val e3 (begin (@ cons bool) (= 3 7) (set x '())))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: WhichOne
+given ealter01 test 3, ccann passed
+given ealter01 test 3, fteume01 errored -- On term "(val e3 (begin (@ cons bool) (= 3 7) (set x '())))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ealter01 test 3, ealter01 passed
+given ealter01 test 3, jwilde01 passed
+given ealter01 test 3, jliebo01 passed
+given ealter01 test 3, bakasl01 passed
+given ealter01 test 3, akuan01 passed
+given ealter01 test 3, malex passed
+given ealter01 test 3, jtorru01 passed
+given ealter01 test 3, ead36 passed
+given ealter01 test 3, gbodwi01 passed
+given ealter01 test 3, clangb01 passed
+given ealter01 test 3, naiken02 errored -- On term "(val e3 (begin (@ cons bool) (= 3 7) (set x '())))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ealter01 test 3, akhaku01 passed
+given ealter01 test 3, dfortu01 passed
+given ealter01 test 3, wholah01 passed
+given ealter01 test 3, deder01 passed
+given ealter01 test 3, spanut01 passed
+given ealter01 test 3, mbfrey passed
+given ealter01 test 3, jglazi01 passed
+given ealter01 test 3, wbutt01 passed
+given ealter01 test 3, csmith05 passed
+given ealter01 test 3, alevin01 passed
+given ealter01 test 3, abell01 errored -- On term "(val e3 (begin (@ cons bool) (= 3 7) (set x '())))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ealter01 test 3, mmoute01 passed
+given ealter01 test 3, mnoble01 passed
+given ccann test 1, mborys01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, mgolds07 passed
+given ccann test 1, ahamli02 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, apolya01 passed
+given ccann test 1, cbrink passed
+given ccann test 1, mmcgow02 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ccann test 1, ahay01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, ewu02 passed
+given ccann test 1, cgrama01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, ryagud01 passed
+given ccann test 1, ccann passed
+given ccann test 1, fteume01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ccann test 1, ealter01 passed
+given ccann test 1, jwilde01 passed
+given ccann test 1, jliebo01 passed
+given ccann test 1, bakasl01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, akuan01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, malex failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, jtorru01 passed
+given ccann test 1, ead36 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, gbodwi01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, clangb01 passed
+given ccann test 1, naiken02 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ccann test 1, akhaku01 passed
+given ccann test 1, dfortu01 passed
+given ccann test 1, wholah01 passed
+given ccann test 1, deder01 passed
+given ccann test 1, spanut01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, mbfrey failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, jglazi01 passed
+given ccann test 1, wbutt01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but a run produced "(forall ('a 'b) (function (('a list) 'b) ('a list)))" instead
+given ccann test 1, csmith05 passed
+given ccann test 1, alevin01 passed
+given ccann test 1, abell01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ccann test 1, mmoute01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda ((('a list) x) ('b y)) x)))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: tried to apply type 'a as type constructor
+given ccann test 1, mnoble01 passed
+given nr test 7, mborys01 passed
+given nr test 7, mgolds07 passed
+given nr test 7, ahamli02 passed
+given nr test 7, apolya01 passed
+given nr test 7, cbrink passed
+given nr test 7, mmcgow02 errored -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 7, ahay01 passed
+given nr test 7, ewu02 passed
+given nr test 7, cgrama01 passed
+given nr test 7, ryagud01 passed
+given nr test 7, ccann passed
+given nr test 7, fteume01 errored -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 7, ealter01 passed
+given nr test 7, jwilde01 passed
+given nr test 7, jliebo01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: Types in set expression do not match
+given nr test 7, bakasl01 passed
+given nr test 7, akuan01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: Set variable n of type (forall ('a) int)to value of type (forall ('b) int)
+given nr test 7, malex passed
+given nr test 7, jtorru01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: LAMBDA NI
+given nr test 7, ead36 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: Set variable n of type (forall ('a) int) to value of type (forall ('b) int)
+given nr test 7, gbodwi01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: set type mismatch
+given nr test 7, clangb01 passed
+given nr test 7, naiken02 errored -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 7, akhaku01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: type of expression (forall ('b) int) does not match type (forall ('a) int)
+given nr test 7, dfortu01 passed
+given nr test 7, wholah01 passed
+given nr test 7, deder01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: types do not match
+given nr test 7, spanut01 passed
+given nr test 7, mbfrey passed
+given nr test 7, jglazi01 passed
+given nr test 7, wbutt01 passed
+given nr test 7, csmith05 passed
+given nr test 7, alevin01 failed -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: variable n not found
+given nr test 7, abell01 errored -- On term "(val e6 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (set n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 7, mmoute01 passed
+given nr test 7, mnoble01 passed
+given nr test 8, mborys01 passed
+given nr test 8, mgolds07 passed
+given nr test 8, ahamli02 passed
+given nr test 8, apolya01 passed
+given nr test 8, cbrink passed
+given nr test 8, mmcgow02 errored -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 8, ahay01 passed
+given nr test 8, ewu02 passed
+given nr test 8, cgrama01 passed
+given nr test 8, ryagud01 passed
+given nr test 8, ccann passed
+given nr test 8, fteume01 errored -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 8, ealter01 passed
+given nr test 8, jwilde01 passed
+given nr test 8, jliebo01 passed
+given nr test 8, bakasl01 passed
+given nr test 8, akuan01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: In if expression, true branch has type (forall ('a) int) but false branch has type (forall ('b) int)
+given nr test 8, malex passed
+given nr test 8, jtorru01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: LAMBDA NI
+given nr test 8, ead36 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: In if expression, true branch has type (forall ('a) int) but false branch has type (forall ('b) int)
+given nr test 8, gbodwi01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: bad IF clause
+given nr test 8, clangb01 passed
+given nr test 8, naiken02 errored -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given nr test 8, akhaku01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: The true and false branches should have the same type
+given nr test 8, dfortu01 passed
+given nr test 8, wholah01 passed
+given nr test 8, deder01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: Types do not matc in if statment
+given nr test 8, spanut01 passed
+given nr test 8, mbfrey passed
+given nr test 8, jglazi01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: Type of if branches do not match
+given nr test 8, wbutt01 passed
+given nr test 8, csmith05 passed
+given nr test 8, alevin01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: variable n not found
+given nr test 8, abell01 errored -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given nr test 8, mmoute01 failed -- On term "(val e7 (lambda (((forall ('a) int) n) ((forall ('b) int) m)) (if #t n m)))", the test said to expect type "(function ((forall ('a) int) (forall ('b) int)) (forall ('a) int))", but a run produced this error instead: type error: In if expression, true branch has type (forall ('a) int) but false branch has type (forall ('b) int)
+given nr test 8, mnoble01 passed
+given apolya01 test 1, mborys01 passed
+given apolya01 test 1, mgolds07 passed
+given apolya01 test 1, ahamli02 passed
+given apolya01 test 1, apolya01 passed
+given apolya01 test 1, cbrink passed
+given apolya01 test 1, mmcgow02 errored -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('a) (lambda (('a x)) x)))", the test said to expect type "(forall ('a) (function ('a) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given apolya01 test 1, ahay01 passed
+given apolya01 test 1, ewu02 passed
+given apolya01 test 1, cgrama01 passed
+given apolya01 test 1, ryagud01 passed
+given apolya01 test 1, ccann passed
+given apolya01 test 1, fteume01 errored -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('a) (lambda (('a x)) x)))", the test said to expect type "(forall ('a) (function ('a) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given apolya01 test 1, ealter01 passed
+given apolya01 test 1, jwilde01 passed
+given apolya01 test 1, jliebo01 passed
+given apolya01 test 1, bakasl01 passed
+given apolya01 test 1, akuan01 passed
+given apolya01 test 1, malex passed
+given apolya01 test 1, jtorru01 passed
+given apolya01 test 1, ead36 passed
+given apolya01 test 1, gbodwi01 passed
+given apolya01 test 1, clangb01 failed -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('a) (lambda (('a x)) x)))", the test said to expect type "(forall ('a) (function ('a) 'a))", but a run produced this error instead: type error: ty lambda
+given apolya01 test 1, naiken02 errored -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('a) (lambda (('a x)) x)))", the test said to expect type "(forall ('a) (function ('a) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given apolya01 test 1, akhaku01 passed
+given apolya01 test 1, dfortu01 passed
+given apolya01 test 1, wholah01 passed
+given apolya01 test 1, deder01 passed
+given apolya01 test 1, spanut01 passed
+given apolya01 test 1, mbfrey passed
+given apolya01 test 1, jglazi01 passed
+given apolya01 test 1, wbutt01 passed
+given apolya01 test 1, csmith05 passed
+given apolya01 test 1, alevin01 passed
+given apolya01 test 1, abell01 errored -- On term "(val-rec (forall ('a) (function ('a) 'a)) e1 (type-lambda ('a) (lambda (('a x)) x)))", the test said to expect type "(forall ('a) (function ('a) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given apolya01 test 1, mmoute01 passed
+given apolya01 test 1, mnoble01 passed
+given wbutt01 test 1, mborys01 passed
+given wbutt01 test 1, mgolds07 passed
+given wbutt01 test 1, ahamli02 passed
+given wbutt01 test 1, apolya01 passed
+given wbutt01 test 1, cbrink passed
+given wbutt01 test 1, mmcgow02 errored -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given wbutt01 test 1, ahay01 passed
+given wbutt01 test 1, ewu02 passed
+given wbutt01 test 1, cgrama01 failed -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but a run produced this error instead: variable e1 not found
+given wbutt01 test 1, ryagud01 passed
+given wbutt01 test 1, ccann passed
+given wbutt01 test 1, fteume01 errored -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given wbutt01 test 1, ealter01 passed
+given wbutt01 test 1, jwilde01 passed
+given wbutt01 test 1, jliebo01 passed
+given wbutt01 test 1, bakasl01 passed
+given wbutt01 test 1, akuan01 failed -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but a run produced this error instead: variable e1 not found
+given wbutt01 test 1, malex passed
+given wbutt01 test 1, jtorru01 passed
+given wbutt01 test 1, ead36 failed -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but a run produced this error instead: variable e1 not found
+given wbutt01 test 1, gbodwi01 passed
+given wbutt01 test 1, clangb01 failed -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but a run produced this error instead: type error: ty apply
+given wbutt01 test 1, naiken02 errored -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given wbutt01 test 1, akhaku01 passed
+given wbutt01 test 1, dfortu01 passed
+given wbutt01 test 1, wholah01 passed
+given wbutt01 test 1, deder01 passed
+given wbutt01 test 1, spanut01 passed
+given wbutt01 test 1, mbfrey passed
+given wbutt01 test 1, jglazi01 passed
+given wbutt01 test 1, wbutt01 passed
+given wbutt01 test 1, csmith05 passed
+given wbutt01 test 1, alevin01 passed
+given wbutt01 test 1, abell01 errored -- On term "(val-rec (function (int) int) e1 (lambda ((int x)) (if ((@ = int) x 10) x (e1 (+ x 1)))))", the test said to expect type "(function (int) int)", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given wbutt01 test 1, mmoute01 passed
+given wbutt01 test 1, mnoble01 passed
+given csmith05 test 1, mborys01 passed
+given csmith05 test 1, mgolds07 passed
+given csmith05 test 1, ahamli02 passed
+given csmith05 test 1, apolya01 passed
+given csmith05 test 1, cbrink passed
+given csmith05 test 1, mmcgow02 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given csmith05 test 1, ahay01 passed
+given csmith05 test 1, ewu02 passed
+given csmith05 test 1, cgrama01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: Empty
+given csmith05 test 1, ryagud01 passed
+given csmith05 test 1, ccann passed
+given csmith05 test 1, fteume01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given csmith05 test 1, ealter01 passed
+given csmith05 test 1, jwilde01 passed
+given csmith05 test 1, jliebo01 passed
+given csmith05 test 1, bakasl01 passed
+given csmith05 test 1, akuan01 passed
+given csmith05 test 1, malex errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: Fail: Foo.
+given csmith05 test 1, jtorru01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: type error: TYLAMBDA NI
+given csmith05 test 1, ead36 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: type error: Actual parameter types are wrong!
+given csmith05 test 1, gbodwi01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced "(forall ('a 'b) (function ('a 'b) unit))" instead
+given csmith05 test 1, clangb01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: type error: ty lambda
+given csmith05 test 1, naiken02 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given csmith05 test 1, akhaku01 passed
+given csmith05 test 1, dfortu01 passed
+given csmith05 test 1, wholah01 passed
+given csmith05 test 1, deder01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: variable a not found
+given csmith05 test 1, spanut01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: type error: EXP does not have FORALL type
+given csmith05 test 1, mbfrey passed
+given csmith05 test 1, jglazi01 passed
+given csmith05 test 1, wbutt01 passed
+given csmith05 test 1, csmith05 passed
+given csmith05 test 1, alevin01 failed -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but a run produced this error instead: variable a not found
+given csmith05 test 1, abell01 errored -- On term "(val e1 (type-lambda ('a 'b) (lambda (('a a) ('b b)) (begin (let( (x a) (y b) (z ((@ cons 'a) a (@ '() 'a)))) ((@ car 'a) z))))))", the test said to expect type "(forall('a 'b) (function ('a 'b) 'a))", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given csmith05 test 1, mmoute01 passed
+given csmith05 test 1, mnoble01 passed
+given ahamli02 test 2, mborys01 passed
+given ahamli02 test 2, mgolds07 passed
+given ahamli02 test 2, ahamli02 passed
+given ahamli02 test 2, apolya01 passed
+given ahamli02 test 2, cbrink passed
+given ahamli02 test 2, mmcgow02 errored -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 2, ahay01 errored -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated polymorphic term at wrong number of arguments
+given ahamli02 test 2, ewu02 passed
+given ahamli02 test 2, cgrama01 passed
+given ahamli02 test 2, ryagud01 passed
+given ahamli02 test 2, ccann passed
+given ahamli02 test 2, fteume01 errored -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 2, ealter01 passed
+given ahamli02 test 2, jwilde01 passed
+given ahamli02 test 2, jliebo01 passed
+given ahamli02 test 2, bakasl01 passed
+given ahamli02 test 2, akuan01 passed
+given ahamli02 test 2, malex failed -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but a run produced "bool" instead
+given ahamli02 test 2, jtorru01 passed
+given ahamli02 test 2, ead36 passed
+given ahamli02 test 2, gbodwi01 passed
+given ahamli02 test 2, clangb01 passed
+given ahamli02 test 2, naiken02 errored -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given ahamli02 test 2, akhaku01 passed
+given ahamli02 test 2, dfortu01 passed
+given ahamli02 test 2, wholah01 passed
+given ahamli02 test 2, deder01 passed
+given ahamli02 test 2, spanut01 passed
+given ahamli02 test 2, mbfrey passed
+given ahamli02 test 2, jglazi01 passed
+given ahamli02 test 2, wbutt01 passed
+given ahamli02 test 2, csmith05 passed
+given ahamli02 test 2, alevin01 passed
+given ahamli02 test 2, abell01 errored -- On term "(val e2 ((@ either int bool bool) ((@ right int bool) #t) (type-lambda () (lambda ((bool x)) ((@ = int) x 1))) (type-lambda () (lambda ((bool x)) x))))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given ahamli02 test 2, mmoute01 passed
+given ahamli02 test 2, mnoble01 passed
+given mmoute01 test 1, mborys01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: type constructor sum applied to the wrong arguments
+given mmoute01 test 1, mgolds07 passed
+given mmoute01 test 1, ahamli02 passed
+given mmoute01 test 1, apolya01 passed
+given mmoute01 test 1, cbrink passed
+given mmoute01 test 1, mmcgow02 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 1, ahay01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated polymorphic term at wrong number of arguments
+given mmoute01 test 1, ewu02 passed
+given mmoute01 test 1, cgrama01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `sum', which is not a type
+given mmoute01 test 1, ryagud01 passed
+given mmoute01 test 1, ccann passed
+given mmoute01 test 1, fteume01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 1, ealter01 passed
+given mmoute01 test 1, jwilde01 passed
+given mmoute01 test 1, jliebo01 passed
+given mmoute01 test 1, bakasl01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `sum', which is not a type
+given mmoute01 test 1, akuan01 passed
+given mmoute01 test 1, malex failed -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but a run produced "(function ((list sum)) sum)" instead
+given mmoute01 test 1, jtorru01 passed
+given mmoute01 test 1, ead36 failed -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but a run produced "(function ((list sum)) sum)" instead
+given mmoute01 test 1, gbodwi01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: instantiated at type constructor `sum', which is not a type
+given mmoute01 test 1, clangb01 passed
+given mmoute01 test 1, naiken02 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given mmoute01 test 1, akhaku01 passed
+given mmoute01 test 1, dfortu01 passed
+given mmoute01 test 1, wholah01 passed
+given mmoute01 test 1, deder01 passed
+given mmoute01 test 1, spanut01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: TypeError: used type constructor `sum' as a type
+given mmoute01 test 1, mbfrey failed -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but a run produced "(function ((list sum)) sum)" instead
+given mmoute01 test 1, jglazi01 passed
+given mmoute01 test 1, wbutt01 passed
+given mmoute01 test 1, csmith05 passed
+given mmoute01 test 1, alevin01 failed -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but a run produced "(forall ('a) (function ((list 'a)) 'a))" instead
+given mmoute01 test 1, abell01 errored -- On term "(val e1 ((@ either int bool (sum bool int)) ((@ left int bool) 5) (lambda ((int x)) ((@ left bool int) #t)) (lambda ((bool x)) ((@ right bool int) 5)))) (val e2 (@ car sum))", the test said to expect an error, but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given mmoute01 test 1, mmoute01 passed
+given mmoute01 test 1, mnoble01 passed
+given bakasl01 test 2, mborys01 passed
+given bakasl01 test 2, mgolds07 passed
+given bakasl01 test 2, ahamli02 passed
+given bakasl01 test 2, apolya01 passed
+given bakasl01 test 2, cbrink passed
+given bakasl01 test 2, mmcgow02 errored -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 2, ahay01 passed
+given bakasl01 test 2, ewu02 passed
+given bakasl01 test 2, cgrama01 passed
+given bakasl01 test 2, ryagud01 passed
+given bakasl01 test 2, ccann passed
+given bakasl01 test 2, fteume01 errored -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 2, ealter01 passed
+given bakasl01 test 2, jwilde01 passed
+given bakasl01 test 2, jliebo01 passed
+given bakasl01 test 2, bakasl01 passed
+given bakasl01 test 2, akuan01 passed
+given bakasl01 test 2, malex errored -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: Fail: Foo.
+given bakasl01 test 2, jtorru01 failed -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but a run produced this error instead: type error: LET* is NI
+given bakasl01 test 2, ead36 passed
+given bakasl01 test 2, gbodwi01 failed -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but a run produced "unit" instead
+given bakasl01 test 2, clangb01 passed
+given bakasl01 test 2, naiken02 errored -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given bakasl01 test 2, akhaku01 passed
+given bakasl01 test 2, dfortu01 passed
+given bakasl01 test 2, wholah01 passed
+given bakasl01 test 2, deder01 passed
+given bakasl01 test 2, spanut01 passed
+given bakasl01 test 2, mbfrey passed
+given bakasl01 test 2, jglazi01 passed
+given bakasl01 test 2, wbutt01 passed
+given bakasl01 test 2, csmith05 passed
+given bakasl01 test 2, alevin01 failed -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but a run produced this error instead: type error: Incorrect types
+given bakasl01 test 2, abell01 errored -- On term "(val e2 (let* ((fib (lambda ((int x)) (let ((p1 0) (p2 1) (temp 1)) (begin (while (< 1 x) (begin (set temp (+ p1 p2)) (set p1 p2) (set p2 temp) (set x (- x 1)))) p2))))) (fib 40)))", the test said to expect type "int", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given bakasl01 test 2, mmoute01 passed
+given bakasl01 test 2, mnoble01 passed
+given jglazi01 test 3, mborys01 passed
+given jglazi01 test 3, mgolds07 passed
+given jglazi01 test 3, ahamli02 passed
+given jglazi01 test 3, apolya01 passed
+given jglazi01 test 3, cbrink failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: fn takes different (number of?) arguments
+given jglazi01 test 3, mmcgow02 errored -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jglazi01 test 3, ahay01 passed
+given jglazi01 test 3, ewu02 passed
+given jglazi01 test 3, cgrama01 passed
+given jglazi01 test 3, ryagud01 passed
+given jglazi01 test 3, ccann passed
+given jglazi01 test 3, fteume01 errored -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jglazi01 test 3, ealter01 passed
+given jglazi01 test 3, jwilde01 passed
+given jglazi01 test 3, jliebo01 passed
+given jglazi01 test 3, bakasl01 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: int does not match (forall ('a) (list 'a))
+given jglazi01 test 3, akuan01 passed
+given jglazi01 test 3, malex passed
+given jglazi01 test 3, jtorru01 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: TYAPPLY NI
+given jglazi01 test 3, ead36 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: Actual parameter types are wrong!
+given jglazi01 test 3, gbodwi01 passed
+given jglazi01 test 3, clangb01 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: ty apply
+given jglazi01 test 3, naiken02 errored -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but your interpreter crashed with this run-time error: Uncaught exception: TypeCheckerFail
+given jglazi01 test 3, akhaku01 passed
+given jglazi01 test 3, dfortu01 passed
+given jglazi01 test 3, wholah01 passed
+given jglazi01 test 3, deder01 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: variable f not found
+given jglazi01 test 3, spanut01 passed
+given jglazi01 test 3, mbfrey failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: type error: name not in function
+given jglazi01 test 3, jglazi01 passed
+given jglazi01 test 3, wbutt01 passed
+given jglazi01 test 3, csmith05 passed
+given jglazi01 test 3, alevin01 failed -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but a run produced this error instead: variable y not found
+given jglazi01 test 3, abell01 errored -- On term "(val e3 ((@ (@ (type-lambda ('a 'b) (type-lambda ('c) (lambda (((forall ('c) (function ((function ('a) 'c) (function ('b) 'c)) 'c)) x) ((function ('a) 'c) f) ((function ('b) 'c) g)) ((@ x 'c) f g)))) (list int) bool) sym) ((@ (type-lambda ('a 'b) (lambda (('a y)) (type-lambda ('c) (lambda (((function ('a) 'c) f) ((function ('b) 'c) g)) (f y))))) (list int) bool) '(3)) (lambda (((list int) x)) 'f) (lambda ((bool y)) 'g)))", the test said to expect type "sym", but your interpreter crashed with this run-time error: Uncaught exception: LeftAsExercise
+given jglazi01 test 3, mmoute01 passed
+given jglazi01 test 3, mnoble01 passed
