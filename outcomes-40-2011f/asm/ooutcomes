@@ -1,0 +1,2520 @@
+given bigjump    test 1, ahamli02 passed
+given cat        test 1, ahamli02 passed
+given cgoto      test 1, ahamli02 passed
+given cond       test 1, ahamli02 passed
+given eq         test 1, ahamli02 passed
+given gt0        test 1, ahamli02 passed
+given halt       test 1, ahamli02 passed
+given hello      test 1, ahamli02 passed
+given lt         test 1, ahamli02 passed
+given ne         test 1, ahamli02 passed
+given neglit     test 1, ahamli02 passed
+given out        test 1, ahamli02 passed
+given scompare   test 1, ahamli02 passed
+given selfsub    test 1, ahamli02 passed
+given smallneglit test 1, ahamli02 passed
+given xor        test 1, ahamli02 passed
+given zcond      test 1, ahamli02 passed
+given addition-noself-macro test 1, ahamli02 passed
+given addition-self-macro test 1, ahamli02 passed
+given bitwise-and-noself-macro test 1, ahamli02 passed
+given bitwise-and-self-macro test 1, ahamli02 passed
+given bitwise-or-noself-macro test 1, ahamli02 passed
+given complement-self-macro test 1, ahamli02 passed
+given move-noself-macro test 1, ahamli02 passed
+given move-self-macro test 1, ahamli02 passed
+given negate-self-macro test 1, ahamli02 passed
+given subtraction-noself-macro test 1, ahamli02 passed
+given subtraction-self-macro test 1, ahamli02 passed
+given sec1-2-3-4 test 1, ahamli02 passed
+given sec1-2-4-3 test 1, ahamli02 passed
+given sec1-3-2-4 test 1, ahamli02 passed
+given sec1-3-4-2 test 1, ahamli02 passed
+given sec1-4-2-3 test 1, ahamli02 passed
+given sec1-4-3-2 test 1, ahamli02 passed
+given sec2-1-3-4 test 1, ahamli02 passed
+given sec2-1-4-3 test 1, ahamli02 passed
+given sec2-3-1-4 test 1, ahamli02 passed
+given sec2-3-4-1 test 1, ahamli02 passed
+given sec2-4-1-3 test 1, ahamli02 passed
+given sec2-4-3-1 test 1, ahamli02 passed
+given sec3-1-2-4 test 1, ahamli02 passed
+given sec3-1-4-2 test 1, ahamli02 passed
+given sec3-2-1-4 test 1, ahamli02 passed
+given sec3-2-4-1 test 1, ahamli02 passed
+given sec3-4-1-2 test 1, ahamli02 passed
+given sec3-4-2-1 test 1, ahamli02 passed
+given sec4-1-2-3 test 1, ahamli02 passed
+given sec4-1-3-2 test 1, ahamli02 passed
+given sec4-2-1-3 test 1, ahamli02 passed
+given sec4-2-3-1 test 1, ahamli02 passed
+given sec4-3-1-2 test 1, ahamli02 passed
+given sec4-3-2-1 test 1, ahamli02 passed
+given addition-noself-pos-macro test 1, ahamli02 passed
+given addition-self-pos-macro test 1, ahamli02 passed
+given bitwise-and-noself-pos-macro test 1, ahamli02 passed
+given bitwise-and-self-pos-macro test 1, ahamli02 passed
+given bitwise-or-noself-pos-macro test 1, ahamli02 passed
+given complement-self-pos-macro test 1, ahamli02 passed
+given move-noself-pos-macro test 1, ahamli02 passed
+given move-self-pos-macro test 1, ahamli02 passed
+given negate-self-pos-macro test 1, ahamli02 passed
+given subtraction-noself-pos-macro test 1, ahamli02 passed
+given subtraction-self-pos-macro test 1, ahamli02 passed
+given bigout     test 1, ahamli02 passed
+given cat-abbrev test 1, ahamli02 passed
+given cat-nomacro test 1, ahamli02 passed
+given temps      test 1, ahamli02 passed
+given temps2     test 1, ahamli02 passed
+given temps3     test 1, ahamli02 passed
+given test       test 1, ahamli02 passed
+given hell2      test 1, ahamli02 passed
+given pushpop    test 1, ahamli02 passed
+given simple-add-macro test 1, ahamli02 passed
+given simple-add-self-macro test 1, ahamli02 passed
+given simple-com-macro test 1, ahamli02 passed
+given simple-com-self-macro test 1, ahamli02 passed
+given simple-mov-macro test 1, ahamli02 passed
+given simple-mov-self-macro test 1, ahamli02 passed
+given simple-neg-macro test 1, ahamli02 passed
+given simple-neg-self-macro test 1, ahamli02 passed
+given simple-or-macro test 1, ahamli02 passed
+given simple-sub-macro test 1, ahamli02 passed
+given simple-sub-self-macro test 1, ahamli02 passed
+given silent-sizes test 1, ahamli02 passed
+given simple-sizes test 1, ahamli02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, ahamli02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-pos-macro test 1, ahamli02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, ahamli02 failed -- running the .um found a discrepancy in the output
+given simple-or-self-macro test 1, ahamli02 failed -- running the .um found a discrepancy in the output
+given bizarre    test 1, ahamli02 failed -- trouble generating .um output; unexpected output on stderr
+given bigjump    test 1, akhaku01 passed
+given cat        test 1, akhaku01 passed
+given cgoto      test 1, akhaku01 passed
+given cond       test 1, akhaku01 passed
+given eq         test 1, akhaku01 passed
+given gt0        test 1, akhaku01 passed
+given halt       test 1, akhaku01 passed
+given hello      test 1, akhaku01 passed
+given lt         test 1, akhaku01 passed
+given ne         test 1, akhaku01 passed
+given neglit     test 1, akhaku01 passed
+given out        test 1, akhaku01 passed
+given scompare   test 1, akhaku01 passed
+given selfsub    test 1, akhaku01 passed
+given xor        test 1, akhaku01 passed
+given zcond      test 1, akhaku01 passed
+given addition-noself-macro test 1, akhaku01 passed
+given addition-self-macro test 1, akhaku01 passed
+given bitwise-and-noself-macro test 1, akhaku01 passed
+given bitwise-and-self-macro test 1, akhaku01 passed
+given bitwise-or-noself-macro test 1, akhaku01 passed
+given bitwise-or-self-macro test 1, akhaku01 passed
+given complement-self-macro test 1, akhaku01 passed
+given move-noself-macro test 1, akhaku01 passed
+given move-self-macro test 1, akhaku01 passed
+given negate-self-macro test 1, akhaku01 passed
+given subtraction-noself-macro test 1, akhaku01 passed
+given subtraction-self-macro test 1, akhaku01 passed
+given sec1-2-3-4 test 1, akhaku01 passed
+given sec1-2-4-3 test 1, akhaku01 passed
+given sec1-3-2-4 test 1, akhaku01 passed
+given sec1-3-4-2 test 1, akhaku01 passed
+given sec1-4-2-3 test 1, akhaku01 passed
+given sec1-4-3-2 test 1, akhaku01 passed
+given sec2-1-3-4 test 1, akhaku01 passed
+given sec2-1-4-3 test 1, akhaku01 passed
+given sec2-3-1-4 test 1, akhaku01 passed
+given sec2-3-4-1 test 1, akhaku01 passed
+given sec2-4-1-3 test 1, akhaku01 passed
+given sec2-4-3-1 test 1, akhaku01 passed
+given sec3-1-2-4 test 1, akhaku01 passed
+given sec3-1-4-2 test 1, akhaku01 passed
+given sec3-2-1-4 test 1, akhaku01 passed
+given sec3-2-4-1 test 1, akhaku01 passed
+given sec3-4-1-2 test 1, akhaku01 passed
+given sec3-4-2-1 test 1, akhaku01 passed
+given sec4-1-2-3 test 1, akhaku01 passed
+given sec4-1-3-2 test 1, akhaku01 passed
+given sec4-2-1-3 test 1, akhaku01 passed
+given sec4-2-3-1 test 1, akhaku01 passed
+given sec4-3-1-2 test 1, akhaku01 passed
+given sec4-3-2-1 test 1, akhaku01 passed
+given addition-noself-pos-macro test 1, akhaku01 passed
+given addition-self-pos-macro test 1, akhaku01 passed
+given bitwise-and-noself-pos-macro test 1, akhaku01 passed
+given bitwise-and-self-pos-macro test 1, akhaku01 passed
+given bitwise-or-noself-pos-macro test 1, akhaku01 passed
+given bitwise-or-self-pos-macro test 1, akhaku01 passed
+given complement-self-pos-macro test 1, akhaku01 passed
+given move-noself-pos-macro test 1, akhaku01 passed
+given move-self-pos-macro test 1, akhaku01 passed
+given negate-self-pos-macro test 1, akhaku01 passed
+given subtraction-noself-pos-macro test 1, akhaku01 passed
+given subtraction-self-pos-macro test 1, akhaku01 passed
+given bigout     test 1, akhaku01 passed
+given bizarre    test 1, akhaku01 passed
+given cat-abbrev test 1, akhaku01 passed
+given cat-nomacro test 1, akhaku01 passed
+given temps      test 1, akhaku01 passed
+given temps2     test 1, akhaku01 passed
+given temps3     test 1, akhaku01 passed
+given test       test 1, akhaku01 passed
+given hell2      test 1, akhaku01 passed
+given pushpop    test 1, akhaku01 passed
+given simple-add-macro test 1, akhaku01 passed
+given simple-add-self-macro test 1, akhaku01 passed
+given simple-com-macro test 1, akhaku01 passed
+given simple-com-self-macro test 1, akhaku01 passed
+given simple-mov-macro test 1, akhaku01 passed
+given simple-mov-self-macro test 1, akhaku01 passed
+given simple-neg-macro test 1, akhaku01 passed
+given simple-neg-self-macro test 1, akhaku01 passed
+given simple-or-macro test 1, akhaku01 passed
+given simple-or-self-macro test 1, akhaku01 passed
+given simple-sub-macro test 1, akhaku01 passed
+given simple-sub-self-macro test 1, akhaku01 passed
+given silent-sizes test 1, akhaku01 passed
+given simple-sizes test 1, akhaku01 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, akhaku01 failed -- running the .um found a discrepancy in the output
+given smallneglit test 1, akhaku01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, bsumne01 passed
+given cat        test 1, bsumne01 passed
+given cgoto      test 1, bsumne01 passed
+given cond       test 1, bsumne01 passed
+given eq         test 1, bsumne01 passed
+given gt0        test 1, bsumne01 passed
+given halt       test 1, bsumne01 passed
+given hello      test 1, bsumne01 passed
+given lt         test 1, bsumne01 passed
+given ne         test 1, bsumne01 passed
+given neglit     test 1, bsumne01 passed
+given out        test 1, bsumne01 passed
+given scompare   test 1, bsumne01 passed
+given selfsub    test 1, bsumne01 passed
+given smallneglit test 1, bsumne01 passed
+given xor        test 1, bsumne01 passed
+given zcond      test 1, bsumne01 passed
+given addition-noself-macro test 1, bsumne01 passed
+given addition-self-macro test 1, bsumne01 passed
+given bitwise-and-noself-macro test 1, bsumne01 passed
+given bitwise-and-self-macro test 1, bsumne01 passed
+given bitwise-or-noself-macro test 1, bsumne01 passed
+given bitwise-or-self-macro test 1, bsumne01 passed
+given complement-self-macro test 1, bsumne01 passed
+given move-noself-macro test 1, bsumne01 passed
+given move-self-macro test 1, bsumne01 passed
+given negate-self-macro test 1, bsumne01 passed
+given subtraction-noself-macro test 1, bsumne01 passed
+given subtraction-self-macro test 1, bsumne01 passed
+given sec1-2-3-4 test 1, bsumne01 passed
+given sec1-2-4-3 test 1, bsumne01 passed
+given sec1-3-2-4 test 1, bsumne01 passed
+given sec1-3-4-2 test 1, bsumne01 passed
+given sec1-4-2-3 test 1, bsumne01 passed
+given sec1-4-3-2 test 1, bsumne01 passed
+given sec2-1-3-4 test 1, bsumne01 passed
+given sec2-1-4-3 test 1, bsumne01 passed
+given sec2-3-1-4 test 1, bsumne01 passed
+given sec2-3-4-1 test 1, bsumne01 passed
+given sec2-4-1-3 test 1, bsumne01 passed
+given sec2-4-3-1 test 1, bsumne01 passed
+given sec3-1-2-4 test 1, bsumne01 passed
+given sec3-1-4-2 test 1, bsumne01 passed
+given sec3-2-1-4 test 1, bsumne01 passed
+given sec3-2-4-1 test 1, bsumne01 passed
+given sec3-4-1-2 test 1, bsumne01 passed
+given sec3-4-2-1 test 1, bsumne01 passed
+given sec4-1-2-3 test 1, bsumne01 passed
+given sec4-1-3-2 test 1, bsumne01 passed
+given sec4-2-1-3 test 1, bsumne01 passed
+given sec4-2-3-1 test 1, bsumne01 passed
+given sec4-3-1-2 test 1, bsumne01 passed
+given sec4-3-2-1 test 1, bsumne01 passed
+given addition-noself-pos-macro test 1, bsumne01 passed
+given addition-self-pos-macro test 1, bsumne01 passed
+given bitwise-and-noself-pos-macro test 1, bsumne01 passed
+given bitwise-and-self-pos-macro test 1, bsumne01 passed
+given bitwise-or-noself-pos-macro test 1, bsumne01 passed
+given bitwise-or-self-pos-macro test 1, bsumne01 passed
+given complement-self-pos-macro test 1, bsumne01 passed
+given move-noself-pos-macro test 1, bsumne01 passed
+given move-self-pos-macro test 1, bsumne01 passed
+given negate-self-pos-macro test 1, bsumne01 passed
+given subtraction-noself-pos-macro test 1, bsumne01 passed
+given subtraction-self-pos-macro test 1, bsumne01 passed
+given bigout     test 1, bsumne01 passed
+given bizarre    test 1, bsumne01 passed
+given cat-abbrev test 1, bsumne01 passed
+given cat-nomacro test 1, bsumne01 passed
+given temps      test 1, bsumne01 passed
+given temps2     test 1, bsumne01 passed
+given temps3     test 1, bsumne01 passed
+given test       test 1, bsumne01 passed
+given hell2      test 1, bsumne01 passed
+given pushpop    test 1, bsumne01 passed
+given simple-add-macro test 1, bsumne01 passed
+given simple-add-self-macro test 1, bsumne01 passed
+given simple-com-macro test 1, bsumne01 passed
+given simple-com-self-macro test 1, bsumne01 passed
+given simple-mov-macro test 1, bsumne01 passed
+given simple-mov-self-macro test 1, bsumne01 passed
+given simple-neg-macro test 1, bsumne01 passed
+given simple-neg-self-macro test 1, bsumne01 passed
+given simple-or-macro test 1, bsumne01 passed
+given simple-or-self-macro test 1, bsumne01 passed
+given simple-sub-macro test 1, bsumne01 passed
+given simple-sub-self-macro test 1, bsumne01 passed
+given silent-sizes test 1, bsumne01 passed
+given simple-sizes test 1, bsumne01 passed
+given sizes      test 1, bsumne01 passed
+given bigjump    test 1, bweitz02 passed
+given cat        test 1, bweitz02 passed
+given cgoto      test 1, bweitz02 passed
+given cond       test 1, bweitz02 passed
+given eq         test 1, bweitz02 passed
+given gt0        test 1, bweitz02 passed
+given halt       test 1, bweitz02 passed
+given hello      test 1, bweitz02 passed
+given lt         test 1, bweitz02 passed
+given ne         test 1, bweitz02 passed
+given neglit     test 1, bweitz02 passed
+given out        test 1, bweitz02 passed
+given scompare   test 1, bweitz02 passed
+given selfsub    test 1, bweitz02 passed
+given smallneglit test 1, bweitz02 passed
+given xor        test 1, bweitz02 passed
+given zcond      test 1, bweitz02 passed
+given sec1-2-3-4 test 1, bweitz02 passed
+given sec1-2-4-3 test 1, bweitz02 passed
+given sec1-3-2-4 test 1, bweitz02 passed
+given sec1-3-4-2 test 1, bweitz02 passed
+given sec1-4-2-3 test 1, bweitz02 passed
+given sec1-4-3-2 test 1, bweitz02 passed
+given sec2-1-3-4 test 1, bweitz02 passed
+given sec2-1-4-3 test 1, bweitz02 passed
+given sec2-3-1-4 test 1, bweitz02 passed
+given sec2-3-4-1 test 1, bweitz02 passed
+given sec2-4-1-3 test 1, bweitz02 passed
+given sec2-4-3-1 test 1, bweitz02 passed
+given sec3-1-2-4 test 1, bweitz02 passed
+given sec3-1-4-2 test 1, bweitz02 passed
+given sec3-2-1-4 test 1, bweitz02 passed
+given sec3-2-4-1 test 1, bweitz02 passed
+given sec3-4-1-2 test 1, bweitz02 passed
+given sec3-4-2-1 test 1, bweitz02 passed
+given sec4-1-2-3 test 1, bweitz02 passed
+given sec4-1-3-2 test 1, bweitz02 passed
+given sec4-2-1-3 test 1, bweitz02 passed
+given sec4-2-3-1 test 1, bweitz02 passed
+given sec4-3-1-2 test 1, bweitz02 passed
+given sec4-3-2-1 test 1, bweitz02 passed
+given hell2      test 1, bweitz02 passed
+given bigout     test 1, bweitz02 passed
+given bizarre    test 1, bweitz02 passed
+given cat-abbrev test 1, bweitz02 passed
+given cat-nomacro test 1, bweitz02 passed
+given temps      test 1, bweitz02 passed
+given temps2     test 1, bweitz02 passed
+given temps3     test 1, bweitz02 passed
+given test       test 1, bweitz02 passed
+given addition-noself-pos-macro test 1, bweitz02 passed
+given addition-self-pos-macro test 1, bweitz02 passed
+given bitwise-and-noself-pos-macro test 1, bweitz02 passed
+given bitwise-and-self-pos-macro test 1, bweitz02 passed
+given bitwise-or-self-pos-macro test 1, bweitz02 passed
+given complement-self-pos-macro test 1, bweitz02 passed
+given move-noself-pos-macro test 1, bweitz02 passed
+given move-self-pos-macro test 1, bweitz02 passed
+given negate-self-pos-macro test 1, bweitz02 passed
+given subtraction-noself-pos-macro test 1, bweitz02 passed
+given subtraction-self-pos-macro test 1, bweitz02 passed
+given simple-add-macro test 1, bweitz02 passed
+given simple-add-self-macro test 1, bweitz02 passed
+given simple-com-macro test 1, bweitz02 passed
+given simple-com-self-macro test 1, bweitz02 passed
+given simple-mov-macro test 1, bweitz02 passed
+given simple-mov-self-macro test 1, bweitz02 passed
+given simple-neg-macro test 1, bweitz02 passed
+given simple-neg-self-macro test 1, bweitz02 passed
+given simple-or-self-macro test 1, bweitz02 passed
+given simple-sub-macro test 1, bweitz02 passed
+given simple-sub-self-macro test 1, bweitz02 passed
+given silent-sizes test 1, bweitz02 passed
+given simple-sizes test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-pos-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given addition-noself-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given simple-or-macro test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given pushpop    test 1, bweitz02 failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given cat        test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given cgoto      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given cond       test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given eq         test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given gt0        test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given halt       test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given hello      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given lt         test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given ne         test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given neglit     test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given out        test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given scompare   test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given selfsub    test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given smallneglit test 1, cbrink failed -- trouble generating .um output; unexpected output on stderr
+given xor        test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given zcond      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given addition-noself-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given addition-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-and-noself-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-and-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-or-noself-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-or-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given complement-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given move-noself-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given move-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given negate-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given subtraction-noself-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given subtraction-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-2-3-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-2-4-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-3-2-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-3-4-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-4-2-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec1-4-3-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-1-3-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-1-4-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-3-1-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-3-4-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-4-1-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec2-4-3-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-1-2-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-1-4-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-2-1-4 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-2-4-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-4-1-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec3-4-2-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-1-2-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-1-3-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-2-1-3 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-2-3-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-3-1-2 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sec4-3-2-1 test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given addition-noself-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given addition-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given complement-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given move-noself-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given move-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given negate-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given subtraction-self-pos-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bigout     test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bizarre    test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given cat-abbrev test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given cat-nomacro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given temps      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given temps2     test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given temps3     test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given test       test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given hell2      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given pushpop    test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-add-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-add-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-com-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-com-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-mov-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-mov-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-neg-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-neg-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-or-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-or-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-sub-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-sub-self-macro test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given silent-sizes test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given simple-sizes test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given sizes      test 1, cbrink failed -- trouble generating .um output; Left files in test directory; unexpected output on stderr
+given bigout     test 1, clangb01 passed
+given bizarre    test 1, clangb01 passed
+given cat-abbrev test 1, clangb01 passed
+given cat-nomacro test 1, clangb01 passed
+given temps      test 1, clangb01 passed
+given temps2     test 1, clangb01 passed
+given temps3     test 1, clangb01 passed
+given test       test 1, clangb01 passed
+given bigjump    test 1, clangb01 passed
+given cat        test 1, clangb01 passed
+given cgoto      test 1, clangb01 passed
+given cond       test 1, clangb01 passed
+given eq         test 1, clangb01 passed
+given gt0        test 1, clangb01 passed
+given halt       test 1, clangb01 passed
+given hello      test 1, clangb01 passed
+given lt         test 1, clangb01 passed
+given ne         test 1, clangb01 passed
+given neglit     test 1, clangb01 passed
+given out        test 1, clangb01 passed
+given scompare   test 1, clangb01 passed
+given smallneglit test 1, clangb01 passed
+given xor        test 1, clangb01 passed
+given zcond      test 1, clangb01 passed
+given simple-add-macro test 1, clangb01 passed
+given simple-add-self-macro test 1, clangb01 passed
+given simple-com-macro test 1, clangb01 passed
+given simple-com-self-macro test 1, clangb01 passed
+given simple-mov-macro test 1, clangb01 passed
+given simple-mov-self-macro test 1, clangb01 passed
+given simple-neg-macro test 1, clangb01 passed
+given simple-or-macro test 1, clangb01 passed
+given simple-sub-macro test 1, clangb01 passed
+given silent-sizes test 1, clangb01 passed
+given selfsub    test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-2-4-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-3-2-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-3-4-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-4-2-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-4-3-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-1-3-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-1-4-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-3-1-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-3-4-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-4-1-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-4-3-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-1-2-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-1-4-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-2-1-4 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-2-4-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-4-1-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-4-2-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-1-2-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-1-3-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-2-1-3 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-2-3-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-3-1-2 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-3-2-1 test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given hell2      test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given pushpop    test 1, clangb01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-noself-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given addition-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given complement-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given move-noself-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given move-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given negate-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given subtraction-self-pos-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given simple-neg-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given simple-or-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given simple-sizes test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, clangb01 failed -- running the .um found a discrepancy in the output
+given cat-abbrev test 1, deder01 passed
+given cat-nomacro test 1, deder01 passed
+given temps      test 1, deder01 passed
+given temps2     test 1, deder01 passed
+given temps3     test 1, deder01 passed
+given test       test 1, deder01 passed
+given simple-add-macro test 1, deder01 passed
+given simple-add-self-macro test 1, deder01 passed
+given simple-com-macro test 1, deder01 passed
+given simple-com-self-macro test 1, deder01 passed
+given simple-mov-self-macro test 1, deder01 passed
+given simple-or-macro test 1, deder01 passed
+given simple-or-self-macro test 1, deder01 passed
+given cat        test 1, deder01 passed
+given cgoto      test 1, deder01 passed
+given cond       test 1, deder01 passed
+given eq         test 1, deder01 passed
+given halt       test 1, deder01 passed
+given hello      test 1, deder01 passed
+given lt         test 1, deder01 passed
+given ne         test 1, deder01 passed
+given neglit     test 1, deder01 passed
+given out        test 1, deder01 passed
+given smallneglit test 1, deder01 passed
+given xor        test 1, deder01 passed
+given bigjump    test 1, deder01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given gt0        test 1, deder01 failed -- running the .um found a discrepancy in the output
+given scompare   test 1, deder01 failed -- running the .um found a discrepancy in the output
+given selfsub    test 1, deder01 failed -- running the .um found a discrepancy in the output
+given zcond      test 1, deder01 failed -- running the .um found a discrepancy in the output
+given addition-noself-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-noself-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-noself-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given complement-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given move-noself-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given move-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given negate-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-noself-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-self-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-2-3-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec1-2-4-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec1-3-2-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec1-3-4-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec1-4-2-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec1-4-3-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-1-3-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-1-4-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-3-1-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-3-4-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-4-1-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec2-4-3-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-1-2-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-1-4-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-2-1-4 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-2-4-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-4-1-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec3-4-2-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-1-2-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-1-3-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-2-1-3 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-2-3-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-3-1-2 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given sec4-3-2-1 test 1, deder01 failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given complement-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given move-noself-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given move-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given negate-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-self-pos-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bigout     test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given bizarre    test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given hell2      test 1, deder01 failed -- running the .um found a discrepancy in the output
+given pushpop    test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given simple-mov-macro test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given simple-neg-macro test 1, deder01 failed -- running the .um found a discrepancy in the output
+given simple-neg-self-macro test 1, deder01 failed -- running the .um found a discrepancy in the output
+given simple-sub-macro test 1, deder01 failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, deder01 failed -- running the .um found a discrepancy in the output
+given silent-sizes test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given simple-sizes test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given sizes      test 1, deder01 failed -- trouble generating .um output; unexpected output on stderr
+given cat-abbrev test 1, dporte01 passed
+given cat-nomacro test 1, dporte01 passed
+given temps      test 1, dporte01 passed
+given temps2     test 1, dporte01 passed
+given test       test 1, dporte01 passed
+given bigjump    test 1, dporte01 passed
+given cat        test 1, dporte01 passed
+given cgoto      test 1, dporte01 passed
+given eq         test 1, dporte01 passed
+given halt       test 1, dporte01 passed
+given hello      test 1, dporte01 passed
+given ne         test 1, dporte01 passed
+given out        test 1, dporte01 passed
+given cond       test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given gt0        test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given lt         test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given neglit     test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given scompare   test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given selfsub    test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given smallneglit test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given xor        test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given zcond      test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-3-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-pos-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigout     test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bizarre    test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given temps3     test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-com-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-com-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-mov-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-mov-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-neg-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-neg-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sub-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sub-self-macro test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given silent-sizes test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sizes test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sizes      test 1, dporte01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, dshah07 passed
+given cat        test 1, dshah07 passed
+given cgoto      test 1, dshah07 passed
+given cond       test 1, dshah07 passed
+given eq         test 1, dshah07 passed
+given gt0        test 1, dshah07 passed
+given halt       test 1, dshah07 passed
+given hello      test 1, dshah07 passed
+given lt         test 1, dshah07 passed
+given ne         test 1, dshah07 passed
+given neglit     test 1, dshah07 passed
+given out        test 1, dshah07 passed
+given scompare   test 1, dshah07 passed
+given selfsub    test 1, dshah07 passed
+given smallneglit test 1, dshah07 passed
+given xor        test 1, dshah07 passed
+given zcond      test 1, dshah07 passed
+given addition-noself-macro test 1, dshah07 passed
+given addition-self-macro test 1, dshah07 passed
+given bitwise-and-noself-macro test 1, dshah07 passed
+given bitwise-and-self-macro test 1, dshah07 passed
+given bitwise-or-noself-macro test 1, dshah07 passed
+given bitwise-or-self-macro test 1, dshah07 passed
+given complement-self-macro test 1, dshah07 passed
+given move-noself-macro test 1, dshah07 passed
+given move-self-macro test 1, dshah07 passed
+given negate-self-macro test 1, dshah07 passed
+given subtraction-noself-macro test 1, dshah07 passed
+given subtraction-self-macro test 1, dshah07 passed
+given sec1-2-3-4 test 1, dshah07 passed
+given sec1-2-4-3 test 1, dshah07 passed
+given sec1-3-2-4 test 1, dshah07 passed
+given sec1-3-4-2 test 1, dshah07 passed
+given sec1-4-2-3 test 1, dshah07 passed
+given sec1-4-3-2 test 1, dshah07 passed
+given sec2-1-3-4 test 1, dshah07 passed
+given sec2-1-4-3 test 1, dshah07 passed
+given sec2-3-1-4 test 1, dshah07 passed
+given sec2-3-4-1 test 1, dshah07 passed
+given sec2-4-1-3 test 1, dshah07 passed
+given sec2-4-3-1 test 1, dshah07 passed
+given sec3-1-2-4 test 1, dshah07 passed
+given sec3-1-4-2 test 1, dshah07 passed
+given sec3-2-1-4 test 1, dshah07 passed
+given sec3-2-4-1 test 1, dshah07 passed
+given sec3-4-1-2 test 1, dshah07 passed
+given sec3-4-2-1 test 1, dshah07 passed
+given sec4-1-2-3 test 1, dshah07 passed
+given sec4-1-3-2 test 1, dshah07 passed
+given sec4-2-1-3 test 1, dshah07 passed
+given sec4-2-3-1 test 1, dshah07 passed
+given sec4-3-1-2 test 1, dshah07 passed
+given sec4-3-2-1 test 1, dshah07 passed
+given addition-noself-pos-macro test 1, dshah07 passed
+given addition-self-pos-macro test 1, dshah07 passed
+given bitwise-and-noself-pos-macro test 1, dshah07 passed
+given bitwise-and-self-pos-macro test 1, dshah07 passed
+given bitwise-or-noself-pos-macro test 1, dshah07 passed
+given bitwise-or-self-pos-macro test 1, dshah07 passed
+given complement-self-pos-macro test 1, dshah07 passed
+given move-noself-pos-macro test 1, dshah07 passed
+given move-self-pos-macro test 1, dshah07 passed
+given negate-self-pos-macro test 1, dshah07 passed
+given subtraction-noself-pos-macro test 1, dshah07 passed
+given subtraction-self-pos-macro test 1, dshah07 passed
+given bigout     test 1, dshah07 passed
+given bizarre    test 1, dshah07 passed
+given cat-abbrev test 1, dshah07 passed
+given cat-nomacro test 1, dshah07 passed
+given temps      test 1, dshah07 passed
+given temps2     test 1, dshah07 passed
+given temps3     test 1, dshah07 passed
+given test       test 1, dshah07 passed
+given hell2      test 1, dshah07 passed
+given pushpop    test 1, dshah07 passed
+given simple-add-macro test 1, dshah07 passed
+given simple-add-self-macro test 1, dshah07 passed
+given simple-com-macro test 1, dshah07 passed
+given simple-com-self-macro test 1, dshah07 passed
+given simple-mov-macro test 1, dshah07 passed
+given simple-mov-self-macro test 1, dshah07 passed
+given simple-neg-macro test 1, dshah07 passed
+given simple-neg-self-macro test 1, dshah07 passed
+given simple-or-macro test 1, dshah07 passed
+given simple-or-self-macro test 1, dshah07 passed
+given simple-sub-macro test 1, dshah07 passed
+given simple-sub-self-macro test 1, dshah07 passed
+given silent-sizes test 1, dshah07 passed
+given simple-sizes test 1, dshah07 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, dshah07 failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, ealter01 passed
+given cat        test 1, ealter01 passed
+given cgoto      test 1, ealter01 passed
+given cond       test 1, ealter01 passed
+given eq         test 1, ealter01 passed
+given gt0        test 1, ealter01 passed
+given halt       test 1, ealter01 passed
+given hello      test 1, ealter01 passed
+given lt         test 1, ealter01 passed
+given ne         test 1, ealter01 passed
+given neglit     test 1, ealter01 passed
+given out        test 1, ealter01 passed
+given scompare   test 1, ealter01 passed
+given selfsub    test 1, ealter01 passed
+given smallneglit test 1, ealter01 passed
+given xor        test 1, ealter01 passed
+given zcond      test 1, ealter01 passed
+given addition-noself-macro test 1, ealter01 passed
+given addition-self-macro test 1, ealter01 passed
+given bitwise-and-noself-macro test 1, ealter01 passed
+given bitwise-and-self-macro test 1, ealter01 passed
+given bitwise-or-noself-macro test 1, ealter01 passed
+given bitwise-or-self-macro test 1, ealter01 passed
+given complement-self-macro test 1, ealter01 passed
+given move-noself-macro test 1, ealter01 passed
+given move-self-macro test 1, ealter01 passed
+given negate-self-macro test 1, ealter01 passed
+given subtraction-noself-macro test 1, ealter01 passed
+given subtraction-self-macro test 1, ealter01 passed
+given sec1-2-3-4 test 1, ealter01 passed
+given sec1-2-4-3 test 1, ealter01 passed
+given sec1-3-2-4 test 1, ealter01 passed
+given sec1-3-4-2 test 1, ealter01 passed
+given sec1-4-2-3 test 1, ealter01 passed
+given sec1-4-3-2 test 1, ealter01 passed
+given sec2-1-3-4 test 1, ealter01 passed
+given sec2-1-4-3 test 1, ealter01 passed
+given sec2-3-1-4 test 1, ealter01 passed
+given sec2-3-4-1 test 1, ealter01 passed
+given sec2-4-1-3 test 1, ealter01 passed
+given sec2-4-3-1 test 1, ealter01 passed
+given sec3-1-2-4 test 1, ealter01 passed
+given sec3-1-4-2 test 1, ealter01 passed
+given sec3-2-1-4 test 1, ealter01 passed
+given sec3-2-4-1 test 1, ealter01 passed
+given sec3-4-1-2 test 1, ealter01 passed
+given sec3-4-2-1 test 1, ealter01 passed
+given sec4-1-2-3 test 1, ealter01 passed
+given sec4-1-3-2 test 1, ealter01 passed
+given sec4-2-1-3 test 1, ealter01 passed
+given sec4-2-3-1 test 1, ealter01 passed
+given sec4-3-1-2 test 1, ealter01 passed
+given sec4-3-2-1 test 1, ealter01 passed
+given addition-noself-pos-macro test 1, ealter01 passed
+given addition-self-pos-macro test 1, ealter01 passed
+given bitwise-and-noself-pos-macro test 1, ealter01 passed
+given bitwise-and-self-pos-macro test 1, ealter01 passed
+given bitwise-or-noself-pos-macro test 1, ealter01 passed
+given bitwise-or-self-pos-macro test 1, ealter01 passed
+given complement-self-pos-macro test 1, ealter01 passed
+given move-noself-pos-macro test 1, ealter01 passed
+given move-self-pos-macro test 1, ealter01 passed
+given negate-self-pos-macro test 1, ealter01 passed
+given subtraction-noself-pos-macro test 1, ealter01 passed
+given subtraction-self-pos-macro test 1, ealter01 passed
+given bigout     test 1, ealter01 passed
+given bizarre    test 1, ealter01 passed
+given cat-abbrev test 1, ealter01 passed
+given cat-nomacro test 1, ealter01 passed
+given temps      test 1, ealter01 passed
+given temps2     test 1, ealter01 passed
+given temps3     test 1, ealter01 passed
+given test       test 1, ealter01 passed
+given hell2      test 1, ealter01 passed
+given pushpop    test 1, ealter01 passed
+given simple-add-macro test 1, ealter01 passed
+given simple-add-self-macro test 1, ealter01 passed
+given simple-com-macro test 1, ealter01 passed
+given simple-com-self-macro test 1, ealter01 passed
+given simple-mov-macro test 1, ealter01 passed
+given simple-mov-self-macro test 1, ealter01 passed
+given simple-neg-macro test 1, ealter01 passed
+given simple-neg-self-macro test 1, ealter01 passed
+given simple-or-macro test 1, ealter01 passed
+given simple-or-self-macro test 1, ealter01 passed
+given simple-sub-macro test 1, ealter01 passed
+given simple-sub-self-macro test 1, ealter01 passed
+given silent-sizes test 1, ealter01 passed
+given simple-sizes test 1, ealter01 passed
+given sizes      test 1, ealter01 passed
+given bigjump    test 1, ewu02 passed
+given cat        test 1, ewu02 passed
+given cgoto      test 1, ewu02 passed
+given cond       test 1, ewu02 passed
+given eq         test 1, ewu02 passed
+given gt0        test 1, ewu02 passed
+given halt       test 1, ewu02 passed
+given hello      test 1, ewu02 passed
+given lt         test 1, ewu02 passed
+given ne         test 1, ewu02 passed
+given neglit     test 1, ewu02 passed
+given out        test 1, ewu02 passed
+given scompare   test 1, ewu02 passed
+given selfsub    test 1, ewu02 passed
+given smallneglit test 1, ewu02 passed
+given xor        test 1, ewu02 passed
+given zcond      test 1, ewu02 passed
+given addition-noself-macro test 1, ewu02 passed
+given addition-self-macro test 1, ewu02 passed
+given bitwise-and-noself-macro test 1, ewu02 passed
+given bitwise-and-self-macro test 1, ewu02 passed
+given bitwise-or-noself-macro test 1, ewu02 passed
+given bitwise-or-self-macro test 1, ewu02 passed
+given complement-self-macro test 1, ewu02 passed
+given move-noself-macro test 1, ewu02 passed
+given move-self-macro test 1, ewu02 passed
+given negate-self-macro test 1, ewu02 passed
+given subtraction-noself-macro test 1, ewu02 passed
+given subtraction-self-macro test 1, ewu02 passed
+given sec1-2-3-4 test 1, ewu02 passed
+given sec1-2-4-3 test 1, ewu02 passed
+given sec1-3-2-4 test 1, ewu02 passed
+given sec1-3-4-2 test 1, ewu02 passed
+given sec1-4-2-3 test 1, ewu02 passed
+given sec1-4-3-2 test 1, ewu02 passed
+given sec2-1-3-4 test 1, ewu02 passed
+given sec2-1-4-3 test 1, ewu02 passed
+given sec2-3-1-4 test 1, ewu02 passed
+given sec2-3-4-1 test 1, ewu02 passed
+given sec2-4-1-3 test 1, ewu02 passed
+given sec2-4-3-1 test 1, ewu02 passed
+given sec3-1-2-4 test 1, ewu02 passed
+given sec3-1-4-2 test 1, ewu02 passed
+given sec3-2-1-4 test 1, ewu02 passed
+given sec3-2-4-1 test 1, ewu02 passed
+given sec3-4-1-2 test 1, ewu02 passed
+given sec3-4-2-1 test 1, ewu02 passed
+given sec4-1-2-3 test 1, ewu02 passed
+given sec4-1-3-2 test 1, ewu02 passed
+given sec4-2-1-3 test 1, ewu02 passed
+given sec4-2-3-1 test 1, ewu02 passed
+given sec4-3-1-2 test 1, ewu02 passed
+given sec4-3-2-1 test 1, ewu02 passed
+given addition-noself-pos-macro test 1, ewu02 passed
+given addition-self-pos-macro test 1, ewu02 passed
+given bitwise-and-noself-pos-macro test 1, ewu02 passed
+given bitwise-and-self-pos-macro test 1, ewu02 passed
+given bitwise-or-noself-pos-macro test 1, ewu02 passed
+given bitwise-or-self-pos-macro test 1, ewu02 passed
+given complement-self-pos-macro test 1, ewu02 passed
+given move-noself-pos-macro test 1, ewu02 passed
+given move-self-pos-macro test 1, ewu02 passed
+given negate-self-pos-macro test 1, ewu02 passed
+given subtraction-noself-pos-macro test 1, ewu02 passed
+given subtraction-self-pos-macro test 1, ewu02 passed
+given bigout     test 1, ewu02 passed
+given bizarre    test 1, ewu02 passed
+given cat-abbrev test 1, ewu02 passed
+given cat-nomacro test 1, ewu02 passed
+given temps      test 1, ewu02 passed
+given temps2     test 1, ewu02 passed
+given temps3     test 1, ewu02 passed
+given test       test 1, ewu02 passed
+given hell2      test 1, ewu02 passed
+given pushpop    test 1, ewu02 passed
+given simple-add-macro test 1, ewu02 passed
+given simple-add-self-macro test 1, ewu02 passed
+given simple-com-macro test 1, ewu02 passed
+given simple-com-self-macro test 1, ewu02 passed
+given simple-mov-macro test 1, ewu02 passed
+given simple-mov-self-macro test 1, ewu02 passed
+given simple-neg-macro test 1, ewu02 passed
+given simple-neg-self-macro test 1, ewu02 passed
+given simple-or-macro test 1, ewu02 passed
+given simple-or-self-macro test 1, ewu02 passed
+given simple-sub-macro test 1, ewu02 passed
+given simple-sub-self-macro test 1, ewu02 passed
+given silent-sizes test 1, ewu02 passed
+given simple-sizes test 1, ewu02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, ewu02 failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, gwong05 passed
+given cat        test 1, gwong05 passed
+given cgoto      test 1, gwong05 passed
+given cond       test 1, gwong05 passed
+given eq         test 1, gwong05 passed
+given gt0        test 1, gwong05 passed
+given halt       test 1, gwong05 passed
+given hello      test 1, gwong05 passed
+given lt         test 1, gwong05 passed
+given ne         test 1, gwong05 passed
+given neglit     test 1, gwong05 passed
+given out        test 1, gwong05 passed
+given scompare   test 1, gwong05 passed
+given selfsub    test 1, gwong05 passed
+given smallneglit test 1, gwong05 passed
+given xor        test 1, gwong05 passed
+given zcond      test 1, gwong05 passed
+given silent-sizes test 1, gwong05 passed
+given addition-noself-pos-macro test 1, gwong05 passed
+given addition-self-pos-macro test 1, gwong05 passed
+given bitwise-and-noself-pos-macro test 1, gwong05 passed
+given bitwise-and-self-pos-macro test 1, gwong05 passed
+given bitwise-or-noself-pos-macro test 1, gwong05 passed
+given bitwise-or-self-pos-macro test 1, gwong05 passed
+given complement-self-pos-macro test 1, gwong05 passed
+given move-noself-pos-macro test 1, gwong05 passed
+given move-self-pos-macro test 1, gwong05 passed
+given negate-self-pos-macro test 1, gwong05 passed
+given subtraction-noself-pos-macro test 1, gwong05 passed
+given subtraction-self-pos-macro test 1, gwong05 passed
+given bigout     test 1, gwong05 passed
+given bizarre    test 1, gwong05 passed
+given cat-abbrev test 1, gwong05 passed
+given cat-nomacro test 1, gwong05 passed
+given temps      test 1, gwong05 passed
+given temps2     test 1, gwong05 passed
+given temps3     test 1, gwong05 passed
+given test       test 1, gwong05 passed
+given simple-add-macro test 1, gwong05 passed
+given simple-add-self-macro test 1, gwong05 passed
+given simple-com-macro test 1, gwong05 passed
+given simple-com-self-macro test 1, gwong05 passed
+given simple-mov-macro test 1, gwong05 passed
+given simple-mov-self-macro test 1, gwong05 passed
+given simple-neg-macro test 1, gwong05 passed
+given simple-neg-self-macro test 1, gwong05 passed
+given simple-or-macro test 1, gwong05 passed
+given simple-or-self-macro test 1, gwong05 passed
+given simple-sub-macro test 1, gwong05 passed
+given simple-sub-self-macro test 1, gwong05 passed
+given addition-noself-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given simple-sizes test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, gwong05 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-2-4-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-3-2-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-3-4-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-4-2-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-4-3-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-1-3-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-1-4-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-3-1-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-3-4-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-4-1-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec2-4-3-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-1-2-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-1-4-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-2-1-4 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-2-4-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-4-1-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec3-4-2-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-1-2-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-1-3-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-2-1-3 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-2-3-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-3-1-2 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given sec4-3-2-1 test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given hell2      test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given pushpop    test 1, gwong05 failed -- trouble generating .um output; unexpected output on stderr
+given temps3     test 1, hgarza01 passed
+given halt       test 1, hgarza01 passed
+given hello      test 1, hgarza01 passed
+given out        test 1, hgarza01 passed
+given bigjump    test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given cat        test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given cgoto      test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given cond       test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given eq         test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given gt0        test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given lt         test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given ne         test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given neglit     test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given scompare   test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given selfsub    test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given smallneglit test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given xor        test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given zcond      test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given addition-noself-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-3-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-pos-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigout     test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bizarre    test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given cat-abbrev test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given cat-nomacro test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given temps      test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given temps2     test 1, hgarza01 failed -- running the .um found a discrepancy in the output
+given test       test 1, hgarza01 failed -- trouble generating .um output; unexpected output on stderr
+given hell2      test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-com-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-com-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-mov-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-mov-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-neg-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-neg-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sub-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sub-self-macro test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given silent-sizes test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sizes test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sizes      test 1, hgarza01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, hnasar01 passed
+given cat        test 1, hnasar01 passed
+given cgoto      test 1, hnasar01 passed
+given cond       test 1, hnasar01 passed
+given eq         test 1, hnasar01 passed
+given gt0        test 1, hnasar01 passed
+given halt       test 1, hnasar01 passed
+given hello      test 1, hnasar01 passed
+given lt         test 1, hnasar01 passed
+given ne         test 1, hnasar01 passed
+given neglit     test 1, hnasar01 passed
+given out        test 1, hnasar01 passed
+given scompare   test 1, hnasar01 passed
+given selfsub    test 1, hnasar01 passed
+given smallneglit test 1, hnasar01 passed
+given xor        test 1, hnasar01 passed
+given zcond      test 1, hnasar01 passed
+given sec1-2-3-4 test 1, hnasar01 passed
+given sec1-2-4-3 test 1, hnasar01 passed
+given sec1-3-2-4 test 1, hnasar01 passed
+given sec1-3-4-2 test 1, hnasar01 passed
+given sec1-4-2-3 test 1, hnasar01 passed
+given sec1-4-3-2 test 1, hnasar01 passed
+given sec2-1-3-4 test 1, hnasar01 passed
+given sec2-1-4-3 test 1, hnasar01 passed
+given sec2-3-1-4 test 1, hnasar01 passed
+given sec2-3-4-1 test 1, hnasar01 passed
+given sec2-4-1-3 test 1, hnasar01 passed
+given sec2-4-3-1 test 1, hnasar01 passed
+given sec3-1-2-4 test 1, hnasar01 passed
+given sec3-1-4-2 test 1, hnasar01 passed
+given sec3-2-1-4 test 1, hnasar01 passed
+given sec3-2-4-1 test 1, hnasar01 passed
+given sec3-4-1-2 test 1, hnasar01 passed
+given sec3-4-2-1 test 1, hnasar01 passed
+given sec4-1-2-3 test 1, hnasar01 passed
+given sec4-1-3-2 test 1, hnasar01 passed
+given sec4-2-1-3 test 1, hnasar01 passed
+given sec4-2-3-1 test 1, hnasar01 passed
+given sec4-3-1-2 test 1, hnasar01 passed
+given sec4-3-2-1 test 1, hnasar01 passed
+given hell2      test 1, hnasar01 passed
+given pushpop    test 1, hnasar01 passed
+given bigout     test 1, hnasar01 passed
+given bizarre    test 1, hnasar01 passed
+given cat-abbrev test 1, hnasar01 passed
+given cat-nomacro test 1, hnasar01 passed
+given temps      test 1, hnasar01 passed
+given temps2     test 1, hnasar01 passed
+given temps3     test 1, hnasar01 passed
+given test       test 1, hnasar01 passed
+given addition-noself-pos-macro test 1, hnasar01 passed
+given addition-self-pos-macro test 1, hnasar01 passed
+given bitwise-and-noself-pos-macro test 1, hnasar01 passed
+given bitwise-and-self-pos-macro test 1, hnasar01 passed
+given bitwise-or-noself-pos-macro test 1, hnasar01 passed
+given bitwise-or-self-pos-macro test 1, hnasar01 passed
+given complement-self-pos-macro test 1, hnasar01 passed
+given move-noself-pos-macro test 1, hnasar01 passed
+given move-self-pos-macro test 1, hnasar01 passed
+given negate-self-pos-macro test 1, hnasar01 passed
+given subtraction-noself-pos-macro test 1, hnasar01 passed
+given subtraction-self-pos-macro test 1, hnasar01 passed
+given simple-add-macro test 1, hnasar01 passed
+given simple-add-self-macro test 1, hnasar01 passed
+given simple-com-macro test 1, hnasar01 passed
+given simple-com-self-macro test 1, hnasar01 passed
+given simple-mov-macro test 1, hnasar01 passed
+given simple-mov-self-macro test 1, hnasar01 passed
+given simple-neg-macro test 1, hnasar01 passed
+given simple-neg-self-macro test 1, hnasar01 passed
+given simple-or-macro test 1, hnasar01 passed
+given simple-or-self-macro test 1, hnasar01 passed
+given simple-sub-macro test 1, hnasar01 passed
+given simple-sub-self-macro test 1, hnasar01 passed
+given silent-sizes test 1, hnasar01 passed
+given simple-sizes test 1, hnasar01 passed
+given addition-noself-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, hnasar01 failed -- running the .um found a discrepancy in the output
+given halt       test 1, ifried01 passed
+given hello      test 1, ifried01 passed
+given out        test 1, ifried01 passed
+given selfsub    test 1, ifried01 passed
+given smallneglit test 1, ifried01 passed
+given simple-add-macro test 1, ifried01 passed
+given simple-add-self-macro test 1, ifried01 passed
+given simple-com-macro test 1, ifried01 passed
+given simple-com-self-macro test 1, ifried01 passed
+given simple-mov-macro test 1, ifried01 passed
+given simple-mov-self-macro test 1, ifried01 passed
+given simple-neg-macro test 1, ifried01 passed
+given simple-neg-self-macro test 1, ifried01 passed
+given simple-or-macro test 1, ifried01 passed
+given simple-sub-macro test 1, ifried01 passed
+given simple-sub-self-macro test 1, ifried01 passed
+given sec1-2-3-4 test 1, ifried01 passed
+given sec1-2-4-3 test 1, ifried01 passed
+given sec1-3-2-4 test 1, ifried01 passed
+given sec1-3-4-2 test 1, ifried01 passed
+given sec1-4-2-3 test 1, ifried01 passed
+given sec1-4-3-2 test 1, ifried01 passed
+given sec2-1-3-4 test 1, ifried01 passed
+given sec2-1-4-3 test 1, ifried01 passed
+given sec2-3-1-4 test 1, ifried01 passed
+given sec2-3-4-1 test 1, ifried01 passed
+given sec2-4-1-3 test 1, ifried01 passed
+given sec2-4-3-1 test 1, ifried01 passed
+given sec3-1-2-4 test 1, ifried01 passed
+given sec3-1-4-2 test 1, ifried01 passed
+given sec3-2-1-4 test 1, ifried01 passed
+given sec3-2-4-1 test 1, ifried01 passed
+given sec3-4-1-2 test 1, ifried01 passed
+given sec3-4-2-1 test 1, ifried01 passed
+given sec4-1-2-3 test 1, ifried01 passed
+given sec4-1-3-2 test 1, ifried01 passed
+given sec4-2-1-3 test 1, ifried01 passed
+given sec4-2-3-1 test 1, ifried01 passed
+given sec4-3-1-2 test 1, ifried01 passed
+given sec4-3-2-1 test 1, ifried01 passed
+given bigjump    test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given cat        test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given cgoto      test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given cond       test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given eq         test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given gt0        test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given lt         test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given ne         test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given neglit     test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given scompare   test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given xor        test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given zcond      test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given silent-sizes test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given simple-sizes test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sizes      test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given hell2      test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given addition-noself-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigout     test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bizarre    test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given cat-abbrev test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given cat-nomacro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given temps      test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given temps2     test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given temps3     test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given test       test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-self-macro test 1, ifried01 failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given complement-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-noself-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given move-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given negate-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given subtraction-self-pos-macro test 1, ifried01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, jkenne05 passed
+given cat        test 1, jkenne05 passed
+given cgoto      test 1, jkenne05 passed
+given cond       test 1, jkenne05 passed
+given eq         test 1, jkenne05 passed
+given gt0        test 1, jkenne05 passed
+given halt       test 1, jkenne05 passed
+given hello      test 1, jkenne05 passed
+given lt         test 1, jkenne05 passed
+given ne         test 1, jkenne05 passed
+given neglit     test 1, jkenne05 passed
+given out        test 1, jkenne05 passed
+given scompare   test 1, jkenne05 passed
+given selfsub    test 1, jkenne05 passed
+given smallneglit test 1, jkenne05 passed
+given xor        test 1, jkenne05 passed
+given zcond      test 1, jkenne05 passed
+given addition-noself-macro test 1, jkenne05 passed
+given addition-self-macro test 1, jkenne05 passed
+given bitwise-and-noself-macro test 1, jkenne05 passed
+given bitwise-and-self-macro test 1, jkenne05 passed
+given bitwise-or-noself-macro test 1, jkenne05 passed
+given bitwise-or-self-macro test 1, jkenne05 passed
+given complement-self-macro test 1, jkenne05 passed
+given move-noself-macro test 1, jkenne05 passed
+given move-self-macro test 1, jkenne05 passed
+given negate-self-macro test 1, jkenne05 passed
+given subtraction-noself-macro test 1, jkenne05 passed
+given subtraction-self-macro test 1, jkenne05 passed
+given sec1-2-3-4 test 1, jkenne05 passed
+given sec1-2-4-3 test 1, jkenne05 passed
+given sec1-3-2-4 test 1, jkenne05 passed
+given sec1-3-4-2 test 1, jkenne05 passed
+given sec1-4-2-3 test 1, jkenne05 passed
+given sec1-4-3-2 test 1, jkenne05 passed
+given sec2-1-3-4 test 1, jkenne05 passed
+given sec2-1-4-3 test 1, jkenne05 passed
+given sec2-3-1-4 test 1, jkenne05 passed
+given sec2-3-4-1 test 1, jkenne05 passed
+given sec2-4-1-3 test 1, jkenne05 passed
+given sec2-4-3-1 test 1, jkenne05 passed
+given sec3-1-2-4 test 1, jkenne05 passed
+given sec3-1-4-2 test 1, jkenne05 passed
+given sec3-2-1-4 test 1, jkenne05 passed
+given sec3-2-4-1 test 1, jkenne05 passed
+given sec3-4-1-2 test 1, jkenne05 passed
+given sec3-4-2-1 test 1, jkenne05 passed
+given sec4-1-2-3 test 1, jkenne05 passed
+given sec4-1-3-2 test 1, jkenne05 passed
+given sec4-2-1-3 test 1, jkenne05 passed
+given sec4-2-3-1 test 1, jkenne05 passed
+given sec4-3-1-2 test 1, jkenne05 passed
+given sec4-3-2-1 test 1, jkenne05 passed
+given addition-noself-pos-macro test 1, jkenne05 passed
+given addition-self-pos-macro test 1, jkenne05 passed
+given bitwise-and-noself-pos-macro test 1, jkenne05 passed
+given bitwise-and-self-pos-macro test 1, jkenne05 passed
+given bitwise-or-noself-pos-macro test 1, jkenne05 passed
+given bitwise-or-self-pos-macro test 1, jkenne05 passed
+given complement-self-pos-macro test 1, jkenne05 passed
+given move-noself-pos-macro test 1, jkenne05 passed
+given move-self-pos-macro test 1, jkenne05 passed
+given negate-self-pos-macro test 1, jkenne05 passed
+given subtraction-noself-pos-macro test 1, jkenne05 passed
+given subtraction-self-pos-macro test 1, jkenne05 passed
+given bigout     test 1, jkenne05 passed
+given bizarre    test 1, jkenne05 passed
+given cat-abbrev test 1, jkenne05 passed
+given cat-nomacro test 1, jkenne05 passed
+given temps      test 1, jkenne05 passed
+given temps2     test 1, jkenne05 passed
+given temps3     test 1, jkenne05 passed
+given test       test 1, jkenne05 passed
+given hell2      test 1, jkenne05 passed
+given pushpop    test 1, jkenne05 passed
+given simple-add-macro test 1, jkenne05 passed
+given simple-add-self-macro test 1, jkenne05 passed
+given simple-com-macro test 1, jkenne05 passed
+given simple-com-self-macro test 1, jkenne05 passed
+given simple-mov-macro test 1, jkenne05 passed
+given simple-mov-self-macro test 1, jkenne05 passed
+given simple-neg-macro test 1, jkenne05 passed
+given simple-neg-self-macro test 1, jkenne05 passed
+given simple-or-macro test 1, jkenne05 passed
+given simple-or-self-macro test 1, jkenne05 passed
+given simple-sub-macro test 1, jkenne05 passed
+given simple-sub-self-macro test 1, jkenne05 passed
+given silent-sizes test 1, jkenne05 passed
+given simple-sizes test 1, jkenne05 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, jkenne05 failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, jtan03 passed
+given cat        test 1, jtan03 passed
+given cgoto      test 1, jtan03 passed
+given cond       test 1, jtan03 passed
+given eq         test 1, jtan03 passed
+given gt0        test 1, jtan03 passed
+given halt       test 1, jtan03 passed
+given hello      test 1, jtan03 passed
+given lt         test 1, jtan03 passed
+given ne         test 1, jtan03 passed
+given neglit     test 1, jtan03 passed
+given out        test 1, jtan03 passed
+given scompare   test 1, jtan03 passed
+given smallneglit test 1, jtan03 passed
+given xor        test 1, jtan03 passed
+given zcond      test 1, jtan03 passed
+given sec1-2-3-4 test 1, jtan03 passed
+given sec1-2-4-3 test 1, jtan03 passed
+given sec1-3-2-4 test 1, jtan03 passed
+given sec1-3-4-2 test 1, jtan03 passed
+given sec1-4-2-3 test 1, jtan03 passed
+given sec1-4-3-2 test 1, jtan03 passed
+given sec2-1-3-4 test 1, jtan03 passed
+given sec2-1-4-3 test 1, jtan03 passed
+given sec2-3-1-4 test 1, jtan03 passed
+given sec2-3-4-1 test 1, jtan03 passed
+given sec2-4-1-3 test 1, jtan03 passed
+given sec2-4-3-1 test 1, jtan03 passed
+given sec3-1-2-4 test 1, jtan03 passed
+given sec3-1-4-2 test 1, jtan03 passed
+given sec3-2-1-4 test 1, jtan03 passed
+given sec3-2-4-1 test 1, jtan03 passed
+given sec3-4-1-2 test 1, jtan03 passed
+given sec3-4-2-1 test 1, jtan03 passed
+given sec4-1-2-3 test 1, jtan03 passed
+given sec4-1-3-2 test 1, jtan03 passed
+given sec4-2-1-3 test 1, jtan03 passed
+given sec4-2-3-1 test 1, jtan03 passed
+given sec4-3-1-2 test 1, jtan03 passed
+given sec4-3-2-1 test 1, jtan03 passed
+given hell2      test 1, jtan03 passed
+given pushpop    test 1, jtan03 passed
+given bigout     test 1, jtan03 passed
+given bizarre    test 1, jtan03 passed
+given cat-abbrev test 1, jtan03 passed
+given cat-nomacro test 1, jtan03 passed
+given temps      test 1, jtan03 passed
+given temps2     test 1, jtan03 passed
+given temps3     test 1, jtan03 passed
+given test       test 1, jtan03 passed
+given simple-add-macro test 1, jtan03 passed
+given simple-add-self-macro test 1, jtan03 passed
+given simple-com-macro test 1, jtan03 passed
+given simple-com-self-macro test 1, jtan03 passed
+given simple-mov-macro test 1, jtan03 passed
+given simple-mov-self-macro test 1, jtan03 passed
+given simple-neg-macro test 1, jtan03 passed
+given simple-neg-self-macro test 1, jtan03 passed
+given simple-or-macro test 1, jtan03 passed
+given simple-or-self-macro test 1, jtan03 passed
+given simple-sub-macro test 1, jtan03 passed
+given silent-sizes test 1, jtan03 passed
+given simple-sizes test 1, jtan03 passed
+given sizes      test 1, jtan03 passed
+given addition-noself-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given selfsub    test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given addition-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given complement-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given move-noself-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given move-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given negate-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given subtraction-self-pos-macro test 1, jtan03 failed -- running the .um found a discrepancy in the output
+given bigout     test 1, kmcneely passed
+given bizarre    test 1, kmcneely passed
+given cat-abbrev test 1, kmcneely passed
+given cat-nomacro test 1, kmcneely passed
+given temps      test 1, kmcneely passed
+given temps2     test 1, kmcneely passed
+given temps3     test 1, kmcneely passed
+given test       test 1, kmcneely passed
+given bigjump    test 1, kmcneely passed
+given cat        test 1, kmcneely passed
+given cgoto      test 1, kmcneely passed
+given cond       test 1, kmcneely passed
+given eq         test 1, kmcneely passed
+given gt0        test 1, kmcneely passed
+given halt       test 1, kmcneely passed
+given hello      test 1, kmcneely passed
+given lt         test 1, kmcneely passed
+given ne         test 1, kmcneely passed
+given neglit     test 1, kmcneely passed
+given out        test 1, kmcneely passed
+given scompare   test 1, kmcneely passed
+given smallneglit test 1, kmcneely passed
+given xor        test 1, kmcneely passed
+given zcond      test 1, kmcneely passed
+given simple-add-macro test 1, kmcneely passed
+given simple-add-self-macro test 1, kmcneely passed
+given simple-com-macro test 1, kmcneely passed
+given simple-com-self-macro test 1, kmcneely passed
+given simple-mov-macro test 1, kmcneely passed
+given simple-mov-self-macro test 1, kmcneely passed
+given simple-neg-macro test 1, kmcneely passed
+given simple-neg-self-macro test 1, kmcneely passed
+given simple-or-macro test 1, kmcneely passed
+given simple-or-self-macro test 1, kmcneely passed
+given simple-sub-macro test 1, kmcneely passed
+given silent-sizes test 1, kmcneely passed
+given selfsub    test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, kmcneely failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given addition-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given complement-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given move-noself-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given move-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given negate-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given subtraction-noself-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given subtraction-self-pos-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given simple-sizes test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given sizes      test 1, kmcneely failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, mgolds07 passed
+given cat        test 1, mgolds07 passed
+given cgoto      test 1, mgolds07 passed
+given cond       test 1, mgolds07 passed
+given eq         test 1, mgolds07 passed
+given gt0        test 1, mgolds07 passed
+given halt       test 1, mgolds07 passed
+given hello      test 1, mgolds07 passed
+given lt         test 1, mgolds07 passed
+given ne         test 1, mgolds07 passed
+given neglit     test 1, mgolds07 passed
+given out        test 1, mgolds07 passed
+given scompare   test 1, mgolds07 passed
+given selfsub    test 1, mgolds07 passed
+given smallneglit test 1, mgolds07 passed
+given xor        test 1, mgolds07 passed
+given zcond      test 1, mgolds07 passed
+given silent-sizes test 1, mgolds07 passed
+given addition-noself-pos-macro test 1, mgolds07 passed
+given addition-self-pos-macro test 1, mgolds07 passed
+given bitwise-and-noself-pos-macro test 1, mgolds07 passed
+given bitwise-and-self-pos-macro test 1, mgolds07 passed
+given bitwise-or-noself-pos-macro test 1, mgolds07 passed
+given bitwise-or-self-pos-macro test 1, mgolds07 passed
+given complement-self-pos-macro test 1, mgolds07 passed
+given move-noself-pos-macro test 1, mgolds07 passed
+given move-self-pos-macro test 1, mgolds07 passed
+given negate-self-pos-macro test 1, mgolds07 passed
+given subtraction-noself-pos-macro test 1, mgolds07 passed
+given subtraction-self-pos-macro test 1, mgolds07 passed
+given addition-noself-macro test 1, mgolds07 passed
+given addition-self-macro test 1, mgolds07 passed
+given bitwise-and-noself-macro test 1, mgolds07 passed
+given bitwise-and-self-macro test 1, mgolds07 passed
+given bitwise-or-noself-macro test 1, mgolds07 passed
+given bitwise-or-self-macro test 1, mgolds07 passed
+given complement-self-macro test 1, mgolds07 passed
+given move-noself-macro test 1, mgolds07 passed
+given move-self-macro test 1, mgolds07 passed
+given negate-self-macro test 1, mgolds07 passed
+given subtraction-noself-macro test 1, mgolds07 passed
+given subtraction-self-macro test 1, mgolds07 passed
+given simple-add-macro test 1, mgolds07 passed
+given simple-add-self-macro test 1, mgolds07 passed
+given simple-com-macro test 1, mgolds07 passed
+given simple-com-self-macro test 1, mgolds07 passed
+given simple-mov-macro test 1, mgolds07 passed
+given simple-mov-self-macro test 1, mgolds07 passed
+given simple-neg-macro test 1, mgolds07 passed
+given simple-neg-self-macro test 1, mgolds07 passed
+given simple-or-macro test 1, mgolds07 passed
+given simple-or-self-macro test 1, mgolds07 passed
+given simple-sub-macro test 1, mgolds07 passed
+given simple-sub-self-macro test 1, mgolds07 passed
+given bigout     test 1, mgolds07 passed
+given bizarre    test 1, mgolds07 passed
+given cat-abbrev test 1, mgolds07 passed
+given cat-nomacro test 1, mgolds07 passed
+given temps      test 1, mgolds07 passed
+given temps2     test 1, mgolds07 passed
+given temps3     test 1, mgolds07 passed
+given test       test 1, mgolds07 passed
+given simple-sizes test 1, mgolds07 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, mgolds07 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, mgolds07 failed -- running the .um found a discrepancy in the output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, mgolds07 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, mnoble01 passed
+given cat        test 1, mnoble01 passed
+given cgoto      test 1, mnoble01 passed
+given cond       test 1, mnoble01 passed
+given eq         test 1, mnoble01 passed
+given gt0        test 1, mnoble01 passed
+given halt       test 1, mnoble01 passed
+given hello      test 1, mnoble01 passed
+given lt         test 1, mnoble01 passed
+given ne         test 1, mnoble01 passed
+given neglit     test 1, mnoble01 passed
+given out        test 1, mnoble01 passed
+given scompare   test 1, mnoble01 passed
+given selfsub    test 1, mnoble01 passed
+given smallneglit test 1, mnoble01 passed
+given xor        test 1, mnoble01 passed
+given zcond      test 1, mnoble01 passed
+given silent-sizes test 1, mnoble01 passed
+given addition-noself-pos-macro test 1, mnoble01 passed
+given addition-self-pos-macro test 1, mnoble01 passed
+given bitwise-and-noself-pos-macro test 1, mnoble01 passed
+given bitwise-and-self-pos-macro test 1, mnoble01 passed
+given bitwise-or-noself-pos-macro test 1, mnoble01 passed
+given bitwise-or-self-pos-macro test 1, mnoble01 passed
+given complement-self-pos-macro test 1, mnoble01 passed
+given move-noself-pos-macro test 1, mnoble01 passed
+given move-self-pos-macro test 1, mnoble01 passed
+given negate-self-pos-macro test 1, mnoble01 passed
+given subtraction-noself-pos-macro test 1, mnoble01 passed
+given subtraction-self-pos-macro test 1, mnoble01 passed
+given addition-noself-macro test 1, mnoble01 passed
+given addition-self-macro test 1, mnoble01 passed
+given bitwise-and-noself-macro test 1, mnoble01 passed
+given bitwise-and-self-macro test 1, mnoble01 passed
+given bitwise-or-noself-macro test 1, mnoble01 passed
+given bitwise-or-self-macro test 1, mnoble01 passed
+given complement-self-macro test 1, mnoble01 passed
+given move-noself-macro test 1, mnoble01 passed
+given move-self-macro test 1, mnoble01 passed
+given negate-self-macro test 1, mnoble01 passed
+given subtraction-noself-macro test 1, mnoble01 passed
+given subtraction-self-macro test 1, mnoble01 passed
+given simple-add-macro test 1, mnoble01 passed
+given simple-add-self-macro test 1, mnoble01 passed
+given simple-com-macro test 1, mnoble01 passed
+given simple-com-self-macro test 1, mnoble01 passed
+given simple-mov-macro test 1, mnoble01 passed
+given simple-mov-self-macro test 1, mnoble01 passed
+given simple-neg-macro test 1, mnoble01 passed
+given simple-neg-self-macro test 1, mnoble01 passed
+given simple-or-macro test 1, mnoble01 passed
+given simple-or-self-macro test 1, mnoble01 passed
+given simple-sub-macro test 1, mnoble01 passed
+given simple-sub-self-macro test 1, mnoble01 passed
+given bigout     test 1, mnoble01 passed
+given bizarre    test 1, mnoble01 passed
+given cat-abbrev test 1, mnoble01 passed
+given cat-nomacro test 1, mnoble01 passed
+given temps      test 1, mnoble01 passed
+given temps2     test 1, mnoble01 passed
+given temps3     test 1, mnoble01 passed
+given test       test 1, mnoble01 passed
+given simple-sizes test 1, mnoble01 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, mnoble01 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, mnoble01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, msmile01 passed
+given cat        test 1, msmile01 passed
+given cgoto      test 1, msmile01 passed
+given cond       test 1, msmile01 passed
+given eq         test 1, msmile01 passed
+given gt0        test 1, msmile01 passed
+given halt       test 1, msmile01 passed
+given hello      test 1, msmile01 passed
+given lt         test 1, msmile01 passed
+given ne         test 1, msmile01 passed
+given neglit     test 1, msmile01 passed
+given out        test 1, msmile01 passed
+given scompare   test 1, msmile01 passed
+given selfsub    test 1, msmile01 passed
+given smallneglit test 1, msmile01 passed
+given xor        test 1, msmile01 passed
+given zcond      test 1, msmile01 passed
+given silent-sizes test 1, msmile01 passed
+given simple-sizes test 1, msmile01 passed
+given addition-noself-pos-macro test 1, msmile01 passed
+given addition-self-pos-macro test 1, msmile01 passed
+given bitwise-and-noself-pos-macro test 1, msmile01 passed
+given bitwise-and-self-pos-macro test 1, msmile01 passed
+given bitwise-or-noself-pos-macro test 1, msmile01 passed
+given bitwise-or-self-pos-macro test 1, msmile01 passed
+given complement-self-pos-macro test 1, msmile01 passed
+given move-noself-pos-macro test 1, msmile01 passed
+given move-self-pos-macro test 1, msmile01 passed
+given negate-self-pos-macro test 1, msmile01 passed
+given subtraction-noself-pos-macro test 1, msmile01 passed
+given subtraction-self-pos-macro test 1, msmile01 passed
+given bigout     test 1, msmile01 passed
+given bizarre    test 1, msmile01 passed
+given cat-abbrev test 1, msmile01 passed
+given cat-nomacro test 1, msmile01 passed
+given temps      test 1, msmile01 passed
+given temps2     test 1, msmile01 passed
+given temps3     test 1, msmile01 passed
+given test       test 1, msmile01 passed
+given simple-add-macro test 1, msmile01 passed
+given simple-add-self-macro test 1, msmile01 passed
+given simple-com-macro test 1, msmile01 passed
+given simple-com-self-macro test 1, msmile01 passed
+given simple-mov-macro test 1, msmile01 passed
+given simple-mov-self-macro test 1, msmile01 passed
+given simple-neg-macro test 1, msmile01 passed
+given simple-neg-self-macro test 1, msmile01 passed
+given simple-or-macro test 1, msmile01 passed
+given simple-or-self-macro test 1, msmile01 passed
+given simple-sub-macro test 1, msmile01 passed
+given simple-sub-self-macro test 1, msmile01 passed
+given addition-noself-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-2-4-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-3-2-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-3-4-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-4-2-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec1-4-3-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-1-3-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-1-4-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-3-1-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-3-4-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-4-1-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec2-4-3-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-1-2-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-1-4-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-2-1-4 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-2-4-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-4-1-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec3-4-2-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-1-2-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-1-3-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-2-1-3 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-2-3-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-3-1-2 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given sec4-3-2-1 test 1, msmile01 failed -- running the .um found a discrepancy in the output
+given hell2      test 1, msmile01 failed -- trouble generating .um output; unexpected output on stderr
+given pushpop    test 1, msmile01 failed -- trouble generating .um output; unexpected output on stderr
+given bigjump    test 1, mtimme02 passed
+given cat        test 1, mtimme02 passed
+given cgoto      test 1, mtimme02 passed
+given cond       test 1, mtimme02 passed
+given eq         test 1, mtimme02 passed
+given gt0        test 1, mtimme02 passed
+given halt       test 1, mtimme02 passed
+given hello      test 1, mtimme02 passed
+given lt         test 1, mtimme02 passed
+given ne         test 1, mtimme02 passed
+given neglit     test 1, mtimme02 passed
+given out        test 1, mtimme02 passed
+given scompare   test 1, mtimme02 passed
+given selfsub    test 1, mtimme02 passed
+given xor        test 1, mtimme02 passed
+given zcond      test 1, mtimme02 passed
+given silent-sizes test 1, mtimme02 passed
+given addition-noself-pos-macro test 1, mtimme02 passed
+given addition-self-pos-macro test 1, mtimme02 passed
+given bitwise-and-noself-pos-macro test 1, mtimme02 passed
+given bitwise-and-self-pos-macro test 1, mtimme02 passed
+given bitwise-or-noself-pos-macro test 1, mtimme02 passed
+given bitwise-or-self-pos-macro test 1, mtimme02 passed
+given complement-self-pos-macro test 1, mtimme02 passed
+given move-noself-pos-macro test 1, mtimme02 passed
+given move-self-pos-macro test 1, mtimme02 passed
+given negate-self-pos-macro test 1, mtimme02 passed
+given subtraction-noself-pos-macro test 1, mtimme02 passed
+given subtraction-self-pos-macro test 1, mtimme02 passed
+given addition-noself-macro test 1, mtimme02 passed
+given addition-self-macro test 1, mtimme02 passed
+given bitwise-and-noself-macro test 1, mtimme02 passed
+given bitwise-and-self-macro test 1, mtimme02 passed
+given bitwise-or-noself-macro test 1, mtimme02 passed
+given bitwise-or-self-macro test 1, mtimme02 passed
+given complement-self-macro test 1, mtimme02 passed
+given move-noself-macro test 1, mtimme02 passed
+given move-self-macro test 1, mtimme02 passed
+given negate-self-macro test 1, mtimme02 passed
+given subtraction-noself-macro test 1, mtimme02 passed
+given subtraction-self-macro test 1, mtimme02 passed
+given simple-add-macro test 1, mtimme02 passed
+given simple-add-self-macro test 1, mtimme02 passed
+given simple-com-macro test 1, mtimme02 passed
+given simple-com-self-macro test 1, mtimme02 passed
+given simple-mov-macro test 1, mtimme02 passed
+given simple-mov-self-macro test 1, mtimme02 passed
+given simple-neg-macro test 1, mtimme02 passed
+given simple-neg-self-macro test 1, mtimme02 passed
+given simple-or-macro test 1, mtimme02 passed
+given simple-or-self-macro test 1, mtimme02 passed
+given simple-sub-macro test 1, mtimme02 passed
+given simple-sub-self-macro test 1, mtimme02 passed
+given bigout     test 1, mtimme02 passed
+given bizarre    test 1, mtimme02 passed
+given cat-abbrev test 1, mtimme02 passed
+given cat-nomacro test 1, mtimme02 passed
+given temps      test 1, mtimme02 passed
+given temps2     test 1, mtimme02 passed
+given temps3     test 1, mtimme02 passed
+given test       test 1, mtimme02 passed
+given smallneglit test 1, mtimme02 failed -- trouble generating .um output; unexpected output on stderr
+given simple-sizes test 1, mtimme02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, mtimme02 failed -- running the .um found a discrepancy in the output
+given sec1-2-3-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, mtimme02 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given bigjump    test 1, nchen06 passed
+given cat        test 1, nchen06 passed
+given cgoto      test 1, nchen06 passed
+given cond       test 1, nchen06 passed
+given eq         test 1, nchen06 passed
+given gt0        test 1, nchen06 passed
+given halt       test 1, nchen06 passed
+given hello      test 1, nchen06 passed
+given lt         test 1, nchen06 passed
+given ne         test 1, nchen06 passed
+given neglit     test 1, nchen06 passed
+given out        test 1, nchen06 passed
+given scompare   test 1, nchen06 passed
+given selfsub    test 1, nchen06 passed
+given smallneglit test 1, nchen06 passed
+given xor        test 1, nchen06 passed
+given zcond      test 1, nchen06 passed
+given addition-noself-macro test 1, nchen06 passed
+given addition-self-macro test 1, nchen06 passed
+given bitwise-and-noself-macro test 1, nchen06 passed
+given bitwise-and-self-macro test 1, nchen06 passed
+given bitwise-or-noself-macro test 1, nchen06 passed
+given bitwise-or-self-macro test 1, nchen06 passed
+given complement-self-macro test 1, nchen06 passed
+given move-noself-macro test 1, nchen06 passed
+given move-self-macro test 1, nchen06 passed
+given negate-self-macro test 1, nchen06 passed
+given subtraction-noself-macro test 1, nchen06 passed
+given subtraction-self-macro test 1, nchen06 passed
+given sec1-2-3-4 test 1, nchen06 passed
+given sec1-2-4-3 test 1, nchen06 passed
+given sec1-3-2-4 test 1, nchen06 passed
+given sec1-3-4-2 test 1, nchen06 passed
+given sec1-4-2-3 test 1, nchen06 passed
+given sec1-4-3-2 test 1, nchen06 passed
+given sec2-1-3-4 test 1, nchen06 passed
+given sec2-1-4-3 test 1, nchen06 passed
+given sec2-3-1-4 test 1, nchen06 passed
+given sec2-3-4-1 test 1, nchen06 passed
+given sec2-4-1-3 test 1, nchen06 passed
+given sec2-4-3-1 test 1, nchen06 passed
+given sec3-1-2-4 test 1, nchen06 passed
+given sec3-1-4-2 test 1, nchen06 passed
+given sec3-2-1-4 test 1, nchen06 passed
+given sec3-2-4-1 test 1, nchen06 passed
+given sec3-4-1-2 test 1, nchen06 passed
+given sec3-4-2-1 test 1, nchen06 passed
+given sec4-1-2-3 test 1, nchen06 passed
+given sec4-1-3-2 test 1, nchen06 passed
+given sec4-2-1-3 test 1, nchen06 passed
+given sec4-2-3-1 test 1, nchen06 passed
+given sec4-3-1-2 test 1, nchen06 passed
+given sec4-3-2-1 test 1, nchen06 passed
+given addition-noself-pos-macro test 1, nchen06 passed
+given addition-self-pos-macro test 1, nchen06 passed
+given bitwise-and-noself-pos-macro test 1, nchen06 passed
+given bitwise-and-self-pos-macro test 1, nchen06 passed
+given bitwise-or-noself-pos-macro test 1, nchen06 passed
+given bitwise-or-self-pos-macro test 1, nchen06 passed
+given complement-self-pos-macro test 1, nchen06 passed
+given move-noself-pos-macro test 1, nchen06 passed
+given move-self-pos-macro test 1, nchen06 passed
+given negate-self-pos-macro test 1, nchen06 passed
+given subtraction-noself-pos-macro test 1, nchen06 passed
+given subtraction-self-pos-macro test 1, nchen06 passed
+given bigout     test 1, nchen06 passed
+given bizarre    test 1, nchen06 passed
+given cat-abbrev test 1, nchen06 passed
+given cat-nomacro test 1, nchen06 passed
+given temps      test 1, nchen06 passed
+given temps2     test 1, nchen06 passed
+given temps3     test 1, nchen06 passed
+given test       test 1, nchen06 passed
+given hell2      test 1, nchen06 passed
+given pushpop    test 1, nchen06 passed
+given simple-add-macro test 1, nchen06 passed
+given simple-add-self-macro test 1, nchen06 passed
+given simple-com-macro test 1, nchen06 passed
+given simple-com-self-macro test 1, nchen06 passed
+given simple-mov-macro test 1, nchen06 passed
+given simple-mov-self-macro test 1, nchen06 passed
+given simple-neg-macro test 1, nchen06 passed
+given simple-neg-self-macro test 1, nchen06 passed
+given simple-or-macro test 1, nchen06 passed
+given simple-or-self-macro test 1, nchen06 passed
+given simple-sub-macro test 1, nchen06 passed
+given simple-sub-self-macro test 1, nchen06 passed
+given silent-sizes test 1, nchen06 passed
+given simple-sizes test 1, nchen06 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, nchen06 failed -- running the .um found a discrepancy in the output
+given bizarre    test 1, rapeli01 passed
+given cat-abbrev test 1, rapeli01 passed
+given cat-nomacro test 1, rapeli01 passed
+given temps2     test 1, rapeli01 passed
+given temps3     test 1, rapeli01 passed
+given test       test 1, rapeli01 passed
+given simple-mov-self-macro test 1, rapeli01 passed
+given bigjump    test 1, rapeli01 passed
+given cat        test 1, rapeli01 passed
+given cgoto      test 1, rapeli01 passed
+given cond       test 1, rapeli01 passed
+given gt0        test 1, rapeli01 passed
+given halt       test 1, rapeli01 passed
+given hello      test 1, rapeli01 passed
+given lt         test 1, rapeli01 passed
+given neglit     test 1, rapeli01 passed
+given out        test 1, rapeli01 passed
+given scompare   test 1, rapeli01 passed
+given xor        test 1, rapeli01 passed
+given zcond      test 1, rapeli01 passed
+given eq         test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given ne         test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given selfsub    test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given smallneglit test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-noself-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-noself-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-noself-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given complement-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given move-noself-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given move-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given negate-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-noself-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-self-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given sec1-2-3-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given addition-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given complement-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given move-noself-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given move-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given negate-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given subtraction-self-pos-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bigout     test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given temps      test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given hell2      test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-add-self-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-com-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-com-self-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-mov-macro test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given simple-neg-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-neg-self-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-or-macro test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-or-self-macro test 1, rapeli01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-sub-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, rapeli01 failed -- running the .um found a discrepancy in the output
+given silent-sizes test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given simple-sizes test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given sizes      test 1, rapeli01 failed -- trouble generating .um output; unexpected output on stderr
+given bigjump    test 1, rlew02 passed
+given cat        test 1, rlew02 passed
+given cgoto      test 1, rlew02 passed
+given cond       test 1, rlew02 passed
+given eq         test 1, rlew02 passed
+given gt0        test 1, rlew02 passed
+given halt       test 1, rlew02 passed
+given hello      test 1, rlew02 passed
+given lt         test 1, rlew02 passed
+given ne         test 1, rlew02 passed
+given neglit     test 1, rlew02 passed
+given out        test 1, rlew02 passed
+given scompare   test 1, rlew02 passed
+given selfsub    test 1, rlew02 passed
+given xor        test 1, rlew02 passed
+given zcond      test 1, rlew02 passed
+given addition-noself-macro test 1, rlew02 passed
+given addition-self-macro test 1, rlew02 passed
+given bitwise-and-noself-macro test 1, rlew02 passed
+given bitwise-and-self-macro test 1, rlew02 passed
+given bitwise-or-noself-macro test 1, rlew02 passed
+given bitwise-or-self-macro test 1, rlew02 passed
+given complement-self-macro test 1, rlew02 passed
+given move-noself-macro test 1, rlew02 passed
+given move-self-macro test 1, rlew02 passed
+given negate-self-macro test 1, rlew02 passed
+given subtraction-noself-macro test 1, rlew02 passed
+given subtraction-self-macro test 1, rlew02 passed
+given sec1-2-3-4 test 1, rlew02 passed
+given sec1-2-4-3 test 1, rlew02 passed
+given sec1-3-2-4 test 1, rlew02 passed
+given sec1-3-4-2 test 1, rlew02 passed
+given sec1-4-2-3 test 1, rlew02 passed
+given sec1-4-3-2 test 1, rlew02 passed
+given sec2-1-3-4 test 1, rlew02 passed
+given sec2-1-4-3 test 1, rlew02 passed
+given sec2-3-1-4 test 1, rlew02 passed
+given sec2-3-4-1 test 1, rlew02 passed
+given sec2-4-1-3 test 1, rlew02 passed
+given sec2-4-3-1 test 1, rlew02 passed
+given sec3-1-2-4 test 1, rlew02 passed
+given sec3-1-4-2 test 1, rlew02 passed
+given sec3-2-1-4 test 1, rlew02 passed
+given sec3-2-4-1 test 1, rlew02 passed
+given sec3-4-1-2 test 1, rlew02 passed
+given sec3-4-2-1 test 1, rlew02 passed
+given sec4-1-2-3 test 1, rlew02 passed
+given sec4-1-3-2 test 1, rlew02 passed
+given sec4-2-1-3 test 1, rlew02 passed
+given sec4-2-3-1 test 1, rlew02 passed
+given sec4-3-1-2 test 1, rlew02 passed
+given sec4-3-2-1 test 1, rlew02 passed
+given addition-noself-pos-macro test 1, rlew02 passed
+given addition-self-pos-macro test 1, rlew02 passed
+given bitwise-and-noself-pos-macro test 1, rlew02 passed
+given bitwise-and-self-pos-macro test 1, rlew02 passed
+given bitwise-or-noself-pos-macro test 1, rlew02 passed
+given bitwise-or-self-pos-macro test 1, rlew02 passed
+given complement-self-pos-macro test 1, rlew02 passed
+given move-noself-pos-macro test 1, rlew02 passed
+given move-self-pos-macro test 1, rlew02 passed
+given negate-self-pos-macro test 1, rlew02 passed
+given subtraction-noself-pos-macro test 1, rlew02 passed
+given subtraction-self-pos-macro test 1, rlew02 passed
+given bigout     test 1, rlew02 passed
+given bizarre    test 1, rlew02 passed
+given cat-abbrev test 1, rlew02 passed
+given cat-nomacro test 1, rlew02 passed
+given temps      test 1, rlew02 passed
+given temps2     test 1, rlew02 passed
+given temps3     test 1, rlew02 passed
+given test       test 1, rlew02 passed
+given hell2      test 1, rlew02 passed
+given pushpop    test 1, rlew02 passed
+given simple-add-macro test 1, rlew02 passed
+given simple-add-self-macro test 1, rlew02 passed
+given simple-com-macro test 1, rlew02 passed
+given simple-com-self-macro test 1, rlew02 passed
+given simple-mov-macro test 1, rlew02 passed
+given simple-mov-self-macro test 1, rlew02 passed
+given simple-neg-macro test 1, rlew02 passed
+given simple-neg-self-macro test 1, rlew02 passed
+given simple-or-macro test 1, rlew02 passed
+given simple-or-self-macro test 1, rlew02 passed
+given simple-sub-macro test 1, rlew02 passed
+given simple-sub-self-macro test 1, rlew02 passed
+given silent-sizes test 1, rlew02 passed
+given simple-sizes test 1, rlew02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, rlew02 failed -- running the .um found a discrepancy in the output
+given smallneglit test 1, rlew02 failed -- trouble generating .um output; unexpected output on stderr
+given bigjump    test 1, rstern03 passed
+given cat        test 1, rstern03 passed
+given cgoto      test 1, rstern03 passed
+given cond       test 1, rstern03 passed
+given eq         test 1, rstern03 passed
+given gt0        test 1, rstern03 passed
+given halt       test 1, rstern03 passed
+given hello      test 1, rstern03 passed
+given lt         test 1, rstern03 passed
+given ne         test 1, rstern03 passed
+given neglit     test 1, rstern03 passed
+given out        test 1, rstern03 passed
+given scompare   test 1, rstern03 passed
+given selfsub    test 1, rstern03 passed
+given smallneglit test 1, rstern03 passed
+given xor        test 1, rstern03 passed
+given zcond      test 1, rstern03 passed
+given addition-noself-macro test 1, rstern03 passed
+given addition-self-macro test 1, rstern03 passed
+given bitwise-and-noself-macro test 1, rstern03 passed
+given bitwise-and-self-macro test 1, rstern03 passed
+given bitwise-or-noself-macro test 1, rstern03 passed
+given bitwise-or-self-macro test 1, rstern03 passed
+given complement-self-macro test 1, rstern03 passed
+given move-noself-macro test 1, rstern03 passed
+given move-self-macro test 1, rstern03 passed
+given negate-self-macro test 1, rstern03 passed
+given subtraction-noself-macro test 1, rstern03 passed
+given subtraction-self-macro test 1, rstern03 passed
+given sec1-2-3-4 test 1, rstern03 passed
+given sec1-2-4-3 test 1, rstern03 passed
+given sec1-3-2-4 test 1, rstern03 passed
+given sec1-3-4-2 test 1, rstern03 passed
+given sec1-4-2-3 test 1, rstern03 passed
+given sec1-4-3-2 test 1, rstern03 passed
+given sec2-1-3-4 test 1, rstern03 passed
+given sec2-1-4-3 test 1, rstern03 passed
+given sec2-3-1-4 test 1, rstern03 passed
+given sec2-3-4-1 test 1, rstern03 passed
+given sec2-4-1-3 test 1, rstern03 passed
+given sec2-4-3-1 test 1, rstern03 passed
+given sec3-1-2-4 test 1, rstern03 passed
+given sec3-1-4-2 test 1, rstern03 passed
+given sec3-2-1-4 test 1, rstern03 passed
+given sec3-2-4-1 test 1, rstern03 passed
+given sec3-4-1-2 test 1, rstern03 passed
+given sec3-4-2-1 test 1, rstern03 passed
+given sec4-1-2-3 test 1, rstern03 passed
+given sec4-1-3-2 test 1, rstern03 passed
+given sec4-2-1-3 test 1, rstern03 passed
+given sec4-2-3-1 test 1, rstern03 passed
+given sec4-3-1-2 test 1, rstern03 passed
+given sec4-3-2-1 test 1, rstern03 passed
+given addition-noself-pos-macro test 1, rstern03 passed
+given addition-self-pos-macro test 1, rstern03 passed
+given bitwise-and-noself-pos-macro test 1, rstern03 passed
+given bitwise-and-self-pos-macro test 1, rstern03 passed
+given bitwise-or-noself-pos-macro test 1, rstern03 passed
+given bitwise-or-self-pos-macro test 1, rstern03 passed
+given complement-self-pos-macro test 1, rstern03 passed
+given move-noself-pos-macro test 1, rstern03 passed
+given move-self-pos-macro test 1, rstern03 passed
+given negate-self-pos-macro test 1, rstern03 passed
+given subtraction-noself-pos-macro test 1, rstern03 passed
+given subtraction-self-pos-macro test 1, rstern03 passed
+given bigout     test 1, rstern03 passed
+given bizarre    test 1, rstern03 passed
+given cat-abbrev test 1, rstern03 passed
+given cat-nomacro test 1, rstern03 passed
+given temps      test 1, rstern03 passed
+given temps2     test 1, rstern03 passed
+given temps3     test 1, rstern03 passed
+given test       test 1, rstern03 passed
+given hell2      test 1, rstern03 passed
+given pushpop    test 1, rstern03 passed
+given simple-add-macro test 1, rstern03 passed
+given simple-add-self-macro test 1, rstern03 passed
+given simple-com-macro test 1, rstern03 passed
+given simple-com-self-macro test 1, rstern03 passed
+given simple-mov-macro test 1, rstern03 passed
+given simple-mov-self-macro test 1, rstern03 passed
+given simple-neg-macro test 1, rstern03 passed
+given simple-neg-self-macro test 1, rstern03 passed
+given simple-or-macro test 1, rstern03 passed
+given simple-or-self-macro test 1, rstern03 passed
+given simple-sub-macro test 1, rstern03 passed
+given simple-sub-self-macro test 1, rstern03 passed
+given silent-sizes test 1, rstern03 passed
+given simple-sizes test 1, rstern03 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, rstern03 failed -- running the .um found a discrepancy in the output
+given bigjump    test 1, tlentz01 failed -- unexpected output on stderr
+given cat        test 1, tlentz01 failed -- unexpected output on stderr
+given cgoto      test 1, tlentz01 failed -- unexpected output on stderr
+given cond       test 1, tlentz01 failed -- unexpected output on stderr
+given eq         test 1, tlentz01 failed -- unexpected output on stderr
+given gt0        test 1, tlentz01 failed -- unexpected output on stderr
+given halt       test 1, tlentz01 failed -- unexpected output on stderr
+given hello      test 1, tlentz01 failed -- unexpected output on stderr
+given lt         test 1, tlentz01 failed -- unexpected output on stderr
+given ne         test 1, tlentz01 failed -- unexpected output on stderr
+given neglit     test 1, tlentz01 failed -- unexpected output on stderr
+given out        test 1, tlentz01 failed -- unexpected output on stderr
+given scompare   test 1, tlentz01 failed -- unexpected output on stderr
+given selfsub    test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given smallneglit test 1, tlentz01 failed -- unexpected output on stderr
+given xor        test 1, tlentz01 failed -- unexpected output on stderr
+given zcond      test 1, tlentz01 failed -- unexpected output on stderr
+given addition-noself-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given addition-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-and-noself-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-and-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-or-noself-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-or-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given complement-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given move-noself-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given move-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given negate-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given subtraction-noself-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given subtraction-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given sec1-2-3-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-2-4-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-2-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-3-4-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-2-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec1-4-3-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-3-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-1-4-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-1-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-3-4-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-1-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec2-4-3-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-2-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-1-4-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-1-4 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-2-4-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-1-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec3-4-2-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-2-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-1-3-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-1-3 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-2-3-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-1-2 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given sec4-3-2-1 test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given addition-noself-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given addition-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-and-noself-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-and-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-or-noself-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bitwise-or-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given complement-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given move-noself-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given move-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given negate-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given subtraction-noself-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given subtraction-self-pos-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bigout     test 1, tlentz01 failed -- unexpected output on stderr
+given bizarre    test 1, tlentz01 failed -- unexpected output on stderr
+given cat-abbrev test 1, tlentz01 failed -- unexpected output on stderr
+given cat-nomacro test 1, tlentz01 failed -- unexpected output on stderr
+given temps      test 1, tlentz01 failed -- unexpected output on stderr
+given temps2     test 1, tlentz01 failed -- unexpected output on stderr
+given temps3     test 1, tlentz01 failed -- unexpected output on stderr
+given test       test 1, tlentz01 failed -- unexpected output on stderr
+given hell2      test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given pushpop    test 1, tlentz01 failed -- trouble generating .um output; bad exit code; unexpected output on stderr
+given simple-add-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-add-self-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-com-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-com-self-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-mov-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-mov-self-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-neg-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-neg-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given simple-or-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-or-self-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-sub-macro test 1, tlentz01 failed -- unexpected output on stderr
+given simple-sub-self-macro test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given silent-sizes test 1, tlentz01 failed -- unexpected output on stderr
+given simple-sizes test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given sizes      test 1, tlentz01 failed -- running the .um found a discrepancy in the output; unexpected output on stderr
+given bigjump    test 1, tlim02 passed
+given cat        test 1, tlim02 passed
+given cgoto      test 1, tlim02 passed
+given cond       test 1, tlim02 passed
+given eq         test 1, tlim02 passed
+given gt0        test 1, tlim02 passed
+given halt       test 1, tlim02 passed
+given hello      test 1, tlim02 passed
+given lt         test 1, tlim02 passed
+given ne         test 1, tlim02 passed
+given neglit     test 1, tlim02 passed
+given out        test 1, tlim02 passed
+given scompare   test 1, tlim02 passed
+given smallneglit test 1, tlim02 passed
+given xor        test 1, tlim02 passed
+given zcond      test 1, tlim02 passed
+given sec1-2-3-4 test 1, tlim02 passed
+given sec1-2-4-3 test 1, tlim02 passed
+given sec1-3-2-4 test 1, tlim02 passed
+given sec1-3-4-2 test 1, tlim02 passed
+given sec1-4-2-3 test 1, tlim02 passed
+given sec1-4-3-2 test 1, tlim02 passed
+given sec2-1-3-4 test 1, tlim02 passed
+given sec2-1-4-3 test 1, tlim02 passed
+given sec2-3-1-4 test 1, tlim02 passed
+given sec2-3-4-1 test 1, tlim02 passed
+given sec2-4-1-3 test 1, tlim02 passed
+given sec2-4-3-1 test 1, tlim02 passed
+given sec3-1-2-4 test 1, tlim02 passed
+given sec3-1-4-2 test 1, tlim02 passed
+given sec3-2-1-4 test 1, tlim02 passed
+given sec3-2-4-1 test 1, tlim02 passed
+given sec3-4-1-2 test 1, tlim02 passed
+given sec3-4-2-1 test 1, tlim02 passed
+given sec4-1-2-3 test 1, tlim02 passed
+given sec4-1-3-2 test 1, tlim02 passed
+given sec4-2-1-3 test 1, tlim02 passed
+given sec4-2-3-1 test 1, tlim02 passed
+given sec4-3-1-2 test 1, tlim02 passed
+given sec4-3-2-1 test 1, tlim02 passed
+given hell2      test 1, tlim02 passed
+given pushpop    test 1, tlim02 passed
+given bigout     test 1, tlim02 passed
+given bizarre    test 1, tlim02 passed
+given cat-abbrev test 1, tlim02 passed
+given cat-nomacro test 1, tlim02 passed
+given temps      test 1, tlim02 passed
+given temps2     test 1, tlim02 passed
+given temps3     test 1, tlim02 passed
+given test       test 1, tlim02 passed
+given simple-add-macro test 1, tlim02 passed
+given simple-add-self-macro test 1, tlim02 passed
+given simple-com-macro test 1, tlim02 passed
+given simple-com-self-macro test 1, tlim02 passed
+given simple-mov-macro test 1, tlim02 passed
+given simple-mov-self-macro test 1, tlim02 passed
+given simple-neg-macro test 1, tlim02 passed
+given simple-neg-self-macro test 1, tlim02 passed
+given simple-or-macro test 1, tlim02 passed
+given simple-sub-macro test 1, tlim02 passed
+given silent-sizes test 1, tlim02 passed
+given selfsub    test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given simple-sizes test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given sizes      test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given addition-noself-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given addition-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given complement-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given move-noself-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given move-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given negate-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given subtraction-self-pos-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given addition-noself-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given addition-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-noself-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-and-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-noself-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given bitwise-or-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given complement-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given move-noself-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given move-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given negate-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given subtraction-noself-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given subtraction-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given simple-or-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
+given simple-sub-self-macro test 1, tlim02 failed -- running the .um found a discrepancy in the output
