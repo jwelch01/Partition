@@ -18,7 +18,7 @@
   fun addToMap (set, map) = case TestSet.representative set
                               of SOME (name, number, ol) => foldr
                                  (fn ((soln, out), m) => 
-                                   ListMap.add (explode soln, 
+                                   ListMap.add ( soln, 
                                                ((name, number), out),m))
                                  map ol
                                | NONE => raise Impossible
@@ -33,7 +33,7 @@
   val makeSolnSet : 
     ((string * string) * Outcome.outcome) ListMap.map -> SolnSet.set = 
        fn map => ListMap.mapFold
-         (fn (k, testList, set) => SolnSet.add ((implode k, testList), set))
+         (fn (k, testList, set) => SolnSet.add ((k, testList), set))
          SolnSet.empty map
 
   (* Partition SolnSet *)
@@ -58,13 +58,15 @@
   fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
-    let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
-        val (_, l) = solnRep s
-        val node = "N"^Int.toString(c)
-    in (SolnSet.add((node, l), set), 
-        Map.bind(explode node, string, map), c+1) end) 
+      let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
+          val (_, l) = solnRep s
+          val node = "N"^Int.toString(c)
+      in (SolnSet.add((node, l), set), 
+          Map.bind( node, string, map), c+1) 
+      end) 
     (SolnSet.empty, Map.empty, 1) sl
-   in (partitionSolns s,m) end
+   in (partitionSolns s,m) 
+   end
 
   (* curried, simplified function to make an edge *)
   fun edge id1 label id2 = G.makeEdge (G.makeNode id1, label, G.makeNode id2)
@@ -105,8 +107,8 @@
     let val edges = BasicGraph.getEdges g
         val edges2 = 
           foldr (fn (e, es) => 
-            if Prop.tautology (Map.lookup (explode (BasicGraph.getIn e), m),
-                               Map.lookup (explode (BasicGraph.getOut e), m))
+            if Prop.tautology (Map.lookup ( BasicGraph.getIn e, m),
+                               Map.lookup ( BasicGraph.getOut e, m))
             then es
             else e::es)
             [] edges
@@ -114,8 +116,8 @@
     end
 
   fun contraNodes (n1, n2) m =
-    Prop.complementList (Map.lookup (explode n1, m),
-                         Map.lookup (explode n2, m))
+    Prop.complementList (Map.lookup ( n1, m),
+                         Map.lookup ( n2, m))
   fun contraEdges (e1, e2) m = 
     contraNodes (BasicGraph.getIn e1, BasicGraph.getOut e2) m andalso
     contraNodes (BasicGraph.getIn e2, BasicGraph.getOut e1) m
@@ -142,8 +144,8 @@
   fun removeContrapositives (g, m) =
     let val edges  = BasicGraph.getEdges g
         fun posEdge e = 
-          Prop.positive (Map.lookup (explode (BasicGraph.getIn e), m)) andalso
-          Prop.positive (Map.lookup (explode (BasicGraph.getOut e), m)) 
+          Prop.positive (Map.lookup (BasicGraph.getIn e, m)) andalso
+          Prop.positive (Map.lookup (BasicGraph.getOut e, m)) 
         val positives = List.filter posEdge edges
         val negatives = List.filter (not o posEdge) edges
   in (BasicGraph.getGraphFromEdges (
@@ -199,6 +201,52 @@
 
   val testRep = propRep
 
+  fun look m node = Map.lookup (BasicGraph.getNodeLabel node, m)
+
+  fun getImplyingFailReps (n, g, m) =
+    let val implyingNodes = BasicGraph.getPredecessorNodes (n, g)
+        val implyingProps = map (look m) implyingNodes
+        val falseImplyingProps = List.filter containsFalse implyingProps
+    in map propRep falseImplyingProps
+    end
+
+  fun getImplyingFailures (n, g, m) = 
+    let val implyingNodes = BasicGraph.getPredecessorNodes (n, g)
+        val implyingProps = map (look m) implyingNodes
+    in Util.flatten $ map getFalseReps implyingProps
+    end
+
+  fun makeFailureMap (g, m) = 
+    let val nodes = BasicGraph.getNodes g
+        val aList = map (fn n => (look m n, n)) nodes
+        val failList = map (fn (props, n) => (getFalseReps props, n)) aList
+    in foldr (fn ((tests, node), map) =>
+               foldr (fn (test, map) =>
+                 let val (test, num) = Prop.getId test
+                     val id = test ^ num
+                 in Map.bind (id, node, map) end) map tests) 
+       Map.empty failList
+    end
+
+(*
+
+  fun reduceWitness (solnid, ol) failMap nodeMap g = 
+    let val failures = List.filter (fn ((_,_), Outcome.NOTPASSED {...}) => true
+                                     | _                            => false)
+                       ol
+        fun redundantNode ((test,num), out as Outcome.NOTPASSED {...}) = 
+            let val id = test ^ num
+              val node  = Map.lookup (id, failMap)
+              val impls = map Prop.getId $ getImplyingFailures (node,g,nodeMap)
+            in not $
+              List.exists (fn id1 => List.exists (fn (id2, _) => id1=id2)
+                                         failures) impls
+            end
+          | redundantNode _ = false
+     in (solnid, List.filter (not o redundantNode) ol)
+     end
+
+*)
 
   exception NoImplyingFailures
   (* Produces the union of the failure sets of all implying proposition lists
@@ -207,21 +255,26 @@
   val getFalseUnion : BasicGraph.node * BasicGraph.graph * 
                       Prop.prop list Map.map -> Prop.prop = 
   (fn (n, g, m) =>
-    let val implyingNodes = BasicGraph.getPredecessorNodes (n, g)
-        fun look node = Map.lookup (explode $ BasicGraph.getNodeLabel node, m)
-        val implyingProps = map look implyingNodes
-        val falseImplyingProps = List.filter containsFalse implyingProps
-        val reps = map propRep falseImplyingProps 
+    let val reps = getImplyingFailReps (n, g, m)
     in if null reps
        then raise NoImplyingFailures
        else Prop.unionstar reps
     end)
 
+  fun failureRedundantUnderClaessen (n, g, m) =
+    let val self = Map.lookup (BasicGraph.getNodeLabel n, m)
+        val impls = getImplyingFailures (n, g, m)
+    in List.exists (fn n1 => List.exists
+                               (fn n2 => Prop.eq (propRep self, 
+                                                  Prop.union (n1, n2)))
+                             impls) impls
+    end
+
   (* Returns whether or not a given node's set of true values is equivalent to
      the union of all implying failure sets.
      PRECONDITION: n maps to a prop list that contains at least one failure *)
   fun failureRedundantUnderUnion (n, g, m) = 
-    let val self = Map.lookup (explode $ BasicGraph.getNodeLabel n, m)
+    let val self = Map.lookup (BasicGraph.getNodeLabel n, m)
     in Prop.eq (propRep self, getFalseUnion (n, g, m))
        handle _ => false
     end
@@ -229,27 +282,27 @@
 
   (* Returns a proposition list where each proposition is the failure of a test
      found redundant under union using the graph g and map m *)
-  fun findRedundantFailures (g, m) =
+  fun findRedundantFailures (g, m) redundantF =
     let val nodes = BasicGraph.getNodes g
         fun addIfRedundant (n, xs) = 
-          let val pl = Map.lookup (explode $ BasicGraph.getNodeLabel n, m)
+          let val pl = Map.lookup (BasicGraph.getNodeLabel n, m)
           in if not $ containsFalse pl then xs
-             else if failureRedundantUnderUnion (n,g,m)
+             else if redundantF (n,g,m)
                   then getFalseReps pl @ xs
                   else xs
           end
     in foldr addIfRedundant [] nodes
     end
 
-  fun removeRedundantTests (tl, g, m) = 
-    let val toBeRemoved = map Prop.getId (findRedundantFailures (g, m))
-        fun redundant t = List.exists (fn n => n = TestSet.getId (testRep t)) toBeRemoved
-    in foldr (fn (t, xs) => if redundant t then xs else t::xs) [] tl
+  (* change this to filter *)
+
+  fun removeRedundantTests (tl, g, m) redundantF = 
+    let val toBeRemoved = map Prop.getId (findRedundantFailures (g, m) 
+                                                                 redundantF)
+        fun redundant t = List.exists (fn n => n = TestSet.getId (testRep t)) 
+                                       toBeRemoved
+    in List.filter (not o redundant) tl
     end
-
-
-
-
 
   fun getTestPartitions infile = partitionTests $ makeTestSet $
                                  FileReader.readToMap $ TextIO.openIn infile
@@ -261,10 +314,9 @@
     in (Prop.makePropGraph s, m, p)
     end
 
-  fun testReduction tests = 
-    let val (g, m, p) = buildPropGraphAndMap tests
-    in removeRedundantTests (tests, g, m) 
-    end
+  fun unionReduction method (g, m, p) tests = 
+    removeRedundantTests (tests, g, m) method
+
 
   exception InvalidFlag of string
   fun reduction [] = (fn x => x)
@@ -278,10 +330,16 @@
         case flag of "-t" => mapReduction xs o removeIntraNodeTautologies
                    | _    => mapReduction xs
 
-  fun testSetReduction [] = (fn x => x)
-    | testSetReduction (flag::xs) = 
-        case flag of "-u" => testReduction o testSetReduction xs
+  fun testSetReduction [] _ = (fn x => x)
+    | testSetReduction (flag::xs) (g, m, p) = 
+        case flag of "-u" => (unionReduction failureRedundantUnderUnion 
+                                             (g,m,p))
+                              o testSetReduction xs (g,m,p)
+                   | "-c" => (unionReduction failureRedundantUnderClaessen
+                                             (g,m,p)) 
+                              o testSetReduction xs (g,m,p)
                    | x    => raise InvalidFlag x 
+
 
   fun buildPropGraph infile outfile  flags =
     let val tests   = getTestPartitions infile
@@ -294,14 +352,25 @@
     in  p
     end
 
-  fun buildGraph infile outfile flags = 
-    let val tests  = testSetReduction flags $ getTestPartitions infile
-        val (s, m) = buildMapAndSet $ partitionSolns $ makeSolnSet $
-                     makeSolnMap tests
-        val g      = makeGraph s
-        val fd     = TextIO.openOut outfile
-        val ()     = FileWriter.printGraph g m fd true
-        val _      = TextIO.closeOut fd
-    in tests
+  fun buildGraph infile outfile outfileTests outfileFailures flags = 
+    let val tests     = getTestPartitions infile
+	val (g,m,p)   = buildPropGraphAndMap tests
+	val tests'    = testSetReduction flags (g, m, p) tests
+        val solns     = makeSolnSet $ makeSolnMap tests'
+        val (s, m)    = buildMapAndSet $ partitionSolns solns
+        val g         = makeGraph s
+        val (fd, tfd, ffd) = (TextIO.openOut outfile, 
+                              TextIO.openOut outfileTests,
+                              TextIO.openOut outfileFailures)
+        val ()        = FileWriter.printSolnGraph g m s fd 
+        val ()        = TextIO.output (tfd, foldr (fn (test, s) => 
+                                                TestSet.toString test^"\n"^s)
+                                            "" tests')
+        val ()        = FileWriter.printStudentFailures solns ffd 
+(*        val ()        = FileWriter.printStudentFailures solns (g, m, p) ffd *)
+        val _         = (TextIO.closeOut fd; TextIO.closeOut tfd;
+                         TextIO.closeOut ffd)
+    in solns
     end
+
 

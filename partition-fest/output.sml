@@ -65,7 +65,7 @@ struct
   fun idToString (x,y) = x ^ " " ^ y
 
   fun printStudentFailures solns out = 
-   foldr (fn ((student, results), _) =>
+   foldl (fn ((student, results), _) =>
            ((output (out, student ^ " failed tests:\n"));
             (output (out, 
             foldr (fn ((id, outcome), failures) =>
@@ -76,5 +76,10 @@ struct
             "" results)); (output (out, "\n\n"))))
   () solns
              
-
+(*
+  fun printReducedFailures solns (g,m,p) out = 
+    foldr (fn ((student, results), _) =>
+            ((output (out, student ^ " relevantly failed:\n"));
+             (output (out, 
+*)
 end

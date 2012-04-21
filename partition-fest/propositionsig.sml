@@ -13,7 +13,7 @@ signature PROPOSITION = sig
 
   val /->/ : stringProp * stringProp -> bool
   val partition : (prop * prop -> bool) -> prop list -> prop list list
-  val makePropList : testset list -> prop list
+  val makePropList : testset -> prop list
   val makePropMapAndSet : prop list list -> stringProp list * prop list Map.map
   val makePropGraph : stringProp list -> BasicGraph.graph
   val eq : prop * prop -> bool

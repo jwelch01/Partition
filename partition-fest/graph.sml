@@ -81,7 +81,7 @@ structure BasicGraph : GRAPH = struct
                | find_succ [] l = l
          in find_succ edges []
          end
-    else raise NotFound n
+    else []
 
   fun getNode (l, g) = if memberNode (makeNode l, g) 
                        then makeNode l

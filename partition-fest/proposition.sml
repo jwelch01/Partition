@@ -65,23 +65,25 @@ struct
        (true, test, num, "DNR", f l Outcome.DNR [])::[]
     end
 
+  fun trueResults (_,_,_,_, xs) = 
+    List.filter (fn (_, bool) => bool) xs
+ 
+  fun falseResults (_,_,_,_, xs) = 
+    List.filter (fn (_, bool) => bool) xs
+
+  fun goodTest t = 
+    length (trueResults t) > 1 andalso length (falseResults t) > 1
+
   fun makePositivePropositionList testSetList = 
-    foldr (fn (testList, props) => 
-            (boolTests (testRep testList)) @ props)
+    foldr (fn (test, props) => 
+            (boolTests test) @ props)
     [] testSetList
 
-  fun filt (_,_,_,_, (soln, p)::props) = 
-       if p then not (foldr (fn ((_, out), flag) => out andalso flag) 
-                      true props)
-            else not (foldr (fn ((_, out), flag) => (not out) andalso flag)
-                      true props)
-    | filt (_,_,_,_, []) = raise Impossible
-    
-
-  fun makePropList testSetList = ( (*List.filter filt ( *)
+  fun makePropList testSetList = ( 
+   List.filter goodTest (
     foldr (fn (prop, props) =>
             (prop::(negateProposition prop)::props))
-    [] (makePositivePropositionList testSetList))
+    [] (makePositivePropositionList testSetList)))
 
   fun condenseNames [] = raise Impossible
     | condenseNames ((b, test, num, out, props)::xs) =

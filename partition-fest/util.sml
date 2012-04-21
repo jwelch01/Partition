@@ -1,6 +1,7 @@
 signature UTILITIES = sig
   val insertion_sort : ('a * 'a -> order) -> 'a list -> 'a list
   val vcompare : ('a * 'a -> order) -> 'a list * 'a list -> order option
+  val flatten  : 'a list list -> 'a list
 end
 
 structure Util : UTILITIES = struct
@@ -22,5 +23,9 @@ fun vcompare cmp ([], []) = SOME EQUAL
           | GREATER => if ListPair.exists (eq LESS o cmp) (xs, ys)
                        then NONE else SOME GREATER)
   | vcompare _ _ = raise ListPair.UnequalLengths
+
+fun flatten [] = []
+  | flatten [x] = x
+  | flatten (x::xs) = flatten [x] @ flatten xs
 
 end
