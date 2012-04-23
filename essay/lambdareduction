@@ -1,0 +1,6 @@
+Test nr403 made redundant by nr97
+nr97's witness:
+Term "\a.M_eta a" should normalize to "M_eta", but your interpreter reduced it to "\a.M_eta a", which has an eta-redex "\a.M_eta a".
+
+nr403's witness:
+Term "(\x.\x.\a.M_eta a) y" should normalize to "\x.M_eta", but your interpreter reduced it to "\x.\x.\a.M_eta a", which has an eta-redex "\a.M_eta a".

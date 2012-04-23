@@ -1,0 +1,16 @@
+test  1, bh failed -- fail
+test  2, bh passed
+test  3, bh passed
+test  4, bh failed -- fail
+test  1, jnw passed
+test  2, jnw failed -- fail
+test  3, jnw passed
+test  4, jnw failed -- fail
+test  1, es passed
+test  2, es failed -- fail
+test  3, es failed -- fail
+test  4, es failed -- fail
+test  1, nr passed
+test  2, nr passed
+test  3, nr passed
+test  4, nr passed

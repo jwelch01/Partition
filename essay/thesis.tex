@@ -3,6 +3,8 @@
 \usepackage{amsmath}
 \usepackage{fullpage}
 \usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{verbatim}
 
 \title{Improved Ranking through Black Box Testing}
 \author{Jesse Welch}
@@ -46,7 +48,13 @@ Under this definition, there are 4 possible results for comparing two solutions,
 
 Using this algorithm, we are able to successfully create accurate rankings of different student solutions.
 
-(insert two or three diagrams graphs, brief description of how the graph works)
+\begin{figure}
+\centering
+\includegraphics{rank1.ps}
+\caption{Edges point from a functionally inferior solution to a functionally superior one. "|" represents a class of tests passed by the equivalence class, "." represents a class of tests failed by the equivalence class.}
+\end{figure}
+
+
 \subsection{Adding More Outcomes}
 The Claessen algorithm is based upon a simplification of the result of a black box test set. While it is true that without looking into the source code, the only thing we know about a solution is its test results, it is not true that these results are limited to a binary PASS/FAIL. In truth, we have much more information than this. A test can be passed, or it can be failed in any  number of ways. It may segfault. It may throw an exception. It may produce an incorrect result. The number of potential test results is not arbitrarily limited, and so we may be able to find further information by not limiting our algorithm's analytical powers to an imposed binary.
 
@@ -54,7 +62,13 @@ Claessen's algorithm needs extremely minimal extension in order to allow for non
 
 Since no universally correct ranking of outcomes is possible, we chose to examine what would happen if the algorithm was extended by a ranking determined by subjective choice. If we find a more representative ranking under one arbitrary ordering of outcomes, a different ordering should produce a ranking that is equally more representative to a different subjectivity. To this end, we imposed an arbitrary total order. The ordering was simple: PASS$>$INCORRECT$>$FAILURE, where FAILURE is defined as an error that brings down the process/interpreter. We chose this ordering because our datasets represent student solutions, and the students were told that a segmentation fault (or related fatal error) would result in a 0\% as their grade on functional correctness.
 
-(side by side of two identical ranking graphs, one produced by each comparison function)
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{rank1.ps}
+\includegraphics[scale=0.5]{rank2.ps}
+\caption{The first graph was created using binary outcomes, the second using multiple outcomes.}
+\end{figure}
 
 Using our new comparison function (but an algorithm unaltered from Claessen's), we found several interesting properties. First, in most cases, the additional outcomes made no difference. This was a surprising fact, and shows that the equivalence classes produced by the algorithm demonstrate a stronger degree of relatedness than previously known. Not only are these solutions getting the same binary results for every test, they are, in many cases, failing in  identical ways. Equivalence classes of solutions generally document programs that are \emph{extremely} similar.
 
@@ -112,14 +126,16 @@ Now, rather than having to find implications between every proposition, we need 
 
 The set of implications within a dataset forms a natural structure: a directed graph. Each class of propositions is a node in the graph, and each implication is an edge from the implicating proposition to the implicated.
 
+
 (example of a toy implication graph)
+
 
 Given this implication graph, the question remains: Does it actually diagram the problem's structure? We were provided with a natural experiment to begin to test this question. Our students were given an assignment that contained 14 problems. Each of the problems was entirely self-contained, and there was no code overlap between the problems. Some problems covered related topics, and so relic relationships might appear in the data, but by and large, we expected these problems to be diagrammed as entirely separate components.
 
 (divtest implication graph, with subproblems boxed in - this can probably be improved)
 
+The results of this experiment were mixed. We did not find that every subproblem made an entirely separate subgraph, but instead that the subproblems made subgraphs that were sometimes connected, with implications between portions of the problem that should not be possible in the underlying problem.
 
-Analysis: it's not perfect, but it is pretty good.
 \subsection{Improving the Visualization}
 The implication graph, as produced contains all of the information about implications contained within the dataset. It also contains large amounts of tautological information, implications which are true regardless of the dataset. These tautologies are represented both as edges within the graph and as equivalences within a single node.
 
@@ -144,10 +160,6 @@ After this large scale reduction, Claessen's algorithm contains another form of 
 $$FAIL (T_0) \equiv FAIL(T_1) \cup FAIL(T_2)$$
 where all three tests are drawn from different equivalence classes. This was justified with the argument that, rather than discovering a new faults of its own, $T_0$ likely provoked both of the faults discovered in $T_1$ and $T_2$. Removing $T_0$ therefore does not cause any information loss. Instead, its removal simplifies the test set to a smaller, but still representative sample of tests.
 
-(if I have time, insert a theorem here about how removing this test also WILL NOT affect the ranking)
-
-(a little bit of data about how much this generally reduces)
-
 \subsection{Union*}
 The logical basis to Claessen's algorithm that a test can be redundant because it provokes the flaws already demonstrated by two other non-redundant tests\cite{Claessen}, can be extended further. Why should we limit this to only circumstances where the flaws are in exactly two other tests? Why not any number? We propose an extended algorithm, one which removes any tests whose set of failures is equal to the union of the failures of \emph{any number of tests}. 
 
@@ -164,11 +176,14 @@ Thankfully, the implication graph lends itself to a vastly simplified implementa
 \subsection{Comparison}
 Union* must reduce at least as many tests as Claessen, and can reduce more. This is because every test that will be removed under Claessen will be removed under exactly the same conditions in Union* (the union of two tests is simply a specification of the union of any number of tests). In theory, Union* is capable of outperforming Claessen
 
-(diagram of toy example where it succeeds)
+\begin{figure}
+\verbatiminput{testset}
+\includegraphics{toy.ps}
+\includegraphics{toyb.ps}
+\caption{Graphs produced using test set above. First graph has been reduced using Claessen, the second Union*. Note that Test 4 has been successfully reduced by Union*}
+\end{figure}
 
 In practice, we discovered a different situation. On 10 different real world datasets (each dataset was the student submissions for a different assignment, drawn from two different courses), we found no difference between reduction performed by the Claessen algorithm and the Union* algorithm. This was a surprising result, and demonstrates several things. Trivially, it confirms that the Union* algorithm does no worse than Claessen. More substantially, we discovered that the Claessen algorithm is surprisingly powerful. In every tested real world case, the union of two tests was enough to remove every test that could be found redundant under union.
-
-(side by side of the two identical reductions)
 
 There are several potential explanations for this fact. One is that no test tests more than two underlying faults. This is extremely unlikely, as it is relatively simple to write a test that exercises large sections of a program's functionality, and can readily provoke more than two potential faults. Another possibility lies in the method of building tests. The test sets we use, being generally developed from QuickCheck properties, deliberately exercise a specific area of functionality \cite{QuickCheck}. Similarly, when hand written unit tests are allowed, they also generally exercise small areas of functionality, rather than the entire program. A different style of test design might allow Union* to have more success, removing large tests that attempt to exercise every possible fault in the program, when these faults are better demonstrated by small tests. A final possibility is that we simply don't have enough solutions, and that a greater diversity in solutions would increase the difference between the two algorithms.
 
@@ -180,23 +195,23 @@ All forms of noise reduction previously discussed rely on examining the relation
 
 The implication graph is a representation of the relationships between these tests. It presents many discoverable relationships (implies, implied by, reachable from, etc.). Using this graph, we are able to perform noise reduction at the level of a single solution, a novel process. For simplicity, we chose to examine only one of the available relationships, direct implication. Our algorithm is as follows:
 
-(for two tests, T1, T2, if T1(S) = FAIL \&\& T2(S) = FAIL \&\& FAIL(T1) -> FAIL(T2), remove T2 from S)
+\centerline{Given two tests $T_1$ and $T_2$ and solution $s$}
+$$if s(T_1) = FAIL \wedge s(T_2) = FAIL \wedge FAIL(T_1) \Rightarrow FAIL(T_2), remove T_2$$
 
 Given a perfect implication graph, in which every implication is not just found in the data but representative of the problem itself, this algorithm reduces the tests presented as  failed to the set of the easiest tests failed. 
 
-If two tests are needed to differentiate the solutions on the solution class scale, it is possible (and frequently true), that one is simply an easier version of itself. For exaxmple, we ran our algorithms on a set of solutions to the problem of reducing the lambda calculus. Following all class level reductions, two tests remained:
+If two tests are needed to differentiate the solutions on the solution class scale, it is possible (and frequently true), that one is simply an easier version of itself. For example, we ran our algorithms on a set of solutions to the problem of reducing the lambda calculus. Following all class level reductions, two tests were among those that remained:
 
-(the tests (numbered))
+\verbatiminput{lambdatests}
 
-(a sentence or two on what each test tested,  and why the first implied the second)
+$T_1$ tests where a solution has implemented eta reductions at all. $T_2$ tests whether a solution has implemented eta reductions \emph{in a specific place}. $T_2$ was explicitly designed to be a harder version of $T_1$. If you did not implement eta reductions at all, you would fail both. If you implemented them, you would pass $T_1$, but might still fail $T_2$ if they were not functioning properly in the specific case.
 
-Therefore, if a solution failed test 1, failing test 2 tells us nothing new. They may have the flaw it was attempting to diagnose, or they may not. This fact is masked entirely by the flaw diagnosed in test 1. Therefore, removing test 2 from the witnesses would not cause any information loss.
+Because the flaw in $T_1$ directly causes a failure in $T_2$, $FAIL(T_1) \Rightarrow FAIL(T_2)$. This led our algorithm to be able to reduce the witnesses to any solution who failed both tests, providing only the output from $T_1$.
 
-Because the flaw in test 1 directly causes a failure in test 2, FAIL(Test1) -> FAIL(Test2). This led our algorithm to be able to reduce the witnesses to any solution who failed both tests, providing only the output from test 1.
-
-(figure showing that this happened, probably a side by side).
-
-(numbers on how avg number and percentage of reductions performed)
+\begin{figure}
+\verbatiminput{lambdareduction}
+\caption{Machine output for a successful reduction in which $T_2$ (nr403) was removed due to failure of $T_1$ (nr97)}
+\end{figure}
 
 \subsection{Validity of Reductions}
 
@@ -204,11 +219,17 @@ This algorithm is definitively  capable of performing reductions, but a question
 
 A readily available example is the dataset used to confirm the implication graph. As we discovered earlier, when tests were run on functions whose implementations were entirely independent, the functions generally formed into groups in the  graph, but there were implications between the groups. Using this implication graph, we performed a witness reduction on each solution, in order to test how many of the reductions we considered to be valid. In order to simplify analysis, we did not try ot delve into the relationship between each test, but instead used a simple metric. If two tests test the same function, any reduction upon them is valid. If they test different  functions, any reduction on them is invalid.
 
-(figure showing side by side several good reductions, and several bad ones)
+\begin{figure}
+\verbatiminput{goodreductions}
+\verbatiminput{badreductions}
+\end{figure}
 
-(analysis, percentage of what reductions were good)
 
-The invalid reductions discovered represent a failure in the implication graph, as they are based on implications which are likely not valid to the problem itself, but simply to the dataset the reduction process was done on. If the implication graph perfectly represented the problem structure, every reduction based on it would be good. Therefore, the more correct we make the implication graph, the more correct we make the witness reduction.
+After running this experiment, we found that the witness reduction strategy achieved moderate success. Out of (some number) of reductions, (some percent) of reductions were deemed to be valid. However, this result is somewhat misleading. A large number of the invalid reductions were concentrated in the least correct solutions. By omitting the reductions obtained from the two least correct solutions, the percentage of correct reductions jumps to (some percent). While eliminating these students is not something that can truly be done in practice, it demonstrates that witness reduction is highly accurate for most students, and extremely inaccurate for a select few.
+
+Using the same definition of implications, but with multiple outcomes, we found a very different result. There were only 112 reductions, all of them related to the qsort function, and every one of them was valid. This was a positive result, but the fact that reductions were not made on tests of any other functions makes these results suspect.
+
+Any invalid reductions discovered represent a failure in the implication graph, as they are based on implications which are likely not valid to the problem itself, but simply to the dataset the reduction process was done on. If the implication graph perfectly represented the problem structure, every reduction based on it would be good. Therefore, the more correct we make the implication graph, the more correct we make the witness reduction.
 
 
 
@@ -225,11 +246,11 @@ Assumption: There exists a fully correct and fully incorrect solution to every p
 
 Theorem: The passage of one test cannot imply the failure of another test in the full problem space.
 
-Proof: Assume PASS(T1) -> FAIL(T2). This means that every solution that passes T1 fails T2. However, there exists the fully correct solution S. For all tests T, S(T) = PASS. Therefore S(T1) = PASS, and S(T2) = PASS, contradicting our assumption.
+Proof: Assume $PASS(T_1) \Rightarrow FAIL(T_2)$. This means that every solution that passes $T_1$ fails $T_2$. However, there exists the fully correct solution S. For all tests T, S(T) = PASS. Therefore S($T_1$) = PASS, and S($T_2$) = PASS, contradicting our assumption.
 
 Theorem: The failure of one test cannot imply the failure of another test in the full problem space.
 
-Proof: Assume FAIL(T1) -> PASS(T2). This means that every solution that fails T1 passess T2. However, there exists the fully incorrect solution S'. For all tests T, S'(T) = FAIL. Therefore S'(T1) = FAIL, and S'(T2) = FAIL, contradicting our assumption.
+Proof: Assume FAIL($T_1$) $\Rightarrow$ PASS($T_2$). This means that every solution that fails $T_1$ passess $T_2$. However, there exists the fully incorrect solution S'. For all tests T, S'(T) = FAIL. Therefore S'($T_1$) = FAIL, and S'($T_2$) = FAIL, contradicting our assumption.
 
 
 Based on these proofs, we can safely remove from the implication graph every implication between the passage of one test and the failure of another.
@@ -238,13 +259,18 @@ From similar logic, we can remove every implication either to or from a test wit
 
 There is one other reduction we can make to the implication graph, for somewhat different reasons than the previous reductions. We can remove implications that may hold true in th actual problem structure, because we do not currently have enough information to assume them. If a given test result is achieved only by members of a single equivalence class, any implications based on it can be removed, because they are based on too little information to generalize from.
 
-(insert a paragraph on "know one thing know them all". Try and  find a tone that gets clarity but isn't overly colloquial)
+We don't have enough information because, if an outcome is achieved only by a single class, it logically must imply every other result achieved by that class's solutions (because every solution that achieved that result achieved each other result). But we simply cannot claim that each of these results is directly implied by a single result. If we do, we claim that knowing a single fact about a solution means that we know everything about it. This is obviously untrue.
 
 \subsection{The Results  of Reducing the Implication Graph}
 
-These reductions of the implication graph were critical to our ability to implement witness reduction. The first several reductions insured we were not making any reductions based on clearly invalid implications. The final reduction, in which we did not allow one fact about a solution to imply everything about it, was particularly important. Based on this reduction, we were able to give larger and more representative witness sets to the affected solutions.
+These reductions of the implication graph were critical to our ability to implement witness reduction. The first several reductions insured we were not making any reductions based on clearly invalid implications. The final reduction, in which we do not allow implications based on unique outcomes, was particularly important. Based on this reduction, we were able to improve the output give larger and more representative witness sets to the affected solutions.
 
-(side by side of Ahnie's unique failure)
+\begin{figure}
+\verbatiminput{example.witness}
+\verbatiminput{example3.witness}
+\verbatiminput{example2.witness}
+\caption{The first set of failures is unreduced, the second set is reduced without alteration, and the third is reduced using the improved implication graph}
+\end{figure}
 
 \subsection{Continuing Problems}
 
@@ -253,8 +279,6 @@ Despite these reductions, we were not able to fully stop the algorithm from maki
 The first problem is fairly clear. In order to find the full structure of a problem, we need to know every possible correct and incorrect solution to it, an infinite  number of solutions. Presented with a finite dataset, we can only approximate this structure, a fundamental limitation.
 
 The second problem is far more insidious. When attempting to find the structure of a problem, it is expected that if a test tests some feature of a program, and that feature has a flaw, the test will uncover it. However, in the real world, programs do not behave nicely. There may be two flaws within a feature, which generally cause the feature to fail, but sometimes work together to cause it to succeed.
-
-(addition/multiplication example)
 
 In real world programs, we do not find clean connections of components, failures that always occur in concert, features bein implemented in uniform ways. Real programmers have flaws present at every known edge case, and sometimes at edge cases that were unknown. Flaws interact in unexpected ways, and programs, when tested as a black box, are generally unpredictable.
 
