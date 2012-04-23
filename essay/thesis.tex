@@ -126,13 +126,18 @@ Now, rather than having to find implications between every proposition, we need 
 
 The set of implications within a dataset forms a natural structure: a directed graph. Each class of propositions is a node in the graph, and each implication is an edge from the implicating proposition to the implicated.
 
-
-(example of a toy implication graph)
-
+\begin{figure}
+\verbatiminput{toyimpldata}
+\includegraphics[scale=0.75]{toyimpl.ps}
+\caption{Dataset and the generated implication graph. A transitive reduction has been performed on the graph}
+\end{figure}
 
 Given this implication graph, the question remains: Does it actually diagram the problem's structure? We were provided with a natural experiment to begin to test this question. Our students were given an assignment that contained 14 problems. Each of the problems was entirely self-contained, and there was no code overlap between the problems. Some problems covered related topics, and so relic relationships might appear in the data, but by and large, we expected these problems to be diagrammed as entirely separate components.
 
-(divtest implication graph, with subproblems boxed in - this can probably be improved)
+\begin{figure}
+\includegraphics[scale=0.5]{div.ps}
+\caption{Implication graph generated from experiment. Boxed sections indicate tests performed on the same problem. TODO: ADD BOXES}
+\end{figure}
 
 The results of this experiment were mixed. We did not find that every subproblem made an entirely separate subgraph, but instead that the subproblems made subgraphs that were sometimes connected, with implications between portions of the problem that should not be possible in the underlying problem.
 
@@ -149,7 +154,12 @@ Also present in the implication graph is an entire class of redundant relationsh
 
 Intelligent viewers may choose whether or not performing any of these reductions on the implication graph increases clarity by limiting the amount of information displayed, or reduces clarity by rendering some relationships implicit. Nonetheless, it is clear that performing these reductions causes a substantial reduction to the size of the resulting implication graph.
 
-(side by side of an ugly graph pre-reduction and a prettier graph post reduction.
+\begin{figure}
+\includegraphics[scale=0.5]{div.ps}
+\newline
+\includegraphics[scale=0.5]{divreduced.ps}
+\caption{The previous experimental graph before and after reduction. Note the significant decrease in both the numbers of nodes and edges between the graphs.}
+\end{figure}
 
 \section{Noise Reduction on Test Sets}
 \subsection{Claessen's Algorithm}
