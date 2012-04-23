@@ -1,14 +1,17 @@
 \documentclass[11pt]{article}
+\usepackage{natbib}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{fullpage}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
 \usepackage{verbatim}
 
 \title{Improved Ranking through Black Box Testing}
 \author{Jesse Welch}
-\date{}
+\date{May 2012}
 
 \doublespace
 \begin{document}
@@ -229,10 +232,17 @@ This algorithm is definitively  capable of performing reductions, but a question
 
 A readily available example is the dataset used to confirm the implication graph. As we discovered earlier, when tests were run on functions whose implementations were entirely independent, the functions generally formed into groups in the  graph, but there were implications between the groups. Using this implication graph, we performed a witness reduction on each solution, in order to test how many of the reductions we considered to be valid. In order to simplify analysis, we did not try ot delve into the relationship between each test, but instead used a simple metric. If two tests test the same function, any reduction upon them is valid. If they test different  functions, any reduction on them is invalid.
 
-\begin{figure}
-\verbatiminput{goodreductions}
-\verbatiminput{badreductions}
-\end{figure}
+\begin{figure*}
+\begin{tabularx}{\linewidth}{@{}XX@{}}
+\small\verbatiminput{goodreductions}
+&
+\small\verbatiminput{badreductions}
+\\
+\caption{Good reductions}&
+\caption{Bad reductions}
+\\
+\end{tabularx}
+\end{figure*}
 
 
 After running this experiment, we found that the witness reduction strategy achieved moderate success. Out of 422 reductions, 62.5\% were deemed to be valid. However, this result is somewhat misleading. A large number of the invalid reductions were concentrated in the least correct solutions. By omitting the reductions obtained from the two least correct solutions, the percentage of correct reductions jumps to 76.7\%. While eliminating these students is not something that can truly be done in practice, it demonstrates that witness reduction is highly accurate for most students, and extremely inaccurate for a select few.
@@ -320,7 +330,7 @@ Our witness reduction algorithm is an entirely novel form of noise reduction. Ra
 
 Most importantly, we have created a powerful infrastructure from which further methods of noise reduction can easily be implemented. Rather than having to redesign for each new algorithm implemented, the implication graph allows for new reduction algorithms to be quickly implemented, and for entirely new types of reductions to be tested.
 
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{thesis}
 
 \end{document}
