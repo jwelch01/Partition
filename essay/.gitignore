@@ -4,3 +4,6 @@
 *.out
 *.log
 *.blg
+thesis.bbl
+thesis.ps
+thesis.pdf
