@@ -1,20 +1,31 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,twoside]{article}
 \usepackage{natbib}
 \usepackage{amssymb}
 \usepackage{amsmath}
-\usepackage{fullpage}
+%\usepackage{fullpage}  % margins are a little *too* small
+%
+%  find the package that exports \setmarginsrb
+%  and use it
+%
 \usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{verbatim}
 
+\let\cite=\citep
+\bibpunct();A{},
+
 \title{Improved Ranking through Black Box Testing}
 \author{Jesse Welch}
 \date{May 2012}
 
-\doublespace
+\pagestyle{headings}
+
 \begin{document}
+
+\baselineskip=1.3\baselineskip % a little extra space between lines
+
 \maketitle
 
 \tableofcontents
@@ -36,7 +47,7 @@ Claessen et. al. demonstrated an algorithm that is a substantial improvement \ci
 \centerline{ Given tests $T_O$ and $T_1$ and solution set $S$}
 $$ T_0 \equiv T_1 \iff \forall s \in S s(T_0) \equiv s(T_1) $$
 
-Using this example, a test set $T$ could be reduced into a set of its equivalence classes. From these equivalence classes, a single representative example could be drawn, creating a new test set $T\prime$. This step alone substantially improves the validity of the ranking algorithm. Ranking students based on the percentage of tests passed in $T\prime$, a solution with a single flaw will rank higher than a program with multiple flaws, regardless of how easy they are to test.
+Using this example, a test set $T$ could be reduced into a set of its equivalence classes. From these equivalence classes, a single representative example could be drawn, creating a new test set $T'$. This step alone substantially improves the validity of the ranking algorithm. Ranking students based on the percentage of tests passed in $T'$, a solution with a single flaw will rank higher than a program with multiple flaws, regardless of how easy they are to test.
 
 However, this method is still limited, and still has its own biases. For example, in some solutions, a single flaw will cause the failure of multiple equivalence classes of tests, causing the flaw to look worse than a seemingly equivalent flaw in a different program. And in general, we are still create a direct ranking of solutions whose failures may come in completely different sections of the problem, and thus be truthfully incomparable.
 
@@ -184,7 +195,7 @@ $$FAIL (T_0) \equiv FAIL(T_1) \cup FAIL(T_2) \cup ... \cup FAIL(T_n) $$
 
 A naive implementation of this algorithm is computationally complex. Given a set of tests $T$, we need to run the algorithm for each member $t$ of $T$, checking whether its failure set is equal to the union of any subset of tests in $T$ that does not contain $t$. This is simply too much work, so a different solution must be found.
 
-Thankfully, the implication graph lends itself to a vastly simplified implementation. We do not need to check the union of every possible subset of tests, only the union of those that could possibly be useful. Using the implication graph, given a test $t$ and a test set $T$, we can easily find the subset $T\prime$ which only contains tests whose failures are a subset of $t$. Any test in $T$ but not in $T\prime$ cannot possibly contribute to an equal union, because it contains at least one failure not in $t$. Therefore, we can simply apply the algorithm once, to every member of $T\prime$. $t$ is redundant if $FAIL(t) \equiv \cup^* T\prime$.
+Thankfully, the implication graph lends itself to a vastly simplified implementation. We do not need to check the union of every possible subset of tests, only the union of those that could possibly be useful. Using the implication graph, given a test $t$ and a test set $T$, we can easily find the subset $T'$ which only contains tests whose failures are a subset of $t$. Any test in $T$ but not in $T'$ cannot possibly contribute to an equal union, because it contains at least one failure not in $t$. Therefore, we can simply apply the algorithm once, to every member of $T'$. $t$ is redundant if $FAIL(t) \equiv \cup^* T'$.
 
 \subsection{Comparison}
 Union* must reduce at least as many tests as Claessen, and can reduce more. This is because every test that will be removed under Claessen will be removed under exactly the same conditions in Union* (the union of two tests is simply a specification of the union of any number of tests). In theory, Union* is capable of outperforming Claessen
