@@ -3073,7 +3073,6 @@
 -given nr       test  134, jpearl05 failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
 -given nr       test  134, hnasar01 failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
 -given nr       test  134, tsoule01 failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
--given nr       test  134, jtan03x  failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
 -given nr       test  134, mrusse03 passed
 -given nr       test  134, adreyf01 failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
 -given nr       test  134, dwhitn01 failed -- We created a LargeNegativeInteger with value zero, but your code computed "-0".
@@ -3097,7 +3096,6 @@
 -given nr       test  135, jpearl05 failed -- We negated a large zero, but your code computed "-0".
 -given nr       test  135, hnasar01 failed -- We negated a large zero, but your code computed "-0".
 -given nr       test  135, tsoule01 failed -- We negated a large zero, but your code computed "-0".
--given nr       test  135, jtan03x  failed -- We negated a large zero, but your code computed "-0".
 -given nr       test  135, mrusse03 passed
 -given nr       test  135, adreyf01 failed -- We negated a large zero, but your code computed "-0".
 -given nr       test  135, dwhitn01 failed -- We negated a large zero, but your code computed "-0".
