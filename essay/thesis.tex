@@ -17,7 +17,7 @@
 \newcommand\dnr{\mathit{DNR}}
 \newcommand\fail{\mathit{FAIL}}
 \newcommand\pass{\mathit{PASS}}
-
+\newcommand\defined{\triangleq}
 
 \let\cite=\citep
 \bibpunct();A{},
@@ -58,7 +58,7 @@ Finding a fair ranking algorithm is exceedingly important for our task of gradin
 Claessen et. al. demonstrated an algorithm for creating a fair ranking of solutions\cite{Claessen}. Their algorithm was run on large test suites generated automatically using QuickCheck \cite{QuickCheck}, which produces many similar test cases. In order to limit the number of tests they needed to consider, they partitioned the test set into equivalence classes.
 
 \centerline{Given tests $T_O$ and $T_1$ and solution set $S$}
-$$ T_0 \equiv T_1 \iff \forall s \in S : s(T_0) \equiv s(T_1) $$
+$$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
 
 Using this example, a test set $T$ could be reduced into a set of its equivalence classes. From these equivalence classes, a single representative example could be drawn, creating a new test set $T'$. $T'$ is a simpler set to work with than $T$, and processing it will be cheaper due to its decreased size. Most importantly, because $T'$ contains a test equivalent to every test in $T - T'$, the reduction has not lost any information.
 
@@ -67,8 +67,8 @@ Using this example, a test set $T$ could be reduced into a set of its equivalenc
 Claessen's algorithm then creates a partial order of the solutions using $T'$. It does this using a binary representation of results. Tests can either be passed or failed, and PASS $>$ FAIL.
 
 \centerline{Given solutions $S_1$ and $S_2$, and test set $T$}
-$$S_1 \equiv S_2 \iff \forall t \in T : S_1(t) = S_2(t)$$
-$$S_1 \sqsubseteq S_2 \iff \forall t \in T' : S_1(t) \geq S_2(t)$$
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) = S_2(t)$$
+$$S_1 \sqsubseteq S_2 \defined \forall t \in T' : S_1(t) \geq S_2(t)$$
 
 
 Under this definition, there are 4 possible results for comparing two solutions, $S_1$ and $S_2$. $S_1 < S_2$, $S_1 > S_2$, $S_1 \equiv S_2$, or $S_1$ and $S_2$  are incomparable. This definition allows us to build a partial ordering. This ranking is not built on the number of failures, but only on the direct relationships between the set of tests failed by each solution.
@@ -121,8 +121,8 @@ The tester running the test set may choose to omit tests from a given solution f
 In this case, we can choose another method for handling DNR outcomes. The procedure is very simple.
 
 \centerline{Given solutions $S_1$ and $S_2$, and test set $T$}
-$$S_1 \equiv S_2 \iff \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr \wedge S_1(t) \equiv S_2(t)$$
-$$S_1 > S_2 \iff \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr : S_1(t) \geq S_2(t)$$
+$$S_1 \equiv S_2 \defined \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr \wedge S_1(t) \equiv S_2(t)$$
+$$S_1 > S_2 \defined \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr : S_1(t) \geq S_2(t)$$
 In this way, we do not invalidate any of the possible meanings of DNR. In a properly formed test set, two solutions cannot differ only on tests for which one of them received a DNR. Instead, a prior test result must have \emph{caused} the DNR in one solution and not the other, and on this test they can still be compared. 
 
 In the first situation previously discussed, in which a block of tests may not be run because a prior test crashed the block, solutions would differ on whether or not they ran the block, but the one which ran the block would also have an inherently better result---it passed the test which crashed the block. The solutions can be properly compared on this test.
