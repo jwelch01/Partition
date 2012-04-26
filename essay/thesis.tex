@@ -1,3 +1,11 @@
+%
+% to embed text in math, use \mbox:
+%
+%  $S \mbox{ where } x \in S \implies \mbox{$x$~is full of fish heads}$
+%
+%
+
+
 \documentclass[11pt,twoside]{article}
 \usepackage{natbib}
 \usepackage{amssymb}
@@ -10,12 +18,15 @@
 \usepackage{tabularx}
 \usepackage{verbatim}
 
-\newcommand\dnr{\mathit{DNR}}
+\newcommand\dnr{\ensuremath{\mathit{DNR}}}
 \newcommand\fail{\mathit{FAIL}}
 \newcommand\pass{\mathit{PASS}}
-\newcommand\defined{\triangleq}
+\newcommand\defined{\mathrel{\;\stackrel{\scriptscriptstyle\mathbf{def}}{=}\;}}
+
 
 \newtheorem{thm}{Theorem}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
 
 \let\cite=\citep
 \bibpunct();A{},
@@ -24,6 +35,8 @@
 
 
 \begin{document}
+
+\advance\extrarowheight by 1.5pt
 
 \title{Finding the Signal: Improved Ranking and Noise Reduction Through Black Box Testing}
 \author{Jesse Welch}
@@ -51,7 +64,11 @@ Prior work demonstrates methods for both ranking and reducing redundant tests. I
 \subsection{What is Ranking?}
 When we have multiple solutions to the same problem, we are generally trying to compare them in some way. Prior work has needed to compare various programming methodologies \cite{Claessen}. We have multiple outcomes because we are attempting to grade student homework assignments. The ability to compare the functional correctness of each submission helps us to group students into grade ranges and insure fairness in the grading.
 
+\begin{defn}[Fairness]
+
 "Fairness" is a particularly difficult concept to quantify, but it a fair ranking algorithm is necessary to be able to accurately compare solutions. A fair algorithm produces an objective comparison, in which the two solutions are correctly ordered by their functional correctness, regardless of the actions of an adversarial tester.
+
+\end{defn}
 
 A ranking algorithm can therefore be improved by making it more fair. This can mean any of several things. If a new algorithm is able to find an objective relationship between two types of solutions considered equivalent by the original algorithm, the new algorithm is an improvement. Similarly, if a new algorithm discovers that two solutions are incomparable when the original algorithm found a relationship between them, the new algorithm is an improvement, because it has removed a relationship that did not truly exist.
 
@@ -75,12 +92,16 @@ Using this example, a test set $T$ could be reduced into a set of its equivalenc
 
 Claessen's algorithm then creates a partial order of the solutions using $T'$. It does this using a binary representation of results. Tests can either be passed or failed, and PASS $>$ FAIL.
 
-\centerline{Given solutions $S_1$ and $S_2$, and test set $T$}
+\begin{defn}[Rank order of solutions]
+THIS IS A PARTIAL ORDER.
+Given solutions $S_1$ and $S_2$, and test set $T$, we define
 $$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) = S_2(t)$$
-$$S_1 \sqsubseteq S_2 \defined \forall t \in T' : S_1(t) \geq S_2(t)$$
-
-
-Under this definition, there are 4 possible results for comparing two solutions, $S_1$ and $S_2$. $S_1 < S_2$, $S_1 > S_2$, $S_1 \equiv S_2$, or $S_1$ and $S_2$  are incomparable. This definition allows us to build a partial ordering. This ranking is not built on the number of failures, but only on the direct relationships between the set of tests failed by each solution.
+$$S_1 \sqsubseteq S_2 \defined \forall t \in T' : S_1(t) \leq S_2(t)$$
+When $S_1 \sqsubseteq S_2$ but $S_1 \not\equiv S_2$, we write
+$S_1 \sqsubset S_2$.
+\end{defn}
+Under this definition, there are 4 possible results for comparing two solutions, $S_1$~and~$S_2$. 
+$S_1 \sqsubset S_2$, $S_1 \sqsupset S_2$, $S_1 \equiv S_2$, or $S_1$ and $S_2$  are incomparable. This definition allows us to build a partial ordering. This ranking is not built on the number of failures, but only on the direct relationships between the set of tests failed by each solution.
 
 Using this algorithm, we are able to successfully create fair rankings of different student solutions.
 
@@ -128,11 +149,12 @@ With these new outcomes ``in'' our dataset, we were faced with the challenge of 
 The tester running the test set may choose to omit tests from a given solution for any number of reasons. Perhaps tests are omitted for the reasons we used, because a previous test caused a fatal error. But perhaps thy are omitted for a more positive reason. A tester could choose to start a portion of a test set by running an extremely difficult test set, one which simultaneously exercised every feature that portion is testing. If this test is passed, they may then choose to not run all of the simpler test cases, because they know the solution will pass them. And perhaps the tester eliminates some tests for each of these reasons, on the same test. In this case, there is no proper place for DNR in the ordering of outcomes. It could mean either PASS or FAIL, and so cannot be placed as better, worse, or equivalent to any of them.
 
 In this case, we can choose another method for handling DNR outcomes. The procedure is very simple.
-
-\centerline{Given solutions $S_1$ and $S_2$, and test set $T$}
-$$S_1 \equiv S_2 \defined \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr \wedge S_1(t) \equiv S_2(t)$$
-$$S_1 > S_2 \defined \forall t \in T where S_1(t) \neq \dnr \wedge S_2(t) \neq dnr : S_1(t) \geq S_2(t)$$
-In this way, we do not invalidate any of the possible meanings of DNR. In a properly formed test set, two solutions cannot differ only on tests for which one of them received a DNR. Instead, a prior test result must have \emph{caused} the DNR in one solution and not the other, and on this test they can still be compared. 
+\begin{defn}[Rank order with \dnr]
+Given solutions $S_1$ and $S_2$, and test set $T$, we define
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
+$$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
+\end{defn}
+In this way, we do not invalidate any of the possible meanings of \dnr. In a properly formed test set, two solutions cannot differ only on tests for which one of them received a DNR. Instead, a prior test result must have \emph{caused} the DNR in one solution and not the other, and on this test they can still be compared. 
 
 In the first situation previously discussed, in which a block of tests may not be run because a prior test crashed the block, solutions would differ on whether or not they ran the block, but the one which ran the block would also have an inherently better result---it passed the test which crashed the block. The solutions can be properly compared on this test.
 
@@ -181,6 +203,15 @@ Given this implication graph, the question remains: How many of the implications
 \includegraphics[width=\textwidth]{div.ps}
 \caption{Implication graph generated from experiment. Boxed sections indicate tests performed on the same problem. TODO: ADD BOXES}
 \end{figure}
+
+\begin{figure}
+\includegraphics[width=0.45\textwidth,bb=200 100 300 150,clip=true]{div.ps}
+\includegraphics[width=0.45\textwidth,bb=300 150 500 350,clip=true]{div.ps}
+\caption{Implication graph generated from experiment. Boxed sections indicate tests performed on the same problem. TODO: ADD BOXES}
+\end{figure}
+
+
+
 
 The results of this experiment were mixed. We did not find that every subproblem made an entirely separate subgraph, but instead that the subproblems made subgraphs that were sometimes connected, with implications between portions of the problem that should not be possible in the underlying problem.
 
@@ -266,14 +297,18 @@ Union* must reduce at least as many tests as Claessen, and can reduce more. This
 In practice, results were mixed. Out of 21 datasets testes, Claessen and Union* performed identically 18 times. In the 3 datasets reduced, it reduced an average of 3 tests per test set, a 5\% reduction.
 
 \begin{table}[t]
+\def\?{\phantom0}
 \centering
-\begin{tabular}{ | l | l | l | l | l | }
+
+\begin{tabular}{ | l | c | c | c | c | }
 \hline
-Test & Test Count & Equivalence Classes &  Claessen Reduction &  Union* Reduction \\ 
+        &          &             &   After   & After \\ 
+Dataset & \#~Tests & \#\ Classes &  Claessen &  Union*  \\ 
+     &            &             & Reduction & Reduction \\
 \hline
-105 & 135 & 8 & 8 & 8 \\
-all & 20 & 10 & 8 & 8 \\
-asm & 96 & 27 & 19 & 18 \\
+105 & 135 & \?8 & \?8 & \?8 \\
+all & \?20 & 10 & \?8 & \?8 \\
+asm & \?96 & 27 & 19 & 18 \\
 asmcoding & 135 & 6 & 5 & 5 \\
 bitpack & 2468 & 144 & 91 & 87 \\
 comp40intro & 20 & 12 & 10 & 10 \\
