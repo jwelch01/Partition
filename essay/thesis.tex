@@ -19,6 +19,8 @@
 \newcommand\pass{\mathit{PASS}}
 \newcommand\defined{\triangleq}
 
+\newtheorem{thm}{Theorem}
+
 \let\cite=\citep
 \bibpunct();A{},
 
@@ -57,8 +59,10 @@ Finding a fair ranking algorithm is exceedingly important for our task of gradin
 \subsection{The Algorithm}
 Claessen et. al. demonstrated an algorithm for creating a fair ranking of solutions\cite{Claessen}. Their algorithm was run on large test suites generated automatically using QuickCheck \cite{QuickCheck}, which produces many similar test cases. In order to limit the number of tests they needed to consider, they partitioned the test set into equivalence classes.
 
+
 \centerline{Given tests $T_O$ and $T_1$ and solution set $S$}
 $$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
+
 
 Using this example, a test set $T$ could be reduced into a set of its equivalence classes. From these equivalence classes, a single representative example could be drawn, creating a new test set $T'$. $T'$ is a simpler set to work with than $T$, and processing it will be cheaper due to its decreased size. Most importantly, because $T'$ contains a test equivalent to every test in $T - T'$, the reduction has not lost any information.
 
@@ -175,27 +179,40 @@ Given this implication graph, the question remains: How many of the implications
 
 The results of this experiment were mixed. We did not find that every subproblem made an entirely separate subgraph, but instead that the subproblems made subgraphs that were sometimes connected, with implications between portions of the problem that should not be possible in the underlying problem.
 
-\begin{comment}
-\subsection{Improving the Visualization}
-The implication graph, as produced contains all of the information about implications contained within the dataset. It also contains large amounts of tautological information, implications which are true regardless of the dataset. These tautologies are represented both as edges within the graph and as equivalences within a single node.
+\subsection{Improving the Implication Graph}
 
-These tautologies are generally relationships between propositions that work on the same test. If a test $t$ fails, $t$ did not pass; if $t$ does not run, $t$ did not fail, etc. Informing the person analyzing the implication graph of these relationships adds nothing to the structure of the problem, it merely dilutes the relevant relationships. Though removing these tautologies removes information from the graph, it is not information that an intelligent viewer will not readily assume.
+The implication graph contains every implication of all four classes (real, accidental, trivial, and bogus). An ideal graph contains every real implication, and no other implications. We have not been able to attain this graph in full, but there are several methods for limiting or eliminating the members of the negative three classes.
 
-There are two processes necessary for removing tautologies from the implication graph, one if they are within a single node, another if they are between nodes. Removing an intranode tautology is simple. One of the two tautologically propositions is simply removed from the node, leaving only one member of the pair. In our implementation, we attempted to retain the more precise proposition (PASS is more precise than NOT FAIL, because it describes only one outcome and not a set). 
+First, we can readily remove two types of bogus implications. An implication is bogus if exists in the implication graph, but provably cannot exist in the full problem space. The two types of implications we can remove are any implications of the form $\pass\Rightarrow\fail$ or $\fail\Rightarrow\pass$.
 
-Removing internode tautologies is equally simple, though more likely to confuse the viewer. Any of the relationships between two equivalence classes of propositions is tautological, we remove the edge in the graph. This relationship can still be assumed by an intelligent viewer, because the tautology remains self evident. However, the relationships between the other members of the equivalence classes have now become implicitly documented, rather than explicitly.
+Assumption: There exists a fully correct and fully incorrect solution to every problem.
 
-Also present in the implication graph is an entire class of redundant relationships. For two related propositions, $A$ and $B$, two implications are created: $A \Rightarrow B$ and $\neg B \Rightarrow \neg A$. This is true for two equivalence classes as well, the negation of a class being the negation of each of its members. Given one of these implications, the existence of the other is tautological. Therefore, we can include only one of them, without suffering information loss to an intelligent viewer. A difficulty in implementation lies in choosing a subset of these implications that leaves a minimal number of nodes in the final graph.
 
-Intelligent viewers may choose whether or not performing any of these reductions on the implication graph increases clarity by limiting the amount of information displayed, or reduces clarity by rendering some relationships implicit. Nonetheless, it is clear that performing these reductions causes a substantial reduction to the size of the resulting implication graph.
+\begin{thm} $\pass(T_1)$ cannot imply $\fail(T_2)$
 
-\begin{figure}
-\includegraphics[scale=0.5]{div.ps}
-\newline
-\includegraphics[scale=0.5]{divreduced.ps}
-\caption{The previous experimental graph before and after reduction. Note the significant decrease in both the numbers of nodes and edges between the graphs.}
-\end{figure}
-\end{comment}
+\begin{proof} Assume $\pass(T_1) \Rightarrow \fail(T_2)$. This means that every solution that passes $T_1$ fails $T_2$. However, there exists the fully correct solution S. For all tests T, S(T) = PASS. Therefore S($T_1$) = PASS, and S($T_2$) = PASS, contradicting our assumption.
+\end{proof}
+\end{thm}
+
+\begin{thm} $\fail(T_2)$ cannot imply $\pass(T_1)$
+
+\begin{proof} Assume $\fail(T_1) \Rightarrow \pass(T_2)$. This means that every solution that fails $T_1$ passess $T_2$. However, there exists the fully incorrect solution S'. For all tests T, S'(T) = FAIL. Therefore S'($T_1$) = FAIL, and S'($T_2$) = FAIL, contradicting our assumption.
+\end{proof}
+\end{thm}
+
+
+
+Based on these proofs, we can safely remove from the implication graph every implication between the passage of one test and the failure of another. This can be done in one of two ways. Either we can look for the implication graph and remove these implications where they exist, or we can create it with a fully correct and a fully incorrect solution as members of the solution set.
+
+Introducing the fully correct and fully incorrect solutions will also remove a class of trivial implications: implications created from tests with uniform outcomes. If every solution gets the same outcome on a given test, this outcome will be trivially implied by every outcome of every test. Similarly, if no student gets an outcome on a given test, this outcome trivially implies every outcome of every test. These implications add no useful information, and can either be removed explicitly, or implicitly by the introduction of the fully correct and incorrect solutions.
+
+There is a related type of trivial implications we can remove, though this one must be removed explicitly. If a particular outcome is achieved by exactly one equivalence class of solutions, this outcome will trivially imply every other outcome achieved by this student. If solution S is the only student to fail test $T_1$, and also fails $T_2$ and $T_3$, $\fail(T_1) \Rightarrow \fail(T_2)$ and $\fail(T_1) \Rightarrow \fail(T_2)$ regardless of the outcomes of every other solutions. This is because every solution that failed $T_1$ (only S) also achieved every other outcome S achieved. 
+
+Removing this set of implications is particularly important, because they are highly misleading. They make the claim that, if you know one thing about a solution, you can know everything about it, which is untrue. They are not classified as bogus, however, because the implication may actually be real. We simply don't have enough information to know either way.
+
+We can also easily remove another type of trivial implication: tautologies. A tautology exists when an implication will hold true regardless of the dataset, for example : $\pass(T_1) \Rightarrow \neg\dnr(T_1)$ and $\dnr(T_1) \Rightarrow \neg\fail(T_1)$. These implications can simply be removed, because they do not add any useful information to the set of implications.
+
+These reductions are able to improve the ratio between real implications and the other classes, but they are not perfect. Notably, we do not have a way to differentiate between real and accidental implications. These methods improve the quality of the implication graph, but there is considerable room for growth.
 
 \section{Noise Reduction}
 
@@ -208,7 +225,7 @@ For this reason, we seek to reduce noise as much as possible. Ideal noise reduct
 
 
 \subsection{Claessen's Algorithm}
-In Claessen's paper on ranking, there are several forms of noise reduction already performed. The first is the fundamental step of the algorithm, in which tests are grouped into equivalence classes. This step alone reduces from the original number of tests to a substantially smaller subset. Even with test sets numbering well into the thousands, this step never produced more than 144 equivalence classes during our experimentation.
+In Claessen's paper on ranking, there are several forms of noise reduction already performed. The first is the fundamental step of the algorithm, in which tests are grouped into equivalence classes. This step alone reduces from the original number of tests to a substantially smaller subset (see Table 1).
 
 After this large scale reduction, Claessen's algorithm contains another form of noise reduction. A test $T_0$ is redundant if
 
@@ -226,7 +243,7 @@ $$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
 
 A naive implementation of this algorithm is computationally complex. Given a set of tests $T$, we need to run the algorithm for each member $t$ of $T$, checking whether its failure set is equal to the union of any subset of tests in $T$ that does not contain $t$. This is simply too much work, so a different solution must be found.
 
-Thankfully, the implication graph lends itself to a vastly simplified implementation. We do not need to check the union of every possible subset of tests, only the union of those that could possibly be useful. Using the implication graph, given a test $t$ and a test set $T$, we can easily find the subset $T'$ which only contains tests whose failures are a subset of $t$. Any test in $T$ but not in $T'$ cannot possibly contribute to an equal union, because it contains at least one failure not in $t$. Therefore, we can simply apply the algorithm once, to every member of $T'$. $t$ is redundant if $FAIL(t) \equiv \cup^* T'$.
+Thankfully, the implication graph lends itself to a vastly simplified implementation. We do not need to check the union of every possible subset of tests, only the union of those that could possibly be useful. Using the implication graph, given a test $t$ and a test set $T$, we can easily find the subset $T'$ which only contains tests whose failures are a subset of $t$. Any test in $T$ but not in $T'$ cannot possibly contribute to an equal union, because it contains at least one failure not in $t$. Therefore, we can simply apply the algorithm once, to every member of $T'$. $t$ is redundant if $\fail(t) \equiv \cup^* T'$.
 
 \subsection{Comparison}
 Union* must reduce at least as many tests as Claessen, and can reduce more. This is because every test that will be removed under Claessen will be removed under exactly the same conditions in Union* (the union of two tests is simply a specification of the union of any number of tests). In theory, Union* is capable of outperforming Claessen
@@ -241,37 +258,43 @@ Union* must reduce at least as many tests as Claessen, and can reduce more. This
 
 %TODO: Table with different levels of reductions. Then change the text below to handle whatever I put in the table.
 
-In practice, we discovered a different situation. On 10 different real world datasets (each dataset was the student submissions for a different assignment, drawn from two different courses), we found no difference between reduction performed by the Claessen algorithm and the Union* algorithm. This was a surprising result, and demonstrates several things. Trivially, it confirms that the Union* algorithm does no worse than Claessen. More substantially, we discovered that the Claessen algorithm is surprisingly powerful. In every tested real world case, the union of two tests was enough to remove every test that could be found redundant under union.
+In practice, results were mixed. Out of 21 datasets testes, Claessen and Union* performed identically 18 times. In the 3 datasets reduced, it reduced an average of 3 tests per test set, a 5\% reduction.
 
-There are several potential explanations for this fact. One is that no test tests more than two underlying faults. This is extremely unlikely, as it is relatively simple to write a test that exercises large sections of a program's functionality, and can readily provoke more than two potential faults. Another possibility lies in the method of building tests. When unit tests are written, they generally exercise small areas of functionality, rather than the entire program. A different style of test design might allow Union* to have more success, removing large tests that attempt to exercise every possible fault in the program, when these faults are better demonstrated by small tests. A final possibility is that we simply don't have enough solutions, and that a greater diversity in solutions would increase the difference between the two algorithms.
+\begin{table}[t]
+\centering
+\begin{tabular}{ | l | l | l | l | l | }
+\hline
+Test & Test Count & Equivalence Classes &  Claessen Reduction &  Union* Reduction \\ 
+\hline
+105 & 135 & 8 & 8 & 8 \\
+all & 20 & 10 & 8 & 8 \\
+asm & 96 & 27 & 19 & 18 \\
+asmcoding & 135 & 6 & 5 & 5 \\
+bitpack & 2468 & 144 & 91 & 87 \\
+comp40intro & 20 & 12 & 10 & 10 \\
+divtest & 2112 & 71 & 40 & 40 \\
+eq & 6 & 4 & 4 & 4 \\
+extras & 45 & 9 & 7 & 7 \\
+inf & 96 & 71 & 46 & 42 \\
+linterp & 435 & 31 & 20 & 20 \\
+nr & 22 & 10 & 10 & 10 \\
+pred & 6 & 3 & 3 & 3 \\
+required & 54 & 11 & 9 & 9 \\
+size & 180 & 26 & 19 & 19 \\
+sudoku & 19 & 6 & 6 & 6 \\
+tuscheme & 96 & 49 & 38 & 38 \\
+typesys & 85 & 41 & 33 & 33 \\
+u & 256 & 53 & 29 & 29 \\
+unblack & 23 & 14 & 14 & 14 \\
+unify & 256 & 53 & 29 & 29 \\
+\hline
+\end{tabular}
+\caption{The results of each reduction algorithm}
+\end{table}
 
-\subsection{Improving the Implication Graph}
+There are several potential explanations for the fact that Claessen and Union* generally perform identically. One is that no test tests more than two underlying faults. This is extremely unlikely, as it is relatively simple to write a test that exercises large sections of a program's functionality, and can readily provoke more than two potential faults. Another possibility lies in the method of building tests. When unit tests are written, they generally exercise small areas of functionality, rather than the entire program. A different style of test design might allow Union* to have more success, removing large tests that attempt to exercise every possible fault in the program, when these faults are better demonstrated by small tests. A final possibility is that we simply don't have enough solutions, and that a greater diversity in solutions would increase the difference between the two algorithms.
 
 
-
-When building the implication graph, we do not have access to the structure of the problem itself, only a small sample of attempts to solve the problem and there results on tests of the problem. We have no oracle to tell us when the structure is correct. However, there are many properties about the relationships between tests that we can utilize to remove implications that cannot possibly be present in the problem itself, as well as removing implications that may be true, but the we do not have enough information  to claim.
-
-One class of implications we can remove entirely are those between the failure of one test, and the passage of another. Every problem has a fully correct and a fully incorrect solution, one which passes every test, and one which fails every test. Based on this, the following proofs are possible.
-
-
-Assumption: There exists a fully correct and fully incorrect solution to every problem.
-
-Theorem: The passage of one test cannot imply the failure of another test in the full problem space.
-
-Proof: Assume $PASS(T_1) \Rightarrow FAIL(T_2)$. This means that every solution that passes $T_1$ fails $T_2$. However, there exists the fully correct solution S. For all tests T, S(T) = PASS. Therefore S($T_1$) = PASS, and S($T_2$) = PASS, contradicting our assumption.
-
-Theorem: The failure of one test cannot imply the failure of another test in the full problem space.
-
-Proof: Assume FAIL($T_1$) $\Rightarrow$ PASS($T_2$). This means that every solution that fails $T_1$ passess $T_2$. However, there exists the fully incorrect solution S'. For all tests T, S'(T) = FAIL. Therefore S'($T_1$) = FAIL, and S'($T_2$) = FAIL, contradicting our assumption.
-
-
-Based on these proofs, we can safely remove from the implication graph every implication between the passage of one test and the failure of another.
-
-From similar logic, we can remove every implication either to or from a test with universal results. If every student passed a given test, then any result on any other test will logically imply this passage. However, there exists the fully incorrect solution, which by definition failed this test. Therefore these implications are by definition based on incomplete information, because they do not take into account the failure of this test. The inverse means we can do the same to a test which every student failed, based on the fully correct solution. Similarly, if no student passed a given test, the  test's passage will logically imply everything. But we cannot make implications  from this result (or a test with no failures) because the fully correct and incorrect solutions mean we are basing these implications on incomplete data.
-
-There is one other reduction we can make to the implication graph, for somewhat different reasons than the previous reductions. We can remove implications that may hold true in th actual problem structure, because we do not currently have enough information to assume them. If a given test result is achieved only by members of a single equivalence class, any implications based on it can be removed, because they are based on too little information to generalize from.
-
-We don't have enough information because, if an outcome is achieved only by a single class, it logically must imply every other result achieved by that class's solutions (because every solution that achieved that result achieved each other result). But we simply cannot claim that each of these results is directly implied by a single result. If we do, we claim that knowing a single fact about a solution means that we know everything about it. This is obviously untrue.
 
 
 \section{Reducing Noise in Witness Sets}
@@ -286,7 +309,7 @@ Any reductions that can be made on the basis of classes of solutions will alread
 The implication graph is a representation of the relationships between these tests. It presents many discoverable relationships (implies, implied by, reachable from, etc.). Using this graph, we are able to perform noise reduction at the level of a single solution, a novel process. For simplicity, we chose to examine only one of the available relationships, direct implication. Our algorithm is as follows:
 
 \centerline{Given two tests $T_1$ and $T_2$ and solution $s$}
-$$if s(T_1) = FAIL \wedge FAIL(T_1) \Rightarrow FAIL(T_2), remove T_2$$
+$$if s(T_1) = \fail \wedge \fail(T_1) \Rightarrow \fail(T_2), remove T_2$$
 
 Given a perfect implication graph, in which every implication is not just found in the data but representative of the problem itself, this algorithm reduces the tests presented as  failed to the set of the easiest tests failed. 
 
@@ -295,7 +318,7 @@ If two tests are needed to differentiate the solutions on the solution class sca
 $$T_1 : \lambda a.M_\eta a$$
 $$T_2 : \lambda x.\lambda x.\lambda a.M_\eta a$$
 
-Because the flaw in $T_1$ directly causes a failure in $T_2$, $FAIL(T_1) \Rightarrow FAIL(T_2)$. This led our algorithm to be able to reduce the witnesses to any solution who failed both tests, providing only the output from $T_1$.
+Because the flaw in $T_1$ directly causes a failure in $T_2$, $\fail(T_1) \Rightarrow \fail(T_2)$. This led our algorithm to be able to reduce the witnesses to any solution who failed both tests, providing only the output from $T_1$.
 
 \begin{figure}
 \verbatiminput{lambdareduction}
@@ -304,9 +327,34 @@ Because the flaw in $T_1$ directly causes a failure in $T_2$, $FAIL(T_1) \Righta
 
 \subsection{Validity of Reductions}
 
-This algorithm is definitively  capable of performing reductions, but a questions remains: Are the reductions good? Reductions performed on the class level cannot change the class structure. Both the Claessen algorithm and the Union* algorithm cannot cause information loss. But the witness reductions can. Though implications have a theoretical underlyin structure, they are drawn from the underlying data available, and this data is frequently flawed. This can lead to reductions in a test can be removed based on an implication from a test which tested an entirely different separate feature.
+This algorithm is definitively  capable of performing reductions, but a questions remains: Are the reductions good? Both the Claessen algorithm and the Union* algorithm do not cause information loss. But the witness reductions can. Removal based on real implications does not cause information loss - it removes uninformative tests. But removal based on accidental, bogus, or trivial implications can cause information loss, by removing witnesses that in fact provide useful information.
 
-A readily available example is the dataset used to confirm the implication graph. As we discovered earlier, when tests were run on functions whose implementations were entirely independent, the functions generally formed into groups in the  graph, but there were implications between the groups. Using this implication graph, we performed a witness reduction on each solution, in order to test how many of the reductions we considered to be valid. In order to simplify analysis, we did not try ot delve into the relationship between each test, but instead used a simple metric. If two tests test the same function, any reduction upon them is valid. If they test different  functions, any reduction on them is invalid.
+We discovered that the above reductions were critical in producing a val set of reductions.
+
+A readily available example is the dataset used to confirm the implication graph. As we discovered earlier, when tests were run on subproblems whose implementations were entirely independent, the subproblems generally formed into groups in the  graph, but there were implications between the groups. We assumed that the implications within this graph were a mixture of real and accidental: implications within subproblems were likely real, implications between subproblems were likely accidental. 
+
+\begin{comment}
+\begin{figure}
+\verbatiminput{goodreductions}
+\caption{Valid reductions.}
+\verbatiminput{badreductions}
+\caption{Invalid reductions.}
+\end{figure}
+\end{comment}
+
+\begin{figure}
+\verbatiminput{example.witness}
+\caption{Unreduced output}
+\verbatiminput{example3.witness}
+\caption{Reduced with unreduced implication graph}
+\verbatiminput{example2.witness}
+\caption{Reduced using improved implication graph}
+\caption{In the student's code, none of the subproblemss call each other. Therefore any implication between subproblems was accidental based on the code base.}
+\end{figure}
+
+The naive implication graph created from this problem had many implications that could be reduced. We found that applying these reductions had a significant effect. Witness sets reduced using the reduced implication graph were larger than those produced on the naive one. The additional tests contained were tests that were incorrectly reduced based on invalid implications.
+
+Using the reduced implication graph, we performed a witness reduction on each solution. We did this to test how many of the reductions we considered to be valid, and based upon real implications. In order to simplify analysis, we did not try to delve into the relationship between each test, but instead used a simple decision process. If two tests test the same subproblem, any reduction upon them is deemed valid. If they test different functions, any reduction on them is deemed invalid.
 
 %\begin{figure*}
 %\begin{tabularx}{\linewidth}{@{}XX@{}}
@@ -320,24 +368,12 @@ A readily available example is the dataset used to confirm the implication graph
 %\end{tabularx}
 %\end{figure*}
 
-\begin{figure}
-\verbatiminput{goodreductions}
-\caption{Valid reductions.}
-\verbatiminput{badreductions}
-\caption{Invalid reductions.}
-\end{figure}
 
-
-After running this experiment, we found that the witness reduction strategy achieved moderate success. Out of 422 reductions, 62.5\% were deemed to be valid. However, this result is somewhat misleading. A large number of the invalid reductions were concentrated in the least correct solutions. By omitting the reductions obtained from the two least correct solutions, the percentage of correct reductions jumps to 76.7\%. While eliminating these students is not something that can truly be done in practice, it demonstrates that witness reduction is highly accurate for most students, and extremely inaccurate for a select few.
-
-Using the same definition of implications, but with multiple outcomes, we found a very different result. There were only 112 reductions, all of them related to the qsort function, and every one of them was valid. This was a positive result, but the fact that reductions were not made on tests of any other functions makes these results suspect.
-
-Any invalid reductions discovered represent a failure in the implication graph, as they are based on implications which are likely not valid to the problem itself, but simply to the dataset the reduction process was done on. If the implication graph perfectly represented the problem structure, every reduction based on it would be good. Therefore, the more correct we make the implication graph, the more correct we make the witness reduction.
-
+After running this experiment, we found that the witness-reduction strategy achieved moderate success. Out of 422 reductions, 62.5\% were deemed to be valid. However, this result is somewhat misleading. A large number of the invalid reductions were concentrated in the least correct solutions. By omitting the reductions obtained from the two least correct solutions, the percentage of correct reductions jumps to 76.7\%. While eliminating these students is not something that can truly be done in practice, it demonstrates that witness reduction is highly accurate for most students, and extremely inaccurate for a select few.
 
 \subsection{The Results  of Improving the Implication Graph}
 
-These reductions of the implication graph were critical to our ability to implement witness reduction. The first several reductions insured we were not making any reductions based on clearly invalid implications. The final reduction, in which we do not allow implications based on unique outcomes, was particularly important. Based on this reduction, we were able to improve the output give larger and more representative witness sets to the affected solutions.
+These reductions of the implication graph are critical to our ability to implement witness reduction. The first several reductions insured we were not making any reductions based on clearly invalid implications. The final reduction, in which we do not allow implications based on unique outcomes, was particularly important. Based on this reduction, we were able to improve the output and give larger and more representative witness sets to the affected solutions. These sets are not 
 
 \begin{figure}
 \verbatiminput{example.witness}
@@ -349,18 +385,7 @@ These reductions of the implication graph were critical to our ability to implem
 \caption{In the student's code, none of the functions call each other. Therefore the reduction across tests is not only invalid under our metric, but accidental based on the code base.}
 \end{figure}
 
-\subsection{Continuing Problems}
-
-Despite these reductions, we were not able to fully stop the algorithm from making invalid reductions. Though the implication graph can assuredly be improved further, and the witness reductions therefore improved as well, it is unlikely that we will ever be able to make completely valid reductions for most problems. The reason for this is twofold: the number of solutions available is finite, and  real world solutions are strange.
-
-The first problem is fairly clear. In order to find the full structure of a problem, we need to know every possible correct and incorrect solution to it, an infinite  number of solutions. Presented with a finite dataset, we can only approximate this structure, a fundamental limitation.
-
-The second problem is far more insidious. When attempting to find the structure of a problem, it is expected that if a test tests some feature of a program, and that feature has a flaw, the test will uncover it. However, in the real world, programs do not behave nicely. There may be two flaws within a feature, which generally cause the feature to fail, but sometimes work together to cause it to succeed.
-
-In real world programs, we do not find clean connections of components, failures that always occur in concert, features bein implemented in uniform ways. Real programmers have flaws present at every known edge case, and sometimes at edge cases that were unknown. Flaws interact in unexpected ways, and programs, when tested as a black-box, are generally unpredictable.
-
-Nonetheless, we have found that, on real world datasets, witness reduction based on our best approximation of the implication graph is good enough to produce positive results. Though the eccentricities of real programs often meant that reductions the seemed obvious were not made, and sometimes that invalid reductions were, the process generally proved successful, and should prove more successful as future improvements to the graph are made.
-
+\section{Future Work}
 \subsection{Witness Expansion}
 
 The end goal of witness reduction is providing the smallest possible set of tests that diagnose the faults of a solution. A related goal is providing a solution the most accurate diagnostic information possible. The implication graph can be used to achieve this goal by expanding the witness set, rather than reducing it.
@@ -368,15 +393,12 @@ The end goal of witness reduction is providing the smallest possible set of test
 When we believed two tests were related based on the implication graph, we removed the harder test, because the simpler one provided the diagnostic information. However, for a more successful solution, which passed the easier test but failed the harder one, we provide no evidence of this relationship. But this relationship is a very useful thing, because it provides increased specificity on exactly where the fault lies within the solution. Using a very similar formula to our witness reduction, we can provide the student with these relationships.
 
 \centerline{We inform a solution $S$ which passed test $T_1$ but failed $T_2$ of the results on  $T_1$ iff}
-$$ S(T_1) = PASS \wedge S(T_2) = FAIL \wedge FAIL(T_1) \Rightarrow FAIL(T_2)$$
+$$ S(T_1) = PASS \wedge S(T_2) = \fail \wedge \fail(T_1) \Rightarrow \fail(T_2)$$
+
+\subsection{Additional Reduction Algorithms}
 
 
-
-\section{Future Work}
 This paper utilized the implication graph in order to implement several forms of noise reduction. These are not, however, every form of noise reduction the graph can be used for. By documenting the structure of a problem, the implication graph makes it easy for a researcher to implement new reduction algorithms. For example, rather than removing tests whose failures are the union of the implying failures, we could remove any test whose failures are the intersection of the implied failures. Or any test where every outcome is implied by another test. There are many possible reduction algorithms, and with the infrastructure of the implication graph in place, these algorithms can be readily implemented.
-
-The implication graph's utility is not limited to noise reduction, or to problems in which ranking solutions is a goal. The implication graph diagrams the structure of a problem, and knowledge of this structure allows us to analyze other problems as well. This is particularly intriguing for problems in which a fully correct solution is unlikely, and quality is judged on accuracy, such as machine learning problems. Knowledge of the structure of this problem might allow a researcher to discover sets of difficult cases which fail together, or to better understand how the machine algorithm works.
-
 
 \section{Conclusion}
 There already exist in the literature algorithms to rank programs based on black-box testing results. These algorithms are successful, but they use only a subset of the information available. We have attempted to use as much of the information present as possible to improve the existing algorithms and create our own.
