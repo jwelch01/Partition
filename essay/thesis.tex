@@ -24,7 +24,7 @@
 \let\cite=\citep
 \bibpunct();A{},
 
-\title{Improved Ranking through Black Box Testing}
+\title{Finding the Signal: Improved Ranking and Noise Reduction Through Black Box Testing}
 \author{Jesse Welch}
 \date{May 2012}
 
@@ -40,11 +40,11 @@
 \newpage
 
 \section{Introduction}
-Black-box testing is a useful method for diagnosing faults within a program. Rather than having to read through source code to find flaws, black-box testing allows a set of failures to be presented without any detailed knowledge required.
+Black-box testing sets are useful for many different people. They allow a programmer or researcher to diagnose faults in a program, without having to read the source code. Using black-box testing results, a set of failures can be presented without any detailed knowledge required.
 
-When a set of black-box tests are run on multiple solutions to a single problem, more information is available. Not only do we have the test results, but we have an ability to compare the test results. We can use this ability to find redundant tests, and limit the amount of noise shown for each solution. We can also use this information to compare the solutions, ranking them based on functional correctness.
+When a set of black-box tests is run on a single solution to a problem, information about this solution is avalaible. When the tests are run on multiple solutions to a single problem, more information is available. When we add more solutions, we gain the ability to compare test results. We can use this ability to, compare solutions, rank the quality of solutions, find redundant tests, and generally provide more information, with less noise, to each solution.
 
-Prior work demonstrates methods for both ranking and reducing redundant tests. In this paper, we will improve upon these methods in several ways. We will demonstrate a method for improving the ranking function by allowing additional results. We will introduce a method for allowing the ranking algorithm to continue to function with incomplete results. We will introduce a novel algorithm for performing additional noise reduction on each individual solution. Finally, we will introduce an infrastructure designed to make further algorithmic improvements and reduction strategies simple to implement.
+Prior work demonstrates methods for both ranking and reducing redundant tests. In this paper, we improve upon these methods in several ways. We demonstrate a method for improving the ranking function by allowing additional results. We introduce a method for allowing the ranking algorithm to continue to function with incomplete results. We introduce a novel algorithm for performing additional noise reduction, limiting the set of failed tests shown to each individual solution. Finally, we introduce an infrastructure designed to make further algorithmic improvements and reduction strategies simple to implement.
 
 \section{Ranking Solutions}
 \subsection{What is Ranking?}
@@ -54,7 +54,11 @@ When we have multiple solutions to the same problem, we are generally trying to 
 
 A ranking algorithm can therefore be improved by making it more fair. This can mean any of several things. If a new algorithm is able to find an objective relationship between two types of solutions considered equivalent by the original algorithm, the new algorithm is an improvement. Similarly, if a new algorithm discovers that two solutions are incomparable when the original algorithm found a relationship between them, the new algorithm is an improvement, because it has removed a relationship that did not truly exist.
 
-Finding a fair ranking algorithm is exceedingly important for our task of grading student homework. Prior to implementing the algorithms below, our students were given feedback that listed their result on every test in our test sets, which were generally to large to be easily comprehended. Additionally, raw percentage of tests passed is not a fair metric by our definition. Consider two solutions, one with a bug in feature $F_1$, the other with a bug in $F_2$. An adversarial tester could easily choose which solution ranked superior by altering the number of tests run on each feature. If more tests are run on $F_1$, $F_2$ will be superior. If more tests are run on $F_2$, $F_1$ will be superior. Until we found an alternate algorithm, students could not be fairly compared algorithmically, and needed to be ranked based on the instructor's expert knowledge.
+Finding a fair ranking algorithm is exceedingly important for our task of grading student homework. Prior to implementing the algorithms below, our students were given feedback that listed their result on every test in our test sets, which were generally to large to be easily comprehended. 
+
+Additionally, raw percentage of tests passed is not a fair metric by our definition. Consider two solutions, one with a bug in feature $F_1$, the other with a bug in $F_2$. An adversarial tester could easily choose which solution ranked superior by altering the number of tests run on each feature. If more tests are run on $F_1$, $F_2$ will be superior. If more tests are run on $F_2$, $F_1$ will be superior. 
+
+Until we found an alternate algorithm, students could not be fairly compared algorithmically, and needed to be ranked based on the instructor's expert knowledge.
 
 \subsection{The Algorithm}
 Claessen et. al. demonstrated an algorithm for creating a fair ranking of solutions\cite{Claessen}. Their algorithm was run on large test suites generated automatically using QuickCheck \cite{QuickCheck}, which produces many similar test cases. In order to limit the number of tests they needed to consider, they partitioned the test set into equivalence classes.
@@ -388,7 +392,7 @@ These reductions of the implication graph are critical to our ability to impleme
 \section{Future Work}
 \subsection{Witness Expansion}
 
-The end goal of witness reduction is providing the smallest possible set of tests that diagnose the faults of a solution. A related goal is providing a solution the most accurate diagnostic information possible. The implication graph can be used to achieve this goal by expanding the witness set, rather than reducing it.
+In this paper, we use the implication graph for the purpose of witness reduction, removing noisy information from the witness set. However, the implication graph may potentially be usable to \emph{create} information, providing more accurate diagnostic information by \emph{expanding} the witness set. 
 
 When we believed two tests were related based on the implication graph, we removed the harder test, because the simpler one provided the diagnostic information. However, for a more successful solution, which passed the easier test but failed the harder one, we provide no evidence of this relationship. But this relationship is a very useful thing, because it provides increased specificity on exactly where the fault lies within the solution. Using a very similar formula to our witness reduction, we can provide the student with these relationships.
 
@@ -401,7 +405,7 @@ $$ S(T_1) = PASS \wedge S(T_2) = \fail \wedge \fail(T_1) \Rightarrow \fail(T_2)$
 This paper utilized the implication graph in order to implement several forms of noise reduction. These are not, however, every form of noise reduction the graph can be used for. By documenting the structure of a problem, the implication graph makes it easy for a researcher to implement new reduction algorithms. For example, rather than removing tests whose failures are the union of the implying failures, we could remove any test whose failures are the intersection of the implied failures. Or any test where every outcome is implied by another test. There are many possible reduction algorithms, and with the infrastructure of the implication graph in place, these algorithms can be readily implemented.
 
 \section{Conclusion}
-There already exist in the literature algorithms to rank programs based on black-box testing results. These algorithms are successful, but they use only a subset of the information available. We have attempted to use as much of the information present as possible to improve the existing algorithms and create our own.
+Already in the literature are algorithms to rank programs based on black-box testing results. These algorithms are successful, but they use only a subset of the information available. We have attempted to use as much of the information present as possible to improve the existing algorithms and create our own.
 
 Our Union* algorithm uses more of the testing data available to build a generalization of the union based reduction strategy implemented in \cite{Claessen}. This strategy proved to have minimal effect on the number of reduced tests in practice, but is computationally simpler than the Claessen algorithm, once the infrastructure has been built.
 
