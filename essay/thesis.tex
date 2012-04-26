@@ -3,13 +3,9 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsthm}
-%\usepackage{fullpage}  % margins are a little *too* small
-%
-%  find the package that exports \setmarginsrb
-%  and use it
-%
-\usepackage{setspace}
+\usepackage[letterpaper,inner=1.375in, outer=1.125in, top=1.25in, bottom=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{setspace}
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{verbatim}
@@ -24,20 +20,25 @@
 \let\cite=\citep
 \bibpunct();A{},
 
+
+
+
+\begin{document}
+
 \title{Finding the Signal: Improved Ranking and Noise Reduction Through Black Box Testing}
 \author{Jesse Welch}
 \date{May 2012}
 
 \pagestyle{headings}
 
-\begin{document}
-
-\baselineskip=1.3\baselineskip % a little extra space between lines
 
 \maketitle
 
 \tableofcontents
 \newpage
+
+\baselineskip=1.2\baselineskip % a little extra space between lines
+
 
 \section{Introduction}
 Black-box testing sets are useful for many different people. They allow a programmer or researcher to diagnose faults in a program, without having to read the source code. Using black-box testing results, a set of failures can be presented without any detailed knowledge required.
@@ -170,14 +171,14 @@ The set of implications within a dataset forms a natural structure: a directed g
 
 \begin{figure}
 \verbatiminput{toyimpldata}
-\includegraphics[scale=0.75]{toyimpl.ps}
+\includegraphics[width=\textwidth]{toyimpl.ps}
 \caption{Dataset and the generated implication graph. A transitive reduction has been performed on the graph}
 \end{figure}
 
 Given this implication graph, the question remains: How many of the implications in the graph are real implications? We were provided with a natural experiment to begin to test this question. Our students were given an assignment that contained 14 problems. Each of the problems was entirely self-contained, and there was no code overlap between the problems. Some problems covered related topics, and so relic relationships might appear in the data, but by and large, we expected these problems to be diagrammed as entirely separate components.
 
 \begin{figure}
-\includegraphics[scale=0.5]{div.ps}
+\includegraphics[width=\textwidth]{div.ps}
 \caption{Implication graph generated from experiment. Boxed sections indicate tests performed on the same problem. TODO: ADD BOXES}
 \end{figure}
 
