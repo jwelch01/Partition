@@ -1,0 +1,359 @@
+\documentclass[svgnames]{beamer}
+
+\usepackage{natbib}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{verbatim}
+
+
+\newcommand\dnr{\ensuremath{\mathit{DNR}}}
+\newcommand\fail{\mathit{FAIL}}
+\newcommand\pass{\mathit{PASS}}
+\newcommand\defined{\mathrel{\;\stackrel{\scriptscriptstyle\mathbf{def}}{=}\;}}
+
+\newtheorem{thm}{Theorem}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+
+\mode<presentation>
+{
+  %%\usetheme{Madrid}
+  \usetheme{Boadilla}
+  %%\usetheme{Malmoe}
+  %%\usetheme{Copenhagen}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{itemize items}[default]
+  \usefonttheme{structurebold}
+}
+
+\title{Finding the Signal}
+\subtitle{Improved Ranking and Noise Reduction in Black Box Testing}
+\author{Jesse Welch}
+\date{May 2012}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Students turn in many solutions \\ to the same problem}
+We want to:
+\begin{itemize}
+\item Test them
+\item Rank them
+\item Diagnose their Faults
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{We \emph{really} want to:}
+\begin{itemize}
+\item Cheaply test them
+\item Cheaply rank them
+\item Cheaply diagnose their faults
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{There are many ways to rank solutions}
+\begin{itemize}
+\item Percent of tests passed
+\item Expert opinion
+\item Randomly
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{There is a ground truth for comparison}
+\begin{defn}[Rank order of solutions]
+Solution comparisons create a partial order. If neither of these definitions apply, they are incomparable.
+Given solutions $S_1$ and $S_2$, and test set $T$, we define
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) = S_2(t)$$
+$$S_1 \sqsubseteq S_2 \defined \forall t \in T' : S_1(t) \leq S_2(t)$$
+When $S_1 \sqsubseteq S_2$ but $S_1 \not\equiv S_2$, we write
+$S_1 \sqsubset S_2$.
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\frametitle{What does "$>$" mean?}
+Claessen's Definition: $\pass>\fail$
+\end{frame}
+
+\begin{frame}
+\frametitle{Real tests have many outcomes}
+\begin{itemize}
+\item Pass
+\item Bad output
+\item Segfault
+\item Timeout
+\item CPU lights on fire
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{How do we order these?}
+Always:
+\begin{itemize}
+\item $\pass>\fail$
+\end{itemize}
+Sometimes:
+\begin{itemize}
+\item SEGFAULT $>$ BAD OUTPUT
+\item BAD OUTPUT $>$ SEGFAULT
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{So how do we order them?}
+However you want!
+\end{frame}
+
+\begin{frame}
+\frametitle{How does this change ranking?}
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{rank1.ps}
+\caption{Created using single outcomes}
+
+\includegraphics[width=0.3\textwidth]{rank2.ps}
+\caption{Created using multiple outcomes}
+
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{But sometimes it works}
+I should probably show that here
+\end{frame}
+
+\begin{frame}
+\frametitle{And Now for Something Completely Different!}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tests are expensive}
+\begin{table}
+\begin{tabular}{| l | r | r | r |}
+\hline
+ & Tests & & Total \\
+Problem & Per & Solutions & Tests \\
+ & Solution & &  \\
+\hline
+Smalltalk Natural Numbers & 514 & 30 & 15420 \\
+Mixed Arithmetic & 75 & 30 & 2250 \\
+Large Integer Arithmetic & 538 & 30 & 16140 \\
+Combination Arithmetic & 540 & 30 & 16140 \\
+\hline
+\end{tabular}
+\caption{Testing for implementation of bignum arithmetic.}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Batch testing Is necessary, but problematic}
+\begin{itemize}
+\item A test can crash the batch
+\item What do we do with tests that did not run?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{We could order them}
+\begin{itemize}
+\item $\pass>\fail>\dnr$?
+\item $\pass>\fail=\dnr$?
+\item $\pass>\dnr>\fail$?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Or we could ignore them}
+\begin{defn}[Rank order with \dnr]
+Given solutions $S_1$ and $S_2$, and test set $T$, we define
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
+$$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\frametitle{And Now for Something Completely Different!}
+\end{frame}
+
+\begin{frame}
+\frametitle{We want \emph{minimal} rankings}
+\centerline{\includegraphics[height=0.9\textheight]{fail.ps}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Many tests are equivalent}
+\begin{defn}[Test Equivalence]
+Given tests $T_0$ and $T_1$ and solution set $S$
+$$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\frametitle{Some tests repeat information in new ways}
+We have two possible methods of removing them
+\begin{defn}[Claessen Redundancy]
+A test $T_0$ is redundant if
+$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$$
+\end{defn}
+\begin{defn}[Union* Redundancy]
+A test $T_0$ is redundant if
+$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\begin{table}[t]
+\def\?{\phantom0}
+\centering
+
+\begin{tabular}{ | l | c | c | c | c | }
+\hline
+Dataset & \#~Tests & \#\ Classes &  Claessen &  Union*  \\ 
+\hline
+105 & \?135 & \?\?8 & \?8 & \?8 \\
+all & \?\?20 & \?10 & \?8 & \?8 \\
+asm & \?\?96 & \?27 & 19 & 18 \\
+asmcoding & \?135 & \?\?6 & \?5 & \?5 \\
+bitpack & 2468 & 144 & 91 & 87 \\
+comp40intro & \?\?20 & \?12 & 10 & 10 \\
+divtest & 2112 & \?71 & 40 & 40 \\
+eq & \?\?\?6 & \?\?4 & \?4 & \?\?4 \\
+extras & \?\?45 & \?\?9 & \?7 & \?7 \\
+inf & \?\?96 & \?71 & 46 & 42 \\
+linterp & \?435 & \?31 & 20 & 20 \\
+nr & \?\?22 & \?10 & 10 & 10 \\
+pred & \?\?\?6 & \?\?3 & \?3 & \?3 \\
+required & \?\?54 & \?11 & \?9 & \?9 \\
+size & \?180 & \?26 & 19 & 19 \\
+sudoku & \?19 & \?\?6 & \?6 & \?6 \\
+tuscheme & \?\?96 & \?49 & 38 & 38 \\
+typesys & \?\?85 & \?41 & 33 & 33 \\
+u & \?256 & \?53 & 29 & 29 \\
+unblack & \?23 & \?14 & 14 & 14 \\
+unify & \?256 & \?53 & 29 & 29 \\
+\hline
+\end{tabular}
+\caption{The results of each reduction algorithm}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\centerline{\includegraphics[height=\textheight]{success.ps}}
+\end{frame}
+
+\begin{frame}
+\frametitle{And Now for Something Completely Different!}
+\end{frame}
+
+\begin{frame}
+\frametitle{We want diagnostic information}
+Ideally, this information is a list of bugs.
+\newline\newline
+Realistically, this information is a list of failed tests.
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+INSERT TABLE OF AVG NUMBER OF TESTS FAILED
+\end{frame}
+
+\begin{frame}
+\frametitle{This can be naturally reduced}
+We only use the tests that go into the ranking.
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+TABLE OF AVG NUMBER OF EQ CLASSES FAILED
+\end{frame}
+
+\begin{frame}
+\frametitle{But can we do better?}
+Tests are sometimes redundant for \emph{some} students.
+\end{frame}
+
+\begin{frame}
+\frametitle{$\eta$-reduction}
+$$T_1 : \lambda a.M_\eta a \longrightarrow M_\eta$$
+$$T_2 : \lambda x.\lambda x.\lambda a.M_\eta a \longrightarrow \lambda x.\lambda x.M_\eta$$
+\end{frame}
+
+\begin{frame}
+\frametitle{One outcome can \emph{imply} another}
+\begin{defn}[Outcome Implication]
+Given solution set $S$ and outcomes $O_1$ on test $T_1$ and $O_2$ on test $T_2$
+$$O_1 \Rightarrow O_2 \defined \forall s \in S : s(T_1) = O_1 : s(T_2) = O_2$$
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\frametitle{We can include only the implying failure}
+\begin{defn}[Witness Set Reduction]
+Solution $S$ has naive witness set $W$, where $W$ is the set of all tests $T$ where $S(T) = \fail$.
+Reduced witness set $W'$ is the largest subset of $W$ such that
+$$\forall T_1, T_2 \in W' : T_1 \not\Rightarrow T_2$$
+\end{defn}
+\end{frame}
+
+\begin{frame}
+\frametitle{Experiment}
+One one dataset, how well do these reductions correspond to expert knowledge?
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\item 447 reductions
+\item 264 confirmed by expert
+\item 59.1\% accuracy
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{There are 4 kinds of implications}
+\begin{itemize}
+\item Trivial
+\item Bogus
+\item Accidental
+\item Real
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{We want one type of implication}
+\begin{itemize}
+\item Real
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Heuristics can reduce the number of negative implications}
+After we implemented several heuristics for eliminating negative implications:
+\begin{itemize}
+\item 422 reductions
+\item 264 confirmed by expert (the same number)
+\item 62.5\% accuracy
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusions}
+\begin{itemize}
+\item We can find more information than $\pass/\fail$
+\item We can limit expensive testing
+\item We can algorithmically produce and simplify a ranking of solutions
+\item We can algorithmically produce and simplify a diagnostic set of failures for each solution
+\end{itemize}
+\end{frame}
+
+\end{document}
