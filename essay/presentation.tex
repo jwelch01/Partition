@@ -29,6 +29,7 @@
   \setbeamercovered{transparent}
   \setbeamertemplate{itemize items}[default]
   \usefonttheme{structurebold}
+  \fontsize{10}{5}\selectfont
 }
 
 \title{Finding the Signal}
@@ -129,11 +130,6 @@ However you want!
 \end{frame}
 
 \begin{frame}
-\frametitle{But sometimes it works}
-I should probably show that here
-\end{frame}
-
-\begin{frame}
 \frametitle{And Now for Something Completely Different!}
 \end{frame}
 
@@ -216,7 +212,7 @@ $$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
 \begin{table}[t]
 \def\?{\phantom0}
 \centering
-
+\fontsize{8}{3}\selectfont
 \begin{tabular}{ | l | c | c | c | c | }
 \hline
 Dataset & \#~Tests & \#\ Classes &  Claessen &  Union*  \\ 
@@ -228,7 +224,7 @@ asmcoding & \?135 & \?\?6 & \?5 & \?5 \\
 bitpack & 2468 & 144 & 91 & 87 \\
 comp40intro & \?\?20 & \?12 & 10 & 10 \\
 divtest & 2112 & \?71 & 40 & 40 \\
-eq & \?\?\?6 & \?\?4 & \?4 & \?\?4 \\
+eq & \?\?\?6 & \?\?4 & \?4 & \?4 \\
 extras & \?\?45 & \?\?9 & \?7 & \?7 \\
 inf & \?\?96 & \?71 & 46 & 42 \\
 linterp & \?435 & \?31 & 20 & 20 \\
@@ -264,18 +260,47 @@ Realistically, this information is a list of failed tests.
 \end{frame}
 
 \begin{frame}
-\frametitle{}
-INSERT TABLE OF AVG NUMBER OF TESTS FAILED
+\frametitle{This list can be extremely long}
+A naive implementation would give the test result for every test failed.
+\newline\newline
+A reduced implementation gives results only for class of test that is used for the ranking graph.
 \end{frame}
 
 \begin{frame}
-\frametitle{This can be naturally reduced}
-We only use the tests that go into the ranking.
-\end{frame}
-
-\begin{frame}
-\frametitle{}
-TABLE OF AVG NUMBER OF EQ CLASSES FAILED
+\begin{table}[t]
+\def\?{\phantom0}
+\centering
+\fontsize{8}{3}\selectfont
+\begin{tabular}{ | l | r | r |}
+\hline
+Test & Failed Tests & Failed Classes \\
+\hline
+105 & 20.92 & 2.31 \\
+all & 16.64 & 7.4 \\
+asmcoding & 33.77 & 0.96 \\
+asm & 32.85 & 8.89 \\
+bitpack & 175.28 & 15.2 \\
+comp40intro & 15.0 & 8.0 \\
+divtest & 164.34 & 10.77 \\
+eq & 1.8 & 1.21 \\
+extra & 19.64 & 3.6 \\
+inf & 20.39 & 15.83 \\
+linterp & 83.25 & 7.53 \\
+nr & 2.5 & 2.5 \\
+nth & 1.63 & 0.32 \\
+pred & 0.89 & 0.43 \\
+requireds & 8.27 & 2.27 \\
+size & 38.45 & 5.9 \\
+sudoku & 1.46 & 0.5 \\
+tuscheme & 25.22 & 13.8 \\
+typesys & 22.64 & 11.43 \\
+unblack & 1.87 & 1.84 \\
+unify & 36.96 & 9.73 \\
+u & 36.96 & 9.73 \\
+\hline
+\end{tabular}
+\caption{Average failures before and after basic reduction}
+\end{table}
 \end{frame}
 
 \begin{frame}
