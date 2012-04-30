@@ -1,4 +1,4 @@
-\documentclass[svgnames]{beamer}
+\documentclass[svgnames,14pt]{beamer}
 
 \usepackage{natbib}
 \usepackage{amssymb}
@@ -37,6 +37,8 @@
 \author{Jesse Welch}
 \date{May 2012}
 
+\advance\extrarowheight by 1.5pt
+
 \begin{document}
 
 \begin{frame}
@@ -45,20 +47,20 @@
 
 \begin{frame}
 \frametitle{Students turn in many solutions \\ to the same problem}
-We want to:
+We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \begin{itemize}
-\item Test them
-\item Rank them
-\item Diagnose their Faults
+\item Test them \uncover<2->{\textbf{cheaply}}
+\item Rank them \uncover<2->{\textbf{cheaply}}
+\item Diagnose their Faults \uncover<2->{\textbf{cheaply}}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{We \emph{really} want to:}
 \begin{itemize}
-\item Cheaply test them
-\item Cheaply rank them
-\item Cheaply diagnose their faults
+\item \uncover<2->{Cheaply }test them
+\item \uncover<2->{Cheaply }rank them
+\item \uncover<2->{Cheaply }diagnose their faults
 \end{itemize}
 \end{frame}
 
@@ -66,8 +68,8 @@ We want to:
 \frametitle{There are many ways to rank solutions}
 \begin{itemize}
 \item Percent of tests passed
-\item Expert opinion
-\item Randomly
+\uncover<2->{\item Expert opinion}
+\uncover<3->{\item Randomly}
 \end{itemize}
 \end{frame}
 
@@ -119,14 +121,17 @@ However you want!
 
 \begin{frame}
 \frametitle{How does this change ranking?}
-\begin{figure}
+
+\begin{center} 
+\begin{tabular}{cc}
 \includegraphics[width=0.3\textwidth]{rank1.ps}
-\caption{Created using single outcomes}
+&
+\includegraphics[width=0.3\textwidth]{rank2.ps}\\
+Single &
+Multiple \\
+\end{tabular}
+\end{center}
 
-\includegraphics[width=0.3\textwidth]{rank2.ps}
-\caption{Created using multiple outcomes}
-
-\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -189,10 +194,11 @@ $$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr 
 
 \begin{frame}
 \frametitle{Many tests are equivalent}
-\begin{defn}[Test Equivalence]
-Given tests $T_0$ and $T_1$ and solution set $S$
+%\begin{defn}[Test Equivalence]
+%Given tests $T_0$ and $T_1$ and solution set $S$
+\begin{block}{}
 $$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
-\end{defn}
+\end{block}
 \end{frame}
 
 \begin{frame}
