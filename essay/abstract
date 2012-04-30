@@ -1,16 +1,15 @@
-When presented with multiple programs solving the same problem, there are
-generally two goals: rank the programs, and diagnose each program's faults.
+We present algorithms for analyzing multiple programs that solve the
+same problem.  The algorithms help an analyst rank the programs and
+diagnose each program's faults.
 
-Based on the work of Claessen et. al., we present several improved methods
-for objectively ranking programs through black box testing. Our methods
-improve the descriptive power of tests without changing the testing
-infrastructure. Additionally, our methods are capable of analyzing
-potentially incomplete batch testing data, allowing for faster testing
-infrastructures.
+We rank programs objectively by analyzing the results of black-box
+testing.  Our analysis encompasses a richer notion of "result" than
+that used in prior work.  And our method can analyze incomplete
+results, which enables us to run more tests faster by batching tests.
 
-We also use the knowledge from black-box test results to diagnose the
-faults in a program. Naive diagnostics currently in use present an
-unfiltered list of the tests a program failed. Existing improvements
-present only the failures necessary to create a ranking, limiting the size
-of this list. We leverage relationships between tests to create a smaller,
-less noisy set of tests to present as a diagnosis of a program's faults.
+We also use black-box test results to help diagnose a program's
+faults.  Naive diagnostics list all tests a program failed.  Prior
+work presents only the failures necessary to rank programs---a shorter
+list.  By discovering relationships between tests, our algorithm
+presents an even shorter, less noisy diagnostic list.
+
