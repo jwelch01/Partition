@@ -1,0 +1,16 @@
+When presented with multiple programs solving the same problem, there are
+generally two goals: rank the programs, and diagnose each program's faults.
+
+Based on the work of Claessen et. al., we present several improved methods
+for objectively ranking programs through black box testing. Our methods
+improve the descriptive power of tests without changing the testing
+infrastructure. Additionally, our methods are capable of analyzing
+potentially incomplete batch testing data, allowing for faster testing
+infrastructures.
+
+We also use the knowledge from black-box test results to diagnose the
+faults in a program. Naive diagnostics currently in use present an
+unfiltered list of the tests a program failed. Existing improvements
+present only the failures necessary to create a ranking, limiting the size
+of this list. We leverage relationships between tests to create a smaller,
+less noisy set of tests to present as a diagnosis of a program's faults.
