@@ -50,9 +50,9 @@
 \frametitle{Students turn in many solutions \\ to the same problem}
 We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \begin{itemize}
-\item Test them \uncover<2->{\textbf{cheaply}}
-\item Rank them \uncover<2->{\textbf{cheaply}}
-\item Diagnose their faults \uncover<2->{\textbf{cheaply}}
+\item Test them \only<2->{\textbf{cheaply}}
+\item Rank them \only<2->{\textbf{cheaply}}
+\item Diagnose their faults \only<2->{\textbf{cheaply}}
 \end{itemize}
 \end{frame}
 
@@ -69,9 +69,9 @@ We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \begin{frame}
 \frametitle{There are many ways to rank}
 \begin{itemize}
-\item Number of tests passed
-\uncover<2->{\item Expert opinion}
-\uncover<3->{\item Desperate, custom measures}
+\item \uncover<2->{Number of tests passed}
+\uncover<3->{\item Expert opinion}
+\uncover<4->{\item Desperate, custom measures}
 \end{itemize}
 \end{frame}
 
@@ -79,6 +79,10 @@ We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \frametitle{There is a central truth}
 In every one of these ranking algorithms,
 $$\pass>\fail$$
+\end{frame}
+
+\begin{frame}
+\centerline{\includegraphics[height=\textheight]{rank1.ps}}
 \end{frame}
 
 \begin{frame}
@@ -128,9 +132,9 @@ Sometimes:
 
 \begin{center} 
 \begin{tabular}{cc}
-\includegraphics[width=0.3\textwidth]{rank1.ps}
+\includegraphics[width=0.35\textwidth]{rank1.ps}
 &
-\includegraphics[width=0.3\textwidth]{rank2.ps}\\
+\includegraphics[width=0.35\textwidth]{rank2.ps}\\
 Single &
 Multiple \\
 \end{tabular}
@@ -200,7 +204,8 @@ If a program has two bugs (A,B), how can tests interact with them?
 \frametitle{Why test both bugs?}
 \begin{block}{}
 A test $T_0$ is redundant if
-$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$$
+\newline
+$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$
 \end{block}
 \end{frame}
 
@@ -219,17 +224,18 @@ divtest & 2112 & \?71 & 40\\
 \begin{frame}
 \frametitle{Union*}
 Why limit to only two aggregated tests?
-\end{frame}
-A test $T_0$ is redundant if
-$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
-\begin{frame}
+\uncover<2->{
 \begin{block}{}
+A test $T_0$ is redundant if
+\newline
+$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $
 \end{block}
+}
 \end{frame}
 
 \begin{frame}
 \def\?{\phantom0}
-\begin{tabular}{ | l | c | c | c | }
+\begin{tabular}{ | l | c | c | c | c |}
 \hline
 Dataset & \#~Tests & \#\ Classes & Claessen & Union*\\ 
 \hline
@@ -259,7 +265,13 @@ Because it is a generalization of Claessen, Union* can never create a larger tes
 \end{frame}
 
 \begin{frame}
-\frametitle{And Now for Something Completely Different!}
+\begin{itemize}
+\frametitle{Overview}
+\item \uncover<0>{Intro to Ranking}
+\item \uncover<0>{Ranking with Multiple Results}
+\item \uncover<0>{Union* Reduction}
+\item Witness Reduction
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -273,44 +285,21 @@ Realistically, this information is a list of failed tests.
 \frametitle{This list can be extremely long}
 A naive implementation would give the test result for every test failed.
 \newline\newline
-A reduced implementation gives results only for class of test that is used for the ranking graph.
+A reduced implementation gives a result only for each class of test that is used for the ranking graph.
 \end{frame}
 
+
 \begin{frame}
-\begin{table}[t]
 \def\?{\phantom0}
 \centering
-\fontsize{8}{3}\selectfont
 \begin{tabular}{ | l | r | r |}
 \hline
 Test & Failed Tests & Failed Classes \\
 \hline
-105 & 20.92 & 2.31 \\
-all & 16.64 & 7.4 \\
-asmcoding & 33.77 & 0.96 \\
-asm & 32.85 & 8.89 \\
 bitpack & 175.28 & 15.2 \\
-comp40intro & 15.0 & 8.0 \\
 divtest & 164.34 & 10.77 \\
-eq & 1.8 & 1.21 \\
-extra & 19.64 & 3.6 \\
-inf & 20.39 & 15.83 \\
-linterp & 83.25 & 7.53 \\
-nr & 2.5 & 2.5 \\
-nth & 1.63 & 0.32 \\
-pred & 0.89 & 0.43 \\
-requireds & 8.27 & 2.27 \\
-size & 38.45 & 5.9 \\
-sudoku & 1.46 & 0.5 \\
-tuscheme & 25.22 & 13.8 \\
-typesys & 22.64 & 11.43 \\
-unblack & 1.87 & 1.84 \\
-unify & 36.96 & 9.73 \\
-u & 36.96 & 9.73 \\
 \hline
 \end{tabular}
-\caption{Average failures before and after basic reduction}
-\end{table}
 \end{frame}
 
 \begin{frame}
@@ -325,20 +314,39 @@ $$T_2 : \lambda x.\lambda x.\lambda a.M_\eta a \longrightarrow \lambda x.\lambda
 \end{frame}
 
 \begin{frame}
+\verbatiminput{unreduced.witness}
+\end{frame}
+
+\begin{frame}
 \frametitle{One outcome can \emph{imply} another}
-\begin{defn}[Outcome Implication]
-Given solution set $S$ and outcomes $O_1$ on test $T_1$ and $O_2$ on test $T_2$
+\begin{block}{}
 $$O_1 \Rightarrow O_2 \defined \forall s \in S : s(T_1) = O_1 : s(T_2) = O_2$$
-\end{defn}
+\end{block}
 \end{frame}
 
 \begin{frame}
 \frametitle{We can include only the implying failure}
-\begin{defn}[Witness Set Reduction]
-Solution $S$ has naive witness set $W$, where $W$ is the set of all tests $T$ where $S(T) = \fail$.
-Reduced witness set $W'$ is the largest subset of $W$ such that
+\begin{block}{}
 $$\forall T_1, T_2 \in W' : T_1 \not\Rightarrow T_2$$
-\end{defn}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\verbatiminput{reduced.witness}
+\end{frame}
+
+\begin{frame}
+\def\?{\phantom0}
+\centering
+\begin{tabular}{ | l | r | r | r |}
+\hline
+Test & Failed & Failed  & Reduced \\
+     & Tests  & Classes & Witnesses \\
+\hline
+bitpack & 175.28 & 15.2 & 2.64\\
+divtest & 164.34 & 10.77 & 1.65\\
+\hline
+\end{tabular}
 \end{frame}
 
 \begin{frame}
@@ -347,93 +355,50 @@ One one dataset, how well do these reductions correspond to expert knowledge?
 \end{frame}
 
 \begin{frame}
+\frametitle{Results}
 \begin{itemize}
 \item 447 reductions
-\item 264 confirmed by expert
-\item 59.1\% accuracy
+\item \uncover<2->{264 confirmed by expert}
+\item \uncover<3->{59.1\% accuracy}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{There are 4 kinds of implications}
+\frametitle{\only<1>{There are 4 kinds of implications}\only<2>{We want 1 kind of implication}}
 \begin{itemize}
-\item Trivial
-\item Bogus
-\item Accidental
-\item Real
+\item \uncover<1>{Trivial}
+\item \uncover<1>{Bogus}
+\item \uncover<1>{Accidental}
+\item \uncover<1->{Real}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{We want one type of implication}
-\begin{itemize}
-\item Real
-\end{itemize}
+\frametitle{Important heuristic}
+We remove every implication that comes from "know one thing about someone, know everything about them".
 \end{frame}
 
 \begin{frame}
-\frametitle{Heuristics can reduce the number of negative implications}
-After we implemented several heuristics for eliminating negative implications:
+\frametitle{Results}
 \begin{itemize}
 \item 422 reductions
-\item 264 confirmed by expert (the same number)
-\item 62.5\% accuracy
+\item \uncover<2->{264 confirmed by expert} \only<3->{(the same number)}
+\item \uncover<4->{62.5\% accuracy}
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{We can improve the implications further}
+The more negative implications we can find heuristics for, the better our accuracy will get!
 \end{frame}
 
 \begin{frame}
 \frametitle{Conclusions}
 \begin{itemize}
 \item We can find more information than $\pass/\fail$
-\item We can limit expensive testing
 \item We can algorithmically produce and simplify a ranking of solutions
 \item We can algorithmically produce and simplify a diagnostic set of failures for each solution
 \end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Tests are expensive}
-\begin{table}
-\begin{tabular}{| l | r | r | r |}
-\hline
- & Tests & & Total \\
-Problem & Per & Solutions & Tests \\
- & Solution & &  \\
-\hline
-Smalltalk Natural Numbers & 514 & 30 & 15420 \\
-Mixed Arithmetic & 75 & 30 & 2250 \\
-Large Integer Arithmetic & 538 & 30 & 16140 \\
-Combination Arithmetic & 540 & 30 & 16140 \\
-\hline
-\end{tabular}
-\caption{Testing for implementation of bignum arithmetic.}
-\end{table}
-\end{frame}
-
-\begin{frame}
-\frametitle{Batch testing Is necessary, but problematic}
-\begin{itemize}
-\item A test can crash the batch
-\item What do we do with tests that did not run?
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{We could order them}
-\begin{itemize}
-\item $\pass>\fail>\dnr$?
-\item $\pass>\fail=\dnr$?
-\item $\pass>\dnr>\fail$?
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Or we could ignore them}
-\begin{defn}[Rank order with \dnr]
-Given solutions $S_1$ and $S_2$, and test set $T$, we define
-$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
-$$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
-\end{defn}
 \end{frame}
 
 \end{document}
