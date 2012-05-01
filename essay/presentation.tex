@@ -34,9 +34,10 @@
   \fontsize{10}{5}\selectfont
 }
 
-\title{Finding the Signal}
-\subtitle{Improved Ranking and Noise Reduction in Black Box Testing}
+\title[Finding the Signal]{Finding the Signal:\\
+Improved Ranking and Noise Reduction in Black Box Testing}
 \author{Jesse Welch}
+\institute{Tufts University}
 \date{May 2012}
 
 \advance\extrarowheight by 1.5pt
@@ -355,12 +356,21 @@ divtest & 164.34 & 10.77 & 1.65\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Experiment}
-One one dataset, how well do these reductions correspond to expert knowledge?
+\frametitle{Algorithm risks losing information}
+Only an expert can relate witnesses to information
+
+\pause
+
+\bigskip
+
+Experiment on one dataset
+\begin{itemize}
+\item  Compare expert's knowledge to algorithm's results
+\end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Results}
+\frametitle{Algorithm does lose information}
 \begin{itemize}
 \item 447 reductions
 \item \uncover<2->{264 confirmed by expert}
@@ -380,21 +390,29 @@ One one dataset, how well do these reductions correspond to expert knowledge?
 
 \begin{frame}
 \frametitle{Important heuristic}
-We remove every implication that comes from ``know one thing about Matt, know everything about Matt.''
+Unjustified implication:
+\begin{block}{}
+One fact about Matt implies all facts about Matt
+\end{block}
 \end{frame}
 
 \begin{frame}
 \frametitle{Results}
 \begin{itemize}
-\item 422 reductions
+\item 422 reductions (down from 447)
 \item \uncover<2->{264 confirmed by expert} \only<3->{(the same number)}
 \item \uncover<4->{62.5\% accuracy}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{We can improve the implications further}
-The more negative implications we can find heuristics for, the better our accuracy will get!
+\frametitle{Hope to do even better}
+\begin{itemize}
+\item
+Find more unjustified implications?
+\item
+Improve accuracy!
+\end{itemize}
 \end{frame}
 
 \begin{frame}
