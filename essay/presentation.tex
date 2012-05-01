@@ -26,7 +26,7 @@
   \usetheme{Boadilla}
   %%\usetheme{Malmoe}
   %%\usetheme{Copenhagen}
-  \setbeamercovered{invisible}
+  \setbeamercovered{dynamic}
   \setbeamertemplate{itemize items}[default]
   \usefonttheme{structurebold}
   \fontsize{10}{5}\selectfont
@@ -141,8 +141,29 @@ Multiple \\
 %TODO: Good example
 
 \begin{frame}
-\frametitle{We want \emph{minimal} rankings}
+\begin{itemize}
+\frametitle{Overview}
+\item \uncover<0>{Intro to Ranking}
+\item \uncover<0>{Ranking with Multiple Results}
+\item Union* Reduction
+\item \uncover<0>{Witness Reduction}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \centerline{\includegraphics[height=0.9\textheight]{fail.ps}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Some test sets are extremely large}
+\begin{tabular}{ | l | c | }
+\hline
+Dataset & \#~Tests \\ 
+\hline
+bitpack & 2468 \\
+divtest & 2112 \\
+\hline
+\end{tabular}
 \end{frame}
 
 \begin{frame}
@@ -153,52 +174,84 @@ $$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
 \end{frame}
 
 \begin{frame}
-\frametitle{Some tests repeat information in new ways}
-We have two possible methods of removing them
-\begin{defn}[Claessen Redundancy]
-A test $T_0$ is redundant if
-$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$$
-\end{defn}
-\begin{defn}[Union* Redundancy]
-A test $T_0$ is redundant if
-$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
-\end{defn}
+\def\?{\phantom0}
+\begin{tabular}{ | l | c | c | }
+\hline
+Dataset & \#~Tests & \#\ Classes\\ 
+\hline
+bitpack & 2468 & 144 \\
+divtest & 2112 & \?71\\
+\hline
+\end{tabular}
 \end{frame}
 
 \begin{frame}
-\begin{table}[t]
+\frametitle{Some tests aggregate information}
+If a program has two bugs (A,B), how can tests interact with them?
+\begin{itemize}
+\item \uncover<2->{Test neither bug}
+\item \uncover<3->{Test bug A}
+\item \uncover<4->{Test bug B}
+\item \uncover<5->{Test both bugs}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Why test both bugs?}
+\begin{block}{}
+A test $T_0$ is redundant if
+$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$$
+\end{block}
+\end{frame}
+
+\begin{frame}
 \def\?{\phantom0}
-\centering
-\fontsize{8}{3}\selectfont
-\begin{tabular}{ | l | c | c | c | c | }
+\begin{tabular}{ | l | c | c | c | }
 \hline
-Dataset & \#~Tests & \#\ Classes &  Claessen &  Union*  \\ 
+Dataset & \#~Tests & \#\ Classes & Claessen\\ 
 \hline
-105 & \?135 & \?\?8 & \?8 & \?8 \\
-all & \?\?20 & \?10 & \?8 & \?8 \\
-asm & \?\?96 & \?27 & 19 & 18 \\
-asmcoding & \?135 & \?\?6 & \?5 & \?5 \\
-bitpack & 2468 & 144 & 91 & 87 \\
-comp40intro & \?\?20 & \?12 & 10 & 10 \\
-divtest & 2112 & \?71 & 40 & 40 \\
-eq & \?\?\?6 & \?\?4 & \?4 & \?4 \\
-extras & \?\?45 & \?\?9 & \?7 & \?7 \\
-inf & \?\?96 & \?71 & 46 & 42 \\
-linterp & \?435 & \?31 & 20 & 20 \\
-nr & \?\?22 & \?10 & 10 & 10 \\
-pred & \?\?\?6 & \?\?3 & \?3 & \?3 \\
-required & \?\?54 & \?11 & \?9 & \?9 \\
-size & \?180 & \?26 & 19 & 19 \\
-sudoku & \?19 & \?\?6 & \?6 & \?6 \\
-tuscheme & \?\?96 & \?49 & 38 & 38 \\
-typesys & \?\?85 & \?41 & 33 & 33 \\
-u & \?256 & \?53 & 29 & 29 \\
-unblack & \?23 & \?14 & 14 & 14 \\
-unify & \?256 & \?53 & 29 & 29 \\
+bitpack & 2468 & 144 & 91\\
+divtest & 2112 & \?71 & 40\\
 \hline
 \end{tabular}
-\caption{The results of each reduction algorithm}
-\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Union*}
+Why limit to only two aggregated tests?
+\end{frame}
+A test $T_0$ is redundant if
+$$\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $$
+\begin{frame}
+\begin{block}{}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\def\?{\phantom0}
+\begin{tabular}{ | l | c | c | c | }
+\hline
+Dataset & \#~Tests & \#\ Classes & Claessen & Union*\\ 
+\hline
+bitpack & 2468 & 144 & 91 & 87\\
+divtest & 2112 & \?71 & 40 & 40\\
+\hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\frametitle{Union* is \emph{never} worse}
+Because it is a generalization of Claessen, Union* can never create a larger test set.
+\end{frame}
+
+\begin{frame}
+\frametitle{Experimental effects}
+\begin{itemize}
+\item \uncover<2->{21 datasets}
+\item \uncover<3->{18 reduced the same}
+\item \uncover<3->{3 Union* reduced further}
+\item \uncover<4->{Average of 3 additional tests reduced}
+\end{itemize}
 \end{frame}
 
 \begin{frame}

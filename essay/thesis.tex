@@ -48,7 +48,20 @@
 \maketitle
 
 \begin{abstract}
-We present several improved methods for unbiased measuring of the the relative quality of multiple solutions to a programming problem. We present several improved methods for minimizing the amount of data present in the ranking this measure produces. We present a novel method for minimizing the amount of diagnostic information provided to each solution.
+We present algorithms for analyzing multiple programs that solve the
+same problem.  The algorithms help an analyst rank the programs and
+diagnose each program's faults.
+
+We rank programs objectively by analyzing the results of black-box
+testing.  Our analysis encompasses a richer notion of "result" than
+that used in prior work.  And our method can analyze incomplete
+results, which enables us to run more tests faster by batching tests.
+
+We also use black-box test results to help diagnose a program's
+faults.  Naive diagnostics list all tests a program failed.  Prior
+work presents only the failures necessary to rank programs---a shorter
+list.  By discovering relationships between tests, our algorithm
+presents an even shorter, less noisy diagnostic list.
 \end{abstract}
 
 \newpage
