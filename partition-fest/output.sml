@@ -75,6 +75,22 @@ struct
                 | _  => failures))
             "" results)); (output (out, "\n\n"))))
   () solns
+
+
+
+(*
+  fun printStudentFailures solns out = 
+   foldl (fn ((student, results), _) =>
+           (
+            (output (out, 
+            foldr (fn ((id, outcome), failures) =>
+             (case outcome 
+               of Outcome.NOTPASSED {witness = witness, outcome = outcome} =>
+                   "   " ^ idToString id ^ (*" : " ^ witness ^*) "\n" ^ failures
+                | _  => failures))
+            "" results))))
+  () solns
+*)
              
 (*
   fun printReducedFailures solns (g,m,p) out = 

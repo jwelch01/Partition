@@ -71,8 +71,8 @@ struct
   fun falseResults (_,_,_,_, xs) = 
     List.filter (fn (_, bool) => bool) xs
 
-  fun goodTest t = 
-    length (trueResults t) > 1 andalso length (falseResults t) > 1
+  fun goodTest t = true
+ (*   length (trueResults t) > 1 andalso length (falseResults t) > 1 *)
 
   fun makePositivePropositionList testSetList = 
     foldr (fn (test, props) => 

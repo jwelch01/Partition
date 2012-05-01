@@ -47,4 +47,4 @@ structure OutcomeMultiple :> OUTCOME = struct
 
 end
 
-structure Outcome = OutcomeSingle
+structure Outcome = OutcomeMultiple

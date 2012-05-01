@@ -96,4 +96,8 @@ fun getNodesFromEdges (edgeList) =
 fun getGraphFromEdges (edgeList) = 
   GRAPH {nodes = getNodesFromEdges edgeList, edges = edgeList}
 
+ fun edgeHasNode (EDGE {source, label, dest}) node = source = node 
+                                                     orelse dest = node
+
+
 end

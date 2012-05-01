@@ -36,5 +36,5 @@ signature GRAPH =
 
     val getNodesFromEdges : edge list -> node list
     val getGraphFromEdges : edge list -> graph
-
+    val edgeHasNode       : edge -> node -> bool
   end

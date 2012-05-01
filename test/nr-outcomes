@@ -1,0 +1,528 @@
+given no-arg     test 1, ahamli02 passed
+given cond       test 1, ahamli02 passed
+given eq         test 1, ahamli02 passed
+given gt0        test 1, ahamli02 passed
+given halt       test 1, ahamli02 passed
+given hell2      test 1, ahamli02 passed
+given hello      test 1, ahamli02 passed
+given lt         test 1, ahamli02 passed
+given macros     test 1, ahamli02 passed
+given midmark    test 1, ahamli02 passed
+given ne         test 1, ahamli02 passed
+given out        test 1, ahamli02 passed
+given pushpop    test 1, ahamli02 passed
+given scompare   test 1, ahamli02 passed
+given selfcheck  test 1, ahamli02 passed
+given selfsub    test 1, ahamli02 passed
+given xor        test 1, ahamli02 passed
+given zcond      test 1, ahamli02 passed
+given advent     test 1, ahamli02 passed
+given codex      test 1, ahamli02 passed
+given sandmark   test 1, ahamli02 passed
+given cat        test 1, ahamli02 failed -- bad output on stdout
+given no-arg     test 1, akhaku01 passed
+given cat        test 1, akhaku01 passed
+given cond       test 1, akhaku01 passed
+given eq         test 1, akhaku01 passed
+given gt0        test 1, akhaku01 passed
+given halt       test 1, akhaku01 passed
+given hell2      test 1, akhaku01 passed
+given hello      test 1, akhaku01 passed
+given lt         test 1, akhaku01 passed
+given macros     test 1, akhaku01 passed
+given midmark    test 1, akhaku01 passed
+given ne         test 1, akhaku01 passed
+given out        test 1, akhaku01 passed
+given pushpop    test 1, akhaku01 passed
+given scompare   test 1, akhaku01 passed
+given selfcheck  test 1, akhaku01 passed
+given selfsub    test 1, akhaku01 passed
+given xor        test 1, akhaku01 passed
+given zcond      test 1, akhaku01 passed
+given advent     test 1, akhaku01 passed
+given codex      test 1, akhaku01 passed
+given sandmark   test 1, akhaku01 passed
+given advent     test 1, ariley03 passed
+given codex      test 1, ariley03 passed
+given sandmark   test 1, ariley03 passed
+given cond       test 1, ariley03 passed
+given eq         test 1, ariley03 passed
+given gt0        test 1, ariley03 passed
+given halt       test 1, ariley03 passed
+given hell2      test 1, ariley03 passed
+given hello      test 1, ariley03 passed
+given lt         test 1, ariley03 passed
+given macros     test 1, ariley03 passed
+given midmark    test 1, ariley03 passed
+given ne         test 1, ariley03 passed
+given out        test 1, ariley03 passed
+given pushpop    test 1, ariley03 passed
+given scompare   test 1, ariley03 passed
+given selfcheck  test 1, ariley03 passed
+given selfsub    test 1, ariley03 passed
+given xor        test 1, ariley03 passed
+given zcond      test 1, ariley03 passed
+given no-arg     test 1, ariley03 failed -- Segmentation fault
+given cat        test 1, ariley03 failed -- bad output on stdout
+given cat        test 1, bleike01 passed
+given cond       test 1, bleike01 passed
+given eq         test 1, bleike01 passed
+given gt0        test 1, bleike01 passed
+given halt       test 1, bleike01 passed
+given hell2      test 1, bleike01 passed
+given hello      test 1, bleike01 passed
+given lt         test 1, bleike01 passed
+given macros     test 1, bleike01 passed
+given midmark    test 1, bleike01 passed
+given ne         test 1, bleike01 passed
+given out        test 1, bleike01 passed
+given pushpop    test 1, bleike01 passed
+given scompare   test 1, bleike01 passed
+given selfsub    test 1, bleike01 passed
+given xor        test 1, bleike01 passed
+given zcond      test 1, bleike01 passed
+given no-arg     test 1, bleike01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given selfcheck  test 1, bleike01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, bleike01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, bleike01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given sandmark   test 1, bleike01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, bweitz02 passed
+given codex      test 1, bweitz02 passed
+given cond       test 1, bweitz02 passed
+given eq         test 1, bweitz02 passed
+given gt0        test 1, bweitz02 passed
+given halt       test 1, bweitz02 passed
+given hell2      test 1, bweitz02 passed
+given hello      test 1, bweitz02 passed
+given lt         test 1, bweitz02 passed
+given macros     test 1, bweitz02 passed
+given midmark    test 1, bweitz02 passed
+given ne         test 1, bweitz02 passed
+given out        test 1, bweitz02 passed
+given pushpop    test 1, bweitz02 passed
+given scompare   test 1, bweitz02 passed
+given selfcheck  test 1, bweitz02 passed
+given selfsub    test 1, bweitz02 passed
+given xor        test 1, bweitz02 passed
+given zcond      test 1, bweitz02 passed
+given no-arg     test 1, bweitz02 failed -- bad exit code; empty stderr where error message was expected
+given cat        test 1, bweitz02 failed -- bad output on stdout
+given sandmark   test 1, bweitz02 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, cbrink passed
+given cond       test 1, cbrink passed
+given eq         test 1, cbrink passed
+given gt0        test 1, cbrink passed
+given halt       test 1, cbrink passed
+given hell2      test 1, cbrink passed
+given hello      test 1, cbrink passed
+given lt         test 1, cbrink passed
+given macros     test 1, cbrink passed
+given ne         test 1, cbrink passed
+given out        test 1, cbrink passed
+given pushpop    test 1, cbrink passed
+given scompare   test 1, cbrink passed
+given selfcheck  test 1, cbrink passed
+given selfsub    test 1, cbrink passed
+given xor        test 1, cbrink passed
+given zcond      test 1, cbrink passed
+given advent     test 1, cbrink failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, cbrink failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given sandmark   test 1, cbrink failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given cat        test 1, cbrink failed -- bad output on stdout
+given midmark    test 1, cbrink failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, dporte01 passed
+given sandmark   test 1, dporte01 passed
+given cat        test 1, dporte01 passed
+given cond       test 1, dporte01 passed
+given eq         test 1, dporte01 passed
+given gt0        test 1, dporte01 passed
+given halt       test 1, dporte01 passed
+given hell2      test 1, dporte01 passed
+given hello      test 1, dporte01 passed
+given lt         test 1, dporte01 passed
+given macros     test 1, dporte01 passed
+given midmark    test 1, dporte01 passed
+given ne         test 1, dporte01 passed
+given out        test 1, dporte01 passed
+given pushpop    test 1, dporte01 passed
+given scompare   test 1, dporte01 passed
+given selfcheck  test 1, dporte01 passed
+given selfsub    test 1, dporte01 passed
+given xor        test 1, dporte01 passed
+given zcond      test 1, dporte01 passed
+given codex      test 1, dporte01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, dporte01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given no-arg     test 1, ealter01 passed
+given cat        test 1, ealter01 passed
+given cond       test 1, ealter01 passed
+given eq         test 1, ealter01 passed
+given gt0        test 1, ealter01 passed
+given halt       test 1, ealter01 passed
+given hell2      test 1, ealter01 passed
+given hello      test 1, ealter01 passed
+given lt         test 1, ealter01 passed
+given macros     test 1, ealter01 passed
+given midmark    test 1, ealter01 passed
+given ne         test 1, ealter01 passed
+given out        test 1, ealter01 passed
+given pushpop    test 1, ealter01 passed
+given scompare   test 1, ealter01 passed
+given selfsub    test 1, ealter01 passed
+given xor        test 1, ealter01 passed
+given zcond      test 1, ealter01 passed
+given advent     test 1, ealter01 passed
+given codex      test 1, ealter01 passed
+given sandmark   test 1, ealter01 passed
+given selfcheck  test 1, ealter01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, eroths02 passed
+given codex      test 1, eroths02 passed
+given sandmark   test 1, eroths02 passed
+given cat        test 1, eroths02 passed
+given cond       test 1, eroths02 passed
+given eq         test 1, eroths02 passed
+given gt0        test 1, eroths02 passed
+given halt       test 1, eroths02 passed
+given hell2      test 1, eroths02 passed
+given hello      test 1, eroths02 passed
+given lt         test 1, eroths02 passed
+given macros     test 1, eroths02 passed
+given midmark    test 1, eroths02 passed
+given ne         test 1, eroths02 passed
+given out        test 1, eroths02 passed
+given pushpop    test 1, eroths02 passed
+given scompare   test 1, eroths02 passed
+given selfcheck  test 1, eroths02 passed
+given selfsub    test 1, eroths02 passed
+given xor        test 1, eroths02 passed
+given zcond      test 1, eroths02 passed
+given no-arg     test 1, eroths02 failed -- empty stderr where error message was expected
+given no-arg     test 1, ewu02 passed
+given cat        test 1, ewu02 passed
+given cond       test 1, ewu02 passed
+given eq         test 1, ewu02 passed
+given gt0        test 1, ewu02 passed
+given halt       test 1, ewu02 passed
+given hell2      test 1, ewu02 passed
+given hello      test 1, ewu02 passed
+given lt         test 1, ewu02 passed
+given macros     test 1, ewu02 passed
+given midmark    test 1, ewu02 passed
+given ne         test 1, ewu02 passed
+given out        test 1, ewu02 passed
+given pushpop    test 1, ewu02 passed
+given scompare   test 1, ewu02 passed
+given selfcheck  test 1, ewu02 passed
+given selfsub    test 1, ewu02 passed
+given xor        test 1, ewu02 passed
+given zcond      test 1, ewu02 passed
+given sandmark   test 1, ewu02 passed
+given advent     test 1, ewu02 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, ewu02 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given cat        test 1, hgarza01 passed
+given cond       test 1, hgarza01 passed
+given eq         test 1, hgarza01 passed
+given gt0        test 1, hgarza01 passed
+given halt       test 1, hgarza01 passed
+given hell2      test 1, hgarza01 passed
+given hello      test 1, hgarza01 passed
+given lt         test 1, hgarza01 passed
+given ne         test 1, hgarza01 passed
+given out        test 1, hgarza01 passed
+given pushpop    test 1, hgarza01 passed
+given scompare   test 1, hgarza01 passed
+given selfsub    test 1, hgarza01 passed
+given xor        test 1, hgarza01 passed
+given zcond      test 1, hgarza01 passed
+given no-arg     test 1, hgarza01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given macros     test 1, hgarza01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given midmark    test 1, hgarza01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given selfcheck  test 1, hgarza01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, hgarza01 failed -- bad output on stdout
+given codex      test 1, hgarza01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given sandmark   test 1, hgarza01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, ifried01 passed
+given codex      test 1, ifried01 passed
+given sandmark   test 1, ifried01 passed
+given cond       test 1, ifried01 passed
+given eq         test 1, ifried01 passed
+given gt0        test 1, ifried01 passed
+given halt       test 1, ifried01 passed
+given hell2      test 1, ifried01 passed
+given hello      test 1, ifried01 passed
+given lt         test 1, ifried01 passed
+given macros     test 1, ifried01 passed
+given midmark    test 1, ifried01 passed
+given ne         test 1, ifried01 passed
+given out        test 1, ifried01 passed
+given pushpop    test 1, ifried01 passed
+given scompare   test 1, ifried01 passed
+given selfcheck  test 1, ifried01 passed
+given selfsub    test 1, ifried01 passed
+given xor        test 1, ifried01 passed
+given zcond      test 1, ifried01 passed
+given no-arg     test 1, ifried01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given cat        test 1, ifried01 failed -- bad output on stdout
+given no-arg     test 1, jdutko01 passed
+given cond       test 1, jdutko01 passed
+given eq         test 1, jdutko01 passed
+given gt0        test 1, jdutko01 passed
+given halt       test 1, jdutko01 passed
+given hell2      test 1, jdutko01 passed
+given hello      test 1, jdutko01 passed
+given lt         test 1, jdutko01 passed
+given ne         test 1, jdutko01 passed
+given out        test 1, jdutko01 passed
+given scompare   test 1, jdutko01 passed
+given selfsub    test 1, jdutko01 passed
+given xor        test 1, jdutko01 passed
+given zcond      test 1, jdutko01 passed
+given advent     test 1, jdutko01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, jdutko01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given sandmark   test 1, jdutko01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given cat        test 1, jdutko01 failed -- bad exit code; unexpected output on stderr
+given macros     test 1, jdutko01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given midmark    test 1, jdutko01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given pushpop    test 1, jdutko01 failed -- bad output on stdout
+given selfcheck  test 1, jdutko01 failed -- bad output on stdout
+given sandmark   test 1, jkenne05 passed
+given cat        test 1, jkenne05 passed
+given cond       test 1, jkenne05 passed
+given eq         test 1, jkenne05 passed
+given gt0        test 1, jkenne05 passed
+given halt       test 1, jkenne05 passed
+given hell2      test 1, jkenne05 passed
+given hello      test 1, jkenne05 passed
+given lt         test 1, jkenne05 passed
+given macros     test 1, jkenne05 passed
+given midmark    test 1, jkenne05 passed
+given ne         test 1, jkenne05 passed
+given out        test 1, jkenne05 passed
+given pushpop    test 1, jkenne05 passed
+given scompare   test 1, jkenne05 passed
+given selfcheck  test 1, jkenne05 passed
+given selfsub    test 1, jkenne05 passed
+given xor        test 1, jkenne05 passed
+given zcond      test 1, jkenne05 passed
+given advent     test 1, jkenne05 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, jkenne05 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, jkenne05 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given advent     test 1, jsilve04 passed
+given codex      test 1, jsilve04 passed
+given sandmark   test 1, jsilve04 passed
+given cond       test 1, jsilve04 passed
+given eq         test 1, jsilve04 passed
+given gt0        test 1, jsilve04 passed
+given halt       test 1, jsilve04 passed
+given hell2      test 1, jsilve04 passed
+given hello      test 1, jsilve04 passed
+given lt         test 1, jsilve04 passed
+given macros     test 1, jsilve04 passed
+given midmark    test 1, jsilve04 passed
+given ne         test 1, jsilve04 passed
+given out        test 1, jsilve04 passed
+given pushpop    test 1, jsilve04 passed
+given scompare   test 1, jsilve04 passed
+given selfcheck  test 1, jsilve04 passed
+given selfsub    test 1, jsilve04 passed
+given xor        test 1, jsilve04 passed
+given zcond      test 1, jsilve04 passed
+given no-arg     test 1, jsilve04 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given cat        test 1, jsilve04 failed -- bad output on stdout
+given no-arg     test 1, jtan03 passed
+given cond       test 1, jtan03 passed
+given eq         test 1, jtan03 passed
+given gt0        test 1, jtan03 passed
+given halt       test 1, jtan03 passed
+given hell2      test 1, jtan03 passed
+given hello      test 1, jtan03 passed
+given lt         test 1, jtan03 passed
+given macros     test 1, jtan03 passed
+given midmark    test 1, jtan03 passed
+given ne         test 1, jtan03 passed
+given out        test 1, jtan03 passed
+given pushpop    test 1, jtan03 passed
+given scompare   test 1, jtan03 passed
+given selfcheck  test 1, jtan03 passed
+given selfsub    test 1, jtan03 passed
+given xor        test 1, jtan03 passed
+given zcond      test 1, jtan03 passed
+given advent     test 1, jtan03 passed
+given codex      test 1, jtan03 passed
+given sandmark   test 1, jtan03 passed
+given cat        test 1, jtan03 failed -- bad output on stdout
+given no-arg     test 1, kmcneely passed
+given cat        test 1, kmcneely passed
+given cond       test 1, kmcneely passed
+given eq         test 1, kmcneely passed
+given gt0        test 1, kmcneely passed
+given halt       test 1, kmcneely passed
+given hell2      test 1, kmcneely passed
+given hello      test 1, kmcneely passed
+given lt         test 1, kmcneely passed
+given macros     test 1, kmcneely passed
+given midmark    test 1, kmcneely passed
+given ne         test 1, kmcneely passed
+given out        test 1, kmcneely passed
+given pushpop    test 1, kmcneely passed
+given scompare   test 1, kmcneely passed
+given selfsub    test 1, kmcneely passed
+given xor        test 1, kmcneely passed
+given zcond      test 1, kmcneely passed
+given advent     test 1, kmcneely passed
+given codex      test 1, kmcneely passed
+given sandmark   test 1, kmcneely passed
+given selfcheck  test 1, kmcneely failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, mgolds07 passed
+given cat        test 1, mgolds07 passed
+given cond       test 1, mgolds07 passed
+given eq         test 1, mgolds07 passed
+given gt0        test 1, mgolds07 passed
+given halt       test 1, mgolds07 passed
+given hell2      test 1, mgolds07 passed
+given hello      test 1, mgolds07 passed
+given lt         test 1, mgolds07 passed
+given macros     test 1, mgolds07 passed
+given midmark    test 1, mgolds07 passed
+given ne         test 1, mgolds07 passed
+given out        test 1, mgolds07 passed
+given pushpop    test 1, mgolds07 passed
+given scompare   test 1, mgolds07 passed
+given selfsub    test 1, mgolds07 passed
+given xor        test 1, mgolds07 passed
+given zcond      test 1, mgolds07 passed
+given advent     test 1, mgolds07 passed
+given codex      test 1, mgolds07 passed
+given sandmark   test 1, mgolds07 passed
+given selfcheck  test 1, mgolds07 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, rlew02 passed
+given cat        test 1, rlew02 passed
+given cond       test 1, rlew02 passed
+given eq         test 1, rlew02 passed
+given gt0        test 1, rlew02 passed
+given halt       test 1, rlew02 passed
+given hell2      test 1, rlew02 passed
+given hello      test 1, rlew02 passed
+given lt         test 1, rlew02 passed
+given macros     test 1, rlew02 passed
+given midmark    test 1, rlew02 passed
+given ne         test 1, rlew02 passed
+given out        test 1, rlew02 passed
+given pushpop    test 1, rlew02 passed
+given scompare   test 1, rlew02 passed
+given selfcheck  test 1, rlew02 passed
+given selfsub    test 1, rlew02 passed
+given xor        test 1, rlew02 passed
+given zcond      test 1, rlew02 passed
+given sandmark   test 1, rlew02 passed
+given advent     test 1, rlew02 failed -- bad output on stdout
+given codex      test 1, rlew02 failed -- bad output on stdout
+given no-arg     test 1, rstern03 passed
+given cat        test 1, rstern03 passed
+given cond       test 1, rstern03 passed
+given eq         test 1, rstern03 passed
+given gt0        test 1, rstern03 passed
+given halt       test 1, rstern03 passed
+given hell2      test 1, rstern03 passed
+given hello      test 1, rstern03 passed
+given lt         test 1, rstern03 passed
+given macros     test 1, rstern03 passed
+given midmark    test 1, rstern03 passed
+given ne         test 1, rstern03 passed
+given out        test 1, rstern03 passed
+given pushpop    test 1, rstern03 passed
+given scompare   test 1, rstern03 passed
+given selfsub    test 1, rstern03 passed
+given xor        test 1, rstern03 passed
+given zcond      test 1, rstern03 passed
+given advent     test 1, rstern03 passed
+given codex      test 1, rstern03 passed
+given sandmark   test 1, rstern03 passed
+given selfcheck  test 1, rstern03 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given codex      test 1, slessa01 passed
+given cond       test 1, slessa01 passed
+given eq         test 1, slessa01 passed
+given gt0        test 1, slessa01 passed
+given halt       test 1, slessa01 passed
+given hell2      test 1, slessa01 passed
+given hello      test 1, slessa01 passed
+given lt         test 1, slessa01 passed
+given macros     test 1, slessa01 passed
+given midmark    test 1, slessa01 passed
+given ne         test 1, slessa01 passed
+given out        test 1, slessa01 passed
+given pushpop    test 1, slessa01 passed
+given scompare   test 1, slessa01 passed
+given selfsub    test 1, slessa01 passed
+given xor        test 1, slessa01 passed
+given zcond      test 1, slessa01 passed
+given no-arg     test 1, slessa01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code
+given cat        test 1, slessa01 failed -- bad output on stdout
+given selfcheck  test 1, slessa01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, slessa01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given sandmark   test 1, slessa01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, tlentz01 passed
+given cat        test 1, tlentz01 passed
+given cond       test 1, tlentz01 passed
+given eq         test 1, tlentz01 passed
+given gt0        test 1, tlentz01 passed
+given halt       test 1, tlentz01 passed
+given hell2      test 1, tlentz01 passed
+given hello      test 1, tlentz01 passed
+given lt         test 1, tlentz01 passed
+given macros     test 1, tlentz01 passed
+given midmark    test 1, tlentz01 passed
+given ne         test 1, tlentz01 passed
+given out        test 1, tlentz01 passed
+given pushpop    test 1, tlentz01 passed
+given scompare   test 1, tlentz01 passed
+given selfcheck  test 1, tlentz01 passed
+given selfsub    test 1, tlentz01 passed
+given xor        test 1, tlentz01 passed
+given zcond      test 1, tlentz01 passed
+given advent     test 1, tlentz01 failed -- bad output on stdout
+given codex      test 1, tlentz01 failed -- bad output on stdout
+given sandmark   test 1, tlentz01 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given no-arg     test 1, tlim02 passed
+given cat        test 1, tlim02 passed
+given cond       test 1, tlim02 passed
+given eq         test 1, tlim02 passed
+given gt0        test 1, tlim02 passed
+given halt       test 1, tlim02 passed
+given hell2      test 1, tlim02 passed
+given hello      test 1, tlim02 passed
+given lt         test 1, tlim02 passed
+given macros     test 1, tlim02 passed
+given midmark    test 1, tlim02 passed
+given ne         test 1, tlim02 passed
+given out        test 1, tlim02 passed
+given pushpop    test 1, tlim02 passed
+given scompare   test 1, tlim02 passed
+given selfsub    test 1, tlim02 passed
+given xor        test 1, tlim02 passed
+given zcond      test 1, tlim02 passed
+given advent     test 1, tlim02 passed
+given codex      test 1, tlim02 passed
+given sandmark   test 1, tlim02 passed
+given selfcheck  test 1, tlim02 failed -- bad output on stdout; bad exit code; unexpected output on stderr
+given advent     test 1, xzhang01 passed
+given codex      test 1, xzhang01 passed
+given sandmark   test 1, xzhang01 passed
+given cat        test 1, xzhang01 passed
+given cond       test 1, xzhang01 passed
+given eq         test 1, xzhang01 passed
+given gt0        test 1, xzhang01 passed
+given halt       test 1, xzhang01 passed
+given hell2      test 1, xzhang01 passed
+given hello      test 1, xzhang01 passed
+given lt         test 1, xzhang01 passed
+given macros     test 1, xzhang01 passed
+given midmark    test 1, xzhang01 passed
+given ne         test 1, xzhang01 passed
+given out        test 1, xzhang01 passed
+given pushpop    test 1, xzhang01 passed
+given scompare   test 1, xzhang01 passed
+given selfcheck  test 1, xzhang01 passed
+given selfsub    test 1, xzhang01 passed
+given xor        test 1, xzhang01 passed
+given zcond      test 1, xzhang01 passed
+given no-arg     test 1, xzhang01 failed -- bad output on stdout; empty stderr where error message was expected; bad exit code

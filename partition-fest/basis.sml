@@ -3,6 +3,8 @@ structure Basis : sig
                    string list -> SolnSet.set 
   val buildPropGraph : string -> string -> string list -> Prop.prop list list
 
+  val makeChart : string -> string -> string
+
 end =
 struct
 
@@ -275,11 +277,13 @@ struct
                 of NONE => false
                  | SOME ((t,n), Outcome.NOTPASSED {witness = witness2, ...}) => 
                 (let val id2 = t^n
-                 in TextIO.output (causes,
-                                   "Test "^id^" made redundant by "^id2^
+               (*  in TextIO.output (causes,
+                                   "Test "^id^" made redundant by "^id2(*^
                                    "\n"^id2^"'s witness:\n"^witness2^
-                                   "\n"^id^"'s witness:\n"^witness^"\n\n")
-                 end
+                                   "\n"^id^"'s witness:\n"^witness*)^"\n\n")*)
+                 in TextIO.output (causes,
+                                   "Test "^id^" made redundant by "^id2^"\n")
+		end
                                          ; true)
                  | _ => raise Impossible
             end
@@ -411,12 +415,26 @@ struct
                     
     in map (fn (x,y,ol) => (x,y,limit ol)) tests
     end 
-        
+
+(*TEMPORARY*)
+   val containsNode = BasicGraph.edgeHasNode
+
+  fun getQSort g = 
+    let fun rm edge 45 = containsNode edge "N45"
+          | rm edge 181 = containsNode edge "N181"
+          | rm edge n  = containsNode edge ("N" ^ Int.toString n) orelse  
+                         rm edge (n-1)
+        val edges = BasicGraph.getEdges g
+        val edges' =  List.filter (fn e => rm e 186 orelse
+                                           rm e 52) edges
+    in BasicGraph.getGraphFromEdges edges'
+    end       
 
   fun buildPropGraph infile outfile  flags =
     let val tests   = getTestPartitions infile
         val (g,  m, p) = buildPropGraphAndMap $ map testRep tests
         val (g', m') = reduction flags (g, m)
+        val g''     = getQSort g'
         val fixMap  = mapReduction flags
         val fd      = TextIO.openOut outfile
         val ()      = FileWriter.printGraph g' (fixMap m') fd false
@@ -425,11 +443,18 @@ struct
     end
 
 
+
   fun buildGraph infile outfile outfileTests outfileFailures flags = 
     let val tests     = getTestPartitions infile
-	val (g',m',p) = buildPropGraphAndMap $ reduceTests tests
+(*        val tmptests      = makeTestSet $
+                           FileReader.readToMap $ TextIO.openIn infile
+        fun expand [] = []
+          | expand (x::xs) = [x]::expand xs
+	val (g',m',p) = buildPropGraphAndMap $ reduceTests tests *)
+	val (g',m',p) = buildPropGraphAndMap $ map testRep tests 
 	val tests'    = testSetReduction flags (g', m', p) tests
-        val solns     = (*anonymize $*) makeSolnSet $ makeSolnMap tests'
+(*        val solns     = anonymize $ makeSolnSet $ makeSolnMap $ expand tmptests *)
+        val solns     = anonymize $ makeSolnSet $ makeSolnMap tests'
         val (s, m)    = buildMapAndSet $ partitionSolns solns
         val g         = makeGraph s
         val (fd, tfd, ffd) = (TextIO.openOut outfile, 
@@ -445,5 +470,50 @@ struct
                          TextIO.closeOut ffd)
     in solns
     end
+
+  fun tableify [] = ""
+    | tableify (x::xs) = 
+       let fun tab [] = " \\\\\n"
+             | tab (x::xs) = " & " ^ x ^ tab xs
+       in x ^ tab xs
+       end
+
+  val slength = Int.toString o length
+
+  fun makeChart infile outfile =
+    let val tests      = makeTestSet $
+                           FileReader.readToMap $ TextIO.openIn infile
+        val partitions = partitionTests tests
+        fun expand []  = []
+          | expand (x::xs) = [x]::expand xs
+       
+	val solns      = makeSolnSet $ makeSolnMap $ expand tests
+	val solns'     = makeSolnSet $ makeSolnMap partitions
+
+	fun fail (_, x)= Outcome.eq (x, Outcome.NOTPASSED {witness = "", outcome = ""})
+fun truncToDec x y =        
+   let val base = trunc (x/y)
+   in real base * y end;  
+
+        fun avgFailures solns = 
+          let val outs = map (fn (_, t) => t) solns
+              val fails = map (List.filter fail) outs
+              val failCounts = map length fails
+          in (real $ foldr op + 0 failCounts) / (real $ length failCounts)
+	  end
+        val (g,m,p)    = buildPropGraphAndMap $ map testRep partitions
+	val claessen   = unionReduction failureRedundantUnderClaessen
+                                        (g, m, p) partitions
+        val union      = unionReduction failureRedundantUnderUnion
+                                        (g, m, p) partitions 
+        val out        = TextIO.openAppend outfile
+        val tableLine  = tableify [infile, 
+                                   Real.toString $ truncToDec (avgFailures solns) 0.01,
+				   Real.toString $ truncToDec (avgFailures solns') 0.01]
+        val ()         = TextIO.output (out, tableLine)
+        val ()         = TextIO.closeOut out
+    in tableLine
+    end
+                                                      
 
 end
