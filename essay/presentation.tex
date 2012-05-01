@@ -45,64 +45,73 @@
 \maketitle
 \end{frame}
 
+
 \begin{frame}
 \frametitle{Students turn in many solutions \\ to the same problem}
 We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \begin{itemize}
 \item Test them \uncover<2->{\textbf{cheaply}}
 \item Rank them \uncover<2->{\textbf{cheaply}}
-\item Diagnose their Faults \uncover<2->{\textbf{cheaply}}
+\item Diagnose their faults \uncover<2->{\textbf{cheaply}}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{We \emph{really} want to:}
 \begin{itemize}
-\item \uncover<2->{Cheaply }test them
-\item \uncover<2->{Cheaply }rank them
-\item \uncover<2->{Cheaply }diagnose their faults
+\frametitle{Overview}
+\item \only<1>{Intro to Ranking}\only<2>{Intro to Ranking}
+\item \uncover<1>{Ranking with Multiple Results}
+\item \uncover<1>{Union* Reduction}
+\item \uncover<1>{Witness Reduction}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{There are many ways to rank solutions}
+\frametitle{There are many ways to rank}
 \begin{itemize}
-\item Percent of tests passed
+\item Number of tests passed
 \uncover<2->{\item Expert opinion}
-\uncover<3->{\item Randomly}
+\uncover<3->{\item Desperate, custom measures}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{There is a ground truth for comparison}
-\begin{defn}[Rank order of solutions]
-Solution comparisons create a partial order. If neither of these definitions apply, they are incomparable.
-Given solutions $S_1$ and $S_2$, and test set $T$, we define
-$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) = S_2(t)$$
-$$S_1 \sqsubseteq S_2 \defined \forall t \in T' : S_1(t) \leq S_2(t)$$
-When $S_1 \sqsubseteq S_2$ but $S_1 \not\equiv S_2$, we write
-$S_1 \sqsubset S_2$.
-\end{defn}
+\frametitle{There is a central truth}
+In every one of these ranking algorithms,
+$$\pass>\fail$$
 \end{frame}
 
 \begin{frame}
-\frametitle{What does "$>$" mean?}
-Claessen's Definition: $\pass>\fail$
+\frametitle{There is a central truth}
+\begin{block}{}
+$$S_1 \sqsubseteq S_2 \defined \forall t \in T : S_1(t) \leq S_2(t)$$
+\end{block}
 \end{frame}
+
+\begin{frame}
+\begin{itemize}
+\frametitle{Overview}
+\item \uncover<0>{Intro to Ranking}
+\item Ranking with Multiple Results
+\item \uncover<0>{Union* Reduction}
+\item \uncover<0>{Witness Reduction}
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Real tests have many outcomes}
 \begin{itemize}
 \item Pass
-\item Bad output
-\item Segfault
-\item Timeout
-\item CPU lights on fire
+\item \uncover<2->{Bad output}
+\item \uncover<3->{Segfault}
+\item \uncover<4->{Timeout}
+\item \uncover<5->{Assertion failure}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{How do we order these?}
+\frametitle{We pick an order}
 Always:
 \begin{itemize}
 \item $\pass>\fail$
@@ -112,11 +121,6 @@ Sometimes:
 \item SEGFAULT $>$ BAD OUTPUT
 \item BAD OUTPUT $>$ SEGFAULT
 \end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{So how do we order them?}
-However you want!
 \end{frame}
 
 \begin{frame}
@@ -134,58 +138,7 @@ Multiple \\
 
 \end{frame}
 
-\begin{frame}
-\frametitle{And Now for Something Completely Different!}
-\end{frame}
-
-\begin{frame}
-\frametitle{Tests are expensive}
-\begin{table}
-\begin{tabular}{| l | r | r | r |}
-\hline
- & Tests & & Total \\
-Problem & Per & Solutions & Tests \\
- & Solution & &  \\
-\hline
-Smalltalk Natural Numbers & 514 & 30 & 15420 \\
-Mixed Arithmetic & 75 & 30 & 2250 \\
-Large Integer Arithmetic & 538 & 30 & 16140 \\
-Combination Arithmetic & 540 & 30 & 16140 \\
-\hline
-\end{tabular}
-\caption{Testing for implementation of bignum arithmetic.}
-\end{table}
-\end{frame}
-
-\begin{frame}
-\frametitle{Batch testing Is necessary, but problematic}
-\begin{itemize}
-\item A test can crash the batch
-\item What do we do with tests that did not run?
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{We could order them}
-\begin{itemize}
-\item $\pass>\fail>\dnr$?
-\item $\pass>\fail=\dnr$?
-\item $\pass>\dnr>\fail$?
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{Or we could ignore them}
-\begin{defn}[Rank order with \dnr]
-Given solutions $S_1$ and $S_2$, and test set $T$, we define
-$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
-$$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
-\end{defn}
-\end{frame}
-
-\begin{frame}
-\frametitle{And Now for Something Completely Different!}
-\end{frame}
+%TODO: Good example
 
 \begin{frame}
 \frametitle{We want \emph{minimal} rankings}
@@ -194,8 +147,6 @@ $$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr 
 
 \begin{frame}
 \frametitle{Many tests are equivalent}
-%\begin{defn}[Test Equivalence]
-%Given tests $T_0$ and $T_1$ and solution set $S$
 \begin{block}{}
 $$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
 \end{block}
@@ -385,6 +336,51 @@ After we implemented several heuristics for eliminating negative implications:
 \item We can algorithmically produce and simplify a ranking of solutions
 \item We can algorithmically produce and simplify a diagnostic set of failures for each solution
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tests are expensive}
+\begin{table}
+\begin{tabular}{| l | r | r | r |}
+\hline
+ & Tests & & Total \\
+Problem & Per & Solutions & Tests \\
+ & Solution & &  \\
+\hline
+Smalltalk Natural Numbers & 514 & 30 & 15420 \\
+Mixed Arithmetic & 75 & 30 & 2250 \\
+Large Integer Arithmetic & 538 & 30 & 16140 \\
+Combination Arithmetic & 540 & 30 & 16140 \\
+\hline
+\end{tabular}
+\caption{Testing for implementation of bignum arithmetic.}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Batch testing Is necessary, but problematic}
+\begin{itemize}
+\item A test can crash the batch
+\item What do we do with tests that did not run?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{We could order them}
+\begin{itemize}
+\item $\pass>\fail>\dnr$?
+\item $\pass>\fail=\dnr$?
+\item $\pass>\dnr>\fail$?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Or we could ignore them}
+\begin{defn}[Rank order with \dnr]
+Given solutions $S_1$ and $S_2$, and test set $T$, we define
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
+$$S_1 > S_2 \defined \forall t \in T : S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
+\end{defn}
 \end{frame}
 
 \end{document}
