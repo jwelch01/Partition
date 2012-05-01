@@ -1,21 +1,28 @@
 ewe failed tests:
-   Term "\a.M_eta a" should normalize to "M_eta", 
-but your interpreter reduced it to "\a.M_eta a", which has an eta-redex "\a.M_eta a".
 
-   Term "(\x.\x.\a.M_eta a) y" should normalize to "\x.M_eta", 
-but your interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex "\a.M_eta a".
+  Term "\a.M_eta a" should normalize to "M_eta", but your interpreter
+    reduced it to "\a.M_eta a", which has an eta-redex "\a.M_eta a".
 
-   Term "\x.\y.z \a.M_eta a" should normalize to "\x.\y.z M_eta", 
-but your interpreter reduced it to "\x.\y.z \a.M_eta a", which has an eta-redex "\a.M_eta a".
+  Term "(\x.\x.\a.M_eta a) y" should normalize to "\x.M_eta", but your
+    interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex
+    "\a.M_eta a".
 
-   Term "\x.(\y.\a.M_eta a) x" should normalize to "\y.M_eta", 
-but your interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex "\a.M_eta a".
+  Term "\x.\y.z \a.M_eta a" should normalize to "\x.\y.z M_eta", but
+    your interpreter reduced it to "\x.\y.z \a.M_eta a", which has an
+    eta-redex "\a.M_eta a".
 
-   Term "\x.\y.(\a.a) N_beta y" should normalize to "\x.N_beta", 
-but your interpreter reduced it to "\x.\y.N_beta y", which has an eta-redex "\y.N_beta y".
+  Term "\x.(\y.\a.M_eta a) x" should normalize to "\y.M_eta", but your
+    interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex
+    "\a.M_eta a".
 
-   Term "\x.(\y.\a.M_eta a) z" should normalize to "\x.M_eta", 
-but your interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex "\a.M_eta a".
+  Term "\x.\y.(\a.a) N_beta y" should normalize to "\x.N_beta", but
+    your interpreter reduced it to "\x.\y.N_beta y", which has an
+    eta-redex "\y.N_beta y".
 
-   Term "x y \a.M_eta a" should normalize to "x y M_eta", 
-but your interpreter reduced it to "x y \a.M_eta a", which has an eta-redex "\a.M_eta a".
+  Term "\x.(\y.\a.M_eta a) z" should normalize to "\x.M_eta", but your
+    interpreter reduced it to "\x.\a.M_eta a", which has an eta-redex
+    "\a.M_eta a".
+
+  Term "x y \a.M_eta a" should normalize to "x y M_eta", but your
+    interpreter reduced it to "x y \a.M_eta a", which has an eta-redex
+    "\a.M_eta a".

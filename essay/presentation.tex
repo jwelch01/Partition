@@ -1,5 +1,7 @@
 \documentclass[svgnames,14pt]{beamer}
 
+\usepackage{soul}
+\setul{}{3pt} % thickness of strikeout line
 \usepackage{natbib}
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -26,7 +28,7 @@
   \usetheme{Boadilla}
   %%\usetheme{Malmoe}
   %%\usetheme{Copenhagen}
-  \setbeamercovered{dynamic}
+  \setbeamercovered{invisible}
   \setbeamertemplate{itemize items}[default]
   \usefonttheme{structurebold}
   \fontsize{10}{5}\selectfont
@@ -59,10 +61,10 @@ We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \begin{frame}
 \begin{itemize}
 \frametitle{Overview}
-\item \only<1>{Intro to Ranking}\only<2>{Intro to Ranking}
-\item \uncover<1>{Ranking with Multiple Results}
-\item \uncover<1>{Union* Reduction}
-\item \uncover<1>{Witness Reduction}
+\item<1-2> Intro to Ranking
+\item<1> Ranking with Multiple Results
+\item<1> Union* Reduction
+\item<1> Witness Reduction
 \end{itemize}
 \end{frame}
 
@@ -314,6 +316,7 @@ $$T_2 : \lambda x.\lambda x.\lambda a.M_\eta a \longrightarrow \lambda x.\lambda
 \end{frame}
 
 \begin{frame}
+\fontsize{8.3}{6.5}\selectfont
 \verbatiminput{unreduced.witness}
 \end{frame}
 
@@ -332,21 +335,23 @@ $$\forall T_1, T_2 \in W' : T_1 \not\Rightarrow T_2$$
 \end{frame}
 
 \begin{frame}
+\fontsize{8.3}{6.5}\selectfont
 \verbatiminput{reduced.witness}
 \end{frame}
 
 \begin{frame}
 \def\?{\phantom0}
-\centering
+\begin{center} 
 \begin{tabular}{ | l | r | r | r |}
 \hline
 Test & Failed & Failed  & Reduced \\
      & Tests  & Classes & Witnesses \\
 \hline
-bitpack & 175.28 & 15.2 & 2.64\\
+bitpack & 175.28 & 15.20 & 2.64\\
 divtest & 164.34 & 10.77 & 1.65\\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -366,16 +371,16 @@ One one dataset, how well do these reductions correspond to expert knowledge?
 \begin{frame}
 \frametitle{\only<1>{There are 4 kinds of implications}\only<2>{We want 1 kind of implication}}
 \begin{itemize}
-\item \uncover<1>{Trivial}
-\item \uncover<1>{Bogus}
-\item \uncover<1>{Accidental}
-\item \uncover<1->{Real}
+\item \alt<1>{Trivial}{\st{Trivial}}
+\item \alt<1>{Bogus}{\st{Bogus}}
+\item \alt<1>{Accidental}{\st{Accidental}}
+\item {Real}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Important heuristic}
-We remove every implication that comes from "know one thing about Matt, know everything about Matt".
+We remove every implication that comes from ``know one thing about Matt, know everything about Matt.''
 \end{frame}
 
 \begin{frame}
@@ -394,10 +399,11 @@ The more negative implications we can find heuristics for, the better our accura
 
 \begin{frame}
 \frametitle{Conclusions}
+We can
 \begin{itemize}
-\item We can find more information than $\pass/\fail$
-\item We can algorithmically produce and simplify a ranking of solutions \only<2->{\textbf{cheaply}}
-\item We can algorithmically produce and simplify a diagnostic set of failures for each solution \only<2->{\textbf{cheaply}}
+\item<2-> Analyze more results than $\pass/\fail$
+\item<3-> Produce a simple ranking \only<5->{\textbf{cheaply}}
+\item<4-> Produce simple diagnostics \only<5->{\textbf{cheaply}}
 \end{itemize}
 \end{frame}
 
