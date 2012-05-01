@@ -1,0 +1,20 @@
+PATH=/usr/sup/bin:$PATH
+
+all:V: presentation.pdf thesis.pdf
+
+presentation.dvi: unreduced.witness reduced.witness
+
+%.dvi:  %.tex
+	$LATEX '\scrollmode \input '"$stem"
+	ltxcount=3
+	while egrep -s 'Rerun (LaTeX|to get cross-references right|to get citations correct)' $stem.log &&
+	      [ $ltxcount -gt 0 ]
+	do
+	  $LATEX '\scrollmode \input '"$stem"
+	  ltxcount=`expr $ltxcount - 1`
+	done
+
+%.pdf:	%.dvi
+	$DVIPS -Ppdf -o"| ps2pdf14 -dPDFSETTINGS=/prepress -dEmbedAllFonts=true - $target" $prereq
+%.xdvi:V: %.dvi
+	$XDVI $stem
