@@ -28,7 +28,8 @@
   \usetheme{Boadilla}
   %%\usetheme{Malmoe}
   %%\usetheme{Copenhagen}
-  \setbeamercovered{invisible}
+  %\setbeamercovered{invisible}
+  \setbeamercovered{dynamic}
   \setbeamertemplate{itemize items}[default]
   \usefonttheme{structurebold}
   \fontsize{10}{5}\selectfont
@@ -60,19 +61,10 @@ We \only<1>{want to:}\only<2->{\textbf{really} want to}
 \end{frame}
 
 \begin{frame}
-\begin{itemize}
-\frametitle{Overview}
-\item<1-2> Intro to Ranking
-\item<1> Ranking with Multiple Results
-\item<1> Union* Reduction
-\item<1> Witness Reduction
-\end{itemize}
-\end{frame}
-
-\begin{frame}
 \frametitle{There are many ways to rank}
+\setbeamercovered{invisible}
 \begin{itemize}
-\item \uncover<2->{Number of tests passed}
+\uncover<2->{\item Number of tests passed}
 \uncover<3->{\item Expert opinion}
 \uncover<4->{\item Desperate, custom measures}
 \end{itemize}
@@ -85,35 +77,38 @@ $$\pass>\fail$$
 \end{frame}
 
 \begin{frame}
-\frametitle{There is a central truth}
+\frametitle{A fair ranking must respect this partial order}
 \begin{block}{}
-$$S_1 \sqsubseteq S_2 \defined \forall t \in T : S_1(t) \leq S_2(t)$$
+$$S_1 \equiv S_2 \defined \forall t \in T : S_1(t) = S_2(t)$$
+\uncover<2->{$$S_1 \sqsubseteq S_2 \defined \forall t \in T : S_1(t) \leq S_2(t)$$}
 \end{block}
 \end{frame}
 
 \begin{frame}
-\centerline{\includegraphics[height=\textheight]{rank1.ps}}
+\centerline{\includegraphics[height=\textheight]{rank1b.ps}}
 \end{frame}
 
+\setbeamercovered{dynamic}
 \begin{frame}
 \begin{itemize}
 \frametitle{Overview}
-\item \uncover<0>{Intro to Ranking}
-\item Ranking with Multiple Results
-\item \uncover<0>{Union* Reduction}
-\item \uncover<0>{Witness Reduction}
+\item<1> Intro to Ranking
+\item<1-2> Ranking with Multiple Results
+\item<1> Union* Reduction
+\item<1> Witness Reduction
 \end{itemize}
 \end{frame}
+\setbeamercovered{invisible}
 
 
 \begin{frame}
 \frametitle{Real tests have many outcomes}
 \begin{itemize}
 \item Pass
-\item \uncover<2->{Bad output}
-\item \uncover<3->{Segfault}
-\item \uncover<4->{Timeout}
-\item \uncover<5->{Assertion failure}
+\item Bad output
+\item Segfault
+\item Timeout
+\item Assertion failure
 \end{itemize}
 \end{frame}
 
@@ -131,13 +126,13 @@ Sometimes:
 \end{frame}
 
 \begin{frame}
-\frametitle{How does this change ranking?}
+\frametitle{Frequently, it doesn't change anything}
 
 \begin{center} 
 \begin{tabular}{cc}
-\includegraphics[width=0.35\textwidth]{rank1.ps}
+\includegraphics[width=0.35\textwidth]{rank1b.ps}
 &
-\includegraphics[width=0.35\textwidth]{rank2.ps}\\
+\includegraphics[width=0.35\textwidth]{rank2b.ps}\\
 Single &
 Multiple \\
 \end{tabular}
@@ -147,6 +142,7 @@ Multiple \\
 
 %TODO: Good example
 
+\setbeamercovered{dynamic}
 \begin{frame}
 \begin{itemize}
 \frametitle{Overview}
@@ -156,13 +152,16 @@ Multiple \\
 \item \uncover<0>{Witness Reduction}
 \end{itemize}
 \end{frame}
+\setbeamercovered{invisible}
 
 \begin{frame}
+\frametitle{An unreduced test set is unreadable}
 \centerline{\includegraphics[height=0.9\textheight]{fail.ps}}
 \end{frame}
 
 \begin{frame}
-\frametitle{Some test sets are extremely large}
+\frametitle{Some test sets are large}
+\begin{center}
 \begin{tabular}{ | l | c | }
 \hline
 Dataset & \#~Tests \\ 
@@ -171,6 +170,7 @@ bitpack & 2468 \\
 divtest & 2112 \\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -182,6 +182,7 @@ $$ T_0 \equiv T_1 \defined \forall s \in S : s(T_0) \equiv s(T_1) $$
 
 \begin{frame}
 \def\?{\phantom0}
+\begin{center}
 \begin{tabular}{ | l | c | c | }
 \hline
 Dataset & \#~Tests & \#\ Classes\\ 
@@ -190,11 +191,12 @@ bitpack & 2468 & 144 \\
 divtest & 2112 & \?71\\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
 \frametitle{Some tests aggregate information}
-If a program has two bugs (A,B), how can tests interact with them?
+If a program has two bugs, A \& B, how can tests interact with them?
 \begin{itemize}
 \item \uncover<2->{Test neither bug}
 \item \uncover<3->{Test bug A}
@@ -214,6 +216,7 @@ $\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2)$
 
 \begin{frame}
 \def\?{\phantom0}
+\begin{center}
 \begin{tabular}{ | l | c | c | c | }
 \hline
 Dataset & \#~Tests & \#\ Classes & Claessen\\ 
@@ -222,6 +225,7 @@ bitpack & 2468 & 144 & 91\\
 divtest & 2112 & \?71 & 40\\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -238,6 +242,7 @@ $\fail (T_0) \equiv \fail(T_1) \cup \fail(T_2) \cup ... \cup \fail(T_n) $
 
 \begin{frame}
 \def\?{\phantom0}
+\begin{center}
 \begin{tabular}{ | l | c | c | c | c |}
 \hline
 Dataset & \#~Tests & \#\ Classes & Claessen & Union*\\ 
@@ -246,6 +251,7 @@ bitpack & 2468 & 144 & 91 & 87\\
 divtest & 2112 & \?71 & 40 & 40\\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -264,9 +270,25 @@ Because it is a generalization of Claessen, Union* can never create a larger tes
 \end{frame}
 
 \begin{frame}
-\centerline{\includegraphics[height=\textheight]{success.ps}}
+\frametitle{A reduced test set is more readable}
+\begin{center} 
+\begin{tabular}{cc}
+\includegraphics[width=0.35\textwidth, height=0.65\textheight]{fail.ps}
+&
+\includegraphics[width=0.35\textwidth]{success.ps}\\
+Unreduced &
+Reduced \\
+\end{tabular}
+\end{center}
+
 \end{frame}
 
+\begin{frame}
+\frametitle{A reduced test set is more readable}
+\centerline{\includegraphics[height=0.9\textheight]{success.ps}}
+\end{frame}
+
+\setbeamercovered{dynamic}
 \begin{frame}
 \begin{itemize}
 \frametitle{Overview}
@@ -276,25 +298,33 @@ Because it is a generalization of Claessen, Union* can never create a larger tes
 \item Witness Reduction
 \end{itemize}
 \end{frame}
+\setbeamercovered{invisible}
 
 \begin{frame}
 \frametitle{We want diagnostic information}
-Ideally, this information is a list of bugs.
-\newline\newline
-Realistically, this information is a list of failed tests.
+Ideally a list of bugs.
+
+\bigskip
+
+\uncover<2->{
+Realistically a list of failed tests.
+\begin{itemize}
+\item Each failure has a witness of what went wrong
+\end{itemize}
+}
 \end{frame}
 
 \begin{frame}
-\frametitle{This list can be extremely long}
-A naive implementation would give the test result for every test failed.
+\frametitle{This list can be long}
+A naive implementation gives witness for every failure.
 \newline\newline
-A reduced implementation gives a result only for each class of test that is used for the ranking graph.
+A reduced implementation gives a witness for each class used in the ranking graph.
 \end{frame}
 
 
 \begin{frame}
 \def\?{\phantom0}
-\centering
+\begin{center}
 \begin{tabular}{ | l | r | r |}
 \hline
 Test & Failed Tests & Failed Classes \\
@@ -303,20 +333,22 @@ bitpack & 175.28 & 15.2 \\
 divtest & 164.34 & 10.77 \\
 \hline
 \end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}
-\frametitle{But can we do better?}
-Tests are sometimes redundant for \emph{some} students.
+\frametitle{We can do better}
+A test can be redundant for \emph{some} students.
 \end{frame}
 
 \begin{frame}
-\frametitle{$\eta$-reduction}
+\frametitle{$\eta$-reduction example}
 $$T_1 : \lambda a.M_\eta a \longrightarrow M_\eta$$
 $$T_2 : \lambda x.\lambda x.\lambda a.M_\eta a \longrightarrow \lambda x.\lambda x.M_\eta$$
 \end{frame}
 
 \begin{frame}
+\frametitle{Naive witness set}
 \fontsize{8.3}{6.5}\selectfont
 \verbatiminput{unreduced.witness}
 \end{frame}
@@ -331,11 +363,12 @@ $$O_1 \Rightarrow O_2 \defined \forall s \in S : s(T_1) = O_1 : s(T_2) = O_2$$
 \begin{frame}
 \frametitle{We can include only the implying failure}
 \begin{block}{}
-$$\forall T_1, T_2 \in W' : T_1 \not\Rightarrow T_2$$
+$$\forall T_1, T_2 \in W : T_1 \not\Rightarrow T_2$$
 \end{block}
 \end{frame}
 
 \begin{frame}
+\frametitle{Reduced witness set}
 \fontsize{8.3}{6.5}\selectfont
 \verbatiminput{reduced.witness}
 \end{frame}
@@ -379,6 +412,11 @@ Experiment on one dataset
 \end{frame}
 
 \begin{frame}
+\frametitle{Unjustified implications}
+This inaccuracy comes from reductions based on unjustified implications.
+\end{frame}
+
+\begin{frame}
 \frametitle{\only<1>{There are 4 kinds of implications}\only<2>{We want 1 kind of implication}}
 \begin{itemize}
 \item \alt<1>{Trivial}{\st{Trivial}}
@@ -400,8 +438,8 @@ One fact about Matt implies all facts about Matt
 \frametitle{Results}
 \begin{itemize}
 \item 422 reductions (down from 447)
-\item \uncover<2->{264 confirmed by expert} \only<3->{(the same number)}
-\item \uncover<4->{62.5\% accuracy}
+\item \uncover<2->{264 confirmed by expert (the same number)}
+\item \uncover<3->{62.5\% accuracy}
 \end{itemize}
 \end{frame}
 

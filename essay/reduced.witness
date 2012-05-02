@@ -1,4 +1,2 @@
-ewe failed tests:
-
    Term "\a.M_eta a" should normalize to "M_eta", but your interpreter
    reduced it to "\a.M_eta a", which has an eta-redex "\a.M_eta a".
