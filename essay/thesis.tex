@@ -124,7 +124,7 @@ Using this algorithm, we are able to successfully create fair rankings of differ
 \begin{figure}
 \centering
 \includegraphics{rank1.ps}
-\caption{An edge points from a functionally inferior solution to a functionally superior one. "$\vert$" represents a class of tests passed by the equivalence class, "." represents a class of tests failed by the equivalence class.}
+\caption{An edge points from a functionally inferior solution to a functionally superior one. ``$\vert$" represents a class of tests passed by the equivalence class, ``." represents a class of tests failed by the equivalence class. NOTE: Student names have been anonymized to animal names.}
 \end{figure}
 
 \subsection{More Tests are Always Better}
@@ -176,9 +176,19 @@ With these new outcomes in our dataset, we were faced with the challenge of rank
 To avoid inventing information, we can choose another method for handling $\dnr$ outcomes. The procedure is very simple.
 \begin{defn}[Rank order with $\dnr$]
 Given solutions $S_1$ and $S_2$, and test set $T$, we define
-$$S_1 \equiv S_2 \defined \forall t \in T \mbox{ s.t. } S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
+$$S_1 \equiv S_2 \defined \forall t \in T S_1(t) \equiv S_2(t)$$
 $$S_1 \sqsubseteq S_2 \defined \forall t \in T \mbox{ s.t. } S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \geq S_2(t)$$
 \end{defn}
+It would seem that we should redefine equivalence to take advantage of the definition of $\dnr$, making it:
+$$S_1 \equiv S_2 \defined \forall t \in T \mbox{ s.t. } S_1(t) \neq \dnr \wedge S_2(t) \neq \dnr : S_1(t) \equiv S_2(t)$$
+However, this presents pathological behavior in which equivalence is not transitive. Consider three solutions, $S_1, S_2, S_3$, identical on all tests except $T_1$, with results on $T_1$ as follows: $S_1(T_1)=\pass$, $S_2(T_1)=\fail$, $S_3(T_1)=\dnr$. Under the definition above, $S_3 \equiv S_1$, $S_3 \equiv S_2$, and $S_1 \not \equiv S_2$. This violates the transitivity of equivalence, and makes creating a ranking graph difficult, because $S_3$ falls into multiple equivalence classes. This is not merely a hypothetical issue, but occurs within our datasets.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.75]{dnr.ps}
+\caption{/ represents a test that Did Not Run. Under the incorrect definition of equivalence, dog and cub would be equivalent to 5 different equivalence classes}
+\end{figure}
+
 In this way, we do not invalidate any of the possible meanings of $\dnr$. If the $\dnr$ is caused by a failure in batch testing, the test whose failure caused it to not run still has a result in the data set. Under the above definitions, we will compare based on this test, and still be able to create a ranking that is true to the data. We also do not give meaning to tests that should not have them. If the $\dnr$ happened for an arbitrary reason, such as a failure in the testing infrastructure, we have no information about what its result would have been. By ignoring it, we do not create an arbitrary meaning. 
 
 Using this process, solutions can be compared whenever tests are not run, for whatever reason they are not run. If tests are not run for a reason, we can still compare the solutions, based solely on the reason, \emph{without information loss}.
