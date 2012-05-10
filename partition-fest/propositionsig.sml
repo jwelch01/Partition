@@ -3,10 +3,10 @@ signature PROPOSITION = sig
 (*  type prop *)
 
   type result = (string * bool) list
-  (*datatype prop = PROP of { flag : bool, test : string, number : string,
-			      outcome : outcome, results : result }
-*)
-  type prop = bool * string * string * string * result
+  datatype prop = PROP of { flag : bool, test : string, number : string,
+			      outcome : Outcome.outcome, results : result }
+
+(*  type prop = bool * string * string * string * result *)
 
   type stringProp (* stringProps are utilized for ease of interaction with
                      the map interface and .dot file format *)
@@ -28,7 +28,7 @@ signature PROPOSITION = sig
   val union : prop * prop -> prop
   val unionstar : prop list -> prop
 
-  val getPropsWithResult : prop list -> (bool * string) -> prop list
+  val getPropsWithResult : prop list -> (bool * Outcome.outcome) -> prop list
 
   val getId : prop -> string * string
 

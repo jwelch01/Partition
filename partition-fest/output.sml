@@ -48,8 +48,9 @@ struct
          (output (out, label ^ " [label=\"" ^
                                 Map.lookup(label, map) ^
           foldr (fn ((_, outcome), s) => if Outcome.eq (outcome, Outcome.PASSED)
-                                         then "|" ^ s
-                                         else "." ^ s) "" results
+                                         then "|" ^ s 
+                                         else if Outcome.eq(outcome, Outcome.DNR)                                             then "/" ^ s
+                                              else "." ^ s) "" results
           ^ "\"]\n"); []))
        [] soln) [] solns;
 

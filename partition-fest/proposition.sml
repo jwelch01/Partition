@@ -2,38 +2,40 @@ structure Prop :> PROPOSITION  =
 struct
   type testset = TestSet.set
   type result = (string * bool) list
-  (*datatype prop = PROP of { flag : bool, test : string, number : string,
-			      outcome : outcome, results : result }
-*)
-  type prop = bool * string * string * string * result
+  datatype prop = PROP of { flag : bool, test : string, number : string,
+			      outcome : Outcome.outcome, results : result }
+
   type stringProp = string * result
 
   exception AlreadyNegative
   exception Impossible
   exception NotImplemented
 
-  fun getId (_, test, num, _, _) = (test, num)
+  fun getId (PROP { test = test, number = num, ...}) = (test, num)
 
-  fun tempProp ol = (true, "", "", "", ol)
+  fun tempProp ol = PROP {flag = true, test = "", number = "", 
+                          outcome = Outcome.DNR, results = ol}
 
-  fun outcomes (_, _, _, _, ol) = ol
+  fun outcomes (PROP {results =  ol, ...}) = ol
 
   fun cmpPropName ((name, _), (name2,_)) = String.compare (name, name2)
 
   val propSort : result -> result = 
       Util.insertion_sort cmpPropName
 
-  fun propExists (_,_,_,_, prop) = 
+  fun propExists (PROP { results = prop, ... }) = 
     foldr (fn ((_,out), flag) => out orelse flag) false prop
+ 
   fun testRep s = case TestSet.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
 
- fun negateProposition (false, _, _, _, _) = raise AlreadyNegative
-    | negateProposition (_, test, num, out, l) = 
+  fun negateProposition (PROP { flag = flag, test = test, number = num,
+                                outcome = out, results = l }) =
+    if not flag then raise AlreadyNegative else
         let fun neg ((soln, result)::xs) negs = neg xs ((soln, not result)::negs)
               | neg [] negs = negs
-        in (false, test, num, out, neg l [])
+        in (PROP{flag = false, test=test, number=num, outcome=out, results=neg l []})
         end
 
   fun union (p1, p2) = 
@@ -44,9 +46,10 @@ struct
     end 
 
   fun getPropsWithResult [] _ = []
-    | getPropsWithResult ((flag, name, num, out, pl)::xs) (flag2, out2) = 
-         if flag = flag2 andalso out = out2
-         then (flag, name, num, out, pl)::(getPropsWithResult xs (flag2, out2))
+    | getPropsWithResult ((prop as PROP { flag = flag, outcome = out, ... })::xs)
+                         (flag2, out2) =
+         if flag = flag2 andalso Outcome.eq(out, out2)
+         then prop::(getPropsWithResult xs (flag2, out2))
          else (getPropsWithResult xs (flag2, out2))
 
   exception UnionOfNilList
@@ -59,45 +62,50 @@ struct
             then f xs outGoal ((soln,true)::bools)
             else f xs outGoal ((soln,false)::bools)
           | f [] _ bools = bools
-    in (true, test, num, "PASSED", f l Outcome.PASSED [])::
-       (true, test, num, "FAILED", 
-            f l (Outcome.NOTPASSED {outcome = "", witness = ""}) [])::
-       (true, test, num, "DNR", f l Outcome.DNR [])::[]
+    in (PROP {flag = true, test = test, number = num,
+              outcome = Outcome.PASSED, results = f l Outcome.PASSED []})::
+       (PROP {flag = true, test = test, number = num,
+              outcome = (Outcome.NOTPASSED { outcome = "", witness = "" }),
+              results = f l (Outcome.NOTPASSED { outcome = "", witness = "" })
+                        []})::
+       (PROP {flag = true, test = test, number = num,
+              outcome = Outcome.DNR, results = f l Outcome.DNR []})::[]
     end
 
-  fun trueResults (_,_,_,_, xs) = 
-    List.filter (fn (_, bool) => bool) xs
- 
-  fun falseResults (_,_,_,_, xs) = 
-    List.filter (fn (_, bool) => bool) xs
-
-  fun goodTest t = true
- (*   length (trueResults t) > 1 andalso length (falseResults t) > 1 *)
-
   fun makePositivePropositionList testSetList = 
-    foldr (fn (test, props) => 
-            (boolTests test) @ props)
+    foldr (fn (testList, props) => 
+            (boolTests testList) @ props)
     [] testSetList
 
-  fun makePropList testSetList = ( 
-   List.filter goodTest (
+  fun universal (PROP { results = (soln, p)::props, ... }) = 
+       if p then not (foldr (fn ((_, out), flag) => out andalso flag) 
+                      true props)
+            else not (foldr (fn ((_, out), flag) => (not out) andalso flag)
+                      true props)
+    | universal (PROP { results = [], ... }) = raise Impossible
+    
+
+  fun makePropList testSetList = ( (*List.filter universal ( *)
     foldr (fn (prop, props) =>
             (prop::(negateProposition prop)::props))
-    [] (makePositivePropositionList testSetList)))
+    [] (makePositivePropositionList testSetList))
 
   fun condenseNames [] = raise Impossible
-    | condenseNames ((b, test, num, out, props)::xs) =
-       let val name = if b then test ^ " " ^ num ^ " " ^ out
+    | condenseNames ((PROP { flag = b, test = test, number = num,
+                             outcome = outs, results = props }) ::xs) =
+       let val out = Outcome.toString outs
+           val name = if b then test ^ " " ^ num ^ " " ^ out
                           else test ^ " " ^ num ^ " not " ^ out
-       in (name ^ (foldr (fn ((b, test, num, out, props), n) =>
-                  if b then "\\n" ^ test ^ " " ^ num ^ " " ^ out ^  n
-                          else "\\n" ^test ^ " " ^ num ^ " not " ^ out ^ n)
+       in (name ^ (foldr (fn (PROP { flag = b, test = test, number = num,
+                                     outcome = out, results = props }, n) =>
+                  if b then "\\n" ^ test ^ " " ^ num ^ " " ^ Outcome.toString out ^  n
+                          else "\\n" ^test ^ " " ^ num ^ " not " ^ Outcome.toString out ^ n)
                    "" xs), props)
        end
 
   fun makePropMapAndSet propList =
    let val (s, m, _) =
-    foldr (fn (props as (_, _, _, _, result)::_, (s, m, c)) =>
+    foldr (fn (props as (PROP { results = result, ...})::_, (s, m, c)) =>
                   let val node = "N" ^ Int.toString(c)
                   in ( (node, result)::s
                      , Map.bind (node, props, m)
@@ -118,14 +126,14 @@ struct
  
   infixr 0 /->/
 
-  fun eq ((_, _, _, _, prop1), (_, _, _ ,_, prop2)) = 
+  fun eq (PROP {results = prop1, ...}, PROP {results = prop2,...}) =
     ListPair.foldr (fn ((_, out1), (_, out2), flag) =>
                      out1 = out2 andalso flag)
     true (propSort prop1, propSort prop2)
 
-  fun complement ((b, name, num, test, _),
-                  (b2, name2, num2, test2, _)) =
-    b = not b2 andalso name = name2 andalso num = num2 andalso test = test2
+  fun complement (PROP {flag = b, test = name, number = num, outcome = out, ...},
+                  PROP {flag = b2, test = name2, number = num2, outcome = out2, ...})=
+    b = not b2 andalso name = name2 andalso num = num2 andalso Outcome.eq(out,out2)
 
   fun complementList (p1, p2) =
     foldr (fn (prop, flag) => flag andalso
@@ -163,25 +171,26 @@ struct
     G.empty propList
 
   val cmp : prop * prop -> order =
-  fn ((b1, n1, num1, test1, l1), (b2, n2, num2, test2, l2)) => 
+  fn (PROP{flag=b1, test=n1, number=num1, outcome=out1, ...}, 
+      PROP{flag=b2, test=n2, number=num2, outcome=out2, ...}) => 
     if n1 < n2 then LESS
      else if n1 = n2 then if num1 < num2 then LESS
-		           else if num1 = num2 then if test1 < test2 then LESS
-                                                     else if test1 = test2
-                                                          then EQUAL
-							  else GREATER
-                                 else GREATER
-           else GREATER
+		          else if num1 = num2 then Outcome.compare(out1,out2)
+                               else GREATER
+          else GREATER
 
   val equiv : prop * prop * bool -> bool =
-  fn ((_, n1, num1, test1, _), (_, n2, num2, test2, _), flag) =>
-    n1 = n2 andalso num1 = num2 andalso test1 = test2 andalso flag
+  fn (PROP{flag=b1, test=n1, number=num1, outcome=out1, ...}, 
+      PROP{flag=b2, test=n2, number=num2, outcome=out2, ...},flag) => 
+    n1 = n2 andalso num1 = num2 andalso Outcome.eq(out1,out2) andalso flag
 
   val equivPropLists : prop list * prop list -> bool =
   fn (l1, l2) => 
    ListPair.foldrEq equiv true (Util.insertion_sort cmp l1, Util.insertion_sort cmp l2)
    handle UnequalLengths => false
 
+(*
+  TAUTOLOGY REMOVAL CODE: NOT UPDATED FOR NEW REPRESENTATION
 
   val isRun : prop -> bool =
   fn (b, n1, _, _, _) => not b andalso n1 = "DNR"
@@ -196,6 +205,8 @@ struct
 
   fun removeDuals propCollection =
    foldr add [] propCollection
+
+
 
   val tautCheck : prop * prop list -> bool =
   fn ((bool, name, num, result, _), pList2) =>
@@ -236,14 +247,21 @@ struct
  
   fun removeIntraNodeTautologies pList = 
     foldr addProp [] pList
+*)
+  
+(* PLACEHOLDERS FOR TAUTOLOGY REMOVAL *)
+  exception NotImplemented
+  fun tautology _ = raise NotImplemented
+  fun removeIntraNodeTautologies _ = raise NotImplemented
+
 
   fun positive [] = true
-    | positive ((bool, _,_,_,_)::ps) = if bool then positive ps else false
+    | positive (PROP{flag=bool,...}::ps) = bool andalso positive ps 
 
   fun toString [] = ""
-    | toString ((b, test, num, out, props)::xs) =
-       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ out
-                           else "\\n" ^test ^ " " ^ num ^ " not " ^ out
+    | toString (PROP{flag=b, test=test, number=num, outcome=out, results=props}::xs) =
+       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ Outcome.toString out
+                           else "\\n" ^test ^ " " ^ num ^ " not " ^ Outcome.toString out
        in name ^ toString xs
        end
 
