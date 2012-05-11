@@ -27,8 +27,6 @@ group is $/basis.cm
   stringmapsig.sml  
   stringmap.sml
 
-  solnstring.sml
-
   propositionsig.sml
   proposition.sml 
 
