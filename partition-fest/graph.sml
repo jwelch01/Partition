@@ -74,12 +74,12 @@ structure BasicGraph : GRAPH = struct
 
   fun getPredecessorNodes (n, GRAPH { nodes, edges }) =
     if memberNode (n, GRAPH { nodes = nodes, edges = edges })
-    then let fun find_succ ((EDGE { source, label, dest })::xs) l = 
+    then let fun find_pred ((EDGE { source, label, dest })::xs) l = 
                    if dest = n
                    then find_succ xs (source::l)
                    else find_succ xs l
-               | find_succ [] l = l
-         in find_succ edges []
+               | find_pred [] l = l
+         in find_pred edges []
          end
     else []
 
@@ -87,17 +87,17 @@ structure BasicGraph : GRAPH = struct
                        then makeNode l
                        else raise NotFound (makeNode l)
 
-fun addNodesFromEdge (EDGE {source, label, dest}, graph) =
-  (addNode (source, (addNode (dest, graph))))
+  fun addNodesFromEdge (EDGE {source, label, dest}, graph) =
+    (addNode (source, (addNode (dest, graph))))
 
-fun getNodesFromEdges (edgeList) = 
-  getNodes (foldr addNodesFromEdge empty edgeList)
+  fun getNodesFromEdges (edgeList) = 
+    getNodes (foldr addNodesFromEdge empty edgeList)
 
-fun getGraphFromEdges (edgeList) = 
-  GRAPH {nodes = getNodesFromEdges edgeList, edges = edgeList}
+  fun getGraphFromEdges (edgeList) = 
+    GRAPH {nodes = getNodesFromEdges edgeList, edges = edgeList}
 
- fun edgeHasNode (EDGE {source, label, dest}) node = source = node 
-                                                     orelse dest = node
+  fun edgeHasNode (EDGE {source, label, dest}) node = source = node 
+                                                      orelse dest = node
 
 
 end
