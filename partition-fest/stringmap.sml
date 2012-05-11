@@ -1,4 +1,4 @@
-functor StringMapFn(Key: TERNARY_KEY) : STRING_MAP = struct
+functor CharListMapFn(Key: TERNARY_KEY) : STRING_MAP = struct
   structure Key = Key 
 
   datatype 'a map = NODE of { key : Key.ord_key, value: 'a, 

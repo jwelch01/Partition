@@ -1,7 +1,7 @@
-functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
+functor StringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
   structure Key = Key 
 
-  type key = char list
+  type key = string
   
   datatype 'a map = NODE of { key : Key.ord_key, value: 'a, 
                               lt : 'a map, eq : 'a map, gt : 'a map }
@@ -12,44 +12,55 @@ functor TernaryStringMap(Key: TERNARY_KEY) : FINITE_MAP = struct
 
   val empty  : 'a map = LEAF
 
-  fun bind (h::t,x,LEAF) = 
+
+
+  fun bind0 (h::t,x,LEAF) = 
         NODE {key = h, value = x,
-              lt = LEAF, gt = LEAF, eq  = bind (t, x, LEAF)}
-    | bind ([], x, LEAF) = 
+              lt = LEAF, gt = LEAF, eq  = bind0 (t, x, LEAF)}
+    | bind0 ([], x, LEAF) = 
         NODE { key = Key.sentinel, eq = LEAF, lt = LEAF, gt = LEAF, value = x}
-    | bind (h::t, x, NODE {key, value, lt, eq, gt}) =
+    | bind0 (h::t, x, NODE {key, value, lt, eq, gt}) =
         (case Key.compare (h, key)
            of LESS    => NODE {key = key, value = value,
-                               gt = gt, lt = bind (h::t, x, lt), eq = eq}
+                               gt = gt, lt = bind0 (h::t, x, lt), eq = eq}
             | GREATER =>  NODE {key = key, value = value,
-				lt = lt, eq = eq, gt = bind(h::t, x, gt)}
+				lt = lt, eq = eq, gt = bind0(h::t, x, gt)}
             | EQUAL   =>  NODE {key = key, value = value,
-                                lt = lt, gt = gt, eq  = bind(t, x, eq)})
-    | bind ([], x, NODE {key, value, lt, eq, gt}) =
+                                lt = lt, gt = gt, eq  = bind0(t, x, eq)})
+    | bind0 ([], x, NODE {key, value, lt, eq, gt}) =
 	(case Key.compare (Key.sentinel, key)
            of LESS    => NODE{key = key, value = value,
-                              lt = bind([], x, lt), gt = gt, eq = eq}
+                              lt = bind0([], x, lt), gt = gt, eq = eq}
             | GREATER => NODE {key = key, value = value,
-			       lt = lt, gt = bind ([], x, gt), eq = eq}
+			       lt = lt, gt = bind0 ([], x, gt), eq = eq}
 	    | EQUAL   => NODE {key = key, value = x,
 				lt = lt, gt = gt, eq = eq})
-  fun lookup (n, LEAF) = raise NotFound n
-    | lookup (h::t, NODE {key, value, lt, eq, gt}) =
+
+  fun bind (key, value, root) = bind0 (explode key, value, root)
+  
+  exception NotF
+
+  fun look (n, LEAF) = raise NotF
+    | look (h::t, NODE {key, value, lt, eq, gt}) =
 	(case Key.compare (h, key)
-           of EQUAL   => lookup(t, eq)
-            | LESS    => lookup(h::t, lt)
-            | GREATER => lookup(h::t, gt))
-    | lookup ([], NODE {key, value, lt, eq, gt}) =
+           of EQUAL   => look(t, eq)
+            | LESS    => look(h::t, lt)
+            | GREATER => look(h::t, gt))
+    | look ([], NODE {key, value, lt, eq, gt}) =
         (case Key.compare (Key.sentinel, key)
            of EQUAL   => value
-            | LESS    => lookup([], lt)
-            | GREATER => lookup([], gt))
+            | LESS    => look([], lt)
+            | GREATER => look([], gt))
+
+  fun lookup (key, root) = look (explode key, root)
+                           handle NotF => raise NotFound key
+
 
 fun mapFold f y m =
   let fun fold _ y _ LEAF = y
         | fold f y k (NODE {key, value, lt, eq, gt}) =
             (case Key.compare (Key.sentinel, key)
-               of EQUAL => f(k, value, (fold f (fold f y k lt) k gt))
+               of EQUAL => f(implode k, value, (fold f (fold f y k lt) k gt))
                 | _     => fold f (fold f (fold f y (k @ (key::[])) eq) k lt) k gt)
   in fold f y [] m 
   end
