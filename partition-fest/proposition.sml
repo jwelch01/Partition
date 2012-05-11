@@ -5,16 +5,12 @@ struct
   datatype prop = PROP of { flag : bool, test : string, number : string,
 			      outcome : Outcome.outcome, results : result }
 
-  type stringProp = string * result
 
   exception AlreadyNegative
   exception Impossible
   exception NotImplemented
 
   fun getId (PROP { test = test, number = num, ...}) = (test, num)
-
-  fun tempProp ol = PROP {flag = true, test = "", number = "", 
-                          outcome = Outcome.DNR, results = ol}
 
   fun outcomes (PROP {results =  ol, ...}) = ol
 
@@ -38,11 +34,14 @@ struct
         in (PROP{flag = false, test=test, number=num, outcome=out, results=neg l []})
         end
 
+(* returns a proposition with arbitrary values for all fields except results,
+   which are filled with the union of the results of each solution *)
   fun union (p1, p2) = 
     let val (ol1, ol2) = ((propSort o outcomes) p1, (propSort o outcomes) p2)
         val ol         =  ListPair.foldr (fn ((n1, o1), (n2, o2), ol) => 
                                            (n1, o1 orelse o2)::ol) [] (ol1,ol2)
-    in tempProp ol
+    in PROP {flag = true, test = "tmp", number = "1", 
+             outcome = Outcome.DNR, results = ol}
     end 
 
   fun getPropsWithResult [] _ = []
@@ -77,31 +76,23 @@ struct
             (boolTests testList) @ props)
     [] testSetList
 
-  fun universal (PROP { results = (soln, p)::props, ... }) = 
-       if p then not (foldr (fn ((_, out), flag) => out andalso flag) 
-                      true props)
-            else not (foldr (fn ((_, out), flag) => (not out) andalso flag)
-                      true props)
-    | universal (PROP { results = [], ... }) = raise Impossible
-    
+(* HELPER FUNCTIONS
+   Removes from the proposition list any test that has a universal result
+   or a result achieved by exactly one eq class. Universality improves
+   readability of implication graph. Removing propositions with exactly one
+   result solves "Know one thing know all things" problem with witness
+   reduction *)
+  fun trueResults (PROP { results = rs, ...}) = 
+    List.filter (fn (_,bool) => bool) rs
+  fun falseResults (PROP { results = rs, ...}) =
+    List.filter (fn (_,bool) => not bool) rs
+  fun goodTest t = 
+    length (trueResults t) > 1 andalso length (falseResults t) > 1 
 
-  fun makePropList testSetList = ( (*List.filter universal ( *)
+  fun makePropList testSetList = List.filter goodTest ( 
     foldr (fn (prop, props) =>
             (prop::(negateProposition prop)::props))
     [] (makePositivePropositionList testSetList))
-
-  fun condenseNames [] = raise Impossible
-    | condenseNames ((PROP { flag = b, test = test, number = num,
-                             outcome = outs, results = props }) ::xs) =
-       let val out = Outcome.toString outs
-           val name = if b then test ^ " " ^ num ^ " " ^ out
-                          else test ^ " " ^ num ^ " not " ^ out
-       in (name ^ (foldr (fn (PROP { flag = b, test = test, number = num,
-                                     outcome = out, results = props }, n) =>
-                  if b then "\\n" ^ test ^ " " ^ num ^ " " ^ Outcome.toString out ^  n
-                          else "\\n" ^test ^ " " ^ num ^ " not " ^ Outcome.toString out ^ n)
-                   "" xs), props)
-       end
 
   fun makePropMapAndSet propList =
    let val (s, m, _) =
@@ -130,15 +121,6 @@ struct
     ListPair.foldr (fn ((_, out1), (_, out2), flag) =>
                      out1 = out2 andalso flag)
     true (propSort prop1, propSort prop2)
-
-  fun complement (PROP {flag = b, test = name, number = num, outcome = out, ...},
-                  PROP {flag = b2, test = name2, number = num2, outcome = out2, ...})=
-    b = not b2 andalso name = name2 andalso num = num2 andalso Outcome.eq(out,out2)
-
-  fun complementList (p1, p2) =
-    foldr (fn (prop, flag) => flag andalso
-             List.exists (fn prop2 => complement (prop, prop2)) p2)
-    true p1
 
   fun representative [] = NONE
     | representative (x::_) = SOME x
@@ -188,6 +170,24 @@ struct
   fn (l1, l2) => 
    ListPair.foldrEq equiv true (Util.insertion_sort cmp l1, Util.insertion_sort cmp l2)
    handle UnequalLengths => false
+
+
+  
+(* PLACEHOLDERS FOR TAUTOLOGY REMOVAL *)
+  exception NotImplemented
+  fun tautology _ = raise NotImplemented
+  fun removeIntraNodeTautologies _ = raise NotImplemented
+
+
+  fun toString [] = ""
+    | toString (PROP{flag=b, test=test, number=num, outcome=out, results=props}::xs) =
+       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ Outcome.toString out
+                           else "\\n" ^test ^ " " ^ num ^ " not " ^ Outcome.toString out
+       in name ^ toString xs
+       end
+
+end
+
 
 (*
   TAUTOLOGY REMOVAL CODE: NOT UPDATED FOR NEW REPRESENTATION
@@ -248,21 +248,3 @@ struct
   fun removeIntraNodeTautologies pList = 
     foldr addProp [] pList
 *)
-  
-(* PLACEHOLDERS FOR TAUTOLOGY REMOVAL *)
-  exception NotImplemented
-  fun tautology _ = raise NotImplemented
-  fun removeIntraNodeTautologies _ = raise NotImplemented
-
-
-  fun positive [] = true
-    | positive (PROP{flag=bool,...}::ps) = bool andalso positive ps 
-
-  fun toString [] = ""
-    | toString (PROP{flag=b, test=test, number=num, outcome=out, results=props}::xs) =
-       let val name = if b then "\\n" ^ test ^ " " ^ num ^ " " ^ Outcome.toString out
-                           else "\\n" ^test ^ " " ^ num ^ " not " ^ Outcome.toString out
-       in name ^ toString xs
-       end
-
-end
