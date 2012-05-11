@@ -27,13 +27,12 @@ structure CommandLine = struct
        | [file] => file
        | xs => List.last xs (* should be an error *)
 
-  fun retained options = "retained.out" (* not implemented yet *)
   fun witnessfile options = "witnesses.out" (* not implemented yet *)
 
   fun run (prog, argv) =
     case options argv
       of (options, [outcomes]) =>
-          ( Basis.buildGraph outcomes (outfile options) (retained options)
+          ( Basis.buildGraph outcomes (outfile options)
                                       (witnessfile options) []
           ; OS.Process.success
           )

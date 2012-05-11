@@ -30,7 +30,7 @@ group is $/basis.cm
   solnstring.sml
 
   propositionsig.sml
-  proposition.sml
+  proposition.sml 
 
   ternarykeychar.sml
   ternarystringmap.sml
