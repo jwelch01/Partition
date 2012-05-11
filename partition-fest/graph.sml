@@ -76,8 +76,8 @@ structure BasicGraph : GRAPH = struct
     if memberNode (n, GRAPH { nodes = nodes, edges = edges })
     then let fun find_pred ((EDGE { source, label, dest })::xs) l = 
                    if dest = n
-                   then find_succ xs (source::l)
-                   else find_succ xs l
+                   then find_pred xs (source::l)
+                   else find_pred xs l
                | find_pred [] l = l
          in find_pred edges []
          end
