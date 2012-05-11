@@ -1,6 +1,6 @@
 structure Prop :> PROPOSITION  = 
 struct
-  type testset = TestSet.set
+  type testset = TestCollection.collection
   type result = (string * bool) list
   datatype prop = PROP of { flag : bool, test : string, number : string,
 			      outcome : Outcome.outcome, results : result }
@@ -22,7 +22,7 @@ struct
   fun propExists (PROP { results = prop, ... }) = 
     foldr (fn ((_,out), flag) => out orelse flag) false prop
  
-  fun testRep s = case TestSet.representative s
+  fun testRep s = case TestCollection.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
 

@@ -1,24 +1,24 @@
-signature SET = 
+signature COMPARABLE_COLLECTION = 
 sig
   type elem
-  type set
+  type collection
 
   exception NotFound
 
-  val empty  : set
-  val add    : elem * set -> set
-  val member : elem * set -> bool
-  val isEmpty : set -> bool
+  val empty  : collection
+  val add    : elem * collection -> collection
+  val member : elem * collection -> bool
+  val isEmpty : collection -> bool
 
   val eq     : elem * elem -> bool
 
-  val fold : (elem * 'a -> 'a) -> 'a -> set -> 'a
+  val fold : (elem * 'a -> 'a) -> 'a -> collection -> 'a
 
   val getId : elem -> string * string
 
-  val partition : (elem * elem -> bool) -> set -> set list
+  val partition : (elem * elem -> bool) -> collection -> collection list
     (* arg is an equivalence relation,
-       partitions set into maximal equivalent subsets, i.e. if
+       partitions collection into maximal equivalent subsets, i.e. if
 
           p = partition eq s
 
@@ -34,21 +34,12 @@ sig
    *)           
 
   val /</  : elem * elem -> bool (* strictly lower in rank order *)
-  val /==/ : set * set -> bool (* equality *)
+  val /==/ : collection * collection -> bool (* equality *)
 
-  val toString : set -> string
+  val toString : collection -> string
 
-  val representative : set -> elem option
+  val representative : collection -> elem option
     (* representative empty == NONE *)
     (* if s is not empty, member (representative s, s) *)
-
-  structure QC : sig
-    val reflexive : elem -> bool
-    val rprop : elem QCheck.prop
-    val lt_prop : elem QCheck.prop
-(*    val lte_test : elem QCheck.prop *)
-    val elem : elem QCheck.Gen.gen
-    val set  : set  QCheck.Gen.gen
-  end
 
 end

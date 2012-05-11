@@ -7,5 +7,5 @@ structure DB = TestDB(structure M1 = StringMap
                       structure M2 = StringMap
                       structure M3 = StringMap)  
 structure G = BasicGraph
-structure TestSet = TestSet(Outcome)
-structure SolnSet = SolnSet(Outcome)
+structure TestCollection = TestCollection(Outcome)
+structure SolnCollection = SolnCollection(Outcome)

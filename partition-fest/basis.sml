@@ -1,6 +1,6 @@
 structure Basis : sig 
   val buildGraph : string -> string -> string ->
-                   string list -> SolnSet.set 
+                   string list -> SolnCollection.collection 
 
 end =
 struct
@@ -10,19 +10,19 @@ struct
   fun f $ x = f x
 
 
-  (* Turn map into a TestSet *)
-  fun makeTestSet db = 
+  (* Turn map into a TestCollection *)
+  fun makeTestCollection db = 
     DB.foldStudents (fn (test, testno, rList, set) => 
-                     TestSet.add ((test, testno, rList), set))
-                     TestSet.empty db
+                     TestCollection.add ((test, testno, rList), set))
+                     TestCollection.empty db
 
-  (* Partition TesTestSet *)
-  val partitionTests : TestSet.set -> TestSet.set list = TestSet.partition TestSet.eq
+  (* Partition TesTestCollection *)
+  val partitionTests : TestCollection.collection -> TestCollection.collection list = TestCollection.partition TestCollection.eq
 
   (* Make map from solns -> test * outcome list using a representative from each
   eq class *)
   exception Impossible
-  fun addToMap (set, map) = case TestSet.representative set
+  fun addToMap (set, map) = case TestCollection.representative set
                               of SOME (name, number, ol) => foldr
                                  (fn ((soln, out), m) => 
                                    ListMap.add ( soln, 
@@ -32,46 +32,46 @@ struct
 
 
   val makeSolnMap :  
-    TestSet.set list -> ((string * string) * Outcome.outcome) ListMap.map =
+    TestCollection.collection list -> ((string * string) * Outcome.outcome) ListMap.map =
       fn set => foldr addToMap ListMap.empty set
 
 
   (* Make test vector from map, with DNRs represented in the vector *)
-  val makeSolnSet : 
-    ((string * string) * Outcome.outcome) ListMap.map -> SolnSet.set = 
+  val makeSolnCollection : 
+    ((string * string) * Outcome.outcome) ListMap.map -> SolnCollection.collection = 
        fn map => ListMap.mapFold
-         (fn (k, testList, set) => SolnSet.add ((k, testList), set))
-         SolnSet.empty map
+         (fn (k, testList, set) => SolnCollection.add ((k, testList), set))
+         SolnCollection.empty map
 
-  (* Partition SolnSet *)
-  val partitionSolns : SolnSet.set -> SolnSet.set list = SolnSet.partition SolnSet.eq
+  (* Partition SolnCollection *)
+  val partitionSolns : SolnCollection.collection -> SolnCollection.collection list = SolnCollection.partition SolnCollection.eq
 
   (* Produce graph using subset relations *)
 
-  val /</ = SolnSet./</
+  val /</ = SolnCollection./</
   infix 3 /</
 
-  fun solnRep s = case SolnSet.representative s
+  fun solnRep s = case SolnCollection.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
 
-  fun testRep s = case TestSet.representative s
+  fun testRep s = case TestCollection.representative s
                     of SOME y => y
                      | NONE   => raise Impossible
 
   (* Make a new set list with renamed members, and a map to the students that
      the new names represent *)
-  val buildMapAndSet : SolnSet.set list -> SolnSet.set list * string Map.map =
+  val buildMapAndSet : SolnCollection.collection list -> SolnCollection.collection list * string Map.map =
   fn sl =>
    let val (s, m, _) =
     foldr (fn (s, (set, map, c)) =>
-      let val string = SolnSet.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
+      let val string = SolnCollection.fold (fn ((n, _), str) => n^"\\n"^ str) "" s
           val (_, l) = solnRep s
           val node = "N"^Int.toString(c)
-      in (SolnSet.add((node, l), set), 
+      in (SolnCollection.add((node, l), set), 
           Map.bind( node, string, map), c+1) 
       end) 
-    (SolnSet.empty, Map.empty, 1) sl
+    (SolnCollection.empty, Map.empty, 1) sl
    in (partitionSolns s,m) 
    end
 
@@ -80,7 +80,7 @@ struct
 
   (* Make the implication graph *)
   fun id (solnid, _) = solnid
-  val makeGraph : SolnSet.set list -> BasicGraph.graph =
+  val makeGraph : SolnCollection.collection list -> BasicGraph.graph =
   fn sl => 
     foldr (fn (x, graph) => 
            let val x = solnRep x
@@ -259,12 +259,12 @@ struct
   fun removeRedundantTests (tl, g, m) redundantF = 
     let val toBeRemoved = map Prop.getId (findRedundantFailures (g, m) 
                                                                  redundantF)
-        fun redundant t = List.exists (fn n => n = TestSet.getId (testRep t)) 
+        fun redundant t = List.exists (fn n => n = TestCollection.getId (testRep t)) 
                                        toBeRemoved
     in List.filter (not o redundant) tl
     end
 
-  fun getTestPartitions infile = partitionTests $ makeTestSet $
+  fun getTestPartitions infile = partitionTests $ makeTestCollection $
                                  FileReader.readToMap $ TextIO.openIn infile
 
   fun buildPropGraphAndMap tests = 
@@ -289,15 +289,15 @@ struct
         case flag of "-t" => mapReduction xs o removeIntraNodeTautologies
                    | _    => mapReduction xs
 
-  fun testSetReduction [] _ = (fn x => x)
-    | testSetReduction (flag::xs) (g, m, p) = 
+  fun TestCollectionReduction [] _ = (fn x => x)
+    | TestCollectionReduction (flag::xs) (g, m, p) = 
         case flag of "-u" => (unionReduction failureRedundantUnderUnion 
                                              (g,m,p))
-                              o testSetReduction xs (g,m,p)
+                              o TestCollectionReduction xs (g,m,p)
                    | "-c" => (unionReduction failureRedundantUnderClaessen
                                              (g,m,p)) 
-                              o testSetReduction xs (g,m,p)
-                   | _    => testSetReduction xs (g, m, p)
+                              o TestCollectionReduction xs (g,m,p)
+                   | _    => TestCollectionReduction xs (g, m, p)
 
   fun solnReduction [] _ = (fn x => x)
     | solnReduction (flag::xs) (g, m) = 
@@ -316,7 +316,7 @@ struct
     let fun getId (x, _) = x
 
         val solns = map getId $ map solnRep $ partitionSolns $ 
-                    anonymize $ makeSolnSet $ makeSolnMap tests
+                    anonymize $ makeSolnCollection $ makeSolnMap tests
 
         val tests = map testRep tests
 
@@ -342,9 +342,9 @@ struct
   fun buildGraph infile outfile outfileFailures flags = 
     let val tests     = getTestPartitions infile
 	val (g ,m ,p) = buildPropGraphAndMap $ map testRep tests 
-	val tests'    = testSetReduction flags (g, m, p) tests
+	val tests'    = TestCollectionReduction flags (g, m, p) tests
 
-        val solns     =  anonymize $ makeSolnSet $ makeSolnMap tests' 
+        val solns     =  anonymize $ makeSolnCollection $ makeSolnMap tests' 
         val (s, m')   = buildMapAndSet $ partitionSolns solns
         val g'        = makeGraph s
         val (fd, ffd) = (TextIO.openOut outfile, 

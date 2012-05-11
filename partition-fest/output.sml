@@ -6,11 +6,11 @@ structure FileWriter : sig
      should, false if it should not *)
 
   val printSolnGraph :
-    BasicGraph.graph -> string Map.map -> SolnSet.set list ->
+    BasicGraph.graph -> string Map.map -> SolnCollection.collection list ->
     TextIO.outstream -> unit
 
   val printStudentFailures :
-    SolnSet.set -> TextIO.outstream -> unit
+    SolnCollection.collection -> TextIO.outstream -> unit
 
 end =
 struct

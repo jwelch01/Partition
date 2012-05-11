@@ -20,9 +20,9 @@ group is $/basis.cm
   testdbsig.sml
   testdb.sml
 
-  setsig.sml
-  testset.sml
-  solnset.sml
+  collectionsig.sml
+  testCollection.sml
+  solnCollection.sml
 
   stringmapsig.sml  
   stringmap.sml

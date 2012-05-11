@@ -1,5 +1,5 @@
 signature PROPOSITION = sig
-  type testset = TestSet.set
+  type testset = TestCollection.collection
   type result
   type prop
 
