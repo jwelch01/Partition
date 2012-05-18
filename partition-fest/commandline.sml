@@ -6,13 +6,15 @@ structure CommandLine = struct
   datatype opt
       = RankClaessen
       | RankUnion
+      | WitnessRed
       | Outfile of string
 
   fun options argv =
     let fun eat (options', "-c" :: argv) = eat (RankClaessen :: options', argv)
           | eat (options', "-u" :: argv) = eat (RankUnion    :: options', argv)
-          | eat (options', "-o" :: filename :: argv) =
+          | eat (options', "-o" :: filename :: witnesses :: argv) =
               eat (Outfile filename :: options', argv)
+          | eat (options', "-w" :: argv) = eat (WitnessRed :: options', argv)
           | eat (options', argv) = (options', argv)
         val (options', argv) = eat ([], argv)
     in  (rev options', argv)
